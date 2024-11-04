@@ -33,46 +33,46 @@
 	</ui>
 	<groups attack="0.030" release="0.090">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="226318" hiNote="39" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-c1-PB-loop.wav" rootNote="36" tuning="0.06" volume="-0.5dB" />
-			<sample end="191097" hiNote="43" hiVel="127" loNote="40" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-f#1-PB-loop.wav" rootNote="42" volume="-1.0dB" />
-			<sample end="205400" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-a1-PB-loop.wav" rootNote="45" volume="0.5dB" />
-			<sample end="195122" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-c2-PB-loop.wav" rootNote="48" volume="-0.5dB" />
-			<sample end="213166" hiNote="52" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-d#2-PB-loop.wav" rootNote="51" volume="-0.5dB" />
-			<sample end="197657" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-f#2-PB-loop.wav" rootNote="54" volume="-0.5dB" />
-			<sample end="195245" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-a2-PB-loop.wav" rootNote="57" volume="1.0dB" />
-			<sample end="309732" hiNote="61" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-c3-PB-loop.wav" rootNote="60" volume="-0.5dB" />
-			<sample end="191158" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-d#3-PB-loop.wav" rootNote="63" volume="1.0dB" />
-			<sample end="224925" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-f#3-PB-loop.wav" rootNote="66" volume="1.0dB" />
-			<sample end="207595" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-a3-PB-loop.wav" rootNote="69" tuning="0.04" />
-			<sample end="200733" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-c4-PB-loop.wav" rootNote="72" volume="0.5dB" />
+			<sample end="226318" hiNote="39" hiVel="127" loNote="36" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-c1-PB-loop.wav" rootNote="36" tuning="0.06" volume="-0.5dB" />
+			<sample end="191097" hiNote="43" hiVel="127" loNote="40" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-f#1-PB-loop.wav" rootNote="42" volume="-1.0dB" />
+			<sample end="205400" hiNote="46" hiVel="127" loNote="44" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-a1-PB-loop.wav" rootNote="45" volume="0.5dB" />
+			<sample end="195122" hiNote="49" hiVel="127" loNote="47" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-c2-PB-loop.wav" rootNote="48" volume="-0.5dB" />
+			<sample end="213166" hiNote="52" hiVel="127" loNote="50" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-d#2-PB-loop.wav" rootNote="51" volume="-0.5dB" />
+			<sample end="197657" hiNote="55" hiVel="127" loNote="53" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-f#2-PB-loop.wav" rootNote="54" volume="-0.5dB" />
+			<sample end="195245" hiNote="58" hiVel="127" loNote="56" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-a2-PB-loop.wav" rootNote="57" volume="1.0dB" />
+			<sample end="309732" hiNote="61" hiVel="127" loNote="59" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-c3-PB-loop.wav" rootNote="60" volume="-0.5dB" />
+			<sample end="191158" hiNote="64" hiVel="127" loNote="62" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-d#3-PB-loop.wav" rootNote="63" volume="1.0dB" />
+			<sample end="224925" hiNote="67" hiVel="127" loNote="65" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-f#3-PB-loop.wav" rootNote="66" volume="1.0dB" />
+			<sample end="207595" hiNote="70" hiVel="127" loNote="68" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-a3-PB-loop.wav" rootNote="69" tuning="0.04" />
+			<sample end="200733" hiNote="79" hiVel="127" loNote="71" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-c4-PB-loop.wav" rootNote="72" volume="0.5dB" />
 		</group>
 		<group name="Group 3" ampVelTrack="1">
-			<sample end="226318" hiNote="39" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-c1-PB-loop.wav" rootNote="36" tuning="0.06" volume="-0.5dB" />
-			<sample end="191097" hiNote="43" hiVel="127" loNote="40" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-f#1-PB-loop.wav" rootNote="42" volume="-1.0dB" />
-			<sample end="205400" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-a1-PB-loop.wav" rootNote="45" volume="0.5dB" />
-			<sample end="195122" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-c2-PB-loop.wav" rootNote="48" volume="-0.5dB" />
-			<sample end="213166" hiNote="52" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-d#2-PB-loop.wav" rootNote="51" volume="-0.5dB" />
-			<sample end="197657" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-f#2-PB-loop.wav" rootNote="54" volume="-0.5dB" />
-			<sample end="195245" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-a2-PB-loop.wav" rootNote="57" volume="1.0dB" />
-			<sample end="309732" hiNote="61" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-c3-PB-loop.wav" rootNote="60" volume="-0.5dB" />
-			<sample end="191158" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-d#3-PB-loop.wav" rootNote="63" volume="1.0dB" />
-			<sample end="224925" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-f#3-PB-loop.wav" rootNote="66" volume="1.0dB" />
-			<sample end="207595" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-a3-PB-loop.wav" rootNote="69" tuning="0.04" />
-			<sample end="200733" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-c4-PB-loop.wav" rootNote="72" volume="0.5dB" />
+			<sample end="226318" hiNote="39" hiVel="127" loNote="36" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-c1-PB-loop.wav" rootNote="36" tuning="0.06" volume="-0.5dB" />
+			<sample end="191097" hiNote="43" hiVel="127" loNote="40" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-f#1-PB-loop.wav" rootNote="42" volume="-1.0dB" />
+			<sample end="205400" hiNote="46" hiVel="127" loNote="44" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-a1-PB-loop.wav" rootNote="45" volume="0.5dB" />
+			<sample end="195122" hiNote="49" hiVel="127" loNote="47" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-c2-PB-loop.wav" rootNote="48" volume="-0.5dB" />
+			<sample end="213166" hiNote="52" hiVel="127" loNote="50" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-d#2-PB-loop.wav" rootNote="51" volume="-0.5dB" />
+			<sample end="197657" hiNote="55" hiVel="127" loNote="53" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-f#2-PB-loop.wav" rootNote="54" volume="-0.5dB" />
+			<sample end="195245" hiNote="58" hiVel="127" loNote="56" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-a2-PB-loop.wav" rootNote="57" volume="1.0dB" />
+			<sample end="309732" hiNote="61" hiVel="127" loNote="59" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-c3-PB-loop.wav" rootNote="60" volume="-0.5dB" />
+			<sample end="191158" hiNote="64" hiVel="127" loNote="62" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-d#3-PB-loop.wav" rootNote="63" volume="1.0dB" />
+			<sample end="224925" hiNote="67" hiVel="127" loNote="65" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-f#3-PB-loop.wav" rootNote="66" volume="1.0dB" />
+			<sample end="207595" hiNote="70" hiVel="127" loNote="68" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-a3-PB-loop.wav" rootNote="69" tuning="0.04" />
+			<sample end="200733" hiNote="79" hiVel="127" loNote="71" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-c4-PB-loop.wav" rootNote="72" volume="0.5dB" />
 		</group>
 		<group name="Group 8" ampVelTrack="1">
-			<sample end="226318" hiNote="39" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-c1-PB-loop.wav" rootNote="36" tuning="0.06" volume="-0.5dB" />
-			<sample end="191097" hiNote="43" hiVel="127" loNote="40" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-f#1-PB-loop.wav" rootNote="42" volume="-1.0dB" />
-			<sample end="205400" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-a1-PB-loop.wav" rootNote="45" volume="0.5dB" />
-			<sample end="195122" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-c2-PB-loop.wav" rootNote="48" volume="-0.5dB" />
-			<sample end="213166" hiNote="52" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-d#2-PB-loop.wav" rootNote="51" volume="-0.5dB" />
-			<sample end="197657" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-f#2-PB-loop.wav" rootNote="54" volume="-0.5dB" />
-			<sample end="195245" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-a2-PB-loop.wav" rootNote="57" volume="1.0dB" />
-			<sample end="309732" hiNote="61" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-c3-PB-loop.wav" rootNote="60" volume="-0.5dB" />
-			<sample end="191158" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-d#3-PB-loop.wav" rootNote="63" volume="1.0dB" />
-			<sample end="224925" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-f#3-PB-loop.wav" rootNote="66" volume="1.0dB" />
-			<sample end="207595" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-a3-PB-loop.wav" rootNote="69" tuning="0.04" />
-			<sample end="200733" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-sus-c4-PB-loop.wav" rootNote="72" volume="0.5dB" />
+			<sample end="226318" hiNote="39" hiVel="127" loNote="36" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-c1-PB-loop.wav" rootNote="36" tuning="0.06" volume="-0.5dB" />
+			<sample end="191097" hiNote="43" hiVel="127" loNote="40" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-f#1-PB-loop.wav" rootNote="42" volume="-1.0dB" />
+			<sample end="205400" hiNote="46" hiVel="127" loNote="44" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-a1-PB-loop.wav" rootNote="45" volume="0.5dB" />
+			<sample end="195122" hiNote="49" hiVel="127" loNote="47" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-c2-PB-loop.wav" rootNote="48" volume="-0.5dB" />
+			<sample end="213166" hiNote="52" hiVel="127" loNote="50" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-d#2-PB-loop.wav" rootNote="51" volume="-0.5dB" />
+			<sample end="197657" hiNote="55" hiVel="127" loNote="53" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-f#2-PB-loop.wav" rootNote="54" volume="-0.5dB" />
+			<sample end="195245" hiNote="58" hiVel="127" loNote="56" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-a2-PB-loop.wav" rootNote="57" volume="1.0dB" />
+			<sample end="309732" hiNote="61" hiVel="127" loNote="59" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-c3-PB-loop.wav" rootNote="60" volume="-0.5dB" />
+			<sample end="191158" hiNote="64" hiVel="127" loNote="62" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-d#3-PB-loop.wav" rootNote="63" volume="1.0dB" />
+			<sample end="224925" hiNote="67" hiVel="127" loNote="65" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-f#3-PB-loop.wav" rootNote="66" volume="1.0dB" />
+			<sample end="207595" hiNote="70" hiVel="127" loNote="68" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-a3-PB-loop.wav" rootNote="69" tuning="0.04" />
+			<sample end="200733" hiNote="79" hiVel="127" loNote="71" loVel="0" path="Resources/Bass Ensemble Samples/basses-sus-c4-PB-loop.wav" rootNote="72" volume="0.5dB" />
 		</group>
 	</groups>
 	<midi>

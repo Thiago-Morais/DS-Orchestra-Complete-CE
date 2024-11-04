@@ -41,14 +41,14 @@
 			<sample end="42469" hiNote="43" hiVel="127" loNote="40" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F1_v2_rr1_Sum.wav" rootNote="41" volume="5.85730903073885dB" />
 			<sample end="56803" hiNote="39" hiVel="127" loNote="37" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v2_rr1_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
 			<sample end="38059" hiNote="36" hiVel="127" loNote="29" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v2_rr1_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
-			<sample end="25483" hiNote="64" hiVel="96" loNote="60" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v1_rr1_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
-			<sample end="33078" hiNote="59" hiVel="96" loNote="56" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#2_v1_rr1_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="28144" hiNote="55" hiVel="96" loNote="52" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F2_v1_rr1_Sum.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="28080" hiNote="51" hiVel="96" loNote="48" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D2_v1_rr1_Sum.wav" rootNote="50" volume="5.85730903073885dB" />
-			<sample end="27167" hiNote="47" hiVel="96" loNote="44" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#1_v1_rr1_Sum.wav" rootNote="46" volume="5.85730903073885dB" />
-			<sample end="36677" hiNote="43" hiVel="96" loNote="40" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F1_v1_rr1_Sum.wav" rootNote="41" volume="5.85730903073885dB" />
-			<sample end="48095" hiNote="39" hiVel="96" loNote="37" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v1_rr1_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
-			<sample end="34670" hiNote="36" hiVel="96" loNote="29" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v1_rr1_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
+			<sample end="25483" hiNote="64" hiVel="96" loNote="60" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v1_rr1_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="33078" hiNote="59" hiVel="96" loNote="56" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#2_v1_rr1_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="28144" hiNote="55" hiVel="96" loNote="52" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F2_v1_rr1_Sum.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="28080" hiNote="51" hiVel="96" loNote="48" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D2_v1_rr1_Sum.wav" rootNote="50" volume="5.85730903073885dB" />
+			<sample end="27167" hiNote="47" hiVel="96" loNote="44" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#1_v1_rr1_Sum.wav" rootNote="46" volume="5.85730903073885dB" />
+			<sample end="36677" hiNote="43" hiVel="96" loNote="40" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F1_v1_rr1_Sum.wav" rootNote="41" volume="5.85730903073885dB" />
+			<sample end="48095" hiNote="39" hiVel="96" loNote="37" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v1_rr1_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
+			<sample end="34670" hiNote="36" hiVel="96" loNote="29" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v1_rr1_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
 		</group>
 		<group name="Stac RR 2" ampVelTrack="1">
 			<sample end="43099" hiNote="64" hiVel="127" loNote="60" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v2_rr2_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
@@ -59,14 +59,14 @@
 			<sample end="36718" hiNote="43" hiVel="127" loNote="40" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F1_v2_rr2_Sum.wav" rootNote="41" volume="5.85730903073885dB" />
 			<sample end="41503" hiNote="39" hiVel="127" loNote="37" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v2_rr2_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
 			<sample end="33681" hiNote="36" hiVel="127" loNote="29" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v2_rr2_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
-			<sample end="41219" hiNote="64" hiVel="96" loNote="60" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v2_rr1_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
-			<sample end="34275" hiNote="59" hiVel="96" loNote="56" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#2_v2_rr1_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="43630" hiNote="55" hiVel="96" loNote="52" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F2_v2_rr1_Sum.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="31385" hiNote="51" hiVel="96" loNote="48" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D2_v2_rr1_Sum.wav" rootNote="50" volume="5.85730903073885dB" />
-			<sample end="41892" hiNote="47" hiVel="96" loNote="44" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#1_v2_rr1_Sum.wav" rootNote="46" volume="5.85730903073885dB" />
-			<sample end="42469" hiNote="43" hiVel="96" loNote="40" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F1_v2_rr1_Sum.wav" rootNote="41" volume="5.85730903073885dB" />
-			<sample end="56803" hiNote="39" hiVel="96" loNote="37" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v2_rr1_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
-			<sample end="38059" hiNote="36" hiVel="96" loNote="29" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v2_rr1_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
+			<sample end="41219" hiNote="64" hiVel="96" loNote="60" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v2_rr1_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="34275" hiNote="59" hiVel="96" loNote="56" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#2_v2_rr1_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="43630" hiNote="55" hiVel="96" loNote="52" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F2_v2_rr1_Sum.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="31385" hiNote="51" hiVel="96" loNote="48" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D2_v2_rr1_Sum.wav" rootNote="50" volume="5.85730903073885dB" />
+			<sample end="41892" hiNote="47" hiVel="96" loNote="44" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#1_v2_rr1_Sum.wav" rootNote="46" volume="5.85730903073885dB" />
+			<sample end="42469" hiNote="43" hiVel="96" loNote="40" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F1_v2_rr1_Sum.wav" rootNote="41" volume="5.85730903073885dB" />
+			<sample end="56803" hiNote="39" hiVel="96" loNote="37" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v2_rr1_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
+			<sample end="38059" hiNote="36" hiVel="96" loNote="29" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v2_rr1_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
 		</group>
 		<group name="Sus Non Vib" ampVelTrack="1">
 			<sample end="243337" hiNote="59" hiVel="127" loNote="56" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#2_v3_rr1_Mid.wav" rootNote="58" volume="5.85730903073885dB" />
@@ -83,35 +83,35 @@
 			<sample end="291664" hiNote="43" hiVel="96" loNote="40" loVel="49" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F1_v2_rr1_Mid.wav" rootNote="41" volume="5.85730903073885dB" />
 			<sample end="281423" hiNote="39" hiVel="96" loNote="37" loVel="49" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D#1_v2_rr1_Mid.wav" rootNote="39" volume="5.85730903073885dB" />
 			<sample end="328484" hiNote="36" hiVel="96" loNote="32" loVel="49" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#0_v2_rr1_Mid.wav" rootNote="34" volume="5.85730903073885dB" />
-			<sample end="175454" hiNote="31" hiVel="127" loNote="29" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F0_v1_rr1_Mid.wav" rootNote="29" volume="5.85730903073885dB" />
-			<sample end="421623" hiNote="64" hiVel="127" loNote="60" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D3_v1_rr1_Mid.wav" rootNote="62" volume="5.85730903073885dB" />
-			<sample end="316038" hiNote="59" hiVel="48" loNote="56" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#2_v1_rr1_Mid.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="755177" hiNote="55" hiVel="48" loNote="52" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F2_v1_rr1_Mid.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="559464" hiNote="51" hiVel="48" loNote="46" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D2_v1_rr1_Mid.wav" rootNote="50" volume="5.85730903073885dB" />
-			<sample end="427996" hiNote="45" hiVel="48" loNote="40" loVel="1" loopEnabled="true" loopEnd="427996" loopStart="2110" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F1_v1_rr1_Mid.wav" rootNote="41" volume="5.85730903073885dB" />
-			<sample end="347113" hiNote="39" hiVel="48" loNote="37" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D#1_v1_rr1_Mid.wav" rootNote="39" volume="5.85730903073885dB" />
-			<sample end="354117" hiNote="36" hiVel="48" loNote="32" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#0_v1_rr1_Mid.wav" rootNote="34" volume="5.85730903073885dB" />
+			<sample end="175454" hiNote="31" hiVel="127" loNote="29" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F0_v1_rr1_Mid.wav" rootNote="29" volume="5.85730903073885dB" />
+			<sample end="421623" hiNote="64" hiVel="127" loNote="60" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D3_v1_rr1_Mid.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="316038" hiNote="59" hiVel="48" loNote="56" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#2_v1_rr1_Mid.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="755177" hiNote="55" hiVel="48" loNote="52" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F2_v1_rr1_Mid.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="559464" hiNote="51" hiVel="48" loNote="46" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D2_v1_rr1_Mid.wav" rootNote="50" volume="5.85730903073885dB" />
+			<sample end="427996" hiNote="45" hiVel="48" loNote="40" loVel="0" loopEnabled="true" loopEnd="427996" loopStart="2110" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F1_v1_rr1_Mid.wav" rootNote="41" volume="5.85730903073885dB" />
+			<sample end="347113" hiNote="39" hiVel="48" loNote="37" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D#1_v1_rr1_Mid.wav" rootNote="39" volume="5.85730903073885dB" />
+			<sample end="354117" hiNote="36" hiVel="48" loNote="32" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#0_v1_rr1_Mid.wav" rootNote="34" volume="5.85730903073885dB" />
 		</group>
 		<group name="Sus Non Vib Loud" ampVelTrack="1">
-			<sample end="243337" hiNote="59" hiVel="127" loNote="56" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#2_v3_rr1_Mid.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="159877" hiNote="55" hiVel="127" loNote="52" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F2_v3_rr1_Mid.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="200940" hiNote="51" hiVel="127" loNote="48" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D2_v3_rr1_Mid.wav" rootNote="50" volume="5.85730903073885dB" />
-			<sample end="191154" hiNote="47" hiVel="127" loNote="44" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#1_v3_rr1_Mid.wav" rootNote="46" volume="5.85730903073885dB" />
-			<sample end="142274" hiNote="43" hiVel="127" loNote="40" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F1_v3_rr1_Mid.wav" rootNote="41" volume="5.85730903073885dB" />
-			<sample end="152122" hiNote="39" hiVel="127" loNote="37" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D#1_v3_rr1_Mid.wav" rootNote="39" volume="5.85730903073885dB" />
-			<sample end="178090" hiNote="36" hiVel="127" loNote="32" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#0_v3_rr1_Mid.wav" rootNote="34" volume="5.85730903073885dB" />
-			<sample end="175454" hiNote="31" hiVel="127" loNote="29" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F0_v1_rr1_Mid.wav" rootNote="29" volume="5.85730903073885dB" />
-			<sample end="421623" hiNote="64" hiVel="127" loNote="60" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D3_v1_rr1_Mid.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="243337" hiNote="59" hiVel="127" loNote="56" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#2_v3_rr1_Mid.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="159877" hiNote="55" hiVel="127" loNote="52" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F2_v3_rr1_Mid.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="200940" hiNote="51" hiVel="127" loNote="48" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D2_v3_rr1_Mid.wav" rootNote="50" volume="5.85730903073885dB" />
+			<sample end="191154" hiNote="47" hiVel="127" loNote="44" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#1_v3_rr1_Mid.wav" rootNote="46" volume="5.85730903073885dB" />
+			<sample end="142274" hiNote="43" hiVel="127" loNote="40" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F1_v3_rr1_Mid.wav" rootNote="41" volume="5.85730903073885dB" />
+			<sample end="152122" hiNote="39" hiVel="127" loNote="37" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D#1_v3_rr1_Mid.wav" rootNote="39" volume="5.85730903073885dB" />
+			<sample end="178090" hiNote="36" hiVel="127" loNote="32" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#0_v3_rr1_Mid.wav" rootNote="34" volume="5.85730903073885dB" />
+			<sample end="175454" hiNote="31" hiVel="127" loNote="29" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F0_v1_rr1_Mid.wav" rootNote="29" volume="5.85730903073885dB" />
+			<sample end="421623" hiNote="64" hiVel="127" loNote="60" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D3_v1_rr1_Mid.wav" rootNote="62" volume="5.85730903073885dB" />
 		</group>
 		<group name="Sus Non Vib Soft" ampVelTrack="1">
-			<sample end="175454" hiNote="31" hiVel="127" loNote="29" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F0_v1_rr1_Mid.wav" rootNote="29" volume="5.85730903073885dB" />
-			<sample end="421623" hiNote="64" hiVel="127" loNote="60" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D3_v1_rr1_Mid.wav" rootNote="62" volume="5.85730903073885dB" />
-			<sample end="316038" hiNote="59" hiVel="127" loNote="56" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#2_v1_rr1_Mid.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="755177" hiNote="55" hiVel="127" loNote="52" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F2_v1_rr1_Mid.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="559464" hiNote="51" hiVel="127" loNote="46" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D2_v1_rr1_Mid.wav" rootNote="50" volume="5.85730903073885dB" />
-			<sample end="427996" hiNote="45" hiVel="127" loNote="40" loVel="1" loopEnabled="true" loopEnd="427996" loopStart="2110" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F1_v1_rr1_Mid.wav" rootNote="41" volume="5.85730903073885dB" />
-			<sample end="347113" hiNote="39" hiVel="127" loNote="37" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D#1_v1_rr1_Mid.wav" rootNote="39" volume="5.85730903073885dB" />
-			<sample end="354117" hiNote="36" hiVel="127" loNote="32" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#0_v1_rr1_Mid.wav" rootNote="34" volume="5.85730903073885dB" />
+			<sample end="175454" hiNote="31" hiVel="127" loNote="29" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F0_v1_rr1_Mid.wav" rootNote="29" volume="5.85730903073885dB" />
+			<sample end="421623" hiNote="64" hiVel="127" loNote="60" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D3_v1_rr1_Mid.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="316038" hiNote="59" hiVel="127" loNote="56" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#2_v1_rr1_Mid.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="755177" hiNote="55" hiVel="127" loNote="52" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F2_v1_rr1_Mid.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="559464" hiNote="51" hiVel="127" loNote="46" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D2_v1_rr1_Mid.wav" rootNote="50" volume="5.85730903073885dB" />
+			<sample end="427996" hiNote="45" hiVel="127" loNote="40" loVel="0" loopEnabled="true" loopEnd="427996" loopStart="2110" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_F1_v1_rr1_Mid.wav" rootNote="41" volume="5.85730903073885dB" />
+			<sample end="347113" hiNote="39" hiVel="127" loNote="37" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_D#1_v1_rr1_Mid.wav" rootNote="39" volume="5.85730903073885dB" />
+			<sample end="354117" hiNote="36" hiVel="127" loNote="32" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_sus_A#0_v1_rr1_Mid.wav" rootNote="34" volume="5.85730903073885dB" />
 		</group>
 		<group name="Stac RR 3" ampVelTrack="1">
 			<sample end="28331" hiNote="64" hiVel="127" loNote="60" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v2_rr3_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
@@ -122,14 +122,14 @@
 			<sample end="53846" hiNote="43" hiVel="127" loNote="40" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F1_v2_rr3_Sum.wav" rootNote="41" volume="5.85730903073885dB" />
 			<sample end="43255" hiNote="39" hiVel="127" loNote="37" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v2_rr3_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
 			<sample end="34656" hiNote="36" hiVel="127" loNote="29" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v2_rr3_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
-			<sample end="25876" hiNote="64" hiVel="96" loNote="60" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v1_rr3_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
-			<sample end="32177" hiNote="59" hiVel="96" loNote="56" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#2_v1_rr3_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="26446" hiNote="55" hiVel="96" loNote="52" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F2_v1_rr3_Sum.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="30163" hiNote="51" hiVel="96" loNote="48" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D2_v1_rr3_Sum.wav" rootNote="50" volume="5.85730903073885dB" />
-			<sample end="27270" hiNote="47" hiVel="96" loNote="44" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#1_v1_rr3_Sum.wav" rootNote="46" volume="5.85730903073885dB" />
-			<sample end="36436" hiNote="43" hiVel="96" loNote="40" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F1_v1_rr3_Sum.wav" rootNote="41" volume="5.85730903073885dB" />
-			<sample end="25619" hiNote="39" hiVel="96" loNote="37" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v1_rr3_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
-			<sample end="40150" hiNote="36" hiVel="96" loNote="29" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v1_rr3_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
+			<sample end="25876" hiNote="64" hiVel="96" loNote="60" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v1_rr3_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="32177" hiNote="59" hiVel="96" loNote="56" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#2_v1_rr3_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="26446" hiNote="55" hiVel="96" loNote="52" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F2_v1_rr3_Sum.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="30163" hiNote="51" hiVel="96" loNote="48" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D2_v1_rr3_Sum.wav" rootNote="50" volume="5.85730903073885dB" />
+			<sample end="27270" hiNote="47" hiVel="96" loNote="44" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#1_v1_rr3_Sum.wav" rootNote="46" volume="5.85730903073885dB" />
+			<sample end="36436" hiNote="43" hiVel="96" loNote="40" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F1_v1_rr3_Sum.wav" rootNote="41" volume="5.85730903073885dB" />
+			<sample end="25619" hiNote="39" hiVel="96" loNote="37" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v1_rr3_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
+			<sample end="40150" hiNote="36" hiVel="96" loNote="29" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v1_rr3_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
 		</group>
 		<group name="Stac RR 4" ampVelTrack="1">
 			<sample end="33478" hiNote="64" hiVel="127" loNote="60" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v2_rr4_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
@@ -140,14 +140,14 @@
 			<sample end="41961" hiNote="43" hiVel="127" loNote="40" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F1_v2_rr4_Sum.wav" rootNote="41" volume="5.85730903073885dB" />
 			<sample end="39541" hiNote="39" hiVel="127" loNote="37" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v2_rr4_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
 			<sample end="32648" hiNote="36" hiVel="127" loNote="29" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v2_rr4_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
-			<sample end="42063" hiNote="64" hiVel="96" loNote="60" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v1_rr4_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
-			<sample end="34711" hiNote="59" hiVel="96" loNote="56" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#2_v1_rr4_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="30037" hiNote="55" hiVel="96" loNote="52" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F2_v1_rr4_Sum.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="45715" hiNote="51" hiVel="96" loNote="48" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D2_v1_rr4_Sum.wav" rootNote="50" volume="5.85730903073885dB" />
-			<sample end="26917" hiNote="47" hiVel="96" loNote="44" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#1_v1_rr4_Sum.wav" rootNote="46" volume="5.85730903073885dB" />
-			<sample end="48303" hiNote="43" hiVel="96" loNote="40" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F1_v1_rr4_Sum.wav" rootNote="41" volume="5.85730903073885dB" />
-			<sample end="29461" hiNote="39" hiVel="96" loNote="37" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v1_rr4_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
-			<sample end="49825" hiNote="36" hiVel="96" loNote="29" loVel="1" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v1_rr4_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
+			<sample end="42063" hiNote="64" hiVel="96" loNote="60" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v1_rr4_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="34711" hiNote="59" hiVel="96" loNote="56" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#2_v1_rr4_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="30037" hiNote="55" hiVel="96" loNote="52" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F2_v1_rr4_Sum.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="45715" hiNote="51" hiVel="96" loNote="48" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D2_v1_rr4_Sum.wav" rootNote="50" volume="5.85730903073885dB" />
+			<sample end="26917" hiNote="47" hiVel="96" loNote="44" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#1_v1_rr4_Sum.wav" rootNote="46" volume="5.85730903073885dB" />
+			<sample end="48303" hiNote="43" hiVel="96" loNote="40" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F1_v1_rr4_Sum.wav" rootNote="41" volume="5.85730903073885dB" />
+			<sample end="29461" hiNote="39" hiVel="96" loNote="37" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v1_rr4_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
+			<sample end="49825" hiNote="36" hiVel="96" loNote="29" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v1_rr4_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
 		</group>
 	</groups>
 	<midi>

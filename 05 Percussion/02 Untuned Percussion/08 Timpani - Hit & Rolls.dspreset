@@ -34,24 +34,24 @@
 	<groups attack="0" release="0.040">
 		<group name="Timp RR 1" ampVelTrack="1">
 			<sample end="400643" hiNote="55" hiVel="127" loNote="53" loVel="66" path="Resources/Timpani Samples/Timpani1_Hit_v3_rr1_Sum.wav" rootNote="54" volume="5.85730903073885dB" />
-			<sample end="139968" hiNote="55" hiVel="65" loNote="53" loVel="1" path="Resources/Timpani Samples/Timpani1_Hit_v1_rr1_Sum.wav" rootNote="54" volume="5.85730903073885dB" />
+			<sample end="139968" hiNote="55" hiVel="65" loNote="53" loVel="0" path="Resources/Timpani Samples/Timpani1_Hit_v1_rr1_Sum.wav" rootNote="54" volume="5.85730903073885dB" />
 			<sample end="473765" hiNote="59" hiVel="96" loNote="56" loVel="66" path="Resources/Timpani Samples/Timpani2_Hit_v3_rr1_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="287548" hiNote="59" hiVel="65" loNote="56" loVel="1" path="Resources/Timpani Samples/Timpani2_Hit_v1_rr1_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="287548" hiNote="59" hiVel="65" loNote="56" loVel="0" path="Resources/Timpani Samples/Timpani2_Hit_v1_rr1_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
 			<sample end="402037" hiNote="62" hiVel="96" loNote="60" loVel="66" path="Resources/Timpani Samples/Timpani3_Hit_v3_rr1_Sum.wav" rootNote="61" volume="5.85730903073885dB" />
-			<sample end="232267" hiNote="62" hiVel="65" loNote="60" loVel="1" path="Resources/Timpani Samples/Timpani3_Hit_v1_rr1_Sum.wav" rootNote="61" volume="5.85730903073885dB" />
+			<sample end="232267" hiNote="62" hiVel="65" loNote="60" loVel="0" path="Resources/Timpani Samples/Timpani3_Hit_v1_rr1_Sum.wav" rootNote="61" volume="5.85730903073885dB" />
 			<sample end="253218" hiNote="64" hiVel="96" loNote="63" loVel="66" path="Resources/Timpani Samples/Timpani4_Hit_v3_rr1_Sum.wav" rootNote="64" volume="5.85730903073885dB" />
-			<sample end="295802" hiNote="64" hiVel="65" loNote="63" loVel="1" path="Resources/Timpani Samples/Timpani4_Hit_v1_rr1_Sum.wav" rootNote="64" volume="5.85730903073885dB" />
-			<sample end="81866" hiNote="68" hiVel="62" loNote="65" loVel="1" path="Resources/Timpani Samples/Timpani5_Hit_v1_rr1_Sum.wav" rootNote="66" volume="5.85730903073885dB" />
+			<sample end="295802" hiNote="64" hiVel="65" loNote="63" loVel="0" path="Resources/Timpani Samples/Timpani4_Hit_v1_rr1_Sum.wav" rootNote="64" volume="5.85730903073885dB" />
+			<sample end="81866" hiNote="68" hiVel="62" loNote="65" loVel="0" path="Resources/Timpani Samples/Timpani5_Hit_v1_rr1_Sum.wav" rootNote="66" volume="5.85730903073885dB" />
 			<sample end="259106" hiNote="68" hiVel="96" loNote="65" loVel="63" path="Resources/Timpani Samples/Timpani5_Hit_v3_rr1_Sum.wav" rootNote="66" volume="5.85730903073885dB" />
 			<sample end="409509" hiNote="59" hiVel="127" loNote="56" loVel="97" path="Resources/Timpani Samples/Timpani2_Hit_v4_rr1_Sum.wav" rootNote="58" volume="10.123811006790804dB" />
 			<sample end="453456" hiNote="62" hiVel="127" loNote="60" loVel="97" path="Resources/Timpani Samples/Timpani3_Hit_v4_rr1_Sum.wav" rootNote="61" volume="10.123811006790804dB" />
 			<sample end="399813" hiNote="64" hiVel="127" loNote="63" loVel="97" path="Resources/Timpani Samples/Timpani4_Hit_v4_rr1_Sum.wav" rootNote="64" volume="10.123811006790804dB" />
 			<sample end="303444" hiNote="68" hiVel="127" loNote="65" loVel="97" path="Resources/Timpani Samples/Timpani5_Hit_v4_rr1_Sum.wav" rootNote="66" volume="10.123811006790804dB" />
-			<sample end="1299105" hiNote="79" hiVel="64" loNote="77" loVel="1" path="Resources/Timpani Samples/Timpani1_Roll_v3_rr1_Sum.wav" rootNote="78" volume="9.433907002596749dB" />
-			<sample end="1101101" hiNote="83" hiVel="64" loNote="80" loVel="1" path="Resources/Timpani Samples/Timpani2_Roll_v3_rr1_Sum.wav" rootNote="82" volume="9.433907002596749dB" />
-			<sample end="1085026" hiNote="86" hiVel="64" loNote="84" loVel="1" path="Resources/Timpani Samples/Timpani3_Roll_v3_rr1_Sum.wav" rootNote="85" volume="9.433907002596749dB" />
-			<sample end="766171" hiNote="88" hiVel="64" loNote="87" loVel="1" path="Resources/Timpani Samples/Timpani4_Roll_v3_rr1_Sum.wav" rootNote="88" volume="9.433907002596749dB" />
-			<sample end="785935" hiNote="93" hiVel="64" loNote="89" loVel="1" path="Resources/Timpani Samples/Timpani5_Roll_v3_rr1_Sum.wav" rootNote="90" volume="9.433907002596749dB" />
+			<sample end="1299105" hiNote="79" hiVel="64" loNote="77" loVel="0" path="Resources/Timpani Samples/Timpani1_Roll_v3_rr1_Sum.wav" rootNote="78" volume="9.433907002596749dB" />
+			<sample end="1101101" hiNote="83" hiVel="64" loNote="80" loVel="0" path="Resources/Timpani Samples/Timpani2_Roll_v3_rr1_Sum.wav" rootNote="82" volume="9.433907002596749dB" />
+			<sample end="1085026" hiNote="86" hiVel="64" loNote="84" loVel="0" path="Resources/Timpani Samples/Timpani3_Roll_v3_rr1_Sum.wav" rootNote="85" volume="9.433907002596749dB" />
+			<sample end="766171" hiNote="88" hiVel="64" loNote="87" loVel="0" path="Resources/Timpani Samples/Timpani4_Roll_v3_rr1_Sum.wav" rootNote="88" volume="9.433907002596749dB" />
+			<sample end="785935" hiNote="93" hiVel="64" loNote="89" loVel="0" path="Resources/Timpani Samples/Timpani5_Roll_v3_rr1_Sum.wav" rootNote="90" volume="9.433907002596749dB" />
 			<sample end="1065958" hiNote="79" hiVel="127" loNote="77" loVel="65" path="Resources/Timpani Samples/Timpani1_Roll_v5_rr1_Sum.wav" rootNote="78" volume="9.433907002596749dB" />
 			<sample end="1146948" hiNote="83" hiVel="127" loNote="80" loVel="65" path="Resources/Timpani Samples/Timpani2_Roll_v5_rr1_Sum.wav" rootNote="82" volume="9.433907002596749dB" />
 			<sample end="915712" hiNote="86" hiVel="127" loNote="84" loVel="65" path="Resources/Timpani Samples/Timpani3_Roll_v5_rr1_Sum.wav" rootNote="85" volume="9.433907002596749dB" />
@@ -60,24 +60,24 @@
 		</group>
 		<group name="Timp RR 2" ampVelTrack="1">
 			<sample end="506629" hiNote="55" hiVel="127" loNote="53" loVel="66" path="Resources/Timpani Samples/Timpani1_Hit_v3_rr2_Sum.wav" rootNote="54" volume="5.85730903073885dB" />
-			<sample end="135588" hiNote="55" hiVel="65" loNote="53" loVel="1" path="Resources/Timpani Samples/Timpani1_Hit_v1_rr2_Sum.wav" rootNote="54" volume="5.85730903073885dB" />
-			<sample end="331265" hiNote="59" hiVel="62" loNote="56" loVel="1" path="Resources/Timpani Samples/Timpani2_Hit_v1_rr2_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="135588" hiNote="55" hiVel="65" loNote="53" loVel="0" path="Resources/Timpani Samples/Timpani1_Hit_v1_rr2_Sum.wav" rootNote="54" volume="5.85730903073885dB" />
+			<sample end="331265" hiNote="59" hiVel="62" loNote="56" loVel="0" path="Resources/Timpani Samples/Timpani2_Hit_v1_rr2_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
 			<sample end="454083" hiNote="59" hiVel="96" loNote="56" loVel="63" path="Resources/Timpani Samples/Timpani2_Hit_v3_rr2_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="358568" hiNote="62" hiVel="62" loNote="60" loVel="1" path="Resources/Timpani Samples/Timpani3_Hit_v1_rr2_Sum.wav" rootNote="61" volume="5.85730903073885dB" />
+			<sample end="358568" hiNote="62" hiVel="62" loNote="60" loVel="0" path="Resources/Timpani Samples/Timpani3_Hit_v1_rr2_Sum.wav" rootNote="61" volume="5.85730903073885dB" />
 			<sample end="368515" hiNote="62" hiVel="96" loNote="60" loVel="63" path="Resources/Timpani Samples/Timpani3_Hit_v3_rr2_Sum.wav" rootNote="61" volume="5.85730903073885dB" />
-			<sample end="187756" hiNote="64" hiVel="62" loNote="63" loVel="1" path="Resources/Timpani Samples/Timpani4_Hit_v1_rr2_Sum.wav" rootNote="64" volume="5.85730903073885dB" />
+			<sample end="187756" hiNote="64" hiVel="62" loNote="63" loVel="0" path="Resources/Timpani Samples/Timpani4_Hit_v1_rr2_Sum.wav" rootNote="64" volume="5.85730903073885dB" />
 			<sample end="319556" hiNote="64" hiVel="96" loNote="63" loVel="63" path="Resources/Timpani Samples/Timpani4_Hit_v3_rr2_Sum.wav" rootNote="64" volume="5.85730903073885dB" />
 			<sample end="246550" hiNote="68" hiVel="96" loNote="65" loVel="66" path="Resources/Timpani Samples/Timpani5_Hit_v3_rr2_Sum.wav" rootNote="66" volume="5.85730903073885dB" />
-			<sample end="65522" hiNote="68" hiVel="65" loNote="65" loVel="1" path="Resources/Timpani Samples/Timpani5_Hit_v1_rr2_Sum.wav" rootNote="66" volume="5.85730903073885dB" />
+			<sample end="65522" hiNote="68" hiVel="65" loNote="65" loVel="0" path="Resources/Timpani Samples/Timpani5_Hit_v1_rr2_Sum.wav" rootNote="66" volume="5.85730903073885dB" />
 			<sample end="451242" hiNote="59" hiVel="127" loNote="56" loVel="97" path="Resources/Timpani Samples/Timpani2_Hit_v4_rr2_Sum.wav" rootNote="58" volume="10.123811006790804dB" />
 			<sample end="461094" hiNote="62" hiVel="127" loNote="60" loVel="97" path="Resources/Timpani Samples/Timpani3_Hit_v4_rr2_Sum.wav" rootNote="61" volume="10.123811006790804dB" />
 			<sample end="441358" hiNote="64" hiVel="127" loNote="63" loVel="97" path="Resources/Timpani Samples/Timpani4_Hit_v4_rr2_Sum.wav" rootNote="64" volume="10.123811006790804dB" />
 			<sample end="285242" hiNote="68" hiVel="127" loNote="65" loVel="97" path="Resources/Timpani Samples/Timpani5_Hit_v4_rr2_Sum.wav" rootNote="66" volume="10.123811006790804dB" />
-			<sample end="1299105" hiNote="79" hiVel="64" loNote="77" loVel="1" path="Resources/Timpani Samples/Timpani1_Roll_v3_rr1_Sum.wav" rootNote="78" volume="9.433907002596749dB" />
-			<sample end="1101101" hiNote="83" hiVel="64" loNote="80" loVel="1" path="Resources/Timpani Samples/Timpani2_Roll_v3_rr1_Sum.wav" rootNote="82" volume="9.433907002596749dB" />
-			<sample end="1085026" hiNote="86" hiVel="64" loNote="84" loVel="1" path="Resources/Timpani Samples/Timpani3_Roll_v3_rr1_Sum.wav" rootNote="85" volume="9.433907002596749dB" />
-			<sample end="766171" hiNote="88" hiVel="64" loNote="87" loVel="1" path="Resources/Timpani Samples/Timpani4_Roll_v3_rr1_Sum.wav" rootNote="88" volume="9.433907002596749dB" />
-			<sample end="785935" hiNote="93" hiVel="64" loNote="89" loVel="1" path="Resources/Timpani Samples/Timpani5_Roll_v3_rr1_Sum.wav" rootNote="90" volume="9.433907002596749dB" />
+			<sample end="1299105" hiNote="79" hiVel="64" loNote="77" loVel="0" path="Resources/Timpani Samples/Timpani1_Roll_v3_rr1_Sum.wav" rootNote="78" volume="9.433907002596749dB" />
+			<sample end="1101101" hiNote="83" hiVel="64" loNote="80" loVel="0" path="Resources/Timpani Samples/Timpani2_Roll_v3_rr1_Sum.wav" rootNote="82" volume="9.433907002596749dB" />
+			<sample end="1085026" hiNote="86" hiVel="64" loNote="84" loVel="0" path="Resources/Timpani Samples/Timpani3_Roll_v3_rr1_Sum.wav" rootNote="85" volume="9.433907002596749dB" />
+			<sample end="766171" hiNote="88" hiVel="64" loNote="87" loVel="0" path="Resources/Timpani Samples/Timpani4_Roll_v3_rr1_Sum.wav" rootNote="88" volume="9.433907002596749dB" />
+			<sample end="785935" hiNote="93" hiVel="64" loNote="89" loVel="0" path="Resources/Timpani Samples/Timpani5_Roll_v3_rr1_Sum.wav" rootNote="90" volume="9.433907002596749dB" />
 			<sample end="1065958" hiNote="79" hiVel="127" loNote="77" loVel="65" path="Resources/Timpani Samples/Timpani1_Roll_v5_rr1_Sum.wav" rootNote="78" volume="9.433907002596749dB" />
 			<sample end="1146948" hiNote="83" hiVel="127" loNote="80" loVel="65" path="Resources/Timpani Samples/Timpani2_Roll_v5_rr1_Sum.wav" rootNote="82" volume="9.433907002596749dB" />
 			<sample end="915712" hiNote="86" hiVel="127" loNote="84" loVel="65" path="Resources/Timpani Samples/Timpani3_Roll_v5_rr1_Sum.wav" rootNote="85" volume="9.433907002596749dB" />

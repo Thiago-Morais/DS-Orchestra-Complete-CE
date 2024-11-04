@@ -33,17 +33,17 @@
 	</ui>
 	<groups attack="0" release="0.028">
 		<group name="Sustain" ampVelTrack="1">
-			<sample end="199797" hiNote="88" hiVel="127" loNote="86" loVel="1" path="Resources/TC - Piccolo Samples/piccolo-d#5.wav" rootNote="87" volume="6.020599913279624dB" />
-			<sample end="201422" hiNote="100" hiVel="127" loNote="98" loVel="1" path="Resources/TC - Piccolo Samples/piccolo-d#6.wav" rootNote="99" volume="6.020599913279624dB" />
-			<sample end="200382" hiNote="79" hiVel="127" loNote="77" loVel="1" path="Resources/TC - Piccolo Samples/piccolo-f#4.wav" rootNote="78" volume="6.020599913279624dB" />
-			<sample end="202176" hiNote="91" hiVel="127" loNote="89" loVel="1" path="Resources/TC - Piccolo Samples/piccolo-f#5.wav" rootNote="90" volume="6.020599913279624dB" />
-			<sample end="197314" hiNote="103" hiVel="127" loNote="101" loVel="1" path="Resources/TC - Piccolo Samples/piccolo-f#6.wav" rootNote="102" volume="6.020599913279624dB" />
-			<sample end="200278" hiNote="82" hiVel="127" loNote="80" loVel="1" path="Resources/TC - Piccolo Samples/piccolo-a4.wav" rootNote="81" volume="6.020599913279624dB" />
-			<sample end="200993" hiNote="94" hiVel="127" loNote="92" loVel="1" path="Resources/TC - Piccolo Samples/piccolo-a5.wav" rootNote="93" volume="6.020599913279624dB" />
-			<sample end="198315" hiNote="73" hiVel="127" loNote="71" loVel="1" path="Resources/TC - Piccolo Samples/piccolo-c4.wav" rootNote="72" volume="6.020599913279624dB" />
-			<sample end="199264" hiNote="85" hiVel="127" loNote="83" loVel="1" path="Resources/TC - Piccolo Samples/piccolo-c5.wav" rootNote="84" volume="6.020599913279624dB" />
-			<sample end="201578" hiNote="97" hiVel="127" loNote="95" loVel="1" path="Resources/TC - Piccolo Samples/piccolo-c6.wav" rootNote="96" volume="6.020599913279624dB" />
-			<sample end="197444" hiNote="76" hiVel="127" loNote="74" loVel="1" path="Resources/TC - Piccolo Samples/piccolo-d#4.wav" rootNote="75" volume="6.020599913279624dB" />
+			<sample end="199797" hiNote="88" hiVel="127" loNote="86" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-d#5.wav" rootNote="87" volume="6.020599913279624dB" />
+			<sample end="201422" hiNote="100" hiVel="127" loNote="98" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-d#6.wav" rootNote="99" volume="6.020599913279624dB" />
+			<sample end="200382" hiNote="79" hiVel="127" loNote="77" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-f#4.wav" rootNote="78" volume="6.020599913279624dB" />
+			<sample end="202176" hiNote="91" hiVel="127" loNote="89" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-f#5.wav" rootNote="90" volume="6.020599913279624dB" />
+			<sample end="197314" hiNote="103" hiVel="127" loNote="101" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-f#6.wav" rootNote="102" volume="6.020599913279624dB" />
+			<sample end="200278" hiNote="82" hiVel="127" loNote="80" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-a4.wav" rootNote="81" volume="6.020599913279624dB" />
+			<sample end="200993" hiNote="94" hiVel="127" loNote="92" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-a5.wav" rootNote="93" volume="6.020599913279624dB" />
+			<sample end="198315" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-c4.wav" rootNote="72" volume="6.020599913279624dB" />
+			<sample end="199264" hiNote="85" hiVel="127" loNote="83" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-c5.wav" rootNote="84" volume="6.020599913279624dB" />
+			<sample end="201578" hiNote="97" hiVel="127" loNote="95" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-c6.wav" rootNote="96" volume="6.020599913279624dB" />
+			<sample end="197444" hiNote="76" hiVel="127" loNote="74" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-d#4.wav" rootNote="75" volume="6.020599913279624dB" />
 		</group>
 	</groups>
 	<midi>

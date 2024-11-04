@@ -33,50 +33,50 @@
 	</ui>
 	<groups attack="0" release="1">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="932252" hiNote="29" hiVel="127" loNote="28" loVel="1" path="Resources/Concert Harp Samples/KSHarp_E1_f1.wav" rootNote="28" start="453" tuning="0.22" volume="11.205517dB" />
-			<sample end="297461" hiNote="33" hiVel="100" loNote="30" loVel="1" path="Resources/Concert Harp Samples/KSHarp_G1_mp1.wav" rootNote="31" tuning="0.22" volume="12.0dB" />
+			<sample end="932252" hiNote="29" hiVel="127" loNote="28" loVel="0" path="Resources/Concert Harp Samples/KSHarp_E1_f1.wav" rootNote="28" start="453" tuning="0.22" volume="11.205517dB" />
+			<sample end="297461" hiNote="33" hiVel="100" loNote="30" loVel="0" path="Resources/Concert Harp Samples/KSHarp_G1_mp1.wav" rootNote="31" tuning="0.22" volume="12.0dB" />
 			<sample end="696595" hiNote="33" hiVel="127" loNote="30" loVel="70" path="Resources/Concert Harp Samples/KSHarp_G1_f1.wav" rootNote="31" start="148" tuning="0.20" volume="12.0dB" />
-			<sample end="570994" hiNote="36" hiVel="100" loNote="34" loVel="1" path="Resources/Concert Harp Samples/KSHarp_B1_mf1.wav" rootNote="35" start="420" tuning="0.14" volume="12.0dB" />
+			<sample end="570994" hiNote="36" hiVel="100" loNote="34" loVel="0" path="Resources/Concert Harp Samples/KSHarp_B1_mf1.wav" rootNote="35" start="420" tuning="0.14" volume="12.0dB" />
 			<sample end="1118174" hiNote="36" hiVel="127" loNote="34" loVel="70" path="Resources/Concert Harp Samples/KSHarp_B1_f1.wav" rootNote="35" start="909" tuning="0.10" volume="8.877014dB" />
-			<sample end="435268" hiNote="39" hiVel="100" loNote="37" loVel="1" path="Resources/Concert Harp Samples/KSHarp_D2_mf1.wav" rootNote="38" start="1241" tuning="0.05" volume="12.0dB" />
+			<sample end="435268" hiNote="39" hiVel="100" loNote="37" loVel="0" path="Resources/Concert Harp Samples/KSHarp_D2_mf1.wav" rootNote="38" start="1241" tuning="0.05" volume="12.0dB" />
 			<sample end="613070" hiNote="39" hiVel="127" loNote="37" loVel="70" path="Resources/Concert Harp Samples/KSHarp_D2_f1.wav" rootNote="38" start="1978" tuning="0.02" volume="3.889638dB" />
-			<sample end="771636" hiNote="43" hiVel="100" loNote="40" loVel="1" path="Resources/Concert Harp Samples/KSHarp_F2_mf1.wav" rootNote="41" start="529" tuning="0.07" volume="12.0dB" />
+			<sample end="771636" hiNote="43" hiVel="100" loNote="40" loVel="0" path="Resources/Concert Harp Samples/KSHarp_F2_mf1.wav" rootNote="41" start="529" tuning="0.07" volume="12.0dB" />
 			<sample end="1059827" hiNote="43" hiVel="127" loNote="40" loVel="70" path="Resources/Concert Harp Samples/KSHarp_F2_f1.wav" rootNote="41" start="1959" tuning="0.04" volume="12.0dB" />
-			<sample end="501906" hiNote="46" hiVel="100" loNote="44" loVel="1" path="Resources/Concert Harp Samples/KSHarp_A2_mf1.wav" rootNote="45" tuning="0.02" volume="12.0dB" />
+			<sample end="501906" hiNote="46" hiVel="100" loNote="44" loVel="0" path="Resources/Concert Harp Samples/KSHarp_A2_mf1.wav" rootNote="45" tuning="0.02" volume="12.0dB" />
 			<sample end="489205" hiNote="46" hiVel="127" loNote="44" loVel="70" path="Resources/Concert Harp Samples/KSHarp_A2_f1.wav" rootNote="45" start="2228" tuning="-0.01" volume="6.113995dB" />
-			<sample end="470233" hiNote="50" hiVel="100" loNote="47" loVel="1" path="Resources/Concert Harp Samples/KSHarp_C3_mf3.wav" rootNote="48" tuning="0.01" volume="12.0dB" />
+			<sample end="470233" hiNote="50" hiVel="100" loNote="47" loVel="0" path="Resources/Concert Harp Samples/KSHarp_C3_mf3.wav" rootNote="48" tuning="0.01" volume="12.0dB" />
 			<sample end="697089" hiNote="50" hiVel="127" loNote="47" loVel="70" path="Resources/Concert Harp Samples/KSHarp_C3_f2.wav" rootNote="48" start="2298" volume="6.523776dB" />
-			<sample end="615273" hiNote="53" hiVel="100" loNote="51" loVel="1" path="Resources/Concert Harp Samples/KSHarp_E3_mf1.wav" rootNote="52" start="2011" tuning="0.02" volume="12.0dB" />
+			<sample end="615273" hiNote="53" hiVel="100" loNote="51" loVel="0" path="Resources/Concert Harp Samples/KSHarp_E3_mf1.wav" rootNote="52" start="2011" tuning="0.02" volume="12.0dB" />
 			<sample end="702892" hiNote="53" hiVel="127" loNote="51" loVel="70" path="Resources/Concert Harp Samples/KSHarp_E3_f1.wav" rootNote="52" start="2221" tuning="-0.03" volume="12.0dB" />
-			<sample end="451707" hiNote="57" hiVel="100" loNote="54" loVel="1" path="Resources/Concert Harp Samples/KSHarp_G3_mf1.wav" rootNote="55" start="2805" tuning="0.01" volume="12.0dB" />
+			<sample end="451707" hiNote="57" hiVel="100" loNote="54" loVel="0" path="Resources/Concert Harp Samples/KSHarp_G3_mf1.wav" rootNote="55" start="2805" tuning="0.01" volume="12.0dB" />
 			<sample end="615949" hiNote="57" hiVel="127" loNote="54" loVel="70" path="Resources/Concert Harp Samples/KSHarp_G3_f1.wav" rootNote="55" start="2625" tuning="-0.03" volume="8.294032dB" />
-			<sample end="495271" hiNote="60" hiVel="100" loNote="58" loVel="1" path="Resources/Concert Harp Samples/KSHarp_B3_mf1.wav" rootNote="59" start="1341" tuning="0.08" volume="12.0dB" />
+			<sample end="495271" hiNote="60" hiVel="100" loNote="58" loVel="0" path="Resources/Concert Harp Samples/KSHarp_B3_mf1.wav" rootNote="59" start="1341" tuning="0.08" volume="12.0dB" />
 			<sample end="523764" hiNote="61" hiVel="127" loNote="58" loVel="70" path="Resources/Concert Harp Samples/KSHarp_B3_f1.wav" rootNote="59" start="856" tuning="0.01" volume="10.783168dB" />
-			<sample end="480411" hiNote="63" hiVel="100" loNote="61" loVel="1" path="Resources/Concert Harp Samples/KSHarp_D4_mf1.wav" rootNote="62" start="957" tuning="0.07" volume="12.0dB" />
+			<sample end="480411" hiNote="63" hiVel="100" loNote="61" loVel="0" path="Resources/Concert Harp Samples/KSHarp_D4_mf1.wav" rootNote="62" start="957" tuning="0.07" volume="12.0dB" />
 			<sample end="498193" hiNote="62" hiVel="127" loNote="62" loVel="70" path="Resources/Concert Harp Samples/KSHarp_D4_f1.wav" rootNote="62" start="3744" tuning="-0.04" volume="9.539855dB" />
-			<sample end="478363" hiNote="67" hiVel="100" loNote="64" loVel="1" path="Resources/Concert Harp Samples/KSHarp_F4_mf1.wav" rootNote="65" start="453" tuning="0.01" volume="12.0dB" />
+			<sample end="478363" hiNote="67" hiVel="100" loNote="64" loVel="0" path="Resources/Concert Harp Samples/KSHarp_F4_mf1.wav" rootNote="65" start="453" tuning="0.01" volume="12.0dB" />
 			<sample end="468299" hiNote="67" hiVel="127" loNote="63" loVel="70" path="Resources/Concert Harp Samples/KSHarp_F4_f1.wav" rootNote="65" start="676" volume="10.425879dB" />
-			<sample end="535893" hiNote="70" hiVel="100" loNote="68" loVel="1" path="Resources/Concert Harp Samples/KSHarp_A4_mf1.wav" rootNote="69" start="748" tuning="0.19" volume="12.0dB" />
+			<sample end="535893" hiNote="70" hiVel="100" loNote="68" loVel="0" path="Resources/Concert Harp Samples/KSHarp_A4_mf1.wav" rootNote="69" start="748" tuning="0.19" volume="12.0dB" />
 			<sample end="514412" hiNote="70" hiVel="127" loNote="68" loVel="70" path="Resources/Concert Harp Samples/KSHarp_A4_f1.wav" rootNote="69" start="755" tuning="0.10" volume="11.111107dB" />
-			<sample end="309274" hiNote="74" hiVel="100" loNote="71" loVel="1" path="Resources/Concert Harp Samples/KSHarp_C5_mf1.wav" rootNote="72" start="953" tuning="0.12" volume="12.0dB" />
+			<sample end="309274" hiNote="74" hiVel="100" loNote="71" loVel="0" path="Resources/Concert Harp Samples/KSHarp_C5_mf1.wav" rootNote="72" start="953" tuning="0.12" volume="12.0dB" />
 			<sample end="559502" hiNote="74" hiVel="127" loNote="71" loVel="70" path="Resources/Concert Harp Samples/KSHarp_C5_f1.wav" rootNote="72" start="1003" tuning="0.03" volume="8.665383dB" />
-			<sample end="292885" hiNote="77" hiVel="100" loNote="75" loVel="1" path="Resources/Concert Harp Samples/KSHarp_E5_mf1.wav" rootNote="76" start="921" tuning="0.11" volume="9.562105dB" />
+			<sample end="292885" hiNote="77" hiVel="100" loNote="75" loVel="0" path="Resources/Concert Harp Samples/KSHarp_E5_mf1.wav" rootNote="76" start="921" tuning="0.11" volume="9.562105dB" />
 			<sample end="432127" hiNote="77" hiVel="127" loNote="75" loVel="70" path="Resources/Concert Harp Samples/KSHarp_E5_f1.wav" rootNote="76" start="1445" tuning="0.06" volume="6.291639dB" />
-			<sample end="262433" hiNote="81" hiVel="100" loNote="78" loVel="1" path="Resources/Concert Harp Samples/KSHarp_G5_mf1.wav" rootNote="79" start="769" tuning="0.10" volume="12.0dB" />
+			<sample end="262433" hiNote="81" hiVel="100" loNote="78" loVel="0" path="Resources/Concert Harp Samples/KSHarp_G5_mf1.wav" rootNote="79" start="769" tuning="0.10" volume="12.0dB" />
 			<sample end="234705" hiNote="81" hiVel="127" loNote="78" loVel="70" path="Resources/Concert Harp Samples/KSHarp_G5_f1.wav" rootNote="79" start="549" tuning="0.06" volume="12.0dB" />
-			<sample end="194753" hiNote="84" hiVel="100" loNote="82" loVel="1" path="Resources/Concert Harp Samples/KSHarp_B5_mf1.wav" rootNote="83" start="788" tuning="0.05" volume="10.839091dB" />
+			<sample end="194753" hiNote="84" hiVel="100" loNote="82" loVel="0" path="Resources/Concert Harp Samples/KSHarp_B5_mf1.wav" rootNote="83" start="788" tuning="0.05" volume="10.839091dB" />
 			<sample end="184907" hiNote="84" hiVel="127" loNote="82" loVel="70" path="Resources/Concert Harp Samples/KSHarp_B5_f1.wav" rootNote="83" start="727" tuning="0.03" volume="12.0dB" />
-			<sample end="171926" hiNote="87" hiVel="100" loNote="85" loVel="1" path="Resources/Concert Harp Samples/KSHarp_D6_mf1.wav" rootNote="86" start="740" tuning="0.05" volume="12.0dB" />
+			<sample end="171926" hiNote="87" hiVel="100" loNote="85" loVel="0" path="Resources/Concert Harp Samples/KSHarp_D6_mf1.wav" rootNote="86" start="740" tuning="0.05" volume="12.0dB" />
 			<sample end="328560" hiNote="87" hiVel="127" loNote="85" loVel="70" path="Resources/Concert Harp Samples/KSHarp_D6_f1.wav" rootNote="86" start="1774" tuning="0.08" volume="9.05367dB" />
-			<sample end="103270" hiNote="91" hiVel="100" loNote="88" loVel="1" path="Resources/Concert Harp Samples/KSHarp_F6_mf1.wav" rootNote="89" start="272" tuning="0.11" volume="12.0dB" />
+			<sample end="103270" hiNote="91" hiVel="100" loNote="88" loVel="0" path="Resources/Concert Harp Samples/KSHarp_F6_mf1.wav" rootNote="89" start="272" tuning="0.11" volume="12.0dB" />
 			<sample end="193927" hiNote="91" hiVel="127" loNote="88" loVel="70" path="Resources/Concert Harp Samples/KSHarp_F6_f1.wav" rootNote="89" start="1059" volume="7.864209dB" />
-			<sample end="159206" hiNote="94" hiVel="100" loNote="92" loVel="1" path="Resources/Concert Harp Samples/KSHarp_A6_mf1.wav" rootNote="93" start="1180" tuning="0.17" volume="12.0dB" />
+			<sample end="159206" hiNote="94" hiVel="100" loNote="92" loVel="0" path="Resources/Concert Harp Samples/KSHarp_A6_mf1.wav" rootNote="93" start="1180" tuning="0.17" volume="12.0dB" />
 			<sample end="136001" hiNote="94" hiVel="127" loNote="92" loVel="70" path="Resources/Concert Harp Samples/KSHarp_A6_f1.wav" rootNote="93" start="696" tuning="0.08" volume="11.901874dB" />
-			<sample end="120980" hiNote="96" hiVel="100" loNote="95" loVel="1" path="Resources/Concert Harp Samples/KSHarp_B6_mf1.wav" rootNote="95" start="659" volume="12.0dB" />
+			<sample end="120980" hiNote="96" hiVel="100" loNote="95" loVel="0" path="Resources/Concert Harp Samples/KSHarp_B6_mf1.wav" rootNote="95" start="659" volume="12.0dB" />
 			<sample end="137952" hiNote="96" hiVel="127" loNote="95" loVel="70" path="Resources/Concert Harp Samples/KSHarp_B6_f1.wav" rootNote="95" start="1008" tuning="0.08" volume="7.044163dB" />
-			<sample end="50104" hiNote="99" hiVel="100" loNote="97" loVel="1" path="Resources/Concert Harp Samples/KSHarp_D7_p1.wav" rootNote="98" start="174" tuning="-0.04" volume="12.0dB" />
+			<sample end="50104" hiNote="99" hiVel="100" loNote="97" loVel="0" path="Resources/Concert Harp Samples/KSHarp_D7_p1.wav" rootNote="98" start="174" tuning="-0.04" volume="12.0dB" />
 			<sample end="124513" hiNote="99" hiVel="127" loNote="97" loVel="70" path="Resources/Concert Harp Samples/KSHarp_D7_f1.wav" rootNote="98" start="510" tuning="0.09" volume="7.624314dB" />
-			<sample end="57692" hiNote="102" hiVel="100" loNote="100" loVel="1" path="Resources/Concert Harp Samples/KSHarp_F7_p1.wav" rootNote="101" start="359" tuning="0.03" volume="12.0dB" />
+			<sample end="57692" hiNote="102" hiVel="100" loNote="100" loVel="0" path="Resources/Concert Harp Samples/KSHarp_F7_p1.wav" rootNote="101" start="359" tuning="0.03" volume="12.0dB" />
 			<sample end="83109" hiNote="102" hiVel="127" loNote="100" loVel="70" path="Resources/Concert Harp Samples/KSHarp_F7_f1.wav" rootNote="101" start="1426" tuning="0.22" volume="12.0dB" />
 		</group>
 	</groups>
