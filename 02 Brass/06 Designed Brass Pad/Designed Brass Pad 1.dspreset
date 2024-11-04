@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/praashie/DecentSampler-schema/main/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
-		<effect type="highpass" frequency="100.0" />
+		<effect type="hipass" frequency="100.0" />
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
@@ -16,7 +17,7 @@
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</labeled-knob>
 			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
-				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
 			</labeled-knob>
 			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
@@ -32,41 +33,41 @@
 	</ui>
 	<groups release="0.020">
 		<group name="FF Brass 1" ampVelTrack="1">
-			<sample end="166746.000" hiNote="57" hiVel="127" loNote="0" loVel="90" loopEnabled="true" loopEnd="166745.000" loopStart="114952.000" path="Resources/Designed Brass Pad 1 Samples/MCA_55.wav" rootNote="55" />
-			<sample end="193594.000" hiNote="61" hiVel="127" loNote="58" loVel="90" loopEnabled="true" loopEnd="193593.000" loopStart="147707.000" path="Resources/Designed Brass Pad 1 Samples/MCA_60.wav" rootNote="60" />
-			<sample end="154378.000" hiNote="65" hiVel="127" loNote="62" loVel="90" loopEnabled="true" loopEnd="154377.000" loopStart="122034.000" path="Resources/Designed Brass Pad 1 Samples/MCA_63.wav" rootNote="63" />
-			<sample end="179215.000" hiNote="69" hiVel="127" loNote="66" loVel="90" loopEnabled="true" loopEnd="179214.000" loopStart="145884.000" path="Resources/Designed Brass Pad 1 Samples/MCA_67.wav" rootNote="67" />
-			<sample end="162729.000" hiNote="74" hiVel="127" loNote="70" loVel="90" loopEnabled="true" loopEnd="162728.000" loopStart="128145.000" path="Resources/Designed Brass Pad 1 Samples/MCA_72.wav" rootNote="72" />
-			<sample end="166281.000" hiNote="80" hiVel="127" loNote="75" loVel="90" loopEnabled="true" loopEnd="166280.000" loopStart="127032.000" path="Resources/Designed Brass Pad 1 Samples/MCA_78.wav" rootNote="78" />
-			<sample end="183809.000" hiNote="85" hiVel="127" loNote="81" loVel="90" loopEnabled="true" loopEnd="183808.000" loopStart="111515.000" path="Resources/Designed Brass Pad 1 Samples/MCA_83.wav" rootNote="83" />
-			<sample end="54492.000" hiNote="127" hiVel="127" loNote="86" loVel="90" loopEnabled="true" loopEnd="54016.000" loopStart="33329.000" path="Resources/Designed Brass Pad 1 Samples/MCA_88.wav" rootNote="88" />
+			<sample end="166746" hiNote="57" hiVel="127" loNote="0" loVel="90" loopEnabled="true" loopEnd="166745" loopStart="114952" path="Resources/Designed Brass Pad 1 Samples/MCA_55.wav" rootNote="55" />
+			<sample end="193594" hiNote="61" hiVel="127" loNote="58" loVel="90" loopEnabled="true" loopEnd="193593" loopStart="147707" path="Resources/Designed Brass Pad 1 Samples/MCA_60.wav" rootNote="60" />
+			<sample end="154378" hiNote="65" hiVel="127" loNote="62" loVel="90" loopEnabled="true" loopEnd="154377" loopStart="122034" path="Resources/Designed Brass Pad 1 Samples/MCA_63.wav" rootNote="63" />
+			<sample end="179215" hiNote="69" hiVel="127" loNote="66" loVel="90" loopEnabled="true" loopEnd="179214" loopStart="145884" path="Resources/Designed Brass Pad 1 Samples/MCA_67.wav" rootNote="67" />
+			<sample end="162729" hiNote="74" hiVel="127" loNote="70" loVel="90" loopEnabled="true" loopEnd="162728" loopStart="128145" path="Resources/Designed Brass Pad 1 Samples/MCA_72.wav" rootNote="72" />
+			<sample end="166281" hiNote="80" hiVel="127" loNote="75" loVel="90" loopEnabled="true" loopEnd="166280" loopStart="127032" path="Resources/Designed Brass Pad 1 Samples/MCA_78.wav" rootNote="78" />
+			<sample end="183809" hiNote="85" hiVel="127" loNote="81" loVel="90" loopEnabled="true" loopEnd="183808" loopStart="111515" path="Resources/Designed Brass Pad 1 Samples/MCA_83.wav" rootNote="83" />
+			<sample end="54492" hiNote="127" hiVel="127" loNote="86" loVel="90" loopEnabled="true" loopEnd="54016" loopStart="33329" path="Resources/Designed Brass Pad 1 Samples/MCA_88.wav" rootNote="88" />
 		</group>
 		<group name="Orchestral Brass 1" ampVelTrack="1">
-			<sample end="67476.000" hiNote="57" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="67475.000" loopStart="39800.000" path="Resources/Designed Brass Pad 1 Samples/OB_54.wav" rootNote="54" />
-			<sample end="66333.000" hiNote="63" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="66332.000" loopStart="38668.000" path="Resources/Designed Brass Pad 1 Samples/OB_60.wav" rootNote="60" />
-			<sample end="56213.000" hiNote="69" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="56212.000" loopStart="28542.000" path="Resources/Designed Brass Pad 1 Samples/OB_66.wav" rootNote="66" />
-			<sample end="58569.000" hiNote="75" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="58568.000" loopStart="31072.000" path="Resources/Designed Brass Pad 1 Samples/OB_72.wav" rootNote="72" />
-			<sample end="60045.000" hiNote="81" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="60044.000" loopStart="32489.000" path="Resources/Designed Brass Pad 1 Samples/OB_78.wav" rootNote="78" />
-			<sample end="51804.000" hiNote="87" hiVel="127" loNote="82" loVel="0" loopEnabled="true" loopEnd="51803.000" loopStart="24308.000" path="Resources/Designed Brass Pad 1 Samples/OB_84.wav" rootNote="84" />
-			<sample end="62006.000" hiNote="127" hiVel="127" loNote="88" loVel="0" loopEnabled="true" loopEnd="62005.000" loopStart="34450.000" path="Resources/Designed Brass Pad 1 Samples/OB_90.wav" rootNote="90" />
+			<sample end="67476" hiNote="57" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="67475" loopStart="39800" path="Resources/Designed Brass Pad 1 Samples/OB_54.wav" rootNote="54" />
+			<sample end="66333" hiNote="63" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="66332" loopStart="38668" path="Resources/Designed Brass Pad 1 Samples/OB_60.wav" rootNote="60" />
+			<sample end="56213" hiNote="69" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="56212" loopStart="28542" path="Resources/Designed Brass Pad 1 Samples/OB_66.wav" rootNote="66" />
+			<sample end="58569" hiNote="75" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="58568" loopStart="31072" path="Resources/Designed Brass Pad 1 Samples/OB_72.wav" rootNote="72" />
+			<sample end="60045" hiNote="81" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="60044" loopStart="32489" path="Resources/Designed Brass Pad 1 Samples/OB_78.wav" rootNote="78" />
+			<sample end="51804" hiNote="87" hiVel="127" loNote="82" loVel="0" loopEnabled="true" loopEnd="51803" loopStart="24308" path="Resources/Designed Brass Pad 1 Samples/OB_84.wav" rootNote="84" />
+			<sample end="62006" hiNote="127" hiVel="127" loNote="88" loVel="0" loopEnabled="true" loopEnd="62005" loopStart="34450" path="Resources/Designed Brass Pad 1 Samples/OB_90.wav" rootNote="90" />
 		</group>
 		<group name="Trombones" ampVelTrack="1">
-			<sample end="160095.000" hiNote="60" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="160094.000" loopStart="56231.000" path="Resources/Designed Brass Pad 1 Samples/TB_601.wav" rootNote="60" />
-			<sample end="114402.000" hiNote="63" hiVel="127" loNote="61" loVel="0" loopEnabled="true" loopEnd="114401.000" loopStart="56722.000" path="Resources/Designed Brass Pad 1 Samples/TB_621.wav" rootNote="62" />
-			<sample end="115418.000" hiNote="66" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="115417.000" loopStart="59843.000" path="Resources/Designed Brass Pad 1 Samples/TB_651.wav" rootNote="65" />
-			<sample end="199956.000" hiNote="70" hiVel="127" loNote="67" loVel="0" loopEnabled="true" loopEnd="199955.000" loopStart="61663.000" path="Resources/Designed Brass Pad 1 Samples/TB_681.wav" rootNote="68" />
-			<sample end="102062.000" hiNote="72" hiVel="127" loNote="71" loVel="0" loopEnabled="true" loopEnd="102061.000" loopStart="48117.000" path="Resources/Designed Brass Pad 1 Samples/TB_711.wav" rootNote="71" />
-			<sample end="178085.000" hiNote="76" hiVel="127" loNote="73" loVel="0" loopEnabled="true" loopEnd="178084.000" loopStart="112583.000" path="Resources/Designed Brass Pad 1 Samples/TB_751.wav" rootNote="75" />
-			<sample end="153065.000" hiNote="82" hiVel="127" loNote="77" loVel="0" loopEnabled="true" loopEnd="153064.000" loopStart="63945.000" path="Resources/Designed Brass Pad 1 Samples/TB_791.wav" rootNote="79" />
-			<sample end="180547.000" hiNote="127" hiVel="127" loNote="83" loVel="0" loopEnabled="true" loopEnd="180546.000" loopStart="115802.000" path="Resources/Designed Brass Pad 1 Samples/TB_841.wav" rootNote="84" />
+			<sample end="160095" hiNote="60" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="160094" loopStart="56231" path="Resources/Designed Brass Pad 1 Samples/TB_601.wav" rootNote="60" />
+			<sample end="114402" hiNote="63" hiVel="127" loNote="61" loVel="0" loopEnabled="true" loopEnd="114401" loopStart="56722" path="Resources/Designed Brass Pad 1 Samples/TB_621.wav" rootNote="62" />
+			<sample end="115418" hiNote="66" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="115417" loopStart="59843" path="Resources/Designed Brass Pad 1 Samples/TB_651.wav" rootNote="65" />
+			<sample end="199956" hiNote="70" hiVel="127" loNote="67" loVel="0" loopEnabled="true" loopEnd="199955" loopStart="61663" path="Resources/Designed Brass Pad 1 Samples/TB_681.wav" rootNote="68" />
+			<sample end="102062" hiNote="72" hiVel="127" loNote="71" loVel="0" loopEnabled="true" loopEnd="102061" loopStart="48117" path="Resources/Designed Brass Pad 1 Samples/TB_711.wav" rootNote="71" />
+			<sample end="178085" hiNote="76" hiVel="127" loNote="73" loVel="0" loopEnabled="true" loopEnd="178084" loopStart="112583" path="Resources/Designed Brass Pad 1 Samples/TB_751.wav" rootNote="75" />
+			<sample end="153065" hiNote="82" hiVel="127" loNote="77" loVel="0" loopEnabled="true" loopEnd="153064" loopStart="63945" path="Resources/Designed Brass Pad 1 Samples/TB_791.wav" rootNote="79" />
+			<sample end="180547" hiNote="127" hiVel="127" loNote="83" loVel="0" loopEnabled="true" loopEnd="180546" loopStart="115802" path="Resources/Designed Brass Pad 1 Samples/TB_841.wav" rootNote="84" />
 		</group>
 		<group name="Trumpets" ampVelTrack="1">
-			<sample end="92615.000" hiNote="63" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="92614.000" loopStart="64949.000" path="Resources/Designed Brass Pad 1 Samples/TP_601.wav" rootNote="60" />
-			<sample end="89556.000" hiNote="69" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="89555.000" loopStart="61884.000" path="Resources/Designed Brass Pad 1 Samples/TP_661.wav" rootNote="66" />
-			<sample end="73099.000" hiNote="75" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="73098.000" loopStart="45433.000" path="Resources/Designed Brass Pad 1 Samples/TP_721.wav" rootNote="72" />
-			<sample end="68794.000" hiNote="81" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="68793.000" loopStart="41240.000" path="Resources/Designed Brass Pad 1 Samples/TP_781.wav" rootNote="78" />
-			<sample end="60687.000" hiNote="87" hiVel="127" loNote="82" loVel="0" loopEnabled="true" loopEnd="60686.000" loopStart="33020.000" path="Resources/Designed Brass Pad 1 Samples/TP_841.wav" rootNote="84" />
-			<sample end="60510.000" hiNote="127" hiVel="127" loNote="88" loVel="0" loopEnabled="true" loopEnd="60509.000" loopStart="32835.000" path="Resources/Designed Brass Pad 1 Samples/TP_901.wav" rootNote="90" />
+			<sample end="92615" hiNote="63" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="92614" loopStart="64949" path="Resources/Designed Brass Pad 1 Samples/TP_601.wav" rootNote="60" />
+			<sample end="89556" hiNote="69" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="89555" loopStart="61884" path="Resources/Designed Brass Pad 1 Samples/TP_661.wav" rootNote="66" />
+			<sample end="73099" hiNote="75" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="73098" loopStart="45433" path="Resources/Designed Brass Pad 1 Samples/TP_721.wav" rootNote="72" />
+			<sample end="68794" hiNote="81" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="68793" loopStart="41240" path="Resources/Designed Brass Pad 1 Samples/TP_781.wav" rootNote="78" />
+			<sample end="60687" hiNote="87" hiVel="127" loNote="82" loVel="0" loopEnabled="true" loopEnd="60686" loopStart="33020" path="Resources/Designed Brass Pad 1 Samples/TP_841.wav" rootNote="84" />
+			<sample end="60510" hiNote="127" hiVel="127" loNote="88" loVel="0" loopEnabled="true" loopEnd="60509" loopStart="32835" path="Resources/Designed Brass Pad 1 Samples/TP_901.wav" rootNote="90" />
 		</group>
 	</groups>
 	<midi>
@@ -75,5 +76,4 @@
 		</cc>
 	</midi>
 	<modulators />
-	<tags />
 </DecentSampler>

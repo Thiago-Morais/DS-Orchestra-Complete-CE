@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/praashie/DecentSampler-schema/main/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
-		<effect type="highpass" frequency="100.0" />
+		<effect type="hipass" frequency="100.0" />
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
@@ -16,7 +17,7 @@
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</labeled-knob>
 			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
-				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
 			</labeled-knob>
 			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
@@ -32,90 +33,90 @@
 	</ui>
 	<groups attack="0.001" release="0.040">
 		<group name="gr_1" ampVelTrack="1">
-			<sample end="331383.000" hiNote="27" hiVel="80" loNote="24" loVel="0" path="Resources/VSUpright1 Samples/UR1_C1_pp_RR1.wav" rootNote="24" volume="12.0dB" />
-			<sample end="465398.000" hiNote="39" hiVel="60" loNote="34" loVel="0" path="Resources/VSUpright1 Samples/UR1_C2_pp_RR1.wav" rootNote="36" volume="12.0dB" />
-			<sample end="311970.000" hiNote="51" hiVel="60" loNote="46" loVel="0" path="Resources/VSUpright1 Samples/UR1_C3_pp_RR1.wav" rootNote="48" volume="12.0dB" />
-			<sample end="485768.000" hiNote="63" hiVel="60" loNote="58" loVel="0" path="Resources/VSUpright1 Samples/UR1_C4_pp_RR1.wav" rootNote="60" volume="12.0dB" />
-			<sample end="392199.000" hiNote="75" hiVel="60" loNote="70" loVel="0" path="Resources/VSUpright1 Samples/UR1_C5_pp_RR1.wav" rootNote="72" volume="12.0dB" />
-			<sample end="254840.000" hiNote="87" hiVel="60" loNote="82" loVel="0" path="Resources/VSUpright1 Samples/UR1_C6_pp_RR1.wav" rootNote="84" volume="12.0dB" />
-			<sample end="125539.000" hiNote="99" hiVel="60" loNote="94" loVel="0" path="Resources/VSUpright1 Samples/UR1_C7_pp_RR1.wav" rootNote="96" volume="12.0dB" />
-			<sample end="339373.000" hiNote="33" hiVel="80" loNote="28" loVel="0" path="Resources/VSUpright1 Samples/UR1_G1_pp_RR1.wav" rootNote="31" volume="12.0dB" />
-			<sample end="574110.000" hiNote="45" hiVel="60" loNote="40" loVel="0" path="Resources/VSUpright1 Samples/UR1_G2_pp_RR1.wav" rootNote="43" volume="12.0dB" />
-			<sample end="450037.000" hiNote="57" hiVel="60" loNote="52" loVel="0" path="Resources/VSUpright1 Samples/UR1_G3_pp_RR1.wav" rootNote="55" volume="12.0dB" />
-			<sample end="458910.000" hiNote="69" hiVel="60" loNote="64" loVel="0" path="Resources/VSUpright1 Samples/UR1_G4_pp_RR1.wav" rootNote="67" volume="12.0dB" />
-			<sample end="381727.000" hiNote="81" hiVel="60" loNote="76" loVel="0" path="Resources/VSUpright1 Samples/UR1_G5_pp_RR1.wav" rootNote="79" volume="12.0dB" />
-			<sample end="155766.000" hiNote="93" hiVel="60" loNote="88" loVel="0" path="Resources/VSUpright1 Samples/UR1_G6_pp_RR1.wav" rootNote="91" volume="12.0dB" />
-			<sample end="74422.000" hiNote="103" hiVel="60" loNote="100" loVel="0" path="Resources/VSUpright1 Samples/UR1_G7_pp_RR1.wav" rootNote="103" volume="12.0dB" />
-			<sample end="594788.000" hiNote="39" hiVel="110" loNote="34" loVel="61" path="Resources/VSUpright1 Samples/UR1_C2_mf_RR1.wav" rootNote="36" volume="12.0dB" />
-			<sample end="536261.000" hiNote="51" hiVel="110" loNote="46" loVel="61" path="Resources/VSUpright1 Samples/UR1_C3_mf_RR1.wav" rootNote="48" volume="12.0dB" />
-			<sample end="622586.000" hiNote="63" hiVel="110" loNote="58" loVel="61" path="Resources/VSUpright1 Samples/UR1_C4_mf_RR1.wav" rootNote="60" volume="12.0dB" />
-			<sample end="475212.000" hiNote="75" hiVel="110" loNote="70" loVel="61" path="Resources/VSUpright1 Samples/UR1_C5_mf_RR1.wav" rootNote="72" volume="12.0dB" />
-			<sample end="253430.000" hiNote="87" hiVel="110" loNote="82" loVel="61" path="Resources/VSUpright1 Samples/UR1_C6_mf_RR1.wav" rootNote="84" volume="12.0dB" />
-			<sample end="115876.000" hiNote="99" hiVel="110" loNote="94" loVel="61" path="Resources/VSUpright1 Samples/UR1_C7_mf_RR1.wav" rootNote="96" volume="12.0dB" />
-			<sample end="796387.000" hiNote="33" hiVel="127" loNote="28" loVel="81" path="Resources/VSUpright1 Samples/UR1_G1_mf_RR1.wav" rootNote="31" volume="12.0dB" />
-			<sample end="606199.000" hiNote="45" hiVel="110" loNote="40" loVel="61" path="Resources/VSUpright1 Samples/UR1_G2_mf_RR1.wav" rootNote="43" volume="12.0dB" />
-			<sample end="649281.000" hiNote="57" hiVel="110" loNote="52" loVel="61" path="Resources/VSUpright1 Samples/UR1_G3_mf_RR1.wav" rootNote="55" volume="12.0dB" />
-			<sample end="558743.000" hiNote="69" hiVel="110" loNote="64" loVel="61" path="Resources/VSUpright1 Samples/UR1_G4_mf_RR1.wav" rootNote="67" volume="12.0dB" />
-			<sample end="415101.000" hiNote="81" hiVel="110" loNote="76" loVel="61" path="Resources/VSUpright1 Samples/UR1_G5_mf_RR1.wav" rootNote="79" volume="12.0dB" />
-			<sample end="213904.000" hiNote="93" hiVel="110" loNote="88" loVel="61" path="Resources/VSUpright1 Samples/UR1_G6_mf_RR1.wav" rootNote="91" volume="12.0dB" />
-			<sample end="91227.000" hiNote="103" hiVel="110" loNote="100" loVel="61" path="Resources/VSUpright1 Samples/UR1_G7_mf_RR1.wav" rootNote="103" volume="12.0dB" />
-			<sample end="781474.000" hiNote="27" hiVel="127" loNote="24" loVel="81" path="Resources/VSUpright1 Samples/UR1_C1_f_RR1.wav" rootNote="24" volume="12.0dB" />
-			<sample end="951461.000" hiNote="39" hiVel="127" loNote="34" loVel="111" path="Resources/VSUpright1 Samples/UR1_C2_f_RR1.wav" rootNote="36" volume="2.0dB" />
-			<sample end="878070.000" hiNote="51" hiVel="127" loNote="46" loVel="111" path="Resources/VSUpright1 Samples/UR1_C3_f_RR1.wav" rootNote="48" volume="2.0dB" />
-			<sample end="814326.000" hiNote="63" hiVel="127" loNote="58" loVel="111" path="Resources/VSUpright1 Samples/UR1_C4_f_RR1.wav" rootNote="60" volume="2.0dB" />
-			<sample end="476346.000" hiNote="75" hiVel="127" loNote="70" loVel="111" path="Resources/VSUpright1 Samples/UR1_C5_f_RR1.wav" rootNote="72" volume="2.0dB" />
-			<sample end="294116.000" hiNote="87" hiVel="127" loNote="82" loVel="111" path="Resources/VSUpright1 Samples/UR1_C6_f_RR1.wav" rootNote="84" volume="2.0dB" />
-			<sample end="165971.000" hiNote="99" hiVel="127" loNote="94" loVel="111" path="Resources/VSUpright1 Samples/UR1_C7_f_RR1.wav" rootNote="96" volume="2.0dB" />
-			<sample end="889336.000" hiNote="45" hiVel="127" loNote="40" loVel="111" path="Resources/VSUpright1 Samples/UR1_G2_f_RR1.wav" rootNote="43" volume="2.0dB" />
-			<sample end="997846.000" hiNote="57" hiVel="127" loNote="52" loVel="111" path="Resources/VSUpright1 Samples/UR1_G3_f_RR1.wav" rootNote="55" volume="2.0dB" />
-			<sample end="589332.000" hiNote="69" hiVel="127" loNote="64" loVel="111" path="Resources/VSUpright1 Samples/UR1_G4_f_RR1.wav" rootNote="67" volume="2.0dB" />
-			<sample end="383380.000" hiNote="81" hiVel="127" loNote="76" loVel="111" path="Resources/VSUpright1 Samples/UR1_G5_f_RR1.wav" rootNote="79" volume="2.0dB" />
-			<sample end="201246.000" hiNote="93" hiVel="127" loNote="88" loVel="111" path="Resources/VSUpright1 Samples/UR1_G6_f_RR1.wav" rootNote="91" volume="2.0dB" />
-			<sample end="124026.000" hiNote="103" hiVel="127" loNote="100" loVel="111" path="Resources/VSUpright1 Samples/UR1_G7_f_RR1.wav" rootNote="103" volume="2.0dB" />
+			<sample end="331383" hiNote="27" hiVel="80" loNote="24" loVel="0" path="Resources/VSUpright1 Samples/UR1_C1_pp_RR1.wav" rootNote="24" volume="12.0dB" />
+			<sample end="465398" hiNote="39" hiVel="60" loNote="34" loVel="0" path="Resources/VSUpright1 Samples/UR1_C2_pp_RR1.wav" rootNote="36" volume="12.0dB" />
+			<sample end="311970" hiNote="51" hiVel="60" loNote="46" loVel="0" path="Resources/VSUpright1 Samples/UR1_C3_pp_RR1.wav" rootNote="48" volume="12.0dB" />
+			<sample end="485768" hiNote="63" hiVel="60" loNote="58" loVel="0" path="Resources/VSUpright1 Samples/UR1_C4_pp_RR1.wav" rootNote="60" volume="12.0dB" />
+			<sample end="392199" hiNote="75" hiVel="60" loNote="70" loVel="0" path="Resources/VSUpright1 Samples/UR1_C5_pp_RR1.wav" rootNote="72" volume="12.0dB" />
+			<sample end="254840" hiNote="87" hiVel="60" loNote="82" loVel="0" path="Resources/VSUpright1 Samples/UR1_C6_pp_RR1.wav" rootNote="84" volume="12.0dB" />
+			<sample end="125539" hiNote="99" hiVel="60" loNote="94" loVel="0" path="Resources/VSUpright1 Samples/UR1_C7_pp_RR1.wav" rootNote="96" volume="12.0dB" />
+			<sample end="339373" hiNote="33" hiVel="80" loNote="28" loVel="0" path="Resources/VSUpright1 Samples/UR1_G1_pp_RR1.wav" rootNote="31" volume="12.0dB" />
+			<sample end="574110" hiNote="45" hiVel="60" loNote="40" loVel="0" path="Resources/VSUpright1 Samples/UR1_G2_pp_RR1.wav" rootNote="43" volume="12.0dB" />
+			<sample end="450037" hiNote="57" hiVel="60" loNote="52" loVel="0" path="Resources/VSUpright1 Samples/UR1_G3_pp_RR1.wav" rootNote="55" volume="12.0dB" />
+			<sample end="458910" hiNote="69" hiVel="60" loNote="64" loVel="0" path="Resources/VSUpright1 Samples/UR1_G4_pp_RR1.wav" rootNote="67" volume="12.0dB" />
+			<sample end="381727" hiNote="81" hiVel="60" loNote="76" loVel="0" path="Resources/VSUpright1 Samples/UR1_G5_pp_RR1.wav" rootNote="79" volume="12.0dB" />
+			<sample end="155766" hiNote="93" hiVel="60" loNote="88" loVel="0" path="Resources/VSUpright1 Samples/UR1_G6_pp_RR1.wav" rootNote="91" volume="12.0dB" />
+			<sample end="74422" hiNote="103" hiVel="60" loNote="100" loVel="0" path="Resources/VSUpright1 Samples/UR1_G7_pp_RR1.wav" rootNote="103" volume="12.0dB" />
+			<sample end="594788" hiNote="39" hiVel="110" loNote="34" loVel="61" path="Resources/VSUpright1 Samples/UR1_C2_mf_RR1.wav" rootNote="36" volume="12.0dB" />
+			<sample end="536261" hiNote="51" hiVel="110" loNote="46" loVel="61" path="Resources/VSUpright1 Samples/UR1_C3_mf_RR1.wav" rootNote="48" volume="12.0dB" />
+			<sample end="622586" hiNote="63" hiVel="110" loNote="58" loVel="61" path="Resources/VSUpright1 Samples/UR1_C4_mf_RR1.wav" rootNote="60" volume="12.0dB" />
+			<sample end="475212" hiNote="75" hiVel="110" loNote="70" loVel="61" path="Resources/VSUpright1 Samples/UR1_C5_mf_RR1.wav" rootNote="72" volume="12.0dB" />
+			<sample end="253430" hiNote="87" hiVel="110" loNote="82" loVel="61" path="Resources/VSUpright1 Samples/UR1_C6_mf_RR1.wav" rootNote="84" volume="12.0dB" />
+			<sample end="115876" hiNote="99" hiVel="110" loNote="94" loVel="61" path="Resources/VSUpright1 Samples/UR1_C7_mf_RR1.wav" rootNote="96" volume="12.0dB" />
+			<sample end="796387" hiNote="33" hiVel="127" loNote="28" loVel="81" path="Resources/VSUpright1 Samples/UR1_G1_mf_RR1.wav" rootNote="31" volume="12.0dB" />
+			<sample end="606199" hiNote="45" hiVel="110" loNote="40" loVel="61" path="Resources/VSUpright1 Samples/UR1_G2_mf_RR1.wav" rootNote="43" volume="12.0dB" />
+			<sample end="649281" hiNote="57" hiVel="110" loNote="52" loVel="61" path="Resources/VSUpright1 Samples/UR1_G3_mf_RR1.wav" rootNote="55" volume="12.0dB" />
+			<sample end="558743" hiNote="69" hiVel="110" loNote="64" loVel="61" path="Resources/VSUpright1 Samples/UR1_G4_mf_RR1.wav" rootNote="67" volume="12.0dB" />
+			<sample end="415101" hiNote="81" hiVel="110" loNote="76" loVel="61" path="Resources/VSUpright1 Samples/UR1_G5_mf_RR1.wav" rootNote="79" volume="12.0dB" />
+			<sample end="213904" hiNote="93" hiVel="110" loNote="88" loVel="61" path="Resources/VSUpright1 Samples/UR1_G6_mf_RR1.wav" rootNote="91" volume="12.0dB" />
+			<sample end="91227" hiNote="103" hiVel="110" loNote="100" loVel="61" path="Resources/VSUpright1 Samples/UR1_G7_mf_RR1.wav" rootNote="103" volume="12.0dB" />
+			<sample end="781474" hiNote="27" hiVel="127" loNote="24" loVel="81" path="Resources/VSUpright1 Samples/UR1_C1_f_RR1.wav" rootNote="24" volume="12.0dB" />
+			<sample end="951461" hiNote="39" hiVel="127" loNote="34" loVel="111" path="Resources/VSUpright1 Samples/UR1_C2_f_RR1.wav" rootNote="36" volume="2.0dB" />
+			<sample end="878070" hiNote="51" hiVel="127" loNote="46" loVel="111" path="Resources/VSUpright1 Samples/UR1_C3_f_RR1.wav" rootNote="48" volume="2.0dB" />
+			<sample end="814326" hiNote="63" hiVel="127" loNote="58" loVel="111" path="Resources/VSUpright1 Samples/UR1_C4_f_RR1.wav" rootNote="60" volume="2.0dB" />
+			<sample end="476346" hiNote="75" hiVel="127" loNote="70" loVel="111" path="Resources/VSUpright1 Samples/UR1_C5_f_RR1.wav" rootNote="72" volume="2.0dB" />
+			<sample end="294116" hiNote="87" hiVel="127" loNote="82" loVel="111" path="Resources/VSUpright1 Samples/UR1_C6_f_RR1.wav" rootNote="84" volume="2.0dB" />
+			<sample end="165971" hiNote="99" hiVel="127" loNote="94" loVel="111" path="Resources/VSUpright1 Samples/UR1_C7_f_RR1.wav" rootNote="96" volume="2.0dB" />
+			<sample end="889336" hiNote="45" hiVel="127" loNote="40" loVel="111" path="Resources/VSUpright1 Samples/UR1_G2_f_RR1.wav" rootNote="43" volume="2.0dB" />
+			<sample end="997846" hiNote="57" hiVel="127" loNote="52" loVel="111" path="Resources/VSUpright1 Samples/UR1_G3_f_RR1.wav" rootNote="55" volume="2.0dB" />
+			<sample end="589332" hiNote="69" hiVel="127" loNote="64" loVel="111" path="Resources/VSUpright1 Samples/UR1_G4_f_RR1.wav" rootNote="67" volume="2.0dB" />
+			<sample end="383380" hiNote="81" hiVel="127" loNote="76" loVel="111" path="Resources/VSUpright1 Samples/UR1_G5_f_RR1.wav" rootNote="79" volume="2.0dB" />
+			<sample end="201246" hiNote="93" hiVel="127" loNote="88" loVel="111" path="Resources/VSUpright1 Samples/UR1_G6_f_RR1.wav" rootNote="91" volume="2.0dB" />
+			<sample end="124026" hiNote="103" hiVel="127" loNote="100" loVel="111" path="Resources/VSUpright1 Samples/UR1_G7_f_RR1.wav" rootNote="103" volume="2.0dB" />
 		</group>
 		<group name="gr_2" ampVelTrack="1">
-			<sample end="508141.000" hiNote="27" hiVel="60" loNote="24" loVel="0" path="Resources/VSUpright1 Samples/UR1_C1_pp_RR2.wav" rootNote="24" volume="12.0dB" />
-			<sample end="465398.000" hiNote="39" hiVel="60" loNote="34" loVel="0" path="Resources/VSUpright1 Samples/UR1_C2_pp_RR1.wav" rootNote="36" volume="12.0dB" />
-			<sample end="493433.000" hiNote="51" hiVel="60" loNote="46" loVel="0" path="Resources/VSUpright1 Samples/UR1_C3_pp_RR2.wav" rootNote="48" volume="12.0dB" />
-			<sample end="292693.000" hiNote="63" hiVel="60" loNote="58" loVel="0" path="Resources/VSUpright1 Samples/UR1_C4_pp_RR2.wav" rootNote="60" volume="12.0dB" />
-			<sample end="418869.000" hiNote="75" hiVel="60" loNote="70" loVel="0" path="Resources/VSUpright1 Samples/UR1_C5_pp_RR2.wav" rootNote="72" volume="12.0dB" />
-			<sample end="246761.000" hiNote="87" hiVel="60" loNote="82" loVel="0" path="Resources/VSUpright1 Samples/UR1_C6_pp_RR2.wav" rootNote="84" volume="12.0dB" />
-			<sample end="136094.000" hiNote="99" hiVel="60" loNote="94" loVel="0" path="Resources/VSUpright1 Samples/UR1_C7_pp_RR2.wav" rootNote="96" volume="12.0dB" />
-			<sample end="339373.000" hiNote="33" hiVel="60" loNote="28" loVel="0" path="Resources/VSUpright1 Samples/UR1_G1_pp_RR1.wav" rootNote="31" volume="12.0dB" />
-			<sample end="574110.000" hiNote="45" hiVel="60" loNote="40" loVel="0" path="Resources/VSUpright1 Samples/UR1_G2_pp_RR1.wav" rootNote="43" volume="12.0dB" />
-			<sample end="607801.000" hiNote="57" hiVel="60" loNote="52" loVel="0" path="Resources/VSUpright1 Samples/UR1_G3_pp_RR2.wav" rootNote="55" volume="12.0dB" />
-			<sample end="418808.000" hiNote="69" hiVel="60" loNote="64" loVel="0" path="Resources/VSUpright1 Samples/UR1_G4_pp_RR2.wav" rootNote="67" volume="12.0dB" />
-			<sample end="294178.000" hiNote="81" hiVel="60" loNote="76" loVel="0" path="Resources/VSUpright1 Samples/UR1_G5_pp_RR2.wav" rootNote="79" volume="12.0dB" />
-			<sample end="135565.000" hiNote="93" hiVel="60" loNote="88" loVel="0" path="Resources/VSUpright1 Samples/UR1_G6_pp_RR2.wav" rootNote="91" volume="12.0dB" />
-			<sample end="123833.000" hiNote="103" hiVel="60" loNote="100" loVel="0" path="Resources/VSUpright1 Samples/UR1_G7_pp_RR2.wav" rootNote="103" volume="12.0dB" />
-			<sample end="846609.000" hiNote="27" hiVel="110" loNote="24" loVel="61" path="Resources/VSUpright1 Samples/UR1_C1_mf_RR2.wav" rootNote="24" volume="12.0dB" />
-			<sample end="832455.000" hiNote="39" hiVel="110" loNote="34" loVel="61" path="Resources/VSUpright1 Samples/UR1_C2_mf_RR2.wav" rootNote="36" volume="12.0dB" />
-			<sample end="825606.000" hiNote="51" hiVel="110" loNote="46" loVel="61" path="Resources/VSUpright1 Samples/UR1_C3_mf_RR2.wav" rootNote="48" volume="12.0dB" />
-			<sample end="648878.000" hiNote="63" hiVel="110" loNote="58" loVel="61" path="Resources/VSUpright1 Samples/UR1_C4_mf_RR2.wav" rootNote="60" volume="12.0dB" />
-			<sample end="477987.000" hiNote="75" hiVel="110" loNote="70" loVel="61" path="Resources/VSUpright1 Samples/UR1_C5_mf_RR2.wav" rootNote="72" volume="12.0dB" />
-			<sample end="286761.000" hiNote="87" hiVel="110" loNote="82" loVel="61" path="Resources/VSUpright1 Samples/UR1_C6_mf_RR2.wav" rootNote="84" volume="12.0dB" />
-			<sample end="142988.000" hiNote="99" hiVel="110" loNote="94" loVel="61" path="Resources/VSUpright1 Samples/UR1_C7_mf_RR2.wav" rootNote="96" volume="12.0dB" />
-			<sample end="778118.000" hiNote="33" hiVel="110" loNote="28" loVel="61" path="Resources/VSUpright1 Samples/UR1_G1_mf_RR2.wav" rootNote="31" volume="12.0dB" />
-			<sample end="902239.000" hiNote="45" hiVel="110" loNote="40" loVel="61" path="Resources/VSUpright1 Samples/UR1_G2_mf_RR2.wav" rootNote="43" volume="12.0dB" />
-			<sample end="944775.000" hiNote="57" hiVel="110" loNote="52" loVel="61" path="Resources/VSUpright1 Samples/UR1_G3_mf_RR2.wav" rootNote="55" volume="12.0dB" />
-			<sample end="462106.000" hiNote="69" hiVel="110" loNote="64" loVel="61" path="Resources/VSUpright1 Samples/UR1_G4_mf_RR2.wav" rootNote="67" volume="12.0dB" />
-			<sample end="365790.000" hiNote="81" hiVel="110" loNote="76" loVel="61" path="Resources/VSUpright1 Samples/UR1_G5_mf_RR2.wav" rootNote="79" volume="12.0dB" />
-			<sample end="231451.000" hiNote="93" hiVel="110" loNote="88" loVel="61" path="Resources/VSUpright1 Samples/UR1_G6_mf_RR2.wav" rootNote="91" volume="12.0dB" />
-			<sample end="110238.000" hiNote="103" hiVel="110" loNote="100" loVel="61" path="Resources/VSUpright1 Samples/UR1_G7_mf_RR2.wav" rootNote="103" volume="12.0dB" />
-			<sample end="977388.000" hiNote="27" hiVel="127" loNote="24" loVel="111" path="Resources/VSUpright1 Samples/UR1_C1_f_RR2.wav" rootNote="24" volume="2.0dB" />
-			<sample end="936280.000" hiNote="39" hiVel="127" loNote="34" loVel="111" path="Resources/VSUpright1 Samples/UR1_C2_f_RR2.wav" rootNote="36" volume="2.0dB" />
-			<sample end="899776.000" hiNote="51" hiVel="127" loNote="46" loVel="111" path="Resources/VSUpright1 Samples/UR1_C3_f_RR2.wav" rootNote="48" volume="2.0dB" />
-			<sample end="774789.000" hiNote="63" hiVel="127" loNote="58" loVel="111" path="Resources/VSUpright1 Samples/UR1_C4_f_RR2.wav" rootNote="60" volume="2.0dB" />
-			<sample end="614099.000" hiNote="75" hiVel="127" loNote="70" loVel="111" path="Resources/VSUpright1 Samples/UR1_C5_f_RR2.wav" rootNote="72" volume="2.0dB" />
-			<sample end="308417.000" hiNote="87" hiVel="127" loNote="82" loVel="111" path="Resources/VSUpright1 Samples/UR1_C6_f_RR2.wav" rootNote="84" volume="2.0dB" />
-			<sample end="176293.000" hiNote="99" hiVel="127" loNote="94" loVel="111" path="Resources/VSUpright1 Samples/UR1_C7_f_RR2.wav" rootNote="96" volume="2.0dB" />
-			<sample end="905363.000" hiNote="33" hiVel="127" loNote="28" loVel="111" path="Resources/VSUpright1 Samples/UR1_G1_f_RR2.wav" rootNote="31" volume="2.0dB" />
-			<sample end="1029142.000" hiNote="45" hiVel="127" loNote="40" loVel="111" path="Resources/VSUpright1 Samples/UR1_G2_f_RR2.wav" rootNote="43" volume="2.0dB" />
-			<sample end="971306.000" hiNote="57" hiVel="127" loNote="52" loVel="111" path="Resources/VSUpright1 Samples/UR1_G3_f_RR2.wav" rootNote="55" volume="2.0dB" />
-			<sample end="587637.000" hiNote="69" hiVel="127" loNote="64" loVel="111" path="Resources/VSUpright1 Samples/UR1_G4_f_RR2.wav" rootNote="67" volume="2.0dB" />
-			<sample end="372807.000" hiNote="81" hiVel="127" loNote="76" loVel="111" path="Resources/VSUpright1 Samples/UR1_G5_f_RR2.wav" rootNote="79" volume="2.0dB" />
-			<sample end="195103.000" hiNote="93" hiVel="127" loNote="88" loVel="111" path="Resources/VSUpright1 Samples/UR1_G6_f_RR2.wav" rootNote="91" volume="2.0dB" />
-			<sample end="111061.000" hiNote="103" hiVel="127" loNote="100" loVel="111" path="Resources/VSUpright1 Samples/UR1_G7_f_RR2.wav" rootNote="103" volume="2.0dB" />
+			<sample end="508141" hiNote="27" hiVel="60" loNote="24" loVel="0" path="Resources/VSUpright1 Samples/UR1_C1_pp_RR2.wav" rootNote="24" volume="12.0dB" />
+			<sample end="465398" hiNote="39" hiVel="60" loNote="34" loVel="0" path="Resources/VSUpright1 Samples/UR1_C2_pp_RR1.wav" rootNote="36" volume="12.0dB" />
+			<sample end="493433" hiNote="51" hiVel="60" loNote="46" loVel="0" path="Resources/VSUpright1 Samples/UR1_C3_pp_RR2.wav" rootNote="48" volume="12.0dB" />
+			<sample end="292693" hiNote="63" hiVel="60" loNote="58" loVel="0" path="Resources/VSUpright1 Samples/UR1_C4_pp_RR2.wav" rootNote="60" volume="12.0dB" />
+			<sample end="418869" hiNote="75" hiVel="60" loNote="70" loVel="0" path="Resources/VSUpright1 Samples/UR1_C5_pp_RR2.wav" rootNote="72" volume="12.0dB" />
+			<sample end="246761" hiNote="87" hiVel="60" loNote="82" loVel="0" path="Resources/VSUpright1 Samples/UR1_C6_pp_RR2.wav" rootNote="84" volume="12.0dB" />
+			<sample end="136094" hiNote="99" hiVel="60" loNote="94" loVel="0" path="Resources/VSUpright1 Samples/UR1_C7_pp_RR2.wav" rootNote="96" volume="12.0dB" />
+			<sample end="339373" hiNote="33" hiVel="60" loNote="28" loVel="0" path="Resources/VSUpright1 Samples/UR1_G1_pp_RR1.wav" rootNote="31" volume="12.0dB" />
+			<sample end="574110" hiNote="45" hiVel="60" loNote="40" loVel="0" path="Resources/VSUpright1 Samples/UR1_G2_pp_RR1.wav" rootNote="43" volume="12.0dB" />
+			<sample end="607801" hiNote="57" hiVel="60" loNote="52" loVel="0" path="Resources/VSUpright1 Samples/UR1_G3_pp_RR2.wav" rootNote="55" volume="12.0dB" />
+			<sample end="418808" hiNote="69" hiVel="60" loNote="64" loVel="0" path="Resources/VSUpright1 Samples/UR1_G4_pp_RR2.wav" rootNote="67" volume="12.0dB" />
+			<sample end="294178" hiNote="81" hiVel="60" loNote="76" loVel="0" path="Resources/VSUpright1 Samples/UR1_G5_pp_RR2.wav" rootNote="79" volume="12.0dB" />
+			<sample end="135565" hiNote="93" hiVel="60" loNote="88" loVel="0" path="Resources/VSUpright1 Samples/UR1_G6_pp_RR2.wav" rootNote="91" volume="12.0dB" />
+			<sample end="123833" hiNote="103" hiVel="60" loNote="100" loVel="0" path="Resources/VSUpright1 Samples/UR1_G7_pp_RR2.wav" rootNote="103" volume="12.0dB" />
+			<sample end="846609" hiNote="27" hiVel="110" loNote="24" loVel="61" path="Resources/VSUpright1 Samples/UR1_C1_mf_RR2.wav" rootNote="24" volume="12.0dB" />
+			<sample end="832455" hiNote="39" hiVel="110" loNote="34" loVel="61" path="Resources/VSUpright1 Samples/UR1_C2_mf_RR2.wav" rootNote="36" volume="12.0dB" />
+			<sample end="825606" hiNote="51" hiVel="110" loNote="46" loVel="61" path="Resources/VSUpright1 Samples/UR1_C3_mf_RR2.wav" rootNote="48" volume="12.0dB" />
+			<sample end="648878" hiNote="63" hiVel="110" loNote="58" loVel="61" path="Resources/VSUpright1 Samples/UR1_C4_mf_RR2.wav" rootNote="60" volume="12.0dB" />
+			<sample end="477987" hiNote="75" hiVel="110" loNote="70" loVel="61" path="Resources/VSUpright1 Samples/UR1_C5_mf_RR2.wav" rootNote="72" volume="12.0dB" />
+			<sample end="286761" hiNote="87" hiVel="110" loNote="82" loVel="61" path="Resources/VSUpright1 Samples/UR1_C6_mf_RR2.wav" rootNote="84" volume="12.0dB" />
+			<sample end="142988" hiNote="99" hiVel="110" loNote="94" loVel="61" path="Resources/VSUpright1 Samples/UR1_C7_mf_RR2.wav" rootNote="96" volume="12.0dB" />
+			<sample end="778118" hiNote="33" hiVel="110" loNote="28" loVel="61" path="Resources/VSUpright1 Samples/UR1_G1_mf_RR2.wav" rootNote="31" volume="12.0dB" />
+			<sample end="902239" hiNote="45" hiVel="110" loNote="40" loVel="61" path="Resources/VSUpright1 Samples/UR1_G2_mf_RR2.wav" rootNote="43" volume="12.0dB" />
+			<sample end="944775" hiNote="57" hiVel="110" loNote="52" loVel="61" path="Resources/VSUpright1 Samples/UR1_G3_mf_RR2.wav" rootNote="55" volume="12.0dB" />
+			<sample end="462106" hiNote="69" hiVel="110" loNote="64" loVel="61" path="Resources/VSUpright1 Samples/UR1_G4_mf_RR2.wav" rootNote="67" volume="12.0dB" />
+			<sample end="365790" hiNote="81" hiVel="110" loNote="76" loVel="61" path="Resources/VSUpright1 Samples/UR1_G5_mf_RR2.wav" rootNote="79" volume="12.0dB" />
+			<sample end="231451" hiNote="93" hiVel="110" loNote="88" loVel="61" path="Resources/VSUpright1 Samples/UR1_G6_mf_RR2.wav" rootNote="91" volume="12.0dB" />
+			<sample end="110238" hiNote="103" hiVel="110" loNote="100" loVel="61" path="Resources/VSUpright1 Samples/UR1_G7_mf_RR2.wav" rootNote="103" volume="12.0dB" />
+			<sample end="977388" hiNote="27" hiVel="127" loNote="24" loVel="111" path="Resources/VSUpright1 Samples/UR1_C1_f_RR2.wav" rootNote="24" volume="2.0dB" />
+			<sample end="936280" hiNote="39" hiVel="127" loNote="34" loVel="111" path="Resources/VSUpright1 Samples/UR1_C2_f_RR2.wav" rootNote="36" volume="2.0dB" />
+			<sample end="899776" hiNote="51" hiVel="127" loNote="46" loVel="111" path="Resources/VSUpright1 Samples/UR1_C3_f_RR2.wav" rootNote="48" volume="2.0dB" />
+			<sample end="774789" hiNote="63" hiVel="127" loNote="58" loVel="111" path="Resources/VSUpright1 Samples/UR1_C4_f_RR2.wav" rootNote="60" volume="2.0dB" />
+			<sample end="614099" hiNote="75" hiVel="127" loNote="70" loVel="111" path="Resources/VSUpright1 Samples/UR1_C5_f_RR2.wav" rootNote="72" volume="2.0dB" />
+			<sample end="308417" hiNote="87" hiVel="127" loNote="82" loVel="111" path="Resources/VSUpright1 Samples/UR1_C6_f_RR2.wav" rootNote="84" volume="2.0dB" />
+			<sample end="176293" hiNote="99" hiVel="127" loNote="94" loVel="111" path="Resources/VSUpright1 Samples/UR1_C7_f_RR2.wav" rootNote="96" volume="2.0dB" />
+			<sample end="905363" hiNote="33" hiVel="127" loNote="28" loVel="111" path="Resources/VSUpright1 Samples/UR1_G1_f_RR2.wav" rootNote="31" volume="2.0dB" />
+			<sample end="1029142" hiNote="45" hiVel="127" loNote="40" loVel="111" path="Resources/VSUpright1 Samples/UR1_G2_f_RR2.wav" rootNote="43" volume="2.0dB" />
+			<sample end="971306" hiNote="57" hiVel="127" loNote="52" loVel="111" path="Resources/VSUpright1 Samples/UR1_G3_f_RR2.wav" rootNote="55" volume="2.0dB" />
+			<sample end="587637" hiNote="69" hiVel="127" loNote="64" loVel="111" path="Resources/VSUpright1 Samples/UR1_G4_f_RR2.wav" rootNote="67" volume="2.0dB" />
+			<sample end="372807" hiNote="81" hiVel="127" loNote="76" loVel="111" path="Resources/VSUpright1 Samples/UR1_G5_f_RR2.wav" rootNote="79" volume="2.0dB" />
+			<sample end="195103" hiNote="93" hiVel="127" loNote="88" loVel="111" path="Resources/VSUpright1 Samples/UR1_G6_f_RR2.wav" rootNote="91" volume="2.0dB" />
+			<sample end="111061" hiNote="103" hiVel="127" loNote="100" loVel="111" path="Resources/VSUpright1 Samples/UR1_G7_f_RR2.wav" rootNote="103" volume="2.0dB" />
 		</group>
 	</groups>
 	<midi>
@@ -124,5 +125,4 @@
 		</cc>
 	</midi>
 	<modulators />
-	<tags />
 </DecentSampler>

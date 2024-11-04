@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/praashie/DecentSampler-schema/main/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
-		<effect type="highpass" frequency="100.0" />
+		<effect type="hipass" frequency="100.0" />
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
@@ -16,7 +17,7 @@
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</labeled-knob>
 			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
-				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
 			</labeled-knob>
 			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
@@ -32,8 +33,8 @@
 	</ui>
 	<groups decay="0.124" release="0.033">
 		<group name="Longer Brass" ampVelTrack="1">
-			<sample end="40249.000" hiNote="85" hiVel="127" loNote="12" loVel="0" loopEnabled="true" loopEnd="40250.000" loopStart="16058.000" path="Resources/Designed Brass Pad 4 Samples/Big Brass#.wav" rootNote="71" tuning="-0.39" />
-			<sample end="16029.000" hiNote="106" hiVel="127" loNote="86" loVel="0" loopEnabled="true" loopEnd="16030.000" loopStart="1288.000" path="Resources/Designed Brass Pad 4 Samples/Big Brass Hi#.wav" rootNote="92" tuning="-0.39" />
+			<sample end="40249" hiNote="85" hiVel="127" loNote="12" loVel="0" loopEnabled="true" loopEnd="40250" loopStart="16058" path="Resources/Designed Brass Pad 4 Samples/Big Brass#.wav" rootNote="71" tuning="-0.39" />
+			<sample end="16029" hiNote="106" hiVel="127" loNote="86" loVel="0" loopEnabled="true" loopEnd="16030" loopStart="1288" path="Resources/Designed Brass Pad 4 Samples/Big Brass Hi#.wav" rootNote="92" tuning="-0.39" />
 		</group>
 	</groups>
 	<midi>
@@ -42,5 +43,4 @@
 		</cc>
 	</midi>
 	<modulators />
-	<tags />
 </DecentSampler>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/praashie/DecentSampler-schema/main/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
-		<effect type="highpass" frequency="100.0" />
+		<effect type="hipass" frequency="100.0" />
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
@@ -16,7 +17,7 @@
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</labeled-knob>
 			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
-				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
 			</labeled-knob>
 			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
@@ -30,65 +31,65 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.000" release="0.120">
+	<groups attack="0" release="0.120">
 		<group name="gr_1" ampVelTrack="1">
-			<sample end="42566.000" hiNote="37" hiVel="30" loNote="34" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v1_rr1.wav" rootNote="34" volume="12.0dB" />
-			<sample end="39097.000" hiNote="49" hiVel="30" loNote="44" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v1_rr1.wav" rootNote="46" volume="12.0dB" />
-			<sample end="49087.000" hiNote="59" hiVel="30" loNote="56" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v1_rr1.wav" rootNote="58" volume="12.0dB" />
-			<sample end="65097.000" hiNote="63" hiVel="30" loNote="60" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v1_rr1.wav" rootNote="62" volume="12.0dB" />
-			<sample end="51695.000" hiNote="43" hiVel="30" loNote="38" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v1_rr1.wav" rootNote="41" volume="12.0dB" />
-			<sample end="45072.000" hiNote="55" hiVel="30" loNote="50" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v1_rr1.wav" rootNote="53" volume="12.0dB" />
-			<sample end="51785.000" hiNote="70" hiVel="30" loNote="64" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v1_rr1.wav" rootNote="65" volume="12.0dB" />
-			<sample end="52671.000" hiNote="37" hiVel="62" loNote="34" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v2_rr1.wav" rootNote="34" volume="12.0dB" />
-			<sample end="52072.000" hiNote="49" hiVel="62" loNote="44" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v2_rr1.wav" rootNote="46" volume="12.0dB" />
-			<sample end="44851.000" hiNote="59" hiVel="62" loNote="56" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v2_rr1.wav" rootNote="58" volume="12.0dB" />
-			<sample end="65526.000" hiNote="63" hiVel="62" loNote="60" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v2_rr1.wav" rootNote="62" volume="12.0dB" />
-			<sample end="58635.000" hiNote="43" hiVel="62" loNote="38" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v2_rr1.wav" rootNote="41" volume="12.0dB" />
-			<sample end="41013.000" hiNote="55" hiVel="62" loNote="50" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v2_rr1.wav" rootNote="53" volume="12.0dB" />
-			<sample end="46337.000" hiNote="70" hiVel="62" loNote="64" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v2_rr1.wav" rootNote="65" volume="12.0dB" />
-			<sample end="42659.000" hiNote="37" hiVel="94" loNote="34" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v3_rr1.wav" rootNote="34" volume="10.0dB" />
-			<sample end="68505.000" hiNote="49" hiVel="94" loNote="44" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v3_rr1.wav" rootNote="46" volume="10.0dB" />
-			<sample end="75938.000" hiNote="59" hiVel="94" loNote="56" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v3_rr1.wav" rootNote="58" volume="10.0dB" />
-			<sample end="78489.000" hiNote="63" hiVel="94" loNote="60" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v3_rr1.wav" rootNote="62" volume="10.0dB" />
-			<sample end="64984.000" hiNote="43" hiVel="94" loNote="38" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v3_rr1.wav" rootNote="41" volume="10.0dB" />
-			<sample end="44297.000" hiNote="55" hiVel="94" loNote="50" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v3_rr1.wav" rootNote="53" volume="10.0dB" />
-			<sample end="49665.000" hiNote="70" hiVel="94" loNote="64" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v3_rr1.wav" rootNote="65" volume="10.0dB" />
-			<sample end="46365.000" hiNote="37" hiVel="127" loNote="34" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v4_rr1.wav" rootNote="34" volume="3.0dB" />
-			<sample end="57617.000" hiNote="49" hiVel="127" loNote="44" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v4_rr1.wav" rootNote="46" volume="3.0dB" />
-			<sample end="89493.000" hiNote="59" hiVel="127" loNote="56" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v4_rr1.wav" rootNote="58" volume="3.0dB" />
-			<sample end="82226.000" hiNote="63" hiVel="127" loNote="60" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v4_rr1.wav" rootNote="62" volume="3.0dB" />
-			<sample end="80791.000" hiNote="43" hiVel="127" loNote="38" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v4_rr1.wav" rootNote="41" volume="3.0dB" />
-			<sample end="67519.000" hiNote="55" hiVel="127" loNote="50" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v4_rr1.wav" rootNote="53" volume="3.0dB" />
-			<sample end="88460.000" hiNote="70" hiVel="127" loNote="64" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v4_rr1.wav" rootNote="65" volume="3.0dB" />
+			<sample end="42566" hiNote="37" hiVel="30" loNote="34" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v1_rr1.wav" rootNote="34" volume="12.0dB" />
+			<sample end="39097" hiNote="49" hiVel="30" loNote="44" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v1_rr1.wav" rootNote="46" volume="12.0dB" />
+			<sample end="49087" hiNote="59" hiVel="30" loNote="56" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v1_rr1.wav" rootNote="58" volume="12.0dB" />
+			<sample end="65097" hiNote="63" hiVel="30" loNote="60" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v1_rr1.wav" rootNote="62" volume="12.0dB" />
+			<sample end="51695" hiNote="43" hiVel="30" loNote="38" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v1_rr1.wav" rootNote="41" volume="12.0dB" />
+			<sample end="45072" hiNote="55" hiVel="30" loNote="50" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v1_rr1.wav" rootNote="53" volume="12.0dB" />
+			<sample end="51785" hiNote="70" hiVel="30" loNote="64" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v1_rr1.wav" rootNote="65" volume="12.0dB" />
+			<sample end="52671" hiNote="37" hiVel="62" loNote="34" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v2_rr1.wav" rootNote="34" volume="12.0dB" />
+			<sample end="52072" hiNote="49" hiVel="62" loNote="44" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v2_rr1.wav" rootNote="46" volume="12.0dB" />
+			<sample end="44851" hiNote="59" hiVel="62" loNote="56" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v2_rr1.wav" rootNote="58" volume="12.0dB" />
+			<sample end="65526" hiNote="63" hiVel="62" loNote="60" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v2_rr1.wav" rootNote="62" volume="12.0dB" />
+			<sample end="58635" hiNote="43" hiVel="62" loNote="38" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v2_rr1.wav" rootNote="41" volume="12.0dB" />
+			<sample end="41013" hiNote="55" hiVel="62" loNote="50" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v2_rr1.wav" rootNote="53" volume="12.0dB" />
+			<sample end="46337" hiNote="70" hiVel="62" loNote="64" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v2_rr1.wav" rootNote="65" volume="12.0dB" />
+			<sample end="42659" hiNote="37" hiVel="94" loNote="34" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v3_rr1.wav" rootNote="34" volume="10.0dB" />
+			<sample end="68505" hiNote="49" hiVel="94" loNote="44" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v3_rr1.wav" rootNote="46" volume="10.0dB" />
+			<sample end="75938" hiNote="59" hiVel="94" loNote="56" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v3_rr1.wav" rootNote="58" volume="10.0dB" />
+			<sample end="78489" hiNote="63" hiVel="94" loNote="60" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v3_rr1.wav" rootNote="62" volume="10.0dB" />
+			<sample end="64984" hiNote="43" hiVel="94" loNote="38" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v3_rr1.wav" rootNote="41" volume="10.0dB" />
+			<sample end="44297" hiNote="55" hiVel="94" loNote="50" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v3_rr1.wav" rootNote="53" volume="10.0dB" />
+			<sample end="49665" hiNote="70" hiVel="94" loNote="64" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v3_rr1.wav" rootNote="65" volume="10.0dB" />
+			<sample end="46365" hiNote="37" hiVel="127" loNote="34" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v4_rr1.wav" rootNote="34" volume="3.0dB" />
+			<sample end="57617" hiNote="49" hiVel="127" loNote="44" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v4_rr1.wav" rootNote="46" volume="3.0dB" />
+			<sample end="89493" hiNote="59" hiVel="127" loNote="56" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v4_rr1.wav" rootNote="58" volume="3.0dB" />
+			<sample end="82226" hiNote="63" hiVel="127" loNote="60" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v4_rr1.wav" rootNote="62" volume="3.0dB" />
+			<sample end="80791" hiNote="43" hiVel="127" loNote="38" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v4_rr1.wav" rootNote="41" volume="3.0dB" />
+			<sample end="67519" hiNote="55" hiVel="127" loNote="50" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v4_rr1.wav" rootNote="53" volume="3.0dB" />
+			<sample end="88460" hiNote="70" hiVel="127" loNote="64" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v4_rr1.wav" rootNote="65" volume="3.0dB" />
 		</group>
 		<group name="gr_2" ampVelTrack="1">
-			<sample end="45111.000" hiNote="37" hiVel="30" loNote="34" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v1_rr2.wav" rootNote="34" volume="12.0dB" />
-			<sample end="65895.000" hiNote="49" hiVel="30" loNote="44" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v1_rr2.wav" rootNote="46" volume="12.0dB" />
-			<sample end="74771.000" hiNote="59" hiVel="41" loNote="56" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v1_rr2.wav" rootNote="58" volume="12.0dB" />
-			<sample end="43734.000" hiNote="63" hiVel="30" loNote="60" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v1_rr2.wav" rootNote="62" volume="12.0dB" />
-			<sample end="55110.000" hiNote="43" hiVel="30" loNote="38" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v1_rr2.wav" rootNote="41" volume="12.0dB" />
-			<sample end="68585.000" hiNote="55" hiVel="30" loNote="50" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v1_rr2.wav" rootNote="53" volume="12.0dB" />
-			<sample end="46535.000" hiNote="70" hiVel="30" loNote="64" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v1_rr2.wav" rootNote="65" volume="12.0dB" />
-			<sample end="44404.000" hiNote="37" hiVel="62" loNote="34" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v2_rr2.wav" rootNote="34" volume="12.0dB" />
-			<sample end="72654.000" hiNote="49" hiVel="62" loNote="44" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v2_rr2.wav" rootNote="46" volume="12.0dB" />
-			<sample end="73779.000" hiNote="59" hiVel="83" loNote="56" loVel="42" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v2_rr2.wav" rootNote="58" volume="12.0dB" />
-			<sample end="48872.000" hiNote="63" hiVel="62" loNote="60" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v2_rr2.wav" rootNote="62" volume="12.0dB" />
-			<sample end="79499.000" hiNote="43" hiVel="62" loNote="38" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v2_rr2.wav" rootNote="41" volume="12.0dB" />
-			<sample end="47395.000" hiNote="55" hiVel="62" loNote="50" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v2_rr2.wav" rootNote="53" volume="12.0dB" />
-			<sample end="49807.000" hiNote="70" hiVel="62" loNote="64" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v2_rr2.wav" rootNote="65" volume="12.0dB" />
-			<sample end="75827.000" hiNote="37" hiVel="94" loNote="34" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v3_rr2.wav" rootNote="34" volume="10.0dB" />
-			<sample end="53956.000" hiNote="49" hiVel="94" loNote="44" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v3_rr2.wav" rootNote="46" volume="10.0dB" />
-			<sample end="85546.000" hiNote="59" hiVel="127" loNote="56" loVel="84" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v3_rr2.wav" rootNote="58" volume="4.0dB" />
-			<sample end="59590.000" hiNote="63" hiVel="94" loNote="60" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v3_rr2.wav" rootNote="62" volume="10.0dB" />
-			<sample end="53567.000" hiNote="43" hiVel="94" loNote="38" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v3_rr2.wav" rootNote="41" volume="10.0dB" />
-			<sample end="43764.000" hiNote="55" hiVel="94" loNote="50" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v3_rr2.wav" rootNote="53" volume="10.0dB" />
-			<sample end="47062.000" hiNote="70" hiVel="94" loNote="64" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v3_rr2.wav" rootNote="65" volume="10.0dB" />
-			<sample end="49397.000" hiNote="37" hiVel="127" loNote="34" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v4_rr2.wav" rootNote="34" volume="3.0dB" />
-			<sample end="62107.000" hiNote="49" hiVel="127" loNote="44" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v4_rr2.wav" rootNote="46" volume="3.0dB" />
-			<sample end="86908.000" hiNote="63" hiVel="127" loNote="60" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v4_rr2.wav" rootNote="62" volume="3.0dB" />
-			<sample end="51938.000" hiNote="43" hiVel="127" loNote="38" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v4_rr2.wav" rootNote="41" volume="3.0dB" />
-			<sample end="64130.000" hiNote="55" hiVel="127" loNote="50" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v4_rr2.wav" rootNote="53" volume="3.0dB" />
-			<sample end="87458.000" hiNote="70" hiVel="127" loNote="64" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v4_rr2.wav" rootNote="65" volume="3.0dB" />
+			<sample end="45111" hiNote="37" hiVel="30" loNote="34" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v1_rr2.wav" rootNote="34" volume="12.0dB" />
+			<sample end="65895" hiNote="49" hiVel="30" loNote="44" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v1_rr2.wav" rootNote="46" volume="12.0dB" />
+			<sample end="74771" hiNote="59" hiVel="41" loNote="56" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v1_rr2.wav" rootNote="58" volume="12.0dB" />
+			<sample end="43734" hiNote="63" hiVel="30" loNote="60" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v1_rr2.wav" rootNote="62" volume="12.0dB" />
+			<sample end="55110" hiNote="43" hiVel="30" loNote="38" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v1_rr2.wav" rootNote="41" volume="12.0dB" />
+			<sample end="68585" hiNote="55" hiVel="30" loNote="50" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v1_rr2.wav" rootNote="53" volume="12.0dB" />
+			<sample end="46535" hiNote="70" hiVel="30" loNote="64" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v1_rr2.wav" rootNote="65" volume="12.0dB" />
+			<sample end="44404" hiNote="37" hiVel="62" loNote="34" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v2_rr2.wav" rootNote="34" volume="12.0dB" />
+			<sample end="72654" hiNote="49" hiVel="62" loNote="44" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v2_rr2.wav" rootNote="46" volume="12.0dB" />
+			<sample end="73779" hiNote="59" hiVel="83" loNote="56" loVel="42" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v2_rr2.wav" rootNote="58" volume="12.0dB" />
+			<sample end="48872" hiNote="63" hiVel="62" loNote="60" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v2_rr2.wav" rootNote="62" volume="12.0dB" />
+			<sample end="79499" hiNote="43" hiVel="62" loNote="38" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v2_rr2.wav" rootNote="41" volume="12.0dB" />
+			<sample end="47395" hiNote="55" hiVel="62" loNote="50" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v2_rr2.wav" rootNote="53" volume="12.0dB" />
+			<sample end="49807" hiNote="70" hiVel="62" loNote="64" loVel="31" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v2_rr2.wav" rootNote="65" volume="12.0dB" />
+			<sample end="75827" hiNote="37" hiVel="94" loNote="34" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v3_rr2.wav" rootNote="34" volume="10.0dB" />
+			<sample end="53956" hiNote="49" hiVel="94" loNote="44" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v3_rr2.wav" rootNote="46" volume="10.0dB" />
+			<sample end="85546" hiNote="59" hiVel="127" loNote="56" loVel="84" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v3_rr2.wav" rootNote="58" volume="4.0dB" />
+			<sample end="59590" hiNote="63" hiVel="94" loNote="60" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v3_rr2.wav" rootNote="62" volume="10.0dB" />
+			<sample end="53567" hiNote="43" hiVel="94" loNote="38" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v3_rr2.wav" rootNote="41" volume="10.0dB" />
+			<sample end="43764" hiNote="55" hiVel="94" loNote="50" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v3_rr2.wav" rootNote="53" volume="10.0dB" />
+			<sample end="47062" hiNote="70" hiVel="94" loNote="64" loVel="63" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v3_rr2.wav" rootNote="65" volume="10.0dB" />
+			<sample end="49397" hiNote="37" hiVel="127" loNote="34" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v4_rr2.wav" rootNote="34" volume="3.0dB" />
+			<sample end="62107" hiNote="49" hiVel="127" loNote="44" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v4_rr2.wav" rootNote="46" volume="3.0dB" />
+			<sample end="86908" hiNote="63" hiVel="127" loNote="60" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_D3_v4_rr2.wav" rootNote="62" volume="3.0dB" />
+			<sample end="51938" hiNote="43" hiVel="127" loNote="38" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F1_v4_rr2.wav" rootNote="41" volume="3.0dB" />
+			<sample end="64130" hiNote="55" hiVel="127" loNote="50" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v4_rr2.wav" rootNote="53" volume="3.0dB" />
+			<sample end="87458" hiNote="70" hiVel="127" loNote="64" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v4_rr2.wav" rootNote="65" volume="3.0dB" />
 		</group>
 	</groups>
 	<midi>
@@ -97,5 +98,4 @@
 		</cc>
 	</midi>
 	<modulators />
-	<tags />
 </DecentSampler>

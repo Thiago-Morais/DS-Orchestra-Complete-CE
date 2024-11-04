@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/praashie/DecentSampler-schema/main/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
-		<effect type="highpass" frequency="100.0" />
+		<effect type="hipass" frequency="100.0" />
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
@@ -16,7 +17,7 @@
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</labeled-knob>
 			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
-				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
 			</labeled-knob>
 			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
@@ -30,148 +31,148 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.000" release="0.028">
+	<groups attack="0" release="0.028">
 		<group name="Sus Vib" ampVelTrack="1">
-			<sample end="249725.000" hiNote="67" hiVel="127" loNote="63" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_D#3_v1_1.wav" rootNote="63" start="2834.000" volume="5.85730903073885dB" />
-			<sample end="240326.000" hiNote="62" hiVel="127" loNote="61" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_D3_v1_1.wav" rootNote="62" start="3888.000" volume="5.85730903073885dB" />
-			<sample end="242516.000" hiNote="60" hiVel="127" loNote="59" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_C3_v1_1.wav" rootNote="60" start="1056.000" volume="5.85730903073885dB" />
-			<sample end="257900.000" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_A#2_v1_1.wav" rootNote="58" start="1020.000" volume="5.85730903073885dB" />
-			<sample end="269753.000" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_G#2_v1_1.wav" rootNote="56" start="1060.000" volume="5.85730903073885dB" />
-			<sample end="224334.000" hiNote="42" hiVel="127" loNote="33" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_F1_v1_1.wav" rootNote="41" start="666.000" volume="5.85730903073885dB" />
-			<sample end="233503.000" hiNote="44" hiVel="127" loNote="43" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_G#1_v1_1.wav" rootNote="44" start="621.000" volume="5.85730903073885dB" />
-			<sample end="222633.000" hiNote="46" hiVel="127" loNote="45" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_A#1_v1_1.wav" rootNote="46" start="870.000" volume="5.85730903073885dB" />
-			<sample end="231381.000" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_C2_v1_1.wav" rootNote="48" start="11118.000" volume="5.85730903073885dB" />
-			<sample end="263020.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_D#2_v1_1.wav" rootNote="51" start="10192.000" volume="5.85730903073885dB" />
-			<sample end="327894.000" hiNote="54" hiVel="127" loNote="52" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_F2_v1_1.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="249725" hiNote="67" hiVel="127" loNote="63" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_D#3_v1_1.wav" rootNote="63" start="2834" volume="5.85730903073885dB" />
+			<sample end="240326" hiNote="62" hiVel="127" loNote="61" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_D3_v1_1.wav" rootNote="62" start="3888" volume="5.85730903073885dB" />
+			<sample end="242516" hiNote="60" hiVel="127" loNote="59" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_C3_v1_1.wav" rootNote="60" start="1056" volume="5.85730903073885dB" />
+			<sample end="257900" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_A#2_v1_1.wav" rootNote="58" start="1020" volume="5.85730903073885dB" />
+			<sample end="269753" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_G#2_v1_1.wav" rootNote="56" start="1060" volume="5.85730903073885dB" />
+			<sample end="224334" hiNote="42" hiVel="127" loNote="33" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_F1_v1_1.wav" rootNote="41" start="666" volume="5.85730903073885dB" />
+			<sample end="233503" hiNote="44" hiVel="127" loNote="43" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_G#1_v1_1.wav" rootNote="44" start="621" volume="5.85730903073885dB" />
+			<sample end="222633" hiNote="46" hiVel="127" loNote="45" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_A#1_v1_1.wav" rootNote="46" start="870" volume="5.85730903073885dB" />
+			<sample end="231381" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_C2_v1_1.wav" rootNote="48" start="11118" volume="5.85730903073885dB" />
+			<sample end="263020" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_D#2_v1_1.wav" rootNote="51" start="10192" volume="5.85730903073885dB" />
+			<sample end="327894" hiNote="54" hiVel="127" loNote="52" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_F2_v1_1.wav" rootNote="53" volume="5.85730903073885dB" />
 		</group>
 		<group name="Stac RR 1" ampVelTrack="1">
-			<sample end="46365.000" hiNote="37" hiVel="127" loNote="33" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v4_1.wav" rootNote="34" start="1125.000" volume="5.85730903073885dB" />
-			<sample end="80791.000" hiNote="43" hiVel="127" loNote="38" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v4_1.wav" rootNote="41" start="180.000" volume="5.85730903073885dB" />
-			<sample end="88460.000" hiNote="67" hiVel="127" loNote="64" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v4_1.wav" rootNote="65" start="976.000" volume="5.85730903073885dB" />
-			<sample end="82226.000" hiNote="63" hiVel="127" loNote="60" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v4_1.wav" rootNote="62" volume="5.85730903073885dB" />
-			<sample end="89493.000" hiNote="59" hiVel="127" loNote="56" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v4_1.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="67519.000" hiNote="55" hiVel="127" loNote="50" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v4_1.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="57617.000" hiNote="49" hiVel="127" loNote="44" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v4_1.wav" rootNote="46" start="1020.000" volume="5.85730903073885dB" />
-			<sample end="42659.000" hiNote="37" hiVel="111" loNote="33" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v3_1.wav" rootNote="34" start="484.000" volume="5.85730903073885dB" />
-			<sample end="64984.000" hiNote="43" hiVel="111" loNote="38" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v3_1.wav" rootNote="41" start="603.000" volume="5.85730903073885dB" />
-			<sample end="49665.000" hiNote="67" hiVel="111" loNote="64" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v3_1.wav" rootNote="65" start="416.000" volume="5.85730903073885dB" />
-			<sample end="78489.000" hiNote="63" hiVel="111" loNote="60" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v3_1.wav" rootNote="62" volume="5.85730903073885dB" />
-			<sample end="75938.000" hiNote="59" hiVel="111" loNote="56" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v3_1.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="44297.000" hiNote="55" hiVel="111" loNote="50" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v3_1.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="68505.000" hiNote="49" hiVel="111" loNote="44" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v3_1.wav" rootNote="46" start="403.000" volume="5.85730903073885dB" />
-			<sample end="52671.000" hiNote="37" hiVel="80" loNote="33" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v2_1.wav" rootNote="34" start="574.000" volume="5.85730903073885dB" />
-			<sample end="58635.000" hiNote="43" hiVel="80" loNote="38" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v2_1.wav" rootNote="41" start="468.000" volume="5.85730903073885dB" />
-			<sample end="46337.000" hiNote="67" hiVel="80" loNote="64" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v2_1.wav" rootNote="65" start="294.000" volume="5.85730903073885dB" />
-			<sample end="65526.000" hiNote="63" hiVel="80" loNote="60" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v2_1.wav" rootNote="62" volume="5.85730903073885dB" />
-			<sample end="44851.000" hiNote="59" hiVel="80" loNote="56" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v2_1.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="41014.000" hiNote="55" hiVel="80" loNote="50" loVel="49" loopEnabled="true" loopEnd="41012.000" looppath="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v2_1.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="52072.000" hiNote="49" hiVel="80" loNote="44" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v2_1.wav" rootNote="46" start="276.000" volume="5.85730903073885dB" />
-			<sample end="42566.000" hiNote="37" hiVel="48" loNote="33" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v1_1.wav" rootNote="34" start="844.000" volume="5.85730903073885dB" />
-			<sample end="51695.000" hiNote="43" hiVel="48" loNote="38" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v1_1.wav" rootNote="41" start="478.000" volume="5.85730903073885dB" />
-			<sample end="51785.000" hiNote="67" hiVel="48" loNote="64" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v1_1.wav" rootNote="65" volume="5.85730903073885dB" />
-			<sample end="65097.000" hiNote="63" hiVel="48" loNote="60" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v1_1.wav" rootNote="62" volume="5.85730903073885dB" />
-			<sample end="49087.000" hiNote="59" hiVel="48" loNote="56" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v1_1.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="45072.000" hiNote="55" hiVel="48" loNote="50" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v1_1.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="39097.000" hiNote="49" hiVel="48" loNote="44" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v1_1.wav" rootNote="46" start="430.000" volume="5.85730903073885dB" />
+			<sample end="46365" hiNote="37" hiVel="127" loNote="33" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v4_1.wav" rootNote="34" start="1125" volume="5.85730903073885dB" />
+			<sample end="80791" hiNote="43" hiVel="127" loNote="38" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v4_1.wav" rootNote="41" start="180" volume="5.85730903073885dB" />
+			<sample end="88460" hiNote="67" hiVel="127" loNote="64" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v4_1.wav" rootNote="65" start="976" volume="5.85730903073885dB" />
+			<sample end="82226" hiNote="63" hiVel="127" loNote="60" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v4_1.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="89493" hiNote="59" hiVel="127" loNote="56" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v4_1.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="67519" hiNote="55" hiVel="127" loNote="50" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v4_1.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="57617" hiNote="49" hiVel="127" loNote="44" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v4_1.wav" rootNote="46" start="1020" volume="5.85730903073885dB" />
+			<sample end="42659" hiNote="37" hiVel="111" loNote="33" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v3_1.wav" rootNote="34" start="484" volume="5.85730903073885dB" />
+			<sample end="64984" hiNote="43" hiVel="111" loNote="38" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v3_1.wav" rootNote="41" start="603" volume="5.85730903073885dB" />
+			<sample end="49665" hiNote="67" hiVel="111" loNote="64" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v3_1.wav" rootNote="65" start="416" volume="5.85730903073885dB" />
+			<sample end="78489" hiNote="63" hiVel="111" loNote="60" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v3_1.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="75938" hiNote="59" hiVel="111" loNote="56" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v3_1.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="44297" hiNote="55" hiVel="111" loNote="50" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v3_1.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="68505" hiNote="49" hiVel="111" loNote="44" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v3_1.wav" rootNote="46" start="403" volume="5.85730903073885dB" />
+			<sample end="52671" hiNote="37" hiVel="80" loNote="33" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v2_1.wav" rootNote="34" start="574" volume="5.85730903073885dB" />
+			<sample end="58635" hiNote="43" hiVel="80" loNote="38" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v2_1.wav" rootNote="41" start="468" volume="5.85730903073885dB" />
+			<sample end="46337" hiNote="67" hiVel="80" loNote="64" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v2_1.wav" rootNote="65" start="294" volume="5.85730903073885dB" />
+			<sample end="65526" hiNote="63" hiVel="80" loNote="60" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v2_1.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="44851" hiNote="59" hiVel="80" loNote="56" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v2_1.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="41014" hiNote="55" hiVel="80" loNote="50" loVel="49" loopEnabled="true" loopEnd="41012" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v2_1.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="52072" hiNote="49" hiVel="80" loNote="44" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v2_1.wav" rootNote="46" start="276" volume="5.85730903073885dB" />
+			<sample end="42566" hiNote="37" hiVel="48" loNote="33" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v1_1.wav" rootNote="34" start="844" volume="5.85730903073885dB" />
+			<sample end="51695" hiNote="43" hiVel="48" loNote="38" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v1_1.wav" rootNote="41" start="478" volume="5.85730903073885dB" />
+			<sample end="51785" hiNote="67" hiVel="48" loNote="64" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v1_1.wav" rootNote="65" volume="5.85730903073885dB" />
+			<sample end="65097" hiNote="63" hiVel="48" loNote="60" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v1_1.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="49087" hiNote="59" hiVel="48" loNote="56" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v1_1.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="45072" hiNote="55" hiVel="48" loNote="50" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v1_1.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="39097" hiNote="49" hiVel="48" loNote="44" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v1_1.wav" rootNote="46" start="430" volume="5.85730903073885dB" />
 		</group>
 		<group name="Stac RR 2" ampVelTrack="1">
-			<sample end="45111.000" hiNote="37" hiVel="48" loNote="33" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v1_2.wav" rootNote="34" start="796.000" volume="5.85730903073885dB" />
-			<sample end="55110.000" hiNote="43" hiVel="48" loNote="38" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v1_2.wav" rootNote="41" start="395.000" volume="5.85730903073885dB" />
-			<sample end="46535.000" hiNote="67" hiVel="48" loNote="64" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v1_2.wav" rootNote="65" volume="5.85730903073885dB" />
-			<sample end="43734.000" hiNote="63" hiVel="48" loNote="60" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v1_2.wav" rootNote="62" volume="5.85730903073885dB" />
-			<sample end="74771.000" hiNote="59" hiVel="48" loNote="56" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v1_2.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="68585.000" hiNote="55" hiVel="48" loNote="50" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v1_2.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="65895.000" hiNote="49" hiVel="48" loNote="44" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v1_2.wav" rootNote="46" volume="5.85730903073885dB" />
-			<sample end="44404.000" hiNote="37" hiVel="80" loNote="33" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v2_2.wav" rootNote="34" start="801.000" volume="5.85730903073885dB" />
-			<sample end="79499.000" hiNote="43" hiVel="80" loNote="38" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v2_2.wav" rootNote="41" volume="5.85730903073885dB" />
-			<sample end="49807.000" hiNote="67" hiVel="80" loNote="64" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v2_2.wav" rootNote="65" start="236.000" volume="5.85730903073885dB" />
-			<sample end="48872.000" hiNote="63" hiVel="80" loNote="60" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v2_2.wav" rootNote="62" volume="5.85730903073885dB" />
-			<sample end="73779.000" hiNote="59" hiVel="80" loNote="56" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v2_2.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="47395.000" hiNote="55" hiVel="80" loNote="50" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v2_2.wav" rootNote="53" start="300.000" volume="5.85730903073885dB" />
-			<sample end="72654.000" hiNote="49" hiVel="80" loNote="44" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v2_2.wav" rootNote="46" volume="5.85730903073885dB" />
-			<sample end="75827.000" hiNote="37" hiVel="111" loNote="33" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v3_2.wav" rootNote="34" start="912.000" volume="5.85730903073885dB" />
-			<sample end="53567.000" hiNote="43" hiVel="111" loNote="38" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v3_2.wav" rootNote="41" volume="5.85730903073885dB" />
-			<sample end="47062.000" hiNote="67" hiVel="111" loNote="64" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v3_2.wav" rootNote="65" volume="5.85730903073885dB" />
-			<sample end="59590.000" hiNote="63" hiVel="111" loNote="60" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v3_2.wav" rootNote="62" volume="5.85730903073885dB" />
-			<sample end="85546.000" hiNote="59" hiVel="111" loNote="56" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v3_2.wav" rootNote="58" volume="5.85730903073885dB" />
-			<sample end="43764.000" hiNote="55" hiVel="111" loNote="50" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v3_2.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="53956.000" hiNote="49" hiVel="111" loNote="44" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v3_2.wav" rootNote="46" start="350.000" volume="5.85730903073885dB" />
-			<sample end="49397.000" hiNote="37" hiVel="127" loNote="33" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v4_2.wav" rootNote="34" start="1165.000" volume="5.85730903073885dB" />
-			<sample end="51938.000" hiNote="43" hiVel="127" loNote="38" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v4_2.wav" rootNote="41" start="335.000" volume="5.85730903073885dB" />
-			<sample end="87458.000" hiNote="67" hiVel="127" loNote="64" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v4_2.wav" rootNote="65" start="500.000" volume="5.85730903073885dB" />
-			<sample end="86908.000" hiNote="63" hiVel="127" loNote="60" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v4_2.wav" rootNote="62" volume="5.85730903073885dB" />
-			<sample end="69158.000" hiNote="59" hiVel="127" loNote="56" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v4_2.wav" rootNote="58" start="321.000" volume="5.85730903073885dB" />
-			<sample end="64130.000" hiNote="55" hiVel="127" loNote="50" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v4_2.wav" rootNote="53" start="510.000" volume="5.85730903073885dB" />
-			<sample end="62107.000" hiNote="49" hiVel="127" loNote="44" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v4_2.wav" rootNote="46" start="417.000" volume="5.85730903073885dB" />
+			<sample end="45111" hiNote="37" hiVel="48" loNote="33" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v1_2.wav" rootNote="34" start="796" volume="5.85730903073885dB" />
+			<sample end="55110" hiNote="43" hiVel="48" loNote="38" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v1_2.wav" rootNote="41" start="395" volume="5.85730903073885dB" />
+			<sample end="46535" hiNote="67" hiVel="48" loNote="64" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v1_2.wav" rootNote="65" volume="5.85730903073885dB" />
+			<sample end="43734" hiNote="63" hiVel="48" loNote="60" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v1_2.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="74771" hiNote="59" hiVel="48" loNote="56" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v1_2.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="68585" hiNote="55" hiVel="48" loNote="50" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v1_2.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="65895" hiNote="49" hiVel="48" loNote="44" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v1_2.wav" rootNote="46" volume="5.85730903073885dB" />
+			<sample end="44404" hiNote="37" hiVel="80" loNote="33" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v2_2.wav" rootNote="34" start="801" volume="5.85730903073885dB" />
+			<sample end="79499" hiNote="43" hiVel="80" loNote="38" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v2_2.wav" rootNote="41" volume="5.85730903073885dB" />
+			<sample end="49807" hiNote="67" hiVel="80" loNote="64" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v2_2.wav" rootNote="65" start="236" volume="5.85730903073885dB" />
+			<sample end="48872" hiNote="63" hiVel="80" loNote="60" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v2_2.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="73779" hiNote="59" hiVel="80" loNote="56" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v2_2.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="47395" hiNote="55" hiVel="80" loNote="50" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v2_2.wav" rootNote="53" start="300" volume="5.85730903073885dB" />
+			<sample end="72654" hiNote="49" hiVel="80" loNote="44" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v2_2.wav" rootNote="46" volume="5.85730903073885dB" />
+			<sample end="75827" hiNote="37" hiVel="111" loNote="33" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v3_2.wav" rootNote="34" start="912" volume="5.85730903073885dB" />
+			<sample end="53567" hiNote="43" hiVel="111" loNote="38" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v3_2.wav" rootNote="41" volume="5.85730903073885dB" />
+			<sample end="47062" hiNote="67" hiVel="111" loNote="64" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v3_2.wav" rootNote="65" volume="5.85730903073885dB" />
+			<sample end="59590" hiNote="63" hiVel="111" loNote="60" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v3_2.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="85546" hiNote="59" hiVel="111" loNote="56" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v3_2.wav" rootNote="58" volume="5.85730903073885dB" />
+			<sample end="43764" hiNote="55" hiVel="111" loNote="50" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v3_2.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="53956" hiNote="49" hiVel="111" loNote="44" loVel="81" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v3_2.wav" rootNote="46" start="350" volume="5.85730903073885dB" />
+			<sample end="49397" hiNote="37" hiVel="127" loNote="33" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v4_2.wav" rootNote="34" start="1165" volume="5.85730903073885dB" />
+			<sample end="51938" hiNote="43" hiVel="127" loNote="38" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v4_2.wav" rootNote="41" start="335" volume="5.85730903073885dB" />
+			<sample end="87458" hiNote="67" hiVel="127" loNote="64" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v4_2.wav" rootNote="65" start="500" volume="5.85730903073885dB" />
+			<sample end="86908" hiNote="63" hiVel="127" loNote="60" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_D3_v4_2.wav" rootNote="62" volume="5.85730903073885dB" />
+			<sample end="69158" hiNote="59" hiVel="127" loNote="56" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#2_v4_2.wav" rootNote="58" start="321" volume="5.85730903073885dB" />
+			<sample end="64130" hiNote="55" hiVel="127" loNote="50" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v4_2.wav" rootNote="53" start="510" volume="5.85730903073885dB" />
+			<sample end="62107" hiNote="49" hiVel="127" loNote="44" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v4_2.wav" rootNote="46" start="417" volume="5.85730903073885dB" />
 		</group>
 		<group name="Sus Non Vib" ampVelTrack="1">
-			<sample end="211849.000" hiNote="35" hiVel="48" loNote="33" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v1_1.wav" rootNote="34" start="870.000" volume="5.85730903073885dB" />
-			<sample end="328270.000" hiNote="37" hiVel="48" loNote="36" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#1_v1_1.wav" rootNote="37" start="584.000" volume="5.85730903073885dB" />
-			<sample end="519994.000" hiNote="39" hiVel="48" loNote="38" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v1_1.wav" rootNote="39" volume="5.85730903073885dB" />
-			<sample end="570405.000" hiNote="43" hiVel="48" loNote="40" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F1_v1_1.wav" rootNote="41" start="588.000" volume="5.85730903073885dB" />
-			<sample end="1139250.000" hiNote="67" hiVel="48" loNote="64" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F3_v1_1.wav" rootNote="65" start="705.000" volume="5.85730903073885dB" />
-			<sample end="1070862.000" hiNote="63" hiVel="48" loNote="62" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#3_v1_1.wav" rootNote="63" start="1890.000" volume="5.85730903073885dB" />
-			<sample end="876776.000" hiNote="61" hiVel="48" loNote="61" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#3_v1_1.wav" rootNote="61" start="745.000" volume="5.85730903073885dB" />
-			<sample end="980021.000" hiNote="60" hiVel="48" loNote="57" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C3_v1_1.wav" rootNote="60" start="2166.000" volume="5.85730903073885dB" />
-			<sample end="903187.000" hiNote="56" hiVel="48" loNote="52" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F2_v1_1.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="683281.000" hiNote="51" hiVel="48" loNote="48" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D2_v1_1.wav" rootNote="50" volume="5.85730903073885dB" />
-			<sample end="788423.000" hiNote="47" hiVel="48" loNote="44" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#1_v1_1.wav" rootNote="46" start="640.000" volume="5.85730903073885dB" />
-			<sample end="183888.000" hiNote="35" hiVel="127" loNote="33" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v2_1.wav" rootNote="34" start="976.000" volume="5.85730903073885dB" />
-			<sample end="197520.000" hiNote="37" hiVel="96" loNote="36" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#1_v2_1.wav" rootNote="37" start="790.000" volume="5.85730903073885dB" />
-			<sample end="291622.000" hiNote="39" hiVel="96" loNote="38" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v2_1.wav" rootNote="39" start="1316.000" volume="5.85730903073885dB" />
-			<sample end="350194.000" hiNote="43" hiVel="96" loNote="40" loVel="49" loopEnabled="true" loopEnd="350194.000" loopStart="506.000" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F1_v2_1.wav" rootNote="41" start="506.000" volume="5.85730903073885dB" />
-			<sample end="531962.000" hiNote="67" hiVel="96" loNote="64" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F3_v2_1.wav" rootNote="65" start="651.000" volume="5.85730903073885dB" />
-			<sample end="607429.000" hiNote="63" hiVel="96" loNote="62" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#3_v2_1.wav" rootNote="63" volume="5.85730903073885dB" />
-			<sample end="474933.000" hiNote="61" hiVel="96" loNote="61" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#3_v2_1.wav" rootNote="61" start="966.000" volume="5.85730903073885dB" />
-			<sample end="402993.000" hiNote="60" hiVel="96" loNote="57" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C3_v2_1.wav" rootNote="60" start="1340.000" volume="5.85730903073885dB" />
-			<sample end="438146.000" hiNote="56" hiVel="96" loNote="52" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F2_v2_1.wav" rootNote="53" start="914.000" volume="5.85730903073885dB" />
-			<sample end="433275.000" hiNote="51" hiVel="96" loNote="48" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D2_v2_1.wav" rootNote="50" start="1880.000" volume="5.85730903073885dB" />
-			<sample end="414549.000" hiNote="47" hiVel="96" loNote="44" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#1_v2_1.wav" rootNote="46" start="274.000" volume="5.85730903073885dB" />
-			<sample end="220454.000" hiNote="39" hiVel="127" loNote="36" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v3_1.wav" rootNote="39" volume="5.85730903073885dB" />
-			<sample end="299476.000" hiNote="43" hiVel="127" loNote="40" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F1_v3_1.wav" rootNote="41" start="404.000" volume="5.85730903073885dB" />
-			<sample end="324957.000" hiNote="67" hiVel="127" loNote="64" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F3_v3_1.wav" rootNote="65" start="872.000" volume="5.85730903073885dB" />
-			<sample end="309791.000" hiNote="63" hiVel="127" loNote="62" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#3_v3_1.wav" rootNote="63" start="728.000" volume="5.85730903073885dB" />
-			<sample end="343337.000" hiNote="61" hiVel="127" loNote="61" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#3_v3_1.wav" rootNote="61" start="692.000" volume="5.85730903073885dB" />
-			<sample end="337774.000" hiNote="60" hiVel="127" loNote="57" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C3_v3_1.wav" rootNote="60" start="984.000" volume="5.85730903073885dB" />
-			<sample end="276906.000" hiNote="56" hiVel="127" loNote="52" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F2_v3_1.wav" rootNote="53" start="837.000" volume="5.85730903073885dB" />
-			<sample end="290522.000" hiNote="51" hiVel="127" loNote="48" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D2_v3_1.wav" rootNote="50" start="744.000" volume="5.85730903073885dB" />
-			<sample end="232707.000" hiNote="47" hiVel="127" loNote="44" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#1_v3_1.wav" rootNote="46" start="306.000" volume="5.85730903073885dB" />
+			<sample end="211849" hiNote="35" hiVel="48" loNote="33" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v1_1.wav" rootNote="34" start="870" volume="5.85730903073885dB" />
+			<sample end="328270" hiNote="37" hiVel="48" loNote="36" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#1_v1_1.wav" rootNote="37" start="584" volume="5.85730903073885dB" />
+			<sample end="519994" hiNote="39" hiVel="48" loNote="38" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v1_1.wav" rootNote="39" volume="5.85730903073885dB" />
+			<sample end="570405" hiNote="43" hiVel="48" loNote="40" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F1_v1_1.wav" rootNote="41" start="588" volume="5.85730903073885dB" />
+			<sample end="1139250" hiNote="67" hiVel="48" loNote="64" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F3_v1_1.wav" rootNote="65" start="705" volume="5.85730903073885dB" />
+			<sample end="1070862" hiNote="63" hiVel="48" loNote="62" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#3_v1_1.wav" rootNote="63" start="1890" volume="5.85730903073885dB" />
+			<sample end="876776" hiNote="61" hiVel="48" loNote="61" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#3_v1_1.wav" rootNote="61" start="745" volume="5.85730903073885dB" />
+			<sample end="980021" hiNote="60" hiVel="48" loNote="57" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C3_v1_1.wav" rootNote="60" start="2166" volume="5.85730903073885dB" />
+			<sample end="903187" hiNote="56" hiVel="48" loNote="52" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F2_v1_1.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="683281" hiNote="51" hiVel="48" loNote="48" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D2_v1_1.wav" rootNote="50" volume="5.85730903073885dB" />
+			<sample end="788423" hiNote="47" hiVel="48" loNote="44" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#1_v1_1.wav" rootNote="46" start="640" volume="5.85730903073885dB" />
+			<sample end="183888" hiNote="35" hiVel="127" loNote="33" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v2_1.wav" rootNote="34" start="976" volume="5.85730903073885dB" />
+			<sample end="197520" hiNote="37" hiVel="96" loNote="36" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#1_v2_1.wav" rootNote="37" start="790" volume="5.85730903073885dB" />
+			<sample end="291622" hiNote="39" hiVel="96" loNote="38" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v2_1.wav" rootNote="39" start="1316" volume="5.85730903073885dB" />
+			<sample end="350194" hiNote="43" hiVel="96" loNote="40" loVel="49" loopEnabled="true" loopEnd="350194" loopStart="506" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F1_v2_1.wav" rootNote="41" start="506" volume="5.85730903073885dB" />
+			<sample end="531962" hiNote="67" hiVel="96" loNote="64" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F3_v2_1.wav" rootNote="65" start="651" volume="5.85730903073885dB" />
+			<sample end="607429" hiNote="63" hiVel="96" loNote="62" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#3_v2_1.wav" rootNote="63" volume="5.85730903073885dB" />
+			<sample end="474933" hiNote="61" hiVel="96" loNote="61" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#3_v2_1.wav" rootNote="61" start="966" volume="5.85730903073885dB" />
+			<sample end="402993" hiNote="60" hiVel="96" loNote="57" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C3_v2_1.wav" rootNote="60" start="1340" volume="5.85730903073885dB" />
+			<sample end="438146" hiNote="56" hiVel="96" loNote="52" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F2_v2_1.wav" rootNote="53" start="914" volume="5.85730903073885dB" />
+			<sample end="433275" hiNote="51" hiVel="96" loNote="48" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D2_v2_1.wav" rootNote="50" start="1880" volume="5.85730903073885dB" />
+			<sample end="414549" hiNote="47" hiVel="96" loNote="44" loVel="49" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#1_v2_1.wav" rootNote="46" start="274" volume="5.85730903073885dB" />
+			<sample end="220454" hiNote="39" hiVel="127" loNote="36" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v3_1.wav" rootNote="39" volume="5.85730903073885dB" />
+			<sample end="299476" hiNote="43" hiVel="127" loNote="40" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F1_v3_1.wav" rootNote="41" start="404" volume="5.85730903073885dB" />
+			<sample end="324957" hiNote="67" hiVel="127" loNote="64" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F3_v3_1.wav" rootNote="65" start="872" volume="5.85730903073885dB" />
+			<sample end="309791" hiNote="63" hiVel="127" loNote="62" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#3_v3_1.wav" rootNote="63" start="728" volume="5.85730903073885dB" />
+			<sample end="343337" hiNote="61" hiVel="127" loNote="61" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#3_v3_1.wav" rootNote="61" start="692" volume="5.85730903073885dB" />
+			<sample end="337774" hiNote="60" hiVel="127" loNote="57" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C3_v3_1.wav" rootNote="60" start="984" volume="5.85730903073885dB" />
+			<sample end="276906" hiNote="56" hiVel="127" loNote="52" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F2_v3_1.wav" rootNote="53" start="837" volume="5.85730903073885dB" />
+			<sample end="290522" hiNote="51" hiVel="127" loNote="48" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D2_v3_1.wav" rootNote="50" start="744" volume="5.85730903073885dB" />
+			<sample end="232707" hiNote="47" hiVel="127" loNote="44" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#1_v3_1.wav" rootNote="46" start="306" volume="5.85730903073885dB" />
 		</group>
 		<group name="Sus Non Vib Loud" ampVelTrack="1">
-			<sample end="183888.000" hiNote="35" hiVel="127" loNote="33" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v2_1.wav" rootNote="34" start="976.000" volume="5.85730903073885dB" />
-			<sample end="220454.000" hiNote="39" hiVel="127" loNote="36" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v3_1.wav" rootNote="39" volume="5.85730903073885dB" />
-			<sample end="299476.000" hiNote="43" hiVel="127" loNote="40" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F1_v3_1.wav" rootNote="41" start="404.000" volume="5.85730903073885dB" />
-			<sample end="324957.000" hiNote="67" hiVel="127" loNote="64" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F3_v3_1.wav" rootNote="65" start="872.000" volume="5.85730903073885dB" />
-			<sample end="309791.000" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#3_v3_1.wav" rootNote="63" start="728.000" volume="5.85730903073885dB" />
-			<sample end="343337.000" hiNote="61" hiVel="127" loNote="61" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#3_v3_1.wav" rootNote="61" start="692.000" volume="5.85730903073885dB" />
-			<sample end="337774.000" hiNote="60" hiVel="127" loNote="57" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C3_v3_1.wav" rootNote="60" start="984.000" volume="5.85730903073885dB" />
-			<sample end="276906.000" hiNote="56" hiVel="127" loNote="52" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F2_v3_1.wav" rootNote="53" start="837.000" volume="5.85730903073885dB" />
-			<sample end="290522.000" hiNote="51" hiVel="127" loNote="48" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D2_v3_1.wav" rootNote="50" start="744.000" volume="5.85730903073885dB" />
-			<sample end="232707.000" hiNote="47" hiVel="127" loNote="44" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#1_v3_1.wav" rootNote="46" start="306.000" volume="5.85730903073885dB" />
+			<sample end="183888" hiNote="35" hiVel="127" loNote="33" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v2_1.wav" rootNote="34" start="976" volume="5.85730903073885dB" />
+			<sample end="220454" hiNote="39" hiVel="127" loNote="36" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v3_1.wav" rootNote="39" volume="5.85730903073885dB" />
+			<sample end="299476" hiNote="43" hiVel="127" loNote="40" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F1_v3_1.wav" rootNote="41" start="404" volume="5.85730903073885dB" />
+			<sample end="324957" hiNote="67" hiVel="127" loNote="64" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F3_v3_1.wav" rootNote="65" start="872" volume="5.85730903073885dB" />
+			<sample end="309791" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#3_v3_1.wav" rootNote="63" start="728" volume="5.85730903073885dB" />
+			<sample end="343337" hiNote="61" hiVel="127" loNote="61" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#3_v3_1.wav" rootNote="61" start="692" volume="5.85730903073885dB" />
+			<sample end="337774" hiNote="60" hiVel="127" loNote="57" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C3_v3_1.wav" rootNote="60" start="984" volume="5.85730903073885dB" />
+			<sample end="276906" hiNote="56" hiVel="127" loNote="52" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F2_v3_1.wav" rootNote="53" start="837" volume="5.85730903073885dB" />
+			<sample end="290522" hiNote="51" hiVel="127" loNote="48" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D2_v3_1.wav" rootNote="50" start="744" volume="5.85730903073885dB" />
+			<sample end="232707" hiNote="47" hiVel="127" loNote="44" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#1_v3_1.wav" rootNote="46" start="306" volume="5.85730903073885dB" />
 		</group>
 		<group name="Sus Non Vib Soft" ampVelTrack="1">
-			<sample end="211849.000" hiNote="35" hiVel="79" loNote="33" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v1_1.wav" rootNote="34" start="870.000" volume="5.85730903073885dB" />
-			<sample end="328270.000" hiNote="37" hiVel="79" loNote="36" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#1_v1_1.wav" rootNote="37" start="584.000" volume="5.85730903073885dB" />
-			<sample end="519994.000" hiNote="39" hiVel="79" loNote="38" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v1_1.wav" rootNote="39" volume="5.85730903073885dB" />
-			<sample end="570405.000" hiNote="43" hiVel="79" loNote="40" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F1_v1_1.wav" rootNote="41" start="588.000" volume="5.85730903073885dB" />
-			<sample end="1139250.000" hiNote="67" hiVel="79" loNote="64" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F3_v1_1.wav" rootNote="65" start="705.000" volume="5.85730903073885dB" />
-			<sample end="1070862.000" hiNote="63" hiVel="79" loNote="62" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#3_v1_1.wav" rootNote="63" start="1890.000" volume="5.85730903073885dB" />
-			<sample end="876776.000" hiNote="61" hiVel="79" loNote="61" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#3_v1_1.wav" rootNote="61" start="745.000" volume="5.85730903073885dB" />
-			<sample end="980021.000" hiNote="60" hiVel="79" loNote="57" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C3_v1_1.wav" rootNote="60" start="2166.000" volume="5.85730903073885dB" />
-			<sample end="903187.000" hiNote="56" hiVel="79" loNote="52" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F2_v1_1.wav" rootNote="53" volume="5.85730903073885dB" />
-			<sample end="683281.000" hiNote="51" hiVel="79" loNote="48" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D2_v1_1.wav" rootNote="50" volume="5.85730903073885dB" />
-			<sample end="788423.000" hiNote="47" hiVel="79" loNote="44" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#1_v1_1.wav" rootNote="46" start="640.000" volume="5.85730903073885dB" />
-			<sample end="183888.000" hiNote="35" hiVel="127" loNote="33" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v2_1.wav" rootNote="34" start="976.000" volume="5.85730903073885dB" />
-			<sample end="197520.000" hiNote="37" hiVel="127" loNote="36" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#1_v2_1.wav" rootNote="37" start="790.000" volume="5.85730903073885dB" />
-			<sample end="291622.000" hiNote="39" hiVel="127" loNote="38" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v2_1.wav" rootNote="39" start="1316.000" volume="5.85730903073885dB" />
-			<sample end="350194.000" hiNote="43" hiVel="127" loNote="40" loVel="80" loopEnabled="true" loopEnd="350194.000" loopStart="506.000" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F1_v2_1.wav" rootNote="41" start="506.000" volume="5.85730903073885dB" />
-			<sample end="531962.000" hiNote="67" hiVel="127" loNote="64" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F3_v2_1.wav" rootNote="65" start="651.000" volume="5.85730903073885dB" />
-			<sample end="607429.000" hiNote="63" hiVel="127" loNote="62" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#3_v2_1.wav" rootNote="63" volume="5.85730903073885dB" />
-			<sample end="474933.000" hiNote="61" hiVel="127" loNote="61" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#3_v2_1.wav" rootNote="61" start="966.000" volume="5.85730903073885dB" />
-			<sample end="402993.000" hiNote="60" hiVel="127" loNote="57" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C3_v2_1.wav" rootNote="60" start="1340.000" volume="5.85730903073885dB" />
-			<sample end="438146.000" hiNote="56" hiVel="127" loNote="52" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F2_v2_1.wav" rootNote="53" start="914.000" volume="5.85730903073885dB" />
-			<sample end="433275.000" hiNote="51" hiVel="127" loNote="48" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D2_v2_1.wav" rootNote="50" start="1880.000" volume="5.85730903073885dB" />
-			<sample end="414549.000" hiNote="47" hiVel="127" loNote="44" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#1_v2_1.wav" rootNote="46" start="274.000" volume="5.85730903073885dB" />
+			<sample end="211849" hiNote="35" hiVel="79" loNote="33" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v1_1.wav" rootNote="34" start="870" volume="5.85730903073885dB" />
+			<sample end="328270" hiNote="37" hiVel="79" loNote="36" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#1_v1_1.wav" rootNote="37" start="584" volume="5.85730903073885dB" />
+			<sample end="519994" hiNote="39" hiVel="79" loNote="38" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v1_1.wav" rootNote="39" volume="5.85730903073885dB" />
+			<sample end="570405" hiNote="43" hiVel="79" loNote="40" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F1_v1_1.wav" rootNote="41" start="588" volume="5.85730903073885dB" />
+			<sample end="1139250" hiNote="67" hiVel="79" loNote="64" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F3_v1_1.wav" rootNote="65" start="705" volume="5.85730903073885dB" />
+			<sample end="1070862" hiNote="63" hiVel="79" loNote="62" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#3_v1_1.wav" rootNote="63" start="1890" volume="5.85730903073885dB" />
+			<sample end="876776" hiNote="61" hiVel="79" loNote="61" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#3_v1_1.wav" rootNote="61" start="745" volume="5.85730903073885dB" />
+			<sample end="980021" hiNote="60" hiVel="79" loNote="57" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C3_v1_1.wav" rootNote="60" start="2166" volume="5.85730903073885dB" />
+			<sample end="903187" hiNote="56" hiVel="79" loNote="52" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F2_v1_1.wav" rootNote="53" volume="5.85730903073885dB" />
+			<sample end="683281" hiNote="51" hiVel="79" loNote="48" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D2_v1_1.wav" rootNote="50" volume="5.85730903073885dB" />
+			<sample end="788423" hiNote="47" hiVel="79" loNote="44" loVel="1" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#1_v1_1.wav" rootNote="46" start="640" volume="5.85730903073885dB" />
+			<sample end="183888" hiNote="35" hiVel="127" loNote="33" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v2_1.wav" rootNote="34" start="976" volume="5.85730903073885dB" />
+			<sample end="197520" hiNote="37" hiVel="127" loNote="36" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#1_v2_1.wav" rootNote="37" start="790" volume="5.85730903073885dB" />
+			<sample end="291622" hiNote="39" hiVel="127" loNote="38" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v2_1.wav" rootNote="39" start="1316" volume="5.85730903073885dB" />
+			<sample end="350194" hiNote="43" hiVel="127" loNote="40" loVel="80" loopEnabled="true" loopEnd="350194" loopStart="506" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F1_v2_1.wav" rootNote="41" start="506" volume="5.85730903073885dB" />
+			<sample end="531962" hiNote="67" hiVel="127" loNote="64" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F3_v2_1.wav" rootNote="65" start="651" volume="5.85730903073885dB" />
+			<sample end="607429" hiNote="63" hiVel="127" loNote="62" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#3_v2_1.wav" rootNote="63" volume="5.85730903073885dB" />
+			<sample end="474933" hiNote="61" hiVel="127" loNote="61" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#3_v2_1.wav" rootNote="61" start="966" volume="5.85730903073885dB" />
+			<sample end="402993" hiNote="60" hiVel="127" loNote="57" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C3_v2_1.wav" rootNote="60" start="1340" volume="5.85730903073885dB" />
+			<sample end="438146" hiNote="56" hiVel="127" loNote="52" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F2_v2_1.wav" rootNote="53" start="914" volume="5.85730903073885dB" />
+			<sample end="433275" hiNote="51" hiVel="127" loNote="48" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D2_v2_1.wav" rootNote="50" start="1880" volume="5.85730903073885dB" />
+			<sample end="414549" hiNote="47" hiVel="127" loNote="44" loVel="80" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#1_v2_1.wav" rootNote="46" start="274" volume="5.85730903073885dB" />
 		</group>
 	</groups>
 	<midi>
@@ -180,5 +181,4 @@
 		</cc>
 	</midi>
 	<modulators />
-	<tags />
 </DecentSampler>

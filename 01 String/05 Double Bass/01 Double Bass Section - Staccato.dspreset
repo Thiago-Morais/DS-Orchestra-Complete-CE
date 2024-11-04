@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/praashie/DecentSampler-schema/main/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
-		<effect type="highpass" frequency="100.0" />
+		<effect type="hipass" frequency="100.0" />
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
@@ -16,7 +17,7 @@
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</labeled-knob>
 			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
-				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
 			</labeled-knob>
 			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
@@ -32,94 +33,94 @@
 	</ui>
 	<groups attack="0.030" release="0.090">
 		<group name="Group 4" ampVelTrack="1">
-			<sample end="51766.000" hiNote="37" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c1.wav" rootNote="36" volume="-1.0dB" />
-			<sample end="52962.000" hiNote="40" hiVel="127" loNote="38" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#1.wav" rootNote="39" volume="-3.0dB" />
-			<sample end="53560.000" hiNote="43" hiVel="127" loNote="41" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#1.wav" rootNote="42" volume="-2.0dB" />
-			<sample end="49920.000" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a1.wav" rootNote="45" volume="-1.0dB" />
-			<sample end="49530.000" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c2.wav" rootNote="48" volume="-3.0dB" />
-			<sample end="61776.000" hiNote="55" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#2.wav" rootNote="51" volume="-3.0dB" />
-			<sample end="54535.000" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#2.wav" rootNote="54" />
-			<sample end="45773.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a2.wav" rootNote="57" />
-			<sample end="51337.000" hiNote="61" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c3.wav" rootNote="60" volume="-3.0dB" />
-			<sample end="52858.000" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#3.wav" rootNote="63" volume="-3.0dB" />
-			<sample end="50687.000" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#3.wav" rootNote="66" tuning="-0.10" volume="-2.0dB" />
-			<sample end="43056.000" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a3.wav" rootNote="69" volume="-2.0dB" />
-			<sample end="47814.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c4.wav" rootNote="72" volume="-3.0dB" />
+			<sample end="51766" hiNote="37" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c1.wav" rootNote="36" volume="-1.0dB" />
+			<sample end="52962" hiNote="40" hiVel="127" loNote="38" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#1.wav" rootNote="39" volume="-3.0dB" />
+			<sample end="53560" hiNote="43" hiVel="127" loNote="41" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#1.wav" rootNote="42" volume="-2.0dB" />
+			<sample end="49920" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a1.wav" rootNote="45" volume="-1.0dB" />
+			<sample end="49530" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c2.wav" rootNote="48" volume="-3.0dB" />
+			<sample end="61776" hiNote="55" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#2.wav" rootNote="51" volume="-3.0dB" />
+			<sample end="54535" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#2.wav" rootNote="54" />
+			<sample end="45773" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a2.wav" rootNote="57" />
+			<sample end="51337" hiNote="61" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c3.wav" rootNote="60" volume="-3.0dB" />
+			<sample end="52858" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#3.wav" rootNote="63" volume="-3.0dB" />
+			<sample end="50687" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#3.wav" rootNote="66" tuning="-0.10" volume="-2.0dB" />
+			<sample end="43056" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a3.wav" rootNote="69" volume="-2.0dB" />
+			<sample end="47814" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c4.wav" rootNote="72" volume="-3.0dB" />
 		</group>
 		<group name="Group 5" ampVelTrack="1">
-			<sample end="51415.000" hiNote="37" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c1.wav" rootNote="36" volume="-3.0dB" />
-			<sample end="51285.000" hiNote="40" hiVel="127" loNote="38" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#1.wav" rootNote="39" volume="-4.0dB" />
-			<sample end="49111.000" hiNote="43" hiVel="127" loNote="41" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#1.wav" rootNote="42" volume="-3.0dB" />
-			<sample end="51064.000" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a1.wav" rootNote="45" volume="-3.0dB" />
-			<sample end="48477.000" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c2.wav" rootNote="48" volume="-3.0dB" />
-			<sample end="60905.000" hiNote="55" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#2.wav" rootNote="51" volume="-4.0dB" />
-			<sample end="49748.000" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#2.wav" rootNote="54" />
-			<sample end="46683.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a2.wav" rootNote="57" />
-			<sample end="45994.000" hiNote="61" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c3.wav" rootNote="60" volume="-4.0dB" />
-			<sample end="49582.000" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#3.wav" rootNote="63" tuning="-0.05" volume="-4.0dB" />
-			<sample end="45786.000" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#3.wav" rootNote="66" tuning="-0.05" volume="-3.0dB" />
-			<sample end="42094.000" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a3.wav" rootNote="69" volume="-3.0dB" />
-			<sample end="42588.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c4.wav" rootNote="72" volume="-3.0dB" />
+			<sample end="51415" hiNote="37" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c1.wav" rootNote="36" volume="-3.0dB" />
+			<sample end="51285" hiNote="40" hiVel="127" loNote="38" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#1.wav" rootNote="39" volume="-4.0dB" />
+			<sample end="49111" hiNote="43" hiVel="127" loNote="41" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#1.wav" rootNote="42" volume="-3.0dB" />
+			<sample end="51064" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a1.wav" rootNote="45" volume="-3.0dB" />
+			<sample end="48477" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c2.wav" rootNote="48" volume="-3.0dB" />
+			<sample end="60905" hiNote="55" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#2.wav" rootNote="51" volume="-4.0dB" />
+			<sample end="49748" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#2.wav" rootNote="54" />
+			<sample end="46683" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a2.wav" rootNote="57" />
+			<sample end="45994" hiNote="61" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c3.wav" rootNote="60" volume="-4.0dB" />
+			<sample end="49582" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#3.wav" rootNote="63" tuning="-0.05" volume="-4.0dB" />
+			<sample end="45786" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#3.wav" rootNote="66" tuning="-0.05" volume="-3.0dB" />
+			<sample end="42094" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a3.wav" rootNote="69" volume="-3.0dB" />
+			<sample end="42588" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c4.wav" rootNote="72" volume="-3.0dB" />
 		</group>
 		<group name="Group 6" ampVelTrack="1">
-			<sample end="51766.000" hiNote="37" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c1.wav" rootNote="36" volume="5.0dB" />
-			<sample end="52962.000" hiNote="40" hiVel="127" loNote="38" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#1.wav" rootNote="39" volume="3.0dB" />
-			<sample end="53560.000" hiNote="43" hiVel="127" loNote="41" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#1.wav" rootNote="42" volume="4.0dB" />
-			<sample end="49920.000" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a1.wav" rootNote="45" volume="5.0dB" />
-			<sample end="49530.000" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c2.wav" rootNote="48" volume="3.0dB" />
-			<sample end="61776.000" hiNote="55" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#2.wav" rootNote="51" volume="3.0dB" />
-			<sample end="54535.000" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#2.wav" rootNote="54" />
-			<sample end="45773.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a2.wav" rootNote="57" />
-			<sample end="51337.000" hiNote="61" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c3.wav" rootNote="60" volume="3.0dB" />
-			<sample end="52858.000" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#3.wav" rootNote="63" volume="3.0dB" />
-			<sample end="50687.000" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#3.wav" rootNote="66" tuning="-0.10" volume="4.0dB" />
-			<sample end="43056.000" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a3.wav" rootNote="69" volume="4.0dB" />
-			<sample end="47814.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c4.wav" rootNote="72" volume="3.0dB" />
+			<sample end="51766" hiNote="37" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c1.wav" rootNote="36" volume="5.0dB" />
+			<sample end="52962" hiNote="40" hiVel="127" loNote="38" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#1.wav" rootNote="39" volume="3.0dB" />
+			<sample end="53560" hiNote="43" hiVel="127" loNote="41" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#1.wav" rootNote="42" volume="4.0dB" />
+			<sample end="49920" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a1.wav" rootNote="45" volume="5.0dB" />
+			<sample end="49530" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c2.wav" rootNote="48" volume="3.0dB" />
+			<sample end="61776" hiNote="55" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#2.wav" rootNote="51" volume="3.0dB" />
+			<sample end="54535" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#2.wav" rootNote="54" />
+			<sample end="45773" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a2.wav" rootNote="57" />
+			<sample end="51337" hiNote="61" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c3.wav" rootNote="60" volume="3.0dB" />
+			<sample end="52858" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#3.wav" rootNote="63" volume="3.0dB" />
+			<sample end="50687" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#3.wav" rootNote="66" tuning="-0.10" volume="4.0dB" />
+			<sample end="43056" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a3.wav" rootNote="69" volume="4.0dB" />
+			<sample end="47814" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c4.wav" rootNote="72" volume="3.0dB" />
 		</group>
 		<group name="Group 7" ampVelTrack="1">
-			<sample end="51415.000" hiNote="37" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c1.wav" rootNote="36" volume="3.0dB" />
-			<sample end="51285.000" hiNote="40" hiVel="127" loNote="38" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#1.wav" rootNote="39" volume="2.0dB" />
-			<sample end="49111.000" hiNote="43" hiVel="127" loNote="41" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#1.wav" rootNote="42" volume="3.0dB" />
-			<sample end="51064.000" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a1.wav" rootNote="45" volume="3.0dB" />
-			<sample end="48477.000" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c2.wav" rootNote="48" volume="3.0dB" />
-			<sample end="60905.000" hiNote="55" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#2.wav" rootNote="51" volume="2.0dB" />
-			<sample end="49748.000" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#2.wav" rootNote="54" />
-			<sample end="46683.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a2.wav" rootNote="57" />
-			<sample end="45994.000" hiNote="61" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c3.wav" rootNote="60" volume="2.0dB" />
-			<sample end="49582.000" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#3.wav" rootNote="63" tuning="-0.05" volume="2.0dB" />
-			<sample end="45786.000" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#3.wav" rootNote="66" tuning="-0.05" volume="3.0dB" />
-			<sample end="42094.000" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a3.wav" rootNote="69" volume="3.0dB" />
-			<sample end="42588.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c4.wav" rootNote="72" volume="3.0dB" />
+			<sample end="51415" hiNote="37" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c1.wav" rootNote="36" volume="3.0dB" />
+			<sample end="51285" hiNote="40" hiVel="127" loNote="38" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#1.wav" rootNote="39" volume="2.0dB" />
+			<sample end="49111" hiNote="43" hiVel="127" loNote="41" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#1.wav" rootNote="42" volume="3.0dB" />
+			<sample end="51064" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a1.wav" rootNote="45" volume="3.0dB" />
+			<sample end="48477" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c2.wav" rootNote="48" volume="3.0dB" />
+			<sample end="60905" hiNote="55" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#2.wav" rootNote="51" volume="2.0dB" />
+			<sample end="49748" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#2.wav" rootNote="54" />
+			<sample end="46683" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a2.wav" rootNote="57" />
+			<sample end="45994" hiNote="61" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c3.wav" rootNote="60" volume="2.0dB" />
+			<sample end="49582" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#3.wav" rootNote="63" tuning="-0.05" volume="2.0dB" />
+			<sample end="45786" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#3.wav" rootNote="66" tuning="-0.05" volume="3.0dB" />
+			<sample end="42094" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a3.wav" rootNote="69" volume="3.0dB" />
+			<sample end="42588" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c4.wav" rootNote="72" volume="3.0dB" />
 		</group>
 		<group name="Group 9" ampVelTrack="1">
-			<sample end="51766.000" hiNote="37" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c1.wav" rootNote="36" volume="5.0dB" />
-			<sample end="52962.000" hiNote="40" hiVel="127" loNote="38" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#1.wav" rootNote="39" volume="3.0dB" />
-			<sample end="53560.000" hiNote="43" hiVel="127" loNote="41" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#1.wav" rootNote="42" volume="4.0dB" />
-			<sample end="49920.000" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a1.wav" rootNote="45" volume="5.0dB" />
-			<sample end="49530.000" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c2.wav" rootNote="48" volume="3.0dB" />
-			<sample end="61776.000" hiNote="55" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#2.wav" rootNote="51" volume="3.0dB" />
-			<sample end="54535.000" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#2.wav" rootNote="54" />
-			<sample end="45773.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a2.wav" rootNote="57" />
-			<sample end="51337.000" hiNote="61" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c3.wav" rootNote="60" volume="3.0dB" />
-			<sample end="52858.000" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#3.wav" rootNote="63" volume="3.0dB" />
-			<sample end="50687.000" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#3.wav" rootNote="66" tuning="-0.10" volume="4.0dB" />
-			<sample end="43056.000" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a3.wav" rootNote="69" volume="4.0dB" />
-			<sample end="47814.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c4.wav" rootNote="72" volume="3.0dB" />
+			<sample end="51766" hiNote="37" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c1.wav" rootNote="36" volume="5.0dB" />
+			<sample end="52962" hiNote="40" hiVel="127" loNote="38" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#1.wav" rootNote="39" volume="3.0dB" />
+			<sample end="53560" hiNote="43" hiVel="127" loNote="41" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#1.wav" rootNote="42" volume="4.0dB" />
+			<sample end="49920" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a1.wav" rootNote="45" volume="5.0dB" />
+			<sample end="49530" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c2.wav" rootNote="48" volume="3.0dB" />
+			<sample end="61776" hiNote="55" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#2.wav" rootNote="51" volume="3.0dB" />
+			<sample end="54535" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#2.wav" rootNote="54" />
+			<sample end="45773" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a2.wav" rootNote="57" />
+			<sample end="51337" hiNote="61" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c3.wav" rootNote="60" volume="3.0dB" />
+			<sample end="52858" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#3.wav" rootNote="63" volume="3.0dB" />
+			<sample end="50687" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-f#3.wav" rootNote="66" tuning="-0.10" volume="4.0dB" />
+			<sample end="43056" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-a3.wav" rootNote="69" volume="4.0dB" />
+			<sample end="47814" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c4.wav" rootNote="72" volume="3.0dB" />
 		</group>
 		<group name="Group 10" ampVelTrack="1">
-			<sample end="51415.000" hiNote="37" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c1.wav" rootNote="36" volume="3.0dB" />
-			<sample end="51285.000" hiNote="40" hiVel="127" loNote="38" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#1.wav" rootNote="39" volume="2.0dB" />
-			<sample end="49111.000" hiNote="43" hiVel="127" loNote="41" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#1.wav" rootNote="42" volume="3.0dB" />
-			<sample end="51064.000" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a1.wav" rootNote="45" volume="3.0dB" />
-			<sample end="48477.000" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c2.wav" rootNote="48" volume="3.0dB" />
-			<sample end="60905.000" hiNote="55" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#2.wav" rootNote="51" volume="2.0dB" />
-			<sample end="49748.000" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#2.wav" rootNote="54" />
-			<sample end="46683.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a2.wav" rootNote="57" />
-			<sample end="45994.000" hiNote="61" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c3.wav" rootNote="60" volume="2.0dB" />
-			<sample end="49582.000" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#3.wav" rootNote="63" tuning="-0.05" volume="2.0dB" />
-			<sample end="45786.000" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#3.wav" rootNote="66" tuning="-0.05" volume="3.0dB" />
-			<sample end="42094.000" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a3.wav" rootNote="69" volume="3.0dB" />
-			<sample end="42588.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c4.wav" rootNote="72" volume="3.0dB" />
+			<sample end="51415" hiNote="37" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c1.wav" rootNote="36" volume="3.0dB" />
+			<sample end="51285" hiNote="40" hiVel="127" loNote="38" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#1.wav" rootNote="39" volume="2.0dB" />
+			<sample end="49111" hiNote="43" hiVel="127" loNote="41" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#1.wav" rootNote="42" volume="3.0dB" />
+			<sample end="51064" hiNote="46" hiVel="127" loNote="44" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a1.wav" rootNote="45" volume="3.0dB" />
+			<sample end="48477" hiNote="49" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c2.wav" rootNote="48" volume="3.0dB" />
+			<sample end="60905" hiNote="55" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#2.wav" rootNote="51" volume="2.0dB" />
+			<sample end="49748" hiNote="55" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#2.wav" rootNote="54" />
+			<sample end="46683" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a2.wav" rootNote="57" />
+			<sample end="45994" hiNote="61" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c3.wav" rootNote="60" volume="2.0dB" />
+			<sample end="49582" hiNote="64" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-d#3.wav" rootNote="63" tuning="-0.05" volume="2.0dB" />
+			<sample end="45786" hiNote="67" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-f#3.wav" rootNote="66" tuning="-0.05" volume="3.0dB" />
+			<sample end="42094" hiNote="70" hiVel="127" loNote="68" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-a3.wav" rootNote="69" volume="3.0dB" />
+			<sample end="42588" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/basses-stc-rr2-c4.wav" rootNote="72" volume="3.0dB" />
 		</group>
 	</groups>
 	<midi>
@@ -128,5 +129,4 @@
 		</cc>
 	</midi>
 	<modulators />
-	<tags />
 </DecentSampler>
