@@ -32,16 +32,16 @@
 	</ui>
 	<groups release="0.026">
 		<group name="000.061" ampVelTrack="1">
-			<sample end="265002.000" hiNote="48" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.000.wav" rootNote="28" start="0.000" />
-			<sample end="265002.000" hiNote="52" hiVel="127" loNote="49" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.004.wav" rootNote="52" start="0.000" />
-			<sample end="265002.000" hiNote="56" hiVel="127" loNote="53" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.005.wav" rootNote="55" start="0.000" />
-			<sample end="265002.000" hiNote="60" hiVel="127" loNote="57" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.006.wav" rootNote="60" start="0.000" />
-			<sample end="265002.000" hiNote="64" hiVel="127" loNote="61" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.007.wav" rootNote="64" start="0.000" />
-			<sample end="265002.000" hiNote="68" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.008.wav" rootNote="67" start="0.000" />
-			<sample end="265002.000" hiNote="72" hiVel="127" loNote="69" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.009.wav" rootNote="72" start="0.000" />
-			<sample end="265002.000" hiNote="76" hiVel="127" loNote="73" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.010.wav" rootNote="76" start="0.000" />
-			<sample end="265002.000" hiNote="80" hiVel="127" loNote="77" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="10000.000" path="Resources/French Horn - Ensemble Samples/000.061.011.wav" rootNote="79" start="0.000" />
-			<sample end="265002.000" hiNote="108" hiVel="127" loNote="81" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.012.wav" rootNote="84" start="0.000" />
+			<sample end="265002.000" hiNote="48" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.000.wav" rootNote="28" />
+			<sample end="265002.000" hiNote="52" hiVel="127" loNote="49" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.004.wav" rootNote="52" />
+			<sample end="265002.000" hiNote="56" hiVel="127" loNote="53" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.005.wav" rootNote="55" />
+			<sample end="265002.000" hiNote="60" hiVel="127" loNote="57" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.006.wav" rootNote="60" />
+			<sample end="265002.000" hiNote="64" hiVel="127" loNote="61" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.007.wav" rootNote="64" />
+			<sample end="265002.000" hiNote="68" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.008.wav" rootNote="67" />
+			<sample end="265002.000" hiNote="72" hiVel="127" loNote="69" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.009.wav" rootNote="72" />
+			<sample end="265002.000" hiNote="76" hiVel="127" loNote="73" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.010.wav" rootNote="76" />
+			<sample end="265002.000" hiNote="80" hiVel="127" loNote="77" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="10000.000" path="Resources/French Horn - Ensemble Samples/000.061.011.wav" rootNote="79" />
+			<sample end="265002.000" hiNote="108" hiVel="127" loNote="81" loVel="0" loopEnabled="true" loopEnd="265000.000" loopStart="100000.000" path="Resources/French Horn - Ensemble Samples/000.061.012.wav" rootNote="84" />
 		</group>
 	</groups>
 	<midi>

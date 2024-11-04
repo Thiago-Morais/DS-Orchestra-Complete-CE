@@ -54,7 +54,7 @@
 			<sample end="181195.000" hiNote="79" hiVel="104" loNote="78" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/4_G_mf-PB.wav" rootNote="79" start="691.000" />
 			<sample end="180837.000" hiNote="81" hiVel="104" loNote="80" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/4_A_mf-PB.wav" rootNote="81" start="868.000" />
 			<sample end="179720.000" hiNote="83" hiVel="104" loNote="82" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/4_B_mf-PB.wav" rootNote="83" start="1365.000" />
-			<sample end="188671.000" hiNote="87" hiVel="104" loNote="84" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/5_Db_mf-PB.wav" rootNote="85" start="0.000" />
+			<sample end="188671.000" hiNote="87" hiVel="104" loNote="84" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/5_Db_mf-PB.wav" rootNote="85" />
 			<sample end="185120.000" hiNote="91" hiVel="104" loNote="88" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/5_F_mf-PB.wav" rootNote="89" start="1187.000" />
 			<sample end="188671.000" hiNote="95" hiVel="104" loNote="92" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/5_B_mf-PB.wav" rootNote="95" start="868.000" />
 			<sample end="160271.000" hiNote="97" hiVel="104" loNote="96" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/6_Db_mf-PB.wav" rootNote="97" start="1046.000" />
@@ -84,7 +84,7 @@
 			<sample end="181195.000" hiNote="79" hiVel="104" loNote="78" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/4_G_mf-PB.wav" rootNote="79" start="691.000" />
 			<sample end="180837.000" hiNote="81" hiVel="104" loNote="80" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/4_A_mf-PB.wav" rootNote="81" start="868.000" />
 			<sample end="179720.000" hiNote="83" hiVel="104" loNote="82" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/4_B_mf-PB.wav" rootNote="83" start="1365.000" />
-			<sample end="188671.000" hiNote="87" hiVel="104" loNote="84" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/5_Db_mf-PB.wav" rootNote="85" start="0.000" />
+			<sample end="188671.000" hiNote="87" hiVel="104" loNote="84" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/5_Db_mf-PB.wav" rootNote="85" />
 			<sample end="185120.000" hiNote="91" hiVel="104" loNote="88" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/5_F_mf-PB.wav" rootNote="89" start="1187.000" />
 			<sample end="188671.000" hiNote="95" hiVel="104" loNote="92" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/5_B_mf-PB.wav" rootNote="95" start="868.000" />
 			<sample end="160271.000" hiNote="97" hiVel="104" loNote="96" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/6_Db_mf-PB.wav" rootNote="97" start="1046.000" />
@@ -144,7 +144,7 @@
 			<sample end="181195.000" hiNote="79" hiVel="104" loNote="78" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/4_G_mf-PB.wav" rootNote="79" start="691.000" />
 			<sample end="180837.000" hiNote="81" hiVel="104" loNote="80" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/4_A_mf-PB.wav" rootNote="81" start="868.000" />
 			<sample end="179720.000" hiNote="83" hiVel="104" loNote="82" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/4_B_mf-PB.wav" rootNote="83" start="1365.000" />
-			<sample end="188671.000" hiNote="87" hiVel="104" loNote="84" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/5_Db_mf-PB.wav" rootNote="85" start="0.000" />
+			<sample end="188671.000" hiNote="87" hiVel="104" loNote="84" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/5_Db_mf-PB.wav" rootNote="85" />
 			<sample end="185120.000" hiNote="91" hiVel="104" loNote="88" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/5_F_mf-PB.wav" rootNote="89" start="1187.000" />
 			<sample end="188671.000" hiNote="95" hiVel="104" loNote="92" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/5_B_mf-PB.wav" rootNote="95" start="868.000" />
 			<sample end="160271.000" hiNote="97" hiVel="104" loNote="96" loVel="1" path="Resources/clarinet-SOLO-KS-C2 Samples/6_Db_mf-PB.wav" rootNote="97" start="1046.000" />

@@ -32,29 +32,29 @@
 	</ui>
 	<groups attack="0.015" release="0.029">
 		<group name="French Fifths" ampVelTrack="1">
-			<sample end="105857.000" hiNote="51" hiVel="127" loNote="36" loVel="0" loopEnabled="true" loopEnd="105852.000" loopStart="49686.000" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" rootNote="52" start="0.000" />
-			<sample end="105857.000" hiNote="58" hiVel="127" loNote="36" loVel="0" loopEnabled="true" loopEnd="105852.000" loopStart="49686.000" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" rootNote="59" start="0.000" />
-			<sample end="105857.000" hiNote="54" hiVel="127" loNote="52" loVel="0" loopEnabled="true" loopEnd="105852.000" loopStart="49686.000" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" rootNote="52" start="0.000" />
-			<sample end="134568.000" hiNote="57" hiVel="127" loNote="55" loVel="0" loopEnabled="true" loopEnd="134563.000" loopStart="76520.000" path="Resources/French Horn -  Fifths Samples/F Horns G2.wav" rootNote="55" start="0.000" />
-			<sample end="127792.000" hiNote="62" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="127787.000" loopStart="63136.000" path="Resources/French Horn -  Fifths Samples/F Horns C3.wav" rootNote="60" start="0.000" />
-			<sample end="105857.000" hiNote="61" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="105852.000" loopStart="49686.000" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" rootNote="59" start="0.000" />
-			<sample end="134568.000" hiNote="64" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="134563.000" loopStart="76520.000" path="Resources/French Horn -  Fifths Samples/F Horns G2.wav" rootNote="62" start="0.000" />
-			<sample end="117134.000" hiNote="65" hiVel="127" loNote="63" loVel="0" loopEnabled="true" loopEnd="117129.000" loopStart="58998.000" path="Resources/French Horn -  Fifths Samples/F Horns E3.wav" rootNote="64" start="0.000" />
-			<sample end="127792.000" hiNote="69" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="127787.000" loopStart="63136.000" path="Resources/French Horn -  Fifths Samples/F Horns C3.wav" rootNote="67" start="0.000" />
-			<sample end="114858.000" hiNote="69" hiVel="127" loNote="66" loVel="0" loopEnabled="true" loopEnd="114853.000" loopStart="65492.000" path="Resources/French Horn -  Fifths Samples/F Horns G3.wav" rootNote="67" start="0.000" />
-			<sample end="117134.000" hiNote="72" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="117129.000" loopStart="58998.000" path="Resources/French Horn -  Fifths Samples/F Horns E3.wav" rootNote="71" start="0.000" />
-			<sample end="126242.000" hiNote="80" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="126237.000" loopStart="65282.000" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" rootNote="70" start="0.000" />
-			<sample end="114858.000" hiNote="76" hiVel="127" loNote="73" loVel="0" loopEnabled="true" loopEnd="114853.000" loopStart="65492.000" path="Resources/French Horn -  Fifths Samples/F Horns G3.wav" rootNote="74" start="0.000" />
-			<sample end="126242.000" hiNote="84" hiVel="127" loNote="77" loVel="0" loopEnabled="true" loopEnd="126237.000" loopStart="65282.000" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" rootNote="77" start="0.000" />
-			<sample end="126242.000" hiNote="81" hiVel="127" loNote="81" loVel="0" loopEnabled="true" loopEnd="126237.000" loopStart="65282.000" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" rootNote="70" start="0.000" />
-			<sample end="126242.000" hiNote="82" hiVel="127" loNote="82" loVel="0" loopEnabled="true" loopEnd="126237.000" loopStart="65282.000" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" rootNote="70" start="0.000" />
-			<sample end="59164.000" hiNote="83" hiVel="127" loNote="83" loVel="0" loopEnabled="true" loopEnd="59159.000" loopStart="30821.000" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" rootNote="83" start="0.000" />
-			<sample end="59164.000" hiNote="84" hiVel="127" loNote="84" loVel="0" loopEnabled="true" loopEnd="59159.000" loopStart="30821.000" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" rootNote="83" start="0.000" />
-			<sample end="126242.000" hiNote="84" hiVel="127" loNote="88" loVel="0" loopEnabled="true" loopEnd="126237.000" loopStart="65282.000" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" rootNote="77" start="0.000" />
-			<sample end="126242.000" hiNote="84" hiVel="127" loNote="89" loVel="0" loopEnabled="true" loopEnd="126237.000" loopStart="65282.000" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" rootNote="77" start="0.000" />
-			<sample end="59164.000" hiNote="84" hiVel="127" loNote="90" loVel="0" loopEnabled="true" loopEnd="59159.000" loopStart="30821.000" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" rootNote="90" start="0.000" />
-			<sample end="59164.000" hiNote="84" hiVel="127" loNote="91" loVel="0" loopEnabled="true" loopEnd="59159.000" loopStart="30821.000" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" rootNote="90" start="0.000" />
-			<sample end="59164.000" hiNote="84" hiVel="127" loNote="97" loVel="0" loopEnabled="true" loopEnd="59159.000" loopStart="30821.000" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" rootNote="90" start="0.000" />
+			<sample end="105857.000" hiNote="51" hiVel="127" loNote="36" loVel="0" loopEnabled="true" loopEnd="105852.000" loopStart="49686.000" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" rootNote="52" />
+			<sample end="105857.000" hiNote="58" hiVel="127" loNote="36" loVel="0" loopEnabled="true" loopEnd="105852.000" loopStart="49686.000" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" rootNote="59" />
+			<sample end="105857.000" hiNote="54" hiVel="127" loNote="52" loVel="0" loopEnabled="true" loopEnd="105852.000" loopStart="49686.000" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" rootNote="52" />
+			<sample end="134568.000" hiNote="57" hiVel="127" loNote="55" loVel="0" loopEnabled="true" loopEnd="134563.000" loopStart="76520.000" path="Resources/French Horn -  Fifths Samples/F Horns G2.wav" rootNote="55" />
+			<sample end="127792.000" hiNote="62" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="127787.000" loopStart="63136.000" path="Resources/French Horn -  Fifths Samples/F Horns C3.wav" rootNote="60" />
+			<sample end="105857.000" hiNote="61" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="105852.000" loopStart="49686.000" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" rootNote="59" />
+			<sample end="134568.000" hiNote="64" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="134563.000" loopStart="76520.000" path="Resources/French Horn -  Fifths Samples/F Horns G2.wav" rootNote="62" />
+			<sample end="117134.000" hiNote="65" hiVel="127" loNote="63" loVel="0" loopEnabled="true" loopEnd="117129.000" loopStart="58998.000" path="Resources/French Horn -  Fifths Samples/F Horns E3.wav" rootNote="64" />
+			<sample end="127792.000" hiNote="69" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="127787.000" loopStart="63136.000" path="Resources/French Horn -  Fifths Samples/F Horns C3.wav" rootNote="67" />
+			<sample end="114858.000" hiNote="69" hiVel="127" loNote="66" loVel="0" loopEnabled="true" loopEnd="114853.000" loopStart="65492.000" path="Resources/French Horn -  Fifths Samples/F Horns G3.wav" rootNote="67" />
+			<sample end="117134.000" hiNote="72" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="117129.000" loopStart="58998.000" path="Resources/French Horn -  Fifths Samples/F Horns E3.wav" rootNote="71" />
+			<sample end="126242.000" hiNote="80" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="126237.000" loopStart="65282.000" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" rootNote="70" />
+			<sample end="114858.000" hiNote="76" hiVel="127" loNote="73" loVel="0" loopEnabled="true" loopEnd="114853.000" loopStart="65492.000" path="Resources/French Horn -  Fifths Samples/F Horns G3.wav" rootNote="74" />
+			<sample end="126242.000" hiNote="84" hiVel="127" loNote="77" loVel="0" loopEnabled="true" loopEnd="126237.000" loopStart="65282.000" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" rootNote="77" />
+			<sample end="126242.000" hiNote="81" hiVel="127" loNote="81" loVel="0" loopEnabled="true" loopEnd="126237.000" loopStart="65282.000" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" rootNote="70" />
+			<sample end="126242.000" hiNote="82" hiVel="127" loNote="82" loVel="0" loopEnabled="true" loopEnd="126237.000" loopStart="65282.000" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" rootNote="70" />
+			<sample end="59164.000" hiNote="83" hiVel="127" loNote="83" loVel="0" loopEnabled="true" loopEnd="59159.000" loopStart="30821.000" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" rootNote="83" />
+			<sample end="59164.000" hiNote="84" hiVel="127" loNote="84" loVel="0" loopEnabled="true" loopEnd="59159.000" loopStart="30821.000" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" rootNote="83" />
+			<sample end="126242.000" hiNote="84" hiVel="127" loNote="88" loVel="0" loopEnabled="true" loopEnd="126237.000" loopStart="65282.000" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" rootNote="77" />
+			<sample end="126242.000" hiNote="84" hiVel="127" loNote="89" loVel="0" loopEnabled="true" loopEnd="126237.000" loopStart="65282.000" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" rootNote="77" />
+			<sample end="59164.000" hiNote="84" hiVel="127" loNote="90" loVel="0" loopEnabled="true" loopEnd="59159.000" loopStart="30821.000" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" rootNote="90" />
+			<sample end="59164.000" hiNote="84" hiVel="127" loNote="91" loVel="0" loopEnabled="true" loopEnd="59159.000" loopStart="30821.000" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" rootNote="90" />
+			<sample end="59164.000" hiNote="84" hiVel="127" loNote="97" loVel="0" loopEnabled="true" loopEnd="59159.000" loopStart="30821.000" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" rootNote="90" />
 		</group>
 	</groups>
 	<midi>

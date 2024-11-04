@@ -32,9 +32,9 @@
 	</ui>
 	<groups attack="0.000" release="0.028">
 		<group name="Instrument1" ampVelTrack="1">
-			<sample end="29250.000" hiNote="127" hiVel="127" loNote="0" loVel="0" path="Resources/brasswagner Samples/wagner.wav" rootNote="60" start="0.000" />
-			<sample end="29250.000" hiNote="127" hiVel="127" loNote="0" loVel="0" path="Resources/brasswagner Samples/wagner.wav" rootNote="48" start="0.000" />
-			<sample end="29250.000" hiNote="127" hiVel="127" loNote="0" loVel="0" path="Resources/brasswagner Samples/wagner.wav" rootNote="60" start="0.000" />
+			<sample end="29250.000" hiNote="127" hiVel="127" loNote="0" loVel="0" path="Resources/brasswagner Samples/wagner.wav" rootNote="60" />
+			<sample end="29250.000" hiNote="127" hiVel="127" loNote="0" loVel="0" path="Resources/brasswagner Samples/wagner.wav" rootNote="48" />
+			<sample end="29250.000" hiNote="127" hiVel="127" loNote="0" loVel="0" path="Resources/brasswagner Samples/wagner.wav" rootNote="60" />
 		</group>
 	</groups>
 	<midi>

@@ -32,17 +32,17 @@
 	</ui>
 	<groups attack="0.000" release="0.028">
 		<group name="Sustain" ampVelTrack="1">
-			<sample end="223561.000" hiNote="59" hiVel="127" loNote="57" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-a#2.wav" rootNote="58" start="0.000" tuning="0.16" volume="6.020599913279624dB" />
-			<sample end="228280.000" hiNote="71" hiVel="127" loNote="69" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-a#3.wav" rootNote="70" start="0.000" tuning="0.08" volume="6.020599913279624dB" />
-			<sample end="219486.000" hiNote="50" hiVel="127" loNote="48" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-c#2.wav" rootNote="49" start="0.000" tuning="0.01" volume="6.020599913279624dB" />
-			<sample end="217581.000" hiNote="62" hiVel="127" loNote="60" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-c#3.wav" rootNote="61" start="0.000" tuning="0.08" volume="6.020599913279624dB" />
-			<sample end="222690.000" hiNote="74" hiVel="127" loNote="72" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-c#4.wav" rootNote="73" start="0.000" tuning="0.08" volume="6.020599913279624dB" />
+			<sample end="223561.000" hiNote="59" hiVel="127" loNote="57" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-a#2.wav" rootNote="58" tuning="0.16" volume="6.020599913279624dB" />
+			<sample end="228280.000" hiNote="71" hiVel="127" loNote="69" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-a#3.wav" rootNote="70" tuning="0.08" volume="6.020599913279624dB" />
+			<sample end="219486.000" hiNote="50" hiVel="127" loNote="48" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-c#2.wav" rootNote="49" tuning="0.01" volume="6.020599913279624dB" />
+			<sample end="217581.000" hiNote="62" hiVel="127" loNote="60" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-c#3.wav" rootNote="61" tuning="0.08" volume="6.020599913279624dB" />
+			<sample end="222690.000" hiNote="74" hiVel="127" loNote="72" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-c#4.wav" rootNote="73" tuning="0.08" volume="6.020599913279624dB" />
 			<sample end="204044.000" hiNote="41" hiVel="127" loNote="40" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-e1.wav" rootNote="40" start="1174.000" tuning="0.08" volume="6.020599913279624dB" />
 			<sample end="219752.000" hiNote="53" hiVel="127" loNote="51" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-e2.wav" rootNote="52" start="80.000" tuning="-0.16" volume="6.020599913279624dB" />
-			<sample end="219726.000" hiNote="65" hiVel="127" loNote="63" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-e3.wav" rootNote="64" start="0.000" tuning="0.08" volume="6.020599913279624dB" />
+			<sample end="219726.000" hiNote="65" hiVel="127" loNote="63" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-e3.wav" rootNote="64" tuning="0.08" volume="6.020599913279624dB" />
 			<sample end="213954.000" hiNote="44" hiVel="127" loNote="42" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-g1.wav" rootNote="43" start="12.000" tuning="0.08" volume="6.020599913279624dB" />
 			<sample end="224796.000" hiNote="56" hiVel="127" loNote="54" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-g2.wav" rootNote="55" start="96.000" tuning="0.01" volume="6.020599913279624dB" />
-			<sample end="221026.000" hiNote="68" hiVel="127" loNote="66" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-g3.wav" rootNote="67" start="0.000" tuning="0.08" volume="6.020599913279624dB" />
+			<sample end="221026.000" hiNote="68" hiVel="127" loNote="66" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-g3.wav" rootNote="67" tuning="0.08" volume="6.020599913279624dB" />
 			<sample end="217763.000" hiNote="47" hiVel="127" loNote="45" loVel="1" path="Resources/Tuba - Sustain Samples/tuba-sus-a#1.wav" rootNote="46" start="531.000" tuning="0.03" volume="6.326845596191342dB" />
 		</group>
 	</groups>

@@ -32,82 +32,82 @@
 	</ui>
 	<groups attack="0.040" release="0.072">
 		<group name="group1-RR1" ampVelTrack="1">
-			<sample end="41243.000" hiNote="41" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E0-rr1-PB.wav" rootNote="40" start="0.000" volume="-5.5dB" />
-			<sample end="46903.000" hiNote="42" hiVel="127" loNote="42" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_F#0-rr1-PB.wav" rootNote="42" start="0.000" volume="-5.5dB" />
-			<sample end="34369.000" hiNote="45" hiVel="127" loNote="43" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G0-rr1-PB.wav" rootNote="43" start="0.000" volume="-5.5dB" />
-			<sample end="36002.000" hiNote="47" hiVel="127" loNote="46" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A#0-rr1-PB.wav" rootNote="46" start="0.000" volume="-5.5dB" />
-			<sample end="36761.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C1-rr1-PB.wav" rootNote="48" start="0.000" volume="-5.5dB" />
-			<sample end="33864.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_D1-rr1-PB.wav" rootNote="50" start="0.000" volume="-5.5dB" />
-			<sample end="36795.000" hiNote="55" hiVel="127" loNote="52" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E1-rr1-PB.wav" rootNote="52" start="0.000" volume="-5.5dB" />
-			<sample end="36416.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A1-rr1-PB.wav" rootNote="57" start="0.000" volume="-5.5dB" />
-			<sample end="23450.000" hiNote="65" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C#2-rr1-PB.wav" rootNote="61" start="0.000" volume="-5.5dB" />
-			<sample end="30570.000" hiNote="70" hiVel="127" loNote="66" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G#2-rr1-PB.wav" rootNote="68" start="0.000" volume="-5.5dB" />
-			<sample end="18208.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_B2-rr1-PB.wav" rootNote="71" start="0.000" volume="-5.5dB" />
+			<sample end="41243.000" hiNote="41" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E0-rr1-PB.wav" rootNote="40" volume="-5.5dB" />
+			<sample end="46903.000" hiNote="42" hiVel="127" loNote="42" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_F#0-rr1-PB.wav" rootNote="42" volume="-5.5dB" />
+			<sample end="34369.000" hiNote="45" hiVel="127" loNote="43" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G0-rr1-PB.wav" rootNote="43" volume="-5.5dB" />
+			<sample end="36002.000" hiNote="47" hiVel="127" loNote="46" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A#0-rr1-PB.wav" rootNote="46" volume="-5.5dB" />
+			<sample end="36761.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C1-rr1-PB.wav" rootNote="48" volume="-5.5dB" />
+			<sample end="33864.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_D1-rr1-PB.wav" rootNote="50" volume="-5.5dB" />
+			<sample end="36795.000" hiNote="55" hiVel="127" loNote="52" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E1-rr1-PB.wav" rootNote="52" volume="-5.5dB" />
+			<sample end="36416.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A1-rr1-PB.wav" rootNote="57" volume="-5.5dB" />
+			<sample end="23450.000" hiNote="65" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C#2-rr1-PB.wav" rootNote="61" volume="-5.5dB" />
+			<sample end="30570.000" hiNote="70" hiVel="127" loNote="66" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G#2-rr1-PB.wav" rootNote="68" volume="-5.5dB" />
+			<sample end="18208.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_B2-rr1-PB.wav" rootNote="71" volume="-5.5dB" />
 		</group>
 		<group name="group2-RR2" ampVelTrack="1">
-			<sample end="41243.000" hiNote="41" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E0-rr2-PB.wav" rootNote="40" start="0.000" volume="-5.5dB" />
-			<sample end="46903.000" hiNote="42" hiVel="127" loNote="42" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_F#0-rr2-PB.wav" rootNote="42" start="0.000" volume="-5.5dB" />
-			<sample end="34369.000" hiNote="45" hiVel="127" loNote="43" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G0-rr2-PB.wav" rootNote="43" start="0.000" volume="-5.5dB" />
-			<sample end="36002.000" hiNote="47" hiVel="127" loNote="46" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A#0-rr2-PB.wav" rootNote="46" start="0.000" volume="-5.5dB" />
-			<sample end="36761.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C1-rr2-PB.wav" rootNote="48" start="0.000" volume="-5.5dB" />
-			<sample end="33864.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_D1-rr2-PB.wav" rootNote="50" start="0.000" volume="-5.5dB" />
-			<sample end="36795.000" hiNote="55" hiVel="127" loNote="52" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E1-rr2-PB.wav" rootNote="52" start="0.000" volume="-5.5dB" />
-			<sample end="36416.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A1-rr2-PB.wav" rootNote="57" start="0.000" volume="-5.5dB" />
-			<sample end="23450.000" hiNote="65" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C#2-rr2-PB.wav" rootNote="61" start="0.000" volume="-5.5dB" />
-			<sample end="31673.000" hiNote="70" hiVel="127" loNote="66" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G#2-rr2-PB.wav" rootNote="68" start="0.000" volume="-5.5dB" />
-			<sample end="18208.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_B2-rr2-PB.wav" rootNote="71" start="0.000" volume="-5.5dB" />
+			<sample end="41243.000" hiNote="41" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E0-rr2-PB.wav" rootNote="40" volume="-5.5dB" />
+			<sample end="46903.000" hiNote="42" hiVel="127" loNote="42" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_F#0-rr2-PB.wav" rootNote="42" volume="-5.5dB" />
+			<sample end="34369.000" hiNote="45" hiVel="127" loNote="43" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G0-rr2-PB.wav" rootNote="43" volume="-5.5dB" />
+			<sample end="36002.000" hiNote="47" hiVel="127" loNote="46" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A#0-rr2-PB.wav" rootNote="46" volume="-5.5dB" />
+			<sample end="36761.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C1-rr2-PB.wav" rootNote="48" volume="-5.5dB" />
+			<sample end="33864.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_D1-rr2-PB.wav" rootNote="50" volume="-5.5dB" />
+			<sample end="36795.000" hiNote="55" hiVel="127" loNote="52" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E1-rr2-PB.wav" rootNote="52" volume="-5.5dB" />
+			<sample end="36416.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A1-rr2-PB.wav" rootNote="57" volume="-5.5dB" />
+			<sample end="23450.000" hiNote="65" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C#2-rr2-PB.wav" rootNote="61" volume="-5.5dB" />
+			<sample end="31673.000" hiNote="70" hiVel="127" loNote="66" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G#2-rr2-PB.wav" rootNote="68" volume="-5.5dB" />
+			<sample end="18208.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_B2-rr2-PB.wav" rootNote="71" volume="-5.5dB" />
 		</group>
 		<group name="group1-RR1" ampVelTrack="1">
-			<sample end="41243.000" hiNote="41" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E0-rr1-PB.wav" rootNote="40" start="0.000" />
-			<sample end="46903.000" hiNote="42" hiVel="127" loNote="42" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_F#0-rr1-PB.wav" rootNote="42" start="0.000" />
-			<sample end="34369.000" hiNote="45" hiVel="127" loNote="43" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G0-rr1-PB.wav" rootNote="43" start="0.000" />
-			<sample end="36002.000" hiNote="47" hiVel="127" loNote="46" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A#0-rr1-PB.wav" rootNote="46" start="0.000" />
-			<sample end="36761.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C1-rr1-PB.wav" rootNote="48" start="0.000" />
-			<sample end="33864.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_D1-rr1-PB.wav" rootNote="50" start="0.000" />
-			<sample end="36795.000" hiNote="55" hiVel="127" loNote="52" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E1-rr1-PB.wav" rootNote="52" start="0.000" />
-			<sample end="36416.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A1-rr1-PB.wav" rootNote="57" start="0.000" />
-			<sample end="23450.000" hiNote="65" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C#2-rr1-PB.wav" rootNote="61" start="0.000" />
-			<sample end="30570.000" hiNote="70" hiVel="127" loNote="66" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G#2-rr1-PB.wav" rootNote="68" start="0.000" />
-			<sample end="18208.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_B2-rr1-PB.wav" rootNote="71" start="0.000" />
+			<sample end="41243.000" hiNote="41" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E0-rr1-PB.wav" rootNote="40" />
+			<sample end="46903.000" hiNote="42" hiVel="127" loNote="42" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_F#0-rr1-PB.wav" rootNote="42" />
+			<sample end="34369.000" hiNote="45" hiVel="127" loNote="43" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G0-rr1-PB.wav" rootNote="43" />
+			<sample end="36002.000" hiNote="47" hiVel="127" loNote="46" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A#0-rr1-PB.wav" rootNote="46" />
+			<sample end="36761.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C1-rr1-PB.wav" rootNote="48" />
+			<sample end="33864.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_D1-rr1-PB.wav" rootNote="50" />
+			<sample end="36795.000" hiNote="55" hiVel="127" loNote="52" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E1-rr1-PB.wav" rootNote="52" />
+			<sample end="36416.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A1-rr1-PB.wav" rootNote="57" />
+			<sample end="23450.000" hiNote="65" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C#2-rr1-PB.wav" rootNote="61" />
+			<sample end="30570.000" hiNote="70" hiVel="127" loNote="66" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G#2-rr1-PB.wav" rootNote="68" />
+			<sample end="18208.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_B2-rr1-PB.wav" rootNote="71" />
 		</group>
 		<group name="group2-RR2" ampVelTrack="1">
-			<sample end="41243.000" hiNote="41" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E0-rr2-PB.wav" rootNote="40" start="0.000" />
-			<sample end="46903.000" hiNote="42" hiVel="127" loNote="42" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_F#0-rr2-PB.wav" rootNote="42" start="0.000" />
-			<sample end="34369.000" hiNote="45" hiVel="127" loNote="43" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G0-rr2-PB.wav" rootNote="43" start="0.000" />
-			<sample end="36002.000" hiNote="47" hiVel="127" loNote="46" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A#0-rr2-PB.wav" rootNote="46" start="0.000" />
-			<sample end="36761.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C1-rr2-PB.wav" rootNote="48" start="0.000" />
-			<sample end="33864.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_D1-rr2-PB.wav" rootNote="50" start="0.000" />
-			<sample end="36795.000" hiNote="55" hiVel="127" loNote="52" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E1-rr2-PB.wav" rootNote="52" start="0.000" />
-			<sample end="36416.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A1-rr2-PB.wav" rootNote="57" start="0.000" />
-			<sample end="23450.000" hiNote="65" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C#2-rr2-PB.wav" rootNote="61" start="0.000" />
-			<sample end="31673.000" hiNote="70" hiVel="127" loNote="66" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G#2-rr2-PB.wav" rootNote="68" start="0.000" />
-			<sample end="18208.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_B2-rr2-PB.wav" rootNote="71" start="0.000" />
+			<sample end="41243.000" hiNote="41" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E0-rr2-PB.wav" rootNote="40" />
+			<sample end="46903.000" hiNote="42" hiVel="127" loNote="42" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_F#0-rr2-PB.wav" rootNote="42" />
+			<sample end="34369.000" hiNote="45" hiVel="127" loNote="43" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G0-rr2-PB.wav" rootNote="43" />
+			<sample end="36002.000" hiNote="47" hiVel="127" loNote="46" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A#0-rr2-PB.wav" rootNote="46" />
+			<sample end="36761.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C1-rr2-PB.wav" rootNote="48" />
+			<sample end="33864.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_D1-rr2-PB.wav" rootNote="50" />
+			<sample end="36795.000" hiNote="55" hiVel="127" loNote="52" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E1-rr2-PB.wav" rootNote="52" />
+			<sample end="36416.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A1-rr2-PB.wav" rootNote="57" />
+			<sample end="23450.000" hiNote="65" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C#2-rr2-PB.wav" rootNote="61" />
+			<sample end="31673.000" hiNote="70" hiVel="127" loNote="66" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G#2-rr2-PB.wav" rootNote="68" />
+			<sample end="18208.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_B2-rr2-PB.wav" rootNote="71" />
 		</group>
 		<group name="group1-RR1" ampVelTrack="1">
-			<sample end="41243.000" hiNote="41" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E0-rr1-PB.wav" rootNote="40" start="0.000" />
-			<sample end="46903.000" hiNote="42" hiVel="127" loNote="42" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_F#0-rr1-PB.wav" rootNote="42" start="0.000" />
-			<sample end="34369.000" hiNote="45" hiVel="127" loNote="43" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G0-rr1-PB.wav" rootNote="43" start="0.000" />
-			<sample end="36002.000" hiNote="47" hiVel="127" loNote="46" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A#0-rr1-PB.wav" rootNote="46" start="0.000" />
-			<sample end="36761.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C1-rr1-PB.wav" rootNote="48" start="0.000" />
-			<sample end="33864.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_D1-rr1-PB.wav" rootNote="50" start="0.000" />
-			<sample end="36795.000" hiNote="55" hiVel="127" loNote="52" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E1-rr1-PB.wav" rootNote="52" start="0.000" />
-			<sample end="36416.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A1-rr1-PB.wav" rootNote="57" start="0.000" />
-			<sample end="23450.000" hiNote="65" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C#2-rr1-PB.wav" rootNote="61" start="0.000" />
-			<sample end="30570.000" hiNote="70" hiVel="127" loNote="66" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G#2-rr1-PB.wav" rootNote="68" start="0.000" />
-			<sample end="18208.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_B2-rr1-PB.wav" rootNote="71" start="0.000" />
+			<sample end="41243.000" hiNote="41" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E0-rr1-PB.wav" rootNote="40" />
+			<sample end="46903.000" hiNote="42" hiVel="127" loNote="42" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_F#0-rr1-PB.wav" rootNote="42" />
+			<sample end="34369.000" hiNote="45" hiVel="127" loNote="43" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G0-rr1-PB.wav" rootNote="43" />
+			<sample end="36002.000" hiNote="47" hiVel="127" loNote="46" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A#0-rr1-PB.wav" rootNote="46" />
+			<sample end="36761.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C1-rr1-PB.wav" rootNote="48" />
+			<sample end="33864.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_D1-rr1-PB.wav" rootNote="50" />
+			<sample end="36795.000" hiNote="55" hiVel="127" loNote="52" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E1-rr1-PB.wav" rootNote="52" />
+			<sample end="36416.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A1-rr1-PB.wav" rootNote="57" />
+			<sample end="23450.000" hiNote="65" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C#2-rr1-PB.wav" rootNote="61" />
+			<sample end="30570.000" hiNote="70" hiVel="127" loNote="66" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G#2-rr1-PB.wav" rootNote="68" />
+			<sample end="18208.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_B2-rr1-PB.wav" rootNote="71" />
 		</group>
 		<group name="group2-RR2" ampVelTrack="1">
-			<sample end="41243.000" hiNote="41" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E0-rr2-PB.wav" rootNote="40" start="0.000" />
-			<sample end="46903.000" hiNote="42" hiVel="127" loNote="42" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_F#0-rr2-PB.wav" rootNote="42" start="0.000" />
-			<sample end="34369.000" hiNote="45" hiVel="127" loNote="43" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G0-rr2-PB.wav" rootNote="43" start="0.000" />
-			<sample end="36002.000" hiNote="47" hiVel="127" loNote="46" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A#0-rr2-PB.wav" rootNote="46" start="0.000" />
-			<sample end="36761.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C1-rr2-PB.wav" rootNote="48" start="0.000" />
-			<sample end="33864.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_D1-rr2-PB.wav" rootNote="50" start="0.000" />
-			<sample end="36795.000" hiNote="55" hiVel="127" loNote="52" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E1-rr2-PB.wav" rootNote="52" start="0.000" />
-			<sample end="36416.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A1-rr2-PB.wav" rootNote="57" start="0.000" />
-			<sample end="23450.000" hiNote="65" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C#2-rr2-PB.wav" rootNote="61" start="0.000" />
-			<sample end="31673.000" hiNote="70" hiVel="127" loNote="66" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G#2-rr2-PB.wav" rootNote="68" start="0.000" />
-			<sample end="18208.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_B2-rr2-PB.wav" rootNote="71" start="0.000" />
+			<sample end="41243.000" hiNote="41" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E0-rr2-PB.wav" rootNote="40" />
+			<sample end="46903.000" hiNote="42" hiVel="127" loNote="42" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_F#0-rr2-PB.wav" rootNote="42" />
+			<sample end="34369.000" hiNote="45" hiVel="127" loNote="43" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G0-rr2-PB.wav" rootNote="43" />
+			<sample end="36002.000" hiNote="47" hiVel="127" loNote="46" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A#0-rr2-PB.wav" rootNote="46" />
+			<sample end="36761.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C1-rr2-PB.wav" rootNote="48" />
+			<sample end="33864.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_D1-rr2-PB.wav" rootNote="50" />
+			<sample end="36795.000" hiNote="55" hiVel="127" loNote="52" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_E1-rr2-PB.wav" rootNote="52" />
+			<sample end="36416.000" hiNote="58" hiVel="127" loNote="56" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_A1-rr2-PB.wav" rootNote="57" />
+			<sample end="23450.000" hiNote="65" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_C#2-rr2-PB.wav" rootNote="61" />
+			<sample end="31673.000" hiNote="70" hiVel="127" loNote="66" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_G#2-rr2-PB.wav" rootNote="68" />
+			<sample end="18208.000" hiNote="79" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Solo Samples/BKCtbss_Spic_B2-rr2-PB.wav" rootNote="71" />
 		</group>
 	</groups>
 	<midi>

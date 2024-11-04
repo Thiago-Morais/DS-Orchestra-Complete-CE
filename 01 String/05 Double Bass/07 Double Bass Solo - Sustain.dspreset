@@ -32,46 +32,46 @@
 	</ui>
 	<groups attack="0.040" release="0.072">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="125812.000" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_A1_v3_rr1-PB-loop.wav" rootNote="45" start="0.000" tuning="-0.10" volume="12.0dB" />
-			<sample end="90996.000" hiNote="67" hiVel="127" loNote="58" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_B2_v3_rr1-PB-loop.wav" rootNote="59" start="0.000" tuning="-0.10" volume="12.0dB" />
-			<sample end="93622.000" hiNote="50" hiVel="127" loNote="47" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C#2_v3_rr1-PB-loop.wav" rootNote="49" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="161683.000" hiNote="36" hiVel="127" loNote="35" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C1_v3_rr1-PB-loop.wav" rootNote="36" start="0.000" volume="12.0dB" />
-			<sample end="115262.000" hiNote="38" hiVel="127" loNote="37" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_D1_v3_rr1-PB-loop.wav" rootNote="38" start="0.000" tuning="-0.10" volume="12.0dB" />
-			<sample end="99436.000" hiNote="40" hiVel="127" loNote="39" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_E1_v3_rr1-PB-loop.wav" rootNote="40" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="129768.000" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_E2_v3_rr1-PB-loop.wav" rootNote="52" start="0.000" tuning="-0.10" volume="12.0dB" />
-			<sample end="97326.000" hiNote="30" hiVel="127" loNote="24" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_F#0_v3_rr1-PB-loop.wav" rootNote="30" start="0.000" volume="12.0dB" />
-			<sample end="103129.000" hiNote="42" hiVel="127" loNote="41" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_F#1_v3_rr1-PB-loop.wav" rootNote="42" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="90469.000" hiNote="44" hiVel="127" loNote="43" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#1_v3_rr1-PB-loop.wav" rootNote="44" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="96007.000" hiNote="57" hiVel="127" loNote="54" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#2_v3_rr1-PB-loop.wav" rootNote="56" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="89150.000" hiNote="34" hiVel="127" loNote="31" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G0_v3_rr1-PB-loop.wav" rootNote="31" start="0.000" volume="12.0dB" />
+			<sample end="125812.000" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_A1_v3_rr1-PB-loop.wav" rootNote="45" tuning="-0.10" volume="12.0dB" />
+			<sample end="90996.000" hiNote="67" hiVel="127" loNote="58" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_B2_v3_rr1-PB-loop.wav" rootNote="59" tuning="-0.10" volume="12.0dB" />
+			<sample end="93622.000" hiNote="50" hiVel="127" loNote="47" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C#2_v3_rr1-PB-loop.wav" rootNote="49" tuning="-0.05" volume="12.0dB" />
+			<sample end="161683.000" hiNote="36" hiVel="127" loNote="35" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C1_v3_rr1-PB-loop.wav" rootNote="36" volume="12.0dB" />
+			<sample end="115262.000" hiNote="38" hiVel="127" loNote="37" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_D1_v3_rr1-PB-loop.wav" rootNote="38" tuning="-0.10" volume="12.0dB" />
+			<sample end="99436.000" hiNote="40" hiVel="127" loNote="39" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_E1_v3_rr1-PB-loop.wav" rootNote="40" tuning="-0.05" volume="12.0dB" />
+			<sample end="129768.000" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_E2_v3_rr1-PB-loop.wav" rootNote="52" tuning="-0.10" volume="12.0dB" />
+			<sample end="97326.000" hiNote="30" hiVel="127" loNote="24" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_F#0_v3_rr1-PB-loop.wav" rootNote="30" volume="12.0dB" />
+			<sample end="103129.000" hiNote="42" hiVel="127" loNote="41" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_F#1_v3_rr1-PB-loop.wav" rootNote="42" tuning="-0.05" volume="12.0dB" />
+			<sample end="90469.000" hiNote="44" hiVel="127" loNote="43" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#1_v3_rr1-PB-loop.wav" rootNote="44" tuning="-0.05" volume="12.0dB" />
+			<sample end="96007.000" hiNote="57" hiVel="127" loNote="54" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#2_v3_rr1-PB-loop.wav" rootNote="56" tuning="-0.05" volume="12.0dB" />
+			<sample end="89150.000" hiNote="34" hiVel="127" loNote="31" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G0_v3_rr1-PB-loop.wav" rootNote="31" volume="12.0dB" />
 		</group>
 		<group name="Group 2" ampVelTrack="1">
-			<sample end="125812.000" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_A1_v3_rr1-PB-loop.wav" rootNote="45" start="0.000" tuning="-0.10" volume="12.0dB" />
-			<sample end="90996.000" hiNote="67" hiVel="127" loNote="58" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_B2_v3_rr1-PB-loop.wav" rootNote="59" start="0.000" tuning="-0.10" volume="12.0dB" />
-			<sample end="93622.000" hiNote="50" hiVel="127" loNote="47" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C#2_v3_rr1-PB-loop.wav" rootNote="49" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="161683.000" hiNote="36" hiVel="127" loNote="35" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C1_v3_rr1-PB-loop.wav" rootNote="36" start="0.000" volume="12.0dB" />
-			<sample end="115262.000" hiNote="38" hiVel="127" loNote="37" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_D1_v3_rr1-PB-loop.wav" rootNote="38" start="0.000" tuning="-0.10" volume="12.0dB" />
-			<sample end="99436.000" hiNote="40" hiVel="127" loNote="39" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_E1_v3_rr1-PB-loop.wav" rootNote="40" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="129768.000" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_E2_v3_rr1-PB-loop.wav" rootNote="52" start="0.000" tuning="-0.10" volume="12.0dB" />
-			<sample end="97326.000" hiNote="30" hiVel="127" loNote="24" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_F#0_v3_rr1-PB-loop.wav" rootNote="30" start="0.000" volume="12.0dB" />
-			<sample end="103129.000" hiNote="42" hiVel="127" loNote="41" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_F#1_v3_rr1-PB-loop.wav" rootNote="42" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="90469.000" hiNote="44" hiVel="127" loNote="43" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#1_v3_rr1-PB-loop.wav" rootNote="44" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="96007.000" hiNote="57" hiVel="127" loNote="54" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#2_v3_rr1-PB-loop.wav" rootNote="56" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="89150.000" hiNote="34" hiVel="127" loNote="31" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G0_v3_rr1-PB-loop.wav" rootNote="31" start="0.000" volume="12.0dB" />
+			<sample end="125812.000" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_A1_v3_rr1-PB-loop.wav" rootNote="45" tuning="-0.10" volume="12.0dB" />
+			<sample end="90996.000" hiNote="67" hiVel="127" loNote="58" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_B2_v3_rr1-PB-loop.wav" rootNote="59" tuning="-0.10" volume="12.0dB" />
+			<sample end="93622.000" hiNote="50" hiVel="127" loNote="47" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C#2_v3_rr1-PB-loop.wav" rootNote="49" tuning="-0.05" volume="12.0dB" />
+			<sample end="161683.000" hiNote="36" hiVel="127" loNote="35" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C1_v3_rr1-PB-loop.wav" rootNote="36" volume="12.0dB" />
+			<sample end="115262.000" hiNote="38" hiVel="127" loNote="37" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_D1_v3_rr1-PB-loop.wav" rootNote="38" tuning="-0.10" volume="12.0dB" />
+			<sample end="99436.000" hiNote="40" hiVel="127" loNote="39" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_E1_v3_rr1-PB-loop.wav" rootNote="40" tuning="-0.05" volume="12.0dB" />
+			<sample end="129768.000" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_E2_v3_rr1-PB-loop.wav" rootNote="52" tuning="-0.10" volume="12.0dB" />
+			<sample end="97326.000" hiNote="30" hiVel="127" loNote="24" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_F#0_v3_rr1-PB-loop.wav" rootNote="30" volume="12.0dB" />
+			<sample end="103129.000" hiNote="42" hiVel="127" loNote="41" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_F#1_v3_rr1-PB-loop.wav" rootNote="42" tuning="-0.05" volume="12.0dB" />
+			<sample end="90469.000" hiNote="44" hiVel="127" loNote="43" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#1_v3_rr1-PB-loop.wav" rootNote="44" tuning="-0.05" volume="12.0dB" />
+			<sample end="96007.000" hiNote="57" hiVel="127" loNote="54" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#2_v3_rr1-PB-loop.wav" rootNote="56" tuning="-0.05" volume="12.0dB" />
+			<sample end="89150.000" hiNote="34" hiVel="127" loNote="31" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G0_v3_rr1-PB-loop.wav" rootNote="31" volume="12.0dB" />
 		</group>
 		<group name="Group 7" ampVelTrack="1">
-			<sample end="125812.000" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_A1_v3_rr1-PB-loop.wav" rootNote="45" start="0.000" tuning="-0.10" volume="12.0dB" />
-			<sample end="90996.000" hiNote="67" hiVel="127" loNote="58" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_B2_v3_rr1-PB-loop.wav" rootNote="59" start="0.000" tuning="-0.10" volume="12.0dB" />
-			<sample end="93622.000" hiNote="50" hiVel="127" loNote="47" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C#2_v3_rr1-PB-loop.wav" rootNote="49" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="161683.000" hiNote="36" hiVel="127" loNote="35" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C1_v3_rr1-PB-loop.wav" rootNote="36" start="0.000" volume="12.0dB" />
-			<sample end="115262.000" hiNote="38" hiVel="127" loNote="37" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_D1_v3_rr1-PB-loop.wav" rootNote="38" start="0.000" tuning="-0.10" volume="12.0dB" />
-			<sample end="99436.000" hiNote="40" hiVel="127" loNote="39" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_E1_v3_rr1-PB-loop.wav" rootNote="40" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="129768.000" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_E2_v3_rr1-PB-loop.wav" rootNote="52" start="0.000" tuning="-0.10" volume="12.0dB" />
-			<sample end="97326.000" hiNote="30" hiVel="127" loNote="24" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_F#0_v3_rr1-PB-loop.wav" rootNote="30" start="0.000" volume="12.0dB" />
-			<sample end="103129.000" hiNote="42" hiVel="127" loNote="41" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_F#1_v3_rr1-PB-loop.wav" rootNote="42" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="90469.000" hiNote="44" hiVel="127" loNote="43" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#1_v3_rr1-PB-loop.wav" rootNote="44" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="96007.000" hiNote="57" hiVel="127" loNote="54" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#2_v3_rr1-PB-loop.wav" rootNote="56" start="0.000" tuning="-0.05" volume="12.0dB" />
-			<sample end="89150.000" hiNote="34" hiVel="127" loNote="31" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G0_v3_rr1-PB-loop.wav" rootNote="31" start="0.000" volume="12.0dB" />
+			<sample end="125812.000" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_A1_v3_rr1-PB-loop.wav" rootNote="45" tuning="-0.10" volume="12.0dB" />
+			<sample end="90996.000" hiNote="67" hiVel="127" loNote="58" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_B2_v3_rr1-PB-loop.wav" rootNote="59" tuning="-0.10" volume="12.0dB" />
+			<sample end="93622.000" hiNote="50" hiVel="127" loNote="47" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C#2_v3_rr1-PB-loop.wav" rootNote="49" tuning="-0.05" volume="12.0dB" />
+			<sample end="161683.000" hiNote="36" hiVel="127" loNote="35" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C1_v3_rr1-PB-loop.wav" rootNote="36" volume="12.0dB" />
+			<sample end="115262.000" hiNote="38" hiVel="127" loNote="37" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_D1_v3_rr1-PB-loop.wav" rootNote="38" tuning="-0.10" volume="12.0dB" />
+			<sample end="99436.000" hiNote="40" hiVel="127" loNote="39" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_E1_v3_rr1-PB-loop.wav" rootNote="40" tuning="-0.05" volume="12.0dB" />
+			<sample end="129768.000" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_E2_v3_rr1-PB-loop.wav" rootNote="52" tuning="-0.10" volume="12.0dB" />
+			<sample end="97326.000" hiNote="30" hiVel="127" loNote="24" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_F#0_v3_rr1-PB-loop.wav" rootNote="30" volume="12.0dB" />
+			<sample end="103129.000" hiNote="42" hiVel="127" loNote="41" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_F#1_v3_rr1-PB-loop.wav" rootNote="42" tuning="-0.05" volume="12.0dB" />
+			<sample end="90469.000" hiNote="44" hiVel="127" loNote="43" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#1_v3_rr1-PB-loop.wav" rootNote="44" tuning="-0.05" volume="12.0dB" />
+			<sample end="96007.000" hiNote="57" hiVel="127" loNote="54" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#2_v3_rr1-PB-loop.wav" rootNote="56" tuning="-0.05" volume="12.0dB" />
+			<sample end="89150.000" hiNote="34" hiVel="127" loNote="31" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G0_v3_rr1-PB-loop.wav" rootNote="31" volume="12.0dB" />
 		</group>
 	</groups>
 	<midi>

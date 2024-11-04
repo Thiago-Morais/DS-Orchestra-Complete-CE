@@ -32,24 +32,24 @@
 	</ui>
 	<groups attack="0.000" release="0.600">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="176729.000" hiNote="69" hiVel="83" loNote="67" loVel="1" path="Resources/Glockenspiel Samples/glock_soft_G4_01.wav" rootNote="67" start="0.000" volume="12.0dB" />
-			<sample end="317816.000" hiNote="69" hiVel="127" loNote="67" loVel="0" path="Resources/Glockenspiel Samples/glock_medium_G4_01.wav" rootNote="67" start="0.000" volume="12.0dB" />
-			<sample end="330859.000" hiNote="69" hiVel="127" loNote="67" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_G4_01.wav" rootNote="67" start="0.000" volume="12.0dB" />
-			<sample end="177290.000" hiNote="75" hiVel="83" loNote="70" loVel="1" path="Resources/Glockenspiel Samples/glock_soft_C5_02.wav" rootNote="72" start="0.000" volume="12.0dB" />
+			<sample end="176729.000" hiNote="69" hiVel="83" loNote="67" loVel="1" path="Resources/Glockenspiel Samples/glock_soft_G4_01.wav" rootNote="67" volume="12.0dB" />
+			<sample end="317816.000" hiNote="69" hiVel="127" loNote="67" loVel="0" path="Resources/Glockenspiel Samples/glock_medium_G4_01.wav" rootNote="67" volume="12.0dB" />
+			<sample end="330859.000" hiNote="69" hiVel="127" loNote="67" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_G4_01.wav" rootNote="67" volume="12.0dB" />
+			<sample end="177290.000" hiNote="75" hiVel="83" loNote="70" loVel="1" path="Resources/Glockenspiel Samples/glock_soft_C5_02.wav" rootNote="72" volume="12.0dB" />
 			<sample end="317816.000" hiNote="75" hiVel="127" loNote="70" loVel="0" path="Resources/Glockenspiel Samples/glock_medium_C5_01.wav" rootNote="72" start="104.000" volume="12.0dB" />
-			<sample end="330859.000" hiNote="75" hiVel="127" loNote="70" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_C5_01.wav" rootNote="72" start="0.000" volume="12.0dB" />
-			<sample end="176729.000" hiNote="81" hiVel="83" loNote="76" loVel="1" path="Resources/Glockenspiel Samples/glock_soft_G5_01.wav" rootNote="79" start="0.000" volume="12.0dB" />
+			<sample end="330859.000" hiNote="75" hiVel="127" loNote="70" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_C5_01.wav" rootNote="72" volume="12.0dB" />
+			<sample end="176729.000" hiNote="81" hiVel="83" loNote="76" loVel="1" path="Resources/Glockenspiel Samples/glock_soft_G5_01.wav" rootNote="79" volume="12.0dB" />
 			<sample end="306667.000" hiNote="81" hiVel="127" loNote="76" loVel="0" path="Resources/Glockenspiel Samples/glock_medium_G5_01.wav" rootNote="79" start="103.000" volume="12.0dB" />
-			<sample end="330859.000" hiNote="81" hiVel="127" loNote="76" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_G5_01.wav" rootNote="79" start="0.000" volume="12.0dB" />
-			<sample end="176729.000" hiNote="87" hiVel="83" loNote="82" loVel="1" path="Resources/Glockenspiel Samples/glock_soft_C6_01.wav" rootNote="84" start="0.000" volume="12.0dB" />
+			<sample end="330859.000" hiNote="81" hiVel="127" loNote="76" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_G5_01.wav" rootNote="79" volume="12.0dB" />
+			<sample end="176729.000" hiNote="87" hiVel="83" loNote="82" loVel="1" path="Resources/Glockenspiel Samples/glock_soft_C6_01.wav" rootNote="84" volume="12.0dB" />
 			<sample end="317816.000" hiNote="87" hiVel="127" loNote="82" loVel="0" path="Resources/Glockenspiel Samples/glock_medium_C6_01.wav" rootNote="84" start="101.000" volume="12.0dB" />
-			<sample end="330859.000" hiNote="87" hiVel="127" loNote="82" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_C6_01.wav" rootNote="84" start="0.000" volume="12.0dB" />
-			<sample end="146479.000" hiNote="91" hiVel="127" loNote="88" loVel="1" path="Resources/Glockenspiel Samples/glock_soft_G6_01.wav" rootNote="91" start="0.000" volume="12.0dB" />
+			<sample end="330859.000" hiNote="87" hiVel="127" loNote="82" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_C6_01.wav" rootNote="84" volume="12.0dB" />
+			<sample end="146479.000" hiNote="91" hiVel="127" loNote="88" loVel="1" path="Resources/Glockenspiel Samples/glock_soft_G6_01.wav" rootNote="91" volume="12.0dB" />
 			<sample end="210769.000" hiNote="91" hiVel="127" loNote="88" loVel="0" path="Resources/Glockenspiel Samples/glock_medium_G6_01.wav" rootNote="91" start="102.000" volume="12.0dB" />
 			<sample end="232896.000" hiNote="94" hiVel="127" loNote="92" loVel="1" path="Resources/Glockenspiel Samples/glock_loud_G#6_01.wav" rootNote="92" start="932.000" volume="12.0dB" />
-			<sample end="176729.000" hiNote="97" hiVel="83" loNote="95" loVel="1" path="Resources/Glockenspiel Samples/glock_soft_C7_03.wav" rootNote="96" start="0.000" volume="12.0dB" />
+			<sample end="176729.000" hiNote="97" hiVel="83" loNote="95" loVel="1" path="Resources/Glockenspiel Samples/glock_soft_C7_03.wav" rootNote="96" volume="12.0dB" />
 			<sample end="123093.000" hiNote="97" hiVel="127" loNote="95" loVel="0" path="Resources/Glockenspiel Samples/glock_medium_C7_01.wav" rootNote="96" start="101.000" volume="12.0dB" />
-			<sample end="116166.000" hiNote="97" hiVel="127" loNote="95" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_C7_01.wav" rootNote="96" start="0.000" volume="12.0dB" />
+			<sample end="116166.000" hiNote="97" hiVel="127" loNote="95" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_C7_01.wav" rootNote="96" volume="12.0dB" />
 		</group>
 	</groups>
 	<midi>

@@ -32,8 +32,8 @@
 	</ui>
 	<groups decay="0.124" release="0.033">
 		<group name="Longer Brass" ampVelTrack="1">
-			<sample end="40249.000" hiNote="85" hiVel="127" loNote="12" loVel="0" loopEnabled="true" loopEnd="40250.000" loopStart="16058.000" path="Resources/Designed Brass Pad 4 Samples/Big Brass#.wav" rootNote="71" start="0.000" tuning="-0.39" />
-			<sample end="16029.000" hiNote="106" hiVel="127" loNote="86" loVel="0" loopEnabled="true" loopEnd="16030.000" loopStart="1288.000" path="Resources/Designed Brass Pad 4 Samples/Big Brass Hi#.wav" rootNote="92" start="0.000" tuning="-0.39" />
+			<sample end="40249.000" hiNote="85" hiVel="127" loNote="12" loVel="0" loopEnabled="true" loopEnd="40250.000" loopStart="16058.000" path="Resources/Designed Brass Pad 4 Samples/Big Brass#.wav" rootNote="71" tuning="-0.39" />
+			<sample end="16029.000" hiNote="106" hiVel="127" loNote="86" loVel="0" loopEnabled="true" loopEnd="16030.000" loopStart="1288.000" path="Resources/Designed Brass Pad 4 Samples/Big Brass Hi#.wav" rootNote="92" tuning="-0.39" />
 		</group>
 	</groups>
 	<midi>

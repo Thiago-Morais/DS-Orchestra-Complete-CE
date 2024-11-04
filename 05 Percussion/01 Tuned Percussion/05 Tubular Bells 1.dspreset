@@ -32,24 +32,24 @@
 	</ui>
 	<groups attack="0.000" release="1.000">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="478095.000" hiNote="61" hiVel="83" loNote="60" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_C3_pp_rr2.wav" rootNote="60" start="0.000" volume="11.162765dB" />
-			<sample end="500798.000" hiNote="61" hiVel="127" loNote="60" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_C3_f_rr1.wav" rootNote="60" start="0.000" volume="0.742311dB" />
-			<sample end="509052.000" hiNote="63" hiVel="83" loNote="62" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_D3_pp_rr3.wav" rootNote="62" start="0.000" volume="12.0dB" />
-			<sample end="864869.000" hiNote="63" hiVel="127" loNote="62" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_D3_ff_rr1.wav" rootNote="62" start="0.000" volume="-0.566385dB" />
-			<sample end="519109.000" hiNote="65" hiVel="83" loNote="64" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_E3_pp_rr1.wav" rootNote="64" start="0.000" volume="12.0dB" />
-			<sample end="786034.000" hiNote="65" hiVel="127" loNote="64" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_E3_ff_rr2.wav" rootNote="64" start="0.000" volume="2.281207dB" />
-			<sample end="469872.000" hiNote="67" hiVel="83" loNote="66" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_F#3_p_rr1.wav" rootNote="66" start="0.000" volume="12.0dB" />
-			<sample end="581647.000" hiNote="67" hiVel="127" loNote="66" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_F#3_fff_rr1.wav" rootNote="66" start="0.000" volume="-4.305226dB" />
-			<sample end="552548.000" hiNote="69" hiVel="83" loNote="68" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_G#3_p_rr2.wav" rootNote="68" start="0.000" volume="12.0dB" />
-			<sample end="648326.000" hiNote="69" hiVel="127" loNote="68" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_G#3_ff_rr1.wav" rootNote="68" start="0.000" volume="-0.750025dB" />
-			<sample end="524684.000" hiNote="71" hiVel="83" loNote="70" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_A#3_pp_rr1.wav" rootNote="70" start="0.000" volume="12.0dB" />
-			<sample end="554206.000" hiNote="71" hiVel="127" loNote="70" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_A#3_ff_rr1.wav" rootNote="70" start="0.000" volume="0.111465dB" />
-			<sample end="874564.000" hiNote="73" hiVel="83" loNote="72" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_C4_p_rr1.wav" rootNote="72" start="0.000" volume="12.0dB" />
-			<sample end="812797.000" hiNote="73" hiVel="127" loNote="72" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_C4_ff_rr2.wav" rootNote="72" start="0.000" volume="-2.775858dB" />
-			<sample end="578428.000" hiNote="75" hiVel="83" loNote="74" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_D4_p_rr1.wav" rootNote="74" start="0.000" volume="12.0dB" />
-			<sample end="605766.000" hiNote="75" hiVel="127" loNote="74" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_D4_ff_rr2.wav" rootNote="74" start="0.000" volume="-0.922908dB" />
-			<sample end="471261.000" hiNote="77" hiVel="83" loNote="76" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_E4_pp_rr3.wav" rootNote="76" start="0.000" volume="12.0dB" />
-			<sample end="566815.000" hiNote="77" hiVel="127" loNote="76" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_E4_ff_rr2.wav" rootNote="76" start="0.000" volume="0.331229dB" />
+			<sample end="478095.000" hiNote="61" hiVel="83" loNote="60" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_C3_pp_rr2.wav" rootNote="60" volume="11.162765dB" />
+			<sample end="500798.000" hiNote="61" hiVel="127" loNote="60" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_C3_f_rr1.wav" rootNote="60" volume="0.742311dB" />
+			<sample end="509052.000" hiNote="63" hiVel="83" loNote="62" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_D3_pp_rr3.wav" rootNote="62" volume="12.0dB" />
+			<sample end="864869.000" hiNote="63" hiVel="127" loNote="62" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_D3_ff_rr1.wav" rootNote="62" volume="-0.566385dB" />
+			<sample end="519109.000" hiNote="65" hiVel="83" loNote="64" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_E3_pp_rr1.wav" rootNote="64" volume="12.0dB" />
+			<sample end="786034.000" hiNote="65" hiVel="127" loNote="64" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_E3_ff_rr2.wav" rootNote="64" volume="2.281207dB" />
+			<sample end="469872.000" hiNote="67" hiVel="83" loNote="66" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_F#3_p_rr1.wav" rootNote="66" volume="12.0dB" />
+			<sample end="581647.000" hiNote="67" hiVel="127" loNote="66" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_F#3_fff_rr1.wav" rootNote="66" volume="-4.305226dB" />
+			<sample end="552548.000" hiNote="69" hiVel="83" loNote="68" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_G#3_p_rr2.wav" rootNote="68" volume="12.0dB" />
+			<sample end="648326.000" hiNote="69" hiVel="127" loNote="68" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_G#3_ff_rr1.wav" rootNote="68" volume="-0.750025dB" />
+			<sample end="524684.000" hiNote="71" hiVel="83" loNote="70" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_A#3_pp_rr1.wav" rootNote="70" volume="12.0dB" />
+			<sample end="554206.000" hiNote="71" hiVel="127" loNote="70" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_A#3_ff_rr1.wav" rootNote="70" volume="0.111465dB" />
+			<sample end="874564.000" hiNote="73" hiVel="83" loNote="72" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_C4_p_rr1.wav" rootNote="72" volume="12.0dB" />
+			<sample end="812797.000" hiNote="73" hiVel="127" loNote="72" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_C4_ff_rr2.wav" rootNote="72" volume="-2.775858dB" />
+			<sample end="578428.000" hiNote="75" hiVel="83" loNote="74" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_D4_p_rr1.wav" rootNote="74" volume="12.0dB" />
+			<sample end="605766.000" hiNote="75" hiVel="127" loNote="74" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_D4_ff_rr2.wav" rootNote="74" volume="-0.922908dB" />
+			<sample end="471261.000" hiNote="77" hiVel="83" loNote="76" loVel="0" path="Resources/Tubular Bells 1 Samples/chimes_E4_pp_rr3.wav" rootNote="76" volume="12.0dB" />
+			<sample end="566815.000" hiNote="77" hiVel="127" loNote="76" loVel="84" path="Resources/Tubular Bells 1 Samples/chimes_E4_ff_rr2.wav" rootNote="76" volume="0.331229dB" />
 		</group>
 	</groups>
 	<midi>

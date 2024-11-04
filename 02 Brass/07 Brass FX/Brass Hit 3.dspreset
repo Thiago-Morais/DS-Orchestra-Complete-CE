@@ -32,7 +32,7 @@
 	</ui>
 	<groups attack="0.000" release="0.028">
 		<group name="BrassTom" ampVelTrack="1">
-			<sample end="151397.000" hiNote="127" hiVel="127" loNote="0" loVel="0" path="Resources/BrassTom Samples/BrassTom.wav" rootNote="60" start="0.000" />
+			<sample end="151397.000" hiNote="127" hiVel="127" loNote="0" loVel="0" path="Resources/BrassTom Samples/BrassTom.wav" rootNote="60" />
 		</group>
 	</groups>
 	<midi>
