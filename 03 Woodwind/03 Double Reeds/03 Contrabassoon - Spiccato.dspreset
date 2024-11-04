@@ -2,7 +2,7 @@
 <?xml-model href="https://raw.githubusercontent.com/praashie/DecentSampler-schema/main/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
-		<effect type="hipass" frequency="100.0" />
+		<effect type="highpass" frequency="100.0" />
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
