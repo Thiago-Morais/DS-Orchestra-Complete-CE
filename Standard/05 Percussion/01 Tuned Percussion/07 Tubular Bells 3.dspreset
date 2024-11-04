@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Tubular Bells.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0" release="1">
+		<group name="Group 1" ampVelTrack="1">
+			<sample hiNote="60" hiVel="127" loNote="60" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C1.wav" rootNote="60" start="2804" volume="12.0dB" />
+			<sample hiNote="61" hiVel="127" loNote="61" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C#1.wav" rootNote="61" start="2325" volume="8.364776dB" />
+			<sample hiNote="62" hiVel="127" loNote="62" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_D1.wav" rootNote="62" start="2388" volume="12.0dB" />
+			<sample hiNote="63" hiVel="127" loNote="63" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_D#1.wav" rootNote="63" start="3474" volume="12.0dB" />
+			<sample hiNote="64" hiVel="127" loNote="64" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_E1.wav" rootNote="64" start="3106" volume="10.151247dB" />
+			<sample hiNote="65" hiVel="127" loNote="65" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_F1.wav" rootNote="65" start="2804" volume="12.0dB" />
+			<sample hiNote="66" hiVel="127" loNote="66" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_F#1.wav" rootNote="66" start="2882" volume="11.86068dB" />
+			<sample hiNote="67" hiVel="127" loNote="67" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_G1.wav" rootNote="67" start="2822" volume="12.0dB" />
+			<sample hiNote="68" hiVel="127" loNote="68" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_G#1.wav" rootNote="68" start="2997" volume="12.0dB" />
+			<sample hiNote="69" hiVel="127" loNote="69" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_A1.wav" rootNote="69" start="3310" volume="12.0dB" />
+			<sample hiNote="70" hiVel="127" loNote="70" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_A#1.wav" rootNote="70" start="2308" volume="10.249764dB" />
+			<sample hiNote="71" hiVel="127" loNote="71" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_B1.wav" rootNote="71" start="3067" volume="12.0dB" />
+			<sample hiNote="72" hiVel="127" loNote="72" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C2.wav" rootNote="72" start="3172" volume="12.0dB" />
+			<sample hiNote="73" hiVel="127" loNote="73" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C#2.wav" rootNote="73" start="2420" volume="10.46762dB" />
+			<sample hiNote="74" hiVel="127" loNote="74" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_D2.wav" rootNote="74" start="2306" volume="12.0dB" />
+			<sample hiNote="75" hiVel="127" loNote="75" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_D#2.wav" rootNote="75" start="2803" volume="12.0dB" />
+			<sample hiNote="76" hiVel="127" loNote="76" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_E2.wav" rootNote="76" start="2917" volume="12.0dB" />
+			<sample hiNote="78" hiVel="127" loNote="77" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_F2.wav" rootNote="77" start="3492" volume="10.638334dB" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+</DecentSampler>
