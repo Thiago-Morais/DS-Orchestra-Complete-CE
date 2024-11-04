@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Violin 1.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0.003" release="0.024">
+		<group name="Group 1" ampVelTrack="1">
+			<sample end="45357.000" hiNote="57" hiVel="127" loNote="55" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/3_A-PB.wav" rootNote="57" start="0.000" volume="3.0dB" />
+			<sample end="44394.000" hiNote="58" hiVel="127" loNote="58" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/3_Bb-PB.wav" rootNote="58" start="0.000" volume="6.0dB" />
+			<sample end="49395.000" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/3_B-PB.wav" rootNote="59" start="0.000" volume="3.0dB" />
+			<sample end="47805.000" hiNote="60" hiVel="127" loNote="60" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/4_C-PB.wav" rootNote="60" start="0.000" />
+			<sample end="50203.000" hiNote="61" hiVel="127" loNote="61" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/4_Db-PB.wav" rootNote="61" start="0.000" volume="1.0dB" />
+			<sample end="50878.000" hiNote="62" hiVel="127" loNote="62" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/4_D-PB.wav" rootNote="62" start="0.000" volume="3.0dB" />
+			<sample end="54889.000" hiNote="63" hiVel="127" loNote="63" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/4_Eb-PB.wav" rootNote="63" start="0.000" volume="6.0dB" />
+			<sample end="48935.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/4_E-PB.wav" rootNote="64" start="0.000" volume="5.0dB" />
+			<sample end="55224.000" hiNote="65" hiVel="127" loNote="65" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/4_F-PB.wav" rootNote="65" start="0.000" volume="3.0dB" />
+			<sample end="57895.000" hiNote="66" hiVel="127" loNote="66" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/4_Gb-PB.wav" rootNote="66" start="0.000" volume="3.0dB" />
+			<sample end="62025.000" hiNote="67" hiVel="127" loNote="67" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/4_G-PB.wav" rootNote="67" start="0.000" volume="4.0dB" />
+			<sample end="45223.000" hiNote="69" hiVel="127" loNote="68" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/4_Ab-PB.wav" rootNote="68" start="0.000" volume="4.0dB" />
+			<sample end="43548.000" hiNote="70" hiVel="127" loNote="70" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/4_Bb-PB.wav" rootNote="70" start="0.000" volume="10.0dB" />
+			<sample end="44173.000" hiNote="72" hiVel="127" loNote="71" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/4_B-PB.wav" rootNote="71" start="0.000" volume="6.0dB" />
+			<sample end="27896.000" hiNote="73" hiVel="127" loNote="73" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/5_Db-PB.wav" rootNote="73" start="0.000" volume="5.0dB" />
+			<sample end="93339.000" hiNote="74" hiVel="127" loNote="74" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/5_D-PB.wav" rootNote="74" start="0.000" volume="6.0dB" />
+			<sample end="38547.000" hiNote="76" hiVel="127" loNote="75" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/5_Eb-PB.wav" rootNote="75" start="0.000" volume="6.0dB" />
+			<sample end="46033.000" hiNote="77" hiVel="127" loNote="77" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/5_F-PB.wav" rootNote="77" start="0.000" volume="5.0dB" />
+			<sample end="39252.000" hiNote="78" hiVel="127" loNote="78" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/5_Gb-PB.wav" rootNote="78" start="0.000" volume="4.0dB" />
+			<sample end="60603.000" hiNote="79" hiVel="127" loNote="79" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/5_G-PB.wav" rootNote="79" start="0.000" volume="9.0dB" />
+			<sample end="41236.000" hiNote="80" hiVel="127" loNote="80" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/5_Ab-PB.wav" rootNote="80" start="0.000" volume="7.0dB" />
+			<sample end="50839.000" hiNote="81" hiVel="127" loNote="81" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/5_A-PB.wav" rootNote="81" start="0.000" volume="9.0dB" />
+			<sample end="34833.000" hiNote="82" hiVel="127" loNote="82" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/5_Bb-PB.wav" rootNote="82" start="0.000" volume="9.0dB" />
+			<sample end="33996.000" hiNote="83" hiVel="127" loNote="83" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/5_B-PB.wav" rootNote="83" start="0.000" volume="7.0dB" />
+			<sample end="29329.000" hiNote="84" hiVel="127" loNote="84" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/6_C-PB.wav" rootNote="84" start="0.000" volume="9.0dB" />
+			<sample end="32153.000" hiNote="85" hiVel="127" loNote="85" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/6_Db-PB.wav" rootNote="85" start="0.000" volume="10.0dB" />
+			<sample end="30328.000" hiNote="86" hiVel="127" loNote="86" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/6_D-PB.wav" rootNote="86" start="0.000" volume="8.0dB" />
+			<sample end="34919.000" hiNote="87" hiVel="127" loNote="87" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/6_Eb-PB.wav" rootNote="87" start="0.000" volume="11.5dB" />
+			<sample end="31267.000" hiNote="88" hiVel="127" loNote="88" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/6_E-PB.wav" rootNote="88" start="0.000" volume="10.0dB" />
+			<sample end="28086.000" hiNote="89" hiVel="127" loNote="89" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/6_F-PB.wav" rootNote="89" start="0.000" volume="12.0dB" />
+			<sample end="28214.000" hiNote="90" hiVel="127" loNote="90" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/6_Gb-PB.wav" rootNote="90" start="0.000" volume="11.0dB" />
+			<sample end="30108.000" hiNote="91" hiVel="127" loNote="91" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/6_G-PB.wav" rootNote="91" start="0.000" volume="12.0dB" />
+			<sample end="27650.000" hiNote="92" hiVel="127" loNote="92" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/6_Ab-PB.wav" rootNote="92" start="0.000" volume="12.0dB" />
+			<sample end="28164.000" hiNote="93" hiVel="127" loNote="93" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/6_A-PB.wav" rootNote="93" start="0.000" volume="12.0dB" />
+			<sample end="29956.000" hiNote="94" hiVel="127" loNote="94" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/6_Bb-PB.wav" rootNote="94" start="0.000" volume="9.0dB" />
+			<sample end="22404.000" hiNote="105" hiVel="127" loNote="95" loVel="1" path="Resources/1st-violin-SOLO-pizzicato Samples/6_B-PB.wav" rootNote="95" start="0.000" tuning="-0.30" volume="9.0dB" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+	<tags />
+</DecentSampler>

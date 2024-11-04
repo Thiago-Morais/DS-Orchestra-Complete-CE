@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Percussion Set.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups release="0.080">
+		<group name="ETHNIC by ThomashLe" ampVelTrack="1">
+			<sample end="3361.000" hiNote="25" hiVel="127" loNote="25" loVel="0" path="Resources/ETHNIC Samples/Finger Snaps 1b.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="37241.000" hiNote="81" hiVel="127" loNote="81" loVel="0" path="Resources/ETHNIC Samples/Open Surdo.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="11245.000" hiNote="37" hiVel="127" loNote="37" loVel="0" path="Resources/ETHNIC Samples/Wadaiko Rim.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-3.0dB" />
+			<sample end="10784.000" hiNote="27" hiVel="127" loNote="27" loVel="0" path="Resources/ETHNIC Samples/CastanetsII(L).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-5.2dB" />
+			<sample end="77115.000" hiNote="33" hiVel="127" loNote="33" loVel="0" path="Resources/ETHNIC Samples/Jingle Bell(L).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-9.0dB" />
+			<sample end="172032.000" hiNote="31" hiVel="127" loNote="31" loVel="0" path="Resources/ETHNIC Samples/Orch Crash cym(R).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-13.0dB" />
+			<sample end="132864.000" hiNote="32" hiVel="127" loNote="32" loVel="0" path="Resources/ETHNIC Samples/CBD Tight1(L).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-4.0dB" />
+			<sample end="26700.000" hiNote="74" hiVel="127" loNote="74" loVel="0" path="Resources/ETHNIC Samples/Conga Hi(L).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-12.5dB" />
+			<sample end="21602.000" hiNote="73" hiVel="127" loNote="73" loVel="0" path="Resources/ETHNIC Samples/Conga Hi slapop(L).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-16.0dB" />
+			<sample end="21760.000" hiNote="72" hiVel="127" loNote="72" loVel="0" path="Resources/ETHNIC Samples/Bongo Lo Op(L).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-8.0dB" />
+			<sample end="27264.000" hiNote="71" hiVel="127" loNote="71" loVel="0" path="Resources/ETHNIC Samples/Bongo Hi Op(L).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-13.5dB" />
+			<sample end="27584.000" hiNote="77" hiVel="127" loNote="77" loVel="0" path="Resources/ETHNIC Samples/Conga Lo.Op(L).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-17.6dB" />
+			<sample end="10784.000" hiNote="27" hiVel="127" loNote="27" loVel="0" path="Resources/ETHNIC Samples/CastanetsII(R).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-5.2dB" />
+			<sample end="77115.000" hiNote="33" hiVel="127" loNote="33" loVel="0" path="Resources/ETHNIC Samples/Jingle Bell(R).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-9.0dB" />
+			<sample end="172032.000" hiNote="31" hiVel="127" loNote="31" loVel="0" path="Resources/ETHNIC Samples/Orch Crash cym(L).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-13.0dB" />
+			<sample end="132864.000" hiNote="32" hiVel="127" loNote="32" loVel="0" path="Resources/ETHNIC Samples/CBD Tight1(R).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-4.0dB" />
+			<sample end="26700.000" hiNote="74" hiVel="127" loNote="74" loVel="0" path="Resources/ETHNIC Samples/Conga Hi(R).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-12.5dB" />
+			<sample end="21602.000" hiNote="73" hiVel="127" loNote="73" loVel="0" path="Resources/ETHNIC Samples/Conga Hi slapop(R).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-16.0dB" />
+			<sample end="21760.000" hiNote="72" hiVel="127" loNote="72" loVel="0" path="Resources/ETHNIC Samples/Bongo Lo Op(R).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-8.0dB" />
+			<sample end="27264.000" hiNote="71" hiVel="127" loNote="71" loVel="0" path="Resources/ETHNIC Samples/Bongo Hi Op(R).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-13.5dB" />
+			<sample end="27584.000" hiNote="77" hiVel="127" loNote="77" loVel="0" path="Resources/ETHNIC Samples/Conga Lo.Op(R).wav" pitchKeyTrack="0.0000" rootNote="60" volume="-17.6dB" />
+			<sample end="57926.000" hiNote="92" hiVel="127" loNote="92" loVel="0" path="Resources/ETHNIC Samples/Open Triangle.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-14.2dB" />
+			<sample end="5360.000" hiNote="91" hiVel="127" loNote="91" loVel="0" path="Resources/ETHNIC Samples/Mute Triangle.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-14.5dB" />
+			<sample end="11744.000" hiNote="82" hiVel="127" loNote="82" loVel="0" path="Resources/ETHNIC Samples/Surdo1b MuteII.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="17856.000" hiNote="30" hiVel="127" loNote="30" loVel="0" path="Resources/ETHNIC Samples/Orch Snare 2.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="72835.000" hiNote="35" hiVel="127" loNote="35" loVel="0" path="Resources/ETHNIC Samples/Bar Chimes.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="31941.000" hiNote="36" hiVel="127" loNote="36" loVel="0" path="Resources/ETHNIC Samples/Wadaiko.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="14210.000" hiNote="38" hiVel="127" loNote="38" loVel="0" path="Resources/ETHNIC Samples/Shime Taiko.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-3.0dB" />
+			<sample end="101146.000" hiNote="45" hiVel="127" loNote="45" loVel="0" path="Resources/ETHNIC Samples/Big Gong.wav" pitchKeyTrack="0.0000" rootNote="45" />
+			<sample end="43314.000" hiNote="48" hiVel="127" loNote="48" loVel="0" path="Resources/ETHNIC Samples/Thai Gong.wav" pitchKeyTrack="0.0000" rootNote="48" volume="-5.0dB" />
+			<sample end="43720.000" hiNote="49" hiVel="127" loNote="49" loVel="0" path="Resources/ETHNIC Samples/Rama Cymbal.wav" pitchKeyTrack="0.0000" rootNote="49" volume="-5.0dB" />
+			<sample end="48384.000" hiNote="65" hiVel="127" loNote="65" loVel="0" path="Resources/ETHNIC Samples/Djembe.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="12432.000" hiNote="57" hiVel="127" loNote="57" loVel="0" path="Resources/ETHNIC Samples/Tabla Te.wav" pitchKeyTrack="0.0000" rootNote="57" volume="-7.0dB" />
+			<sample end="12787.000" hiNote="58" hiVel="127" loNote="58" loVel="0" path="Resources/ETHNIC Samples/Tabla Na.wav" pitchKeyTrack="0.0000" rootNote="58" volume="-2.0dB" />
+			<sample end="21778.000" hiNote="59" hiVel="127" loNote="59" loVel="0" path="Resources/ETHNIC Samples/Tabla Tun.wav" pitchKeyTrack="0.0000" rootNote="59" volume="-2.0dB" />
+			<sample end="31336.000" hiNote="60" hiVel="127" loNote="60" loVel="0" path="Resources/ETHNIC Samples/Tabla Ge.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="20447.000" hiNote="61" hiVel="127" loNote="61" loVel="0" path="Resources/ETHNIC Samples/Tabla Ge Hi.wav" pitchKeyTrack="0.0000" rootNote="61" />
+			<sample end="25891.000" hiNote="66" hiVel="127" loNote="66" loVel="0" path="Resources/ETHNIC Samples/Djembe Rim.wav" pitchKeyTrack="0.0000" rootNote="66" />
+			<sample end="10818.000" hiNote="75" hiVel="127" loNote="75" loVel="0" path="Resources/ETHNIC Samples/Mute Low Conga.wav" pitchKeyTrack="0.0000" rootNote="75" />
+			<sample end="14206.000" hiNote="76" hiVel="127" loNote="76" loVel="0" path="Resources/ETHNIC Samples/Conga Slap.wav" pitchKeyTrack="0.0000" rootNote="76" />
+			<sample end="11932.000" hiNote="64" hiVel="127" loNote="64" loVel="0" path="Resources/ETHNIC Samples/Caxixi.wav" pitchKeyTrack="0.0000" rootNote="64" volume="-26.5dB" />
+			<sample end="14035.000" hiNote="79" hiVel="127" loNote="79" loVel="0" path="Resources/ETHNIC Samples/Mute Pandiero.wav" pitchKeyTrack="0.0000" rootNote="79" volume="-1.0dB" />
+			<sample end="20376.000" hiNote="83" hiVel="127" loNote="83" loVel="0" path="Resources/ETHNIC Samples/Tamborim.wav" pitchKeyTrack="0.0000" rootNote="83" />
+			<sample end="33360.000" hiNote="89" hiVel="127" loNote="89" loVel="0" path="Resources/ETHNIC Samples/Mute Cuica.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-8.5dB" />
+			<sample end="32316.000" hiNote="90" hiVel="127" loNote="90" loVel="0" path="Resources/ETHNIC Samples/Open Cuica.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-5.0dB" />
+			<sample end="22805.000" hiNote="84" hiVel="127" loNote="84" loVel="0" path="Resources/ETHNIC Samples/AgogoBells Hi.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-5.0dB" />
+			<sample end="22464.000" hiNote="85" hiVel="127" loNote="85" loVel="0" path="Resources/ETHNIC Samples/AgogoBells Lo.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-5.0dB" />
+			<sample end="8416.000" hiNote="96" hiVel="127" loNote="95" loVel="0" path="Resources/ETHNIC Samples/Cabasa up.wav" pitchKeyTrack="0.1200" rootNote="96" volume="-12.0dB" />
+			<sample end="17408.000" hiNote="29" hiVel="127" loNote="29" loVel="0" path="Resources/ETHNIC Samples/Orch Snare 1.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="284928.000" hiNote="34" hiVel="127" loNote="34" loVel="0" path="Resources/ETHNIC Samples/Bell Tree.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-5.8dB" />
+			<sample end="12096.000" hiNote="97" hiVel="127" loNote="97" loVel="0" path="Resources/ETHNIC Samples/Claves.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-2.1dB" />
+			<sample end="16384.000" hiNote="26" hiVel="127" loNote="26" loVel="0" path="Resources/ETHNIC Samples/Tambourine.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-3.5dB" />
+			<sample end="21361.000" hiNote="39" hiVel="127" loNote="39" loVel="0" path="Resources/ETHNIC Samples/Atarigane.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-27.0dB" />
+			<sample end="17858.000" hiNote="40" hiVel="127" loNote="40" loVel="0" path="Resources/ETHNIC Samples/Hyoushigi.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="18560.000" hiNote="41" hiVel="127" loNote="41" loVel="0" path="Resources/ETHNIC Samples/Ohkawa.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="20344.000" hiNote="43" hiVel="127" loNote="43" loVel="0" path="Resources/ETHNIC Samples/Low Kotsuzumi.wav" pitchKeyTrack="0.0000" rootNote="43" />
+			<sample end="11996.000" hiNote="44" hiVel="127" loNote="44" loVel="0" path="Resources/ETHNIC Samples/Ban Gu.wav" pitchKeyTrack="0.0000" rootNote="44" volume="-15.9dB" />
+			<sample end="97032.000" hiNote="46" hiVel="127" loNote="46" loVel="0" path="Resources/ETHNIC Samples/Small Gong.wav" pitchKeyTrack="0.0000" rootNote="46" volume="-5.0dB" />
+			<sample end="18860.000" hiNote="47" hiVel="127" loNote="47" loVel="0" path="Resources/ETHNIC Samples/Bend Gong.wav" pitchKeyTrack="0.0000" rootNote="47" volume="-5.0dB" />
+			<sample end="17561.000" hiNote="42" hiVel="127" loNote="42" loVel="0" path="Resources/ETHNIC Samples/High Kotsuzumi.wav" pitchKeyTrack="0.0000" rootNote="42" />
+			<sample end="72714.000" hiNote="50" hiVel="127" loNote="50" loVel="0" path="Resources/ETHNIC Samples/Gamelan Gong.wav" pitchKeyTrack="0.0000" rootNote="50" volume="-4.0dB" />
+			<sample end="12348.000" hiNote="51" hiVel="127" loNote="51" loVel="0" path="Resources/ETHNIC Samples/Udo Short.wav" pitchKeyTrack="0.0000" rootNote="51" />
+			<sample end="27457.000" hiNote="52" hiVel="127" loNote="52" loVel="0" path="Resources/ETHNIC Samples/Udo Long.wav" pitchKeyTrack="0.0000" rootNote="52" />
+			<sample end="18219.000" hiNote="53" hiVel="127" loNote="53" loVel="0" path="Resources/ETHNIC Samples/Udo Slap.wav" pitchKeyTrack="0.0000" rootNote="53" volume="-2.5dB" />
+			<sample end="21907.000" hiNote="55" hiVel="127" loNote="55" loVel="0" path="Resources/ETHNIC Samples/Req Dum.wav" pitchKeyTrack="0.0000" rootNote="55" />
+			<sample end="21780.000" hiNote="56" hiVel="127" loNote="56" loVel="0" path="Resources/ETHNIC Samples/Req Tik.wav" pitchKeyTrack="0.0000" rootNote="56" volume="-12.0dB" />
+			<sample end="28672.000" hiNote="54" hiVel="127" loNote="54" loVel="0" path="Resources/ETHNIC Samples/Bendir.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-7.0dB" />
+			<sample end="30496.000" hiNote="68" hiVel="127" loNote="68" loVel="0" path="Resources/ETHNIC Samples/Timbales Paila.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-11.0dB" />
+			<sample end="32183.000" hiNote="62" hiVel="127" loNote="62" loVel="0" path="Resources/ETHNIC Samples/Talking Drum.wav" pitchKeyTrack="0.0000" rootNote="62" />
+			<sample end="35328.000" hiNote="63" hiVel="127" loNote="63" loVel="0" path="Resources/ETHNIC Samples/Bend Talking Drum.wav" pitchKeyTrack="0.0000" rootNote="63" />
+			<sample end="32183.000" hiNote="78" hiVel="127" loNote="78" loVel="0" path="Resources/ETHNIC Samples/Conga Slide.wav" pitchKeyTrack="0.0000" rootNote="78" />
+			<sample end="15123.000" hiNote="80" hiVel="127" loNote="80" loVel="0" path="Resources/ETHNIC Samples/Open Pandiero.wav" pitchKeyTrack="0.0000" rootNote="80" volume="-1.0dB" />
+			<sample end="34271.000" hiNote="87" hiVel="127" loNote="87" loVel="0" path="Resources/ETHNIC Samples/Short Whistle.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-7.0dB" />
+			<sample end="53964.000" hiNote="88" hiVel="127" loNote="88" loVel="0" path="Resources/ETHNIC Samples/Long Whistle.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-11.0dB" />
+			<sample end="15530.000" hiNote="93" hiVel="127" loNote="93" loVel="0" path="Resources/ETHNIC Samples/Short Guiro.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="29110.000" hiNote="94" hiVel="127" loNote="94" loVel="0" path="Resources/ETHNIC Samples/Long Guiro.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-4.0dB" />
+			<sample end="36135.000" hiNote="69" hiVel="127" loNote="69" loVel="0" path="Resources/ETHNIC Samples/Timbale Hi.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="83748.000" hiNote="67" hiVel="127" loNote="67" loVel="0" path="Resources/ETHNIC Samples/Timbale Lo.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="23854.000" hiNote="98" hiVel="127" loNote="98" loVel="0" path="Resources/ETHNIC Samples/WoodBlock Hi.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-2.0dB" />
+			<sample end="21069.000" hiNote="99" hiVel="127" loNote="99" loVel="0" path="Resources/ETHNIC Samples/WoodBlock Lo.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-2.5dB" />
+			<sample end="22848.000" hiNote="70" hiVel="127" loNote="70" loVel="0" path="Resources/ETHNIC Samples/Cow Bell Lo.wav" pitchKeyTrack="0.0000" rootNote="60" />
+			<sample end="7552.000" hiNote="86" hiVel="127" loNote="86" loVel="0" path="Resources/ETHNIC Samples/Shake.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-7.2dB" />
+			<sample end="130771.000" hiNote="28" hiVel="127" loNote="28" loVel="0" path="Resources/ETHNIC Samples/crash cymbal 1.wav" pitchKeyTrack="0.0000" rootNote="60" volume="-5.2dB" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+	<tags />
+</DecentSampler>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Double Bass.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0.030" release="0.090">
+		<group name="Group 2" ampVelTrack="1">
+			<sample end="399872.000" hiNote="37" hiVel="127" loNote="36" loVel="1" path="Resources/Bass Ensemble Samples/C1-tremolo-PB.wav" rootNote="36" start="0.000" volume="6.0dB" />
+			<sample end="402725.000" hiNote="39" hiVel="127" loNote="38" loVel="1" path="Resources/Bass Ensemble Samples/D1-tremolo-PB.wav" rootNote="38" start="0.000" volume="6.0dB" />
+			<sample end="399872.000" hiNote="40" hiVel="127" loNote="40" loVel="1" path="Resources/Bass Ensemble Samples/E1-tremolo-PB.wav" rootNote="40" start="0.000" volume="6.0dB" />
+			<sample end="399872.000" hiNote="42" hiVel="127" loNote="41" loVel="1" path="Resources/Bass Ensemble Samples/F1-tremolo-PB.wav" rootNote="41" start="0.000" volume="6.0dB" />
+			<sample end="401408.000" hiNote="44" hiVel="127" loNote="43" loVel="1" path="Resources/Bass Ensemble Samples/G1-tremolo-PB.wav" rootNote="43" start="0.000" volume="6.0dB" />
+			<sample end="402725.000" hiNote="46" hiVel="127" loNote="45" loVel="1" path="Resources/Bass Ensemble Samples/A1-tremolo-PB.wav" rootNote="45" start="0.000" volume="5.0dB" />
+			<sample end="395844.000" hiNote="47" hiVel="127" loNote="47" loVel="1" path="Resources/Bass Ensemble Samples/B1-tremolo-PB.wav" rootNote="47" start="0.000" volume="6.0dB" />
+			<sample end="399872.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Bass Ensemble Samples/C2-tremolo-PB.wav" rootNote="48" start="0.000" volume="6.0dB" />
+			<sample end="393216.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Bass Ensemble Samples/D2-tremolo-PB.wav" rootNote="50" start="0.000" volume="7.0dB" />
+			<sample end="401408.000" hiNote="52" hiVel="127" loNote="52" loVel="1" path="Resources/Bass Ensemble Samples/E2-tremolo-PB.wav" rootNote="52" start="0.000" volume="6.0dB" />
+			<sample end="394676.000" hiNote="54" hiVel="127" loNote="53" loVel="1" path="Resources/Bass Ensemble Samples/F2-tremolo-PB.wav" rootNote="53" start="0.000" volume="6.0dB" />
+			<sample end="395844.000" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Bass Ensemble Samples/G2-tremolo-PB.wav" rootNote="55" start="0.000" volume="6.0dB" />
+			<sample end="397312.000" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Bass Ensemble Samples/A2-tremolo-PB.wav" rootNote="57" start="0.000" volume="6.0dB" />
+			<sample end="405504.000" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/Bass Ensemble Samples/B2-tremolo-PB.wav" rootNote="59" start="0.000" volume="6.0dB" />
+			<sample end="391988.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Bass Ensemble Samples/C3-tremolo-PB.wav" rootNote="60" start="0.000" volume="6.0dB" />
+			<sample end="393216.000" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Bass Ensemble Samples/D3-tremolo-PB.wav" rootNote="62" start="0.000" tuning="-0.10" volume="6.0dB" />
+			<sample end="409637.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Bass Ensemble Samples/E3-tremolo-PB.wav" rootNote="64" start="0.000" tuning="-0.10" volume="6.0dB" />
+			<sample end="394676.000" hiNote="66" hiVel="127" loNote="65" loVel="1" path="Resources/Bass Ensemble Samples/F3-tremolo-PB.wav" rootNote="65" start="0.000" tuning="-0.10" volume="6.0dB" />
+			<sample end="403997.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/Bass Ensemble Samples/G3-tremolo-PB.wav" rootNote="67" start="0.000" volume="6.0dB" />
+			<sample end="393216.000" hiNote="70" hiVel="127" loNote="69" loVel="1" path="Resources/Bass Ensemble Samples/A3-tremolo-PB.wav" rootNote="69" start="0.000" volume="6.0dB" />
+			<sample end="409637.000" hiNote="71" hiVel="127" loNote="71" loVel="1" path="Resources/Bass Ensemble Samples/B3-tremolo-PB.wav" rootNote="71" start="0.000" volume="4.0dB" />
+			<sample end="394676.000" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Bass Ensemble Samples/C4-tremolo-PB.wav" rootNote="72" start="0.000" volume="6.0dB" />
+			<sample end="402725.000" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Bass Ensemble Samples/D4-tremolo-PB.wav" rootNote="74" start="0.000" volume="5.0dB" />
+			<sample end="403997.000" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Bass Ensemble Samples/E4-tremolo-PB.wav" rootNote="76" start="0.000" volume="6.0dB" />
+			<sample end="398627.000" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Bass Ensemble Samples/F4-tremolo-PB.wav" rootNote="77" start="0.000" volume="6.0dB" />
+			<sample end="399872.000" hiNote="79" hiVel="127" loNote="79" loVel="1" path="Resources/Bass Ensemble Samples/G4-tremolo-PB.wav" rootNote="79" start="0.000" volume="5.0dB" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+	<tags />
+</DecentSampler>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Tubular Bells.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0.000" release="1.000">
+		<group name="Group 1" ampVelTrack="1">
+			<sample end="621673.000" hiNote="61" hiVel="83" loNote="60" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_C4_v2_1.wav" rootNote="60" start="0.000" volume="12.0dB" />
+			<sample end="844270.000" hiNote="61" hiVel="127" loNote="60" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_C4_v4_1.wav" rootNote="60" start="0.000" volume="8.123357dB" />
+			<sample end="432404.000" hiNote="63" hiVel="83" loNote="62" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_D4_v2_1.wav" rootNote="62" start="0.000" volume="12.0dB" />
+			<sample end="795653.000" hiNote="63" hiVel="127" loNote="62" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_D4_v4_2.wav" rootNote="62" start="0.000" volume="5.638059dB" />
+			<sample end="1024773.000" hiNote="64" hiVel="83" loNote="64" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_E4_v2_1.wav" rootNote="64" start="0.000" volume="12.0dB" />
+			<sample end="1079883.000" hiNote="64" hiVel="127" loNote="64" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_E4_v4_1.wav" rootNote="64" start="0.000" volume="6.853851dB" />
+			<sample end="918556.000" hiNote="66" hiVel="83" loNote="65" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_F4_v2_2.wav" rootNote="65" start="0.000" volume="12.0dB" />
+			<sample end="1136648.000" hiNote="66" hiVel="127" loNote="65" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_F4_v4_1.wav" rootNote="65" start="0.000" volume="3.233612dB" />
+			<sample end="547366.000" hiNote="68" hiVel="83" loNote="67" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_G4_v2_1.wav" rootNote="67" start="0.000" volume="12.0dB" />
+			<sample end="718320.000" hiNote="68" hiVel="127" loNote="67" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_G4_v4_1.wav" rootNote="67" start="0.000" volume="7.086978dB" />
+			<sample end="427478.000" hiNote="70" hiVel="83" loNote="69" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_A4_v2_1.wav" rootNote="69" start="0.000" volume="12.0dB" />
+			<sample end="676307.000" hiNote="70" hiVel="127" loNote="69" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_A4_v4_1.wav" rootNote="69" start="0.000" volume="5.225776dB" />
+			<sample end="910332.000" hiNote="71" hiVel="83" loNote="71" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_B4_v2_1.wav" rootNote="71" start="1026.000" volume="12.0dB" />
+			<sample end="1594779.000" hiNote="71" hiVel="127" loNote="71" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_B4_v4_1.wav" rootNote="71" start="0.000" volume="7.30392dB" />
+			<sample end="824025.000" hiNote="73" hiVel="83" loNote="72" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_C5_v2_1.wav" rootNote="72" start="0.000" volume="12.0dB" />
+			<sample end="1959162.000" hiNote="73" hiVel="127" loNote="72" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_C5_v4_1.wav" rootNote="72" start="2727.000" volume="6.22251dB" />
+			<sample end="857537.000" hiNote="75" hiVel="83" loNote="74" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_D5_v2_2.wav" rootNote="74" start="0.000" volume="12.0dB" />
+			<sample end="1099018.000" hiNote="75" hiVel="127" loNote="74" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_D5_v4_1.wav" rootNote="74" start="0.000" volume="1.64143dB" />
+			<sample end="532007.000" hiNote="76" hiVel="83" loNote="76" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_E5_v2_1.wav" rootNote="76" start="0.000" volume="12.0dB" />
+			<sample end="751806.000" hiNote="76" hiVel="127" loNote="76" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_E5_v4_2.wav" rootNote="76" start="0.000" volume="7.04654dB" />
+			<sample end="584233.000" hiNote="79" hiVel="83" loNote="77" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_F5_v2_2.wav" rootNote="77" start="0.000" volume="12.0dB" />
+			<sample end="537580.000" hiNote="79" hiVel="127" loNote="77" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_F5_v4_1.wav" rootNote="77" start="0.000" volume="6.808567dB" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+	<tags />
+</DecentSampler>
