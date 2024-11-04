@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Choir.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0.063" decay="0.880" release="0.050" sustain="0.700">
+		<group name="Group 1" ampVelTrack="1">
+			<sample end="388869" hiNote="79" hiVel="127" loNote="79" loVel="0" path="Resources/Choir Samples/chorus-female-g4-PB-loop.wav" rootNote="79" volume="3.0dB" />
+			<sample end="387335" hiNote="80" hiVel="127" loNote="80" loVel="0" path="Resources/Choir Samples/chorus-female-g#4-PB-loop.wav" rootNote="80" volume="3.0dB" />
+			<sample end="389025" hiNote="81" hiVel="127" loNote="81" loVel="0" path="Resources/Choir Samples/chorus-female-a4-PB-loop.wav" rootNote="81" volume="3.0dB" />
+			<sample end="389870" hiNote="82" hiVel="127" loNote="82" loVel="0" path="Resources/Choir Samples/chorus-female-a#4-PB-loop.wav" rootNote="82" volume="3.0dB" />
+			<sample end="388765" hiNote="83" hiVel="127" loNote="83" loVel="0" path="Resources/Choir Samples/chorus-female-b4-PB-loop.wav" rootNote="83" volume="3.0dB" />
+			<sample end="388206" hiNote="84" hiVel="127" loNote="84" loVel="0" path="Resources/Choir Samples/chorus-female-c5-PB-loop.wav" rootNote="84" volume="3.0dB" />
+			<sample end="387062" hiNote="85" hiVel="127" loNote="85" loVel="0" path="Resources/Choir Samples/chorus-female-c#5-PB-loop.wav" rootNote="85" volume="3.0dB" />
+			<sample end="389103" hiNote="86" hiVel="127" loNote="86" loVel="0" path="Resources/Choir Samples/chorus-female-d5-PB-loop.wav" rootNote="86" volume="3.0dB" />
+			<sample end="387777" hiNote="87" hiVel="127" loNote="87" loVel="0" path="Resources/Choir Samples/chorus-female-d#5-PB-loop.wav" rootNote="87" volume="3.0dB" />
+			<sample end="387647" hiNote="88" hiVel="127" loNote="88" loVel="0" path="Resources/Choir Samples/chorus-female-e5-PB-loop.wav" rootNote="88" volume="3.0dB" />
+			<sample end="390481" hiNote="89" hiVel="127" loNote="89" loVel="0" path="Resources/Choir Samples/chorus-female-f5-PB-loop.wav" rootNote="89" volume="3.0dB" />
+			<sample end="388934" hiNote="90" hiVel="127" loNote="90" loVel="0" path="Resources/Choir Samples/chorus-female-f#5-PB-loop.wav" rootNote="90" volume="3.0dB" />
+			<sample end="390052" hiNote="91" hiVel="127" loNote="91" loVel="0" path="Resources/Choir Samples/chorus-female-g5-PB-loop.wav" rootNote="91" volume="3.0dB" />
+			<sample end="388115" hiNote="92" hiVel="127" loNote="92" loVel="0" path="Resources/Choir Samples/chorus-female-g#5-PB-loop.wav" rootNote="92" volume="3.0dB" />
+			<sample end="389090" hiNote="93" hiVel="127" loNote="93" loVel="0" path="Resources/Choir Samples/chorus-female-a5-PB-loop.wav" rootNote="93" volume="3.0dB" />
+			<sample end="389038" hiNote="94" hiVel="127" loNote="94" loVel="0" path="Resources/Choir Samples/chorus-female-a#5-PB-loop.wav" rootNote="94" volume="3.0dB" />
+			<sample end="386386" hiNote="95" hiVel="127" loNote="95" loVel="0" path="Resources/Choir Samples/chorus-female-b5-PB-loop.wav" rootNote="95" volume="3.0dB" />
+			<sample end="387920" hiNote="96" hiVel="127" loNote="96" loVel="0" path="Resources/Choir Samples/chorus-female-c6-PB-loop.wav" rootNote="96" volume="3.0dB" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+</DecentSampler>
