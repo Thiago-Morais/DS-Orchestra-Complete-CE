@@ -30,12 +30,124 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups release="0.081">
-		<group name="Solo Horn" ampVelTrack="1">
-			<sample end="64334.000" hiNote="58" hiVel="127" loNote="36" loVel="0" loopEnabled="true" loopEnd="62565.000" loopStart="39738.000" path="Resources/French Horn - Legato Samples/hBbmf.wav" rootNote="58" tuning="-0.08" />
-			<sample end="44880.000" hiNote="63" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="39570.000" loopStart="18557.000" path="Resources/French Horn - Legato Samples/hESmf.wav" rootNote="63" tuning="0.12" />
-			<sample end="34011.000" hiNote="71" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="29721.000" loopStart="18151.000" path="Resources/French Horn - Legato Samples/htopBbf.wav" rootNote="70" />
-			<sample end="39855.000" hiNote="81" hiVel="127" loNote="72" loVel="0" loopEnabled="true" loopEnd="31910.000" loopStart="21997.000" path="Resources/French Horn - Legato Samples/htopEsf.wav" rootNote="75" />
+	<groups attack="0.000" release="0.028" seqMode="random">
+		<group name="Stac RR 1" ampVelTrack="1" seqPosition="1" trigger="first">
+			<sample rootNote="33" loNote="33" hiNote="34" loVel="1" hiVel="48" end="96404.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="36" loNote="33" hiNote="37" loVel="49" hiVel="127" end="64689.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="36" loNote="35" hiNote="37" loVel="1" hiVel="48" end="78028.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="39" loNote="38" hiNote="40" loVel="1" hiVel="48" end="56229.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="39" loNote="38" hiNote="40" loVel="49" hiVel="127" end="71591.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="43" loNote="41" hiNote="44" loVel="1" hiVel="48" end="101886.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="43" loNote="41" hiNote="45" loVel="49" hiVel="96" end="57412.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="46" loNote="41" hiNote="47" loVel="97" hiVel="127" end="85486.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="46" loNote="45" hiNote="49" loVel="1" hiVel="48" end="76749.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v1_1.wav" start="2592.000" volume="5.85730903073885dB" />
+			<sample rootNote="50" loNote="46" hiNote="51" loVel="49" hiVel="96" end="72584.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="50" loNote="48" hiNote="51" loVel="97" hiVel="127" end="35302.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="53" loNote="50" hiNote="54" loVel="1" hiVel="48" end="106435.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="53" loNote="52" hiNote="54" loVel="49" hiVel="96" end="58183.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="53" loNote="52" hiNote="54" loVel="97" hiVel="127" end="107183.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="57" loNote="55" hiNote="58" loVel="1" hiVel="48" end="116984.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="57" loNote="55" hiNote="58" loVel="49" hiVel="96" end="85111.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="57" loNote="55" hiNote="58" loVel="97" hiVel="127" end="93476.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="60" loNote="59" hiNote="66" loVel="1" hiVel="48" end="111048.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="60" loNote="59" hiNote="66" loVel="49" hiVel="96" end="29135.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="60" loNote="59" hiNote="66" loVel="97" hiVel="127" end="96382.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="74" loNote="67" hiNote="75" loVel="1" hiVel="48" end="86718.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="74" loNote="67" hiNote="75" loVel="49" hiVel="96" end="84782.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="74" loNote="67" hiNote="75" loVel="97" hiVel="127" end="68231.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="1" hiVel="48" end="84972.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="49" hiVel="96" end="38827.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="97" hiVel="127" end="52675.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" volume="5.85730903073885dB" />
+		</group>
+		<group name="Stac RR 2" ampVelTrack="1" seqPosition="2" trigger="first">
+			<sample rootNote="33" loNote="33" hiNote="34" loVel="1" hiVel="48" end="103942.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="36" loNote="33" hiNote="37" loVel="49" hiVel="127" end="69249.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="36" loNote="35" hiNote="37" loVel="1" hiVel="48" end="74019.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_2.wav" start="1668.000" volume="5.85730903073885dB" />
+			<sample rootNote="39" loNote="38" hiNote="40" loVel="1" hiVel="48" end="56188.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v1_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="39" loNote="38" hiNote="40" loVel="49" hiVel="127" end="87126.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v2_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="43" loNote="41" hiNote="45" loVel="49" hiVel="96" end="46350.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v2_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="43" loNote="41" hiNote="46" loVel="1" hiVel="48" end="88726.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v1_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="46" loNote="41" hiNote="47" loVel="97" hiVel="127" end="57587.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v3_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="50" loNote="46" hiNote="51" loVel="49" hiVel="96" end="97262.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v2_2.wav" start="1873.000" volume="5.85730903073885dB" />
+			<sample rootNote="50" loNote="47" hiNote="51" loVel="1" hiVel="48" end="80274.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v1_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="50" loNote="48" hiNote="51" loVel="97" hiVel="127" end="103180.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v3_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="53" loNote="52" hiNote="54" loVel="1" hiVel="48" end="46412.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v1_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="53" loNote="52" hiNote="54" loVel="49" hiVel="96" end="91403.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v2_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="53" loNote="52" hiNote="54" loVel="97" hiVel="127" end="66224.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v3_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="57" loNote="55" hiNote="58" loVel="1" hiVel="48" end="103563.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v1_2.wav" start="791.000" volume="5.85730903073885dB" />
+			<sample rootNote="57" loNote="55" hiNote="58" loVel="49" hiVel="96" end="154398.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v2_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="57" loNote="55" hiNote="58" loVel="97" hiVel="127" end="122222.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v3_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="60" loNote="59" hiNote="66" loVel="1" hiVel="48" end="91264.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v1_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="60" loNote="59" hiNote="66" loVel="49" hiVel="96" end="46244.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v2_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="60" loNote="59" hiNote="66" loVel="97" hiVel="127" end="102487.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v3_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="74" loNote="67" hiNote="75" loVel="1" hiVel="48" end="82755.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v1_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="74" loNote="67" hiNote="75" loVel="49" hiVel="96" end="105457.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v2_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="74" loNote="67" hiNote="75" loVel="97" hiVel="127" end="84006.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v3_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="1" hiVel="48" end="93640.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v1_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="49" hiVel="96" end="98517.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_2.wav" volume="5.85730903073885dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="97" hiVel="127" end="52371.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" volume="5.85730903073885dB" />
+		</group>
+		<group name="Sus Non Vib" ampVelTrack="1">
+			<sample rootNote="33" loNote="33" hiNote="34" loVel="1" hiVel="48" end="236238.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A0_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="36" loNote="33" hiNote="37" loVel="49" hiVel="96" end="201776.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C1_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="36" loNote="33" hiNote="37" loVel="97" hiVel="127" end="176100.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C1_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="36" loNote="35" hiNote="37" loVel="1" hiVel="48" end="272902.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C1_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="39" loNote="38" hiNote="40" loVel="1" hiVel="48" end="356033.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D#1_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="39" loNote="38" hiNote="40" loVel="49" hiVel="96" end="242553.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D#1_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="39" loNote="38" hiNote="40" loVel="97" hiVel="127" end="231693.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D#1_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="43" loNote="41" hiNote="44" loVel="1" hiVel="48" end="509376.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_G1_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="43" loNote="41" hiNote="44" loVel="49" hiVel="96" end="325097.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_G1_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="43" loNote="41" hiNote="44" loVel="97" hiVel="127" end="234735.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_G1_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" loVel="1" hiVel="48" end="604458.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A#1_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" loVel="49" hiVel="96" end="685090.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A#1_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" loVel="97" hiVel="127" end="457055.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A#1_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="50" loNote="48" hiNote="51" loVel="1" hiVel="48" end="625329.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D2_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="50" loNote="48" hiNote="51" loVel="49" hiVel="96" end="645810.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D2_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="50" loNote="48" hiNote="51" loVel="97" hiVel="127" end="436393.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D2_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="53" loNote="52" hiNote="54" loVel="1" hiVel="48" end="540784.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F2_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="53" loNote="52" hiNote="54" loVel="49" hiVel="96" end="639572.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F2_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="53" loNote="52" hiNote="54" loVel="97" hiVel="127" end="423120.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F2_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="57" loNote="55" hiNote="58" loVel="1" hiVel="48" end="667920.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A2_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="57" loNote="55" hiNote="58" loVel="49" hiVel="96" end="635563.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A2_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="57" loNote="55" hiNote="58" loVel="97" hiVel="127" end="326224.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A2_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="60" loNote="59" hiNote="66" loVel="1" hiVel="48" end="629919.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C3_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="60" loNote="59" hiNote="66" loVel="49" hiVel="96" end="560012.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C3_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="60" loNote="59" hiNote="66" loVel="97" hiVel="127" end="528743.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C3_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="74" loNote="67" hiNote="75" loVel="1" hiVel="127" end="361211.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D4_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="1" hiVel="127" end="369394.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F4_v1_1.wav" start="4298.000" volume="5.85730903073885dB" />
+		</group>
+		<group name="Sus Non Vib Loud" ampVelTrack="1">
+			<sample rootNote="36" loNote="33" hiNote="37" loVel="1" hiVel="127" end="176100.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C1_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="39" loNote="38" hiNote="40" loVel="1" hiVel="127" end="231693.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D#1_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="43" loNote="41" hiNote="44" loVel="1" hiVel="127" end="234735.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_G1_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" loVel="1" hiVel="127" end="457055.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A#1_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="50" loNote="48" hiNote="51" loVel="1" hiVel="127" end="436393.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D2_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="53" loNote="52" hiNote="54" loVel="1" hiVel="127" end="423120.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F2_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="57" loNote="55" hiNote="58" loVel="1" hiVel="127" end="326224.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A2_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="60" loNote="59" hiNote="66" loVel="1" hiVel="127" end="528743.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C3_v3_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="74" loNote="67" hiNote="75" loVel="1" hiVel="127" end="361211.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D4_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="1" hiVel="127" end="369394.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F4_v1_1.wav" start="4298.000" volume="5.85730903073885dB" />
+		</group>
+		<group name="Sus Non Vib Soft" ampVelTrack="1">
+			<sample rootNote="33" loNote="33" hiNote="34" loVel="1" hiVel="80" end="236238.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A0_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="36" loNote="33" hiNote="37" loVel="81" hiVel="127" end="201776.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C1_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="36" loNote="35" hiNote="37" loVel="1" hiVel="80" end="272902.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C1_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="39" loNote="38" hiNote="40" loVel="1" hiVel="80" end="356033.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D#1_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="39" loNote="38" hiNote="40" loVel="81" hiVel="127" end="242553.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D#1_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="43" loNote="41" hiNote="44" loVel="1" hiVel="80" end="509376.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_G1_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="43" loNote="41" hiNote="44" loVel="81" hiVel="127" end="325097.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_G1_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" loVel="1" hiVel="80" end="604458.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A#1_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" loVel="81" hiVel="127" end="685090.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A#1_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="50" loNote="48" hiNote="51" loVel="1" hiVel="80" end="625329.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D2_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="50" loNote="48" hiNote="51" loVel="81" hiVel="127" end="645810.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D2_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="53" loNote="52" hiNote="54" loVel="1" hiVel="80" end="540784.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F2_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="53" loNote="52" hiNote="54" loVel="81" hiVel="127" end="639572.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F2_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="57" loNote="55" hiNote="58" loVel="1" hiVel="80" end="667920.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A2_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="57" loNote="55" hiNote="58" loVel="81" hiVel="127" end="635563.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A2_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="60" loNote="59" hiNote="66" loVel="1" hiVel="80" end="629919.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C3_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="60" loNote="59" hiNote="66" loVel="81" hiVel="127" end="560012.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C3_v2_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="74" loNote="67" hiNote="75" loVel="1" hiVel="127" end="361211.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D4_v1_1.wav" volume="5.85730903073885dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="1" hiVel="127" end="369394.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F4_v1_1.wav" start="4298.000" volume="5.85730903073885dB" />
 		</group>
 	</groups>
 	<midi>
