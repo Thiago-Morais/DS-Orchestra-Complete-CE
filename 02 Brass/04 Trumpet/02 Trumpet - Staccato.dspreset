@@ -32,74 +32,74 @@
 	</ui>
 	<groups attack="0.000" release="0.080">
 		<group name="gr_1" ampVelTrack="1">
-			<sample end="50323.000" hiNote="71" hiVel="41" loNote="69" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v1_rr1.wav" rootNote="70" start="0.000" volume="12.0dB" />
-			<sample end="33198.000" hiNote="58" hiVel="41" loNote="55" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v1_rr1.wav" rootNote="57" start="0.000" volume="12.0dB" />
-			<sample end="65356.000" hiNote="82" hiVel="41" loNote="79" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v1_rr1.wav" rootNote="81" start="0.000" volume="12.0dB" />
-			<sample end="46050.000" hiNote="61" hiVel="41" loNote="59" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C3_v1_rr1.wav" rootNote="60" start="0.000" volume="12.0dB" />
-			<sample end="73127.000" hiNote="84" hiVel="41" loNote="83" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C5_v1_rr1.wav" rootNote="84" start="0.000" volume="12.0dB" />
-			<sample end="46330.000" hiNote="63" hiVel="41" loNote="62" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D#3_v1_rr1.wav" rootNote="63" start="0.000" volume="12.0dB" />
-			<sample end="48657.000" hiNote="75" hiVel="41" loNote="72" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D4_v1_rr1.wav" rootNote="74" start="0.000" volume="12.0dB" />
-			<sample end="38297.000" hiNote="54" hiVel="41" loNote="52" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F2_v1_rr1.wav" rootNote="53" start="0.000" volume="12.0dB" />
-			<sample end="52076.000" hiNote="65" hiVel="41" loNote="64" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F3_v1_rr1.wav" rootNote="65" start="0.000" volume="12.0dB" />
-			<sample end="53076.000" hiNote="78" hiVel="41" loNote="76" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F4_v1_rr1.wav" rootNote="77" start="0.000" volume="12.0dB" />
-			<sample end="56427.000" hiNote="68" hiVel="41" loNote="66" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_G3_v1_rr1.wav" rootNote="67" start="0.000" volume="12.0dB" />
-			<sample end="54604.000" hiNote="71" hiVel="83" loNote="69" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v2_rr1.wav" rootNote="70" start="0.000" volume="12.0dB" />
-			<sample end="41654.000" hiNote="58" hiVel="83" loNote="55" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v2_rr1.wav" rootNote="57" start="0.000" volume="12.0dB" />
-			<sample end="53304.000" hiNote="82" hiVel="83" loNote="79" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v2_rr1.wav" rootNote="81" start="0.000" volume="12.0dB" />
-			<sample end="50294.000" hiNote="61" hiVel="83" loNote="59" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C3_v2_rr1.wav" rootNote="60" start="0.000" volume="12.0dB" />
-			<sample end="39196.000" hiNote="84" hiVel="83" loNote="83" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C5_v2_rr1.wav" rootNote="84" start="0.000" volume="12.0dB" />
-			<sample end="56953.000" hiNote="63" hiVel="83" loNote="62" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D#3_v2_rr1.wav" rootNote="63" start="0.000" volume="12.0dB" />
-			<sample end="58981.000" hiNote="75" hiVel="83" loNote="72" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D4_v2_rr1.wav" rootNote="74" start="0.000" volume="12.0dB" />
-			<sample end="47606.000" hiNote="54" hiVel="83" loNote="52" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F2_v2_rr1.wav" rootNote="53" start="0.000" volume="12.0dB" />
-			<sample end="59410.000" hiNote="65" hiVel="83" loNote="64" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F3_v2_rr1.wav" rootNote="65" start="0.000" volume="12.0dB" />
-			<sample end="61082.000" hiNote="78" hiVel="83" loNote="76" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F4_v2_rr1.wav" rootNote="77" start="0.000" volume="12.0dB" />
-			<sample end="52562.000" hiNote="68" hiVel="83" loNote="66" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_G3_v2_rr1.wav" rootNote="67" start="0.000" volume="12.0dB" />
-			<sample end="67597.000" hiNote="71" hiVel="127" loNote="69" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v3_rr1.wav" rootNote="70" start="0.000" volume="5.0dB" />
-			<sample end="66597.000" hiNote="58" hiVel="127" loNote="55" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v3_rr1.wav" rootNote="57" start="0.000" volume="5.0dB" />
-			<sample end="59597.000" hiNote="82" hiVel="127" loNote="79" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v3_rr1.wav" rootNote="81" start="0.000" volume="5.0dB" />
-			<sample end="53735.000" hiNote="61" hiVel="127" loNote="59" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C3_v3_rr1.wav" rootNote="60" start="0.000" volume="5.0dB" />
-			<sample end="63421.000" hiNote="84" hiVel="127" loNote="83" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C5_v3_rr1.wav" rootNote="84" start="0.000" volume="5.0dB" />
-			<sample end="64584.000" hiNote="63" hiVel="127" loNote="62" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D#3_v3_rr1.wav" rootNote="63" start="0.000" volume="5.0dB" />
-			<sample end="77357.000" hiNote="75" hiVel="127" loNote="72" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D4_v3_rr1.wav" rootNote="74" start="0.000" volume="5.0dB" />
-			<sample end="47321.000" hiNote="54" hiVel="127" loNote="52" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F2_v3_rr1.wav" rootNote="53" start="0.000" volume="5.0dB" />
-			<sample end="62685.000" hiNote="65" hiVel="127" loNote="64" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F3_v3_rr1.wav" rootNote="65" start="0.000" volume="5.0dB" />
-			<sample end="67710.000" hiNote="78" hiVel="127" loNote="76" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F4_v3_rr1.wav" rootNote="77" start="0.000" volume="5.0dB" />
-			<sample end="56699.000" hiNote="68" hiVel="127" loNote="66" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_G3_v3_rr1.wav" rootNote="67" start="0.000" volume="5.0dB" />
+			<sample end="50323.000" hiNote="71" hiVel="41" loNote="69" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v1_rr1.wav" rootNote="70" volume="12.0dB" />
+			<sample end="33198.000" hiNote="58" hiVel="41" loNote="55" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v1_rr1.wav" rootNote="57" volume="12.0dB" />
+			<sample end="65356.000" hiNote="82" hiVel="41" loNote="79" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v1_rr1.wav" rootNote="81" volume="12.0dB" />
+			<sample end="46050.000" hiNote="61" hiVel="41" loNote="59" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C3_v1_rr1.wav" rootNote="60" volume="12.0dB" />
+			<sample end="73127.000" hiNote="84" hiVel="41" loNote="83" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C5_v1_rr1.wav" rootNote="84" volume="12.0dB" />
+			<sample end="46330.000" hiNote="63" hiVel="41" loNote="62" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D#3_v1_rr1.wav" rootNote="63" volume="12.0dB" />
+			<sample end="48657.000" hiNote="75" hiVel="41" loNote="72" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D4_v1_rr1.wav" rootNote="74" volume="12.0dB" />
+			<sample end="38297.000" hiNote="54" hiVel="41" loNote="52" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F2_v1_rr1.wav" rootNote="53" volume="12.0dB" />
+			<sample end="52076.000" hiNote="65" hiVel="41" loNote="64" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F3_v1_rr1.wav" rootNote="65" volume="12.0dB" />
+			<sample end="53076.000" hiNote="78" hiVel="41" loNote="76" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F4_v1_rr1.wav" rootNote="77" volume="12.0dB" />
+			<sample end="56427.000" hiNote="68" hiVel="41" loNote="66" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_G3_v1_rr1.wav" rootNote="67" volume="12.0dB" />
+			<sample end="54604.000" hiNote="71" hiVel="83" loNote="69" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v2_rr1.wav" rootNote="70" volume="12.0dB" />
+			<sample end="41654.000" hiNote="58" hiVel="83" loNote="55" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v2_rr1.wav" rootNote="57" volume="12.0dB" />
+			<sample end="53304.000" hiNote="82" hiVel="83" loNote="79" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v2_rr1.wav" rootNote="81" volume="12.0dB" />
+			<sample end="50294.000" hiNote="61" hiVel="83" loNote="59" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C3_v2_rr1.wav" rootNote="60" volume="12.0dB" />
+			<sample end="39196.000" hiNote="84" hiVel="83" loNote="83" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C5_v2_rr1.wav" rootNote="84" volume="12.0dB" />
+			<sample end="56953.000" hiNote="63" hiVel="83" loNote="62" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D#3_v2_rr1.wav" rootNote="63" volume="12.0dB" />
+			<sample end="58981.000" hiNote="75" hiVel="83" loNote="72" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D4_v2_rr1.wav" rootNote="74" volume="12.0dB" />
+			<sample end="47606.000" hiNote="54" hiVel="83" loNote="52" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F2_v2_rr1.wav" rootNote="53" volume="12.0dB" />
+			<sample end="59410.000" hiNote="65" hiVel="83" loNote="64" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F3_v2_rr1.wav" rootNote="65" volume="12.0dB" />
+			<sample end="61082.000" hiNote="78" hiVel="83" loNote="76" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F4_v2_rr1.wav" rootNote="77" volume="12.0dB" />
+			<sample end="52562.000" hiNote="68" hiVel="83" loNote="66" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_G3_v2_rr1.wav" rootNote="67" volume="12.0dB" />
+			<sample end="67597.000" hiNote="71" hiVel="127" loNote="69" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v3_rr1.wav" rootNote="70" volume="5.0dB" />
+			<sample end="66597.000" hiNote="58" hiVel="127" loNote="55" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v3_rr1.wav" rootNote="57" volume="5.0dB" />
+			<sample end="59597.000" hiNote="82" hiVel="127" loNote="79" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v3_rr1.wav" rootNote="81" volume="5.0dB" />
+			<sample end="53735.000" hiNote="61" hiVel="127" loNote="59" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C3_v3_rr1.wav" rootNote="60" volume="5.0dB" />
+			<sample end="63421.000" hiNote="84" hiVel="127" loNote="83" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C5_v3_rr1.wav" rootNote="84" volume="5.0dB" />
+			<sample end="64584.000" hiNote="63" hiVel="127" loNote="62" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D#3_v3_rr1.wav" rootNote="63" volume="5.0dB" />
+			<sample end="77357.000" hiNote="75" hiVel="127" loNote="72" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D4_v3_rr1.wav" rootNote="74" volume="5.0dB" />
+			<sample end="47321.000" hiNote="54" hiVel="127" loNote="52" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F2_v3_rr1.wav" rootNote="53" volume="5.0dB" />
+			<sample end="62685.000" hiNote="65" hiVel="127" loNote="64" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F3_v3_rr1.wav" rootNote="65" volume="5.0dB" />
+			<sample end="67710.000" hiNote="78" hiVel="127" loNote="76" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F4_v3_rr1.wav" rootNote="77" volume="5.0dB" />
+			<sample end="56699.000" hiNote="68" hiVel="127" loNote="66" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_G3_v3_rr1.wav" rootNote="67" volume="5.0dB" />
 		</group>
 		<group name="gr_2" ampVelTrack="1">
-			<sample end="49935.000" hiNote="71" hiVel="41" loNote="69" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v1_rr2.wav" rootNote="70" start="0.000" volume="12.0dB" />
-			<sample end="36821.000" hiNote="58" hiVel="41" loNote="55" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v1_rr2.wav" rootNote="57" start="0.000" volume="12.0dB" />
-			<sample end="53910.000" hiNote="82" hiVel="41" loNote="79" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v1_rr2.wav" rootNote="81" start="0.000" volume="12.0dB" />
-			<sample end="41534.000" hiNote="61" hiVel="41" loNote="59" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C3_v1_rr2.wav" rootNote="60" start="0.000" volume="12.0dB" />
-			<sample end="60286.000" hiNote="84" hiVel="41" loNote="83" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C5_v1_rr2.wav" rootNote="84" start="0.000" volume="12.0dB" />
-			<sample end="47232.000" hiNote="63" hiVel="41" loNote="62" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D#3_v1_rr2.wav" rootNote="63" start="0.000" volume="12.0dB" />
-			<sample end="47568.000" hiNote="75" hiVel="41" loNote="72" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D4_v1_rr2.wav" rootNote="74" start="0.000" volume="12.0dB" />
-			<sample end="38523.000" hiNote="54" hiVel="41" loNote="52" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F2_v1_rr2.wav" rootNote="53" start="0.000" volume="12.0dB" />
-			<sample end="57179.000" hiNote="65" hiVel="41" loNote="64" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F3_v1_rr2.wav" rootNote="65" start="0.000" volume="12.0dB" />
-			<sample end="60693.000" hiNote="78" hiVel="41" loNote="76" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F4_v1_rr2.wav" rootNote="77" start="0.000" volume="12.0dB" />
-			<sample end="53973.000" hiNote="68" hiVel="41" loNote="66" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_G3_v1_rr2.wav" rootNote="67" start="0.000" volume="12.0dB" />
-			<sample end="59113.000" hiNote="71" hiVel="83" loNote="69" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v2_rr2.wav" rootNote="70" start="0.000" volume="12.0dB" />
-			<sample end="42680.000" hiNote="58" hiVel="83" loNote="55" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v2_rr2.wav" rootNote="57" start="0.000" volume="12.0dB" />
-			<sample end="55159.000" hiNote="82" hiVel="83" loNote="79" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v2_rr2.wav" rootNote="81" start="0.000" volume="12.0dB" />
-			<sample end="51548.000" hiNote="61" hiVel="83" loNote="59" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C3_v2_rr2.wav" rootNote="60" start="0.000" volume="12.0dB" />
-			<sample end="65679.000" hiNote="84" hiVel="83" loNote="83" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C5_v2_rr2.wav" rootNote="84" start="0.000" volume="12.0dB" />
-			<sample end="55766.000" hiNote="63" hiVel="83" loNote="62" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D#3_v2_rr2.wav" rootNote="63" start="0.000" volume="12.0dB" />
-			<sample end="51464.000" hiNote="75" hiVel="83" loNote="72" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D4_v2_rr2.wav" rootNote="74" start="0.000" volume="12.0dB" />
-			<sample end="42997.000" hiNote="54" hiVel="83" loNote="52" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F2_v2_rr2.wav" rootNote="53" start="0.000" volume="12.0dB" />
-			<sample end="59267.000" hiNote="65" hiVel="83" loNote="64" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F3_v2_rr2.wav" rootNote="65" start="0.000" volume="12.0dB" />
-			<sample end="60041.000" hiNote="78" hiVel="83" loNote="76" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F4_v2_rr2.wav" rootNote="77" start="0.000" volume="12.0dB" />
-			<sample end="50652.000" hiNote="68" hiVel="83" loNote="66" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_G3_v2_rr2.wav" rootNote="67" start="0.000" volume="12.0dB" />
-			<sample end="65868.000" hiNote="71" hiVel="127" loNote="69" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v3_rr2.wav" rootNote="70" start="0.000" volume="5.0dB" />
-			<sample end="68588.000" hiNote="58" hiVel="127" loNote="55" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v3_rr2.wav" rootNote="57" start="0.000" volume="5.0dB" />
-			<sample end="64563.000" hiNote="82" hiVel="127" loNote="79" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v3_rr2.wav" rootNote="81" start="0.000" volume="5.0dB" />
-			<sample end="58279.000" hiNote="61" hiVel="127" loNote="59" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C3_v3_rr2.wav" rootNote="60" start="0.000" volume="5.0dB" />
-			<sample end="74842.000" hiNote="84" hiVel="127" loNote="83" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C5_v3_rr2.wav" rootNote="84" start="0.000" volume="5.0dB" />
-			<sample end="61569.000" hiNote="63" hiVel="127" loNote="62" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D#3_v3_rr2.wav" rootNote="63" start="0.000" volume="5.0dB" />
-			<sample end="63533.000" hiNote="75" hiVel="127" loNote="72" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D4_v3_rr2.wav" rootNote="74" start="0.000" volume="5.0dB" />
-			<sample end="40862.000" hiNote="54" hiVel="127" loNote="52" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F2_v3_rr2.wav" rootNote="53" start="0.000" volume="5.0dB" />
-			<sample end="61748.000" hiNote="65" hiVel="127" loNote="64" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F3_v3_rr2.wav" rootNote="65" start="0.000" volume="5.0dB" />
-			<sample end="66667.000" hiNote="78" hiVel="127" loNote="76" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F4_v3_rr2.wav" rootNote="77" start="0.000" volume="5.0dB" />
-			<sample end="63532.000" hiNote="68" hiVel="127" loNote="66" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_G3_v3_rr2.wav" rootNote="67" start="0.000" volume="5.0dB" />
+			<sample end="49935.000" hiNote="71" hiVel="41" loNote="69" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v1_rr2.wav" rootNote="70" volume="12.0dB" />
+			<sample end="36821.000" hiNote="58" hiVel="41" loNote="55" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v1_rr2.wav" rootNote="57" volume="12.0dB" />
+			<sample end="53910.000" hiNote="82" hiVel="41" loNote="79" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v1_rr2.wav" rootNote="81" volume="12.0dB" />
+			<sample end="41534.000" hiNote="61" hiVel="41" loNote="59" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C3_v1_rr2.wav" rootNote="60" volume="12.0dB" />
+			<sample end="60286.000" hiNote="84" hiVel="41" loNote="83" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C5_v1_rr2.wav" rootNote="84" volume="12.0dB" />
+			<sample end="47232.000" hiNote="63" hiVel="41" loNote="62" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D#3_v1_rr2.wav" rootNote="63" volume="12.0dB" />
+			<sample end="47568.000" hiNote="75" hiVel="41" loNote="72" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D4_v1_rr2.wav" rootNote="74" volume="12.0dB" />
+			<sample end="38523.000" hiNote="54" hiVel="41" loNote="52" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F2_v1_rr2.wav" rootNote="53" volume="12.0dB" />
+			<sample end="57179.000" hiNote="65" hiVel="41" loNote="64" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F3_v1_rr2.wav" rootNote="65" volume="12.0dB" />
+			<sample end="60693.000" hiNote="78" hiVel="41" loNote="76" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F4_v1_rr2.wav" rootNote="77" volume="12.0dB" />
+			<sample end="53973.000" hiNote="68" hiVel="41" loNote="66" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_G3_v1_rr2.wav" rootNote="67" volume="12.0dB" />
+			<sample end="59113.000" hiNote="71" hiVel="83" loNote="69" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v2_rr2.wav" rootNote="70" volume="12.0dB" />
+			<sample end="42680.000" hiNote="58" hiVel="83" loNote="55" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v2_rr2.wav" rootNote="57" volume="12.0dB" />
+			<sample end="55159.000" hiNote="82" hiVel="83" loNote="79" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v2_rr2.wav" rootNote="81" volume="12.0dB" />
+			<sample end="51548.000" hiNote="61" hiVel="83" loNote="59" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C3_v2_rr2.wav" rootNote="60" volume="12.0dB" />
+			<sample end="65679.000" hiNote="84" hiVel="83" loNote="83" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C5_v2_rr2.wav" rootNote="84" volume="12.0dB" />
+			<sample end="55766.000" hiNote="63" hiVel="83" loNote="62" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D#3_v2_rr2.wav" rootNote="63" volume="12.0dB" />
+			<sample end="51464.000" hiNote="75" hiVel="83" loNote="72" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D4_v2_rr2.wav" rootNote="74" volume="12.0dB" />
+			<sample end="42997.000" hiNote="54" hiVel="83" loNote="52" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F2_v2_rr2.wav" rootNote="53" volume="12.0dB" />
+			<sample end="59267.000" hiNote="65" hiVel="83" loNote="64" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F3_v2_rr2.wav" rootNote="65" volume="12.0dB" />
+			<sample end="60041.000" hiNote="78" hiVel="83" loNote="76" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F4_v2_rr2.wav" rootNote="77" volume="12.0dB" />
+			<sample end="50652.000" hiNote="68" hiVel="83" loNote="66" loVel="42" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_G3_v2_rr2.wav" rootNote="67" volume="12.0dB" />
+			<sample end="65868.000" hiNote="71" hiVel="127" loNote="69" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v3_rr2.wav" rootNote="70" volume="5.0dB" />
+			<sample end="68588.000" hiNote="58" hiVel="127" loNote="55" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v3_rr2.wav" rootNote="57" volume="5.0dB" />
+			<sample end="64563.000" hiNote="82" hiVel="127" loNote="79" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v3_rr2.wav" rootNote="81" volume="5.0dB" />
+			<sample end="58279.000" hiNote="61" hiVel="127" loNote="59" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C3_v3_rr2.wav" rootNote="60" volume="5.0dB" />
+			<sample end="74842.000" hiNote="84" hiVel="127" loNote="83" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_C5_v3_rr2.wav" rootNote="84" volume="5.0dB" />
+			<sample end="61569.000" hiNote="63" hiVel="127" loNote="62" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D#3_v3_rr2.wav" rootNote="63" volume="5.0dB" />
+			<sample end="63533.000" hiNote="75" hiVel="127" loNote="72" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_D4_v3_rr2.wav" rootNote="74" volume="5.0dB" />
+			<sample end="40862.000" hiNote="54" hiVel="127" loNote="52" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F2_v3_rr2.wav" rootNote="53" volume="5.0dB" />
+			<sample end="61748.000" hiNote="65" hiVel="127" loNote="64" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F3_v3_rr2.wav" rootNote="65" volume="5.0dB" />
+			<sample end="66667.000" hiNote="78" hiVel="127" loNote="76" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F4_v3_rr2.wav" rootNote="77" volume="5.0dB" />
+			<sample end="63532.000" hiNote="68" hiVel="127" loNote="66" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_G3_v3_rr2.wav" rootNote="67" volume="5.0dB" />
 		</group>
 	</groups>
 	<midi>

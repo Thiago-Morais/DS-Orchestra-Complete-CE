@@ -32,10 +32,10 @@
 	</ui>
 	<groups release="0.081">
 		<group name="Solo Horn" ampVelTrack="1">
-			<sample end="64334.000" hiNote="58" hiVel="127" loNote="36" loVel="0" loopEnabled="true" loopEnd="62565.000" loopStart="39738.000" path="Resources/French Horn - Legato Samples/hBbmf.wav" rootNote="58" start="0.000" tuning="-0.08" />
-			<sample end="44880.000" hiNote="63" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="39570.000" loopStart="18557.000" path="Resources/French Horn - Legato Samples/hESmf.wav" rootNote="63" start="0.000" tuning="0.12" />
-			<sample end="34011.000" hiNote="71" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="29721.000" loopStart="18151.000" path="Resources/French Horn - Legato Samples/htopBbf.wav" rootNote="70" start="0.000" />
-			<sample end="39855.000" hiNote="81" hiVel="127" loNote="72" loVel="0" loopEnabled="true" loopEnd="31910.000" loopStart="21997.000" path="Resources/French Horn - Legato Samples/htopEsf.wav" rootNote="75" start="0.000" />
+			<sample end="64334.000" hiNote="58" hiVel="127" loNote="36" loVel="0" loopEnabled="true" loopEnd="62565.000" loopStart="39738.000" path="Resources/French Horn - Legato Samples/hBbmf.wav" rootNote="58" tuning="-0.08" />
+			<sample end="44880.000" hiNote="63" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="39570.000" loopStart="18557.000" path="Resources/French Horn - Legato Samples/hESmf.wav" rootNote="63" tuning="0.12" />
+			<sample end="34011.000" hiNote="71" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="29721.000" loopStart="18151.000" path="Resources/French Horn - Legato Samples/htopBbf.wav" rootNote="70" />
+			<sample end="39855.000" hiNote="81" hiVel="127" loNote="72" loVel="0" loopEnabled="true" loopEnd="31910.000" loopStart="21997.000" path="Resources/French Horn - Legato Samples/htopEsf.wav" rootNote="75" />
 		</group>
 	</groups>
 	<midi>

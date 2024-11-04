@@ -32,160 +32,160 @@
 	</ui>
 	<groups attack="0.030" release="0.072">
 		<group name="group1-RR1" ampVelTrack="1">
-			<sample end="44839.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Cello Solo Samples/c2-stac-rr1-PB.wav" rootNote="48" start="0.000" volume="-12.0dB" />
-			<sample end="49762.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Cello Solo Samples/d2-stac-rr1-PB.wav" rootNote="50" start="0.000" volume="-12.0dB" />
-			<sample end="40731.000" hiNote="52" hiVel="127" loNote="52" loVel="1" path="Resources/Cello Solo Samples/e2-stac-rr1-PB.wav" rootNote="52" start="0.000" volume="-12.0dB" />
-			<sample end="56847.000" hiNote="54" hiVel="127" loNote="53" loVel="1" path="Resources/Cello Solo Samples/f2-stac-rr1-PB.wav" rootNote="53" start="0.000" volume="-12.0dB" />
-			<sample end="51344.000" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Cello Solo Samples/g2-stac-rr1-PB.wav" rootNote="55" start="0.000" volume="-12.0dB" />
-			<sample end="55055.000" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Cello Solo Samples/a2-stac-rr1-PB.wav" rootNote="57" start="0.000" volume="-12.0dB" />
-			<sample end="56952.000" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/Cello Solo Samples/b2-stac-rr1-PB.wav" rootNote="59" start="0.000" volume="-12.0dB" />
-			<sample end="48296.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Cello Solo Samples/c3-stac-rr1-PB.wav" rootNote="60" start="0.000" volume="-12.0dB" />
-			<sample end="42687.000" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Cello Solo Samples/d3-stac-rr1-PB.wav" rootNote="62" start="0.000" volume="-12.0dB" />
-			<sample end="48150.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Cello Solo Samples/e3-stac-rr1-PB.wav" rootNote="64" start="0.000" volume="-12.0dB" />
-			<sample end="32530.000" hiNote="66" hiVel="127" loNote="65" loVel="1" path="Resources/Cello Solo Samples/f3-stac-rr1-PB.wav" rootNote="65" start="0.000" volume="-12.0dB" />
-			<sample end="36472.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/Cello Solo Samples/g3-stac-rr1-PB.wav" rootNote="67" start="0.000" volume="-12.0dB" />
-			<sample end="39270.000" hiNote="70" hiVel="127" loNote="69" loVel="1" path="Resources/Cello Solo Samples/a3-stac-rr1-PB.wav" rootNote="69" start="0.000" volume="-12.0dB" />
-			<sample end="39749.000" hiNote="71" hiVel="127" loNote="71" loVel="1" path="Resources/Cello Solo Samples/b3-stac-rr1-PB.wav" rootNote="71" start="0.000" volume="-12.0dB" />
-			<sample end="36800.000" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Cello Solo Samples/c4-stac-rr1-PB.wav" rootNote="72" start="0.000" volume="-12.0dB" />
-			<sample end="42583.000" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Cello Solo Samples/d4-stac-rr1-PB.wav" rootNote="74" start="0.000" volume="-12.0dB" />
-			<sample end="31778.000" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Cello Solo Samples/e4-stac-rr1-PB.wav" rootNote="76" start="0.000" volume="-12.0dB" />
-			<sample end="36323.000" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Cello Solo Samples/f4-stac-rr1-PB.wav" rootNote="77" start="0.000" volume="-12.0dB" />
-			<sample end="42246.000" hiNote="80" hiVel="127" loNote="79" loVel="1" path="Resources/Cello Solo Samples/g4-stac-rr1-PB.wav" rootNote="79" start="0.000" volume="-12.0dB" />
-			<sample end="31462.000" hiNote="82" hiVel="127" loNote="81" loVel="1" path="Resources/Cello Solo Samples/a4-stac-rr1-PB.wav" rootNote="81" start="0.000" volume="-12.0dB" />
-			<sample end="39174.000" hiNote="83" hiVel="127" loNote="83" loVel="1" path="Resources/Cello Solo Samples/b4-stac-rr1-PB.wav" rootNote="83" start="0.000" volume="-12.0dB" />
-			<sample end="37973.000" hiNote="85" hiVel="127" loNote="84" loVel="1" path="Resources/Cello Solo Samples/c5-stac-rr1-PB.wav" rootNote="84" start="0.000" volume="-12.0dB" />
-			<sample end="38214.000" hiNote="87" hiVel="127" loNote="86" loVel="1" path="Resources/Cello Solo Samples/d5-stac-rr1-PB.wav" rootNote="86" start="0.000" volume="-12.0dB" />
-			<sample end="41263.000" hiNote="93" hiVel="127" loNote="88" loVel="1" path="Resources/Cello Solo Samples/e5-stac-rr1-PB.wav" rootNote="88" start="0.000" volume="-12.0dB" />
+			<sample end="44839.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Cello Solo Samples/c2-stac-rr1-PB.wav" rootNote="48" volume="-12.0dB" />
+			<sample end="49762.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Cello Solo Samples/d2-stac-rr1-PB.wav" rootNote="50" volume="-12.0dB" />
+			<sample end="40731.000" hiNote="52" hiVel="127" loNote="52" loVel="1" path="Resources/Cello Solo Samples/e2-stac-rr1-PB.wav" rootNote="52" volume="-12.0dB" />
+			<sample end="56847.000" hiNote="54" hiVel="127" loNote="53" loVel="1" path="Resources/Cello Solo Samples/f2-stac-rr1-PB.wav" rootNote="53" volume="-12.0dB" />
+			<sample end="51344.000" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Cello Solo Samples/g2-stac-rr1-PB.wav" rootNote="55" volume="-12.0dB" />
+			<sample end="55055.000" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Cello Solo Samples/a2-stac-rr1-PB.wav" rootNote="57" volume="-12.0dB" />
+			<sample end="56952.000" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/Cello Solo Samples/b2-stac-rr1-PB.wav" rootNote="59" volume="-12.0dB" />
+			<sample end="48296.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Cello Solo Samples/c3-stac-rr1-PB.wav" rootNote="60" volume="-12.0dB" />
+			<sample end="42687.000" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Cello Solo Samples/d3-stac-rr1-PB.wav" rootNote="62" volume="-12.0dB" />
+			<sample end="48150.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Cello Solo Samples/e3-stac-rr1-PB.wav" rootNote="64" volume="-12.0dB" />
+			<sample end="32530.000" hiNote="66" hiVel="127" loNote="65" loVel="1" path="Resources/Cello Solo Samples/f3-stac-rr1-PB.wav" rootNote="65" volume="-12.0dB" />
+			<sample end="36472.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/Cello Solo Samples/g3-stac-rr1-PB.wav" rootNote="67" volume="-12.0dB" />
+			<sample end="39270.000" hiNote="70" hiVel="127" loNote="69" loVel="1" path="Resources/Cello Solo Samples/a3-stac-rr1-PB.wav" rootNote="69" volume="-12.0dB" />
+			<sample end="39749.000" hiNote="71" hiVel="127" loNote="71" loVel="1" path="Resources/Cello Solo Samples/b3-stac-rr1-PB.wav" rootNote="71" volume="-12.0dB" />
+			<sample end="36800.000" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Cello Solo Samples/c4-stac-rr1-PB.wav" rootNote="72" volume="-12.0dB" />
+			<sample end="42583.000" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Cello Solo Samples/d4-stac-rr1-PB.wav" rootNote="74" volume="-12.0dB" />
+			<sample end="31778.000" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Cello Solo Samples/e4-stac-rr1-PB.wav" rootNote="76" volume="-12.0dB" />
+			<sample end="36323.000" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Cello Solo Samples/f4-stac-rr1-PB.wav" rootNote="77" volume="-12.0dB" />
+			<sample end="42246.000" hiNote="80" hiVel="127" loNote="79" loVel="1" path="Resources/Cello Solo Samples/g4-stac-rr1-PB.wav" rootNote="79" volume="-12.0dB" />
+			<sample end="31462.000" hiNote="82" hiVel="127" loNote="81" loVel="1" path="Resources/Cello Solo Samples/a4-stac-rr1-PB.wav" rootNote="81" volume="-12.0dB" />
+			<sample end="39174.000" hiNote="83" hiVel="127" loNote="83" loVel="1" path="Resources/Cello Solo Samples/b4-stac-rr1-PB.wav" rootNote="83" volume="-12.0dB" />
+			<sample end="37973.000" hiNote="85" hiVel="127" loNote="84" loVel="1" path="Resources/Cello Solo Samples/c5-stac-rr1-PB.wav" rootNote="84" volume="-12.0dB" />
+			<sample end="38214.000" hiNote="87" hiVel="127" loNote="86" loVel="1" path="Resources/Cello Solo Samples/d5-stac-rr1-PB.wav" rootNote="86" volume="-12.0dB" />
+			<sample end="41263.000" hiNote="93" hiVel="127" loNote="88" loVel="1" path="Resources/Cello Solo Samples/e5-stac-rr1-PB.wav" rootNote="88" volume="-12.0dB" />
 		</group>
 		<group name="group1-stac-rr2" ampVelTrack="1">
-			<sample end="43776.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Cello Solo Samples/c2-stac-rr2-PB.wav" rootNote="48" start="0.000" volume="-12.0dB" />
-			<sample end="41601.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Cello Solo Samples/d2-stac-rr2-PB.wav" rootNote="50" start="0.000" volume="-12.0dB" />
-			<sample end="43144.000" hiNote="52" hiVel="127" loNote="52" loVel="1" path="Resources/Cello Solo Samples/e2-stac-rr2-PB.wav" rootNote="52" start="0.000" volume="-12.0dB" />
-			<sample end="56924.000" hiNote="54" hiVel="127" loNote="53" loVel="1" path="Resources/Cello Solo Samples/f2-stac-rr2-PB.wav" rootNote="53" start="0.000" volume="-12.0dB" />
-			<sample end="54561.000" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Cello Solo Samples/g2-stac-rr2-PB.wav" rootNote="55" start="0.000" volume="-12.0dB" />
-			<sample end="61688.000" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Cello Solo Samples/a2-stac-rr2-PB.wav" rootNote="57" start="0.000" volume="-12.0dB" />
-			<sample end="53868.000" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/Cello Solo Samples/b2-stac-rr2-PB.wav" rootNote="59" start="0.000" volume="-12.0dB" />
-			<sample end="49614.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Cello Solo Samples/c3-stac-rr2-PB.wav" rootNote="60" start="0.000" volume="-12.0dB" />
-			<sample end="40679.000" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Cello Solo Samples/d3-stac-rr2-PB.wav" rootNote="62" start="0.000" volume="-12.0dB" />
-			<sample end="46713.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Cello Solo Samples/e3-stac-rr2-PB.wav" rootNote="64" start="0.000" volume="-12.0dB" />
-			<sample end="47560.000" hiNote="66" hiVel="127" loNote="65" loVel="1" path="Resources/Cello Solo Samples/f3-stac-rr2-PB.wav" rootNote="65" start="0.000" volume="-12.0dB" />
-			<sample end="38983.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/Cello Solo Samples/g3-stac-rr2-PB.wav" rootNote="67" start="0.000" volume="-12.0dB" />
-			<sample end="36325.000" hiNote="70" hiVel="127" loNote="69" loVel="1" path="Resources/Cello Solo Samples/a3-stac-rr2-PB.wav" rootNote="69" start="0.000" volume="-12.0dB" />
-			<sample end="40370.000" hiNote="71" hiVel="127" loNote="71" loVel="1" path="Resources/Cello Solo Samples/b3-stac-rr2-PB.wav" rootNote="71" start="0.000" volume="-12.0dB" />
-			<sample end="40238.000" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Cello Solo Samples/c4-stac-rr2-PB.wav" rootNote="72" start="0.000" volume="-12.0dB" />
-			<sample end="36366.000" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Cello Solo Samples/d4-stac-rr2-PB.wav" rootNote="74" start="0.000" volume="-12.0dB" />
-			<sample end="31201.000" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Cello Solo Samples/e4-stac-rr2-PB.wav" rootNote="76" start="0.000" volume="-12.0dB" />
-			<sample end="35561.000" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Cello Solo Samples/f4-stac-rr2-PB.wav" rootNote="77" start="0.000" volume="-12.0dB" />
-			<sample end="38122.000" hiNote="80" hiVel="127" loNote="79" loVel="1" path="Resources/Cello Solo Samples/g4-stac-rr2-PB.wav" rootNote="79" start="0.000" volume="-12.0dB" />
-			<sample end="39463.000" hiNote="82" hiVel="127" loNote="81" loVel="1" path="Resources/Cello Solo Samples/a4-stac-rr2-PB.wav" rootNote="81" start="0.000" volume="-12.0dB" />
-			<sample end="39594.000" hiNote="83" hiVel="127" loNote="83" loVel="1" path="Resources/Cello Solo Samples/b4-stac-rr2-PB.wav" rootNote="83" start="0.000" volume="-12.0dB" />
-			<sample end="34337.000" hiNote="85" hiVel="127" loNote="84" loVel="1" path="Resources/Cello Solo Samples/c5-stac-rr2-PB.wav" rootNote="84" start="0.000" volume="-12.0dB" />
-			<sample end="44752.000" hiNote="87" hiVel="127" loNote="86" loVel="1" path="Resources/Cello Solo Samples/d5-stac-rr2-PB.wav" rootNote="86" start="0.000" volume="-12.0dB" />
-			<sample end="36118.000" hiNote="93" hiVel="127" loNote="88" loVel="1" path="Resources/Cello Solo Samples/e5-stac-rr2-PB.wav" rootNote="88" start="0.000" volume="-12.0dB" />
+			<sample end="43776.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Cello Solo Samples/c2-stac-rr2-PB.wav" rootNote="48" volume="-12.0dB" />
+			<sample end="41601.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Cello Solo Samples/d2-stac-rr2-PB.wav" rootNote="50" volume="-12.0dB" />
+			<sample end="43144.000" hiNote="52" hiVel="127" loNote="52" loVel="1" path="Resources/Cello Solo Samples/e2-stac-rr2-PB.wav" rootNote="52" volume="-12.0dB" />
+			<sample end="56924.000" hiNote="54" hiVel="127" loNote="53" loVel="1" path="Resources/Cello Solo Samples/f2-stac-rr2-PB.wav" rootNote="53" volume="-12.0dB" />
+			<sample end="54561.000" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Cello Solo Samples/g2-stac-rr2-PB.wav" rootNote="55" volume="-12.0dB" />
+			<sample end="61688.000" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Cello Solo Samples/a2-stac-rr2-PB.wav" rootNote="57" volume="-12.0dB" />
+			<sample end="53868.000" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/Cello Solo Samples/b2-stac-rr2-PB.wav" rootNote="59" volume="-12.0dB" />
+			<sample end="49614.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Cello Solo Samples/c3-stac-rr2-PB.wav" rootNote="60" volume="-12.0dB" />
+			<sample end="40679.000" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Cello Solo Samples/d3-stac-rr2-PB.wav" rootNote="62" volume="-12.0dB" />
+			<sample end="46713.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Cello Solo Samples/e3-stac-rr2-PB.wav" rootNote="64" volume="-12.0dB" />
+			<sample end="47560.000" hiNote="66" hiVel="127" loNote="65" loVel="1" path="Resources/Cello Solo Samples/f3-stac-rr2-PB.wav" rootNote="65" volume="-12.0dB" />
+			<sample end="38983.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/Cello Solo Samples/g3-stac-rr2-PB.wav" rootNote="67" volume="-12.0dB" />
+			<sample end="36325.000" hiNote="70" hiVel="127" loNote="69" loVel="1" path="Resources/Cello Solo Samples/a3-stac-rr2-PB.wav" rootNote="69" volume="-12.0dB" />
+			<sample end="40370.000" hiNote="71" hiVel="127" loNote="71" loVel="1" path="Resources/Cello Solo Samples/b3-stac-rr2-PB.wav" rootNote="71" volume="-12.0dB" />
+			<sample end="40238.000" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Cello Solo Samples/c4-stac-rr2-PB.wav" rootNote="72" volume="-12.0dB" />
+			<sample end="36366.000" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Cello Solo Samples/d4-stac-rr2-PB.wav" rootNote="74" volume="-12.0dB" />
+			<sample end="31201.000" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Cello Solo Samples/e4-stac-rr2-PB.wav" rootNote="76" volume="-12.0dB" />
+			<sample end="35561.000" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Cello Solo Samples/f4-stac-rr2-PB.wav" rootNote="77" volume="-12.0dB" />
+			<sample end="38122.000" hiNote="80" hiVel="127" loNote="79" loVel="1" path="Resources/Cello Solo Samples/g4-stac-rr2-PB.wav" rootNote="79" volume="-12.0dB" />
+			<sample end="39463.000" hiNote="82" hiVel="127" loNote="81" loVel="1" path="Resources/Cello Solo Samples/a4-stac-rr2-PB.wav" rootNote="81" volume="-12.0dB" />
+			<sample end="39594.000" hiNote="83" hiVel="127" loNote="83" loVel="1" path="Resources/Cello Solo Samples/b4-stac-rr2-PB.wav" rootNote="83" volume="-12.0dB" />
+			<sample end="34337.000" hiNote="85" hiVel="127" loNote="84" loVel="1" path="Resources/Cello Solo Samples/c5-stac-rr2-PB.wav" rootNote="84" volume="-12.0dB" />
+			<sample end="44752.000" hiNote="87" hiVel="127" loNote="86" loVel="1" path="Resources/Cello Solo Samples/d5-stac-rr2-PB.wav" rootNote="86" volume="-12.0dB" />
+			<sample end="36118.000" hiNote="93" hiVel="127" loNote="88" loVel="1" path="Resources/Cello Solo Samples/e5-stac-rr2-PB.wav" rootNote="88" volume="-12.0dB" />
 		</group>
 		<group name="group1-RR1" ampVelTrack="1">
-			<sample end="44839.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Cello Solo Samples/c2-stac-rr1-PB.wav" rootNote="48" start="0.000" />
-			<sample end="49762.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Cello Solo Samples/d2-stac-rr1-PB.wav" rootNote="50" start="0.000" />
-			<sample end="40731.000" hiNote="52" hiVel="127" loNote="52" loVel="1" path="Resources/Cello Solo Samples/e2-stac-rr1-PB.wav" rootNote="52" start="0.000" />
-			<sample end="56847.000" hiNote="54" hiVel="127" loNote="53" loVel="1" path="Resources/Cello Solo Samples/f2-stac-rr1-PB.wav" rootNote="53" start="0.000" />
-			<sample end="51344.000" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Cello Solo Samples/g2-stac-rr1-PB.wav" rootNote="55" start="0.000" />
-			<sample end="55055.000" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Cello Solo Samples/a2-stac-rr1-PB.wav" rootNote="57" start="0.000" />
-			<sample end="56952.000" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/Cello Solo Samples/b2-stac-rr1-PB.wav" rootNote="59" start="0.000" />
-			<sample end="48296.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Cello Solo Samples/c3-stac-rr1-PB.wav" rootNote="60" start="0.000" />
-			<sample end="42687.000" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Cello Solo Samples/d3-stac-rr1-PB.wav" rootNote="62" start="0.000" />
-			<sample end="48150.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Cello Solo Samples/e3-stac-rr1-PB.wav" rootNote="64" start="0.000" />
-			<sample end="32530.000" hiNote="66" hiVel="127" loNote="65" loVel="1" path="Resources/Cello Solo Samples/f3-stac-rr1-PB.wav" rootNote="65" start="0.000" />
-			<sample end="36472.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/Cello Solo Samples/g3-stac-rr1-PB.wav" rootNote="67" start="0.000" />
-			<sample end="39270.000" hiNote="70" hiVel="127" loNote="69" loVel="1" path="Resources/Cello Solo Samples/a3-stac-rr1-PB.wav" rootNote="69" start="0.000" />
-			<sample end="39749.000" hiNote="71" hiVel="127" loNote="71" loVel="1" path="Resources/Cello Solo Samples/b3-stac-rr1-PB.wav" rootNote="71" start="0.000" />
-			<sample end="36800.000" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Cello Solo Samples/c4-stac-rr1-PB.wav" rootNote="72" start="0.000" />
-			<sample end="42583.000" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Cello Solo Samples/d4-stac-rr1-PB.wav" rootNote="74" start="0.000" />
-			<sample end="31778.000" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Cello Solo Samples/e4-stac-rr1-PB.wav" rootNote="76" start="0.000" />
-			<sample end="36323.000" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Cello Solo Samples/f4-stac-rr1-PB.wav" rootNote="77" start="0.000" />
-			<sample end="42246.000" hiNote="80" hiVel="127" loNote="79" loVel="1" path="Resources/Cello Solo Samples/g4-stac-rr1-PB.wav" rootNote="79" start="0.000" />
-			<sample end="31462.000" hiNote="82" hiVel="127" loNote="81" loVel="1" path="Resources/Cello Solo Samples/a4-stac-rr1-PB.wav" rootNote="81" start="0.000" />
-			<sample end="39174.000" hiNote="83" hiVel="127" loNote="83" loVel="1" path="Resources/Cello Solo Samples/b4-stac-rr1-PB.wav" rootNote="83" start="0.000" />
-			<sample end="37973.000" hiNote="85" hiVel="127" loNote="84" loVel="1" path="Resources/Cello Solo Samples/c5-stac-rr1-PB.wav" rootNote="84" start="0.000" />
-			<sample end="38214.000" hiNote="87" hiVel="127" loNote="86" loVel="1" path="Resources/Cello Solo Samples/d5-stac-rr1-PB.wav" rootNote="86" start="0.000" />
-			<sample end="41263.000" hiNote="93" hiVel="127" loNote="88" loVel="1" path="Resources/Cello Solo Samples/e5-stac-rr1-PB.wav" rootNote="88" start="0.000" />
+			<sample end="44839.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Cello Solo Samples/c2-stac-rr1-PB.wav" rootNote="48" />
+			<sample end="49762.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Cello Solo Samples/d2-stac-rr1-PB.wav" rootNote="50" />
+			<sample end="40731.000" hiNote="52" hiVel="127" loNote="52" loVel="1" path="Resources/Cello Solo Samples/e2-stac-rr1-PB.wav" rootNote="52" />
+			<sample end="56847.000" hiNote="54" hiVel="127" loNote="53" loVel="1" path="Resources/Cello Solo Samples/f2-stac-rr1-PB.wav" rootNote="53" />
+			<sample end="51344.000" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Cello Solo Samples/g2-stac-rr1-PB.wav" rootNote="55" />
+			<sample end="55055.000" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Cello Solo Samples/a2-stac-rr1-PB.wav" rootNote="57" />
+			<sample end="56952.000" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/Cello Solo Samples/b2-stac-rr1-PB.wav" rootNote="59" />
+			<sample end="48296.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Cello Solo Samples/c3-stac-rr1-PB.wav" rootNote="60" />
+			<sample end="42687.000" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Cello Solo Samples/d3-stac-rr1-PB.wav" rootNote="62" />
+			<sample end="48150.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Cello Solo Samples/e3-stac-rr1-PB.wav" rootNote="64" />
+			<sample end="32530.000" hiNote="66" hiVel="127" loNote="65" loVel="1" path="Resources/Cello Solo Samples/f3-stac-rr1-PB.wav" rootNote="65" />
+			<sample end="36472.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/Cello Solo Samples/g3-stac-rr1-PB.wav" rootNote="67" />
+			<sample end="39270.000" hiNote="70" hiVel="127" loNote="69" loVel="1" path="Resources/Cello Solo Samples/a3-stac-rr1-PB.wav" rootNote="69" />
+			<sample end="39749.000" hiNote="71" hiVel="127" loNote="71" loVel="1" path="Resources/Cello Solo Samples/b3-stac-rr1-PB.wav" rootNote="71" />
+			<sample end="36800.000" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Cello Solo Samples/c4-stac-rr1-PB.wav" rootNote="72" />
+			<sample end="42583.000" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Cello Solo Samples/d4-stac-rr1-PB.wav" rootNote="74" />
+			<sample end="31778.000" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Cello Solo Samples/e4-stac-rr1-PB.wav" rootNote="76" />
+			<sample end="36323.000" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Cello Solo Samples/f4-stac-rr1-PB.wav" rootNote="77" />
+			<sample end="42246.000" hiNote="80" hiVel="127" loNote="79" loVel="1" path="Resources/Cello Solo Samples/g4-stac-rr1-PB.wav" rootNote="79" />
+			<sample end="31462.000" hiNote="82" hiVel="127" loNote="81" loVel="1" path="Resources/Cello Solo Samples/a4-stac-rr1-PB.wav" rootNote="81" />
+			<sample end="39174.000" hiNote="83" hiVel="127" loNote="83" loVel="1" path="Resources/Cello Solo Samples/b4-stac-rr1-PB.wav" rootNote="83" />
+			<sample end="37973.000" hiNote="85" hiVel="127" loNote="84" loVel="1" path="Resources/Cello Solo Samples/c5-stac-rr1-PB.wav" rootNote="84" />
+			<sample end="38214.000" hiNote="87" hiVel="127" loNote="86" loVel="1" path="Resources/Cello Solo Samples/d5-stac-rr1-PB.wav" rootNote="86" />
+			<sample end="41263.000" hiNote="93" hiVel="127" loNote="88" loVel="1" path="Resources/Cello Solo Samples/e5-stac-rr1-PB.wav" rootNote="88" />
 		</group>
 		<group name="group1-stac-rr2" ampVelTrack="1">
-			<sample end="43776.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Cello Solo Samples/c2-stac-rr2-PB.wav" rootNote="48" start="0.000" />
-			<sample end="41601.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Cello Solo Samples/d2-stac-rr2-PB.wav" rootNote="50" start="0.000" />
-			<sample end="43144.000" hiNote="52" hiVel="127" loNote="52" loVel="1" path="Resources/Cello Solo Samples/e2-stac-rr2-PB.wav" rootNote="52" start="0.000" />
-			<sample end="56924.000" hiNote="54" hiVel="127" loNote="53" loVel="1" path="Resources/Cello Solo Samples/f2-stac-rr2-PB.wav" rootNote="53" start="0.000" />
-			<sample end="54561.000" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Cello Solo Samples/g2-stac-rr2-PB.wav" rootNote="55" start="0.000" />
-			<sample end="61688.000" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Cello Solo Samples/a2-stac-rr2-PB.wav" rootNote="57" start="0.000" />
-			<sample end="53868.000" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/Cello Solo Samples/b2-stac-rr2-PB.wav" rootNote="59" start="0.000" />
-			<sample end="49614.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Cello Solo Samples/c3-stac-rr2-PB.wav" rootNote="60" start="0.000" />
-			<sample end="40679.000" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Cello Solo Samples/d3-stac-rr2-PB.wav" rootNote="62" start="0.000" />
-			<sample end="46713.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Cello Solo Samples/e3-stac-rr2-PB.wav" rootNote="64" start="0.000" />
-			<sample end="47560.000" hiNote="66" hiVel="127" loNote="65" loVel="1" path="Resources/Cello Solo Samples/f3-stac-rr2-PB.wav" rootNote="65" start="0.000" />
-			<sample end="38983.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/Cello Solo Samples/g3-stac-rr2-PB.wav" rootNote="67" start="0.000" />
-			<sample end="36325.000" hiNote="70" hiVel="127" loNote="69" loVel="1" path="Resources/Cello Solo Samples/a3-stac-rr2-PB.wav" rootNote="69" start="0.000" />
-			<sample end="40370.000" hiNote="71" hiVel="127" loNote="71" loVel="1" path="Resources/Cello Solo Samples/b3-stac-rr2-PB.wav" rootNote="71" start="0.000" />
-			<sample end="40238.000" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Cello Solo Samples/c4-stac-rr2-PB.wav" rootNote="72" start="0.000" />
-			<sample end="36366.000" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Cello Solo Samples/d4-stac-rr2-PB.wav" rootNote="74" start="0.000" />
-			<sample end="31201.000" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Cello Solo Samples/e4-stac-rr2-PB.wav" rootNote="76" start="0.000" />
-			<sample end="35561.000" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Cello Solo Samples/f4-stac-rr2-PB.wav" rootNote="77" start="0.000" />
-			<sample end="38122.000" hiNote="80" hiVel="127" loNote="79" loVel="1" path="Resources/Cello Solo Samples/g4-stac-rr2-PB.wav" rootNote="79" start="0.000" />
-			<sample end="39463.000" hiNote="82" hiVel="127" loNote="81" loVel="1" path="Resources/Cello Solo Samples/a4-stac-rr2-PB.wav" rootNote="81" start="0.000" />
-			<sample end="39594.000" hiNote="83" hiVel="127" loNote="83" loVel="1" path="Resources/Cello Solo Samples/b4-stac-rr2-PB.wav" rootNote="83" start="0.000" />
-			<sample end="34337.000" hiNote="85" hiVel="127" loNote="84" loVel="1" path="Resources/Cello Solo Samples/c5-stac-rr2-PB.wav" rootNote="84" start="0.000" />
-			<sample end="44752.000" hiNote="87" hiVel="127" loNote="86" loVel="1" path="Resources/Cello Solo Samples/d5-stac-rr2-PB.wav" rootNote="86" start="0.000" />
-			<sample end="36118.000" hiNote="93" hiVel="127" loNote="88" loVel="1" path="Resources/Cello Solo Samples/e5-stac-rr2-PB.wav" rootNote="88" start="0.000" />
+			<sample end="43776.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Cello Solo Samples/c2-stac-rr2-PB.wav" rootNote="48" />
+			<sample end="41601.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Cello Solo Samples/d2-stac-rr2-PB.wav" rootNote="50" />
+			<sample end="43144.000" hiNote="52" hiVel="127" loNote="52" loVel="1" path="Resources/Cello Solo Samples/e2-stac-rr2-PB.wav" rootNote="52" />
+			<sample end="56924.000" hiNote="54" hiVel="127" loNote="53" loVel="1" path="Resources/Cello Solo Samples/f2-stac-rr2-PB.wav" rootNote="53" />
+			<sample end="54561.000" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Cello Solo Samples/g2-stac-rr2-PB.wav" rootNote="55" />
+			<sample end="61688.000" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Cello Solo Samples/a2-stac-rr2-PB.wav" rootNote="57" />
+			<sample end="53868.000" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/Cello Solo Samples/b2-stac-rr2-PB.wav" rootNote="59" />
+			<sample end="49614.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Cello Solo Samples/c3-stac-rr2-PB.wav" rootNote="60" />
+			<sample end="40679.000" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Cello Solo Samples/d3-stac-rr2-PB.wav" rootNote="62" />
+			<sample end="46713.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Cello Solo Samples/e3-stac-rr2-PB.wav" rootNote="64" />
+			<sample end="47560.000" hiNote="66" hiVel="127" loNote="65" loVel="1" path="Resources/Cello Solo Samples/f3-stac-rr2-PB.wav" rootNote="65" />
+			<sample end="38983.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/Cello Solo Samples/g3-stac-rr2-PB.wav" rootNote="67" />
+			<sample end="36325.000" hiNote="70" hiVel="127" loNote="69" loVel="1" path="Resources/Cello Solo Samples/a3-stac-rr2-PB.wav" rootNote="69" />
+			<sample end="40370.000" hiNote="71" hiVel="127" loNote="71" loVel="1" path="Resources/Cello Solo Samples/b3-stac-rr2-PB.wav" rootNote="71" />
+			<sample end="40238.000" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Cello Solo Samples/c4-stac-rr2-PB.wav" rootNote="72" />
+			<sample end="36366.000" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Cello Solo Samples/d4-stac-rr2-PB.wav" rootNote="74" />
+			<sample end="31201.000" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Cello Solo Samples/e4-stac-rr2-PB.wav" rootNote="76" />
+			<sample end="35561.000" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Cello Solo Samples/f4-stac-rr2-PB.wav" rootNote="77" />
+			<sample end="38122.000" hiNote="80" hiVel="127" loNote="79" loVel="1" path="Resources/Cello Solo Samples/g4-stac-rr2-PB.wav" rootNote="79" />
+			<sample end="39463.000" hiNote="82" hiVel="127" loNote="81" loVel="1" path="Resources/Cello Solo Samples/a4-stac-rr2-PB.wav" rootNote="81" />
+			<sample end="39594.000" hiNote="83" hiVel="127" loNote="83" loVel="1" path="Resources/Cello Solo Samples/b4-stac-rr2-PB.wav" rootNote="83" />
+			<sample end="34337.000" hiNote="85" hiVel="127" loNote="84" loVel="1" path="Resources/Cello Solo Samples/c5-stac-rr2-PB.wav" rootNote="84" />
+			<sample end="44752.000" hiNote="87" hiVel="127" loNote="86" loVel="1" path="Resources/Cello Solo Samples/d5-stac-rr2-PB.wav" rootNote="86" />
+			<sample end="36118.000" hiNote="93" hiVel="127" loNote="88" loVel="1" path="Resources/Cello Solo Samples/e5-stac-rr2-PB.wav" rootNote="88" />
 		</group>
 		<group name="group1-RR1" ampVelTrack="1">
-			<sample end="44839.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Cello Solo Samples/c2-stac-rr1-PB.wav" rootNote="48" start="0.000" />
-			<sample end="49762.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Cello Solo Samples/d2-stac-rr1-PB.wav" rootNote="50" start="0.000" />
-			<sample end="40731.000" hiNote="52" hiVel="127" loNote="52" loVel="1" path="Resources/Cello Solo Samples/e2-stac-rr1-PB.wav" rootNote="52" start="0.000" />
-			<sample end="56847.000" hiNote="54" hiVel="127" loNote="53" loVel="1" path="Resources/Cello Solo Samples/f2-stac-rr1-PB.wav" rootNote="53" start="0.000" />
-			<sample end="51344.000" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Cello Solo Samples/g2-stac-rr1-PB.wav" rootNote="55" start="0.000" />
-			<sample end="55055.000" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Cello Solo Samples/a2-stac-rr1-PB.wav" rootNote="57" start="0.000" />
-			<sample end="56952.000" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/Cello Solo Samples/b2-stac-rr1-PB.wav" rootNote="59" start="0.000" />
-			<sample end="48296.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Cello Solo Samples/c3-stac-rr1-PB.wav" rootNote="60" start="0.000" />
-			<sample end="42687.000" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Cello Solo Samples/d3-stac-rr1-PB.wav" rootNote="62" start="0.000" />
-			<sample end="48150.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Cello Solo Samples/e3-stac-rr1-PB.wav" rootNote="64" start="0.000" />
-			<sample end="32530.000" hiNote="66" hiVel="127" loNote="65" loVel="1" path="Resources/Cello Solo Samples/f3-stac-rr1-PB.wav" rootNote="65" start="0.000" />
-			<sample end="36472.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/Cello Solo Samples/g3-stac-rr1-PB.wav" rootNote="67" start="0.000" />
-			<sample end="39270.000" hiNote="70" hiVel="127" loNote="69" loVel="1" path="Resources/Cello Solo Samples/a3-stac-rr1-PB.wav" rootNote="69" start="0.000" />
-			<sample end="39749.000" hiNote="71" hiVel="127" loNote="71" loVel="1" path="Resources/Cello Solo Samples/b3-stac-rr1-PB.wav" rootNote="71" start="0.000" />
-			<sample end="36800.000" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Cello Solo Samples/c4-stac-rr1-PB.wav" rootNote="72" start="0.000" />
-			<sample end="42583.000" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Cello Solo Samples/d4-stac-rr1-PB.wav" rootNote="74" start="0.000" />
-			<sample end="31778.000" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Cello Solo Samples/e4-stac-rr1-PB.wav" rootNote="76" start="0.000" />
-			<sample end="36323.000" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Cello Solo Samples/f4-stac-rr1-PB.wav" rootNote="77" start="0.000" />
-			<sample end="42246.000" hiNote="80" hiVel="127" loNote="79" loVel="1" path="Resources/Cello Solo Samples/g4-stac-rr1-PB.wav" rootNote="79" start="0.000" />
-			<sample end="31462.000" hiNote="82" hiVel="127" loNote="81" loVel="1" path="Resources/Cello Solo Samples/a4-stac-rr1-PB.wav" rootNote="81" start="0.000" />
-			<sample end="39174.000" hiNote="83" hiVel="127" loNote="83" loVel="1" path="Resources/Cello Solo Samples/b4-stac-rr1-PB.wav" rootNote="83" start="0.000" />
-			<sample end="37973.000" hiNote="85" hiVel="127" loNote="84" loVel="1" path="Resources/Cello Solo Samples/c5-stac-rr1-PB.wav" rootNote="84" start="0.000" />
-			<sample end="38214.000" hiNote="87" hiVel="127" loNote="86" loVel="1" path="Resources/Cello Solo Samples/d5-stac-rr1-PB.wav" rootNote="86" start="0.000" />
-			<sample end="41263.000" hiNote="93" hiVel="127" loNote="88" loVel="1" path="Resources/Cello Solo Samples/e5-stac-rr1-PB.wav" rootNote="88" start="0.000" />
+			<sample end="44839.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Cello Solo Samples/c2-stac-rr1-PB.wav" rootNote="48" />
+			<sample end="49762.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Cello Solo Samples/d2-stac-rr1-PB.wav" rootNote="50" />
+			<sample end="40731.000" hiNote="52" hiVel="127" loNote="52" loVel="1" path="Resources/Cello Solo Samples/e2-stac-rr1-PB.wav" rootNote="52" />
+			<sample end="56847.000" hiNote="54" hiVel="127" loNote="53" loVel="1" path="Resources/Cello Solo Samples/f2-stac-rr1-PB.wav" rootNote="53" />
+			<sample end="51344.000" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Cello Solo Samples/g2-stac-rr1-PB.wav" rootNote="55" />
+			<sample end="55055.000" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Cello Solo Samples/a2-stac-rr1-PB.wav" rootNote="57" />
+			<sample end="56952.000" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/Cello Solo Samples/b2-stac-rr1-PB.wav" rootNote="59" />
+			<sample end="48296.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Cello Solo Samples/c3-stac-rr1-PB.wav" rootNote="60" />
+			<sample end="42687.000" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Cello Solo Samples/d3-stac-rr1-PB.wav" rootNote="62" />
+			<sample end="48150.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Cello Solo Samples/e3-stac-rr1-PB.wav" rootNote="64" />
+			<sample end="32530.000" hiNote="66" hiVel="127" loNote="65" loVel="1" path="Resources/Cello Solo Samples/f3-stac-rr1-PB.wav" rootNote="65" />
+			<sample end="36472.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/Cello Solo Samples/g3-stac-rr1-PB.wav" rootNote="67" />
+			<sample end="39270.000" hiNote="70" hiVel="127" loNote="69" loVel="1" path="Resources/Cello Solo Samples/a3-stac-rr1-PB.wav" rootNote="69" />
+			<sample end="39749.000" hiNote="71" hiVel="127" loNote="71" loVel="1" path="Resources/Cello Solo Samples/b3-stac-rr1-PB.wav" rootNote="71" />
+			<sample end="36800.000" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Cello Solo Samples/c4-stac-rr1-PB.wav" rootNote="72" />
+			<sample end="42583.000" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Cello Solo Samples/d4-stac-rr1-PB.wav" rootNote="74" />
+			<sample end="31778.000" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Cello Solo Samples/e4-stac-rr1-PB.wav" rootNote="76" />
+			<sample end="36323.000" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Cello Solo Samples/f4-stac-rr1-PB.wav" rootNote="77" />
+			<sample end="42246.000" hiNote="80" hiVel="127" loNote="79" loVel="1" path="Resources/Cello Solo Samples/g4-stac-rr1-PB.wav" rootNote="79" />
+			<sample end="31462.000" hiNote="82" hiVel="127" loNote="81" loVel="1" path="Resources/Cello Solo Samples/a4-stac-rr1-PB.wav" rootNote="81" />
+			<sample end="39174.000" hiNote="83" hiVel="127" loNote="83" loVel="1" path="Resources/Cello Solo Samples/b4-stac-rr1-PB.wav" rootNote="83" />
+			<sample end="37973.000" hiNote="85" hiVel="127" loNote="84" loVel="1" path="Resources/Cello Solo Samples/c5-stac-rr1-PB.wav" rootNote="84" />
+			<sample end="38214.000" hiNote="87" hiVel="127" loNote="86" loVel="1" path="Resources/Cello Solo Samples/d5-stac-rr1-PB.wav" rootNote="86" />
+			<sample end="41263.000" hiNote="93" hiVel="127" loNote="88" loVel="1" path="Resources/Cello Solo Samples/e5-stac-rr1-PB.wav" rootNote="88" />
 		</group>
 		<group name="group1-stac-rr2" ampVelTrack="1">
-			<sample end="43776.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Cello Solo Samples/c2-stac-rr2-PB.wav" rootNote="48" start="0.000" />
-			<sample end="41601.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Cello Solo Samples/d2-stac-rr2-PB.wav" rootNote="50" start="0.000" />
-			<sample end="43144.000" hiNote="52" hiVel="127" loNote="52" loVel="1" path="Resources/Cello Solo Samples/e2-stac-rr2-PB.wav" rootNote="52" start="0.000" />
-			<sample end="56924.000" hiNote="54" hiVel="127" loNote="53" loVel="1" path="Resources/Cello Solo Samples/f2-stac-rr2-PB.wav" rootNote="53" start="0.000" />
-			<sample end="54561.000" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Cello Solo Samples/g2-stac-rr2-PB.wav" rootNote="55" start="0.000" />
-			<sample end="61688.000" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Cello Solo Samples/a2-stac-rr2-PB.wav" rootNote="57" start="0.000" />
-			<sample end="53868.000" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/Cello Solo Samples/b2-stac-rr2-PB.wav" rootNote="59" start="0.000" />
-			<sample end="49614.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Cello Solo Samples/c3-stac-rr2-PB.wav" rootNote="60" start="0.000" />
-			<sample end="40679.000" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Cello Solo Samples/d3-stac-rr2-PB.wav" rootNote="62" start="0.000" />
-			<sample end="46713.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Cello Solo Samples/e3-stac-rr2-PB.wav" rootNote="64" start="0.000" />
-			<sample end="47560.000" hiNote="66" hiVel="127" loNote="65" loVel="1" path="Resources/Cello Solo Samples/f3-stac-rr2-PB.wav" rootNote="65" start="0.000" />
-			<sample end="38983.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/Cello Solo Samples/g3-stac-rr2-PB.wav" rootNote="67" start="0.000" />
-			<sample end="36325.000" hiNote="70" hiVel="127" loNote="69" loVel="1" path="Resources/Cello Solo Samples/a3-stac-rr2-PB.wav" rootNote="69" start="0.000" />
-			<sample end="40370.000" hiNote="71" hiVel="127" loNote="71" loVel="1" path="Resources/Cello Solo Samples/b3-stac-rr2-PB.wav" rootNote="71" start="0.000" />
-			<sample end="40238.000" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Cello Solo Samples/c4-stac-rr2-PB.wav" rootNote="72" start="0.000" />
-			<sample end="36366.000" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Cello Solo Samples/d4-stac-rr2-PB.wav" rootNote="74" start="0.000" />
-			<sample end="31201.000" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Cello Solo Samples/e4-stac-rr2-PB.wav" rootNote="76" start="0.000" />
-			<sample end="35561.000" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Cello Solo Samples/f4-stac-rr2-PB.wav" rootNote="77" start="0.000" />
-			<sample end="38122.000" hiNote="80" hiVel="127" loNote="79" loVel="1" path="Resources/Cello Solo Samples/g4-stac-rr2-PB.wav" rootNote="79" start="0.000" />
-			<sample end="39463.000" hiNote="82" hiVel="127" loNote="81" loVel="1" path="Resources/Cello Solo Samples/a4-stac-rr2-PB.wav" rootNote="81" start="0.000" />
-			<sample end="39594.000" hiNote="83" hiVel="127" loNote="83" loVel="1" path="Resources/Cello Solo Samples/b4-stac-rr2-PB.wav" rootNote="83" start="0.000" />
-			<sample end="34337.000" hiNote="85" hiVel="127" loNote="84" loVel="1" path="Resources/Cello Solo Samples/c5-stac-rr2-PB.wav" rootNote="84" start="0.000" />
-			<sample end="44752.000" hiNote="87" hiVel="127" loNote="86" loVel="1" path="Resources/Cello Solo Samples/d5-stac-rr2-PB.wav" rootNote="86" start="0.000" />
-			<sample end="36118.000" hiNote="93" hiVel="127" loNote="88" loVel="1" path="Resources/Cello Solo Samples/e5-stac-rr2-PB.wav" rootNote="88" start="0.000" />
+			<sample end="43776.000" hiNote="49" hiVel="127" loNote="48" loVel="1" path="Resources/Cello Solo Samples/c2-stac-rr2-PB.wav" rootNote="48" />
+			<sample end="41601.000" hiNote="51" hiVel="127" loNote="50" loVel="1" path="Resources/Cello Solo Samples/d2-stac-rr2-PB.wav" rootNote="50" />
+			<sample end="43144.000" hiNote="52" hiVel="127" loNote="52" loVel="1" path="Resources/Cello Solo Samples/e2-stac-rr2-PB.wav" rootNote="52" />
+			<sample end="56924.000" hiNote="54" hiVel="127" loNote="53" loVel="1" path="Resources/Cello Solo Samples/f2-stac-rr2-PB.wav" rootNote="53" />
+			<sample end="54561.000" hiNote="56" hiVel="127" loNote="55" loVel="1" path="Resources/Cello Solo Samples/g2-stac-rr2-PB.wav" rootNote="55" />
+			<sample end="61688.000" hiNote="58" hiVel="127" loNote="57" loVel="1" path="Resources/Cello Solo Samples/a2-stac-rr2-PB.wav" rootNote="57" />
+			<sample end="53868.000" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/Cello Solo Samples/b2-stac-rr2-PB.wav" rootNote="59" />
+			<sample end="49614.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Cello Solo Samples/c3-stac-rr2-PB.wav" rootNote="60" />
+			<sample end="40679.000" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/Cello Solo Samples/d3-stac-rr2-PB.wav" rootNote="62" />
+			<sample end="46713.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Cello Solo Samples/e3-stac-rr2-PB.wav" rootNote="64" />
+			<sample end="47560.000" hiNote="66" hiVel="127" loNote="65" loVel="1" path="Resources/Cello Solo Samples/f3-stac-rr2-PB.wav" rootNote="65" />
+			<sample end="38983.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/Cello Solo Samples/g3-stac-rr2-PB.wav" rootNote="67" />
+			<sample end="36325.000" hiNote="70" hiVel="127" loNote="69" loVel="1" path="Resources/Cello Solo Samples/a3-stac-rr2-PB.wav" rootNote="69" />
+			<sample end="40370.000" hiNote="71" hiVel="127" loNote="71" loVel="1" path="Resources/Cello Solo Samples/b3-stac-rr2-PB.wav" rootNote="71" />
+			<sample end="40238.000" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Cello Solo Samples/c4-stac-rr2-PB.wav" rootNote="72" />
+			<sample end="36366.000" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Cello Solo Samples/d4-stac-rr2-PB.wav" rootNote="74" />
+			<sample end="31201.000" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Cello Solo Samples/e4-stac-rr2-PB.wav" rootNote="76" />
+			<sample end="35561.000" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Cello Solo Samples/f4-stac-rr2-PB.wav" rootNote="77" />
+			<sample end="38122.000" hiNote="80" hiVel="127" loNote="79" loVel="1" path="Resources/Cello Solo Samples/g4-stac-rr2-PB.wav" rootNote="79" />
+			<sample end="39463.000" hiNote="82" hiVel="127" loNote="81" loVel="1" path="Resources/Cello Solo Samples/a4-stac-rr2-PB.wav" rootNote="81" />
+			<sample end="39594.000" hiNote="83" hiVel="127" loNote="83" loVel="1" path="Resources/Cello Solo Samples/b4-stac-rr2-PB.wav" rootNote="83" />
+			<sample end="34337.000" hiNote="85" hiVel="127" loNote="84" loVel="1" path="Resources/Cello Solo Samples/c5-stac-rr2-PB.wav" rootNote="84" />
+			<sample end="44752.000" hiNote="87" hiVel="127" loNote="86" loVel="1" path="Resources/Cello Solo Samples/d5-stac-rr2-PB.wav" rootNote="86" />
+			<sample end="36118.000" hiNote="93" hiVel="127" loNote="88" loVel="1" path="Resources/Cello Solo Samples/e5-stac-rr2-PB.wav" rootNote="88" />
 		</group>
 	</groups>
 	<midi>

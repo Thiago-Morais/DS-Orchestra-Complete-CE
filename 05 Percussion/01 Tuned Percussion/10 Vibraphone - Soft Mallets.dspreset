@@ -34,7 +34,7 @@
 		<group name="Group 1" ampVelTrack="1">
 			<sample end="243412.000" hiNote="55" hiVel="83" loNote="53" loVel="0" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_F2_v1_rr1_Main.wav" rootNote="53" start="90.000" volume="12.0dB" />
 			<sample end="392475.000" hiNote="55" hiVel="127" loNote="53" loVel="84" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_F2_v2_rr1_Main.wav" rootNote="53" start="113.000" volume="3.401338dB" />
-			<sample end="452908.000" hiNote="58" hiVel="83" loNote="56" loVel="0" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_A2_v1_rr1_Main.wav" rootNote="57" start="0.000" volume="12.0dB" />
+			<sample end="452908.000" hiNote="58" hiVel="83" loNote="56" loVel="0" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_A2_v1_rr1_Main.wav" rootNote="57" volume="12.0dB" />
 			<sample end="605138.000" hiNote="58" hiVel="127" loNote="56" loVel="84" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_A2_v2_rr1_Main.wav" rootNote="57" start="113.000" volume="7.99551dB" />
 			<sample end="453751.000" hiNote="62" hiVel="83" loNote="59" loVel="0" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_C3_v1_rr2_Main.wav" rootNote="60" start="135.000" volume="12.0dB" />
 			<sample end="529398.000" hiNote="62" hiVel="127" loNote="59" loVel="84" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_C3_v2_rr1_Main.wav" rootNote="60" start="127.000" volume="11.563195dB" />
@@ -48,7 +48,7 @@
 			<sample end="656295.000" hiNote="75" hiVel="127" loNote="73" loVel="84" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_D4_v2_rr1_Main.wav" rootNote="74" start="117.000" volume="2.605836dB" />
 			<sample end="342116.000" hiNote="79" hiVel="83" loNote="76" loVel="0" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_F4_v1_rr1_Main.wav" rootNote="77" start="55.000" volume="12.0dB" />
 			<sample end="506856.000" hiNote="79" hiVel="127" loNote="76" loVel="84" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_F4_v2_rr1_Main.wav" rootNote="77" start="120.000" volume="6.427426dB" />
-			<sample end="366276.000" hiNote="82" hiVel="83" loNote="80" loVel="0" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_A4_v1_rr1_Main.wav" rootNote="81" start="0.000" volume="12.0dB" />
+			<sample end="366276.000" hiNote="82" hiVel="83" loNote="80" loVel="0" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_A4_v1_rr1_Main.wav" rootNote="81" volume="12.0dB" />
 			<sample end="597134.000" hiNote="82" hiVel="127" loNote="80" loVel="84" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_A4_v2_rr1_Main.wav" rootNote="81" start="106.000" volume="5.145228dB" />
 			<sample end="160472.000" hiNote="86" hiVel="83" loNote="83" loVel="0" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_C5_v1_rr1_Main.wav" rootNote="84" start="115.000" volume="12.0dB" />
 			<sample end="290455.000" hiNote="86" hiVel="127" loNote="83" loVel="84" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_C5_v2_rr1_Main.wav" rootNote="84" start="103.000" volume="3.511844dB" />

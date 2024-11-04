@@ -32,16 +32,16 @@
 	</ui>
 	<groups attack="0.003" release="0.036">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="132330.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Viola Solo Samples/3_C_1-PB.wav" rootNote="60" start="0.000" tuning="0.05" volume="4.0dB" />
-			<sample end="110250.000" hiNote="66" hiVel="127" loNote="62" loVel="1" path="Resources/Viola Solo Samples/3_Eb_1-PB.wav" rootNote="63" start="0.000" volume="6.0dB" />
-			<sample end="110250.000" hiNote="70" hiVel="127" loNote="67" loVel="1" path="Resources/Viola Solo Samples/3_A_1-PB.wav" rootNote="69" start="0.000" volume="3.0dB" />
-			<sample end="110250.000" hiNote="73" hiVel="127" loNote="71" loVel="1" path="Resources/Viola Solo Samples/4_C_2-PB.wav" rootNote="72" start="0.000" volume="2.0dB" />
-			<sample end="110277.000" hiNote="78" hiVel="127" loNote="74" loVel="1" path="Resources/Viola Solo Samples/4_Eb_1-PB.wav" rootNote="75" start="0.000" volume="4.0dB" />
-			<sample end="101438.000" hiNote="82" hiVel="127" loNote="79" loVel="1" path="Resources/Viola Solo Samples/4_A_1-PB.wav" rootNote="81" start="0.000" volume="5.0dB" />
-			<sample end="97035.000" hiNote="85" hiVel="127" loNote="83" loVel="1" path="Resources/Viola Solo Samples/5_C_1-PB.wav" rootNote="84" start="0.000" volume="5.0dB" />
-			<sample end="88200.000" hiNote="88" hiVel="127" loNote="86" loVel="1" path="Resources/Viola Solo Samples/5_Eb_2-PB.wav" rootNote="87" start="0.000" volume="3.0dB" />
-			<sample end="88200.000" hiNote="91" hiVel="127" loNote="89" loVel="1" path="Resources/Viola Solo Samples/5_Gb_2-PB.wav" rootNote="90" start="0.000" tuning="0.20" volume="9.0dB" />
-			<sample end="79396.000" hiNote="105" hiVel="127" loNote="92" loVel="1" path="Resources/Viola Solo Samples/5_A_1-PB.wav" rootNote="93" start="0.000" tuning="0.10" volume="9.0dB" />
+			<sample end="132330.000" hiNote="61" hiVel="127" loNote="60" loVel="1" path="Resources/Viola Solo Samples/3_C_1-PB.wav" rootNote="60" tuning="0.05" volume="4.0dB" />
+			<sample end="110250.000" hiNote="66" hiVel="127" loNote="62" loVel="1" path="Resources/Viola Solo Samples/3_Eb_1-PB.wav" rootNote="63" volume="6.0dB" />
+			<sample end="110250.000" hiNote="70" hiVel="127" loNote="67" loVel="1" path="Resources/Viola Solo Samples/3_A_1-PB.wav" rootNote="69" volume="3.0dB" />
+			<sample end="110250.000" hiNote="73" hiVel="127" loNote="71" loVel="1" path="Resources/Viola Solo Samples/4_C_2-PB.wav" rootNote="72" volume="2.0dB" />
+			<sample end="110277.000" hiNote="78" hiVel="127" loNote="74" loVel="1" path="Resources/Viola Solo Samples/4_Eb_1-PB.wav" rootNote="75" volume="4.0dB" />
+			<sample end="101438.000" hiNote="82" hiVel="127" loNote="79" loVel="1" path="Resources/Viola Solo Samples/4_A_1-PB.wav" rootNote="81" volume="5.0dB" />
+			<sample end="97035.000" hiNote="85" hiVel="127" loNote="83" loVel="1" path="Resources/Viola Solo Samples/5_C_1-PB.wav" rootNote="84" volume="5.0dB" />
+			<sample end="88200.000" hiNote="88" hiVel="127" loNote="86" loVel="1" path="Resources/Viola Solo Samples/5_Eb_2-PB.wav" rootNote="87" volume="3.0dB" />
+			<sample end="88200.000" hiNote="91" hiVel="127" loNote="89" loVel="1" path="Resources/Viola Solo Samples/5_Gb_2-PB.wav" rootNote="90" tuning="0.20" volume="9.0dB" />
+			<sample end="79396.000" hiNote="105" hiVel="127" loNote="92" loVel="1" path="Resources/Viola Solo Samples/5_A_1-PB.wav" rootNote="93" tuning="0.10" volume="9.0dB" />
 		</group>
 	</groups>
 	<midi>

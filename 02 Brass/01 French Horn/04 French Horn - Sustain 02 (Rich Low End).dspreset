@@ -32,13 +32,13 @@
 	</ui>
 	<groups release="0.029">
 		<group name="French Horns" ampVelTrack="1">
-			<sample loNote="0" hiNote="39" loVel="0" hiVel="127" end="128272.000" loopEnabled="true" loopEnd="128231.000" loopStart="62667.000" path="Resources/French Horn - Sustain 02 Samples/French Horns D#3.wav" rootNote="39" start="0.000" />
-			<sample loNote="40" hiNote="45" loVel="0" hiVel="127" end="132160.000" loopEnabled="true" loopEnd="132097.000" loopStart="53547.000" path="Resources/French Horn - Sustain 02 Samples/French Horns A3.wav" rootNote="45" start="0.000" />
-			<sample loNote="46" hiNote="51" loVel="0" hiVel="127" end="186348.000" loopEnabled="true" loopEnd="186330.000" loopStart="57345.000" path="Resources/French Horn - Sustain 02 Samples/French Horns D#4.wav" rootNote="51" start="0.000" />
-			<sample loNote="52" hiNote="57" loVel="0" hiVel="127" end="109900.000" loopEnabled="true" loopEnd="109887.000" loopStart="30531.000" path="Resources/French Horn - Sustain 02 Samples/French Horns A4.wav" rootNote="57" start="0.000" />
-			<sample loNote="58" hiNote="63" loVel="0" hiVel="127" end="221720.000" loopEnabled="true" loopEnd="221697.000" loopStart="92754.000" path="Resources/French Horn - Sustain 02 Samples/French Horns D#5.wav" rootNote="63" start="0.000" />
-			<sample loNote="64" hiNote="69" loVel="0" hiVel="127" end="116072.000" loopEnabled="true" loopEnd="116043.000" loopStart="50786.000" path="Resources/French Horn - Sustain 02 Samples/French Horns A5.wav" rootNote="69" start="0.000" />
-			<sample loNote="70" hiNote="96" loVel="0" hiVel="127" end="136716.000" loopEnabled="true" loopEnd="136705.000" loopStart="31744.000" path="Resources/French Horn - Sustain 02 Samples/French Horns D#6.wav" rootNote="75" start="0.000" />
+			<sample loNote="0" hiNote="39" loVel="0" hiVel="127" end="128272.000" loopEnabled="true" loopEnd="128231.000" loopStart="62667.000" path="Resources/French Horn - Sustain 02 Samples/French Horns D#3.wav" rootNote="39" />
+			<sample loNote="40" hiNote="45" loVel="0" hiVel="127" end="132160.000" loopEnabled="true" loopEnd="132097.000" loopStart="53547.000" path="Resources/French Horn - Sustain 02 Samples/French Horns A3.wav" rootNote="45" />
+			<sample loNote="46" hiNote="51" loVel="0" hiVel="127" end="186348.000" loopEnabled="true" loopEnd="186330.000" loopStart="57345.000" path="Resources/French Horn - Sustain 02 Samples/French Horns D#4.wav" rootNote="51" />
+			<sample loNote="52" hiNote="57" loVel="0" hiVel="127" end="109900.000" loopEnabled="true" loopEnd="109887.000" loopStart="30531.000" path="Resources/French Horn - Sustain 02 Samples/French Horns A4.wav" rootNote="57" />
+			<sample loNote="58" hiNote="63" loVel="0" hiVel="127" end="221720.000" loopEnabled="true" loopEnd="221697.000" loopStart="92754.000" path="Resources/French Horn - Sustain 02 Samples/French Horns D#5.wav" rootNote="63" />
+			<sample loNote="64" hiNote="69" loVel="0" hiVel="127" end="116072.000" loopEnabled="true" loopEnd="116043.000" loopStart="50786.000" path="Resources/French Horn - Sustain 02 Samples/French Horns A5.wav" rootNote="69" />
+			<sample loNote="70" hiNote="96" loVel="0" hiVel="127" end="136716.000" loopEnabled="true" loopEnd="136705.000" loopStart="31744.000" path="Resources/French Horn - Sustain 02 Samples/French Horns D#6.wav" rootNote="75" />
 		</group>
 	</groups>
 	<midi>

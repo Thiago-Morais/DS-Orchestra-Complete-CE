@@ -32,18 +32,18 @@
 	</ui>
 	<groups attack="0.000" release="0.024">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="222633.000" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_A#1_v1_1.wav" rootNote="46" start="0.000" volume="9.0dB" />
-			<sample end="257900.000" hiNote="58" hiVel="127" loNote="57" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_A#2_v1_1.wav" rootNote="58" start="0.000" volume="9.0dB" />
-			<sample end="231381.000" hiNote="49" hiVel="127" loNote="47" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_C2_v1_1.wav" rootNote="48" start="0.000" volume="9.0dB" />
-			<sample end="242516.000" hiNote="60" hiVel="127" loNote="59" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_C3_v1_1.wav" rootNote="60" start="0.000" volume="9.0dB" />
-			<sample end="263020.000" hiNote="51" hiVel="127" loNote="50" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_D#2_v1_1.wav" rootNote="51" start="0.000" volume="9.0dB" />
-			<sample end="249725.000" hiNote="67" hiVel="127" loNote="63" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_D#3_v1_1.wav" rootNote="63" start="0.000" volume="9.0dB" />
-			<sample end="240326.000" hiNote="62" hiVel="127" loNote="61" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_D3_v1_1.wav" rootNote="62" start="0.000" volume="9.0dB" />
-			<sample end="224334.000" hiNote="42" hiVel="127" loNote="41" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_F1_v1_1.wav" rootNote="41" start="0.000" volume="9.0dB" />
-			<sample end="327894.000" hiNote="54" hiVel="127" loNote="52" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_F2_v1_1.wav" rootNote="53" start="0.000" volume="9.0dB" />
-			<sample end="233503.000" hiNote="44" hiVel="127" loNote="43" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_G#1_v1_1.wav" rootNote="44" start="0.000" volume="9.0dB" />
-			<sample end="269753.000" hiNote="56" hiVel="62" loNote="55" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_G#2_v1_1.wav" rootNote="56" start="0.000" volume="12.0dB" />
-			<sample end="245360.000" hiNote="56" hiVel="127" loNote="55" loVel="63" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_G#2_v1_2.wav" rootNote="56" start="0.000" volume="5.0dB" />
+			<sample end="222633.000" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_A#1_v1_1.wav" rootNote="46" volume="9.0dB" />
+			<sample end="257900.000" hiNote="58" hiVel="127" loNote="57" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_A#2_v1_1.wav" rootNote="58" volume="9.0dB" />
+			<sample end="231381.000" hiNote="49" hiVel="127" loNote="47" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_C2_v1_1.wav" rootNote="48" volume="9.0dB" />
+			<sample end="242516.000" hiNote="60" hiVel="127" loNote="59" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_C3_v1_1.wav" rootNote="60" volume="9.0dB" />
+			<sample end="263020.000" hiNote="51" hiVel="127" loNote="50" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_D#2_v1_1.wav" rootNote="51" volume="9.0dB" />
+			<sample end="249725.000" hiNote="67" hiVel="127" loNote="63" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_D#3_v1_1.wav" rootNote="63" volume="9.0dB" />
+			<sample end="240326.000" hiNote="62" hiVel="127" loNote="61" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_D3_v1_1.wav" rootNote="62" volume="9.0dB" />
+			<sample end="224334.000" hiNote="42" hiVel="127" loNote="41" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_F1_v1_1.wav" rootNote="41" volume="9.0dB" />
+			<sample end="327894.000" hiNote="54" hiVel="127" loNote="52" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_F2_v1_1.wav" rootNote="53" volume="9.0dB" />
+			<sample end="233503.000" hiNote="44" hiVel="127" loNote="43" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_G#1_v1_1.wav" rootNote="44" volume="9.0dB" />
+			<sample end="269753.000" hiNote="56" hiVel="62" loNote="55" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_G#2_v1_1.wav" rootNote="56" volume="12.0dB" />
+			<sample end="245360.000" hiNote="56" hiVel="127" loNote="55" loVel="63" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_G#2_v1_2.wav" rootNote="56" volume="5.0dB" />
 		</group>
 	</groups>
 	<midi>

@@ -32,9 +32,9 @@
 	</ui>
 	<groups decay="1.000" release="0.022" sustain="0.915">
 		<group name="Cor Anglais" ampVelTrack="1">
-			<sample end="19036.000" hiNote="58" hiVel="127" loNote="40" loVel="0" loopEnabled="true" loopEnd="19031.000" loopStart="13448.000" path="Resources/Cor Anglais Samples/Cor Anglais F2.wav" rootNote="53" start="0.000" volume="-4.0dB" />
-			<sample end="19775.000" hiNote="64" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="19770.000" loopStart="14724.000" path="Resources/Cor Anglais Samples/Cor Anglais D#3.wav" rootNote="63" start="0.000" volume="-4.0dB" />
-			<sample end="23386.000" hiNote="77" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="23381.000" loopStart="17803.000" path="Resources/Cor Anglais Samples/Cor Anglais G3.wav" rootNote="67" start="0.000" volume="-4.0dB" />
+			<sample end="19036.000" hiNote="58" hiVel="127" loNote="40" loVel="0" loopEnabled="true" loopEnd="19031.000" loopStart="13448.000" path="Resources/Cor Anglais Samples/Cor Anglais F2.wav" rootNote="53" volume="-4.0dB" />
+			<sample end="19775.000" hiNote="64" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="19770.000" loopStart="14724.000" path="Resources/Cor Anglais Samples/Cor Anglais D#3.wav" rootNote="63" volume="-4.0dB" />
+			<sample end="23386.000" hiNote="77" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="23381.000" loopStart="17803.000" path="Resources/Cor Anglais Samples/Cor Anglais G3.wav" rootNote="67" volume="-4.0dB" />
 		</group>
 	</groups>
 	<midi>

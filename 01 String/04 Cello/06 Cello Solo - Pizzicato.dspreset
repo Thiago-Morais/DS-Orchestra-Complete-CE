@@ -32,27 +32,27 @@
 	</ui>
 	<groups attack="0.003" release="0.048">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="261747.000" hiNote="50" hiVel="127" loNote="48" loVel="1" path="Resources/Cello Solo Samples/2_C-PB.wav" rootNote="48" start="0.000" tuning="0.30" volume="1.0dB" />
-			<sample end="163307.000" hiNote="52" hiVel="127" loNote="51" loVel="1" path="Resources/Cello Solo Samples/2_E-PB.wav" rootNote="52" start="0.000" volume="1.0dB" />
-			<sample end="140305.000" hiNote="53" hiVel="127" loNote="53" loVel="1" path="Resources/Cello Solo Samples/2_F-PB.wav" rootNote="53" start="0.000" tuning="0.60" volume="1.0dB" />
-			<sample end="238574.000" hiNote="55" hiVel="127" loNote="54" loVel="1" path="Resources/Cello Solo Samples/2_G-PB.wav" rootNote="55" start="0.000" volume="1.0dB" />
-			<sample end="140310.000" hiNote="57" hiVel="127" loNote="56" loVel="1" path="Resources/Cello Solo Samples/2_A-PB.wav" rootNote="57" start="0.000" volume="1.0dB" />
-			<sample end="123473.000" hiNote="59" hiVel="127" loNote="58" loVel="1" path="Resources/Cello Solo Samples/2_B-PB.wav" rootNote="59" start="0.000" volume="1.0dB" />
-			<sample end="166194.000" hiNote="60" hiVel="127" loNote="60" loVel="1" path="Resources/Cello Solo Samples/3_C-PB.wav" rootNote="60" start="0.000" volume="1.0dB" />
-			<sample end="194491.000" hiNote="63" hiVel="127" loNote="61" loVel="1" path="Resources/Cello Solo Samples/3_D-PB.wav" rootNote="62" start="0.000" volume="2.0dB" />
-			<sample end="110931.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Cello Solo Samples/3_E-PB.wav" rootNote="64" start="0.000" volume="1.0dB" />
-			<sample end="102578.000" hiNote="65" hiVel="127" loNote="65" loVel="1" path="Resources/Cello Solo Samples/3_F-PB.wav" rootNote="65" start="0.000" tuning="0.10" volume="1.0dB" />
-			<sample end="94990.000" hiNote="67" hiVel="127" loNote="66" loVel="1" path="Resources/Cello Solo Samples/3_G-PB.wav" rootNote="67" start="0.000" volume="1.0dB" />
-			<sample end="266660.000" hiNote="69" hiVel="127" loNote="68" loVel="1" path="Resources/Cello Solo Samples/3_A-PB.wav" rootNote="69" start="0.000" volume="1.0dB" />
-			<sample end="106443.000" hiNote="71" hiVel="127" loNote="70" loVel="1" path="Resources/Cello Solo Samples/3_B-PB.wav" rootNote="71" start="0.000" tuning="0.20" volume="1.0dB" />
-			<sample end="94292.000" hiNote="72" hiVel="127" loNote="72" loVel="1" path="Resources/Cello Solo Samples/4_C-PB.wav" rootNote="72" start="0.000" tuning="0.10" volume="1.0dB" />
-			<sample end="90405.000" hiNote="74" hiVel="127" loNote="73" loVel="1" path="Resources/Cello Solo Samples/4_D-PB.wav" rootNote="74" start="0.000" tuning="0.20" volume="3.0dB" />
-			<sample end="63894.000" hiNote="76" hiVel="127" loNote="75" loVel="1" path="Resources/Cello Solo Samples/4_E-PB.wav" rootNote="76" start="0.000" tuning="0.20" volume="5.0dB" />
-			<sample end="83545.000" hiNote="77" hiVel="127" loNote="77" loVel="1" path="Resources/Cello Solo Samples/4_F-PB.wav" rootNote="77" start="0.000" volume="5.0dB" />
-			<sample end="61940.000" hiNote="79" hiVel="127" loNote="78" loVel="1" path="Resources/Cello Solo Samples/4_G-PB.wav" rootNote="79" start="0.000" tuning="0.10" volume="4.0dB" />
-			<sample end="101371.000" hiNote="81" hiVel="127" loNote="80" loVel="1" path="Resources/Cello Solo Samples/4_A-PB.wav" rootNote="81" start="0.000" tuning="0.40" volume="3.0dB" />
-			<sample end="69164.000" hiNote="83" hiVel="127" loNote="82" loVel="1" path="Resources/Cello Solo Samples/4_B-PB.wav" rootNote="83" start="0.000" tuning="0.30" volume="1.0dB" />
-			<sample end="54325.000" hiNote="93" hiVel="127" loNote="84" loVel="1" path="Resources/Cello Solo Samples/5_C-PB.wav" rootNote="84" start="0.000" tuning="0.10" volume="1.0dB" />
+			<sample end="261747.000" hiNote="50" hiVel="127" loNote="48" loVel="1" path="Resources/Cello Solo Samples/2_C-PB.wav" rootNote="48" tuning="0.30" volume="1.0dB" />
+			<sample end="163307.000" hiNote="52" hiVel="127" loNote="51" loVel="1" path="Resources/Cello Solo Samples/2_E-PB.wav" rootNote="52" volume="1.0dB" />
+			<sample end="140305.000" hiNote="53" hiVel="127" loNote="53" loVel="1" path="Resources/Cello Solo Samples/2_F-PB.wav" rootNote="53" tuning="0.60" volume="1.0dB" />
+			<sample end="238574.000" hiNote="55" hiVel="127" loNote="54" loVel="1" path="Resources/Cello Solo Samples/2_G-PB.wav" rootNote="55" volume="1.0dB" />
+			<sample end="140310.000" hiNote="57" hiVel="127" loNote="56" loVel="1" path="Resources/Cello Solo Samples/2_A-PB.wav" rootNote="57" volume="1.0dB" />
+			<sample end="123473.000" hiNote="59" hiVel="127" loNote="58" loVel="1" path="Resources/Cello Solo Samples/2_B-PB.wav" rootNote="59" volume="1.0dB" />
+			<sample end="166194.000" hiNote="60" hiVel="127" loNote="60" loVel="1" path="Resources/Cello Solo Samples/3_C-PB.wav" rootNote="60" volume="1.0dB" />
+			<sample end="194491.000" hiNote="63" hiVel="127" loNote="61" loVel="1" path="Resources/Cello Solo Samples/3_D-PB.wav" rootNote="62" volume="2.0dB" />
+			<sample end="110931.000" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Cello Solo Samples/3_E-PB.wav" rootNote="64" volume="1.0dB" />
+			<sample end="102578.000" hiNote="65" hiVel="127" loNote="65" loVel="1" path="Resources/Cello Solo Samples/3_F-PB.wav" rootNote="65" tuning="0.10" volume="1.0dB" />
+			<sample end="94990.000" hiNote="67" hiVel="127" loNote="66" loVel="1" path="Resources/Cello Solo Samples/3_G-PB.wav" rootNote="67" volume="1.0dB" />
+			<sample end="266660.000" hiNote="69" hiVel="127" loNote="68" loVel="1" path="Resources/Cello Solo Samples/3_A-PB.wav" rootNote="69" volume="1.0dB" />
+			<sample end="106443.000" hiNote="71" hiVel="127" loNote="70" loVel="1" path="Resources/Cello Solo Samples/3_B-PB.wav" rootNote="71" tuning="0.20" volume="1.0dB" />
+			<sample end="94292.000" hiNote="72" hiVel="127" loNote="72" loVel="1" path="Resources/Cello Solo Samples/4_C-PB.wav" rootNote="72" tuning="0.10" volume="1.0dB" />
+			<sample end="90405.000" hiNote="74" hiVel="127" loNote="73" loVel="1" path="Resources/Cello Solo Samples/4_D-PB.wav" rootNote="74" tuning="0.20" volume="3.0dB" />
+			<sample end="63894.000" hiNote="76" hiVel="127" loNote="75" loVel="1" path="Resources/Cello Solo Samples/4_E-PB.wav" rootNote="76" tuning="0.20" volume="5.0dB" />
+			<sample end="83545.000" hiNote="77" hiVel="127" loNote="77" loVel="1" path="Resources/Cello Solo Samples/4_F-PB.wav" rootNote="77" volume="5.0dB" />
+			<sample end="61940.000" hiNote="79" hiVel="127" loNote="78" loVel="1" path="Resources/Cello Solo Samples/4_G-PB.wav" rootNote="79" tuning="0.10" volume="4.0dB" />
+			<sample end="101371.000" hiNote="81" hiVel="127" loNote="80" loVel="1" path="Resources/Cello Solo Samples/4_A-PB.wav" rootNote="81" tuning="0.40" volume="3.0dB" />
+			<sample end="69164.000" hiNote="83" hiVel="127" loNote="82" loVel="1" path="Resources/Cello Solo Samples/4_B-PB.wav" rootNote="83" tuning="0.30" volume="1.0dB" />
+			<sample end="54325.000" hiNote="93" hiVel="127" loNote="84" loVel="1" path="Resources/Cello Solo Samples/5_C-PB.wav" rootNote="84" tuning="0.10" volume="1.0dB" />
 		</group>
 	</groups>
 	<midi>
