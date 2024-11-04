@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Viola.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0.060" release="0.125">
+		<group name="Group 15" ampVelTrack="1">
+			<sample end="18465" hiNote="61" hiVel="127" loNote="60" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-c3-PB.wav" rootNote="60" volume="4.0dB" />
+			<sample end="18465" hiNote="64" hiVel="127" loNote="62" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-d#3-PB.wav" rootNote="63" volume="4.5dB" />
+			<sample end="18465" hiNote="67" hiVel="127" loNote="65" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-f#3-PB.wav" rootNote="66" volume="5.0dB" />
+			<sample end="18465" hiNote="70" hiVel="127" loNote="68" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-a3-PB.wav" rootNote="69" volume="4.0dB" />
+			<sample end="18465" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-c4-PB.wav" rootNote="72" volume="5.0dB" />
+			<sample end="18465" hiNote="76" hiVel="127" loNote="74" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-d#4-PB.wav" rootNote="75" volume="3.5dB" />
+			<sample end="18465" hiNote="79" hiVel="127" loNote="77" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-f#4-PB.wav" rootNote="78" volume="6.0dB" />
+			<sample end="18465" hiNote="82" hiVel="127" loNote="80" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-a4-PB.wav" rootNote="81" volume="5.0dB" />
+			<sample end="18465" hiNote="85" hiVel="127" loNote="83" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-c5-PB.wav" rootNote="84" volume="4.0dB" />
+			<sample end="18465" hiNote="88" hiVel="127" loNote="86" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-d#5-PB.wav" rootNote="87" volume="3.0dB" />
+			<sample end="18465" hiNote="91" hiVel="127" loNote="89" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-f#5-PB.wav" rootNote="90" volume="2.0dB" />
+			<sample end="18465" hiNote="94" hiVel="127" loNote="92" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-a5-PB.wav" rootNote="93" />
+			<sample end="18465" hiNote="105" hiVel="127" loNote="95" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-c6-PB.wav" rootNote="96" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+</DecentSampler>
