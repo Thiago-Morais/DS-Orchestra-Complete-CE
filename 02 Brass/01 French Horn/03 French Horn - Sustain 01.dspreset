@@ -116,6 +116,41 @@
 			<sample rootNote="74" loNote="67" hiNote="75" loVel="1" hiVel="127" end="361211.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D4_v1_1.wav" />
 			<sample rootNote="77" loNote="76" hiNote="79" loVel="1" hiVel="127" end="369394.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F4_v1_1.wav" start="4298.000" />
 		</group>
+		<!--
+		<group name="Sus Non Vib Loud" ampVelTrack="1">
+		<sample rootNote="36" loNote="33" hiNote="37" loVel="1" hiVel="127" end="176100.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C1_v3_1.wav" />
+		<sample rootNote="39" loNote="38" hiNote="40" loVel="1" hiVel="127" end="231693.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D#1_v3_1.wav" />
+		<sample rootNote="43" loNote="41" hiNote="44" loVel="1" hiVel="127" end="234735.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_G1_v3_1.wav" />
+		<sample rootNote="46" loNote="45" hiNote="47" loVel="1" hiVel="127" end="457055.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A#1_v3_1.wav" />
+		<sample rootNote="50" loNote="48" hiNote="51" loVel="1" hiVel="127" end="436393.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D2_v3_1.wav" />
+		<sample rootNote="53" loNote="52" hiNote="54" loVel="1" hiVel="127" end="423120.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F2_v3_1.wav" />
+		<sample rootNote="57" loNote="55" hiNote="58" loVel="1" hiVel="127" end="326224.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A2_v3_1.wav" />
+		<sample rootNote="60" loNote="59" hiNote="66" loVel="1" hiVel="127" end="528743.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C3_v3_1.wav" />
+		<sample rootNote="74" loNote="67" hiNote="75" loVel="1" hiVel="127" end="361211.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D4_v1_1.wav" />
+		<sample rootNote="77" loNote="76" hiNote="79" loVel="1" hiVel="127" end="369394.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F4_v1_1.wav" start="4298.000" />
+		</group>
+		<group name="Sus Non Vib Soft" ampVelTrack="1">
+		<sample rootNote="33" loNote="33" hiNote="34" loVel="1" hiVel="80" end="236238.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A0_v1_1.wav" />
+		<sample rootNote="36" loNote="33" hiNote="37" loVel="81" hiVel="127" end="201776.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C1_v2_1.wav" />
+		<sample rootNote="36" loNote="35" hiNote="37" loVel="1" hiVel="80" end="272902.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C1_v1_1.wav" />
+		<sample rootNote="39" loNote="38" hiNote="40" loVel="1" hiVel="80" end="356033.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D#1_v1_1.wav" />
+		<sample rootNote="39" loNote="38" hiNote="40" loVel="81" hiVel="127" end="242553.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D#1_v2_1.wav" />
+		<sample rootNote="43" loNote="41" hiNote="44" loVel="1" hiVel="80" end="509376.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_G1_v1_1.wav" />
+		<sample rootNote="43" loNote="41" hiNote="44" loVel="81" hiVel="127" end="325097.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_G1_v2_1.wav" />
+		<sample rootNote="46" loNote="45" hiNote="47" loVel="1" hiVel="80" end="604458.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A#1_v1_1.wav" />
+		<sample rootNote="46" loNote="45" hiNote="47" loVel="81" hiVel="127" end="685090.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A#1_v2_1.wav" />
+		<sample rootNote="50" loNote="48" hiNote="51" loVel="1" hiVel="80" end="625329.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D2_v1_1.wav" />
+		<sample rootNote="50" loNote="48" hiNote="51" loVel="81" hiVel="127" end="645810.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D2_v2_1.wav" />
+		<sample rootNote="53" loNote="52" hiNote="54" loVel="1" hiVel="80" end="540784.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F2_v1_1.wav" />
+		<sample rootNote="53" loNote="52" hiNote="54" loVel="81" hiVel="127" end="639572.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F2_v2_1.wav" />
+		<sample rootNote="57" loNote="55" hiNote="58" loVel="1" hiVel="80" end="667920.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A2_v1_1.wav" />
+		<sample rootNote="57" loNote="55" hiNote="58" loVel="81" hiVel="127" end="635563.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A2_v2_1.wav" />
+		<sample rootNote="60" loNote="59" hiNote="66" loVel="1" hiVel="80" end="629919.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C3_v1_1.wav" />
+		<sample rootNote="60" loNote="59" hiNote="66" loVel="81" hiVel="127" end="560012.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C3_v2_1.wav" />
+		<sample rootNote="74" loNote="67" hiNote="75" loVel="1" hiVel="127" end="361211.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D4_v1_1.wav" />
+		<sample rootNote="77" loNote="76" hiNote="79" loVel="1" hiVel="127" end="369394.000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F4_v1_1.wav" start="4298.000" />
+		</group>
+		-->
 	</groups>
 	<midi>
 		<cc number="1">
