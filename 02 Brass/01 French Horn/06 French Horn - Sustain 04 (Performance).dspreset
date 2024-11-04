@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/praashie/DecentSampler-schema/main/DecentSampler.xsd"?>
+<DecentSampler>
+	<effects>
+		<effect type="hipass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/French Horn.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0" release="0.028">
+		<group name="Stac RR 1" ampVelTrack="0" seqMode="random" seqPosition="1" volume="5.00dB">
+			<sample rootNote="33" loNote="33" hiNote="34" loCC1="1" hiCC1="48" end="96404" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_1.wav" />
+			<sample rootNote="36" loNote="33" hiNote="37" loCC1="49" hiCC1="127" end="64689" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_1.wav" />
+			<sample rootNote="36" loNote="35" hiNote="37" loCC1="1" hiCC1="48" end="78028" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_1.wav" />
+			<sample rootNote="39" loNote="38" hiNote="40" loCC1="1" hiCC1="48" end="56229" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v1_1.wav" />
+			<sample rootNote="39" loNote="38" hiNote="40" loCC1="49" hiCC1="127" end="71591" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v2_1.wav" />
+			<sample rootNote="43" loNote="41" hiNote="44" loCC1="1" hiCC1="48" end="101886" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v1_1.wav" />
+			<sample rootNote="43" loNote="41" hiNote="45" loCC1="49" hiCC1="96" end="57412" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v2_1.wav" />
+			<sample rootNote="46" loNote="41" hiNote="47" loCC1="97" hiCC1="127" end="85486" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v3_1.wav" />
+			<sample rootNote="46" loNote="45" hiNote="49" loCC1="1" hiCC1="48" end="76749" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v1_1.wav" start="2592" />
+			<sample rootNote="50" loNote="46" hiNote="51" loCC1="49" hiCC1="96" end="72584" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v2_1.wav" />
+			<sample rootNote="50" loNote="48" hiNote="51" loCC1="97" hiCC1="127" end="35302" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v3_1.wav" />
+			<sample rootNote="53" loNote="50" hiNote="54" loCC1="1" hiCC1="48" end="106435" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v1_1.wav" />
+			<sample rootNote="53" loNote="52" hiNote="54" loCC1="49" hiCC1="96" end="58183" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v2_1.wav" />
+			<sample rootNote="53" loNote="52" hiNote="54" loCC1="97" hiCC1="127" end="107183" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v3_1.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" loCC1="1" hiCC1="48" end="116984" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v1_1.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" loCC1="49" hiCC1="96" end="85111" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v2_1.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" loCC1="97" hiCC1="127" end="93476" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v3_1.wav" />
+			<sample rootNote="60" loNote="59" hiNote="66" loCC1="1" hiCC1="48" end="111048" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v1_1.wav" />
+			<sample rootNote="60" loNote="59" hiNote="66" loCC1="49" hiCC1="96" end="29135" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v2_1.wav" />
+			<sample rootNote="60" loNote="59" hiNote="66" loCC1="97" hiCC1="127" end="96382" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v3_1.wav" />
+			<sample rootNote="74" loNote="67" hiNote="75" loCC1="1" hiCC1="48" end="86718" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v1_1.wav" />
+			<sample rootNote="74" loNote="67" hiNote="75" loCC1="49" hiCC1="96" end="84782" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v2_1.wav" />
+			<sample rootNote="74" loNote="67" hiNote="75" loCC1="97" hiCC1="127" end="68231" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v3_1.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" loCC1="1" hiCC1="48" end="84972" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v1_1.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" loCC1="49" hiCC1="96" end="38827" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_1.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" loCC1="97" hiCC1="127" end="52675" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" />
+		</group>
+		<group name="Stac RR 2" ampVelTrack="0" seqMode="random" seqPosition="2" volume="5.00dB">
+			<sample rootNote="33" loNote="33" hiNote="34" loCC1="1" hiCC1="48" end="103942" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_2.wav" />
+			<sample rootNote="36" loNote="33" hiNote="37" loCC1="49" hiCC1="127" end="69249" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_2.wav" />
+			<sample rootNote="36" loNote="35" hiNote="37" loCC1="1" hiCC1="48" end="74019" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_2.wav" start="1668" />
+			<sample rootNote="39" loNote="38" hiNote="40" loCC1="1" hiCC1="48" end="56188" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v1_2.wav" />
+			<sample rootNote="39" loNote="38" hiNote="40" loCC1="49" hiCC1="127" end="87126" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v2_2.wav" />
+			<sample rootNote="43" loNote="41" hiNote="45" loCC1="49" hiCC1="96" end="46350" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v2_2.wav" />
+			<sample rootNote="43" loNote="41" hiNote="46" loCC1="1" hiCC1="48" end="88726" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v1_2.wav" />
+			<sample rootNote="46" loNote="41" hiNote="47" loCC1="97" hiCC1="127" end="57587" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v3_2.wav" />
+			<sample rootNote="50" loNote="46" hiNote="51" loCC1="49" hiCC1="96" end="97262" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v2_2.wav" start="1873" />
+			<sample rootNote="50" loNote="47" hiNote="51" loCC1="1" hiCC1="48" end="80274" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v1_2.wav" />
+			<sample rootNote="50" loNote="48" hiNote="51" loCC1="97" hiCC1="127" end="103180" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v3_2.wav" />
+			<sample rootNote="53" loNote="52" hiNote="54" loCC1="1" hiCC1="48" end="46412" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v1_2.wav" />
+			<sample rootNote="53" loNote="52" hiNote="54" loCC1="49" hiCC1="96" end="91403" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v2_2.wav" />
+			<sample rootNote="53" loNote="52" hiNote="54" loCC1="97" hiCC1="127" end="66224" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v3_2.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" loCC1="1" hiCC1="48" end="103563" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v1_2.wav" start="791" />
+			<sample rootNote="57" loNote="55" hiNote="58" loCC1="49" hiCC1="96" end="154398" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v2_2.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" loCC1="97" hiCC1="127" end="122222" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v3_2.wav" />
+			<sample rootNote="60" loNote="59" hiNote="66" loCC1="1" hiCC1="48" end="91264" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v1_2.wav" />
+			<sample rootNote="60" loNote="59" hiNote="66" loCC1="49" hiCC1="96" end="46244" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v2_2.wav" />
+			<sample rootNote="60" loNote="59" hiNote="66" loCC1="97" hiCC1="127" end="102487" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v3_2.wav" />
+			<sample rootNote="74" loNote="67" hiNote="75" loCC1="1" hiCC1="48" end="82755" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v1_2.wav" />
+			<sample rootNote="74" loNote="67" hiNote="75" loCC1="49" hiCC1="96" end="105457" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v2_2.wav" />
+			<sample rootNote="74" loNote="67" hiNote="75" loCC1="97" hiCC1="127" end="84006" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v3_2.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" loCC1="1" hiCC1="48" end="93640" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v1_2.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" loCC1="49" hiCC1="96" end="98517" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_2.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" loCC1="97" hiCC1="127" end="52371" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" />
+		</group>
+		<group name="Sus Non Vib (Low Vel)" ampVelTrack="0" volume="5.00dB">
+			<sample rootNote="33" loNote="33" hiNote="34" loCC1="1" hiCC1="48" end="236238" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A0_v1_1.wav" />
+			<sample rootNote="36" loNote="35" hiNote="37" loCC1="1" hiCC1="48" end="272902" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C1_v1_1.wav" />
+			<sample rootNote="39" loNote="38" hiNote="40" loCC1="1" hiCC1="48" end="356033" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D#1_v1_1.wav" />
+			<sample rootNote="43" loNote="41" hiNote="44" loCC1="1" hiCC1="48" end="509376" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_G1_v1_1.wav" />
+			<sample rootNote="46" loNote="45" hiNote="47" loCC1="1" hiCC1="48" end="604458" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A#1_v1_1.wav" />
+			<sample rootNote="50" loNote="48" hiNote="51" loCC1="1" hiCC1="48" end="625329" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D2_v1_1.wav" />
+			<sample rootNote="53" loNote="52" hiNote="54" loCC1="1" hiCC1="48" end="540784" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F2_v1_1.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" loCC1="1" hiCC1="48" end="667920" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A2_v1_1.wav" />
+			<sample rootNote="60" loNote="59" hiNote="66" loCC1="1" hiCC1="48" end="629919" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C3_v1_1.wav" />
+		</group>
+		<group name="Sus Non Vib (Mid Vel)" ampVelTrack="0" volume="5.00dB">
+			<sample rootNote="36" loNote="33" hiNote="37" loCC1="49" hiCC1="96" end="201776" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C1_v2_1.wav" />
+			<sample rootNote="39" loNote="38" hiNote="40" loCC1="49" hiCC1="96" end="242553" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D#1_v2_1.wav" />
+			<sample rootNote="43" loNote="41" hiNote="44" loCC1="49" hiCC1="96" end="325097" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_G1_v2_1.wav" />
+			<sample rootNote="46" loNote="45" hiNote="47" loCC1="49" hiCC1="96" end="685090" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A#1_v2_1.wav" />
+			<sample rootNote="50" loNote="48" hiNote="51" loCC1="49" hiCC1="96" end="645810" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D2_v2_1.wav" />
+			<sample rootNote="53" loNote="52" hiNote="54" loCC1="49" hiCC1="96" end="639572" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F2_v2_1.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" loCC1="49" hiCC1="96" end="635563" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A2_v2_1.wav" />
+			<sample rootNote="60" loNote="59" hiNote="66" loCC1="49" hiCC1="96" end="560012" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C3_v2_1.wav" />
+		</group>
+		<group name="Sus Non Vib (High Vel)" ampVelTrack="0" volume="5.00dB">
+			<sample rootNote="36" loNote="33" hiNote="37" loCC1="97" hiCC1="127" end="176100" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C1_v3_1.wav" />
+			<sample rootNote="39" loNote="38" hiNote="40" loCC1="97" hiCC1="127" end="231693" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D#1_v3_1.wav" />
+			<sample rootNote="43" loNote="41" hiNote="44" loCC1="97" hiCC1="127" end="234735" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_G1_v3_1.wav" />
+			<sample rootNote="46" loNote="45" hiNote="47" loCC1="97" hiCC1="127" end="457055" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A#1_v3_1.wav" />
+			<sample rootNote="50" loNote="48" hiNote="51" loCC1="97" hiCC1="127" end="436393" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D2_v3_1.wav" />
+			<sample rootNote="53" loNote="52" hiNote="54" loCC1="97" hiCC1="127" end="423120" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F2_v3_1.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" loCC1="97" hiCC1="127" end="326224" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A2_v3_1.wav" />
+			<sample rootNote="60" loNote="59" hiNote="66" loCC1="97" hiCC1="127" end="528743" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C3_v3_1.wav" />
+		</group>
+		<group name="Sus Non Vib (Any Vel)" ampVelTrack="0" volume="5.00dB">
+			<sample rootNote="74" loNote="67" hiNote="75" loCC1="1" hiCC1="127" end="361211" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D4_v1_1.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" loCC1="1" hiCC1="127" end="369394" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F4_v1_1.wav" start="4298" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+</DecentSampler>
