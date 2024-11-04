@@ -31,7 +31,6 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.060" release="0.084">
-		s
 		<group name="gr_1" ampVelTrack="1" volume="-8dB">
 			<sample end="137652.000" hiNote="49" hiVel="62" loNote="48" loVel="0" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR1.wav" rootNote="48" volume="12.0dB" />
 			<sample end="50370.000" hiNote="53" hiVel="62" loNote="50" loVel="0" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR1.wav" rootNote="52" volume="12.0dB" />
