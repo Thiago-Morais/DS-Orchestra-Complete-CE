@@ -33,44 +33,44 @@
 	</ui>
 	<groups attack="0" release="0.028">
 		<group name="ff" ampVelTrack="1">
-			<sample end="281800" hiNote="54" hiVel="127" loNote="52" loVel="1" loopEnabled="true" loopEnd="269178" loopStart="114601" path="Resources/Trumpet - Harmon Mute Samples/F0_f.wav" rootNote="53" volume="2.0494202125166807dB" />
-			<sample end="292626" hiNote="56" hiVel="127" loNote="55" loVel="1" loopEnabled="true" loopEnd="269321" loopStart="183147" path="Resources/Trumpet - Harmon Mute Samples/G0_f.wav" rootNote="55" volume="2.0494202125166807dB" />
-			<sample end="286518" hiNote="57" hiVel="127" loNote="57" loVel="1" loopEnabled="true" loopEnd="241439" loopStart="130991" path="Resources/Trumpet - Harmon Mute Samples/A0_f.wav" rootNote="57" volume="2.0494202125166807dB" />
-			<sample end="382568" hiNote="59" hiVel="127" loNote="58" loVel="1" loopEnabled="true" loopEnd="197385" loopStart="67393" path="Resources/Trumpet - Harmon Mute Samples/Bb0_f.wav" rootNote="58" volume="2.0494202125166807dB" />
-			<sample end="380297" hiNote="61" hiVel="127" loNote="60" loVel="1" loopEnabled="true" loopEnd="356813" loopStart="190604" path="Resources/Trumpet - Harmon Mute Samples/C0_f.wav" rootNote="60" volume="2.0494202125166807dB" />
-			<sample end="383626" hiNote="63" hiVel="127" loNote="62" loVel="1" loopEnabled="true" loopEnd="360326" loopStart="135668" path="Resources/Trumpet - Harmon Mute Samples/D0_f.wav" rootNote="62" volume="2.0494202125166807dB" />
-			<sample end="382987" hiNote="64" hiVel="127" loNote="64" loVel="1" loopEnabled="true" loopEnd="297463" loopStart="52354" path="Resources/Trumpet - Harmon Mute Samples/E0_f.wav" rootNote="64" volume="2.0494202125166807dB" />
-			<sample end="381752" hiNote="66" hiVel="127" loNote="65" loVel="1" loopEnabled="true" loopEnd="358723" loopStart="261232" path="Resources/Trumpet - Harmon Mute Samples/F1_f.wav" rootNote="65" volume="2.0494202125166807dB" />
-			<sample end="381884" hiNote="68" hiVel="127" loNote="67" loVel="1" loopEnabled="true" loopEnd="356143" loopStart="84894" path="Resources/Trumpet - Harmon Mute Samples/G1_f.wav" rootNote="67" volume="2.0494202125166807dB" />
-			<sample end="384111" hiNote="69" hiVel="127" loNote="69" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/A1_f.wav" rootNote="69" tuning="-0.02" volume="2.0494202125166807dB" />
-			<sample end="382303" hiNote="71" hiVel="127" loNote="70" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/Bb1_f.wav" rootNote="70" volume="2.0494202125166807dB" />
-			<sample end="377607" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/C1_f.wav" rootNote="72" volume="2.0494202125166807dB" />
-			<sample end="376857" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/D1_f.wav" rootNote="74" volume="2.0494202125166807dB" />
-			<sample end="374101" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/E1_f.wav" rootNote="76" volume="2.0494202125166807dB" />
-			<sample end="379150" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/F2_f.wav" rootNote="77" volume="2.0494202125166807dB" />
-			<sample end="368280" hiNote="80" hiVel="127" loNote="79" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/G2_f.wav" rootNote="79" volume="2.0494202125166807dB" />
-			<sample end="357233" hiNote="81" hiVel="127" loNote="81" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/A2_f.wav" rootNote="81" volume="2.0494202125166807dB" />
-			<sample end="369470" hiNote="89" hiVel="127" loNote="82" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/Bb2_f.wav" rootNote="82" volume="2.0494202125166807dB" />
+			<sample end="281800" hiNote="54" hiVel="127" loNote="52" loVel="0" loopEnabled="true" loopEnd="269178" loopStart="114601" path="Resources/Trumpet - Harmon Mute Samples/F0_f.wav" rootNote="53" volume="2.0494202125166807dB" />
+			<sample end="292626" hiNote="56" hiVel="127" loNote="55" loVel="0" loopEnabled="true" loopEnd="269321" loopStart="183147" path="Resources/Trumpet - Harmon Mute Samples/G0_f.wav" rootNote="55" volume="2.0494202125166807dB" />
+			<sample end="286518" hiNote="57" hiVel="127" loNote="57" loVel="0" loopEnabled="true" loopEnd="241439" loopStart="130991" path="Resources/Trumpet - Harmon Mute Samples/A0_f.wav" rootNote="57" volume="2.0494202125166807dB" />
+			<sample end="382568" hiNote="59" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="197385" loopStart="67393" path="Resources/Trumpet - Harmon Mute Samples/Bb0_f.wav" rootNote="58" volume="2.0494202125166807dB" />
+			<sample end="380297" hiNote="61" hiVel="127" loNote="60" loVel="0" loopEnabled="true" loopEnd="356813" loopStart="190604" path="Resources/Trumpet - Harmon Mute Samples/C0_f.wav" rootNote="60" volume="2.0494202125166807dB" />
+			<sample end="383626" hiNote="63" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="360326" loopStart="135668" path="Resources/Trumpet - Harmon Mute Samples/D0_f.wav" rootNote="62" volume="2.0494202125166807dB" />
+			<sample end="382987" hiNote="64" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="297463" loopStart="52354" path="Resources/Trumpet - Harmon Mute Samples/E0_f.wav" rootNote="64" volume="2.0494202125166807dB" />
+			<sample end="381752" hiNote="66" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="358723" loopStart="261232" path="Resources/Trumpet - Harmon Mute Samples/F1_f.wav" rootNote="65" volume="2.0494202125166807dB" />
+			<sample end="381884" hiNote="68" hiVel="127" loNote="67" loVel="0" loopEnabled="true" loopEnd="356143" loopStart="84894" path="Resources/Trumpet - Harmon Mute Samples/G1_f.wav" rootNote="67" volume="2.0494202125166807dB" />
+			<sample end="384111" hiNote="69" hiVel="127" loNote="69" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/A1_f.wav" rootNote="69" tuning="-0.02" volume="2.0494202125166807dB" />
+			<sample end="382303" hiNote="71" hiVel="127" loNote="70" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/Bb1_f.wav" rootNote="70" volume="2.0494202125166807dB" />
+			<sample end="377607" hiNote="73" hiVel="127" loNote="72" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/C1_f.wav" rootNote="72" volume="2.0494202125166807dB" />
+			<sample end="376857" hiNote="75" hiVel="127" loNote="74" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/D1_f.wav" rootNote="74" volume="2.0494202125166807dB" />
+			<sample end="374101" hiNote="76" hiVel="127" loNote="76" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/E1_f.wav" rootNote="76" volume="2.0494202125166807dB" />
+			<sample end="379150" hiNote="78" hiVel="127" loNote="77" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/F2_f.wav" rootNote="77" volume="2.0494202125166807dB" />
+			<sample end="368280" hiNote="80" hiVel="127" loNote="79" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/G2_f.wav" rootNote="79" volume="2.0494202125166807dB" />
+			<sample end="357233" hiNote="81" hiVel="127" loNote="81" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/A2_f.wav" rootNote="81" volume="2.0494202125166807dB" />
+			<sample end="369470" hiNote="89" hiVel="127" loNote="82" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/Bb2_f.wav" rootNote="82" volume="2.0494202125166807dB" />
 		</group>
 		<group name="p" ampVelTrack="1">
-			<sample end="376725" hiNote="54" hiVel="127" loNote="52" loVel="1" loopEnabled="true" loopEnd="357230" loopStart="168821" path="Resources/Trumpet - Harmon Mute Samples/F0_mf.wav" rootNote="53" volume="2.0494202125166807dB" />
-			<sample end="373902" hiNote="56" hiVel="127" loNote="55" loVel="1" loopEnabled="true" loopEnd="354170" loopStart="121063" path="Resources/Trumpet - Harmon Mute Samples/G0_mf.wav" rootNote="55" volume="2.0494202125166807dB" />
-			<sample end="375247" hiNote="57" hiVel="127" loNote="57" loVel="1" loopEnabled="true" loopEnd="356947" loopStart="140853" path="Resources/Trumpet - Harmon Mute Samples/A0_mf.wav" rootNote="57" tuning="-0.02" volume="2.0494202125166807dB" />
-			<sample end="382855" hiNote="59" hiVel="127" loNote="58" loVel="1" loopEnabled="true" loopEnd="359214" loopStart="54976" path="Resources/Trumpet - Harmon Mute Samples/Bb0_mf.wav" rootNote="58" volume="2.0494202125166807dB" />
-			<sample end="374079" hiNote="61" hiVel="127" loNote="60" loVel="1" loopEnabled="true" loopEnd="329751" loopStart="31724" path="Resources/Trumpet - Harmon Mute Samples/C0_mf.wav" rootNote="60" volume="2.0494202125166807dB" />
-			<sample end="383781" hiNote="63" hiVel="127" loNote="62" loVel="1" loopEnabled="true" loopEnd="356656" loopStart="50457" path="Resources/Trumpet - Harmon Mute Samples/D0_mf.wav" rootNote="62" volume="2.0494202125166807dB" />
-			<sample end="382502" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/E0_mf.wav" rootNote="64" volume="2.0494202125166807dB" />
-			<sample end="373351" hiNote="66" hiVel="127" loNote="65" loVel="1" loopEnabled="true" loopEnd="354575" loopStart="172853" path="Resources/Trumpet - Harmon Mute Samples/F1_mf.wav" rootNote="65" volume="2.0494202125166807dB" />
-			<sample end="386096" hiNote="68" hiVel="127" loNote="67" loVel="1" loopEnabled="true" loopEnd="341828" loopStart="118053" path="Resources/Trumpet - Harmon Mute Samples/G1_mf.wav" rootNote="67" volume="2.0494202125166807dB" />
-			<sample end="373770" hiNote="69" hiVel="127" loNote="69" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/A1_mf.wav" rootNote="69" tuning="-0.02" volume="2.0494202125166807dB" />
-			<sample end="382766" hiNote="71" hiVel="127" loNote="70" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/Bb1_mf.wav" rootNote="70" volume="2.0494202125166807dB" />
-			<sample end="384156" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/C1_mf.wav" rootNote="72" volume="2.0494202125166807dB" />
-			<sample end="384178" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/D1_mf.wav" rootNote="74" volume="2.0494202125166807dB" />
-			<sample end="379613" hiNote="76" hiVel="127" loNote="76" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/E1_mf.wav" rootNote="76" volume="2.0494202125166807dB" />
-			<sample end="383604" hiNote="78" hiVel="127" loNote="77" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/F2_mf.wav" rootNote="77" volume="2.0494202125166807dB" />
-			<sample end="384057" hiNote="80" hiVel="127" loNote="79" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/G2_mf.wav" rootNote="79" volume="2.0494202125166807dB" />
-			<sample end="369361" hiNote="81" hiVel="127" loNote="81" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/A2_mf.wav" rootNote="81" volume="2.0494202125166807dB" />
-			<sample end="375093" hiNote="89" hiVel="127" loNote="82" loVel="1" path="Resources/Trumpet - Harmon Mute Samples/Bb2_mf.wav" rootNote="82" volume="2.0494202125166807dB" />
+			<sample end="376725" hiNote="54" hiVel="127" loNote="52" loVel="0" loopEnabled="true" loopEnd="357230" loopStart="168821" path="Resources/Trumpet - Harmon Mute Samples/F0_mf.wav" rootNote="53" volume="2.0494202125166807dB" />
+			<sample end="373902" hiNote="56" hiVel="127" loNote="55" loVel="0" loopEnabled="true" loopEnd="354170" loopStart="121063" path="Resources/Trumpet - Harmon Mute Samples/G0_mf.wav" rootNote="55" volume="2.0494202125166807dB" />
+			<sample end="375247" hiNote="57" hiVel="127" loNote="57" loVel="0" loopEnabled="true" loopEnd="356947" loopStart="140853" path="Resources/Trumpet - Harmon Mute Samples/A0_mf.wav" rootNote="57" tuning="-0.02" volume="2.0494202125166807dB" />
+			<sample end="382855" hiNote="59" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="359214" loopStart="54976" path="Resources/Trumpet - Harmon Mute Samples/Bb0_mf.wav" rootNote="58" volume="2.0494202125166807dB" />
+			<sample end="374079" hiNote="61" hiVel="127" loNote="60" loVel="0" loopEnabled="true" loopEnd="329751" loopStart="31724" path="Resources/Trumpet - Harmon Mute Samples/C0_mf.wav" rootNote="60" volume="2.0494202125166807dB" />
+			<sample end="383781" hiNote="63" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="356656" loopStart="50457" path="Resources/Trumpet - Harmon Mute Samples/D0_mf.wav" rootNote="62" volume="2.0494202125166807dB" />
+			<sample end="382502" hiNote="64" hiVel="127" loNote="64" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/E0_mf.wav" rootNote="64" volume="2.0494202125166807dB" />
+			<sample end="373351" hiNote="66" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="354575" loopStart="172853" path="Resources/Trumpet - Harmon Mute Samples/F1_mf.wav" rootNote="65" volume="2.0494202125166807dB" />
+			<sample end="386096" hiNote="68" hiVel="127" loNote="67" loVel="0" loopEnabled="true" loopEnd="341828" loopStart="118053" path="Resources/Trumpet - Harmon Mute Samples/G1_mf.wav" rootNote="67" volume="2.0494202125166807dB" />
+			<sample end="373770" hiNote="69" hiVel="127" loNote="69" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/A1_mf.wav" rootNote="69" tuning="-0.02" volume="2.0494202125166807dB" />
+			<sample end="382766" hiNote="71" hiVel="127" loNote="70" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/Bb1_mf.wav" rootNote="70" volume="2.0494202125166807dB" />
+			<sample end="384156" hiNote="73" hiVel="127" loNote="72" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/C1_mf.wav" rootNote="72" volume="2.0494202125166807dB" />
+			<sample end="384178" hiNote="75" hiVel="127" loNote="74" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/D1_mf.wav" rootNote="74" volume="2.0494202125166807dB" />
+			<sample end="379613" hiNote="76" hiVel="127" loNote="76" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/E1_mf.wav" rootNote="76" volume="2.0494202125166807dB" />
+			<sample end="383604" hiNote="78" hiVel="127" loNote="77" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/F2_mf.wav" rootNote="77" volume="2.0494202125166807dB" />
+			<sample end="384057" hiNote="80" hiVel="127" loNote="79" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/G2_mf.wav" rootNote="79" volume="2.0494202125166807dB" />
+			<sample end="369361" hiNote="81" hiVel="127" loNote="81" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/A2_mf.wav" rootNote="81" volume="2.0494202125166807dB" />
+			<sample end="375093" hiNote="89" hiVel="127" loNote="82" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/Bb2_mf.wav" rootNote="82" volume="2.0494202125166807dB" />
 		</group>
 	</groups>
 	<midi>

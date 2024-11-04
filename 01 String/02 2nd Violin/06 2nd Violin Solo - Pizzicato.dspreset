@@ -33,42 +33,42 @@
 	</ui>
 	<groups attack="0.003" release="0.024">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="45357" hiNote="58" hiVel="127" loNote="58" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/3_A-PB.wav" rootNote="57" volume="3.0dB" />
-			<sample end="44394" hiNote="57" hiVel="127" loNote="55" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/3_Bb-PB.wav" rootNote="58" volume="6.0dB" />
-			<sample end="49395" hiNote="60" hiVel="127" loNote="60" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/3_B-PB.wav" rootNote="59" volume="3.0dB" />
-			<sample end="47805" hiNote="59" hiVel="127" loNote="59" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_C-PB.wav" rootNote="60" />
-			<sample end="50203" hiNote="62" hiVel="127" loNote="62" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_Db-PB.wav" rootNote="61" volume="1.0dB" />
-			<sample end="50878" hiNote="61" hiVel="127" loNote="61" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_D-PB.wav" rootNote="62" volume="3.0dB" />
-			<sample end="54889" hiNote="64" hiVel="127" loNote="64" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_Eb-PB.wav" rootNote="63" volume="6.0dB" />
-			<sample end="48935" hiNote="63" hiVel="127" loNote="63" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_E-PB.wav" rootNote="64" volume="5.0dB" />
-			<sample end="55224" hiNote="66" hiVel="127" loNote="66" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_F-PB.wav" rootNote="65" volume="3.0dB" />
-			<sample end="57895" hiNote="65" hiVel="127" loNote="65" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_Gb-PB.wav" rootNote="66" volume="3.0dB" />
-			<sample end="62025" hiNote="69" hiVel="127" loNote="68" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_G-PB.wav" rootNote="67" volume="4.0dB" />
-			<sample end="45223" hiNote="67" hiVel="127" loNote="67" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_Ab-PB.wav" rootNote="68" volume="4.0dB" />
-			<sample end="43548" hiNote="72" hiVel="127" loNote="71" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_Bb-PB.wav" rootNote="70" volume="10.0dB" />
-			<sample end="44173" hiNote="70" hiVel="127" loNote="70" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_B-PB.wav" rootNote="71" volume="6.0dB" />
-			<sample end="27896" hiNote="74" hiVel="127" loNote="74" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_Db-PB.wav" rootNote="73" volume="5.0dB" />
-			<sample end="93339" hiNote="73" hiVel="127" loNote="73" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_D-PB.wav" rootNote="74" volume="6.0dB" />
-			<sample end="38547" hiNote="77" hiVel="127" loNote="77" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_Eb-PB.wav" rootNote="75" volume="6.0dB" />
-			<sample end="46033" hiNote="76" hiVel="127" loNote="75" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_F-PB.wav" rootNote="77" volume="5.0dB" />
-			<sample end="39252" hiNote="79" hiVel="127" loNote="79" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_Gb-PB.wav" rootNote="78" volume="4.0dB" />
-			<sample end="60603" hiNote="78" hiVel="127" loNote="78" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_G-PB.wav" rootNote="79" volume="9.0dB" />
-			<sample end="41236" hiNote="81" hiVel="127" loNote="81" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_Ab-PB.wav" rootNote="80" volume="7.0dB" />
-			<sample end="50839" hiNote="80" hiVel="127" loNote="80" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_A-PB.wav" rootNote="81" volume="9.0dB" />
-			<sample end="34833" hiNote="83" hiVel="127" loNote="83" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_Bb-PB.wav" rootNote="82" volume="9.0dB" />
-			<sample end="33996" hiNote="82" hiVel="127" loNote="82" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_B-PB.wav" rootNote="83" volume="7.0dB" />
-			<sample end="29329" hiNote="85" hiVel="127" loNote="85" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_C-PB.wav" rootNote="84" volume="9.0dB" />
-			<sample end="32153" hiNote="84" hiVel="127" loNote="84" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_Db-PB.wav" rootNote="85" volume="10.0dB" />
-			<sample end="30328" hiNote="87" hiVel="127" loNote="87" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_D-PB.wav" rootNote="86" volume="8.0dB" />
-			<sample end="34919" hiNote="86" hiVel="127" loNote="86" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_Eb-PB.wav" rootNote="87" volume="11.5dB" />
-			<sample end="31267" hiNote="89" hiVel="127" loNote="89" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_E-PB.wav" rootNote="88" volume="10.0dB" />
-			<sample end="28086" hiNote="88" hiVel="127" loNote="88" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_F-PB.wav" rootNote="89" volume="12.0dB" />
-			<sample end="28214" hiNote="91" hiVel="127" loNote="91" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_Gb-PB.wav" rootNote="90" volume="11.0dB" />
-			<sample end="30108" hiNote="90" hiVel="127" loNote="90" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_G-PB.wav" rootNote="91" volume="12.0dB" />
-			<sample end="27650" hiNote="93" hiVel="127" loNote="93" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_Ab-PB.wav" rootNote="92" volume="12.0dB" />
-			<sample end="28164" hiNote="92" hiVel="127" loNote="92" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_A-PB.wav" rootNote="93" volume="12.0dB" />
-			<sample end="29956" hiNote="105" hiVel="127" loNote="95" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_Bb-PB.wav" rootNote="94" volume="9.0dB" />
-			<sample end="22404" hiNote="94" hiVel="127" loNote="94" loVel="1" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_B-PB.wav" rootNote="95" tuning="-0.30" volume="9.0dB" />
+			<sample end="45357" hiNote="58" hiVel="127" loNote="58" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/3_A-PB.wav" rootNote="57" volume="3.0dB" />
+			<sample end="44394" hiNote="57" hiVel="127" loNote="55" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/3_Bb-PB.wav" rootNote="58" volume="6.0dB" />
+			<sample end="49395" hiNote="60" hiVel="127" loNote="60" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/3_B-PB.wav" rootNote="59" volume="3.0dB" />
+			<sample end="47805" hiNote="59" hiVel="127" loNote="59" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_C-PB.wav" rootNote="60" />
+			<sample end="50203" hiNote="62" hiVel="127" loNote="62" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_Db-PB.wav" rootNote="61" volume="1.0dB" />
+			<sample end="50878" hiNote="61" hiVel="127" loNote="61" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_D-PB.wav" rootNote="62" volume="3.0dB" />
+			<sample end="54889" hiNote="64" hiVel="127" loNote="64" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_Eb-PB.wav" rootNote="63" volume="6.0dB" />
+			<sample end="48935" hiNote="63" hiVel="127" loNote="63" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_E-PB.wav" rootNote="64" volume="5.0dB" />
+			<sample end="55224" hiNote="66" hiVel="127" loNote="66" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_F-PB.wav" rootNote="65" volume="3.0dB" />
+			<sample end="57895" hiNote="65" hiVel="127" loNote="65" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_Gb-PB.wav" rootNote="66" volume="3.0dB" />
+			<sample end="62025" hiNote="69" hiVel="127" loNote="68" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_G-PB.wav" rootNote="67" volume="4.0dB" />
+			<sample end="45223" hiNote="67" hiVel="127" loNote="67" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_Ab-PB.wav" rootNote="68" volume="4.0dB" />
+			<sample end="43548" hiNote="72" hiVel="127" loNote="71" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_Bb-PB.wav" rootNote="70" volume="10.0dB" />
+			<sample end="44173" hiNote="70" hiVel="127" loNote="70" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/4_B-PB.wav" rootNote="71" volume="6.0dB" />
+			<sample end="27896" hiNote="74" hiVel="127" loNote="74" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_Db-PB.wav" rootNote="73" volume="5.0dB" />
+			<sample end="93339" hiNote="73" hiVel="127" loNote="73" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_D-PB.wav" rootNote="74" volume="6.0dB" />
+			<sample end="38547" hiNote="77" hiVel="127" loNote="77" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_Eb-PB.wav" rootNote="75" volume="6.0dB" />
+			<sample end="46033" hiNote="76" hiVel="127" loNote="75" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_F-PB.wav" rootNote="77" volume="5.0dB" />
+			<sample end="39252" hiNote="79" hiVel="127" loNote="79" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_Gb-PB.wav" rootNote="78" volume="4.0dB" />
+			<sample end="60603" hiNote="78" hiVel="127" loNote="78" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_G-PB.wav" rootNote="79" volume="9.0dB" />
+			<sample end="41236" hiNote="81" hiVel="127" loNote="81" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_Ab-PB.wav" rootNote="80" volume="7.0dB" />
+			<sample end="50839" hiNote="80" hiVel="127" loNote="80" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_A-PB.wav" rootNote="81" volume="9.0dB" />
+			<sample end="34833" hiNote="83" hiVel="127" loNote="83" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_Bb-PB.wav" rootNote="82" volume="9.0dB" />
+			<sample end="33996" hiNote="82" hiVel="127" loNote="82" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/5_B-PB.wav" rootNote="83" volume="7.0dB" />
+			<sample end="29329" hiNote="85" hiVel="127" loNote="85" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_C-PB.wav" rootNote="84" volume="9.0dB" />
+			<sample end="32153" hiNote="84" hiVel="127" loNote="84" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_Db-PB.wav" rootNote="85" volume="10.0dB" />
+			<sample end="30328" hiNote="87" hiVel="127" loNote="87" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_D-PB.wav" rootNote="86" volume="8.0dB" />
+			<sample end="34919" hiNote="86" hiVel="127" loNote="86" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_Eb-PB.wav" rootNote="87" volume="11.5dB" />
+			<sample end="31267" hiNote="89" hiVel="127" loNote="89" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_E-PB.wav" rootNote="88" volume="10.0dB" />
+			<sample end="28086" hiNote="88" hiVel="127" loNote="88" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_F-PB.wav" rootNote="89" volume="12.0dB" />
+			<sample end="28214" hiNote="91" hiVel="127" loNote="91" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_Gb-PB.wav" rootNote="90" volume="11.0dB" />
+			<sample end="30108" hiNote="90" hiVel="127" loNote="90" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_G-PB.wav" rootNote="91" volume="12.0dB" />
+			<sample end="27650" hiNote="93" hiVel="127" loNote="93" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_Ab-PB.wav" rootNote="92" volume="12.0dB" />
+			<sample end="28164" hiNote="92" hiVel="127" loNote="92" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_A-PB.wav" rootNote="93" volume="12.0dB" />
+			<sample end="29956" hiNote="105" hiVel="127" loNote="95" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_Bb-PB.wav" rootNote="94" volume="9.0dB" />
+			<sample end="22404" hiNote="94" hiVel="127" loNote="94" loVel="0" path="Resources/2nd-violin-SOLO-pizzicato Samples/6_B-PB.wav" rootNote="95" tuning="-0.30" volume="9.0dB" />
 		</group>
 	</groups>
 	<midi>

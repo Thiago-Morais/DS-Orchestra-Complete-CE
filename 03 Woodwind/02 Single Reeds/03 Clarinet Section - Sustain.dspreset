@@ -33,69 +33,69 @@
 	</ui>
 	<groups attack="0.040" release="0.024">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="202672" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_D.wav" rootNote="62" volume="-1.0dB" />
-			<sample end="198532" hiNote="67" hiVel="127" loNote="64" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_Gb.wav" rootNote="66" volume="-1.0dB" />
-			<sample end="177552" hiNote="71" hiVel="127" loNote="68" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_Bb.wav" rootNote="70" tuning="-0.05" volume="-1.0dB" />
-			<sample end="200303" hiNote="75" hiVel="127" loNote="72" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_D.wav" rootNote="74" tuning="-0.03" volume="-1.0dB" />
-			<sample end="194687" hiNote="79" hiVel="127" loNote="76" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_Gb.wav" rootNote="78" tuning="-0.05" volume="-1.0dB" />
-			<sample end="181385" hiNote="83" hiVel="127" loNote="80" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_Bb.wav" rootNote="82" volume="-1.0dB" />
-			<sample end="168973" hiNote="87" hiVel="127" loNote="84" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_D.wav" rootNote="86" tuning="-0.05" volume="-1.0dB" />
-			<sample end="160738" hiNote="91" hiVel="127" loNote="88" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_Gb.wav" rootNote="90" tuning="-0.05" volume="-1.0dB" />
-			<sample end="180117" hiNote="95" hiVel="127" loNote="92" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_Bb.wav" rootNote="94" volume="-1.0dB" />
-			<sample end="164865" hiNote="99" hiVel="127" loNote="96" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/6_D.wav" rootNote="98" tuning="-0.05" volume="-1.0dB" />
-			<sample end="172966" hiNote="106" hiVel="127" loNote="100" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/6_Gb.wav" rootNote="102" volume="-1.0dB" />
+			<sample end="202672" hiNote="63" hiVel="127" loNote="62" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_D.wav" rootNote="62" volume="-1.0dB" />
+			<sample end="198532" hiNote="67" hiVel="127" loNote="64" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_Gb.wav" rootNote="66" volume="-1.0dB" />
+			<sample end="177552" hiNote="71" hiVel="127" loNote="68" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_Bb.wav" rootNote="70" tuning="-0.05" volume="-1.0dB" />
+			<sample end="200303" hiNote="75" hiVel="127" loNote="72" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_D.wav" rootNote="74" tuning="-0.03" volume="-1.0dB" />
+			<sample end="194687" hiNote="79" hiVel="127" loNote="76" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_Gb.wav" rootNote="78" tuning="-0.05" volume="-1.0dB" />
+			<sample end="181385" hiNote="83" hiVel="127" loNote="80" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_Bb.wav" rootNote="82" volume="-1.0dB" />
+			<sample end="168973" hiNote="87" hiVel="127" loNote="84" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_D.wav" rootNote="86" tuning="-0.05" volume="-1.0dB" />
+			<sample end="160738" hiNote="91" hiVel="127" loNote="88" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_Gb.wav" rootNote="90" tuning="-0.05" volume="-1.0dB" />
+			<sample end="180117" hiNote="95" hiVel="127" loNote="92" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_Bb.wav" rootNote="94" volume="-1.0dB" />
+			<sample end="164865" hiNote="99" hiVel="127" loNote="96" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/6_D.wav" rootNote="98" tuning="-0.05" volume="-1.0dB" />
+			<sample end="172966" hiNote="106" hiVel="127" loNote="100" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/6_Gb.wav" rootNote="102" volume="-1.0dB" />
 		</group>
 		<group name="Group 2" ampVelTrack="1">
-			<sample end="202672" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_D.wav" rootNote="62" volume="-1.0dB" />
-			<sample end="198532" hiNote="67" hiVel="127" loNote="64" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_Gb.wav" rootNote="66" volume="-1.0dB" />
-			<sample end="177552" hiNote="71" hiVel="127" loNote="68" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_Bb.wav" rootNote="70" tuning="-0.05" volume="-1.0dB" />
-			<sample end="200303" hiNote="75" hiVel="127" loNote="72" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_D.wav" rootNote="74" tuning="-0.03" volume="-1.0dB" />
-			<sample end="194687" hiNote="79" hiVel="127" loNote="76" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_Gb.wav" rootNote="78" tuning="-0.05" volume="-1.0dB" />
-			<sample end="181385" hiNote="83" hiVel="127" loNote="80" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_Bb.wav" rootNote="82" volume="-1.0dB" />
-			<sample end="168973" hiNote="87" hiVel="127" loNote="84" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_D.wav" rootNote="86" tuning="-0.05" volume="-1.0dB" />
-			<sample end="160738" hiNote="91" hiVel="127" loNote="88" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_Gb.wav" rootNote="90" tuning="-0.05" volume="-1.0dB" />
-			<sample end="180117" hiNote="95" hiVel="127" loNote="92" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_Bb.wav" rootNote="94" volume="-1.0dB" />
-			<sample end="164865" hiNote="99" hiVel="127" loNote="96" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/6_D.wav" rootNote="98" tuning="-0.05" volume="-1.0dB" />
-			<sample end="172966" hiNote="106" hiVel="127" loNote="100" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/6_Gb.wav" rootNote="102" volume="-1.0dB" />
+			<sample end="202672" hiNote="63" hiVel="127" loNote="62" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_D.wav" rootNote="62" volume="-1.0dB" />
+			<sample end="198532" hiNote="67" hiVel="127" loNote="64" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_Gb.wav" rootNote="66" volume="-1.0dB" />
+			<sample end="177552" hiNote="71" hiVel="127" loNote="68" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_Bb.wav" rootNote="70" tuning="-0.05" volume="-1.0dB" />
+			<sample end="200303" hiNote="75" hiVel="127" loNote="72" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_D.wav" rootNote="74" tuning="-0.03" volume="-1.0dB" />
+			<sample end="194687" hiNote="79" hiVel="127" loNote="76" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_Gb.wav" rootNote="78" tuning="-0.05" volume="-1.0dB" />
+			<sample end="181385" hiNote="83" hiVel="127" loNote="80" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_Bb.wav" rootNote="82" volume="-1.0dB" />
+			<sample end="168973" hiNote="87" hiVel="127" loNote="84" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_D.wav" rootNote="86" tuning="-0.05" volume="-1.0dB" />
+			<sample end="160738" hiNote="91" hiVel="127" loNote="88" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_Gb.wav" rootNote="90" tuning="-0.05" volume="-1.0dB" />
+			<sample end="180117" hiNote="95" hiVel="127" loNote="92" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_Bb.wav" rootNote="94" volume="-1.0dB" />
+			<sample end="164865" hiNote="99" hiVel="127" loNote="96" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/6_D.wav" rootNote="98" tuning="-0.05" volume="-1.0dB" />
+			<sample end="172966" hiNote="106" hiVel="127" loNote="100" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/6_Gb.wav" rootNote="102" volume="-1.0dB" />
 		</group>
 		<group name="Group 3" ampVelTrack="1">
-			<sample end="202672" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_D.wav" rootNote="62" volume="2.0dB" />
-			<sample end="198532" hiNote="67" hiVel="127" loNote="64" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_Gb.wav" rootNote="66" volume="3.0dB" />
-			<sample end="177552" hiNote="71" hiVel="127" loNote="68" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_Bb.wav" rootNote="70" tuning="-0.05" volume="5.0dB" />
-			<sample end="200303" hiNote="75" hiVel="127" loNote="72" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_D.wav" rootNote="74" tuning="-0.03" volume="1.0dB" />
-			<sample end="194687" hiNote="79" hiVel="127" loNote="76" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_Gb.wav" rootNote="78" tuning="-0.05" volume="1.0dB" />
-			<sample end="181385" hiNote="83" hiVel="127" loNote="80" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_Bb.wav" rootNote="82" volume="1.5dB" />
-			<sample end="168973" hiNote="87" hiVel="127" loNote="84" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_D.wav" rootNote="86" tuning="-0.05" volume="-2.0dB" />
-			<sample end="160738" hiNote="91" hiVel="127" loNote="88" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_Gb.wav" rootNote="90" tuning="-0.05" volume="2.0dB" />
-			<sample end="180117" hiNote="97" hiVel="127" loNote="92" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_Bb.wav" rootNote="94" volume="-1.0dB" />
-			<sample end="164865" hiNote="99" hiVel="127" loNote="98" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/6_D.wav" rootNote="98" tuning="-0.05" volume="-2.0dB" />
-			<sample end="172966" hiNote="106" hiVel="127" loNote="100" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/6_Gb.wav" rootNote="102" />
+			<sample end="202672" hiNote="63" hiVel="127" loNote="62" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_D.wav" rootNote="62" volume="2.0dB" />
+			<sample end="198532" hiNote="67" hiVel="127" loNote="64" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_Gb.wav" rootNote="66" volume="3.0dB" />
+			<sample end="177552" hiNote="71" hiVel="127" loNote="68" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_Bb.wav" rootNote="70" tuning="-0.05" volume="5.0dB" />
+			<sample end="200303" hiNote="75" hiVel="127" loNote="72" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_D.wav" rootNote="74" tuning="-0.03" volume="1.0dB" />
+			<sample end="194687" hiNote="79" hiVel="127" loNote="76" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_Gb.wav" rootNote="78" tuning="-0.05" volume="1.0dB" />
+			<sample end="181385" hiNote="83" hiVel="127" loNote="80" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_Bb.wav" rootNote="82" volume="1.5dB" />
+			<sample end="168973" hiNote="87" hiVel="127" loNote="84" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_D.wav" rootNote="86" tuning="-0.05" volume="-2.0dB" />
+			<sample end="160738" hiNote="91" hiVel="127" loNote="88" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_Gb.wav" rootNote="90" tuning="-0.05" volume="2.0dB" />
+			<sample end="180117" hiNote="97" hiVel="127" loNote="92" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_Bb.wav" rootNote="94" volume="-1.0dB" />
+			<sample end="164865" hiNote="99" hiVel="127" loNote="98" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/6_D.wav" rootNote="98" tuning="-0.05" volume="-2.0dB" />
+			<sample end="172966" hiNote="106" hiVel="127" loNote="100" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/6_Gb.wav" rootNote="102" />
 		</group>
 		<group name="Group 4" ampVelTrack="1">
-			<sample end="202672" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_D.wav" rootNote="62" volume="-1.0dB" />
-			<sample end="198532" hiNote="67" hiVel="127" loNote="64" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_Gb.wav" rootNote="66" volume="-1.0dB" />
-			<sample end="177552" hiNote="71" hiVel="127" loNote="68" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_Bb.wav" rootNote="70" tuning="-0.05" volume="-1.0dB" />
-			<sample end="200303" hiNote="75" hiVel="127" loNote="72" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_D.wav" rootNote="74" tuning="-0.03" volume="-1.0dB" />
-			<sample end="194687" hiNote="79" hiVel="127" loNote="76" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_Gb.wav" rootNote="78" tuning="-0.05" volume="-1.0dB" />
-			<sample end="181385" hiNote="83" hiVel="127" loNote="80" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_Bb.wav" rootNote="82" volume="-1.0dB" />
-			<sample end="168973" hiNote="87" hiVel="127" loNote="84" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_D.wav" rootNote="86" tuning="-0.05" volume="-1.0dB" />
-			<sample end="160738" hiNote="91" hiVel="127" loNote="88" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_Gb.wav" rootNote="90" tuning="-0.05" volume="-1.0dB" />
-			<sample end="180117" hiNote="95" hiVel="127" loNote="92" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_Bb.wav" rootNote="94" volume="-1.0dB" />
-			<sample end="164865" hiNote="99" hiVel="127" loNote="96" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/6_D.wav" rootNote="98" tuning="-0.05" volume="-1.0dB" />
-			<sample end="172966" hiNote="106" hiVel="127" loNote="100" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/6_Gb.wav" rootNote="102" volume="-1.0dB" />
+			<sample end="202672" hiNote="63" hiVel="127" loNote="62" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_D.wav" rootNote="62" volume="-1.0dB" />
+			<sample end="198532" hiNote="67" hiVel="127" loNote="64" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_Gb.wav" rootNote="66" volume="-1.0dB" />
+			<sample end="177552" hiNote="71" hiVel="127" loNote="68" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_Bb.wav" rootNote="70" tuning="-0.05" volume="-1.0dB" />
+			<sample end="200303" hiNote="75" hiVel="127" loNote="72" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_D.wav" rootNote="74" tuning="-0.03" volume="-1.0dB" />
+			<sample end="194687" hiNote="79" hiVel="127" loNote="76" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_Gb.wav" rootNote="78" tuning="-0.05" volume="-1.0dB" />
+			<sample end="181385" hiNote="83" hiVel="127" loNote="80" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_Bb.wav" rootNote="82" volume="-1.0dB" />
+			<sample end="168973" hiNote="87" hiVel="127" loNote="84" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_D.wav" rootNote="86" tuning="-0.05" volume="-1.0dB" />
+			<sample end="160738" hiNote="91" hiVel="127" loNote="88" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_Gb.wav" rootNote="90" tuning="-0.05" volume="-1.0dB" />
+			<sample end="180117" hiNote="95" hiVel="127" loNote="92" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_Bb.wav" rootNote="94" volume="-1.0dB" />
+			<sample end="164865" hiNote="99" hiVel="127" loNote="96" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/6_D.wav" rootNote="98" tuning="-0.05" volume="-1.0dB" />
+			<sample end="172966" hiNote="106" hiVel="127" loNote="100" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/6_Gb.wav" rootNote="102" volume="-1.0dB" />
 		</group>
 		<group name="Group 5" ampVelTrack="1">
-			<sample end="202672" hiNote="63" hiVel="127" loNote="62" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_D.wav" rootNote="62" volume="2.0dB" />
-			<sample end="198532" hiNote="67" hiVel="127" loNote="64" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_Gb.wav" rootNote="66" volume="3.0dB" />
-			<sample end="177552" hiNote="71" hiVel="127" loNote="68" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/3_Bb.wav" rootNote="70" tuning="-0.05" volume="5.0dB" />
-			<sample end="200303" hiNote="75" hiVel="127" loNote="72" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_D.wav" rootNote="74" tuning="-0.03" volume="1.0dB" />
-			<sample end="194687" hiNote="79" hiVel="127" loNote="76" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_Gb.wav" rootNote="78" tuning="-0.05" volume="1.0dB" />
-			<sample end="181385" hiNote="83" hiVel="127" loNote="80" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/4_Bb.wav" rootNote="82" volume="1.5dB" />
-			<sample end="168973" hiNote="87" hiVel="127" loNote="84" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_D.wav" rootNote="86" tuning="-0.05" volume="-2.0dB" />
-			<sample end="160738" hiNote="91" hiVel="127" loNote="88" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_Gb.wav" rootNote="90" tuning="-0.05" volume="2.0dB" />
-			<sample end="180117" hiNote="97" hiVel="127" loNote="92" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/5_Bb.wav" rootNote="94" volume="-1.0dB" />
-			<sample end="164865" hiNote="99" hiVel="127" loNote="98" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/6_D.wav" rootNote="98" tuning="-0.05" volume="-2.0dB" />
-			<sample end="172966" hiNote="106" hiVel="127" loNote="100" loVel="1" path="Resources/clarinet-SEC-KS-C2 Samples/6_Gb.wav" rootNote="102" />
+			<sample end="202672" hiNote="63" hiVel="127" loNote="62" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_D.wav" rootNote="62" volume="2.0dB" />
+			<sample end="198532" hiNote="67" hiVel="127" loNote="64" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_Gb.wav" rootNote="66" volume="3.0dB" />
+			<sample end="177552" hiNote="71" hiVel="127" loNote="68" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/3_Bb.wav" rootNote="70" tuning="-0.05" volume="5.0dB" />
+			<sample end="200303" hiNote="75" hiVel="127" loNote="72" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_D.wav" rootNote="74" tuning="-0.03" volume="1.0dB" />
+			<sample end="194687" hiNote="79" hiVel="127" loNote="76" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_Gb.wav" rootNote="78" tuning="-0.05" volume="1.0dB" />
+			<sample end="181385" hiNote="83" hiVel="127" loNote="80" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/4_Bb.wav" rootNote="82" volume="1.5dB" />
+			<sample end="168973" hiNote="87" hiVel="127" loNote="84" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_D.wav" rootNote="86" tuning="-0.05" volume="-2.0dB" />
+			<sample end="160738" hiNote="91" hiVel="127" loNote="88" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_Gb.wav" rootNote="90" tuning="-0.05" volume="2.0dB" />
+			<sample end="180117" hiNote="97" hiVel="127" loNote="92" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/5_Bb.wav" rootNote="94" volume="-1.0dB" />
+			<sample end="164865" hiNote="99" hiVel="127" loNote="98" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/6_D.wav" rootNote="98" tuning="-0.05" volume="-2.0dB" />
+			<sample end="172966" hiNote="106" hiVel="127" loNote="100" loVel="0" path="Resources/clarinet-SEC-KS-C2 Samples/6_Gb.wav" rootNote="102" />
 		</group>
 	</groups>
 	<midi>

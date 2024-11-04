@@ -53,11 +53,11 @@
 			<sample end="130560" hiNote="96" hiVel="127" loNote="96" loVel="75" path="Resources/Trumpet - Ensemble Samples/6_Db.wav" rootNote="97" tuning="-0.10" />
 		</group>
 		<group name="Group 2" ampVelTrack="1">
-			<sample end="123378" hiNote="72" hiVel="127" loNote="66" loVel="1" path="Resources/Trumpet - Ensemble Samples/3_Bb_p.wav" rootNote="70" tuning="-0.10" />
-			<sample end="119073" hiNote="77" hiVel="127" loNote="73" loVel="1" path="Resources/Trumpet - Ensemble Samples/4_Eb_p.wav" rootNote="75" tuning="-0.10" />
-			<sample end="94724" hiNote="82" hiVel="127" loNote="78" loVel="1" path="Resources/Trumpet - Ensemble Samples/4_Ab_p.wav" rootNote="80" tuning="-0.10" />
-			<sample end="135166" hiNote="88" hiVel="127" loNote="83" loVel="1" path="Resources/Trumpet - Ensemble Samples/5_Db_p.wav" rootNote="85" tuning="-0.10" />
-			<sample end="86130" hiNote="96" hiVel="127" loNote="89" loVel="1" path="Resources/Trumpet - Ensemble Samples/5_Ab_p.wav" rootNote="92" tuning="-0.10" />
+			<sample end="123378" hiNote="72" hiVel="127" loNote="66" loVel="0" path="Resources/Trumpet - Ensemble Samples/3_Bb_p.wav" rootNote="70" tuning="-0.10" />
+			<sample end="119073" hiNote="77" hiVel="127" loNote="73" loVel="0" path="Resources/Trumpet - Ensemble Samples/4_Eb_p.wav" rootNote="75" tuning="-0.10" />
+			<sample end="94724" hiNote="82" hiVel="127" loNote="78" loVel="0" path="Resources/Trumpet - Ensemble Samples/4_Ab_p.wav" rootNote="80" tuning="-0.10" />
+			<sample end="135166" hiNote="88" hiVel="127" loNote="83" loVel="0" path="Resources/Trumpet - Ensemble Samples/5_Db_p.wav" rootNote="85" tuning="-0.10" />
+			<sample end="86130" hiNote="96" hiVel="127" loNote="89" loVel="0" path="Resources/Trumpet - Ensemble Samples/5_Ab_p.wav" rootNote="92" tuning="-0.10" />
 		</group>
 		<group name="Group 3" ampVelTrack="1">
 			<sample end="225797" hiNote="67" hiVel="127" loNote="66" loVel="75" path="Resources/Trumpet - Ensemble Samples/3_G.wav" rootNote="67" tuning="-0.10" />
@@ -80,11 +80,11 @@
 			<sample end="130560" hiNote="96" hiVel="127" loNote="96" loVel="75" path="Resources/Trumpet - Ensemble Samples/6_Db.wav" rootNote="97" tuning="-0.10" />
 		</group>
 		<group name="Group 4" ampVelTrack="1">
-			<sample end="123378" hiNote="72" hiVel="127" loNote="66" loVel="1" path="Resources/Trumpet - Ensemble Samples/3_Bb_p.wav" rootNote="70" tuning="-0.10" />
-			<sample end="119073" hiNote="77" hiVel="127" loNote="73" loVel="1" path="Resources/Trumpet - Ensemble Samples/4_Eb_p.wav" rootNote="75" tuning="-0.10" />
-			<sample end="94724" hiNote="82" hiVel="127" loNote="78" loVel="1" path="Resources/Trumpet - Ensemble Samples/4_Ab_p.wav" rootNote="80" tuning="-0.10" />
-			<sample end="135166" hiNote="88" hiVel="127" loNote="83" loVel="1" path="Resources/Trumpet - Ensemble Samples/5_Db_p.wav" rootNote="85" tuning="-0.10" />
-			<sample end="86130" hiNote="96" hiVel="127" loNote="89" loVel="1" path="Resources/Trumpet - Ensemble Samples/5_Ab_p.wav" rootNote="92" tuning="-0.10" />
+			<sample end="123378" hiNote="72" hiVel="127" loNote="66" loVel="0" path="Resources/Trumpet - Ensemble Samples/3_Bb_p.wav" rootNote="70" tuning="-0.10" />
+			<sample end="119073" hiNote="77" hiVel="127" loNote="73" loVel="0" path="Resources/Trumpet - Ensemble Samples/4_Eb_p.wav" rootNote="75" tuning="-0.10" />
+			<sample end="94724" hiNote="82" hiVel="127" loNote="78" loVel="0" path="Resources/Trumpet - Ensemble Samples/4_Ab_p.wav" rootNote="80" tuning="-0.10" />
+			<sample end="135166" hiNote="88" hiVel="127" loNote="83" loVel="0" path="Resources/Trumpet - Ensemble Samples/5_Db_p.wav" rootNote="85" tuning="-0.10" />
+			<sample end="86130" hiNote="96" hiVel="127" loNote="89" loVel="0" path="Resources/Trumpet - Ensemble Samples/5_Ab_p.wav" rootNote="92" tuning="-0.10" />
 		</group>
 		<group name="Group 5" ampVelTrack="1">
 			<sample end="225797" hiNote="67" hiVel="127" loNote="66" loVel="75" path="Resources/Trumpet - Ensemble Samples/3_G.wav" rootNote="67" tuning="-0.10" volume="3.5dB" />
@@ -107,11 +107,11 @@
 			<sample end="130560" hiNote="96" hiVel="127" loNote="96" loVel="75" path="Resources/Trumpet - Ensemble Samples/6_Db.wav" rootNote="97" tuning="-0.10" volume="1.0dB" />
 		</group>
 		<group name="Group 6" ampVelTrack="1">
-			<sample end="123378" hiNote="72" hiVel="127" loNote="66" loVel="1" path="Resources/Trumpet - Ensemble Samples/3_Bb_p.wav" rootNote="70" tuning="-0.10" volume="3.5dB" />
-			<sample end="119073" hiNote="77" hiVel="127" loNote="73" loVel="1" path="Resources/Trumpet - Ensemble Samples/4_Eb_p.wav" rootNote="75" tuning="-0.10" volume="3.5dB" />
-			<sample end="94724" hiNote="82" hiVel="127" loNote="78" loVel="1" path="Resources/Trumpet - Ensemble Samples/4_Ab_p.wav" rootNote="80" tuning="-0.10" volume="4.0dB" />
-			<sample end="135166" hiNote="88" hiVel="127" loNote="83" loVel="1" path="Resources/Trumpet - Ensemble Samples/5_Db_p.wav" rootNote="85" tuning="-0.10" volume="2.5dB" />
-			<sample end="86130" hiNote="96" hiVel="127" loNote="89" loVel="1" path="Resources/Trumpet - Ensemble Samples/5_Ab_p.wav" rootNote="92" tuning="-0.10" volume="1.0dB" />
+			<sample end="123378" hiNote="72" hiVel="127" loNote="66" loVel="0" path="Resources/Trumpet - Ensemble Samples/3_Bb_p.wav" rootNote="70" tuning="-0.10" volume="3.5dB" />
+			<sample end="119073" hiNote="77" hiVel="127" loNote="73" loVel="0" path="Resources/Trumpet - Ensemble Samples/4_Eb_p.wav" rootNote="75" tuning="-0.10" volume="3.5dB" />
+			<sample end="94724" hiNote="82" hiVel="127" loNote="78" loVel="0" path="Resources/Trumpet - Ensemble Samples/4_Ab_p.wav" rootNote="80" tuning="-0.10" volume="4.0dB" />
+			<sample end="135166" hiNote="88" hiVel="127" loNote="83" loVel="0" path="Resources/Trumpet - Ensemble Samples/5_Db_p.wav" rootNote="85" tuning="-0.10" volume="2.5dB" />
+			<sample end="86130" hiNote="96" hiVel="127" loNote="89" loVel="0" path="Resources/Trumpet - Ensemble Samples/5_Ab_p.wav" rootNote="92" tuning="-0.10" volume="1.0dB" />
 		</group>
 		<group name="Group 7" ampVelTrack="1">
 			<sample end="225797" hiNote="67" hiVel="127" loNote="66" loVel="75" path="Resources/Trumpet - Ensemble Samples/3_G.wav" rootNote="67" tuning="-0.10" />
@@ -134,11 +134,11 @@
 			<sample end="130560" hiNote="96" hiVel="127" loNote="96" loVel="75" path="Resources/Trumpet - Ensemble Samples/6_Db.wav" rootNote="97" tuning="-0.10" />
 		</group>
 		<group name="Group 8" ampVelTrack="1">
-			<sample end="123378" hiNote="72" hiVel="127" loNote="66" loVel="1" path="Resources/Trumpet - Ensemble Samples/3_Bb_p.wav" rootNote="70" tuning="-0.10" />
-			<sample end="119073" hiNote="77" hiVel="127" loNote="73" loVel="1" path="Resources/Trumpet - Ensemble Samples/4_Eb_p.wav" rootNote="75" tuning="-0.10" />
-			<sample end="94724" hiNote="82" hiVel="127" loNote="78" loVel="1" path="Resources/Trumpet - Ensemble Samples/4_Ab_p.wav" rootNote="80" tuning="-0.10" />
-			<sample end="135166" hiNote="88" hiVel="127" loNote="83" loVel="1" path="Resources/Trumpet - Ensemble Samples/5_Db_p.wav" rootNote="85" tuning="-0.10" />
-			<sample end="86130" hiNote="96" hiVel="127" loNote="89" loVel="1" path="Resources/Trumpet - Ensemble Samples/5_Ab_p.wav" rootNote="92" tuning="-0.10" />
+			<sample end="123378" hiNote="72" hiVel="127" loNote="66" loVel="0" path="Resources/Trumpet - Ensemble Samples/3_Bb_p.wav" rootNote="70" tuning="-0.10" />
+			<sample end="119073" hiNote="77" hiVel="127" loNote="73" loVel="0" path="Resources/Trumpet - Ensemble Samples/4_Eb_p.wav" rootNote="75" tuning="-0.10" />
+			<sample end="94724" hiNote="82" hiVel="127" loNote="78" loVel="0" path="Resources/Trumpet - Ensemble Samples/4_Ab_p.wav" rootNote="80" tuning="-0.10" />
+			<sample end="135166" hiNote="88" hiVel="127" loNote="83" loVel="0" path="Resources/Trumpet - Ensemble Samples/5_Db_p.wav" rootNote="85" tuning="-0.10" />
+			<sample end="86130" hiNote="96" hiVel="127" loNote="89" loVel="0" path="Resources/Trumpet - Ensemble Samples/5_Ab_p.wav" rootNote="92" tuning="-0.10" />
 		</group>
 		<group name="Group 9" ampVelTrack="1">
 			<sample end="225797" hiNote="67" hiVel="127" loNote="66" loVel="75" path="Resources/Trumpet - Ensemble Samples/3_G.wav" rootNote="67" tuning="-0.10" volume="3.5dB" />
@@ -161,11 +161,11 @@
 			<sample end="130560" hiNote="96" hiVel="127" loNote="96" loVel="75" path="Resources/Trumpet - Ensemble Samples/6_Db.wav" rootNote="97" tuning="-0.10" volume="1.0dB" />
 		</group>
 		<group name="Group 10" ampVelTrack="1">
-			<sample end="123378" hiNote="72" hiVel="127" loNote="66" loVel="1" path="Resources/Trumpet - Ensemble Samples/3_Bb_p.wav" rootNote="70" tuning="-0.10" volume="3.5dB" />
-			<sample end="119073" hiNote="77" hiVel="127" loNote="73" loVel="1" path="Resources/Trumpet - Ensemble Samples/4_Eb_p.wav" rootNote="75" tuning="-0.10" volume="3.5dB" />
-			<sample end="94724" hiNote="82" hiVel="127" loNote="78" loVel="1" path="Resources/Trumpet - Ensemble Samples/4_Ab_p.wav" rootNote="80" tuning="-0.10" volume="4.0dB" />
-			<sample end="135166" hiNote="88" hiVel="127" loNote="83" loVel="1" path="Resources/Trumpet - Ensemble Samples/5_Db_p.wav" rootNote="85" tuning="-0.10" volume="2.5dB" />
-			<sample end="86130" hiNote="96" hiVel="127" loNote="89" loVel="1" path="Resources/Trumpet - Ensemble Samples/5_Ab_p.wav" rootNote="92" tuning="-0.10" volume="1.0dB" />
+			<sample end="123378" hiNote="72" hiVel="127" loNote="66" loVel="0" path="Resources/Trumpet - Ensemble Samples/3_Bb_p.wav" rootNote="70" tuning="-0.10" volume="3.5dB" />
+			<sample end="119073" hiNote="77" hiVel="127" loNote="73" loVel="0" path="Resources/Trumpet - Ensemble Samples/4_Eb_p.wav" rootNote="75" tuning="-0.10" volume="3.5dB" />
+			<sample end="94724" hiNote="82" hiVel="127" loNote="78" loVel="0" path="Resources/Trumpet - Ensemble Samples/4_Ab_p.wav" rootNote="80" tuning="-0.10" volume="4.0dB" />
+			<sample end="135166" hiNote="88" hiVel="127" loNote="83" loVel="0" path="Resources/Trumpet - Ensemble Samples/5_Db_p.wav" rootNote="85" tuning="-0.10" volume="2.5dB" />
+			<sample end="86130" hiNote="96" hiVel="127" loNote="89" loVel="0" path="Resources/Trumpet - Ensemble Samples/5_Ab_p.wav" rootNote="92" tuning="-0.10" volume="1.0dB" />
 		</group>
 	</groups>
 	<midi>
