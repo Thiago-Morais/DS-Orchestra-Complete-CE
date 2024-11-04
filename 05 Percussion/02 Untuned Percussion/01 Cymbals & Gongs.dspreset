@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/praashie/DecentSampler-schema/main/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
-		<effect type="highpass" frequency="100.0" />
+		<effect type="hipass" frequency="100.0" />
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
@@ -16,7 +17,7 @@
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</labeled-knob>
 			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
-				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
 			</labeled-knob>
 			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
@@ -30,36 +31,36 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.000" release="0.028">
+	<groups attack="0" release="0.028">
 		<group name="1" ampVelTrack="1">
-			<sample end="465179.000" hiNote="64" hiVel="50" loNote="64" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-p.wav" rootNote="64" volume="6.020599913279624dB" />
-			<sample end="372918.000" hiNote="64" hiVel="127" loNote="64" loVel="80" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-f.wav" rootNote="64" volume="6.020599913279624dB" />
-			<sample end="351026.000" hiNote="64" hiVel="90" loNote="64" loVel="40" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-mf.wav" rootNote="64" volume="6.020599913279624dB" />
-			<sample end="165412.000" hiNote="91" hiVel="127" loNote="76" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/finger_cymbal-lo.wav" rootNote="84" tuning="-5.00" volume="6.020599913279624dB" />
-			<sample end="107068.000" hiNote="103" hiVel="127" loNote="103" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/finger_cymbal-hi.wav" rootNote="103" volume="6.020599913279624dB" />
-			<sample end="124423.000" hiNote="72" hiVel="127" loNote="72" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/tamtam-c.wav" rootNote="72" volume="6.020599913279624dB" />
-			<sample end="148915.000" hiNote="73" hiVel="127" loNote="73" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/tamtam-a.wav" rootNote="73" volume="6.020599913279624dB" />
-			<sample end="165360.000" hiNote="74" hiVel="127" loNote="74" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/tamtam-b.wav" rootNote="74" volume="6.020599913279624dB" />
-			<sample end="257015.000" hiNote="55" hiVel="50" loNote="55" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16249__ltibbits__crash-a-custom-18-low-vol.wav" rootNote="55" volume="6.020599913279624dB" />
-			<sample end="269113.000" hiNote="55" hiVel="113" loNote="55" loVel="40" path="Resources/TC - Cymbals _ Gongs Samples/16248__ltibbits__crash-a-custom-18-high-vol.wav" rootNote="55" volume="6.020599913279624dB" />
-			<sample end="85604.000" hiNote="55" hiVel="127" loNote="55" loVel="114" path="Resources/TC - Cymbals _ Gongs Samples/16247__ltibbits__crash-a-custom-18-choke.wav" rootNote="55" volume="6.020599913279624dB" />
-			<sample end="231026.000" hiNote="56" hiVel="127" loNote="56" loVel="55" path="Resources/TC - Cymbals _ Gongs Samples/16246__ltibbits__crash-a-custom-18-bell.wav" rootNote="56" volume="6.020599913279624dB" />
-			<sample end="208979.000" hiNote="56" hiVel="80" loNote="56" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16250__ltibbits__crash-a-custom-18-tip.wav" rootNote="56" volume="6.020599913279624dB" />
-			<sample end="252909.000" hiNote="48" hiVel="50" loNote="21" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16254__ltibbits__crash-a-medium-17-low-vol.wav" rootNote="48" volume="6.020599913279624dB" />
-			<sample end="272352.000" hiNote="48" hiVel="111" loNote="21" loVel="40" path="Resources/TC - Cymbals _ Gongs Samples/16253__ltibbits__crash-a-medium-17-high-vol.wav" rootNote="48" volume="6.020599913279624dB" />
-			<sample end="81218.000" hiNote="48" hiVel="127" loNote="21" loVel="112" path="Resources/TC - Cymbals _ Gongs Samples/16252__ltibbits__crash-a-medium-17-choke.wav" rootNote="48" volume="6.020599913279624dB" />
-			<sample end="186941.000" hiNote="49" hiVel="80" loNote="49" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16255__ltibbits__crash-a-medium-17-tip-low-vol.wav" rootNote="49" volume="6.020599913279624dB" />
-			<sample end="147310.000" hiNote="49" hiVel="127" loNote="49" loVel="55" path="Resources/TC - Cymbals _ Gongs Samples/16251__ltibbits__crash-a-medium-17-bell.wav" rootNote="49" volume="6.020599913279624dB" />
-			<sample end="256026.000" hiNote="53" hiVel="50" loNote="53" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16259__ltibbits__crash-hhxplosion-18-low-vol.wav" rootNote="53" volume="6.020599913279624dB" />
-			<sample end="276502.000" hiNote="53" hiVel="112" loNote="53" loVel="40" path="Resources/TC - Cymbals _ Gongs Samples/16258__ltibbits__crash-hhxplosion-18-high-vol.wav" rootNote="53" volume="6.020599913279624dB" />
-			<sample end="82931.000" hiNote="53" hiVel="127" loNote="53" loVel="113" path="Resources/TC - Cymbals _ Gongs Samples/16257__ltibbits__crash-hhxplosion-18-choke.wav" rootNote="53" volume="6.020599913279624dB" />
-			<sample end="192987.000" hiNote="54" hiVel="80" loNote="54" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16260__ltibbits__crash-hhxplosion-18-tip.wav" rootNote="54" volume="6.020599913279624dB" />
-			<sample end="229441.000" hiNote="54" hiVel="127" loNote="54" loVel="55" path="Resources/TC - Cymbals _ Gongs Samples/16256__ltibbits__crash-hhxplosion-18-bell.wav" rootNote="54" volume="6.020599913279624dB" />
-			<sample end="351425.000" hiNote="60" hiVel="50" loNote="60" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16264__ltibbits__crash-z-custom-projection-19-low-vol.wav" rootNote="60" volume="6.020599913279624dB" />
-			<sample end="377320.000" hiNote="60" hiVel="113" loNote="60" loVel="40" path="Resources/TC - Cymbals _ Gongs Samples/16263__ltibbits__crash-z-custom-projection-19-high-vol.wav" rootNote="60" volume="6.020599913279624dB" />
-			<sample end="71917.000" hiNote="60" hiVel="127" loNote="60" loVel="114" path="Resources/TC - Cymbals _ Gongs Samples/16262__ltibbits__crash-z-custom-projection-19-choke.wav" rootNote="60" volume="6.020599913279624dB" />
-			<sample end="323086.000" hiNote="61" hiVel="80" loNote="61" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16265__ltibbits__crash-z-custom-projection-19-tip.wav" rootNote="61" volume="6.020599913279624dB" />
-			<sample end="196882.000" hiNote="61" hiVel="127" loNote="61" loVel="55" path="Resources/TC - Cymbals _ Gongs Samples/16261__ltibbits__crash-z-custom-projection-19-bell.wav" rootNote="61" volume="6.020599913279624dB" />
+			<sample end="465179" hiNote="64" hiVel="50" loNote="64" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-p.wav" rootNote="64" volume="6.020599913279624dB" />
+			<sample end="372918" hiNote="64" hiVel="127" loNote="64" loVel="80" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-f.wav" rootNote="64" volume="6.020599913279624dB" />
+			<sample end="351026" hiNote="64" hiVel="90" loNote="64" loVel="40" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-mf.wav" rootNote="64" volume="6.020599913279624dB" />
+			<sample end="165412" hiNote="91" hiVel="127" loNote="76" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/finger_cymbal-lo.wav" rootNote="84" tuning="-5.00" volume="6.020599913279624dB" />
+			<sample end="107068" hiNote="103" hiVel="127" loNote="103" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/finger_cymbal-hi.wav" rootNote="103" volume="6.020599913279624dB" />
+			<sample end="124423" hiNote="72" hiVel="127" loNote="72" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/tamtam-c.wav" rootNote="72" volume="6.020599913279624dB" />
+			<sample end="148915" hiNote="73" hiVel="127" loNote="73" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/tamtam-a.wav" rootNote="73" volume="6.020599913279624dB" />
+			<sample end="165360" hiNote="74" hiVel="127" loNote="74" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/tamtam-b.wav" rootNote="74" volume="6.020599913279624dB" />
+			<sample end="257015" hiNote="55" hiVel="50" loNote="55" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16249__ltibbits__crash-a-custom-18-low-vol.wav" rootNote="55" volume="6.020599913279624dB" />
+			<sample end="269113" hiNote="55" hiVel="113" loNote="55" loVel="40" path="Resources/TC - Cymbals _ Gongs Samples/16248__ltibbits__crash-a-custom-18-high-vol.wav" rootNote="55" volume="6.020599913279624dB" />
+			<sample end="85604" hiNote="55" hiVel="127" loNote="55" loVel="114" path="Resources/TC - Cymbals _ Gongs Samples/16247__ltibbits__crash-a-custom-18-choke.wav" rootNote="55" volume="6.020599913279624dB" />
+			<sample end="231026" hiNote="56" hiVel="127" loNote="56" loVel="55" path="Resources/TC - Cymbals _ Gongs Samples/16246__ltibbits__crash-a-custom-18-bell.wav" rootNote="56" volume="6.020599913279624dB" />
+			<sample end="208979" hiNote="56" hiVel="80" loNote="56" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16250__ltibbits__crash-a-custom-18-tip.wav" rootNote="56" volume="6.020599913279624dB" />
+			<sample end="252909" hiNote="48" hiVel="50" loNote="21" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16254__ltibbits__crash-a-medium-17-low-vol.wav" rootNote="48" volume="6.020599913279624dB" />
+			<sample end="272352" hiNote="48" hiVel="111" loNote="21" loVel="40" path="Resources/TC - Cymbals _ Gongs Samples/16253__ltibbits__crash-a-medium-17-high-vol.wav" rootNote="48" volume="6.020599913279624dB" />
+			<sample end="81218" hiNote="48" hiVel="127" loNote="21" loVel="112" path="Resources/TC - Cymbals _ Gongs Samples/16252__ltibbits__crash-a-medium-17-choke.wav" rootNote="48" volume="6.020599913279624dB" />
+			<sample end="186941" hiNote="49" hiVel="80" loNote="49" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16255__ltibbits__crash-a-medium-17-tip-low-vol.wav" rootNote="49" volume="6.020599913279624dB" />
+			<sample end="147310" hiNote="49" hiVel="127" loNote="49" loVel="55" path="Resources/TC - Cymbals _ Gongs Samples/16251__ltibbits__crash-a-medium-17-bell.wav" rootNote="49" volume="6.020599913279624dB" />
+			<sample end="256026" hiNote="53" hiVel="50" loNote="53" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16259__ltibbits__crash-hhxplosion-18-low-vol.wav" rootNote="53" volume="6.020599913279624dB" />
+			<sample end="276502" hiNote="53" hiVel="112" loNote="53" loVel="40" path="Resources/TC - Cymbals _ Gongs Samples/16258__ltibbits__crash-hhxplosion-18-high-vol.wav" rootNote="53" volume="6.020599913279624dB" />
+			<sample end="82931" hiNote="53" hiVel="127" loNote="53" loVel="113" path="Resources/TC - Cymbals _ Gongs Samples/16257__ltibbits__crash-hhxplosion-18-choke.wav" rootNote="53" volume="6.020599913279624dB" />
+			<sample end="192987" hiNote="54" hiVel="80" loNote="54" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16260__ltibbits__crash-hhxplosion-18-tip.wav" rootNote="54" volume="6.020599913279624dB" />
+			<sample end="229441" hiNote="54" hiVel="127" loNote="54" loVel="55" path="Resources/TC - Cymbals _ Gongs Samples/16256__ltibbits__crash-hhxplosion-18-bell.wav" rootNote="54" volume="6.020599913279624dB" />
+			<sample end="351425" hiNote="60" hiVel="50" loNote="60" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16264__ltibbits__crash-z-custom-projection-19-low-vol.wav" rootNote="60" volume="6.020599913279624dB" />
+			<sample end="377320" hiNote="60" hiVel="113" loNote="60" loVel="40" path="Resources/TC - Cymbals _ Gongs Samples/16263__ltibbits__crash-z-custom-projection-19-high-vol.wav" rootNote="60" volume="6.020599913279624dB" />
+			<sample end="71917" hiNote="60" hiVel="127" loNote="60" loVel="114" path="Resources/TC - Cymbals _ Gongs Samples/16262__ltibbits__crash-z-custom-projection-19-choke.wav" rootNote="60" volume="6.020599913279624dB" />
+			<sample end="323086" hiNote="61" hiVel="80" loNote="61" loVel="1" path="Resources/TC - Cymbals _ Gongs Samples/16265__ltibbits__crash-z-custom-projection-19-tip.wav" rootNote="61" volume="6.020599913279624dB" />
+			<sample end="196882" hiNote="61" hiVel="127" loNote="61" loVel="55" path="Resources/TC - Cymbals _ Gongs Samples/16261__ltibbits__crash-z-custom-projection-19-bell.wav" rootNote="61" volume="6.020599913279624dB" />
 		</group>
 	</groups>
 	<midi>
@@ -68,5 +69,4 @@
 		</cc>
 	</midi>
 	<modulators />
-	<tags />
 </DecentSampler>

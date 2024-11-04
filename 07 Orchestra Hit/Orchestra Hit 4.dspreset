@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/praashie/DecentSampler-schema/main/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
-		<effect type="highpass" frequency="100.0" />
+		<effect type="hipass" frequency="100.0" />
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
@@ -16,7 +17,7 @@
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</labeled-knob>
 			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
-				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
 			</labeled-knob>
 			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
@@ -32,32 +33,32 @@
 	</ui>
 	<groups release="0.289">
 		<group name="Roland MarcatoVls" ampVelTrack="1">
-			<sample end="44861.000" hiNote="63" hiVel="127" loNote="56" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_d3_sod2_r3.wav" rootNote="60" />
-			<sample end="45862.000" hiNote="76" hiVel="127" loNote="68" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_d4_sod3_rd4.wav" rootNote="72" />
-			<sample end="64012.000" hiNote="42" hiVel="127" loNote="0" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_f1_x_fd1.wav" rootNote="41" />
-			<sample end="48322.000" hiNote="56" hiVel="127" loNote="50" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_f2_r2_so2.wav" rootNote="53" />
-			<sample end="55501.000" hiNote="69" hiVel="127" loNote="63" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_f3_rd3_so3.wav" rootNote="65" />
-			<sample end="48263.000" hiNote="127" hiVel="127" loNote="84" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_f5_r5_x.wav" rootNote="89" />
-			<sample end="53288.000" hiNote="51" hiVel="127" loNote="43" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_si1_so1_dd2.wav" rootNote="47" />
-			<sample end="56314.000" hiNote="85" hiVel="127" loNote="76" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_sod_m4_dd5.wav" rootNote="79" />
+			<sample end="44861" hiNote="63" hiVel="127" loNote="56" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_d3_sod2_r3.wav" rootNote="60" />
+			<sample end="45862" hiNote="76" hiVel="127" loNote="68" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_d4_sod3_rd4.wav" rootNote="72" />
+			<sample end="64012" hiNote="42" hiVel="127" loNote="0" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_f1_x_fd1.wav" rootNote="41" />
+			<sample end="48322" hiNote="56" hiVel="127" loNote="50" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_f2_r2_so2.wav" rootNote="53" />
+			<sample end="55501" hiNote="69" hiVel="127" loNote="63" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_f3_rd3_so3.wav" rootNote="65" />
+			<sample end="48263" hiNote="127" hiVel="127" loNote="84" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_f5_r5_x.wav" rootNote="89" />
+			<sample end="53288" hiNote="51" hiVel="127" loNote="43" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_si1_so1_dd2.wav" rootNote="47" />
+			<sample end="56314" hiNote="85" hiVel="127" loNote="76" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_sod_m4_dd5.wav" rootNote="79" />
 		</group>
 		<group name="Roland Marcato Vas" ampVelTrack="1">
-			<sample end="37886.000" hiNote="62" hiVel="127" loNote="58" loVel="0" path="Resources/Orchestra Hit 4 Samples/d3_sib2_dd3.wav" rootNote="60" />
-			<sample end="39562.000" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Orchestra Hit 4 Samples/f2_rd2_f2.wav" rootNote="53" />
-			<sample end="37671.000" hiNote="68" hiVel="127" loNote="62" loVel="0" path="Resources/Orchestra Hit 4 Samples/f3_r3_sod3.wav" rootNote="65" />
-			<sample end="32077.000" hiNote="96" hiVel="127" loNote="79" loVel="0" path="Resources/Orchestra Hit 4 Samples/l4_r4_x.wav" rootNote="81" />
-			<sample end="38802.000" hiNote="78" hiVel="127" loNote="74" loVel="0" path="Resources/Orchestra Hit 4 Samples/m4_r4_fd4.wav" rootNote="76" />
-			<sample end="36830.000" hiNote="50" hiVel="127" loNote="0" loVel="0" path="Resources/Orchestra Hit 4 Samples/r2_x_r2.wav" rootNote="50" />
-			<sample end="35754.000" hiNote="74" hiVel="127" loNote="69" loVel="0" path="Resources/Orchestra Hit 4 Samples/si3_l3_dd4.wav" rootNote="71" />
-			<sample end="31075.000" hiNote="57" hiVel="127" loNote="54" loVel="0" path="Resources/Orchestra Hit 4 Samples/sol2_fd2_l2.wav" rootNote="56" />
+			<sample end="37886" hiNote="62" hiVel="127" loNote="58" loVel="0" path="Resources/Orchestra Hit 4 Samples/d3_sib2_dd3.wav" rootNote="60" />
+			<sample end="39562" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Orchestra Hit 4 Samples/f2_rd2_f2.wav" rootNote="53" />
+			<sample end="37671" hiNote="68" hiVel="127" loNote="62" loVel="0" path="Resources/Orchestra Hit 4 Samples/f3_r3_sod3.wav" rootNote="65" />
+			<sample end="32077" hiNote="96" hiVel="127" loNote="79" loVel="0" path="Resources/Orchestra Hit 4 Samples/l4_r4_x.wav" rootNote="81" />
+			<sample end="38802" hiNote="78" hiVel="127" loNote="74" loVel="0" path="Resources/Orchestra Hit 4 Samples/m4_r4_fd4.wav" rootNote="76" />
+			<sample end="36830" hiNote="50" hiVel="127" loNote="0" loVel="0" path="Resources/Orchestra Hit 4 Samples/r2_x_r2.wav" rootNote="50" />
+			<sample end="35754" hiNote="74" hiVel="127" loNote="69" loVel="0" path="Resources/Orchestra Hit 4 Samples/si3_l3_dd4.wav" rootNote="71" />
+			<sample end="31075" hiNote="57" hiVel="127" loNote="54" loVel="0" path="Resources/Orchestra Hit 4 Samples/sol2_fd2_l2.wav" rootNote="56" />
 		</group>
 		<group name="Roland MarcatoVcs" ampVelTrack="1">
-			<sample end="44380.000" hiNote="77" hiVel="127" loNote="69" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_d4_l3_m4.wav" rootNote="72" />
-			<sample end="45779.000" hiNote="70" hiVel="127" loNote="62" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_f3_r3_sod3.wav" rootNote="65" />
-			<sample end="48845.000" hiNote="52" hiVel="127" loNote="0" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_m2_x_m2.wav" rootNote="52" />
-			<sample end="49163.000" hiNote="56" hiVel="127" loNote="52" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_mso2_f2_sod2.wav" rootNote="55" />
-			<sample end="54751.000" hiNote="62" hiVel="127" loNote="57" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_si2_l2_rb3.wav" rootNote="59" />
-			<sample end="43814.000" hiNote="127" hiVel="127" loNote="77" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_so4_f4_x.wav" rootNote="79" />
+			<sample end="44380" hiNote="77" hiVel="127" loNote="69" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_d4_l3_m4.wav" rootNote="72" />
+			<sample end="45779" hiNote="70" hiVel="127" loNote="62" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_f3_r3_sod3.wav" rootNote="65" />
+			<sample end="48845" hiNote="52" hiVel="127" loNote="0" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_m2_x_m2.wav" rootNote="52" />
+			<sample end="49163" hiNote="56" hiVel="127" loNote="52" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_mso2_f2_sod2.wav" rootNote="55" />
+			<sample end="54751" hiNote="62" hiVel="127" loNote="57" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_si2_l2_rb3.wav" rootNote="59" />
+			<sample end="43814" hiNote="127" hiVel="127" loNote="77" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_so4_f4_x.wav" rootNote="79" />
 		</group>
 	</groups>
 	<midi>
@@ -66,5 +67,4 @@
 		</cc>
 	</midi>
 	<modulators />
-	<tags />
 </DecentSampler>

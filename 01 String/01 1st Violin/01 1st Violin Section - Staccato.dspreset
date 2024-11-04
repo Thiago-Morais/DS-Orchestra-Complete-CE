@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/praashie/DecentSampler-schema/main/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
-		<effect type="highpass" frequency="100.0" />
+		<effect type="hipass" frequency="100.0" />
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
@@ -16,7 +17,7 @@
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</labeled-knob>
 			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
-				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
 			</labeled-knob>
 			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
@@ -32,52 +33,52 @@
 	</ui>
 	<groups attack="0.040" release="0.076">
 		<group name="Group 5" ampVelTrack="1">
-			<sample end="29774.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g3-PB.wav" rootNote="68" volume="-2.5dB" />
-			<sample end="29739.000" hiNote="71" hiVel="127" loNote="69" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#3-PB.wav" rootNote="71" volume="-2.5dB" />
-			<sample end="29244.000" hiNote="74" hiVel="127" loNote="72" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#4-PB.wav" rootNote="74" volume="-2.5dB" />
-			<sample end="28785.000" hiNote="77" hiVel="127" loNote="75" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e4-PB.wav" rootNote="77" volume="-1.5dB" />
-			<sample end="29774.000" hiNote="80" hiVel="127" loNote="78" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g4-PB.wav" rootNote="80" volume="-3.5dB" />
-			<sample end="26595.000" hiNote="83" hiVel="127" loNote="81" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#4-PB.wav" rootNote="83" volume="-3.5dB" />
-			<sample end="30092.000" hiNote="86" hiVel="127" loNote="84" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#5-PB.wav" rootNote="86" volume="-1.5dB" />
-			<sample end="29491.000" hiNote="89" hiVel="127" loNote="87" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e5-PB.wav" rootNote="89" volume="-2.5dB" />
-			<sample end="26196.000" hiNote="92" hiVel="127" loNote="90" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g5-PB.wav" rootNote="92" volume="-0.5dB" />
-			<sample end="27937.000" hiNote="95" hiVel="127" loNote="93" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#5-PB.wav" rootNote="95" volume="-0.5dB" />
-			<sample end="27620.000" hiNote="98" hiVel="127" loNote="96" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#6-PB.wav" rootNote="98" volume="-1.5dB" />
-			<sample end="30057.000" hiNote="101" hiVel="127" loNote="99" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e6-PB.wav" rootNote="101" volume="-3.5dB" />
-			<sample end="26262.000" hiNote="104" hiVel="127" loNote="102" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g6-PB.wav" rootNote="104" volume="-2.5dB" />
-			<sample end="26171.000" hiNote="117" hiVel="127" loNote="105" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#6-PB.wav" rootNote="107" volume="-3.5dB" />
+			<sample end="29774" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g3-PB.wav" rootNote="68" volume="-2.5dB" />
+			<sample end="29739" hiNote="71" hiVel="127" loNote="69" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#3-PB.wav" rootNote="71" volume="-2.5dB" />
+			<sample end="29244" hiNote="74" hiVel="127" loNote="72" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#4-PB.wav" rootNote="74" volume="-2.5dB" />
+			<sample end="28785" hiNote="77" hiVel="127" loNote="75" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e4-PB.wav" rootNote="77" volume="-1.5dB" />
+			<sample end="29774" hiNote="80" hiVel="127" loNote="78" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g4-PB.wav" rootNote="80" volume="-3.5dB" />
+			<sample end="26595" hiNote="83" hiVel="127" loNote="81" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#4-PB.wav" rootNote="83" volume="-3.5dB" />
+			<sample end="30092" hiNote="86" hiVel="127" loNote="84" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#5-PB.wav" rootNote="86" volume="-1.5dB" />
+			<sample end="29491" hiNote="89" hiVel="127" loNote="87" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e5-PB.wav" rootNote="89" volume="-2.5dB" />
+			<sample end="26196" hiNote="92" hiVel="127" loNote="90" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g5-PB.wav" rootNote="92" volume="-0.5dB" />
+			<sample end="27937" hiNote="95" hiVel="127" loNote="93" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#5-PB.wav" rootNote="95" volume="-0.5dB" />
+			<sample end="27620" hiNote="98" hiVel="127" loNote="96" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#6-PB.wav" rootNote="98" volume="-1.5dB" />
+			<sample end="30057" hiNote="101" hiVel="127" loNote="99" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e6-PB.wav" rootNote="101" volume="-3.5dB" />
+			<sample end="26262" hiNote="104" hiVel="127" loNote="102" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g6-PB.wav" rootNote="104" volume="-2.5dB" />
+			<sample end="26171" hiNote="117" hiVel="127" loNote="105" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#6-PB.wav" rootNote="107" volume="-3.5dB" />
 		</group>
 		<group name="Group 8" ampVelTrack="1">
-			<sample end="29774.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g3-PB.wav" rootNote="68" volume="4.0dB" />
-			<sample end="29739.000" hiNote="71" hiVel="127" loNote="69" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#3-PB.wav" rootNote="71" volume="4.0dB" />
-			<sample end="29244.000" hiNote="74" hiVel="127" loNote="72" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#4-PB.wav" rootNote="74" volume="4.0dB" />
-			<sample end="28785.000" hiNote="77" hiVel="127" loNote="75" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e4-PB.wav" rootNote="77" volume="5.0dB" />
-			<sample end="29774.000" hiNote="80" hiVel="127" loNote="78" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g4-PB.wav" rootNote="80" volume="3.0dB" />
-			<sample end="26595.000" hiNote="83" hiVel="127" loNote="81" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#4-PB.wav" rootNote="83" volume="3.0dB" />
-			<sample end="30092.000" hiNote="86" hiVel="127" loNote="84" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#5-PB.wav" rootNote="86" volume="5.0dB" />
-			<sample end="29491.000" hiNote="89" hiVel="127" loNote="87" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e5-PB.wav" rootNote="89" volume="4.0dB" />
-			<sample end="26196.000" hiNote="92" hiVel="127" loNote="90" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g5-PB.wav" rootNote="92" volume="6.0dB" />
-			<sample end="27937.000" hiNote="95" hiVel="127" loNote="93" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#5-PB.wav" rootNote="95" volume="6.0dB" />
-			<sample end="27620.000" hiNote="98" hiVel="127" loNote="96" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#6-PB.wav" rootNote="98" volume="5.0dB" />
-			<sample end="30057.000" hiNote="101" hiVel="127" loNote="99" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e6-PB.wav" rootNote="101" volume="3.0dB" />
-			<sample end="26262.000" hiNote="104" hiVel="127" loNote="102" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g6-PB.wav" rootNote="104" volume="4.0dB" />
-			<sample end="26171.000" hiNote="117" hiVel="127" loNote="105" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#6-PB.wav" rootNote="107" volume="3.0dB" />
+			<sample end="29774" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g3-PB.wav" rootNote="68" volume="4.0dB" />
+			<sample end="29739" hiNote="71" hiVel="127" loNote="69" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#3-PB.wav" rootNote="71" volume="4.0dB" />
+			<sample end="29244" hiNote="74" hiVel="127" loNote="72" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#4-PB.wav" rootNote="74" volume="4.0dB" />
+			<sample end="28785" hiNote="77" hiVel="127" loNote="75" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e4-PB.wav" rootNote="77" volume="5.0dB" />
+			<sample end="29774" hiNote="80" hiVel="127" loNote="78" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g4-PB.wav" rootNote="80" volume="3.0dB" />
+			<sample end="26595" hiNote="83" hiVel="127" loNote="81" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#4-PB.wav" rootNote="83" volume="3.0dB" />
+			<sample end="30092" hiNote="86" hiVel="127" loNote="84" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#5-PB.wav" rootNote="86" volume="5.0dB" />
+			<sample end="29491" hiNote="89" hiVel="127" loNote="87" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e5-PB.wav" rootNote="89" volume="4.0dB" />
+			<sample end="26196" hiNote="92" hiVel="127" loNote="90" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g5-PB.wav" rootNote="92" volume="6.0dB" />
+			<sample end="27937" hiNote="95" hiVel="127" loNote="93" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#5-PB.wav" rootNote="95" volume="6.0dB" />
+			<sample end="27620" hiNote="98" hiVel="127" loNote="96" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#6-PB.wav" rootNote="98" volume="5.0dB" />
+			<sample end="30057" hiNote="101" hiVel="127" loNote="99" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e6-PB.wav" rootNote="101" volume="3.0dB" />
+			<sample end="26262" hiNote="104" hiVel="127" loNote="102" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g6-PB.wav" rootNote="104" volume="4.0dB" />
+			<sample end="26171" hiNote="117" hiVel="127" loNote="105" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#6-PB.wav" rootNote="107" volume="3.0dB" />
 		</group>
 		<group name="Group 11" ampVelTrack="1">
-			<sample end="29774.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g3-PB.wav" rootNote="68" volume="4.0dB" />
-			<sample end="29739.000" hiNote="71" hiVel="127" loNote="69" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#3-PB.wav" rootNote="71" volume="4.0dB" />
-			<sample end="29244.000" hiNote="74" hiVel="127" loNote="72" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#4-PB.wav" rootNote="74" volume="4.0dB" />
-			<sample end="28785.000" hiNote="77" hiVel="127" loNote="75" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e4-PB.wav" rootNote="77" volume="5.0dB" />
-			<sample end="29774.000" hiNote="80" hiVel="127" loNote="78" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g4-PB.wav" rootNote="80" volume="3.0dB" />
-			<sample end="26595.000" hiNote="83" hiVel="127" loNote="81" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#4-PB.wav" rootNote="83" volume="3.0dB" />
-			<sample end="30092.000" hiNote="86" hiVel="127" loNote="84" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#5-PB.wav" rootNote="86" volume="5.0dB" />
-			<sample end="29491.000" hiNote="89" hiVel="127" loNote="87" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e5-PB.wav" rootNote="89" volume="4.0dB" />
-			<sample end="26196.000" hiNote="92" hiVel="127" loNote="90" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g5-PB.wav" rootNote="92" volume="6.0dB" />
-			<sample end="27937.000" hiNote="95" hiVel="127" loNote="93" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#5-PB.wav" rootNote="95" volume="6.0dB" />
-			<sample end="27620.000" hiNote="98" hiVel="127" loNote="96" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#6-PB.wav" rootNote="98" volume="5.0dB" />
-			<sample end="30057.000" hiNote="101" hiVel="127" loNote="99" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e6-PB.wav" rootNote="101" volume="3.0dB" />
-			<sample end="26262.000" hiNote="104" hiVel="127" loNote="102" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g6-PB.wav" rootNote="104" volume="4.0dB" />
-			<sample end="26171.000" hiNote="117" hiVel="127" loNote="105" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#6-PB.wav" rootNote="107" volume="3.0dB" />
+			<sample end="29774" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g3-PB.wav" rootNote="68" volume="4.0dB" />
+			<sample end="29739" hiNote="71" hiVel="127" loNote="69" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#3-PB.wav" rootNote="71" volume="4.0dB" />
+			<sample end="29244" hiNote="74" hiVel="127" loNote="72" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#4-PB.wav" rootNote="74" volume="4.0dB" />
+			<sample end="28785" hiNote="77" hiVel="127" loNote="75" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e4-PB.wav" rootNote="77" volume="5.0dB" />
+			<sample end="29774" hiNote="80" hiVel="127" loNote="78" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g4-PB.wav" rootNote="80" volume="3.0dB" />
+			<sample end="26595" hiNote="83" hiVel="127" loNote="81" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#4-PB.wav" rootNote="83" volume="3.0dB" />
+			<sample end="30092" hiNote="86" hiVel="127" loNote="84" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#5-PB.wav" rootNote="86" volume="5.0dB" />
+			<sample end="29491" hiNote="89" hiVel="127" loNote="87" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e5-PB.wav" rootNote="89" volume="4.0dB" />
+			<sample end="26196" hiNote="92" hiVel="127" loNote="90" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g5-PB.wav" rootNote="92" volume="6.0dB" />
+			<sample end="27937" hiNote="95" hiVel="127" loNote="93" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#5-PB.wav" rootNote="95" volume="6.0dB" />
+			<sample end="27620" hiNote="98" hiVel="127" loNote="96" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#6-PB.wav" rootNote="98" volume="5.0dB" />
+			<sample end="30057" hiNote="101" hiVel="127" loNote="99" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e6-PB.wav" rootNote="101" volume="3.0dB" />
+			<sample end="26262" hiNote="104" hiVel="127" loNote="102" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g6-PB.wav" rootNote="104" volume="4.0dB" />
+			<sample end="26171" hiNote="117" hiVel="127" loNote="105" loVel="1" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#6-PB.wav" rootNote="107" volume="3.0dB" />
 		</group>
 	</groups>
 	<midi>
@@ -86,5 +87,4 @@
 		</cc>
 	</midi>
 	<modulators />
-	<tags />
 </DecentSampler>

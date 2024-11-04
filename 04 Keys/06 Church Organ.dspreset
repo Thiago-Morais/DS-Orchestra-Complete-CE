@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/praashie/DecentSampler-schema/main/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
-		<effect type="highpass" frequency="100.0" />
+		<effect type="hipass" frequency="100.0" />
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
@@ -16,7 +17,7 @@
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</labeled-knob>
 			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
-				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
 			</labeled-knob>
 			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
@@ -32,50 +33,50 @@
 	</ui>
 	<groups release="0.097">
 		<group name="Church Organ/GS" ampVelTrack="1">
-			<sample end="61256.000" hiNote="36" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="61248.000" loopStart="24522.000" path="Resources/Church Organ 2 Samples/Church Organ C1.wav" rootNote="36" />
-			<sample end="83312.000" hiNote="39" hiVel="127" loNote="37" loVel="0" loopEnabled="true" loopEnd="83215.000" loopStart="43654.000" path="Resources/Church Organ 2 Samples/Church Organ D1.wav" rootNote="39" />
-			<sample end="91752.000" hiNote="42" hiVel="127" loNote="40" loVel="0" loopEnabled="true" loopEnd="91741.000" loopStart="46262.000" path="Resources/Church Organ 2 Samples/Church Organ F1.wav" rootNote="42" />
-			<sample end="92232.000" hiNote="45" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="92224.000" loopStart="31693.000" path="Resources/Church Organ 2 Samples/Church Organ A1.wav" rootNote="45" />
-			<sample end="110032.000" hiNote="48" hiVel="127" loNote="46" loVel="0" loopEnabled="true" loopEnd="109969.000" loopStart="57336.000" path="Resources/Church Organ 2 Samples/Church Organ C2.wav" rootNote="48" />
-			<sample end="97904.000" hiNote="51" hiVel="127" loNote="49" loVel="0" loopEnabled="true" loopEnd="97886.000" loopStart="47046.000" path="Resources/Church Organ 2 Samples/Church Organ D2.wav" rootNote="51" />
-			<sample end="93576.000" hiNote="54" hiVel="127" loNote="52" loVel="0" loopEnabled="true" loopEnd="93569.000" loopStart="30714.000" path="Resources/Church Organ 2 Samples/Church Organ F2.wav" rootNote="54" />
-			<sample end="91880.000" hiNote="57" hiVel="127" loNote="55" loVel="0" loopEnabled="true" loopEnd="91800.000" loopStart="48853.000" path="Resources/Church Organ 2 Samples/Church Organ A2.wav" rootNote="57" />
-			<sample end="90392.000" hiNote="60" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="90380.000" loopStart="45472.000" path="Resources/Church Organ 2 Samples/Church Organ C3.wav" rootNote="60" />
-			<sample end="69152.000" hiNote="63" hiVel="127" loNote="61" loVel="0" loopEnabled="true" loopEnd="69120.000" loopStart="22722.000" path="Resources/Church Organ 2 Samples/Church Organ D3.wav" rootNote="63" />
-			<sample end="55359.000" hiNote="66" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="55305.000" loopStart="21118.000" path="Resources/Church Organ 2 Samples/Church Organ F3.wav" rootNote="66" />
-			<sample end="78816.000" hiNote="69" hiVel="127" loNote="67" loVel="0" loopEnabled="true" loopEnd="78779.000" loopStart="47913.000" path="Resources/Church Organ 2 Samples/Church Organ A3.wav" rootNote="69" />
-			<sample end="57991.000" hiNote="72" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="57984.000" loopStart="13747.000" path="Resources/Church Organ 2 Samples/Church Organ C4.wav" rootNote="72" />
-			<sample end="62432.000" hiNote="75" hiVel="127" loNote="73" loVel="0" loopEnabled="true" loopEnd="62419.000" loopStart="34925.000" path="Resources/Church Organ 2 Samples/Church Organ D4.wav" rootNote="75" />
-			<sample end="61648.000" hiNote="78" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="61623.000" loopStart="27869.000" path="Resources/Church Organ 2 Samples/Church Organ F4.wav" rootNote="78" />
-			<sample end="63168.000" hiNote="81" hiVel="127" loNote="79" loVel="0" loopEnabled="true" loopEnd="63168.000" loopStart="26065.000" path="Resources/Church Organ 2 Samples/Church Organ A4.wav" rootNote="81" />
-			<sample end="54976.000" hiNote="84" hiVel="127" loNote="82" loVel="0" loopEnabled="true" loopEnd="54976.000" loopStart="13633.000" path="Resources/Church Organ 2 Samples/Church Organ C5.wav" rootNote="84" />
-			<sample end="71016.000" hiNote="87" hiVel="127" loNote="85" loVel="0" loopEnabled="true" loopEnd="71007.000" loopStart="31911.000" path="Resources/Church Organ 2 Samples/Church Organ D5.wav" rootNote="87" />
-			<sample end="42920.000" hiNote="90" hiVel="127" loNote="88" loVel="0" loopEnabled="true" loopEnd="42911.000" loopStart="15110.000" path="Resources/Church Organ 2 Samples/Church Organ F5.wav" rootNote="90" />
-			<sample end="70032.000" hiNote="93" hiVel="127" loNote="91" loVel="0" loopEnabled="true" loopEnd="70007.000" loopStart="14156.000" path="Resources/Church Organ 2 Samples/Church Organ A5.wav" rootNote="93" />
-			<sample end="51304.000" hiNote="96" hiVel="127" loNote="94" loVel="0" loopEnabled="true" loopEnd="51289.000" loopStart="17894.000" path="Resources/Church Organ 2 Samples/Church Organ C6.wav" rootNote="96" />
+			<sample end="61256" hiNote="36" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="61248" loopStart="24522" path="Resources/Church Organ 2 Samples/Church Organ C1.wav" rootNote="36" />
+			<sample end="83312" hiNote="39" hiVel="127" loNote="37" loVel="0" loopEnabled="true" loopEnd="83215" loopStart="43654" path="Resources/Church Organ 2 Samples/Church Organ D1.wav" rootNote="39" />
+			<sample end="91752" hiNote="42" hiVel="127" loNote="40" loVel="0" loopEnabled="true" loopEnd="91741" loopStart="46262" path="Resources/Church Organ 2 Samples/Church Organ F1.wav" rootNote="42" />
+			<sample end="92232" hiNote="45" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="92224" loopStart="31693" path="Resources/Church Organ 2 Samples/Church Organ A1.wav" rootNote="45" />
+			<sample end="110032" hiNote="48" hiVel="127" loNote="46" loVel="0" loopEnabled="true" loopEnd="109969" loopStart="57336" path="Resources/Church Organ 2 Samples/Church Organ C2.wav" rootNote="48" />
+			<sample end="97904" hiNote="51" hiVel="127" loNote="49" loVel="0" loopEnabled="true" loopEnd="97886" loopStart="47046" path="Resources/Church Organ 2 Samples/Church Organ D2.wav" rootNote="51" />
+			<sample end="93576" hiNote="54" hiVel="127" loNote="52" loVel="0" loopEnabled="true" loopEnd="93569" loopStart="30714" path="Resources/Church Organ 2 Samples/Church Organ F2.wav" rootNote="54" />
+			<sample end="91880" hiNote="57" hiVel="127" loNote="55" loVel="0" loopEnabled="true" loopEnd="91800" loopStart="48853" path="Resources/Church Organ 2 Samples/Church Organ A2.wav" rootNote="57" />
+			<sample end="90392" hiNote="60" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="90380" loopStart="45472" path="Resources/Church Organ 2 Samples/Church Organ C3.wav" rootNote="60" />
+			<sample end="69152" hiNote="63" hiVel="127" loNote="61" loVel="0" loopEnabled="true" loopEnd="69120" loopStart="22722" path="Resources/Church Organ 2 Samples/Church Organ D3.wav" rootNote="63" />
+			<sample end="55359" hiNote="66" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="55305" loopStart="21118" path="Resources/Church Organ 2 Samples/Church Organ F3.wav" rootNote="66" />
+			<sample end="78816" hiNote="69" hiVel="127" loNote="67" loVel="0" loopEnabled="true" loopEnd="78779" loopStart="47913" path="Resources/Church Organ 2 Samples/Church Organ A3.wav" rootNote="69" />
+			<sample end="57991" hiNote="72" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="57984" loopStart="13747" path="Resources/Church Organ 2 Samples/Church Organ C4.wav" rootNote="72" />
+			<sample end="62432" hiNote="75" hiVel="127" loNote="73" loVel="0" loopEnabled="true" loopEnd="62419" loopStart="34925" path="Resources/Church Organ 2 Samples/Church Organ D4.wav" rootNote="75" />
+			<sample end="61648" hiNote="78" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="61623" loopStart="27869" path="Resources/Church Organ 2 Samples/Church Organ F4.wav" rootNote="78" />
+			<sample end="63168" hiNote="81" hiVel="127" loNote="79" loVel="0" loopEnabled="true" loopEnd="63168" loopStart="26065" path="Resources/Church Organ 2 Samples/Church Organ A4.wav" rootNote="81" />
+			<sample end="54976" hiNote="84" hiVel="127" loNote="82" loVel="0" loopEnabled="true" loopEnd="54976" loopStart="13633" path="Resources/Church Organ 2 Samples/Church Organ C5.wav" rootNote="84" />
+			<sample end="71016" hiNote="87" hiVel="127" loNote="85" loVel="0" loopEnabled="true" loopEnd="71007" loopStart="31911" path="Resources/Church Organ 2 Samples/Church Organ D5.wav" rootNote="87" />
+			<sample end="42920" hiNote="90" hiVel="127" loNote="88" loVel="0" loopEnabled="true" loopEnd="42911" loopStart="15110" path="Resources/Church Organ 2 Samples/Church Organ F5.wav" rootNote="90" />
+			<sample end="70032" hiNote="93" hiVel="127" loNote="91" loVel="0" loopEnabled="true" loopEnd="70007" loopStart="14156" path="Resources/Church Organ 2 Samples/Church Organ A5.wav" rootNote="93" />
+			<sample end="51304" hiNote="96" hiVel="127" loNote="94" loVel="0" loopEnabled="true" loopEnd="51289" loopStart="17894" path="Resources/Church Organ 2 Samples/Church Organ C6.wav" rootNote="96" />
 		</group>
 		<group name="Church Organ/GS" ampVelTrack="1">
-			<sample end="61256.000" hiNote="36" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="61248.000" loopStart="24522.000" path="Resources/Church Organ 2 Samples/Church Organ C1.wav" rootNote="36" />
-			<sample end="83312.000" hiNote="39" hiVel="127" loNote="37" loVel="0" loopEnabled="true" loopEnd="83215.000" loopStart="43654.000" path="Resources/Church Organ 2 Samples/Church Organ D1.wav" rootNote="39" />
-			<sample end="91752.000" hiNote="42" hiVel="127" loNote="40" loVel="0" loopEnabled="true" loopEnd="91741.000" loopStart="46262.000" path="Resources/Church Organ 2 Samples/Church Organ F1.wav" rootNote="42" />
-			<sample end="92232.000" hiNote="45" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="92224.000" loopStart="31693.000" path="Resources/Church Organ 2 Samples/Church Organ A1.wav" rootNote="45" />
-			<sample end="110032.000" hiNote="48" hiVel="127" loNote="46" loVel="0" loopEnabled="true" loopEnd="109969.000" loopStart="57336.000" path="Resources/Church Organ 2 Samples/Church Organ C2.wav" rootNote="48" />
-			<sample end="97904.000" hiNote="51" hiVel="127" loNote="49" loVel="0" loopEnabled="true" loopEnd="97886.000" loopStart="47046.000" path="Resources/Church Organ 2 Samples/Church Organ D2.wav" rootNote="51" />
-			<sample end="93576.000" hiNote="54" hiVel="127" loNote="52" loVel="0" loopEnabled="true" loopEnd="93569.000" loopStart="30714.000" path="Resources/Church Organ 2 Samples/Church Organ F2.wav" rootNote="54" />
-			<sample end="91880.000" hiNote="57" hiVel="127" loNote="55" loVel="0" loopEnabled="true" loopEnd="91800.000" loopStart="48853.000" path="Resources/Church Organ 2 Samples/Church Organ A2.wav" rootNote="57" />
-			<sample end="90392.000" hiNote="60" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="90380.000" loopStart="45472.000" path="Resources/Church Organ 2 Samples/Church Organ C3.wav" rootNote="60" />
-			<sample end="69152.000" hiNote="63" hiVel="127" loNote="61" loVel="0" loopEnabled="true" loopEnd="69120.000" loopStart="22722.000" path="Resources/Church Organ 2 Samples/Church Organ D3.wav" rootNote="63" />
-			<sample end="55359.000" hiNote="66" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="55305.000" loopStart="21118.000" path="Resources/Church Organ 2 Samples/Church Organ F3.wav" rootNote="66" />
-			<sample end="78816.000" hiNote="69" hiVel="127" loNote="67" loVel="0" loopEnabled="true" loopEnd="78779.000" loopStart="47913.000" path="Resources/Church Organ 2 Samples/Church Organ A3.wav" rootNote="69" />
-			<sample end="57991.000" hiNote="72" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="57984.000" loopStart="13747.000" path="Resources/Church Organ 2 Samples/Church Organ C4.wav" rootNote="72" />
-			<sample end="62432.000" hiNote="75" hiVel="127" loNote="73" loVel="0" loopEnabled="true" loopEnd="62419.000" loopStart="34925.000" path="Resources/Church Organ 2 Samples/Church Organ D4.wav" rootNote="75" />
-			<sample end="61648.000" hiNote="78" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="61623.000" loopStart="27869.000" path="Resources/Church Organ 2 Samples/Church Organ F4.wav" rootNote="78" />
-			<sample end="63168.000" hiNote="81" hiVel="127" loNote="79" loVel="0" loopEnabled="true" loopEnd="63168.000" loopStart="26065.000" path="Resources/Church Organ 2 Samples/Church Organ A4.wav" rootNote="81" />
-			<sample end="54976.000" hiNote="84" hiVel="127" loNote="82" loVel="0" loopEnabled="true" loopEnd="54976.000" loopStart="13633.000" path="Resources/Church Organ 2 Samples/Church Organ C5.wav" rootNote="84" />
-			<sample end="71016.000" hiNote="87" hiVel="127" loNote="85" loVel="0" loopEnabled="true" loopEnd="71007.000" loopStart="31911.000" path="Resources/Church Organ 2 Samples/Church Organ D5.wav" rootNote="87" />
-			<sample end="42920.000" hiNote="90" hiVel="127" loNote="88" loVel="0" loopEnabled="true" loopEnd="42911.000" loopStart="15110.000" path="Resources/Church Organ 2 Samples/Church Organ F5.wav" rootNote="90" />
-			<sample end="70032.000" hiNote="93" hiVel="127" loNote="91" loVel="0" loopEnabled="true" loopEnd="70007.000" loopStart="14156.000" path="Resources/Church Organ 2 Samples/Church Organ A5.wav" rootNote="93" />
-			<sample end="51304.000" hiNote="96" hiVel="127" loNote="94" loVel="0" loopEnabled="true" loopEnd="51289.000" loopStart="17894.000" path="Resources/Church Organ 2 Samples/Church Organ C6.wav" rootNote="96" />
+			<sample end="61256" hiNote="36" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="61248" loopStart="24522" path="Resources/Church Organ 2 Samples/Church Organ C1.wav" rootNote="36" />
+			<sample end="83312" hiNote="39" hiVel="127" loNote="37" loVel="0" loopEnabled="true" loopEnd="83215" loopStart="43654" path="Resources/Church Organ 2 Samples/Church Organ D1.wav" rootNote="39" />
+			<sample end="91752" hiNote="42" hiVel="127" loNote="40" loVel="0" loopEnabled="true" loopEnd="91741" loopStart="46262" path="Resources/Church Organ 2 Samples/Church Organ F1.wav" rootNote="42" />
+			<sample end="92232" hiNote="45" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="92224" loopStart="31693" path="Resources/Church Organ 2 Samples/Church Organ A1.wav" rootNote="45" />
+			<sample end="110032" hiNote="48" hiVel="127" loNote="46" loVel="0" loopEnabled="true" loopEnd="109969" loopStart="57336" path="Resources/Church Organ 2 Samples/Church Organ C2.wav" rootNote="48" />
+			<sample end="97904" hiNote="51" hiVel="127" loNote="49" loVel="0" loopEnabled="true" loopEnd="97886" loopStart="47046" path="Resources/Church Organ 2 Samples/Church Organ D2.wav" rootNote="51" />
+			<sample end="93576" hiNote="54" hiVel="127" loNote="52" loVel="0" loopEnabled="true" loopEnd="93569" loopStart="30714" path="Resources/Church Organ 2 Samples/Church Organ F2.wav" rootNote="54" />
+			<sample end="91880" hiNote="57" hiVel="127" loNote="55" loVel="0" loopEnabled="true" loopEnd="91800" loopStart="48853" path="Resources/Church Organ 2 Samples/Church Organ A2.wav" rootNote="57" />
+			<sample end="90392" hiNote="60" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="90380" loopStart="45472" path="Resources/Church Organ 2 Samples/Church Organ C3.wav" rootNote="60" />
+			<sample end="69152" hiNote="63" hiVel="127" loNote="61" loVel="0" loopEnabled="true" loopEnd="69120" loopStart="22722" path="Resources/Church Organ 2 Samples/Church Organ D3.wav" rootNote="63" />
+			<sample end="55359" hiNote="66" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="55305" loopStart="21118" path="Resources/Church Organ 2 Samples/Church Organ F3.wav" rootNote="66" />
+			<sample end="78816" hiNote="69" hiVel="127" loNote="67" loVel="0" loopEnabled="true" loopEnd="78779" loopStart="47913" path="Resources/Church Organ 2 Samples/Church Organ A3.wav" rootNote="69" />
+			<sample end="57991" hiNote="72" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="57984" loopStart="13747" path="Resources/Church Organ 2 Samples/Church Organ C4.wav" rootNote="72" />
+			<sample end="62432" hiNote="75" hiVel="127" loNote="73" loVel="0" loopEnabled="true" loopEnd="62419" loopStart="34925" path="Resources/Church Organ 2 Samples/Church Organ D4.wav" rootNote="75" />
+			<sample end="61648" hiNote="78" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="61623" loopStart="27869" path="Resources/Church Organ 2 Samples/Church Organ F4.wav" rootNote="78" />
+			<sample end="63168" hiNote="81" hiVel="127" loNote="79" loVel="0" loopEnabled="true" loopEnd="63168" loopStart="26065" path="Resources/Church Organ 2 Samples/Church Organ A4.wav" rootNote="81" />
+			<sample end="54976" hiNote="84" hiVel="127" loNote="82" loVel="0" loopEnabled="true" loopEnd="54976" loopStart="13633" path="Resources/Church Organ 2 Samples/Church Organ C5.wav" rootNote="84" />
+			<sample end="71016" hiNote="87" hiVel="127" loNote="85" loVel="0" loopEnabled="true" loopEnd="71007" loopStart="31911" path="Resources/Church Organ 2 Samples/Church Organ D5.wav" rootNote="87" />
+			<sample end="42920" hiNote="90" hiVel="127" loNote="88" loVel="0" loopEnabled="true" loopEnd="42911" loopStart="15110" path="Resources/Church Organ 2 Samples/Church Organ F5.wav" rootNote="90" />
+			<sample end="70032" hiNote="93" hiVel="127" loNote="91" loVel="0" loopEnabled="true" loopEnd="70007" loopStart="14156" path="Resources/Church Organ 2 Samples/Church Organ A5.wav" rootNote="93" />
+			<sample end="51304" hiNote="96" hiVel="127" loNote="94" loVel="0" loopEnabled="true" loopEnd="51289" loopStart="17894" path="Resources/Church Organ 2 Samples/Church Organ C6.wav" rootNote="96" />
 		</group>
 	</groups>
 	<midi>
@@ -84,5 +85,4 @@
 		</cc>
 	</midi>
 	<modulators />
-	<tags />
 </DecentSampler>
