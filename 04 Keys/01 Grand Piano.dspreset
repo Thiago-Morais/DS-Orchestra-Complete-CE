@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Grand Piano.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0.000" release="0.040">
+		<group name="Piano" ampVelTrack="1">
+			<sample end="1152986.000" hiNote="23" hiVel="127" loNote="20" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_000.wav" rootNote="21" start="0.000" volume="5.85730903073885dB" />
+			<sample end="1076961.000" hiNote="27" hiVel="127" loNote="24" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_002.wav" rootNote="25" start="0.000" volume="5.85730903073885dB" />
+			<sample end="1025895.000" hiNote="31" hiVel="127" loNote="28" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_004.wav" rootNote="29" start="0.000" volume="5.85730903073885dB" />
+			<sample end="1034996.000" hiNote="35" hiVel="127" loNote="32" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_006.wav" rootNote="33" start="0.000" volume="5.85730903073885dB" />
+			<sample end="1177069.000" hiNote="39" hiVel="127" loNote="36" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_008.wav" rootNote="37" start="0.000" volume="5.85730903073885dB" />
+			<sample end="1157661.000" hiNote="43" hiVel="127" loNote="40" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_010.wav" rootNote="41" start="0.000" volume="5.85730903073885dB" />
+			<sample end="1025414.000" hiNote="47" hiVel="127" loNote="44" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_012.wav" rootNote="45" start="0.000" volume="5.85730903073885dB" />
+			<sample end="838335.000" hiNote="51" hiVel="127" loNote="48" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_014.wav" rootNote="49" start="0.000" volume="5.85730903073885dB" />
+			<sample end="959754.000" hiNote="55" hiVel="127" loNote="52" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_016.wav" rootNote="53" start="0.000" volume="5.85730903073885dB" />
+			<sample end="934602.000" hiNote="59" hiVel="127" loNote="56" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_018.wav" rootNote="57" start="0.000" volume="5.85730903073885dB" />
+			<sample end="868706.000" hiNote="63" hiVel="127" loNote="60" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_020.wav" rootNote="61" start="0.000" volume="5.85730903073885dB" />
+			<sample end="816365.000" hiNote="67" hiVel="127" loNote="64" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_022.wav" rootNote="65" start="0.000" volume="5.85730903073885dB" />
+			<sample end="786730.000" hiNote="71" hiVel="127" loNote="68" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_024.wav" rootNote="69" start="0.000" volume="5.85730903073885dB" />
+			<sample end="641487.000" hiNote="75" hiVel="127" loNote="72" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_026.wav" rootNote="73" start="0.000" volume="5.85730903073885dB" />
+			<sample end="475559.000" hiNote="79" hiVel="127" loNote="76" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_028.wav" rootNote="77" start="0.000" volume="5.85730903073885dB" />
+			<sample end="623019.000" hiNote="83" hiVel="127" loNote="80" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_030.wav" rootNote="81" start="0.000" volume="5.85730903073885dB" />
+			<sample end="561985.000" hiNote="87" hiVel="127" loNote="84" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_032.wav" rootNote="85" start="0.000" volume="5.85730903073885dB" />
+			<sample end="467918.000" hiNote="91" hiVel="127" loNote="88" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_034.wav" rootNote="89" start="0.000" volume="5.85730903073885dB" />
+			<sample end="247779.000" hiNote="95" hiVel="127" loNote="92" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_036.wav" rootNote="93" start="0.000" volume="5.85730903073885dB" />
+			<sample end="154496.000" hiNote="99" hiVel="127" loNote="96" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_038.wav" rootNote="97" start="0.000" volume="5.85730903073885dB" />
+			<sample end="120853.000" hiNote="103" hiVel="127" loNote="100" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_040.wav" rootNote="101" start="0.000" volume="5.85730903073885dB" />
+			<sample end="78562.000" hiNote="107" hiVel="127" loNote="104" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_042.wav" rootNote="105" start="0.000" volume="5.85730903073885dB" />
+			<sample end="102393.000" hiNote="111" hiVel="127" loNote="108" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_044.wav" rootNote="109" start="0.000" volume="5.85730903073885dB" />
+			<sample end="749917.000" hiNote="23" hiVel="96" loNote="20" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_000.wav" rootNote="21" start="0.000" volume="5.85730903073885dB" />
+			<sample end="1012253.000" hiNote="27" hiVel="96" loNote="24" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_002.wav" rootNote="25" start="0.000" volume="5.85730903073885dB" />
+			<sample end="937387.000" hiNote="31" hiVel="96" loNote="28" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_004.wav" rootNote="29" start="0.000" volume="5.85730903073885dB" />
+			<sample end="822665.000" hiNote="35" hiVel="96" loNote="32" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_006.wav" rootNote="33" start="0.000" volume="5.85730903073885dB" />
+			<sample end="1143596.000" hiNote="39" hiVel="96" loNote="36" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_008.wav" rootNote="37" start="0.000" volume="5.85730903073885dB" />
+			<sample end="1262028.000" hiNote="43" hiVel="96" loNote="40" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_010.wav" rootNote="41" start="0.000" volume="5.85730903073885dB" />
+			<sample end="1050895.000" hiNote="47" hiVel="96" loNote="44" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_012.wav" rootNote="45" start="0.000" volume="5.85730903073885dB" />
+			<sample end="1029982.000" hiNote="51" hiVel="96" loNote="48" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_014.wav" rootNote="49" start="0.000" volume="5.85730903073885dB" />
+			<sample end="773746.000" hiNote="55" hiVel="96" loNote="52" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_016.wav" rootNote="53" start="0.000" volume="5.85730903073885dB" />
+			<sample end="957911.000" hiNote="59" hiVel="96" loNote="56" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_018.wav" rootNote="57" start="0.000" volume="5.85730903073885dB" />
+			<sample end="724352.000" hiNote="63" hiVel="96" loNote="60" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_020.wav" rootNote="61" start="0.000" volume="5.85730903073885dB" />
+			<sample end="745969.000" hiNote="67" hiVel="96" loNote="64" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_022.wav" rootNote="65" start="0.000" volume="5.85730903073885dB" />
+			<sample end="534034.000" hiNote="71" hiVel="96" loNote="68" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_024.wav" rootNote="69" start="0.000" volume="5.85730903073885dB" />
+			<sample end="442689.000" hiNote="75" hiVel="96" loNote="72" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_026.wav" rootNote="73" start="0.000" volume="5.85730903073885dB" />
+			<sample end="501355.000" hiNote="79" hiVel="96" loNote="76" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_028.wav" rootNote="77" start="0.000" volume="5.85730903073885dB" />
+			<sample end="523938.000" hiNote="83" hiVel="96" loNote="80" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_030.wav" rootNote="81" start="0.000" volume="5.85730903073885dB" />
+			<sample end="481306.000" hiNote="87" hiVel="96" loNote="84" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_032.wav" rootNote="85" start="0.000" volume="5.85730903073885dB" />
+			<sample end="434112.000" hiNote="91" hiVel="96" loNote="88" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_034.wav" rootNote="89" start="0.000" volume="5.85730903073885dB" />
+			<sample end="375699.000" hiNote="95" hiVel="96" loNote="92" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_036.wav" rootNote="93" start="0.000" volume="5.85730903073885dB" />
+			<sample end="237439.000" hiNote="99" hiVel="96" loNote="96" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_038.wav" rootNote="97" start="0.000" volume="5.85730903073885dB" />
+			<sample end="111202.000" hiNote="103" hiVel="96" loNote="100" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_040.wav" rootNote="101" start="0.000" volume="5.85730903073885dB" />
+			<sample end="105383.000" hiNote="107" hiVel="96" loNote="104" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_042.wav" rootNote="105" start="0.000" volume="5.85730903073885dB" />
+			<sample end="96738.000" hiNote="111" hiVel="96" loNote="108" loVel="49" path="Resources/Piano Samples/Player_dyn2_rr1_044.wav" rootNote="109" start="0.000" volume="5.85730903073885dB" />
+			<sample end="684055.000" hiNote="23" hiVel="48" loNote="20" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_000.wav" rootNote="21" start="0.000" volume="5.85730903073885dB" />
+			<sample end="684816.000" hiNote="27" hiVel="48" loNote="24" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_002.wav" rootNote="25" start="0.000" volume="5.85730903073885dB" />
+			<sample end="688013.000" hiNote="31" hiVel="48" loNote="28" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_004.wav" rootNote="29" start="0.000" volume="5.85730903073885dB" />
+			<sample end="677119.000" hiNote="35" hiVel="48" loNote="32" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_006.wav" rootNote="33" start="0.000" volume="5.85730903073885dB" />
+			<sample end="911698.000" hiNote="39" hiVel="48" loNote="36" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_008.wav" rootNote="37" start="0.000" volume="5.85730903073885dB" />
+			<sample end="961650.000" hiNote="43" hiVel="48" loNote="40" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_010.wav" rootNote="41" start="0.000" volume="5.85730903073885dB" />
+			<sample end="644941.000" hiNote="47" hiVel="48" loNote="44" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_012.wav" rootNote="45" start="0.000" volume="5.85730903073885dB" />
+			<sample end="378374.000" hiNote="51" hiVel="48" loNote="48" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_014.wav" rootNote="49" start="0.000" volume="5.85730903073885dB" />
+			<sample end="591034.000" hiNote="55" hiVel="48" loNote="52" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_016.wav" rootNote="53" start="0.000" volume="5.85730903073885dB" />
+			<sample end="500244.000" hiNote="59" hiVel="48" loNote="56" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_018.wav" rootNote="57" start="0.000" volume="5.85730903073885dB" />
+			<sample end="522238.000" hiNote="63" hiVel="48" loNote="60" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_020.wav" rootNote="61" start="0.000" volume="5.85730903073885dB" />
+			<sample end="687687.000" hiNote="67" hiVel="48" loNote="64" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_022.wav" rootNote="65" start="0.000" volume="5.85730903073885dB" />
+			<sample end="370377.000" hiNote="71" hiVel="48" loNote="68" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_024.wav" rootNote="69" start="0.000" volume="5.85730903073885dB" />
+			<sample end="592896.000" hiNote="75" hiVel="48" loNote="72" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_026.wav" rootNote="73" start="0.000" volume="5.85730903073885dB" />
+			<sample end="322428.000" hiNote="79" hiVel="48" loNote="76" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_028.wav" rootNote="77" start="0.000" volume="5.85730903073885dB" />
+			<sample end="519990.000" hiNote="83" hiVel="48" loNote="80" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_030.wav" rootNote="81" start="0.000" volume="5.85730903073885dB" />
+			<sample end="290901.000" hiNote="87" hiVel="48" loNote="84" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_032.wav" rootNote="85" start="0.000" volume="5.85730903073885dB" />
+			<sample end="217133.000" hiNote="91" hiVel="48" loNote="88" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_034.wav" rootNote="89" start="0.000" volume="5.85730903073885dB" />
+			<sample end="217247.000" hiNote="95" hiVel="48" loNote="92" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_036.wav" rootNote="93" start="0.000" volume="5.85730903073885dB" />
+			<sample end="152436.000" hiNote="99" hiVel="48" loNote="96" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_038.wav" rootNote="97" start="0.000" volume="5.85730903073885dB" />
+			<sample end="107006.000" hiNote="103" hiVel="48" loNote="100" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_040.wav" rootNote="101" start="0.000" volume="5.85730903073885dB" />
+			<sample end="95093.000" hiNote="107" hiVel="48" loNote="104" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_042.wav" rootNote="105" start="0.000" volume="5.85730903073885dB" />
+			<sample end="62812.000" hiNote="111" hiVel="48" loNote="108" loVel="1" path="Resources/Piano Samples/Player_dyn1_rr1_044.wav" rootNote="109" start="0.000" volume="5.85730903073885dB" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+	<tags />
+</DecentSampler>

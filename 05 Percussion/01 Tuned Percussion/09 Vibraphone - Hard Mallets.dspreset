@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Vibraphone.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0.000" release="0.600">
+		<group name="Group 1" ampVelTrack="1">
+			<sample end="175386.000" hiNote="55" hiVel="83" loNote="53" loVel="0" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_F2_v2_rr1_Main.wav" rootNote="53" start="111.000" volume="12.0dB" />
+			<sample end="168748.000" hiNote="55" hiVel="127" loNote="53" loVel="84" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_F2_v3_rr1_Main.wav" rootNote="53" start="100.000" volume="6.83434dB" />
+			<sample end="445405.000" hiNote="58" hiVel="83" loNote="56" loVel="0" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_A2_v2_rr1_Main.wav" rootNote="57" start="111.000" volume="12.0dB" />
+			<sample end="476932.000" hiNote="58" hiVel="127" loNote="56" loVel="84" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_A2_v3_rr1_Main.wav" rootNote="57" start="111.000" volume="4.208335dB" />
+			<sample end="475985.000" hiNote="62" hiVel="83" loNote="59" loVel="0" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_C3_v2_rr1_Main.wav" rootNote="60" start="114.000" volume="12.0dB" />
+			<sample end="546892.000" hiNote="62" hiVel="127" loNote="59" loVel="84" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_C3_v3_rr1_Main.wav" rootNote="60" start="114.000" volume="6.850434dB" />
+			<sample end="545197.000" hiNote="65" hiVel="83" loNote="63" loVel="0" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_E3_v2_rr1_Main.wav" rootNote="64" start="115.000" volume="12.0dB" />
+			<sample end="629306.000" hiNote="65" hiVel="127" loNote="63" loVel="84" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_E3_v3_rr1_Main.wav" rootNote="64" start="118.000" volume="9.723325dB" />
+			<sample end="734747.000" hiNote="69" hiVel="83" loNote="66" loVel="0" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_G3_v2_rr1_Main.wav" rootNote="67" start="115.000" volume="12.0dB" />
+			<sample end="743331.000" hiNote="69" hiVel="127" loNote="66" loVel="84" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_G3_v3_rr1_Main.wav" rootNote="67" start="110.000" volume="10.651992dB" />
+			<sample end="577468.000" hiNote="72" hiVel="83" loNote="70" loVel="0" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_B3_v2_rr1_Main.wav" rootNote="71" start="115.000" volume="12.0dB" />
+			<sample end="629624.000" hiNote="72" hiVel="127" loNote="70" loVel="84" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_B3_v3_rr1_Main.wav" rootNote="71" start="111.000" volume="7.867626dB" />
+			<sample end="607900.000" hiNote="75" hiVel="83" loNote="73" loVel="0" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_D4_v2_rr1_Main.wav" rootNote="74" start="115.000" volume="11.749742dB" />
+			<sample end="643877.000" hiNote="75" hiVel="127" loNote="73" loVel="84" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_D4_v3_rr1_Main.wav" rootNote="74" start="109.000" volume="4.157508dB" />
+			<sample end="427104.000" hiNote="79" hiVel="83" loNote="76" loVel="0" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_F4_v2_rr1_Main.wav" rootNote="77" start="105.000" volume="12.0dB" />
+			<sample end="506117.000" hiNote="79" hiVel="127" loNote="76" loVel="84" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_F4_v3_rr1_Main.wav" rootNote="77" start="98.000" volume="6.181621dB" />
+			<sample end="485356.000" hiNote="82" hiVel="83" loNote="80" loVel="0" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_A4_v2_rr1_Main.wav" rootNote="81" start="96.000" volume="12.0dB" />
+			<sample end="484851.000" hiNote="82" hiVel="127" loNote="80" loVel="84" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_A4_v3_rr1_Main.wav" rootNote="81" start="93.000" volume="9.80413dB" />
+			<sample end="242790.000" hiNote="86" hiVel="83" loNote="83" loVel="0" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_C5_v2_rr1_Main.wav" rootNote="84" start="91.000" volume="12.0dB" />
+			<sample end="273727.000" hiNote="86" hiVel="127" loNote="83" loVel="84" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_C5_v3_rr1_Main.wav" rootNote="84" start="88.000" volume="6.30105dB" />
+			<sample end="326938.000" hiNote="89" hiVel="83" loNote="87" loVel="0" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_E5_v2_rr1_Main.wav" rootNote="88" start="80.000" volume="12.0dB" />
+			<sample end="366782.000" hiNote="89" hiVel="127" loNote="87" loVel="84" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_E5_v3_rr1_Main.wav" rootNote="88" start="82.000" volume="5.005945dB" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+	<tags />
+</DecentSampler>

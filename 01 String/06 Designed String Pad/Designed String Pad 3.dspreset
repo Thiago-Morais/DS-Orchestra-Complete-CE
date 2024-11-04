@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Designed String.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups decay="0.036" release="0.039" sustain="0.987">
+		<group name="Brass" ampVelTrack="1">
+			<sample end="28141.000" hiNote="65" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="28133.000" loopStart="8434.000" path="Resources/Designed String Pad 3 Samples/Brass C3.wav" rootNote="71" start="0.000" tuning="0.50" volume="-14.9dB" />
+			<sample end="28141.000" hiNote="70" hiVel="127" loNote="66" loVel="0" loopEnabled="true" loopEnd="28133.000" loopStart="8434.000" path="Resources/Designed String Pad 3 Samples/Brass C3.wav" rootNote="71" start="0.000" tuning="0.50" volume="-14.9dB" />
+			<sample end="20516.000" hiNote="72" hiVel="127" loNote="71" loVel="0" loopEnabled="true" loopEnd="20508.000" loopStart="6289.000" path="Resources/Designed String Pad 3 Samples/Brass C4.wav" rootNote="84" start="0.000" tuning="-0.01" volume="-14.9dB" />
+			<sample end="20516.000" hiNote="75" hiVel="127" loNote="73" loVel="0" loopEnabled="true" loopEnd="20508.000" loopStart="6289.000" path="Resources/Designed String Pad 3 Samples/Brass C4.wav" rootNote="84" start="0.000" tuning="-0.01" volume="-14.9dB" />
+			<sample end="19835.000" hiNote="86" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="19827.000" loopStart="5078.000" path="Resources/Designed String Pad 3 Samples/Brass Gb4.wav" rootNote="90" start="0.000" tuning="0.22" volume="-14.9dB" />
+			<sample end="19835.000" hiNote="93" hiVel="127" loNote="87" loVel="0" loopEnabled="true" loopEnd="19827.000" loopStart="5078.000" path="Resources/Designed String Pad 3 Samples/Brass Gb4.wav" rootNote="90" start="0.000" tuning="0.22" volume="-14.1dB" />
+			<sample end="1369.000" hiNote="108" hiVel="127" loNote="94" loVel="0" loopEnabled="true" loopEnd="1361.000" loopStart="1350.000" path="Resources/Designed String Pad 3 Samples/Brass C6.wav" rootNote="107" start="0.000" tuning="-0.21" volume="-14.1dB" />
+		</group>
+		<group name="Strings" ampVelTrack="1">
+			<sample end="20909.000" hiNote="49" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="20901.000" loopStart="6965.000" path="Resources/Designed String Pad 3 Samples/Strings B1.wav" rootNote="58" start="0.000" tuning="0.50" volume="-10.8dB" />
+			<sample end="20909.000" hiNote="55" hiVel="127" loNote="50" loVel="0" loopEnabled="true" loopEnd="20901.000" loopStart="6965.000" path="Resources/Designed String Pad 3 Samples/Strings B1.wav" rootNote="58" start="0.000" tuning="0.50" volume="-10.8dB" />
+			<sample end="18148.000" hiNote="63" hiVel="127" loNote="56" loVel="0" loopEnabled="true" loopEnd="18140.000" loopStart="4889.000" path="Resources/Designed String Pad 3 Samples/Strings C2.wav" rootNote="71" start="0.000" tuning="-0.25" volume="-10.8dB" />
+			<sample end="18723.000" hiNote="69" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="18715.000" loopStart="6421.000" path="Resources/Designed String Pad 3 Samples/Strings G3.wav" rootNote="79" start="0.000" tuning="-0.02" volume="-10.8dB" />
+			<sample end="15446.000" hiNote="75" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="15438.000" loopStart="4608.000" path="Resources/Designed String Pad 3 Samples/Strings C3.wav" rootNote="84" start="0.000" tuning="-0.01" volume="-10.8dB" />
+			<sample end="15446.000" hiNote="79" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="15438.000" loopStart="4608.000" path="Resources/Designed String Pad 3 Samples/Strings C3.wav" rootNote="84" start="0.000" tuning="-0.01" volume="-10.8dB" />
+			<sample end="19611.000" hiNote="87" hiVel="127" loNote="80" loVel="0" loopEnabled="true" loopEnd="19603.000" loopStart="6476.000" path="Resources/Designed String Pad 3 Samples/Strings C5.wav" rootNote="96" start="0.000" tuning="-0.01" volume="-10.8dB" />
+			<sample end="19611.000" hiNote="97" hiVel="127" loNote="88" loVel="0" loopEnabled="true" loopEnd="19603.000" loopStart="6476.000" path="Resources/Designed String Pad 3 Samples/Strings C5.wav" rootNote="96" start="0.000" tuning="-0.01" volume="-10.8dB" />
+			<sample end="5426.000" hiNote="108" hiVel="127" loNote="98" loVel="0" loopEnabled="true" loopEnd="5418.000" loopStart="100.000" path="Resources/Designed String Pad 3 Samples/SynthStrings D6.wav" rootNote="112" start="0.000" tuning="0.35" volume="-10.8dB" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+	<tags />
+</DecentSampler>

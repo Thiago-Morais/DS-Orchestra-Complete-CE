@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Choir.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0.112" release="0.101">
+		<group name="InChoirIrie" ampVelTrack="1">
+			<sample end="13752.000" hiNote="55" hiVel="127" loNote="21" loVel="0" loopEnabled="true" loopEnd="13747.000" loopStart="7.000" path="Resources/InChoirIrie Samples/Vox F#2.wav" rootNote="54" tuning="0.03" volume="-13.0dB" />
+			<sample end="15108.000" hiNote="58" hiVel="127" loNote="56" loVel="0" loopEnabled="true" loopEnd="15103.000" loopStart="8.000" path="Resources/InChoirIrie Samples/Vox A2.wav" rootNote="57" tuning="0.03" volume="-13.0dB" />
+			<sample end="17451.000" hiNote="61" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="17446.000" loopStart="9.000" path="Resources/InChoirIrie Samples/Vox C3.wav" rootNote="60" tuning="0.03" volume="-13.0dB" />
+			<sample end="17844.000" hiNote="64" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="17839.000" loopStart="10.000" path="Resources/InChoirIrie Samples/Vox D#3.wav" rootNote="63" tuning="0.03" volume="-13.0dB" />
+			<sample end="17827.000" hiNote="67" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="17822.000" loopStart="7.000" path="Resources/InChoirIrie Samples/Vox F#3.wav" rootNote="66" tuning="0.03" volume="-13.0dB" />
+			<sample end="17996.000" hiNote="70" hiVel="127" loNote="68" loVel="0" loopEnabled="true" loopEnd="17991.000" loopStart="7.000" path="Resources/InChoirIrie Samples/Vox A3.wav" rootNote="69" tuning="0.03" volume="-13.0dB" />
+			<sample end="18176.000" hiNote="73" hiVel="127" loNote="71" loVel="0" loopEnabled="true" loopEnd="18171.000" loopStart="7.000" path="Resources/InChoirIrie Samples/Vox C4.wav" rootNote="72" tuning="0.03" volume="-13.0dB" />
+			<sample end="28953.000" hiNote="75" hiVel="127" loNote="74" loVel="0" loopEnabled="true" loopEnd="28948.000" loopStart="10.000" path="Resources/InChoirIrie Samples/Vox D#4.wav" rootNote="75" tuning="0.03" volume="-13.0dB" />
+			<sample end="28953.000" hiNote="95" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="28948.000" loopStart="10.000" path="Resources/InChoirIrie Samples/Vox D#4.wav" rootNote="75" tuning="0.03" volume="-13.0dB" />
+			<sample end="7222.000" hiNote="108" hiVel="127" loNote="96" loVel="0" loopEnabled="true" loopEnd="7217.000" loopStart="43.000" path="Resources/InChoirIrie Samples/Vox Eb6.wav" rootNote="99" tuning="0.03" volume="-13.0dB" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+	<tags />
+</DecentSampler>

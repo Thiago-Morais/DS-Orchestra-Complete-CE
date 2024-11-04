@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Violin 1.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;1.0001,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0.040" release="0.076">
+		<group name="Group 2" ampVelTrack="1">
+			<sample end="188833.000" hiNote="67" hiVel="127" loNote="67" loVel="1" path="Resources/1st Violin Section Samples/3_G-PB.wav" rootNote="67" start="0.000" tuning="0.05" volume="-5.7dB" />
+			<sample end="115490.000" hiNote="69" hiVel="127" loNote="68" loVel="1" path="Resources/1st Violin Section Samples/3_A-PB.wav" rootNote="69" start="0.000" tuning="0.05" volume="-5.7dB" />
+			<sample end="97397.000" hiNote="71" hiVel="127" loNote="70" loVel="1" path="Resources/1st Violin Section Samples/3_B-PB.wav" rootNote="71" start="0.000" tuning="0.05" volume="-5.7dB" />
+			<sample end="63797.000" hiNote="73" hiVel="127" loNote="72" loVel="1" path="Resources/1st Violin Section Samples/4_Db-PB.wav" rootNote="73" start="0.000" volume="-5.7dB" />
+			<sample end="95492.000" hiNote="75" hiVel="127" loNote="74" loVel="1" path="Resources/1st Violin Section Samples/4_Eb-PB.wav" rootNote="75" start="0.000" tuning="0.10" volume="-6.7dB" />
+			<sample end="126153.000" hiNote="77" hiVel="127" loNote="76" loVel="1" path="Resources/1st Violin Section Samples/4_F-PB.wav" rootNote="77" start="0.000" tuning="0.10" volume="-5.7dB" />
+			<sample end="193197.000" hiNote="79" hiVel="127" loNote="78" loVel="1" path="Resources/1st Violin Section Samples/4_G-PB.wav" rootNote="79" start="0.000" volume="-5.7dB" />
+			<sample end="163782.000" hiNote="81" hiVel="127" loNote="80" loVel="1" path="Resources/1st Violin Section Samples/4_A-PB.wav" rootNote="81" start="0.000" tuning="0.05" volume="-4.7dB" />
+			<sample end="154354.000" hiNote="83" hiVel="127" loNote="82" loVel="1" path="Resources/1st Violin Section Samples/4_B-PB.wav" rootNote="83" start="0.000" tuning="0.25" volume="-5.7dB" />
+			<sample end="183589.000" hiNote="85" hiVel="127" loNote="84" loVel="1" path="Resources/1st Violin Section Samples/5_Db-PB.wav" rootNote="85" start="0.000" tuning="0.15" volume="-5.7dB" />
+			<sample end="158663.000" hiNote="87" hiVel="127" loNote="86" loVel="1" path="Resources/1st Violin Section Samples/5_Eb-PB.wav" rootNote="87" start="0.000" volume="-5.7dB" />
+			<sample end="170455.000" hiNote="89" hiVel="127" loNote="88" loVel="1" path="Resources/1st Violin Section Samples/5_F-PB.wav" rootNote="89" start="0.000" volume="0.3dB" />
+			<sample end="140126.000" hiNote="91" hiVel="127" loNote="90" loVel="1" path="Resources/1st Violin Section Samples/5_G-PB.wav" rootNote="91" start="0.000" volume="-2.7dB" />
+			<sample end="182463.000" hiNote="93" hiVel="127" loNote="92" loVel="1" path="Resources/1st Violin Section Samples/5_A-PB.wav" rootNote="93" start="0.000" volume="1.3dB" />
+			<sample end="137983.000" hiNote="95" hiVel="127" loNote="94" loVel="1" path="Resources/1st Violin Section Samples/5_B-PB.wav" rootNote="95" start="0.000" volume="-0.7dB" />
+			<sample end="136488.000" hiNote="97" hiVel="127" loNote="96" loVel="1" path="Resources/1st Violin Section Samples/6_Db-PB.wav" rootNote="97" start="0.000" tuning="-0.10" volume="-0.7dB" />
+			<sample end="140037.000" hiNote="99" hiVel="127" loNote="98" loVel="1" path="Resources/1st Violin Section Samples/6_Eb-PB.wav" rootNote="99" start="0.000" tuning="-0.10" volume="-3.7dB" />
+			<sample end="139231.000" hiNote="101" hiVel="127" loNote="100" loVel="1" path="Resources/1st Violin Section Samples/6_F-PB.wav" rootNote="101" start="0.000" tuning="-0.10" volume="-1.7dB" />
+			<sample end="185216.000" hiNote="103" hiVel="127" loNote="102" loVel="1" path="Resources/1st Violin Section Samples/6_G-PB.wav" rootNote="103" start="0.000" tuning="-0.25" volume="-0.7dB" />
+			<sample end="147004.000" hiNote="105" hiVel="127" loNote="104" loVel="1" path="Resources/1st Violin Section Samples/6_A-PB.wav" rootNote="105" start="0.000" tuning="-0.15" volume="1.3dB" />
+			<sample end="195041.000" hiNote="117" hiVel="127" loNote="106" loVel="1" path="Resources/1st Violin Section Samples/6_B-PB.wav" rootNote="107" start="0.000" tuning="-0.15" volume="-2.7dB" />
+		</group>
+		<group name="Group 3" ampVelTrack="1">
+			<sample end="100187.000" hiNote="68" hiVel="127" loNote="67" loVel="1" path="Resources/1st Violin Section Samples/3_G.wav" rootNote="67" start="0.000" volume="-3.0dB" />
+			<sample end="96588.000" hiNote="71" hiVel="127" loNote="69" loVel="1" path="Resources/1st Violin Section Samples/3_Bb.wav" rootNote="70" start="0.000" volume="-3.0dB" />
+			<sample end="93868.000" hiNote="74" hiVel="127" loNote="72" loVel="1" path="Resources/1st Violin Section Samples/4_Db.wav" rootNote="73" start="0.000" tuning="-0.05" volume="-3.0dB" />
+			<sample end="153070.000" hiNote="77" hiVel="127" loNote="75" loVel="1" path="Resources/1st Violin Section Samples/4_E-PB-loop.wav" rootNote="76" start="0.000" tuning="0.05" volume="-2.0dB" />
+			<sample end="196499.000" hiNote="80" hiVel="127" loNote="78" loVel="1" path="Resources/1st Violin Section Samples/4_G-PB-loop.wav" rootNote="79" start="0.000" volume="-3.0dB" />
+			<sample end="109777.000" hiNote="83" hiVel="127" loNote="81" loVel="1" path="Resources/1st Violin Section Samples/4_Bb.wav" rootNote="82" start="0.000" tuning="-0.05" volume="-3.0dB" />
+			<sample end="104230.000" hiNote="86" hiVel="127" loNote="84" loVel="1" path="Resources/1st Violin Section Samples/5_Db.wav" rootNote="85" start="0.000" tuning="-0.05" volume="-3.0dB" />
+			<sample end="95362.000" hiNote="89" hiVel="127" loNote="87" loVel="1" path="Resources/1st Violin Section Samples/5_E.wav" rootNote="88" start="0.000" tuning="-0.05" volume="-3.0dB" />
+			<sample end="84755.000" hiNote="92" hiVel="127" loNote="90" loVel="1" path="Resources/1st Violin Section Samples/5_G.wav" rootNote="91" start="0.000" tuning="-0.05" volume="-3.0dB" />
+			<sample end="102923.000" hiNote="117" hiVel="127" loNote="93" loVel="1" path="Resources/1st Violin Section Samples/5_B.wav" rootNote="95" start="0.000" tuning="-0.05" volume="-3.0dB" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+	<tags />
+</DecentSampler>
