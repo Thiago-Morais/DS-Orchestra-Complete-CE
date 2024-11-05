@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.003" release="0.044">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="127" end="135039" path="Resources/Cello Ensemble Samples/2_C_t.wav" />
 			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="127" end="138518" path="Resources/Cello Ensemble Samples/2_D_t.wav" volume="-1.0dB" />
 			<sample rootNote="52" loNote="52" hiNote="54" loVel="0" hiVel="127" end="95978" path="Resources/Cello Ensemble Samples/2_E_t.wav" tuning="0.05" />

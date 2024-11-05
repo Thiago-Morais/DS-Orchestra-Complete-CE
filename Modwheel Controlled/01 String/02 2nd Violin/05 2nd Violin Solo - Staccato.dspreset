@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" decay="0.024" release="0.064">
-		<group name="gr_1" ampVelTrack="1">
+		<group name="gr_1" ampVelTrack="0">
 			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="61452" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A3_v2_rr1-PB.wav" volume="-12.0dB" />
 			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="127" end="61122" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A4_v2_rr1-PB.wav" volume="-12.0dB" />
 			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="59988" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A5_v2_rr1-PB.wav" volume="-12.0dB" />
@@ -47,7 +47,7 @@
 			<sample rootNote="79" loNote="78" hiNote="79" loVel="0" hiVel="127" end="56625" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_G4_v2_rr1-PB.wav" volume="-12.0dB" />
 			<sample rootNote="91" loNote="90" hiNote="91" loVel="0" hiVel="127" end="40977" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_G5_v2_rr1-PB.wav" volume="-12.0dB" />
 		</group>
-		<group name="gr_2" ampVelTrack="1">
+		<group name="gr_2" ampVelTrack="0">
 			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="78947" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A3_v2_rr2-PB.wav" volume="-12.0dB" />
 			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="127" end="85516" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A4_v2_rr2-PB.wav" volume="-12.0dB" />
 			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="42331" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A5_v2_rr2-PB.wav" volume="-12.0dB" />
@@ -62,7 +62,7 @@
 			<sample rootNote="79" loNote="78" hiNote="79" loVel="0" hiVel="127" end="60956" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_G4_v2_rr2-PB.wav" volume="-12.0dB" />
 			<sample rootNote="91" loNote="90" hiNote="91" loVel="0" hiVel="127" end="53119" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_G5_v2_rr2-PB.wav" volume="-12.0dB" />
 		</group>
-		<group name="gr_1" ampVelTrack="1">
+		<group name="gr_1" ampVelTrack="0">
 			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="61452" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A3_v2_rr1-PB.wav" volume="3.7dB" />
 			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="127" end="61122" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A4_v2_rr1-PB.wav" volume="2.7dB" />
 			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="59988" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A5_v2_rr1-PB.wav" volume="1.7dB" />
@@ -77,7 +77,7 @@
 			<sample rootNote="79" loNote="78" hiNote="79" loVel="0" hiVel="127" end="56625" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_G4_v2_rr1-PB.wav" volume="1.7dB" />
 			<sample rootNote="91" loNote="90" hiNote="91" loVel="0" hiVel="127" end="40977" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_G5_v2_rr1-PB.wav" volume="1.7dB" />
 		</group>
-		<group name="gr_2" ampVelTrack="1">
+		<group name="gr_2" ampVelTrack="0">
 			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="78947" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A3_v2_rr2-PB.wav" volume="2.7dB" />
 			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="127" end="85516" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A4_v2_rr2-PB.wav" volume="4.7dB" />
 			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="42331" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A5_v2_rr2-PB.wav" volume="1.7dB" />
@@ -92,7 +92,7 @@
 			<sample rootNote="79" loNote="78" hiNote="79" loVel="0" hiVel="127" end="60956" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_G4_v2_rr2-PB.wav" volume="2.7dB" />
 			<sample rootNote="91" loNote="90" hiNote="91" loVel="0" hiVel="127" end="53119" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_G5_v2_rr2-PB.wav" volume="1.7dB" />
 		</group>
-		<group name="gr_1" ampVelTrack="1">
+		<group name="gr_1" ampVelTrack="0">
 			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="61452" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A3_v2_rr1-PB.wav" volume="3.7dB" />
 			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="127" end="61122" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A4_v2_rr1-PB.wav" volume="2.7dB" />
 			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="59988" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A5_v2_rr1-PB.wav" volume="1.7dB" />
@@ -107,7 +107,7 @@
 			<sample rootNote="79" loNote="78" hiNote="79" loVel="0" hiVel="127" end="56625" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_G4_v2_rr1-PB.wav" volume="1.7dB" />
 			<sample rootNote="91" loNote="90" hiNote="91" loVel="0" hiVel="127" end="40977" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_G5_v2_rr1-PB.wav" volume="1.7dB" />
 		</group>
-		<group name="gr_2" ampVelTrack="1">
+		<group name="gr_2" ampVelTrack="0">
 			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="78947" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A3_v2_rr2-PB.wav" volume="2.7dB" />
 			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="127" end="85516" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A4_v2_rr2-PB.wav" volume="4.7dB" />
 			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="42331" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A5_v2_rr2-PB.wav" volume="1.7dB" />

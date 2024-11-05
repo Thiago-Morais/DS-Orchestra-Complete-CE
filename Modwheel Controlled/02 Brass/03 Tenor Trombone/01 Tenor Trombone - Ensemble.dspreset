@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" release="0.024">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="75" hiVel="127" end="199424" path="Resources/Tenor Trombone - Ensemble Samples/2_F.wav" />
 			<sample rootNote="57" loNote="55" hiNote="58" loVel="75" hiVel="127" end="210432" path="Resources/Tenor Trombone - Ensemble Samples/2_A.wav" />
 			<sample rootNote="60" loNote="59" hiNote="61" loVel="75" hiVel="127" end="183539" path="Resources/Tenor Trombone - Ensemble Samples/3_C.wav" />
@@ -45,7 +45,7 @@
 			<sample rootNote="81" loNote="80" hiNote="82" loVel="75" hiVel="127" end="162304" path="Resources/Tenor Trombone - Ensemble Samples/4_A.wav" />
 			<sample rootNote="84" loNote="83" hiNote="89" loVel="75" hiVel="127" end="169600" path="Resources/Tenor Trombone - Ensemble Samples/5_C.wav" />
 		</group>
-		<group name="Group 2" ampVelTrack="1">
+		<group name="Group 2" ampVelTrack="0">
 			<sample rootNote="53" loNote="52" hiNote="55" loVel="0" hiVel="90" end="108297" path="Resources/Tenor Trombone - Ensemble Samples/2_F_p.wav" tuning="-0.05" />
 			<sample rootNote="58" loNote="56" hiNote="60" loVel="0" hiVel="90" end="121750" path="Resources/Tenor Trombone - Ensemble Samples/2_Bb_p.wav" tuning="-0.05" />
 			<sample rootNote="63" loNote="61" hiNote="65" loVel="0" hiVel="90" end="129107" path="Resources/Tenor Trombone - Ensemble Samples/3_Eb_p-PB-loop.wav" tuning="-0.05" />
@@ -54,7 +54,7 @@
 			<sample rootNote="78" loNote="76" hiNote="80" loVel="0" hiVel="90" end="111386" path="Resources/Tenor Trombone - Ensemble Samples/4_Gb_p.wav" tuning="-0.15" />
 			<sample rootNote="83" loNote="81" hiNote="89" loVel="0" hiVel="90" end="100878" path="Resources/Tenor Trombone - Ensemble Samples/4_B_p.wav" />
 		</group>
-		<group name="Group 3" ampVelTrack="1">
+		<group name="Group 3" ampVelTrack="0">
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="75" hiVel="127" end="199424" path="Resources/Tenor Trombone - Ensemble Samples/2_F.wav" />
 			<sample rootNote="57" loNote="55" hiNote="58" loVel="75" hiVel="127" end="210432" path="Resources/Tenor Trombone - Ensemble Samples/2_A.wav" />
 			<sample rootNote="60" loNote="59" hiNote="61" loVel="75" hiVel="127" end="183539" path="Resources/Tenor Trombone - Ensemble Samples/3_C.wav" />
@@ -67,7 +67,7 @@
 			<sample rootNote="81" loNote="80" hiNote="82" loVel="75" hiVel="127" end="162304" path="Resources/Tenor Trombone - Ensemble Samples/4_A.wav" />
 			<sample rootNote="84" loNote="83" hiNote="89" loVel="75" hiVel="127" end="169600" path="Resources/Tenor Trombone - Ensemble Samples/5_C.wav" />
 		</group>
-		<group name="Group 4" ampVelTrack="1">
+		<group name="Group 4" ampVelTrack="0">
 			<sample rootNote="53" loNote="52" hiNote="55" loVel="0" hiVel="90" end="108297" path="Resources/Tenor Trombone - Ensemble Samples/2_F_p.wav" tuning="-0.05" />
 			<sample rootNote="58" loNote="56" hiNote="60" loVel="0" hiVel="90" end="121750" path="Resources/Tenor Trombone - Ensemble Samples/2_Bb_p.wav" tuning="-0.05" />
 			<sample rootNote="63" loNote="61" hiNote="65" loVel="0" hiVel="90" end="129107" path="Resources/Tenor Trombone - Ensemble Samples/3_Eb_p-PB-loop.wav" tuning="-0.05" />
@@ -76,7 +76,7 @@
 			<sample rootNote="78" loNote="76" hiNote="80" loVel="0" hiVel="90" end="111386" path="Resources/Tenor Trombone - Ensemble Samples/4_Gb_p.wav" tuning="-0.15" />
 			<sample rootNote="83" loNote="81" hiNote="89" loVel="0" hiVel="90" end="100878" path="Resources/Tenor Trombone - Ensemble Samples/4_B_p.wav" />
 		</group>
-		<group name="Group 5" ampVelTrack="1">
+		<group name="Group 5" ampVelTrack="0">
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="75" hiVel="127" end="199424" path="Resources/Tenor Trombone - Ensemble Samples/2_F.wav" />
 			<sample rootNote="57" loNote="55" hiNote="58" loVel="75" hiVel="127" end="210432" path="Resources/Tenor Trombone - Ensemble Samples/2_A.wav" />
 			<sample rootNote="60" loNote="59" hiNote="61" loVel="75" hiVel="127" end="183539" path="Resources/Tenor Trombone - Ensemble Samples/3_C.wav" volume="2.0dB" />
@@ -89,7 +89,7 @@
 			<sample rootNote="81" loNote="80" hiNote="82" loVel="75" hiVel="127" end="162304" path="Resources/Tenor Trombone - Ensemble Samples/4_A.wav" />
 			<sample rootNote="84" loNote="83" hiNote="89" loVel="75" hiVel="127" end="169600" path="Resources/Tenor Trombone - Ensemble Samples/5_C.wav" />
 		</group>
-		<group name="Group 6" ampVelTrack="1">
+		<group name="Group 6" ampVelTrack="0">
 			<sample rootNote="53" loNote="52" hiNote="55" loVel="0" hiVel="90" end="108297" path="Resources/Tenor Trombone - Ensemble Samples/2_F_p.wav" tuning="-0.05" />
 			<sample rootNote="58" loNote="56" hiNote="60" loVel="0" hiVel="90" end="121750" path="Resources/Tenor Trombone - Ensemble Samples/2_Bb_p.wav" tuning="-0.05" />
 			<sample rootNote="63" loNote="61" hiNote="65" loVel="0" hiVel="90" end="129107" path="Resources/Tenor Trombone - Ensemble Samples/3_Eb_p-PB-loop.wav" tuning="-0.05" volume="1.0dB" />
@@ -98,7 +98,7 @@
 			<sample rootNote="78" loNote="76" hiNote="80" loVel="0" hiVel="90" end="111386" path="Resources/Tenor Trombone - Ensemble Samples/4_Gb_p.wav" tuning="-0.15" volume="-1.0dB" />
 			<sample rootNote="83" loNote="81" hiNote="89" loVel="0" hiVel="90" end="100878" path="Resources/Tenor Trombone - Ensemble Samples/4_B_p.wav" />
 		</group>
-		<group name="Group 7" ampVelTrack="1">
+		<group name="Group 7" ampVelTrack="0">
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="75" hiVel="127" end="199424" path="Resources/Tenor Trombone - Ensemble Samples/2_F.wav" />
 			<sample rootNote="57" loNote="55" hiNote="58" loVel="75" hiVel="127" end="210432" path="Resources/Tenor Trombone - Ensemble Samples/2_A.wav" />
 			<sample rootNote="60" loNote="59" hiNote="61" loVel="75" hiVel="127" end="183539" path="Resources/Tenor Trombone - Ensemble Samples/3_C.wav" />
@@ -111,7 +111,7 @@
 			<sample rootNote="81" loNote="80" hiNote="82" loVel="75" hiVel="127" end="162304" path="Resources/Tenor Trombone - Ensemble Samples/4_A.wav" />
 			<sample rootNote="84" loNote="83" hiNote="89" loVel="75" hiVel="127" end="169600" path="Resources/Tenor Trombone - Ensemble Samples/5_C.wav" />
 		</group>
-		<group name="Group 8" ampVelTrack="1">
+		<group name="Group 8" ampVelTrack="0">
 			<sample rootNote="53" loNote="52" hiNote="55" loVel="0" hiVel="90" end="108297" path="Resources/Tenor Trombone - Ensemble Samples/2_F_p.wav" tuning="-0.05" />
 			<sample rootNote="58" loNote="56" hiNote="60" loVel="0" hiVel="90" end="121750" path="Resources/Tenor Trombone - Ensemble Samples/2_Bb_p.wav" tuning="-0.05" />
 			<sample rootNote="63" loNote="61" hiNote="65" loVel="0" hiVel="90" end="129107" path="Resources/Tenor Trombone - Ensemble Samples/3_Eb_p-PB-loop.wav" tuning="-0.05" />
@@ -120,7 +120,7 @@
 			<sample rootNote="78" loNote="76" hiNote="80" loVel="0" hiVel="90" end="111386" path="Resources/Tenor Trombone - Ensemble Samples/4_Gb_p.wav" tuning="-0.15" />
 			<sample rootNote="83" loNote="81" hiNote="89" loVel="0" hiVel="90" end="100878" path="Resources/Tenor Trombone - Ensemble Samples/4_B_p.wav" />
 		</group>
-		<group name="Group 9" ampVelTrack="1">
+		<group name="Group 9" ampVelTrack="0">
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="75" hiVel="127" end="199424" path="Resources/Tenor Trombone - Ensemble Samples/2_F.wav" />
 			<sample rootNote="57" loNote="55" hiNote="58" loVel="75" hiVel="127" end="210432" path="Resources/Tenor Trombone - Ensemble Samples/2_A.wav" />
 			<sample rootNote="60" loNote="59" hiNote="61" loVel="75" hiVel="127" end="183539" path="Resources/Tenor Trombone - Ensemble Samples/3_C.wav" volume="2.0dB" />
@@ -133,7 +133,7 @@
 			<sample rootNote="81" loNote="80" hiNote="82" loVel="75" hiVel="127" end="162304" path="Resources/Tenor Trombone - Ensemble Samples/4_A.wav" />
 			<sample rootNote="84" loNote="83" hiNote="89" loVel="75" hiVel="127" end="169600" path="Resources/Tenor Trombone - Ensemble Samples/5_C.wav" />
 		</group>
-		<group name="Group 10" ampVelTrack="1">
+		<group name="Group 10" ampVelTrack="0">
 			<sample rootNote="53" loNote="52" hiNote="55" loVel="0" hiVel="90" end="108297" path="Resources/Tenor Trombone - Ensemble Samples/2_F_p.wav" tuning="-0.05" />
 			<sample rootNote="58" loNote="56" hiNote="60" loVel="0" hiVel="90" end="121750" path="Resources/Tenor Trombone - Ensemble Samples/2_Bb_p.wav" tuning="-0.05" />
 			<sample rootNote="63" loNote="61" hiNote="65" loVel="0" hiVel="90" end="129107" path="Resources/Tenor Trombone - Ensemble Samples/3_Eb_p-PB-loop.wav" tuning="-0.05" volume="1.0dB" />

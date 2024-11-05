@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" release="0.090">
-		<group name="Group 2" ampVelTrack="1">
+		<group name="Group 2" ampVelTrack="0">
 			<sample rootNote="36" loNote="36" hiNote="37" loVel="0" hiVel="127" end="399872" path="Resources/Bass Ensemble Samples/C1-tremolo-PB.wav" volume="6.0dB" />
 			<sample rootNote="38" loNote="38" hiNote="39" loVel="0" hiVel="127" end="402725" path="Resources/Bass Ensemble Samples/D1-tremolo-PB.wav" volume="6.0dB" />
 			<sample rootNote="40" loNote="40" hiNote="40" loVel="0" hiVel="127" end="399872" path="Resources/Bass Ensemble Samples/E1-tremolo-PB.wav" volume="6.0dB" />

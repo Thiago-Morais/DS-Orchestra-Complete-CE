@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.060" release="0.068">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="60" loNote="60" hiNote="61" loVel="54" hiVel="127" end="101892" path="Resources/Viola Solo Samples/3_C_f-PB.wav" volume="4.0dB" />
 			<sample rootNote="63" loNote="62" hiNote="64" loVel="54" hiVel="127" end="109995" path="Resources/Viola Solo Samples/3_Eb_f-PB.wav" volume="4.0dB" />
 			<sample rootNote="66" loNote="65" hiNote="67" loVel="54" hiVel="127" end="103929" path="Resources/Viola Solo Samples/3_Gb_f-PB.wav" volume="2.0dB" />
@@ -48,7 +48,7 @@
 			<sample rootNote="96" loNote="95" hiNote="97" loVel="54" hiVel="127" end="85749" path="Resources/Viola Solo Samples/6_C_f-PB.wav" volume="5.0dB" />
 			<sample rootNote="99" loNote="98" hiNote="105" loVel="54" hiVel="127" end="80515" path="Resources/Viola Solo Samples/6_Eb_f-PB.wav" volume="4.0dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="1">
+		<group name="Group 2" ampVelTrack="0">
 			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="104" end="148927" path="Resources/Viola Solo Samples/3_C_mf-PB.wav" volume="4.0dB" />
 			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="104" end="113560" path="Resources/Viola Solo Samples/3_Eb_mf-PB.wav" volume="4.0dB" />
 			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="104" end="57299" path="Resources/Viola Solo Samples/3_Gb_mf-PB.wav" volume="2.0dB" />
@@ -64,7 +64,7 @@
 			<sample rootNote="96" loNote="95" hiNote="97" loVel="0" hiVel="104" end="95419" path="Resources/Viola Solo Samples/6_C_mf-PB.wav" volume="5.0dB" />
 			<sample rootNote="99" loNote="98" hiNote="105" loVel="0" hiVel="104" end="64028" path="Resources/Viola Solo Samples/6_Eb_mf-PB.wav" volume="4.0dB" />
 		</group>
-		<group name="Group 5" ampVelTrack="1">
+		<group name="Group 5" ampVelTrack="0">
 			<sample rootNote="60" loNote="60" hiNote="61" loVel="54" hiVel="127" end="101892" path="Resources/Viola Solo Samples/3_C_f-PB.wav" volume="4.0dB" />
 			<sample rootNote="63" loNote="62" hiNote="64" loVel="54" hiVel="127" end="109995" path="Resources/Viola Solo Samples/3_Eb_f-PB.wav" volume="4.0dB" />
 			<sample rootNote="66" loNote="65" hiNote="67" loVel="54" hiVel="127" end="103929" path="Resources/Viola Solo Samples/3_Gb_f-PB.wav" volume="2.0dB" />
@@ -80,7 +80,7 @@
 			<sample rootNote="96" loNote="95" hiNote="97" loVel="54" hiVel="127" end="85749" path="Resources/Viola Solo Samples/6_C_f-PB.wav" volume="5.0dB" />
 			<sample rootNote="99" loNote="98" hiNote="105" loVel="54" hiVel="127" end="80515" path="Resources/Viola Solo Samples/6_Eb_f-PB.wav" volume="4.0dB" />
 		</group>
-		<group name="Group 6" ampVelTrack="1">
+		<group name="Group 6" ampVelTrack="0">
 			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="104" end="148927" path="Resources/Viola Solo Samples/3_C_mf-PB.wav" volume="4.0dB" />
 			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="104" end="113560" path="Resources/Viola Solo Samples/3_Eb_mf-PB.wav" volume="4.0dB" />
 			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="104" end="57299" path="Resources/Viola Solo Samples/3_Gb_mf-PB.wav" volume="2.0dB" />
@@ -96,7 +96,7 @@
 			<sample rootNote="96" loNote="95" hiNote="97" loVel="0" hiVel="104" end="95419" path="Resources/Viola Solo Samples/6_C_mf-PB.wav" volume="5.0dB" />
 			<sample rootNote="99" loNote="98" hiNote="105" loVel="0" hiVel="104" end="64028" path="Resources/Viola Solo Samples/6_Eb_mf-PB.wav" volume="4.0dB" />
 		</group>
-		<group name="Group 9" ampVelTrack="1">
+		<group name="Group 9" ampVelTrack="0">
 			<sample rootNote="60" loNote="60" hiNote="61" loVel="54" hiVel="127" end="101892" path="Resources/Viola Solo Samples/3_C_f-PB.wav" volume="4.0dB" />
 			<sample rootNote="63" loNote="62" hiNote="64" loVel="54" hiVel="127" end="109995" path="Resources/Viola Solo Samples/3_Eb_f-PB.wav" volume="4.0dB" />
 			<sample rootNote="66" loNote="65" hiNote="67" loVel="54" hiVel="127" end="103929" path="Resources/Viola Solo Samples/3_Gb_f-PB.wav" volume="2.0dB" />
@@ -112,7 +112,7 @@
 			<sample rootNote="96" loNote="95" hiNote="97" loVel="54" hiVel="127" end="85749" path="Resources/Viola Solo Samples/6_C_f-PB.wav" volume="5.0dB" />
 			<sample rootNote="99" loNote="98" hiNote="105" loVel="54" hiVel="127" end="80515" path="Resources/Viola Solo Samples/6_Eb_f-PB.wav" volume="4.0dB" />
 		</group>
-		<group name="Group 10" ampVelTrack="1">
+		<group name="Group 10" ampVelTrack="0">
 			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="104" end="148927" path="Resources/Viola Solo Samples/3_C_mf-PB.wav" volume="4.0dB" />
 			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="104" end="113560" path="Resources/Viola Solo Samples/3_Eb_mf-PB.wav" volume="4.0dB" />
 			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="104" end="57299" path="Resources/Viola Solo Samples/3_Gb_mf-PB.wav" volume="2.0dB" />
