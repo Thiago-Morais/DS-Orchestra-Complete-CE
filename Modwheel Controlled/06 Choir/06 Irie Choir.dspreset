@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.112" release="0.101">
-		<group name="InChoirIrie" ampVelTrack="1">
+		<group name="InChoirIrie" ampVelTrack="0">
 			<sample end="13752" hiNote="55" hiVel="127" loNote="21" loVel="0" loopEnabled="true" loopEnd="13747" loopStart="7" path="Resources/InChoirIrie Samples/Vox F#2.wav" rootNote="54" tuning="0.03" volume="-13.0dB" />
 			<sample end="15108" hiNote="58" hiVel="127" loNote="56" loVel="0" loopEnabled="true" loopEnd="15103" loopStart="8" path="Resources/InChoirIrie Samples/Vox A2.wav" rootNote="57" tuning="0.03" volume="-13.0dB" />
 			<sample end="17451" hiNote="61" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="17446" loopStart="9" path="Resources/InChoirIrie Samples/Vox C3.wav" rootNote="60" tuning="0.03" volume="-13.0dB" />

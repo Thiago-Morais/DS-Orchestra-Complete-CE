@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.120">
-		<group name="gr_1" ampVelTrack="1">
+		<group name="gr_1" ampVelTrack="0">
 			<sample end="26690" hiNote="46" hiVel="62" loNote="43" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_A1_v1_rr1.wav" rootNote="45" volume="12.0dB" />
 			<sample end="25594" hiNote="58" hiVel="62" loNote="56" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_A2_v1_rr1.wav" rootNote="57" volume="12.0dB" />
 			<sample end="29318" hiNote="49" hiVel="62" loNote="47" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_C2_v1_rr1.wav" rootNote="48" volume="12.0dB" />
@@ -57,7 +57,7 @@
 			<sample end="33604" hiNote="55" hiVel="127" loNote="54" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_G2_v2_rr1.wav" rootNote="55" />
 			<sample end="32905" hiNote="69" hiVel="127" loNote="66" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_G3_v2_rr1.wav" rootNote="67" />
 		</group>
-		<group name="gr_2" ampVelTrack="1">
+		<group name="gr_2" ampVelTrack="0">
 			<sample end="26044" hiNote="46" hiVel="62" loNote="43" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_A1_v1_rr2.wav" rootNote="45" volume="12.0dB" />
 			<sample end="24429" hiNote="58" hiVel="62" loNote="56" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_A2_v1_rr2.wav" rootNote="57" volume="12.0dB" />
 			<sample end="30054" hiNote="49" hiVel="62" loNote="47" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_C2_v1_rr2.wav" rootNote="48" volume="12.0dB" />

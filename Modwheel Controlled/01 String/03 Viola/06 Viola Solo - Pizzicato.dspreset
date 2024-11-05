@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.003" release="0.036">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="132330" hiNote="61" hiVel="127" loNote="60" loVel="0" path="Resources/Viola Solo Samples/3_C_1-PB.wav" rootNote="60" tuning="0.05" volume="4.0dB" />
 			<sample end="110250" hiNote="66" hiVel="127" loNote="62" loVel="0" path="Resources/Viola Solo Samples/3_Eb_1-PB.wav" rootNote="63" volume="6.0dB" />
 			<sample end="110250" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/Viola Solo Samples/3_A_1-PB.wav" rootNote="69" volume="3.0dB" />

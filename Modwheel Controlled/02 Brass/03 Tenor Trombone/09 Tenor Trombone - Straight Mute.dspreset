@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="ff" ampVelTrack="1">
+		<group name="ff" ampVelTrack="0">
 			<sample end="79094" hiNote="41" hiVel="127" loNote="40" loVel="0" loopEnabled="true" loopEnd="48055" loopStart="24217" path="Resources/Tenor Trombone - Straight Mute Samples/HARD LONGS 002.wav" rootNote="41" start="6360" tuning="0.09" volume="3.401847595163388dB" />
 			<sample end="84915" hiNote="42" hiVel="127" loNote="42" loVel="0" loopEnabled="true" loopEnd="67148" loopStart="40020" path="Resources/Tenor Trombone - Straight Mute Samples/HARD LONGS 003.wav" rootNote="42" tuning="0.27" volume="3.401847595163388dB" />
 			<sample end="88928" hiNote="43" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="64531" loopStart="43928" path="Resources/Tenor Trombone - Straight Mute Samples/HARD LONGS 004.wav" rootNote="43" tuning="-0.10" volume="3.401847595163388dB" />
@@ -61,7 +61,7 @@
 			<sample end="141804" hiNote="66" hiVel="127" loNote="66" loVel="0" loopEnabled="true" loopEnd="82188" loopStart="42540" path="Resources/Tenor Trombone - Straight Mute Samples/HARD LONGS 027.wav" rootNote="66" tuning="0.15" volume="3.401847595163388dB" />
 			<sample end="144384" hiNote="70" hiVel="127" loNote="67" loVel="0" loopEnabled="true" loopEnd="110587" loopStart="77562" path="Resources/Tenor Trombone - Straight Mute Samples/HARD LONGS 028.wav" rootNote="67" start="741" tuning="-0.10" volume="6.535941906665492dB" />
 		</group>
-		<group name="p" ampVelTrack="1">
+		<group name="p" ampVelTrack="0">
 			<sample end="253642" hiNote="41" hiVel="127" loNote="40" loVel="0" loopEnabled="true" loopEnd="202216" loopStart="96126" path="Resources/Tenor Trombone - Straight Mute Samples/SOFT LONGS 002.wav" rootNote="41" volume="5.224443965179277dB" />
 			<sample end="297984" hiNote="42" hiVel="127" loNote="42" loVel="0" loopEnabled="true" loopEnd="240254" loopStart="149646" path="Resources/Tenor Trombone - Straight Mute Samples/SOFT LONGS 003.wav" rootNote="42" tuning="0.25" volume="5.224443965179277dB" />
 			<sample end="284534" hiNote="43" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="228144" loopStart="139482" path="Resources/Tenor Trombone - Straight Mute Samples/SOFT LONGS 004.wav" rootNote="43" volume="5.224443965179277dB" />

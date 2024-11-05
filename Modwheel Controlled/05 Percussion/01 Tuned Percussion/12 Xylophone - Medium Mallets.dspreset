@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.600">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="146376" hiNote="57" hiVel="83" loNote="55" loVel="0" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G3_pp_01_far.wav" rootNote="55" volume="12.0dB" />
 			<sample end="159682" hiNote="57" hiVel="127" loNote="55" loVel="84" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G3_ff_01_far.wav" rootNote="55" volume="1.425835dB" />
 			<sample end="96869" hiNote="63" hiVel="83" loNote="58" loVel="0" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C4_pp_01_far.wav" rootNote="60" volume="12.0dB" />

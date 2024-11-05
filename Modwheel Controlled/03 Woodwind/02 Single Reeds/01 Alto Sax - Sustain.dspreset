@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="ff" ampVelTrack="1">
+		<group name="ff" ampVelTrack="0">
 			<sample end="114086" hiNote="58" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="61448" loopStart="44051" path="Resources/Alto Sax Samples/ALTO_SXPH_NOVIB_LOUD_A#3.wav" rootNote="58" volume="1.2587385120208496dB" />
 			<sample end="128253" hiNote="70" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="81835" loopStart="65550" path="Resources/Alto Sax Samples/ALTO_SXPH_NOVIB_LOUD_A#4.wav" rootNote="70" tuning="-0.16" volume="1.2587385120208496dB" />
 			<sample end="107058" hiNote="56" hiVel="127" loNote="56" loVel="0" loopEnabled="true" loopEnd="70718" loopStart="51761" path="Resources/Alto Sax Samples/ALTO_SXPH_NOVIB_LOUD_A3.wav" rootNote="56" tuning="0.06" volume="1.2587385120208496dB" />

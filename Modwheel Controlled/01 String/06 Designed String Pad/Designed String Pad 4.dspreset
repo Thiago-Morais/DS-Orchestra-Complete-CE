@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.016" decay="0.959" release="0.078" sustain="0.934">
-		<group name="Sweep Pad" ampVelTrack="1">
+		<group name="Sweep Pad" ampVelTrack="0">
 			<sample end="11271" hiNote="61" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="11263" loopStart="18" path="Resources/Designed String Pad 4 Samples/SynthStrings G2.wav" rootNote="67" tuning="-0.03" volume="-8.7dB" />
 			<sample end="9331" hiNote="73" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="9323" loopStart="19" path="Resources/Designed String Pad 4 Samples/SynthStrings G3.wav" rootNote="78" tuning="-0.27" volume="-8.7dB" />
 			<sample end="9370" hiNote="92" hiVel="127" loNote="74" loVel="0" loopEnabled="true" loopEnd="9362" loopStart="23" path="Resources/Designed String Pad 4 Samples/SynthStrings G4.wav" rootNote="93" tuning="0.33" volume="-8.7dB" />

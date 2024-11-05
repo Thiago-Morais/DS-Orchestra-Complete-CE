@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" release="0.090">
-		<group name="Group 11" ampVelTrack="1">
+		<group name="Group 11" ampVelTrack="0">
 			<sample end="32122" hiNote="40" hiVel="127" loNote="36" loVel="0" path="Resources/Bass Ensemble Samples/basses-piz-rr1-c1-PB.wav" rootNote="36" tuning="-0.05" volume="4.0dB" />
 			<sample end="27196" hiNote="43" hiVel="127" loNote="41" loVel="0" path="Resources/Bass Ensemble Samples/basses-piz-rr2-f#1-PB.wav" rootNote="42" volume="4.0dB" />
 			<sample end="31724" hiNote="46" hiVel="127" loNote="44" loVel="0" path="Resources/Bass Ensemble Samples/basses-piz-rr1-a1-PB.wav" rootNote="45" volume="4.0dB" />

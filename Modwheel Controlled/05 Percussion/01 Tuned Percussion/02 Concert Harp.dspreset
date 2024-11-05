@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="1">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="932252" hiNote="29" hiVel="127" loNote="28" loVel="0" path="Resources/Concert Harp Samples/KSHarp_E1_f1.wav" rootNote="28" start="453" tuning="0.22" volume="11.205517dB" />
 			<sample end="297461" hiNote="33" hiVel="100" loNote="30" loVel="0" path="Resources/Concert Harp Samples/KSHarp_G1_mp1.wav" rootNote="31" tuning="0.22" volume="12.0dB" />
 			<sample end="696595" hiNote="33" hiVel="127" loNote="30" loVel="70" path="Resources/Concert Harp Samples/KSHarp_G1_f1.wav" rootNote="31" start="148" tuning="0.20" volume="12.0dB" />

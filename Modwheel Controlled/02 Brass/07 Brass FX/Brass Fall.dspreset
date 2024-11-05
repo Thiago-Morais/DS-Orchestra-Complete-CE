@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups decay="0.009">
-		<group name="falls L" ampVelTrack="1">
+		<group name="falls L" ampVelTrack="0">
 			<sample end="26406" hiNote="64" hiVel="127" loNote="28" loVel="0" path="Resources/Falls Samples/f41tfa.wav" rootNote="65" tuning="-0.16" />
 			<sample end="22627" hiNote="65" hiVel="127" loNote="65" loVel="0" path="Resources/Falls Samples/fs41tf.wav" rootNote="66" />
 			<sample end="27868" hiNote="66" hiVel="127" loNote="66" loVel="0" path="Resources/Falls Samples/g41tfa.wav" rootNote="67" tuning="-0.07" />
@@ -56,7 +56,7 @@
 			<sample end="33617" hiNote="84" hiVel="127" loNote="84" loVel="0" path="Resources/Falls Samples/cs61tf.wav" rootNote="85" tuning="0.05" />
 			<sample end="38968" hiNote="110" hiVel="127" loNote="85" loVel="0" path="Resources/Falls Samples/d62tfa.wav" rootNote="86" tuning="-0.28" />
 		</group>
-		<group name="falls R" ampVelTrack="1">
+		<group name="falls R" ampVelTrack="0">
 			<sample end="26971" hiNote="64" hiVel="127" loNote="0" loVel="0" path="Resources/Falls Samples/e41tfa.wav" rootNote="64" tuning="-0.15" />
 			<sample end="26406" hiNote="65" hiVel="127" loNote="65" loVel="0" path="Resources/Falls Samples/f41tfa.wav" rootNote="65" tuning="-0.16" />
 			<sample end="22627" hiNote="66" hiVel="127" loNote="66" loVel="0" path="Resources/Falls Samples/fs41tf.wav" rootNote="66" />

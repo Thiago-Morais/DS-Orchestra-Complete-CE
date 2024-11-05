@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="Bass Clarinet" ampVelTrack="1">
+		<group name="Bass Clarinet" ampVelTrack="0">
 			<sample end="83788" hiNote="75" hiVel="127" loNote="75" loVel="0" loopEnabled="true" loopEnd="71147" loopStart="51766" path="Resources/e - Eb Clarinet Samples/EB_CLARINET_LOUD_D#5.wav" rootNote="75" tuning="0.08" volume="3.181196554422965dB" />
 			<sample end="82340" hiNote="87" hiVel="127" loNote="87" loVel="0" loopEnabled="true" loopEnd="72368" loopStart="43569" path="Resources/e - Eb Clarinet Samples/EB_CLARINET_LOUD_D#6.wav" rootNote="87" tuning="0.38" volume="3.181196554422965dB" />
 			<sample end="86259" hiNote="62" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="57274" loopStart="41884" path="Resources/e - Eb Clarinet Samples/EB_CLARINET_LOUD_D4.wav" rootNote="62" volume="3.181196554422965dB" />

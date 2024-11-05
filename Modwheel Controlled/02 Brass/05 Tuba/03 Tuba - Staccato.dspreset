@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="Stac RR 1" ampVelTrack="1">
+		<group name="Stac RR 1" ampVelTrack="0">
 			<sample end="41219" hiNote="64" hiVel="127" loNote="60" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v2_rr1_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
 			<sample end="34275" hiNote="59" hiVel="127" loNote="56" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#2_v2_rr1_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
 			<sample end="43630" hiNote="55" hiVel="127" loNote="52" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F2_v2_rr1_Sum.wav" rootNote="53" volume="5.85730903073885dB" />
@@ -50,7 +50,7 @@
 			<sample end="48095" hiNote="39" hiVel="96" loNote="37" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v1_rr1_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
 			<sample end="34670" hiNote="36" hiVel="96" loNote="29" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v1_rr1_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
 		</group>
-		<group name="Stac RR 2" ampVelTrack="1">
+		<group name="Stac RR 2" ampVelTrack="0">
 			<sample end="43099" hiNote="64" hiVel="127" loNote="60" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v2_rr2_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
 			<sample end="33971" hiNote="59" hiVel="127" loNote="56" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#2_v2_rr2_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
 			<sample end="36393" hiNote="55" hiVel="127" loNote="52" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F2_v2_rr2_Sum.wav" rootNote="53" volume="5.85730903073885dB" />
@@ -68,7 +68,7 @@
 			<sample end="56803" hiNote="39" hiVel="96" loNote="37" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v2_rr1_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
 			<sample end="38059" hiNote="36" hiVel="96" loNote="29" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v2_rr1_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
 		</group>
-		<group name="Stac RR 3" ampVelTrack="1">
+		<group name="Stac RR 3" ampVelTrack="0">
 			<sample end="28331" hiNote="64" hiVel="127" loNote="60" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v2_rr3_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
 			<sample end="37498" hiNote="59" hiVel="127" loNote="56" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#2_v2_rr3_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
 			<sample end="37118" hiNote="55" hiVel="127" loNote="52" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F2_v2_rr3_Sum.wav" rootNote="53" volume="5.85730903073885dB" />
@@ -86,7 +86,7 @@
 			<sample end="25619" hiNote="39" hiVel="96" loNote="37" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D#1_v1_rr3_Sum.wav" rootNote="39" volume="5.85730903073885dB" />
 			<sample end="40150" hiNote="36" hiVel="96" loNote="29" loVel="0" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#0_v1_rr3_Sum.wav" rootNote="34" volume="5.85730903073885dB" />
 		</group>
-		<group name="Stac RR 4" ampVelTrack="1">
+		<group name="Stac RR 4" ampVelTrack="0">
 			<sample end="33478" hiNote="64" hiVel="127" loNote="60" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v2_rr4_Sum.wav" rootNote="62" volume="5.85730903073885dB" />
 			<sample end="34126" hiNote="59" hiVel="127" loNote="56" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#2_v2_rr4_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
 			<sample end="54287" hiNote="55" hiVel="127" loNote="52" loVel="97" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_F2_v2_rr4_Sum.wav" rootNote="53" volume="5.85730903073885dB" />

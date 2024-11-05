@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="Instrument1" ampVelTrack="1">
+		<group name="Instrument1" ampVelTrack="0">
 			<sample end="29250" hiNote="127" hiVel="127" loNote="0" loVel="0" path="Resources/brasswagner Samples/wagner.wav" rootNote="60" />
 			<sample end="29250" hiNote="127" hiVel="127" loNote="0" loVel="0" path="Resources/brasswagner Samples/wagner.wav" rootNote="48" />
 			<sample end="29250" hiNote="127" hiVel="127" loNote="0" loVel="0" path="Resources/brasswagner Samples/wagner.wav" rootNote="60" />

@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.001" decay="0.057" release="0.022" sustain="0.965">
-		<group name="Hollywoodstrings" ampVelTrack="1">
+		<group name="Hollywoodstrings" ampVelTrack="0">
 			<sample end="92036" hiNote="30" hiVel="127" loNote="0" loVel="76" loopEnabled="true" loopEnd="90500" loopStart="39556" path="Resources/Designed String Pad 5 Samples/d0.wav" rootNote="26" />
 			<sample end="91648" hiNote="42" hiVel="127" loNote="36" loVel="76" loopEnabled="true" loopEnd="90368" loopStart="27392" path="Resources/Designed String Pad 5 Samples/d1.wav" rootNote="38" />
 			<sample end="79572" hiNote="53" hiVel="127" loNote="48" loVel="76" loopEnabled="true" loopEnd="78037" loopStart="15828" path="Resources/Designed String Pad 5 Samples/d2.wav" rootNote="50" />
@@ -46,7 +46,7 @@
 			<sample end="73483" hiNote="71" hiVel="127" loNote="67" loVel="76" loopEnabled="true" loopEnd="72843" loopStart="11147" path="Resources/Designed String Pad 5 Samples/g3.wav" rootNote="67" />
 			<sample end="74676" hiNote="83" hiVel="127" loNote="79" loVel="76" loopEnabled="true" loopEnd="74164" loopStart="16180" path="Resources/Designed String Pad 5 Samples/g4.wav" rootNote="79" />
 		</group>
-		<group name="Hollywoodstrin1" ampVelTrack="1">
+		<group name="Hollywoodstrin1" ampVelTrack="0">
 			<sample end="92036" hiNote="30" hiVel="75" loNote="0" loVel="0" loopEnabled="true" loopEnd="90500" loopStart="39556" path="Resources/Designed String Pad 5 Samples/d0.wav" rootNote="26" />
 			<sample end="91648" hiNote="42" hiVel="75" loNote="36" loVel="0" loopEnabled="true" loopEnd="90368" loopStart="27392" path="Resources/Designed String Pad 5 Samples/d1.wav" rootNote="38" />
 			<sample end="79572" hiNote="53" hiVel="75" loNote="48" loVel="0" loopEnabled="true" loopEnd="78037" loopStart="15828" path="Resources/Designed String Pad 5 Samples/d2.wav" rootNote="50" />

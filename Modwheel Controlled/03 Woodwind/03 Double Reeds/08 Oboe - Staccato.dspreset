@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.080">
-		<group name="gr_1" ampVelTrack="1">
+		<group name="gr_1" ampVelTrack="0">
 			<sample end="44763" hiNote="59" hiVel="41" loNote="58" loVel="0" path="Resources/OboeStac Samples/Oboe_Stacc_A#2_v1_rr1_Main.wav" rootNote="58" volume="12.0dB" />
 			<sample end="43126" hiNote="71" hiVel="41" loNote="68" loVel="0" path="Resources/OboeStac Samples/Oboe_Stacc_A#3_v1_rr1_Main.wav" rootNote="70" volume="12.0dB" />
 			<sample end="30212" hiNote="83" hiVel="41" loNote="80" loVel="0" path="Resources/OboeStac Samples/Oboe_Stacc_A#4_v1_rr1_Main.wav" rootNote="82" volume="12.0dB" />
@@ -60,7 +60,7 @@
 			<sample end="30613" hiNote="79" hiVel="127" loNote="76" loVel="84" path="Resources/OboeStac Samples/Oboe_Stacc_F4_v3_rr1_Main.wav" rootNote="77" volume="9.0dB" />
 			<sample end="25043" hiNote="89" hiVel="127" loNote="88" loVel="84" path="Resources/OboeStac Samples/Oboe_Stacc_F5_v3_rr1_Main.wav" rootNote="89" volume="9.0dB" />
 		</group>
-		<group name="gr_2" ampVelTrack="1">
+		<group name="gr_2" ampVelTrack="0">
 			<sample end="36974" hiNote="59" hiVel="41" loNote="58" loVel="0" path="Resources/OboeStac Samples/Oboe_Stacc_A#2_v1_rr2_Main.wav" rootNote="58" volume="12.0dB" />
 			<sample end="37693" hiNote="71" hiVel="41" loNote="68" loVel="0" path="Resources/OboeStac Samples/Oboe_Stacc_A#3_v1_rr2_Main.wav" rootNote="70" volume="12.0dB" />
 			<sample end="22525" hiNote="83" hiVel="41" loNote="80" loVel="0" path="Resources/OboeStac Samples/Oboe_Stacc_A#4_v1_rr2_Main.wav" rootNote="82" volume="12.0dB" />

@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.120">
-		<group name="gr_1" ampVelTrack="1">
+		<group name="gr_1" ampVelTrack="0">
 			<sample end="24863" hiNote="59" hiVel="41" loNote="56" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v1_rr1_sum.wav" rootNote="58" volume="12.0dB" />
 			<sample end="22349" hiNote="71" hiVel="41" loNote="68" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v1_rr1_sum.wav" rootNote="70" volume="12.0dB" />
 			<sample end="26294" hiNote="83" hiVel="41" loNote="80" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v1_rr1_sum.wav" rootNote="82" volume="12.0dB" />
@@ -66,7 +66,7 @@
 			<sample end="26928" hiNote="79" hiVel="127" loNote="76" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_F4_v3_rr1_sum.wav" rootNote="77" volume="2.0dB" />
 			<sample end="29272" hiNote="89" hiVel="127" loNote="88" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_F5_v3_rr1_sum.wav" rootNote="89" volume="2.0dB" />
 		</group>
-		<group name="gr_2" ampVelTrack="1">
+		<group name="gr_2" ampVelTrack="0">
 			<sample end="24616" hiNote="59" hiVel="41" loNote="56" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v1_rr2_sum.wav" rootNote="58" volume="12.0dB" />
 			<sample end="25349" hiNote="71" hiVel="41" loNote="68" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v1_rr2_sum.wav" rootNote="70" volume="12.0dB" />
 			<sample end="27137" hiNote="83" hiVel="41" loNote="80" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v1_rr2_sum.wav" rootNote="82" volume="12.0dB" />

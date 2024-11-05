@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="1">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="621673" hiNote="61" hiVel="83" loNote="60" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_C4_v2_1.wav" rootNote="60" volume="12.0dB" />
 			<sample end="844270" hiNote="61" hiVel="127" loNote="60" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_C4_v4_1.wav" rootNote="60" volume="8.123357dB" />
 			<sample end="432404" hiNote="63" hiVel="83" loNote="62" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_D4_v2_1.wav" rootNote="62" volume="12.0dB" />

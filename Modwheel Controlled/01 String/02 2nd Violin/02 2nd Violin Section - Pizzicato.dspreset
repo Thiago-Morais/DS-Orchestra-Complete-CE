@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.050" release="0.080">
-		<group name="Group 12" ampVelTrack="1">
+		<group name="Group 12" ampVelTrack="0">
 			<sample end="27019" hiNote="68" hiVel="127" loNote="67" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-piz-rr1-g3-PB.wav" rootNote="67" volume="2.0dB" />
 			<sample end="27019" hiNote="71" hiVel="127" loNote="69" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-piz-rr1-a#3-PB.wav" rootNote="70" volume="4.0dB" />
 			<sample end="27019" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-piz-rr1-c#4-PB.wav" rootNote="73" volume="2.0dB" />

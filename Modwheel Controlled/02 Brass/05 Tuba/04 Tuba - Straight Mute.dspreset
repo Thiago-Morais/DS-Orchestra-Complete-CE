@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="ff" ampVelTrack="1">
+		<group name="ff" ampVelTrack="0">
 			<sample end="59117" hiNote="46" hiVel="127" loNote="46" loVel="0" loopEnabled="true" loopEnd="22273" loopStart="8941" path="Resources/Tuba - Straight Mute Samples/TUBA_LOUD_A#2.wav" rootNote="46" tuning="-0.30" volume="2.372128800435349dB" />
 			<sample end="65776" hiNote="58" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="16338" loopStart="12430" path="Resources/Tuba - Straight Mute Samples/TUBA_LOUD_A#3.wav" rootNote="58" tuning="-0.32" volume="2.372128800435349dB" />
 			<sample end="64144" hiNote="33" hiVel="127" loNote="33" loVel="0" loopEnabled="true" loopEnd="43028" loopStart="35884" path="Resources/Tuba - Straight Mute Samples/TUBA_LOUD_A1.wav" rootNote="33" tuning="-0.13" volume="2.372128800435349dB" />

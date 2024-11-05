@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="MF Layer" ampVelTrack="1">
+		<group name="MF Layer" ampVelTrack="0">
 			<sample end="178632" hiNote="58" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="177343" loopStart="133081" path="Resources/c - Oboe Samples/OboeA#3mf.wav" rootNote="58" volume="0.7432478815118999dB" />
 			<sample end="94870" hiNote="71" hiVel="127" loNote="69" loVel="0" loopEnabled="true" loopEnd="94814" loopStart="77465" path="Resources/c - Oboe Samples/OboeA#4mf.wav" rootNote="70" volume="0.7432478815118999dB" />
 			<sample end="127159" hiNote="82" hiVel="127" loNote="81" loVel="0" loopEnabled="true" loopEnd="127026" loopStart="93412" path="Resources/c - Oboe Samples/OboeA#5mf.wav" rootNote="82" volume="0.7432478815118999dB" />
@@ -48,7 +48,7 @@
 			<sample end="132770" hiNote="68" hiVel="127" loNote="66" loVel="0" loopEnabled="true" loopEnd="132748" loopStart="107097" path="Resources/c - Oboe Samples/OboeG4mf.wav" rootNote="67" volume="0.7432478815118999dB" />
 			<sample end="67797" hiNote="80" hiVel="127" loNote="78" loVel="0" loopEnabled="true" loopEnd="67775" loopStart="50875" path="Resources/c - Oboe Samples/OboeG5mf.wav" rootNote="79" volume="0.7432478815118999dB" />
 		</group>
-		<group name="FF Layer" ampVelTrack="1">
+		<group name="FF Layer" ampVelTrack="0">
 			<sample end="178632" hiNote="58" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="177343" loopStart="133081" path="Resources/c - Oboe Samples/OboeA#3ff.wav" rootNote="58" volume="0.7432478815118999dB" />
 			<sample end="94870" hiNote="71" hiVel="127" loNote="69" loVel="0" loopEnabled="true" loopEnd="94814" loopStart="77465" path="Resources/c - Oboe Samples/OboeA#4ff.wav" rootNote="70" volume="0.7432478815118999dB" />
 			<sample end="127159" hiNote="82" hiVel="127" loNote="81" loVel="0" loopEnabled="true" loopEnd="127026" loopStart="93412" path="Resources/c - Oboe Samples/OboeA#5ff.wav" rootNote="82" volume="0.7432478815118999dB" />

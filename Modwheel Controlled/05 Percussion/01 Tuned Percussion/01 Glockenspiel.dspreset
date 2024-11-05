@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.600">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="176729" hiNote="69" hiVel="83" loNote="67" loVel="0" path="Resources/Glockenspiel Samples/glock_soft_G4_01.wav" rootNote="67" volume="12.0dB" />
 			<sample end="317816" hiNote="69" hiVel="127" loNote="67" loVel="0" path="Resources/Glockenspiel Samples/glock_medium_G4_01.wav" rootNote="67" volume="12.0dB" />
 			<sample end="330859" hiNote="69" hiVel="127" loNote="67" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_G4_01.wav" rootNote="67" volume="12.0dB" />

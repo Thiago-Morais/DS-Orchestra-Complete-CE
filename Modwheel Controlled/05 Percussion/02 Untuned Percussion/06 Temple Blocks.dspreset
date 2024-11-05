@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="18934" hiNote="48" hiVel="35" loNote="21" loVel="0" path="Resources/TC - Temple Blocks Samples/Temple Block 1 p.wav" rootNote="48" start="148" volume="6.020599913279624dB" />
 			<sample end="31411" hiNote="48" hiVel="127" loNote="21" loVel="85" path="Resources/TC - Temple Blocks Samples/Temple Block 1 f.wav" rootNote="48" start="98" volume="6.020599913279624dB" />
 			<sample end="29185" hiNote="48" hiVel="96" loNote="21" loVel="56" path="Resources/TC - Temple Blocks Samples/Temple Block 1 mf.wav" rootNote="48" start="99" volume="6.020599913279624dB" />

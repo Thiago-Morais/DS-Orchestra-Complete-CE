@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="186784" hiNote="100" hiVel="63" loNote="98" loVel="0" path="Resources/TC - Timpani Samples/timpani-roll-d#1.wav" rootNote="99" volume="6.020599913279624dB" />
 			<sample end="189475" hiNote="103" hiVel="63" loNote="101" loVel="0" path="Resources/TC - Timpani Samples/timpani-roll-f#1.wav" rootNote="102" volume="6.020599913279624dB" />
 			<sample end="188981" hiNote="106" hiVel="63" loNote="104" loVel="0" path="Resources/TC - Timpani Samples/timpani-roll-a1.wav" rootNote="105" volume="6.020599913279624dB" />

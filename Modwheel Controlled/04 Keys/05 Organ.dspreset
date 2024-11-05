@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0">
-		<group name="Organ Loud" ampVelTrack="1">
+		<group name="Organ Loud" ampVelTrack="0">
 			<sample end="557664" hiNote="37" hiVel="127" loNote="36" loVel="0" path="Resources/Organ Samples/Rode_Man3Open_01.wav" rootNote="36" volume="13.914452060105525dB" />
 			<sample end="551589" hiNote="40" hiVel="127" loNote="38" loVel="0" path="Resources/Organ Samples/Rode_Man3Open_04.wav" rootNote="39" volume="13.914452060105525dB" />
 			<sample end="558504" hiNote="43" hiVel="127" loNote="41" loVel="0" path="Resources/Organ Samples/Rode_Man3Open_07.wav" rootNote="42" volume="13.914452060105525dB" />
@@ -55,7 +55,7 @@
 			<sample end="535946" hiNote="94" hiVel="127" loNote="92" loVel="0" path="Resources/Organ Samples/Rode_Man3Open_58.wav" rootNote="93" volume="13.914452060105525dB" />
 			<sample end="524811" hiNote="96" hiVel="127" loNote="95" loVel="0" path="Resources/Organ Samples/Rode_Man3Open_61.wav" rootNote="96" volume="13.914452060105525dB" />
 		</group>
-		<group name="Organ Soft" ampVelTrack="1">
+		<group name="Organ Soft" ampVelTrack="0">
 			<sample end="509387" hiNote="37" hiVel="127" loNote="36" loVel="0" path="Resources/Organ Samples/NT5_Man3Quiet_122_rr1.wav" rootNote="36" volume="13.914452060105525dB" />
 			<sample end="513015" hiNote="40" hiVel="127" loNote="38" loVel="0" path="Resources/Organ Samples/NT5_Man3Quiet_125_rr1.wav" rootNote="39" volume="13.914452060105525dB" />
 			<sample end="536076" hiNote="43" hiVel="127" loNote="41" loVel="0" path="Resources/Organ Samples/NT5_Man3Quiet_128_rr1.wav" rootNote="42" volume="13.914452060105525dB" />

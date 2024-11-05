@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" release="0.018">
-		<group name="Group 2" ampVelTrack="1">
+		<group name="Group 2" ampVelTrack="0">
 			<sample end="12754" hiNote="66" hiVel="127" loNote="64" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/E3-stac-PB.wav" rootNote="64" volume="-6.0dB" />
 			<sample end="12754" hiNote="69" hiVel="127" loNote="67" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/G#3-stac-PB.wav" rootNote="68" volume="-5.0dB" />
 			<sample end="12754" hiNote="74" hiVel="127" loNote="70" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/A#3-stac-PB.wav" rootNote="70" volume="-5.0dB" />
@@ -48,7 +48,7 @@
 			<sample end="12754" hiNote="93" hiVel="127" loNote="93" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/A5-stac-PB.wav" rootNote="93" volume="-6.0dB" />
 			<sample end="12754" hiNote="94" hiVel="127" loNote="94" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/B5-stac-PB.wav" rootNote="95" volume="-4.0dB" />
 		</group>
-		<group name="Group 4" ampVelTrack="1">
+		<group name="Group 4" ampVelTrack="0">
 			<sample end="12754" hiNote="66" hiVel="127" loNote="64" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/E3-stac-PB.wav" rootNote="64" />
 			<sample end="12754" hiNote="69" hiVel="127" loNote="67" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/G#3-stac-PB.wav" rootNote="68" volume="1.0dB" />
 			<sample end="12754" hiNote="74" hiVel="127" loNote="70" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/A#3-stac-PB.wav" rootNote="70" volume="1.0dB" />
@@ -64,7 +64,7 @@
 			<sample end="12754" hiNote="93" hiVel="127" loNote="93" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/A5-stac-PB.wav" rootNote="93" />
 			<sample end="12754" hiNote="94" hiVel="127" loNote="94" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/B5-stac-PB.wav" rootNote="95" volume="2.0dB" />
 		</group>
-		<group name="Group 6" ampVelTrack="1">
+		<group name="Group 6" ampVelTrack="0">
 			<sample end="12754" hiNote="66" hiVel="127" loNote="64" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/E3-stac-PB.wav" rootNote="64" />
 			<sample end="12754" hiNote="69" hiVel="127" loNote="67" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/G#3-stac-PB.wav" rootNote="68" volume="1.0dB" />
 			<sample end="12754" hiNote="74" hiVel="127" loNote="70" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/A#3-stac-PB.wav" rootNote="70" volume="1.0dB" />

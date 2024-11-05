@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="1" ampVelTrack="1">
+		<group name="1" ampVelTrack="0">
 			<sample end="465179" hiNote="64" hiVel="50" loNote="64" loVel="0" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-p.wav" rootNote="64" volume="6.020599913279624dB" />
 			<sample end="372918" hiNote="64" hiVel="127" loNote="64" loVel="80" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-f.wav" rootNote="64" volume="6.020599913279624dB" />
 			<sample end="351026" hiNote="64" hiVel="90" loNote="64" loVel="40" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-mf.wav" rootNote="64" volume="6.020599913279624dB" />

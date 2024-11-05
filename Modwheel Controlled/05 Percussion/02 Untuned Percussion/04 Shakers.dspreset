@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="75008" hiNote="48" hiVel="50" loNote="48" loVel="0" path="Resources/TC - Shakers Samples/Large Soft.wav" rootNote="48" volume="6.020599913279624dB" />
 			<sample end="59904" hiNote="48" hiVel="127" loNote="48" loVel="70" path="Resources/TC - Shakers Samples/Large Loud.wav" rootNote="48" volume="6.020599913279624dB" />
 			<sample end="59392" hiNote="48" hiVel="90" loNote="48" loVel="30" path="Resources/TC - Shakers Samples/Large Medium.wav" rootNote="48" volume="6.020599913279624dB" />

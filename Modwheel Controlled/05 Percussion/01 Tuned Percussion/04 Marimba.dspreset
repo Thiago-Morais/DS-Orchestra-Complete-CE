@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.600">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="132667" hiNote="44" hiVel="83" loNote="41" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F1_soft_01.wav" rootNote="41" start="22" volume="12.0dB" />
 			<sample end="171208" hiNote="44" hiVel="127" loNote="41" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F1_med_01.wav" rootNote="41" volume="12.0dB" />
 			<sample end="162058" hiNote="44" hiVel="127" loNote="41" loVel="84" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F1_loud_01.wav" rootNote="41" volume="12.0dB" />

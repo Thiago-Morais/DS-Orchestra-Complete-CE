@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.001" release="0.048">
-		<group name="CHOIR AHHS" ampVelTrack="1">
+		<group name="CHOIR AHHS" ampVelTrack="0">
 			<sample end="21406" hiNote="42" hiVel="127" loNote="12" loVel="0" loopEnabled="true" loopEnd="21398" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#21.wav" rootNote="39" />
 			<sample end="31107" hiNote="46" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="31099" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A21.wav" rootNote="45" />
 			<sample end="35927" hiNote="49" hiVel="127" loNote="47" loVel="0" loopEnabled="true" loopEnd="35919" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C31.wav" rootNote="48" />
@@ -46,7 +46,7 @@
 			<sample end="31633" hiNote="79" hiVel="127" loNote="74" loVel="0" loopEnabled="true" loopEnd="31625" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#51.wav" rootNote="75" tuning="0.05" />
 			<sample end="34437" hiNote="127" hiVel="127" loNote="80" loVel="0" loopEnabled="true" loopEnd="34429" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A51.wav" rootNote="81" tuning="0.10" />
 		</group>
-		<group name="CHOIR AHHS" ampVelTrack="1">
+		<group name="CHOIR AHHS" ampVelTrack="0">
 			<sample end="21406" hiNote="42" hiVel="127" loNote="12" loVel="0" loopEnabled="true" loopEnd="21398" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#21.wav" rootNote="39" />
 			<sample end="31107" hiNote="46" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="31099" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A21.wav" rootNote="45" />
 			<sample end="35927" hiNote="49" hiVel="127" loNote="47" loVel="0" loopEnabled="true" loopEnd="35919" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C31.wav" rootNote="48" />

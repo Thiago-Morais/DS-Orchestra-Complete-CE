@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.001" release="0.080">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="19264" hiNote="74" hiVel="127" loNote="70" loVel="0" path="Resources/PiccoloStac Samples/piccolo_A#4_staccato1.wav" rootNote="70" volume="10.0dB" />
 			<sample end="18882" hiNote="86" hiVel="127" loNote="81" loVel="0" path="Resources/PiccoloStac Samples/piccolo_A#5_staccato1.wav" rootNote="82" volume="10.0dB" />
 			<sample end="23990" hiNote="94" hiVel="127" loNote="93" loVel="0" path="Resources/PiccoloStac Samples/piccolo_A#6_staccato1.wav" rootNote="94" volume="10.0dB" />
