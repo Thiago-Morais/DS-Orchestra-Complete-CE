@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.040">
-		<group name="Piano" ampVelTrack="1">
+		<group name="Piano" ampVelTrack="0">
 			<sample end="1152986" hiNote="23" hiVel="127" loNote="20" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_000.wav" rootNote="21" volume="5.85730903073885dB" />
 			<sample end="1076961" hiNote="27" hiVel="127" loNote="24" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_002.wav" rootNote="25" volume="5.85730903073885dB" />
 			<sample end="1025895" hiNote="31" hiVel="127" loNote="28" loVel="97" path="Resources/Piano Samples/Player_dyn3_rr1_004.wav" rootNote="29" volume="5.85730903073885dB" />

@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.600">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="175386" hiNote="55" hiVel="83" loNote="53" loVel="0" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_F2_v2_rr1_Main.wav" rootNote="53" start="111" volume="12.0dB" />
 			<sample end="168748" hiNote="55" hiVel="127" loNote="53" loVel="84" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_F2_v3_rr1_Main.wav" rootNote="53" start="100" volume="6.83434dB" />
 			<sample end="445405" hiNote="58" hiVel="83" loNote="56" loVel="0" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_A2_v2_rr1_Main.wav" rootNote="57" start="111" volume="12.0dB" />

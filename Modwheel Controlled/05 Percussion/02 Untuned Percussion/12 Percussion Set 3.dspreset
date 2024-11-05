@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups decay="0.410" release="0.016" sustain="0">
-		<group name="Orch Batterie" ampVelTrack="1">
+		<group name="Orch Batterie" ampVelTrack="0">
 			<sample end="105865" hiNote="35" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="105860" loopStart="74432" path="Resources/Percussion 2 Samples/Concert BD 2 f.wav" rootNote="35" />
 			<sample end="35804" hiNote="35" hiVel="127" loNote="0" loVel="96" path="Resources/Percussion 2 Samples/Concert BD 9 ff.wav" rootNote="35" />
 			<sample end="34941" hiNote="36" hiVel="114" loNote="36" loVel="0" path="Resources/Percussion 2 Samples/Concert BD 8 f.wav" rootNote="36" volume="-1.0dB" />

@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups release="0.097">
-		<group name="Church Organ/GS" ampVelTrack="1">
+		<group name="Church Organ/GS" ampVelTrack="0">
 			<sample end="61256" hiNote="36" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="61248" loopStart="24522" path="Resources/Church Organ 2 Samples/Church Organ C1.wav" rootNote="36" />
 			<sample end="83312" hiNote="39" hiVel="127" loNote="37" loVel="0" loopEnabled="true" loopEnd="83215" loopStart="43654" path="Resources/Church Organ 2 Samples/Church Organ D1.wav" rootNote="39" />
 			<sample end="91752" hiNote="42" hiVel="127" loNote="40" loVel="0" loopEnabled="true" loopEnd="91741" loopStart="46262" path="Resources/Church Organ 2 Samples/Church Organ F1.wav" rootNote="42" />
@@ -55,7 +55,7 @@
 			<sample end="70032" hiNote="93" hiVel="127" loNote="91" loVel="0" loopEnabled="true" loopEnd="70007" loopStart="14156" path="Resources/Church Organ 2 Samples/Church Organ A5.wav" rootNote="93" />
 			<sample end="51304" hiNote="96" hiVel="127" loNote="94" loVel="0" loopEnabled="true" loopEnd="51289" loopStart="17894" path="Resources/Church Organ 2 Samples/Church Organ C6.wav" rootNote="96" />
 		</group>
-		<group name="Church Organ/GS" ampVelTrack="1">
+		<group name="Church Organ/GS" ampVelTrack="0">
 			<sample end="61256" hiNote="36" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="61248" loopStart="24522" path="Resources/Church Organ 2 Samples/Church Organ C1.wav" rootNote="36" />
 			<sample end="83312" hiNote="39" hiVel="127" loNote="37" loVel="0" loopEnabled="true" loopEnd="83215" loopStart="43654" path="Resources/Church Organ 2 Samples/Church Organ D1.wav" rootNote="39" />
 			<sample end="91752" hiNote="42" hiVel="127" loNote="40" loVel="0" loopEnabled="true" loopEnd="91741" loopStart="46262" path="Resources/Church Organ 2 Samples/Church Organ F1.wav" rootNote="42" />

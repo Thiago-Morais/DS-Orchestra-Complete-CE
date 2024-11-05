@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="ff" ampVelTrack="1">
+		<group name="ff" ampVelTrack="0">
 			<sample end="281800" hiNote="54" hiVel="127" loNote="52" loVel="0" loopEnabled="true" loopEnd="269178" loopStart="114601" path="Resources/Trumpet - Harmon Mute Samples/F0_f.wav" rootNote="53" volume="2.0494202125166807dB" />
 			<sample end="292626" hiNote="56" hiVel="127" loNote="55" loVel="0" loopEnabled="true" loopEnd="269321" loopStart="183147" path="Resources/Trumpet - Harmon Mute Samples/G0_f.wav" rootNote="55" volume="2.0494202125166807dB" />
 			<sample end="286518" hiNote="57" hiVel="127" loNote="57" loVel="0" loopEnabled="true" loopEnd="241439" loopStart="130991" path="Resources/Trumpet - Harmon Mute Samples/A0_f.wav" rootNote="57" volume="2.0494202125166807dB" />
@@ -52,7 +52,7 @@
 			<sample end="357233" hiNote="81" hiVel="127" loNote="81" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/A2_f.wav" rootNote="81" volume="2.0494202125166807dB" />
 			<sample end="369470" hiNote="89" hiVel="127" loNote="82" loVel="0" path="Resources/Trumpet - Harmon Mute Samples/Bb2_f.wav" rootNote="82" volume="2.0494202125166807dB" />
 		</group>
-		<group name="p" ampVelTrack="1">
+		<group name="p" ampVelTrack="0">
 			<sample end="376725" hiNote="54" hiVel="127" loNote="52" loVel="0" loopEnabled="true" loopEnd="357230" loopStart="168821" path="Resources/Trumpet - Harmon Mute Samples/F0_mf.wav" rootNote="53" volume="2.0494202125166807dB" />
 			<sample end="373902" hiNote="56" hiVel="127" loNote="55" loVel="0" loopEnabled="true" loopEnd="354170" loopStart="121063" path="Resources/Trumpet - Harmon Mute Samples/G0_mf.wav" rootNote="55" volume="2.0494202125166807dB" />
 			<sample end="375247" hiNote="57" hiVel="127" loNote="57" loVel="0" loopEnabled="true" loopEnd="356947" loopStart="140853" path="Resources/Trumpet - Harmon Mute Samples/A0_mf.wav" rootNote="57" tuning="-0.02" volume="2.0494202125166807dB" />

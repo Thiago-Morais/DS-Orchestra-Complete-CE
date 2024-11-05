@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups release="0.289">
-		<group name="Roland MarcatoVls" ampVelTrack="1">
+		<group name="Roland MarcatoVls" ampVelTrack="0">
 			<sample end="44861" hiNote="63" hiVel="127" loNote="56" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_d3_sod2_r3.wav" rootNote="60" />
 			<sample end="45862" hiNote="76" hiVel="127" loNote="68" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_d4_sod3_rd4.wav" rootNote="72" />
 			<sample end="64012" hiNote="42" hiVel="127" loNote="0" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_f1_x_fd1.wav" rootNote="41" />
@@ -42,7 +42,7 @@
 			<sample end="53288" hiNote="51" hiVel="127" loNote="43" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_si1_so1_dd2.wav" rootNote="47" />
 			<sample end="56314" hiNote="85" hiVel="127" loNote="76" loVel="0" path="Resources/Orchestra Hit 4 Samples/vls_sod_m4_dd5.wav" rootNote="79" />
 		</group>
-		<group name="Roland Marcato Vas" ampVelTrack="1">
+		<group name="Roland Marcato Vas" ampVelTrack="0">
 			<sample end="37886" hiNote="62" hiVel="127" loNote="58" loVel="0" path="Resources/Orchestra Hit 4 Samples/d3_sib2_dd3.wav" rootNote="60" />
 			<sample end="39562" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Orchestra Hit 4 Samples/f2_rd2_f2.wav" rootNote="53" />
 			<sample end="37671" hiNote="68" hiVel="127" loNote="62" loVel="0" path="Resources/Orchestra Hit 4 Samples/f3_r3_sod3.wav" rootNote="65" />
@@ -52,7 +52,7 @@
 			<sample end="35754" hiNote="74" hiVel="127" loNote="69" loVel="0" path="Resources/Orchestra Hit 4 Samples/si3_l3_dd4.wav" rootNote="71" />
 			<sample end="31075" hiNote="57" hiVel="127" loNote="54" loVel="0" path="Resources/Orchestra Hit 4 Samples/sol2_fd2_l2.wav" rootNote="56" />
 		</group>
-		<group name="Roland MarcatoVcs" ampVelTrack="1">
+		<group name="Roland MarcatoVcs" ampVelTrack="0">
 			<sample end="44380" hiNote="77" hiVel="127" loNote="69" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_d4_l3_m4.wav" rootNote="72" />
 			<sample end="45779" hiNote="70" hiVel="127" loNote="62" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_f3_r3_sod3.wav" rootNote="65" />
 			<sample end="48845" hiNote="52" hiVel="127" loNote="0" loVel="0" path="Resources/Orchestra Hit 4 Samples/Vcs_m2_x_m2.wav" rootNote="52" />

@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.060" release="0.084">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="227328" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/Cello Ensemble Samples/2_Db-PB-loop.wav" rootNote="49" tuning="-0.05" volume="-1.5dB" />
 			<sample end="233983" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Cello Ensemble Samples/2_E-PB-loop.wav" rootNote="52" tuning="-0.05" />
 			<sample end="212544" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/Cello Ensemble Samples/2_G-PB-loop.wav" rootNote="55" tuning="-0.05" volume="-0.5dB" />
@@ -45,7 +45,7 @@
 			<sample end="203520" hiNote="84" hiVel="127" loNote="81" loVel="0" path="Resources/Cello Ensemble Samples/4_Bb.wav" rootNote="82" tuning="0.05" volume="-1.0dB" />
 			<sample end="183625" hiNote="93" hiVel="127" loNote="85" loVel="0" path="Resources/Cello Ensemble Samples/5_E.wav" rootNote="88" tuning="-0.05" volume="-1.0dB" />
 		</group>
-		<group name="Group 3" ampVelTrack="1">
+		<group name="Group 3" ampVelTrack="0">
 			<sample end="227328" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/Cello Ensemble Samples/2_Db-PB-loop.wav" rootNote="49" tuning="-0.05" volume="-1.5dB" />
 			<sample end="233983" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Cello Ensemble Samples/2_E-PB-loop.wav" rootNote="52" tuning="-0.05" />
 			<sample end="212544" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/Cello Ensemble Samples/2_G-PB-loop.wav" rootNote="55" tuning="-0.05" volume="-0.5dB" />

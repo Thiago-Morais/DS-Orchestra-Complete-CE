@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.040">
-		<group name="Timp RR 1" ampVelTrack="1">
+		<group name="Timp RR 1" ampVelTrack="0">
 			<sample end="400643" hiNote="55" hiVel="127" loNote="53" loVel="66" path="Resources/Timpani Samples/Timpani1_Hit_v3_rr1_Sum.wav" rootNote="54" volume="5.85730903073885dB" />
 			<sample end="139968" hiNote="55" hiVel="65" loNote="53" loVel="0" path="Resources/Timpani Samples/Timpani1_Hit_v1_rr1_Sum.wav" rootNote="54" volume="5.85730903073885dB" />
 			<sample end="473765" hiNote="59" hiVel="96" loNote="56" loVel="66" path="Resources/Timpani Samples/Timpani2_Hit_v3_rr1_Sum.wav" rootNote="58" volume="5.85730903073885dB" />
@@ -58,7 +58,7 @@
 			<sample end="892529" hiNote="88" hiVel="127" loNote="87" loVel="65" path="Resources/Timpani Samples/Timpani4_Roll_v5_rr1_Sum.wav" rootNote="88" volume="9.433907002596749dB" />
 			<sample end="741804" hiNote="93" hiVel="127" loNote="89" loVel="65" path="Resources/Timpani Samples/Timpani5_Roll_v4_rr1_Sum.wav" rootNote="90" volume="9.433907002596749dB" />
 		</group>
-		<group name="Timp RR 2" ampVelTrack="1">
+		<group name="Timp RR 2" ampVelTrack="0">
 			<sample end="506629" hiNote="55" hiVel="127" loNote="53" loVel="66" path="Resources/Timpani Samples/Timpani1_Hit_v3_rr2_Sum.wav" rootNote="54" volume="5.85730903073885dB" />
 			<sample end="135588" hiNote="55" hiVel="65" loNote="53" loVel="0" path="Resources/Timpani Samples/Timpani1_Hit_v1_rr2_Sum.wav" rootNote="54" volume="5.85730903073885dB" />
 			<sample end="331265" hiNote="59" hiVel="62" loNote="56" loVel="0" path="Resources/Timpani Samples/Timpani2_Hit_v1_rr2_Sum.wav" rootNote="58" volume="5.85730903073885dB" />

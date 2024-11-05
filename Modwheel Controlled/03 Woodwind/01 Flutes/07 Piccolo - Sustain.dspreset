@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="Sustain" ampVelTrack="1">
+		<group name="Sustain" ampVelTrack="0">
 			<sample end="199797" hiNote="88" hiVel="127" loNote="86" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-d#5.wav" rootNote="87" volume="6.020599913279624dB" />
 			<sample end="201422" hiNote="100" hiVel="127" loNote="98" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-d#6.wav" rootNote="99" volume="6.020599913279624dB" />
 			<sample end="200382" hiNote="79" hiVel="127" loNote="77" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-f#4.wav" rootNote="78" volume="6.020599913279624dB" />

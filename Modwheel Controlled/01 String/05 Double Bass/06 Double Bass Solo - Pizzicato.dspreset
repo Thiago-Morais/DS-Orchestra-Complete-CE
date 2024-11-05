@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.040" release="0.072">
-		<group name="Group 10" ampVelTrack="1">
+		<group name="Group 10" ampVelTrack="0">
 			<sample end="95725" hiNote="40" hiVel="127" loNote="36" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Eb1-PB.wav" rootNote="39" />
 			<sample end="133019" hiNote="43" hiVel="127" loNote="41" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.F1-PB.wav" rootNote="41" tuning="-0.10" />
 			<sample end="104057" hiNote="45" hiVel="127" loNote="44" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.A1-PB.wav" rootNote="45" />

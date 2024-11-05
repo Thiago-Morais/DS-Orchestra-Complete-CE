@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups release="0.004">
-		<group name="Nois3 Orch Hit" ampVelTrack="1">
+		<group name="Nois3 Orch Hit" ampVelTrack="0">
 			<sample end="87939" hiNote="48" hiVel="127" loNote="48" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 048-.wav" rootNote="48" />
 			<sample end="88977" hiNote="49" hiVel="127" loNote="49" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 049-.wav" rootNote="49" />
 			<sample end="87759" hiNote="50" hiVel="127" loNote="50" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 050-.wav" rootNote="50" />

@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="1" ampVelTrack="1">
+		<group name="1" ampVelTrack="0">
 			<sample end="301106" hiNote="48" hiVel="127" loNote="21" loVel="0" path="Resources/TC - Orchestral Chimes Samples/bar_chimes-c.wav" rootNote="48" tuning="0.28" volume="6.020599913279624dB" />
 			<sample end="255112" hiNote="50" hiVel="127" loNote="50" loVel="0" path="Resources/TC - Orchestral Chimes Samples/bar_chimes-a.wav" rootNote="50" tuning="0.28" volume="6.020599913279624dB" />
 			<sample end="272714" hiNote="52" hiVel="127" loNote="52" loVel="0" path="Resources/TC - Orchestral Chimes Samples/bar_chimes-b.wav" rootNote="52" tuning="0.28" volume="6.020599913279624dB" />

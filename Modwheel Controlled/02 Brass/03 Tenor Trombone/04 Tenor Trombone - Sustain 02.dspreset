@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="ff" ampVelTrack="1">
+		<group name="ff" ampVelTrack="0">
 			<sample end="79094" hiNote="41" hiVel="127" loNote="40" loVel="0" loopEnabled="true" loopEnd="54013" loopStart="24217" path="Resources/Tenor Trombone - Sustain 02 Samples/HARD LONGS 002.wav" rootNote="41" start="6360" volume="2.717389324300517dB" />
 			<sample end="84915" hiNote="42" hiVel="127" loNote="42" loVel="0" loopEnabled="true" loopEnd="72121" loopStart="40183" path="Resources/Tenor Trombone - Sustain 02 Samples/HARD LONGS 003.wav" rootNote="42" volume="2.717389324300517dB" />
 			<sample end="88928" hiNote="43" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="68230" loopStart="43928" path="Resources/Tenor Trombone - Sustain 02 Samples/HARD LONGS 004.wav" rootNote="43" volume="2.717389324300517dB" />
@@ -61,7 +61,7 @@
 			<sample end="141804" hiNote="66" hiVel="127" loNote="66" loVel="0" loopEnabled="true" loopEnd="87376" loopStart="42553" path="Resources/Tenor Trombone - Sustain 02 Samples/HARD LONGS 027.wav" rootNote="66" volume="2.717389324300517dB" />
 			<sample end="144384" hiNote="70" hiVel="127" loNote="67" loVel="0" loopEnabled="true" loopEnd="112379" loopStart="78520" path="Resources/Tenor Trombone - Sustain 02 Samples/HARD LONGS 028.wav" rootNote="67" start="741" volume="2.717389324300517dB" />
 		</group>
-		<group name="p" ampVelTrack="1">
+		<group name="p" ampVelTrack="0">
 			<sample end="253642" hiNote="41" hiVel="127" loNote="40" loVel="0" loopEnabled="true" loopEnd="201870" loopStart="96793" path="Resources/Tenor Trombone - Sustain 02 Samples/SOFT LONGS 002.wav" rootNote="41" volume="2.717389324300517dB" />
 			<sample end="297984" hiNote="42" hiVel="127" loNote="42" loVel="0" loopEnabled="true" loopEnd="238339" loopStart="159184" path="Resources/Tenor Trombone - Sustain 02 Samples/SOFT LONGS 003.wav" rootNote="42" volume="2.717389324300517dB" />
 			<sample end="284534" hiNote="43" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="226730" loopStart="138064" path="Resources/Tenor Trombone - Sustain 02 Samples/SOFT LONGS 004.wav" rootNote="43" volume="2.717389324300517dB" />
@@ -93,7 +93,7 @@
 			<sample end="295007" hiNote="53" hiVel="127" loNote="53" loVel="0" loopEnabled="true" loopEnd="178042" loopStart="107769" path="Resources/Tenor Trombone - Sustain 02 Samples/SOFT LONGS 014.wav" rootNote="53" start="1180" volume="2.717389324300517dB" />
 			<sample end="273928" hiNote="64" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="207360" loopStart="92207" path="Resources/Tenor Trombone - Sustain 02 Samples/SOFT LONGS 025.wav" rootNote="64" start="2191" volume="2.717389324300517dB" />
 		</group>
-		<group name="mf" ampVelTrack="1">
+		<group name="mf" ampVelTrack="0">
 			<sample end="155387" hiNote="41" hiVel="127" loNote="40" loVel="0" loopEnabled="true" loopEnd="83121" loopStart="40690" path="Resources/Tenor Trombone - Sustain 02 Samples/MID LONGS 002.wav" rootNote="41" volume="2.717389324300517dB" />
 			<sample end="228549" hiNote="42" hiVel="127" loNote="42" loVel="0" loopEnabled="true" loopEnd="106928" loopStart="64970" path="Resources/Tenor Trombone - Sustain 02 Samples/MID LONGS 003.wav" rootNote="42" volume="2.717389324300517dB" />
 			<sample end="253884" hiNote="43" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="158167" loopStart="92008" path="Resources/Tenor Trombone - Sustain 02 Samples/MID LONGS 004.wav" rootNote="43" volume="2.717389324300517dB" />

@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="BD RR 1" ampVelTrack="1">
+		<group name="BD RR 1" ampVelTrack="0">
 			<sample end="66134" hiNote="36" hiVel="17" loNote="35" loVel="0" path="Resources/Percussion Samples/BDrumNewhit_v1_rr1_Sum.wav" rootNote="36" volume="6.020570403225608dB" />
 			<sample end="70393" hiNote="36" hiVel="35" loNote="35" loVel="18" path="Resources/Percussion Samples/BDrumNewhit_v2_rr1_Sum.wav" rootNote="36" volume="6.020570403225608dB" />
 			<sample end="91770" hiNote="36" hiVel="53" loNote="35" loVel="36" path="Resources/Percussion Samples/BDrumNewhit_v3_rr1_Sum.wav" rootNote="36" volume="6.020570403225608dB" />
@@ -41,7 +41,7 @@
 			<sample end="236963" hiNote="36" hiVel="108" loNote="35" loVel="91" path="Resources/Percussion Samples/BDrumNewhit_v6_rr1_Sum.wav" rootNote="36" volume="6.020570403225608dB" />
 			<sample end="276277" hiNote="36" hiVel="127" loNote="35" loVel="109" path="Resources/Percussion Samples/BDrumNewhit_v7_rr1_Sum.wav" rootNote="36" volume="6.020570403225608dB" />
 		</group>
-		<group name="BD RR 2" ampVelTrack="1">
+		<group name="BD RR 2" ampVelTrack="0">
 			<sample end="56218" hiNote="36" hiVel="17" loNote="35" loVel="0" path="Resources/Percussion Samples/BDrumNewhit_v1_rr2_Sum.wav" rootNote="36" volume="6.020570403225608dB" />
 			<sample end="75588" hiNote="36" hiVel="35" loNote="35" loVel="18" path="Resources/Percussion Samples/BDrumNewhit_v2_rr2_Sum.wav" rootNote="36" volume="6.020570403225608dB" />
 			<sample end="88634" hiNote="36" hiVel="53" loNote="35" loVel="36" path="Resources/Percussion Samples/BDrumNewhit_v3_rr2_Sum.wav" rootNote="36" volume="6.020570403225608dB" />
@@ -50,7 +50,7 @@
 			<sample end="233371" hiNote="36" hiVel="108" loNote="35" loVel="91" path="Resources/Percussion Samples/BDrumNewhit_v6_rr2_Sum.wav" rootNote="36" volume="6.020570403225608dB" />
 			<sample end="248486" hiNote="36" hiVel="127" loNote="35" loVel="109" path="Resources/Percussion Samples/BDrumNewhit_v7_rr2_Sum.wav" rootNote="36" volume="6.020570403225608dB" />
 		</group>
-		<group name="SN RR 1" ampVelTrack="1">
+		<group name="SN RR 1" ampVelTrack="0">
 			<sample end="56453" hiNote="38" hiVel="24" loNote="38" loVel="0" path="Resources/Percussion Samples/Snare2-HitSN_v1_rr1_Sum.wav" rootNote="38" volume="6.020570403225608dB" />
 			<sample end="76315" hiNote="38" hiVel="50" loNote="38" loVel="25" path="Resources/Percussion Samples/Snare2-HitSN_v3_rr1_Sum.wav" rootNote="38" volume="6.020570403225608dB" />
 			<sample end="60113" hiNote="38" hiVel="75" loNote="38" loVel="51" path="Resources/Percussion Samples/Snare2-HitSN_v5_rr1_Sum.wav" rootNote="38" volume="6.020570403225608dB" />
@@ -67,7 +67,7 @@
 			<sample end="517405" hiNote="37" hiVel="84" loNote="37" loVel="42" path="Resources/Percussion Samples/Snare2-rollSN_v1_rr1_Sum.wav" rootNote="37" volume="6.020570403225608dB" />
 			<sample end="491153" hiNote="37" hiVel="127" loNote="37" loVel="85" path="Resources/Percussion Samples/Snare2-rollSN_v3_rr1_Sum.wav" rootNote="37" volume="6.020570403225608dB" />
 		</group>
-		<group name="SN RR 2" ampVelTrack="1">
+		<group name="SN RR 2" ampVelTrack="0">
 			<sample end="53282" hiNote="38" hiVel="24" loNote="38" loVel="0" path="Resources/Percussion Samples/Snare2-HitSN_v1_rr2_Sum.wav" rootNote="38" volume="6.020570403225608dB" />
 			<sample end="57805" hiNote="38" hiVel="50" loNote="38" loVel="25" path="Resources/Percussion Samples/Snare2-HitSN_v3_rr2_Sum.wav" rootNote="38" volume="6.020570403225608dB" />
 			<sample end="63853" hiNote="38" hiVel="75" loNote="38" loVel="51" path="Resources/Percussion Samples/Snare2-HitSN_v5_rr2_Sum.wav" rootNote="38" volume="6.020570403225608dB" />
@@ -84,7 +84,7 @@
 			<sample end="491153" hiNote="37" hiVel="84" loNote="37" loVel="42" path="Resources/Percussion Samples/Snare2-rollSN_v3_rr1_Sum.wav" rootNote="37" volume="6.020570403225608dB" />
 			<sample end="419183" hiNote="37" hiVel="127" loNote="37" loVel="85" path="Resources/Percussion Samples/Snare2-rollSN_v5_rr1_Sum.wav" rootNote="37" volume="6.020570403225608dB" />
 		</group>
-		<group name="Timp RR 1" ampVelTrack="1">
+		<group name="Timp RR 1" ampVelTrack="0">
 			<sample end="400643" hiNote="55" hiVel="127" loNote="53" loVel="66" path="Resources/Percussion Samples/Timpani1_Hit_v3_rr1_Sum.wav" rootNote="54" volume="6.020570403225608dB" />
 			<sample end="139968" hiNote="55" hiVel="65" loNote="53" loVel="0" path="Resources/Percussion Samples/Timpani1_Hit_v1_rr1_Sum.wav" rootNote="54" volume="6.020570403225608dB" />
 			<sample end="473765" hiNote="59" hiVel="127" loNote="56" loVel="66" path="Resources/Percussion Samples/Timpani2_Hit_v3_rr1_Sum.wav" rootNote="58" volume="6.020570403225608dB" />
@@ -96,7 +96,7 @@
 			<sample end="81866" hiNote="68" hiVel="62" loNote="65" loVel="0" path="Resources/Percussion Samples/Timpani5_Hit_v1_rr1_Sum.wav" rootNote="66" volume="6.020570403225608dB" />
 			<sample end="259106" hiNote="68" hiVel="127" loNote="65" loVel="63" path="Resources/Percussion Samples/Timpani5_Hit_v3_rr1_Sum.wav" rootNote="66" volume="6.020570403225608dB" />
 		</group>
-		<group name="Timp RR 2" ampVelTrack="1">
+		<group name="Timp RR 2" ampVelTrack="0">
 			<sample end="506629" hiNote="55" hiVel="127" loNote="53" loVel="66" path="Resources/Percussion Samples/Timpani1_Hit_v3_rr2_Sum.wav" rootNote="54" volume="6.020570403225608dB" />
 			<sample end="135588" hiNote="55" hiVel="65" loNote="53" loVel="0" path="Resources/Percussion Samples/Timpani1_Hit_v1_rr2_Sum.wav" rootNote="54" volume="6.020570403225608dB" />
 			<sample end="331265" hiNote="59" hiVel="62" loNote="56" loVel="0" path="Resources/Percussion Samples/Timpani2_Hit_v1_rr2_Sum.wav" rootNote="58" volume="6.020570403225608dB" />
@@ -108,7 +108,7 @@
 			<sample end="246550" hiNote="68" hiVel="127" loNote="65" loVel="66" path="Resources/Percussion Samples/Timpani5_Hit_v3_rr2_Sum.wav" rootNote="66" volume="6.020570403225608dB" />
 			<sample end="65522" hiNote="68" hiVel="65" loNote="65" loVel="0" path="Resources/Percussion Samples/Timpani5_Hit_v1_rr2_Sum.wav" rootNote="66" volume="6.020570403225608dB" />
 		</group>
-		<group name="Glock" ampVelTrack="1">
+		<group name="Glock" ampVelTrack="0">
 			<sample end="317816" hiNote="87" hiVel="127" loNote="82" loVel="0" path="Resources/Percussion Samples/glock_medium_C5.wav" rootNote="84" volume="6.020570403225608dB" />
 			<sample end="317816" hiNote="99" hiVel="127" loNote="94" loVel="0" path="Resources/Percussion Samples/glock_medium_C6.wav" rootNote="96" volume="6.020570403225608dB" />
 			<sample end="123093" hiNote="112" hiVel="127" loNote="106" loVel="0" path="Resources/Percussion Samples/glock_medium_C7.wav" rootNote="108" volume="6.020570403225608dB" />
@@ -116,7 +116,7 @@
 			<sample end="306667" hiNote="93" hiVel="127" loNote="88" loVel="0" path="Resources/Percussion Samples/glock_medium_G5.wav" rootNote="91" volume="6.020570403225608dB" />
 			<sample end="210769" hiNote="105" hiVel="127" loNote="100" loVel="0" path="Resources/Percussion Samples/glock_medium_G6.wav" rootNote="103" volume="6.020570403225608dB" />
 		</group>
-		<group name="Tri RR 1" ampVelTrack="1">
+		<group name="Tri RR 1" ampVelTrack="0">
 			<sample end="370644" hiNote="69" hiVel="62" loNote="69" loVel="0" path="Resources/Percussion Samples/Triangle3-Hit_v1_rr1_Sum.wav" rootNote="69" volume="6.020570403225608dB" />
 			<sample end="524639" hiNote="69" hiVel="127" loNote="69" loVel="63" path="Resources/Percussion Samples/Triangle3-Hit_v2_rr1_Sum.wav" rootNote="69" volume="6.020570403225608dB" />
 			<sample end="36090" hiNote="71" hiVel="62" loNote="71" loVel="0" path="Resources/Percussion Samples/Triangle3-HitFM_v1_rr1_Sum.wav" rootNote="71" volume="6.020570403225608dB" />
@@ -132,7 +132,7 @@
 			<sample end="1736687" hiNote="75" hiVel="127" loNote="75" loVel="0" path="Resources/Percussion Samples/Triangle3-Roll_v2_rr1_Sum.wav" rootNote="75" volume="6.020570403225608dB" />
 			<sample end="1013169" hiNote="76" hiVel="127" loNote="76" loVel="0" path="Resources/Percussion Samples/Triangle6-Roll_v2_rr1_Sum.wav" rootNote="76" volume="6.020570403225608dB" />
 		</group>
-		<group name="Tri RR 2" ampVelTrack="1">
+		<group name="Tri RR 2" ampVelTrack="0">
 			<sample end="312833" hiNote="69" hiVel="62" loNote="69" loVel="0" path="Resources/Percussion Samples/Triangle3-Hit_v1_rr2_Sum.wav" rootNote="69" volume="6.020570403225608dB" />
 			<sample end="464423" hiNote="69" hiVel="127" loNote="69" loVel="63" path="Resources/Percussion Samples/Triangle3-Hit_v2_rr2_Sum.wav" rootNote="69" volume="6.020570403225608dB" />
 			<sample end="37334" hiNote="71" hiVel="62" loNote="71" loVel="0" path="Resources/Percussion Samples/Triangle3-HitFM_v1_rr2_Sum.wav" rootNote="71" volume="6.020570403225608dB" />
@@ -148,7 +148,7 @@
 			<sample end="1736687" hiNote="75" hiVel="127" loNote="75" loVel="0" path="Resources/Percussion Samples/Triangle3-Roll_v2_rr1_Sum.wav" rootNote="75" volume="6.020570403225608dB" />
 			<sample end="1013169" hiNote="76" hiVel="127" loNote="76" loVel="0" path="Resources/Percussion Samples/Triangle6-Roll_v2_rr1_Sum.wav" rootNote="76" volume="6.020570403225608dB" />
 		</group>
-		<group name="CY RR 1" ampVelTrack="1">
+		<group name="CY RR 1" ampVelTrack="0">
 			<sample end="443178" hiNote="41" hiVel="127" loNote="41" loVel="113" path="Resources/Percussion Samples/cymbal-crash1_ff_rr1.wav" rootNote="41" volume="6.020570403225608dB" />
 			<sample end="373905" hiNote="41" hiVel="112" loNote="41" loVel="81" path="Resources/Percussion Samples/cymbal-crash1_mf_rr1.wav" rootNote="41" volume="6.020570403225608dB" />
 			<sample end="313336" hiNote="41" hiVel="80" loNote="41" loVel="49" path="Resources/Percussion Samples/cymbal-crash1_mp_rr1.wav" rootNote="41" volume="6.020570403225608dB" />
@@ -173,7 +173,7 @@
 			<sample end="505388" hiNote="49" hiVel="127" loNote="49" loVel="0" path="Resources/Percussion Samples/susCymb1-bow-3.wav" rootNote="49" volume="6.020570403225608dB" />
 			<sample end="343098" hiNote="51" hiVel="127" loNote="51" loVel="0" path="Resources/Percussion Samples/susCymb1-bow-4.wav" rootNote="51" volume="6.020570403225608dB" />
 		</group>
-		<group name="CY RR 2" ampVelTrack="1">
+		<group name="CY RR 2" ampVelTrack="0">
 			<sample end="586124" hiNote="41" hiVel="127" loNote="41" loVel="113" path="Resources/Percussion Samples/cymbal-crash1_ff_rr2.wav" rootNote="41" volume="6.020570403225608dB" />
 			<sample end="425969" hiNote="41" hiVel="112" loNote="41" loVel="81" path="Resources/Percussion Samples/cymbal-crash1_mf_rr2.wav" rootNote="41" volume="6.020570403225608dB" />
 			<sample end="354119" hiNote="41" hiVel="80" loNote="41" loVel="49" path="Resources/Percussion Samples/cymbal-crash1_mp_rr2.wav" rootNote="41" volume="6.020570403225608dB" />
@@ -198,7 +198,7 @@
 			<sample end="505388" hiNote="49" hiVel="127" loNote="49" loVel="0" path="Resources/Percussion Samples/susCymb1-bow-3.wav" rootNote="49" volume="6.020570403225608dB" />
 			<sample end="343098" hiNote="51" hiVel="127" loNote="51" loVel="0" path="Resources/Percussion Samples/susCymb1-bow-4.wav" rootNote="51" volume="6.020570403225608dB" />
 		</group>
-		<group name="Log RR 1" ampVelTrack="1">
+		<group name="Log RR 1" ampVelTrack="0">
 			<sample end="65601" hiNote="34" hiVel="127" loNote="34" loVel="87" path="Resources/Percussion Samples/LogDrumHi_MedM_v1_rr1_Sum.wav" rootNote="34" volume="6.020570403225608dB" />
 			<sample end="68145" hiNote="34" hiVel="43" loNote="34" loVel="0" path="Resources/Percussion Samples/LogDrumHi_MedM_v2_rr1_Sum.wav" rootNote="34" volume="6.020570403225608dB" />
 			<sample end="66970" hiNote="34" hiVel="86" loNote="34" loVel="44" path="Resources/Percussion Samples/LogDrumHi_MedM_v3_rr1_Sum.wav" rootNote="34" volume="6.020570403225608dB" />
@@ -206,7 +206,7 @@
 			<sample end="49645" hiNote="33" hiVel="43" loNote="33" loVel="0" path="Resources/Percussion Samples/LogDrumLo_MedM_v1_rr1_Sum.wav" rootNote="33" volume="6.020570403225608dB" />
 			<sample end="62284" hiNote="33" hiVel="86" loNote="33" loVel="44" path="Resources/Percussion Samples/LogDrumLo_MedM_v2_rr1_Sum.wav" rootNote="33" volume="6.020570403225608dB" />
 		</group>
-		<group name="Log RR 2" ampVelTrack="1">
+		<group name="Log RR 2" ampVelTrack="0">
 			<sample end="68920" hiNote="34" hiVel="127" loNote="34" loVel="87" path="Resources/Percussion Samples/LogDrumHi_MedM_v3_rr2_Sum.wav" rootNote="34" volume="6.020570403225608dB" />
 			<sample end="70575" hiNote="34" hiVel="43" loNote="34" loVel="0" path="Resources/Percussion Samples/LogDrumHi_MedM_v1_rr2_Sum.wav" rootNote="34" volume="6.020570403225608dB" />
 			<sample end="65076" hiNote="34" hiVel="86" loNote="34" loVel="44" path="Resources/Percussion Samples/LogDrumHi_MedM_v2_rr2_Sum.wav" rootNote="34" volume="6.020570403225608dB" />
@@ -214,31 +214,31 @@
 			<sample end="53854" hiNote="33" hiVel="43" loNote="33" loVel="0" path="Resources/Percussion Samples/LogDrumLo_MedM_v1_rr2_Sum.wav" rootNote="33" volume="6.020570403225608dB" />
 			<sample end="58405" hiNote="33" hiVel="86" loNote="33" loVel="44" path="Resources/Percussion Samples/LogDrumLo_MedM_v2_rr2_Sum.wav" rootNote="33" volume="6.020570403225608dB" />
 		</group>
-		<group name="Quinto RR 1" ampVelTrack="1">
+		<group name="Quinto RR 1" ampVelTrack="0">
 			<sample end="51827" hiNote="31" hiVel="127" loNote="31" loVel="87" path="Resources/Percussion Samples/Quinto-HitN_v3_rr1_Sum.wav" rootNote="31" volume="6.020570403225608dB" />
 			<sample end="29272" hiNote="31" hiVel="43" loNote="31" loVel="0" path="Resources/Percussion Samples/Quinto-HitN_v1_rr1_Sum.wav" rootNote="31" volume="6.020570403225608dB" />
 			<sample end="35281" hiNote="31" hiVel="86" loNote="31" loVel="44" path="Resources/Percussion Samples/Quinto-HitN_v2_rr1_Sum.wav" rootNote="31" volume="6.020570403225608dB" />
 			<sample end="29082" hiNote="32" hiVel="127" loNote="32" loVel="0" path="Resources/Percussion Samples/Quinto-Tap1_v1_rr2_Sum.wav" rootNote="32" volume="6.020570403225608dB" />
 		</group>
-		<group name="Quinto RR 2" ampVelTrack="1">
+		<group name="Quinto RR 2" ampVelTrack="0">
 			<sample end="39274" hiNote="31" hiVel="127" loNote="31" loVel="87" path="Resources/Percussion Samples/Quinto-HitN_v3_rr2_Sum.wav" rootNote="31" volume="6.020570403225608dB" />
 			<sample end="40973" hiNote="31" hiVel="43" loNote="31" loVel="0" path="Resources/Percussion Samples/Quinto-HitN_v1_rr2_Sum.wav" rootNote="31" volume="6.020570403225608dB" />
 			<sample end="38966" hiNote="31" hiVel="86" loNote="31" loVel="44" path="Resources/Percussion Samples/Quinto-HitN_v2_rr2_Sum.wav" rootNote="31" volume="6.020570403225608dB" />
 			<sample end="29583" hiNote="32" hiVel="127" loNote="32" loVel="0" path="Resources/Percussion Samples/Quinto-Tap1_v1_rr1_Sum.wav" rootNote="32" volume="6.020570403225608dB" />
 		</group>
-		<group name="Conga RR 1" ampVelTrack="1">
+		<group name="Conga RR 1" ampVelTrack="0">
 			<sample end="57755" hiNote="29" hiVel="127" loNote="29" loVel="87" path="Resources/Percussion Samples/Conga-HitN_v3_rr1_Sum.wav" rootNote="30" volume="6.020570403225608dB" />
 			<sample end="46230" hiNote="29" hiVel="43" loNote="29" loVel="0" path="Resources/Percussion Samples/Conga-HitN_v1_rr1_Sum.wav" rootNote="29" volume="6.020570403225608dB" />
 			<sample end="34977" hiNote="29" hiVel="86" loNote="29" loVel="44" path="Resources/Percussion Samples/Conga-HitN_v2_rr1_Sum.wav" rootNote="29" volume="6.020570403225608dB" />
 			<sample end="17529" hiNote="30" hiVel="127" loNote="30" loVel="0" path="Resources/Percussion Samples/Conga-Tap1_v1_rr1_Sum.wav" rootNote="30" volume="6.020570403225608dB" />
 		</group>
-		<group name="Conga RR 2" ampVelTrack="1">
+		<group name="Conga RR 2" ampVelTrack="0">
 			<sample end="44636" hiNote="29" hiVel="127" loNote="29" loVel="87" path="Resources/Percussion Samples/Conga-HitN_v3_rr2_Sum.wav" rootNote="30" volume="6.020570403225608dB" />
 			<sample end="29206" hiNote="29" hiVel="43" loNote="29" loVel="0" path="Resources/Percussion Samples/Conga-HitN_v1_rr2_Sum.wav" rootNote="29" volume="6.020570403225608dB" />
 			<sample end="32962" hiNote="29" hiVel="86" loNote="29" loVel="44" path="Resources/Percussion Samples/Conga-HitN_v2_rr2_Sum.wav" rootNote="29" volume="6.020570403225608dB" />
 			<sample end="19503" hiNote="30" hiVel="127" loNote="30" loVel="0" path="Resources/Percussion Samples/Conga-Tap1_v1_rr2_Sum.wav" rootNote="30" volume="6.020570403225608dB" />
 		</group>
-		<group name="Anvil" ampVelTrack="1">
+		<group name="Anvil" ampVelTrack="0">
 			<sample end="44636" hiNote="29" hiVel="127" loNote="29" loVel="87" path="Resources/Percussion Samples/Conga-HitN_v3_rr2_Sum.wav" rootNote="29" volume="6.020570403225608dB" />
 			<sample end="29206" hiNote="29" hiVel="43" loNote="29" loVel="0" path="Resources/Percussion Samples/Conga-HitN_v1_rr2_Sum.wav" rootNote="29" volume="6.020570403225608dB" />
 			<sample end="32962" hiNote="29" hiVel="86" loNote="29" loVel="44" path="Resources/Percussion Samples/Conga-HitN_v2_rr2_Sum.wav" rootNote="29" volume="6.020570403225608dB" />
@@ -247,25 +247,25 @@
 			<sample end="74346" hiNote="28" hiVel="43" loNote="28" loVel="0" path="Resources/Percussion Samples/Anvil_Hit1_v1_Sum.wav" rootNote="28" volume="6.020570403225608dB" />
 			<sample end="66855" hiNote="28" hiVel="86" loNote="28" loVel="44" path="Resources/Percussion Samples/Anvil_Hit1_v2_Sum.wav" rootNote="28" volume="6.020570403225608dB" />
 		</group>
-		<group name="SlB RR 1" ampVelTrack="1">
+		<group name="SlB RR 1" ampVelTrack="0">
 			<sample end="110250" hiNote="27" hiVel="127" loNote="27" loVel="0" path="Resources/Percussion Samples/Sleighbells_Hit_v1_rr1_Mid.wav" rootNote="27" volume="6.020570403225608dB" />
 		</group>
-		<group name="SlB RR 2" ampVelTrack="1">
+		<group name="SlB RR 2" ampVelTrack="0">
 			<sample end="108606" hiNote="27" hiVel="127" loNote="27" loVel="0" path="Resources/Percussion Samples/Sleighbells_Hit_v1_rr2_Mid.wav" rootNote="27" volume="6.020570403225608dB" />
 		</group>
-		<group name="CowB RR 1" ampVelTrack="1">
+		<group name="CowB RR 1" ampVelTrack="0">
 			<sample end="48744" hiNote="26" hiVel="127" loNote="26" loVel="97" path="Resources/Percussion Samples/Cowbell1_Hit_v4_rr1_Sum.wav" rootNote="26" volume="6.020570403225608dB" />
 			<sample end="35307" hiNote="26" hiVel="31" loNote="26" loVel="0" path="Resources/Percussion Samples/Cowbell1_Hit_v1_rr1_Sum.wav" rootNote="26" volume="6.020570403225608dB" />
 			<sample end="49866" hiNote="26" hiVel="63" loNote="26" loVel="32" path="Resources/Percussion Samples/Cowbell1_Hit_v2_rr1_Sum.wav" rootNote="26" volume="6.020570403225608dB" />
 			<sample end="51106" hiNote="26" hiVel="96" loNote="26" loVel="64" path="Resources/Percussion Samples/Cowbell1_Hit_v3_rr1_Sum.wav" rootNote="26" volume="6.020570403225608dB" />
 		</group>
-		<group name="CowB RR 2" ampVelTrack="1">
+		<group name="CowB RR 2" ampVelTrack="0">
 			<sample end="47648" hiNote="26" hiVel="127" loNote="26" loVel="97" path="Resources/Percussion Samples/Cowbell1_Hit_v4_rr2_Sum.wav" rootNote="26" volume="6.020570403225608dB" />
 			<sample end="34392" hiNote="26" hiVel="31" loNote="26" loVel="0" path="Resources/Percussion Samples/Cowbell1_Hit_v1_rr2_Sum.wav" rootNote="26" volume="6.020570403225608dB" />
 			<sample end="44245" hiNote="26" hiVel="63" loNote="26" loVel="32" path="Resources/Percussion Samples/Cowbell1_Hit_v2_rr2_Sum.wav" rootNote="26" volume="6.020570403225608dB" />
 			<sample end="49419" hiNote="26" hiVel="96" loNote="26" loVel="64" path="Resources/Percussion Samples/Cowbell1_Hit_v3_rr2_Sum.wav" rootNote="26" volume="6.020570403225608dB" />
 		</group>
-		<group name="Gong" ampVelTrack="1">
+		<group name="Gong" ampVelTrack="0">
 			<sample end="1205682" hiNote="24" hiVel="127" loNote="24" loVel="113" path="Resources/Percussion Samples/gongHit_fff.wav" rootNote="24" volume="6.020570403225608dB" />
 			<sample end="1358262" hiNote="24" hiVel="112" loNote="24" loVel="81" path="Resources/Percussion Samples/gongHit_f.wav" rootNote="24" volume="6.020570403225608dB" />
 			<sample end="1499593" hiNote="24" hiVel="80" loNote="24" loVel="49" path="Resources/Percussion Samples/gongHit_mf.wav" rootNote="24" volume="6.020570403225608dB" />
@@ -273,7 +273,7 @@
 			<sample end="421962" hiNote="25" hiVel="127" loNote="25" loVel="81" path="Resources/Percussion Samples/gongscrape_mf.wav" rootNote="25" volume="6.020570403225608dB" />
 			<sample end="234258" hiNote="25" hiVel="80" loNote="25" loVel="0" path="Resources/Percussion Samples/gongscrape_pp.wav" rootNote="25" volume="6.020570403225608dB" />
 		</group>
-		<group name="Tamb RR 1" ampVelTrack="1">
+		<group name="Tamb RR 1" ampVelTrack="0">
 			<sample end="73288" hiNote="113" hiVel="127" loNote="113" loVel="66" path="Resources/Percussion Samples/Tamb1-Hit_v2_rr1_Sum.wav" rootNote="113" volume="6.020570403225608dB" />
 			<sample end="84598" hiNote="113" hiVel="65" loNote="113" loVel="0" path="Resources/Percussion Samples/Tamb1-Hit_v1_rr1_Sum.wav" rootNote="113" volume="6.020570403225608dB" />
 			<sample end="64711" hiNote="114" hiVel="127" loNote="114" loVel="0" path="Resources/Percussion Samples/Tamb1-Shake_v1_rr1_Sum.wav" rootNote="114" volume="6.020570403225608dB" />
@@ -281,7 +281,7 @@
 			<sample end="462463" hiNote="115" hiVel="43" loNote="115" loVel="0" path="Resources/Percussion Samples/Tamb1-Roll_v1_rr1_Sum.wav" rootNote="115" volume="6.020570403225608dB" />
 			<sample end="464455" hiNote="115" hiVel="86" loNote="115" loVel="44" path="Resources/Percussion Samples/Tamb1-Roll_v2_rr1_Sum.wav" rootNote="115" volume="6.020570403225608dB" />
 		</group>
-		<group name="Tamb RR 2" ampVelTrack="1">
+		<group name="Tamb RR 2" ampVelTrack="0">
 			<sample end="75858" hiNote="113" hiVel="127" loNote="113" loVel="66" path="Resources/Percussion Samples/Tamb1-Hit_v2_rr2_Sum.wav" rootNote="113" volume="6.020570403225608dB" />
 			<sample end="72684" hiNote="113" hiVel="65" loNote="113" loVel="0" path="Resources/Percussion Samples/Tamb1-Hit_v1_rr2_Sum.wav" rootNote="113" volume="6.020570403225608dB" />
 			<sample end="59422" hiNote="114" hiVel="127" loNote="114" loVel="0" path="Resources/Percussion Samples/Tamb1-Shake_v1_rr2_Sum.wav" rootNote="114" volume="6.020570403225608dB" />
@@ -289,53 +289,53 @@
 			<sample end="464455" hiNote="115" hiVel="84" loNote="115" loVel="42" path="Resources/Percussion Samples/Tamb1-Roll_v2_rr1_Sum.wav" rootNote="115" volume="6.020570403225608dB" />
 			<sample end="427904" hiNote="115" hiVel="127" loNote="115" loVel="85" path="Resources/Percussion Samples/Tamb1-Roll_v3_rr1_Sum.wav" rootNote="115" volume="6.020570403225608dB" />
 		</group>
-		<group name="Claves RR 1" ampVelTrack="1">
+		<group name="Claves RR 1" ampVelTrack="0">
 			<sample end="49936" hiNote="23" hiVel="41" loNote="23" loVel="0" path="Resources/Percussion Samples/Claves1_Hit_v1_rr1_Sum.wav" rootNote="23" volume="6.020570403225608dB" />
 			<sample end="47927" hiNote="23" hiVel="84" loNote="23" loVel="42" path="Resources/Percussion Samples/Claves1_Hit_v2_rr1_Sum.wav" rootNote="23" volume="6.020570403225608dB" />
 			<sample end="57165" hiNote="23" hiVel="127" loNote="23" loVel="85" path="Resources/Percussion Samples/Claves1_Hit_v3_rr1_Sum.wav" rootNote="23" volume="6.020570403225608dB" />
 		</group>
-		<group name="Claves RR 2" ampVelTrack="1">
+		<group name="Claves RR 2" ampVelTrack="0">
 			<sample end="66727" hiNote="23" hiVel="127" loNote="23" loVel="87" path="Resources/Percussion Samples/Claves1_Hit_v3_rr2_Sum.wav" rootNote="23" volume="6.020570403225608dB" />
 			<sample end="45468" hiNote="23" hiVel="43" loNote="23" loVel="0" path="Resources/Percussion Samples/Claves1_Hit_v1_rr2_Sum.wav" rootNote="23" volume="6.020570403225608dB" />
 			<sample end="46742" hiNote="23" hiVel="86" loNote="23" loVel="44" path="Resources/Percussion Samples/Claves1_Hit_v2_rr2_Sum.wav" rootNote="23" volume="6.020570403225608dB" />
 		</group>
-		<group name="Tumba RR 1" ampVelTrack="1">
+		<group name="Tumba RR 1" ampVelTrack="0">
 			<sample end="32264" hiNote="21" hiVel="127" loNote="21" loVel="87" path="Resources/Percussion Samples/Tumba_HitN_v3_rr1_Sum.wav" rootNote="21" volume="6.020570403225608dB" />
 			<sample end="31137" hiNote="21" hiVel="43" loNote="21" loVel="0" path="Resources/Percussion Samples/Tumba_HitN_v1_rr1_Sum.wav" rootNote="21" volume="6.020570403225608dB" />
 			<sample end="37296" hiNote="21" hiVel="86" loNote="21" loVel="44" path="Resources/Percussion Samples/Tumba_HitN_v2_rr1_Sum.wav" rootNote="21" volume="6.020570403225608dB" />
 			<sample end="22416" hiNote="22" hiVel="127" loNote="22" loVel="0" path="Resources/Percussion Samples/Tumba_Tap1_v1_rr1_Sum.wav" rootNote="22" volume="6.020570403225608dB" />
 		</group>
-		<group name="Tumba RR 2" ampVelTrack="1">
+		<group name="Tumba RR 2" ampVelTrack="0">
 			<sample end="21727" hiNote="22" hiVel="127" loNote="22" loVel="0" path="Resources/Percussion Samples/Tumba_Tap1_v1_rr2_Sum.wav" rootNote="22" volume="6.020570403225608dB" />
 			<sample end="30141" hiNote="21" hiVel="127" loNote="21" loVel="87" path="Resources/Percussion Samples/Tumba_HitN_v3_rr2_Sum.wav" rootNote="21" volume="6.020570403225608dB" />
 			<sample end="30831" hiNote="21" hiVel="43" loNote="21" loVel="0" path="Resources/Percussion Samples/Tumba_HitN_v1_rr2_Sum.wav" rootNote="21" volume="6.020570403225608dB" />
 			<sample end="31628" hiNote="21" hiVel="86" loNote="21" loVel="44" path="Resources/Percussion Samples/Tumba_HitN_v2_rr2_Sum.wav" rootNote="21" volume="6.020570403225608dB" />
 		</group>
-		<group name="Brake Drum" ampVelTrack="1">
+		<group name="Brake Drum" ampVelTrack="0">
 			<sample end="74828" hiNote="19" hiVel="41" loNote="19" loVel="0" path="Resources/Percussion Samples/BrakeDrum1_Hammer_v3_rr1_Sum.wav" rootNote="19" volume="6.020570403225608dB" />
 			<sample end="75410" hiNote="19" hiVel="84" loNote="19" loVel="42" path="Resources/Percussion Samples/BrakeDrum1_Hammer_v1_rr1_Sum.wav" rootNote="19" volume="6.020570403225608dB" />
 			<sample end="70663" hiNote="19" hiVel="127" loNote="19" loVel="85" path="Resources/Percussion Samples/BrakeDrum1_Hammer_v2_rr1_Sum.wav" rootNote="19" volume="6.020570403225608dB" />
 		</group>
-		<group name="Bell Tree RR 1" ampVelTrack="1">
+		<group name="Bell Tree RR 1" ampVelTrack="0">
 			<sample end="201257" hiNote="18" hiVel="127" loNote="18" loVel="0" path="Resources/Percussion Samples/BellTree_Stroke_rr1_Sum.wav" rootNote="18" volume="6.020570403225608dB" />
 			<sample end="226332" hiNote="20" hiVel="127" loNote="20" loVel="0" path="Resources/Percussion Samples/BellTree_Stroke_rr4_Sum.wav" rootNote="20" volume="6.020570403225608dB" />
 		</group>
-		<group name="Bell Tree RR 2" ampVelTrack="1">
+		<group name="Bell Tree RR 2" ampVelTrack="0">
 			<sample end="260283" hiNote="18" hiVel="127" loNote="18" loVel="0" path="Resources/Percussion Samples/BellTree_Stroke_rr6_Sum.wav" rootNote="18" volume="6.020570403225608dB" />
 			<sample end="262588" hiNote="20" hiVel="127" loNote="20" loVel="0" path="Resources/Percussion Samples/BellTree_Stroke_rr9_Sum.wav" rootNote="20" volume="6.020570403225608dB" />
 		</group>
-		<group name="Guiro" ampVelTrack="1">
+		<group name="Guiro" ampVelTrack="0">
 			<sample end="66760" hiNote="17" hiVel="127" loNote="17" loVel="0" path="Resources/Percussion Samples/Guiro_Fast_rr1_Sum.wav" rootNote="17" volume="6.020570403225608dB" />
 			<sample end="82947" hiNote="16" hiVel="127" loNote="16" loVel="0" path="Resources/Percussion Samples/Guiro_Med_rr1_Sum.wav" rootNote="16" volume="6.020570403225608dB" />
 			<sample end="116283" hiNote="14" hiVel="127" loNote="14" loVel="0" path="Resources/Percussion Samples/Guiro_Slow_rr1_Sum.wav" rootNote="14" volume="6.020570403225608dB" />
 			<sample end="58553" hiNote="15" hiVel="127" loNote="15" loVel="0" path="Resources/Percussion Samples/Guiro_Hit_rr1_Sum.wav" rootNote="15" volume="6.020570403225608dB" />
 		</group>
-		<group name="Rachet" ampVelTrack="1">
+		<group name="Rachet" ampVelTrack="0">
 			<sample end="311824" hiNote="12" hiVel="127" loNote="12" loVel="0" path="Resources/Percussion Samples/Ratchet1_Fast_rr1_Sum.wav" rootNote="12" volume="6.020570403225608dB" />
 			<sample end="394743" hiNote="11" hiVel="127" loNote="11" loVel="0" path="Resources/Percussion Samples/Ratchet1_Slow_rr1_Sum.wav" rootNote="11" volume="6.020570403225608dB" />
 			<sample end="69669" hiNote="13" hiVel="127" loNote="13" loVel="0" path="Resources/Percussion Samples/Ratchet1_Crank_rr1_Sum.wav" rootNote="13" volume="6.020570403225608dB" />
 		</group>
-		<group name="Stuff" ampVelTrack="1">
+		<group name="Stuff" ampVelTrack="0">
 			<sample end="105972" hiNote="10" hiVel="127" loNote="10" loVel="0" path="Resources/Percussion Samples/vibraring4.wav" rootNote="10" start="2640" volume="6.020570403225608dB" />
 			<sample end="73901" hiNote="9" hiVel="127" loNote="9" loVel="0" path="Resources/Percussion Samples/vibraring2.wav" rootNote="9" start="2394" volume="6.020570403225608dB" />
 			<sample end="107989" hiNote="8" hiVel="127" loNote="8" loVel="0" path="Resources/Percussion Samples/zap13.wav" rootNote="8" volume="6.020570403225608dB" />

@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.120">
-		<group name="gr_1" ampVelTrack="1">
+		<group name="gr_1" ampVelTrack="0">
 			<sample end="42566" hiNote="37" hiVel="30" loNote="34" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v1_rr1.wav" rootNote="34" volume="12.0dB" />
 			<sample end="39097" hiNote="49" hiVel="30" loNote="44" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v1_rr1.wav" rootNote="46" volume="12.0dB" />
 			<sample end="49087" hiNote="59" hiVel="30" loNote="56" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v1_rr1.wav" rootNote="58" volume="12.0dB" />
@@ -62,7 +62,7 @@
 			<sample end="67519" hiNote="55" hiVel="127" loNote="50" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F2_v4_rr1.wav" rootNote="53" volume="3.0dB" />
 			<sample end="88460" hiNote="70" hiVel="127" loNote="64" loVel="95" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_F3_v4_rr1.wav" rootNote="65" volume="3.0dB" />
 		</group>
-		<group name="gr_2" ampVelTrack="1">
+		<group name="gr_2" ampVelTrack="0">
 			<sample end="45111" hiNote="37" hiVel="30" loNote="34" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#0_v1_rr2.wav" rootNote="34" volume="12.0dB" />
 			<sample end="65895" hiNote="49" hiVel="30" loNote="44" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#1_v1_rr2.wav" rootNote="46" volume="12.0dB" />
 			<sample end="74771" hiNote="59" hiVel="41" loNote="56" loVel="0" path="Resources/Tenor Trombone - Staccato Samples/tenortbn_stac_A#2_v1_rr2.wav" rootNote="58" volume="12.0dB" />

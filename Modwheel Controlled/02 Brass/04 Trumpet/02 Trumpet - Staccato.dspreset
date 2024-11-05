@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.080">
-		<group name="gr_1" ampVelTrack="1">
+		<group name="gr_1" ampVelTrack="0">
 			<sample end="50323" hiNote="71" hiVel="41" loNote="69" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v1_rr1.wav" rootNote="70" volume="12.0dB" />
 			<sample end="33198" hiNote="58" hiVel="41" loNote="55" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v1_rr1.wav" rootNote="57" volume="12.0dB" />
 			<sample end="65356" hiNote="82" hiVel="41" loNote="79" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v1_rr1.wav" rootNote="81" volume="12.0dB" />
@@ -67,7 +67,7 @@
 			<sample end="67710" hiNote="78" hiVel="127" loNote="76" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F4_v3_rr1.wav" rootNote="77" volume="5.0dB" />
 			<sample end="56699" hiNote="68" hiVel="127" loNote="66" loVel="84" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_G3_v3_rr1.wav" rootNote="67" volume="5.0dB" />
 		</group>
-		<group name="gr_2" ampVelTrack="1">
+		<group name="gr_2" ampVelTrack="0">
 			<sample end="49935" hiNote="71" hiVel="41" loNote="69" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v1_rr2.wav" rootNote="70" volume="12.0dB" />
 			<sample end="36821" hiNote="58" hiVel="41" loNote="55" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v1_rr2.wav" rootNote="57" volume="12.0dB" />
 			<sample end="53910" hiNote="82" hiVel="41" loNote="79" loVel="0" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v1_rr2.wav" rootNote="81" volume="12.0dB" />

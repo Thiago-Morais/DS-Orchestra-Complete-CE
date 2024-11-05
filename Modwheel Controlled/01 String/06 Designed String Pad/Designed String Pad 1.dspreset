@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.003" decay="0.554" release="0.058" sustain="0.893">
-		<group name="Halo Pad" ampVelTrack="1">
+		<group name="Halo Pad" ampVelTrack="0">
 			<sample end="14754" hiNote="57" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="14746" loopStart="67" path="Resources/Designed String Pad 1 Samples/Syn Vox F#3.wav" rootNote="76" tuning="0.21" volume="-9.0dB" />
 			<sample end="14754" hiNote="69" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="14746" loopStart="67" path="Resources/Designed String Pad 1 Samples/Syn Vox F#3.wav" rootNote="76" tuning="0.21" volume="-9.0dB" />
 			<sample end="22981" hiNote="77" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="22973" loopStart="14" path="Resources/Designed String Pad 1 Samples/Syn Vox C4.wav" rootNote="80" tuning="0.04" volume="-9.0dB" />

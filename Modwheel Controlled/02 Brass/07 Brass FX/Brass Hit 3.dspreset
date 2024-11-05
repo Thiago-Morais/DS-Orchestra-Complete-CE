@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="BrassTom" ampVelTrack="1">
+		<group name="BrassTom" ampVelTrack="0">
 			<sample end="151397" hiNote="127" hiVel="127" loNote="0" loVel="0" path="Resources/BrassTom Samples/BrassTom.wav" rootNote="60" />
 		</group>
 	</groups>

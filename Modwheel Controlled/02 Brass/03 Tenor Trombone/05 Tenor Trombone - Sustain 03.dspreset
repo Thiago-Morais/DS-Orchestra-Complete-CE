@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="Sus Vib" ampVelTrack="1">
+		<group name="Sus Vib" ampVelTrack="0">
 			<sample end="249725" hiNote="67" hiVel="127" loNote="63" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_D#3_v1_1.wav" rootNote="63" start="2834" volume="5.85730903073885dB" />
 			<sample end="240326" hiNote="62" hiVel="127" loNote="61" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_D3_v1_1.wav" rootNote="62" start="3888" volume="5.85730903073885dB" />
 			<sample end="242516" hiNote="60" hiVel="127" loNote="59" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_C3_v1_1.wav" rootNote="60" start="1056" volume="5.85730903073885dB" />
@@ -45,7 +45,7 @@
 			<sample end="263020" hiNote="51" hiVel="127" loNote="50" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_D#2_v1_1.wav" rootNote="51" start="10192" volume="5.85730903073885dB" />
 			<sample end="327894" hiNote="54" hiVel="127" loNote="52" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_F2_v1_1.wav" rootNote="53" volume="5.85730903073885dB" />
 		</group>
-		<group name="Stac RR 1" ampVelTrack="1">
+		<group name="Stac RR 1" ampVelTrack="0">
 			<sample end="46365" hiNote="37" hiVel="127" loNote="33" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v4_1.wav" rootNote="34" start="1125" volume="5.85730903073885dB" />
 			<sample end="80791" hiNote="43" hiVel="127" loNote="38" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v4_1.wav" rootNote="41" start="180" volume="5.85730903073885dB" />
 			<sample end="88460" hiNote="67" hiVel="127" loNote="64" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v4_1.wav" rootNote="65" start="976" volume="5.85730903073885dB" />
@@ -75,7 +75,7 @@
 			<sample end="45072" hiNote="55" hiVel="48" loNote="50" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v1_1.wav" rootNote="53" volume="5.85730903073885dB" />
 			<sample end="39097" hiNote="49" hiVel="48" loNote="44" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v1_1.wav" rootNote="46" start="430" volume="5.85730903073885dB" />
 		</group>
-		<group name="Stac RR 2" ampVelTrack="1">
+		<group name="Stac RR 2" ampVelTrack="0">
 			<sample end="45111" hiNote="37" hiVel="48" loNote="33" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#0_v1_2.wav" rootNote="34" start="796" volume="5.85730903073885dB" />
 			<sample end="55110" hiNote="43" hiVel="48" loNote="38" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F1_v1_2.wav" rootNote="41" start="395" volume="5.85730903073885dB" />
 			<sample end="46535" hiNote="67" hiVel="48" loNote="64" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F3_v1_2.wav" rootNote="65" volume="5.85730903073885dB" />
@@ -105,7 +105,7 @@
 			<sample end="64130" hiNote="55" hiVel="127" loNote="50" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_F2_v4_2.wav" rootNote="53" start="510" volume="5.85730903073885dB" />
 			<sample end="62107" hiNote="49" hiVel="127" loNote="44" loVel="112" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_stac_A#1_v4_2.wav" rootNote="46" start="417" volume="5.85730903073885dB" />
 		</group>
-		<group name="Sus Non Vib" ampVelTrack="1">
+		<group name="Sus Non Vib" ampVelTrack="0">
 			<sample end="211849" hiNote="35" hiVel="48" loNote="33" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v1_1.wav" rootNote="34" start="870" volume="5.85730903073885dB" />
 			<sample end="328270" hiNote="37" hiVel="48" loNote="36" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#1_v1_1.wav" rootNote="37" start="584" volume="5.85730903073885dB" />
 			<sample end="519994" hiNote="39" hiVel="48" loNote="38" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v1_1.wav" rootNote="39" volume="5.85730903073885dB" />
@@ -138,7 +138,7 @@
 			<sample end="290522" hiNote="51" hiVel="127" loNote="48" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D2_v3_1.wav" rootNote="50" start="744" volume="5.85730903073885dB" />
 			<sample end="232707" hiNote="47" hiVel="127" loNote="44" loVel="97" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#1_v3_1.wav" rootNote="46" start="306" volume="5.85730903073885dB" />
 		</group>
-		<group name="Sus Non Vib Loud" ampVelTrack="1">
+		<group name="Sus Non Vib Loud" ampVelTrack="0">
 			<sample end="183888" hiNote="35" hiVel="127" loNote="33" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v2_1.wav" rootNote="34" start="976" volume="5.85730903073885dB" />
 			<sample end="220454" hiNote="39" hiVel="127" loNote="36" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v3_1.wav" rootNote="39" volume="5.85730903073885dB" />
 			<sample end="299476" hiNote="43" hiVel="127" loNote="40" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F1_v3_1.wav" rootNote="41" start="404" volume="5.85730903073885dB" />
@@ -150,7 +150,7 @@
 			<sample end="290522" hiNote="51" hiVel="127" loNote="48" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D2_v3_1.wav" rootNote="50" start="744" volume="5.85730903073885dB" />
 			<sample end="232707" hiNote="47" hiVel="127" loNote="44" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#1_v3_1.wav" rootNote="46" start="306" volume="5.85730903073885dB" />
 		</group>
-		<group name="Sus Non Vib Soft" ampVelTrack="1">
+		<group name="Sus Non Vib Soft" ampVelTrack="0">
 			<sample end="211849" hiNote="35" hiVel="79" loNote="33" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v1_1.wav" rootNote="34" start="870" volume="5.85730903073885dB" />
 			<sample end="328270" hiNote="37" hiVel="79" loNote="36" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_C#1_v1_1.wav" rootNote="37" start="584" volume="5.85730903073885dB" />
 			<sample end="519994" hiNote="39" hiVel="79" loNote="38" loVel="0" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v1_1.wav" rootNote="39" volume="5.85730903073885dB" />

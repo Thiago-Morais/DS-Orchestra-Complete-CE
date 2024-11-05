@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.120">
-		<group name="gr_1" ampVelTrack="1">
+		<group name="gr_1" ampVelTrack="0">
 			<sample end="48640" hiNote="34" hiVel="62" loNote="33" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A#0_v1_rr1.wav" rootNote="34" volume="12.0dB" />
 			<sample end="105297" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A1_v1_rr1.wav" rootNote="45" volume="12.0dB" />
 			<sample end="69715" hiNote="60" hiVel="127" loNote="58" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_B2_v1_rr1.wav" rootNote="59" volume="12.0dB" />
@@ -55,7 +55,7 @@
 			<sample end="89651" hiNote="30" hiVel="127" loNote="29" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_F#0_v3_rr1.wav" rootNote="30" volume="5.0dB" />
 			<sample end="70486" hiNote="32" hiVel="127" loNote="31" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G0_v3_rr1.wav" rootNote="31" volume="5.0dB" />
 		</group>
-		<group name="gr_2" ampVelTrack="1">
+		<group name="gr_2" ampVelTrack="0">
 			<sample end="57806" hiNote="34" hiVel="62" loNote="33" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A#0_v1_rr2.wav" rootNote="34" volume="12.0dB" />
 			<sample end="100354" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A1_v1_rr2.wav" rootNote="45" volume="12.0dB" />
 			<sample end="65887" hiNote="60" hiVel="127" loNote="58" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_B2_v1_rr2.wav" rootNote="59" volume="12.0dB" />

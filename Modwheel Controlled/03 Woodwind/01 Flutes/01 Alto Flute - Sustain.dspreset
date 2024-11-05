@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.060" release="0.024">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="111193" hiNote="71" hiVel="127" loNote="67" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-A#3-PB-loop.wav" rootNote="70" tuning="0.14" volume="-2.5dB" />
 			<sample end="124757" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-C#4-PB-loop.wav" rootNote="73" tuning="0.10" volume="-2.5dB" />
 			<sample end="139527" hiNote="76" hiVel="127" loNote="75" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-E4-PB-loop.wav" rootNote="76" tuning="-0.05" volume="-0.5dB" />
@@ -55,7 +55,7 @@
 			<sample end="109195" hiNote="101" hiVel="127" loNote="101" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F6-PB-loop.wav" rootNote="101" tuning="-0.30" volume="-2.0dB" />
 			<sample end="103920" hiNote="103" hiVel="127" loNote="102" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F#6-PB-loop.wav" rootNote="102" tuning="-0.35" volume="5.0dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="1">
+		<group name="Group 2" ampVelTrack="0">
 			<sample end="111193" hiNote="71" hiVel="127" loNote="67" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-A#3-PB-loop.wav" rootNote="70" tuning="0.14" volume="-2.5dB" />
 			<sample end="124757" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-C#4-PB-loop.wav" rootNote="73" tuning="0.10" volume="-2.5dB" />
 			<sample end="139527" hiNote="76" hiVel="127" loNote="75" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-E4-PB-loop.wav" rootNote="76" tuning="-0.05" volume="-0.5dB" />
@@ -78,7 +78,7 @@
 			<sample end="109195" hiNote="101" hiVel="127" loNote="101" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F6-PB-loop.wav" rootNote="101" tuning="-0.30" volume="-2.0dB" />
 			<sample end="103920" hiNote="103" hiVel="127" loNote="102" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F#6-PB-loop.wav" rootNote="102" tuning="-0.35" volume="5.0dB" />
 		</group>
-		<group name="Group 3" ampVelTrack="1">
+		<group name="Group 3" ampVelTrack="0">
 			<sample end="111193" hiNote="71" hiVel="127" loNote="67" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-A#3-PB-loop.wav" rootNote="70" start="1000" tuning="0.14" volume="2.0dB" />
 			<sample end="124757" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-C#4-PB-loop.wav" rootNote="73" start="500" tuning="0.10" volume="1.0dB" />
 			<sample end="139527" hiNote="76" hiVel="127" loNote="75" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-E4-PB-loop.wav" rootNote="76" start="100" tuning="-0.05" volume="-2.0dB" />
@@ -95,7 +95,7 @@
 			<sample end="113679" hiNote="101" hiVel="127" loNote="98" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-D#6-PB-loop.wav" rootNote="99" start="1000" tuning="-0.25" volume="2.0dB" />
 			<sample end="103920" hiNote="103" hiVel="127" loNote="102" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F#6-PB-loop.wav" rootNote="102" start="500" tuning="-0.35" volume="6.5dB" />
 		</group>
-		<group name="Group 4" ampVelTrack="1">
+		<group name="Group 4" ampVelTrack="0">
 			<sample end="111193" hiNote="71" hiVel="127" loNote="67" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-A#3-PB-loop.wav" rootNote="70" start="1000" tuning="0.14" volume="5.0dB" />
 			<sample end="124757" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-C#4-PB-loop.wav" rootNote="73" start="500" tuning="0.10" volume="4.0dB" />
 			<sample end="139527" hiNote="76" hiVel="127" loNote="75" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-E4-PB-loop.wav" rootNote="76" start="100" tuning="-0.05" volume="1.0dB" />
@@ -112,7 +112,7 @@
 			<sample end="113679" hiNote="101" hiVel="127" loNote="98" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-D#6-PB-loop.wav" rootNote="99" start="1000" tuning="-0.25" volume="5.0dB" />
 			<sample end="103920" hiNote="103" hiVel="127" loNote="102" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F#6-PB-loop.wav" rootNote="102" start="500" tuning="-0.35" volume="9.5dB" />
 		</group>
-		<group name="Group 5" ampVelTrack="1">
+		<group name="Group 5" ampVelTrack="0">
 			<sample end="111193" hiNote="71" hiVel="127" loNote="67" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-A#3-PB-loop.wav" rootNote="70" tuning="0.14" volume="-2.5dB" />
 			<sample end="124757" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-C#4-PB-loop.wav" rootNote="73" tuning="0.10" volume="-2.5dB" />
 			<sample end="139527" hiNote="76" hiVel="127" loNote="75" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-E4-PB-loop.wav" rootNote="76" tuning="-0.05" volume="-0.5dB" />
@@ -135,7 +135,7 @@
 			<sample end="109195" hiNote="101" hiVel="127" loNote="101" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F6-PB-loop.wav" rootNote="101" tuning="-0.30" volume="-2.0dB" />
 			<sample end="103920" hiNote="103" hiVel="127" loNote="102" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F#6-PB-loop.wav" rootNote="102" tuning="-0.35" volume="5.0dB" />
 		</group>
-		<group name="Group 6" ampVelTrack="1">
+		<group name="Group 6" ampVelTrack="0">
 			<sample end="111193" hiNote="71" hiVel="127" loNote="67" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-A#3-PB-loop.wav" rootNote="70" start="1000" tuning="0.14" volume="5.0dB" />
 			<sample end="124757" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-C#4-PB-loop.wav" rootNote="73" start="500" tuning="0.10" volume="4.0dB" />
 			<sample end="139527" hiNote="76" hiVel="127" loNote="75" loVel="0" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-E4-PB-loop.wav" rootNote="76" start="100" tuning="-0.05" volume="1.0dB" />

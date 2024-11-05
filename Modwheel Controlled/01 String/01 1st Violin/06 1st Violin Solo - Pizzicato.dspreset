@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.003" release="0.024">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="45357" hiNote="57" hiVel="127" loNote="55" loVel="0" path="Resources/1st-violin-SOLO-pizzicato Samples/3_A-PB.wav" rootNote="57" volume="3.0dB" />
 			<sample end="44394" hiNote="58" hiVel="127" loNote="58" loVel="0" path="Resources/1st-violin-SOLO-pizzicato Samples/3_Bb-PB.wav" rootNote="58" volume="6.0dB" />
 			<sample end="49395" hiNote="59" hiVel="127" loNote="59" loVel="0" path="Resources/1st-violin-SOLO-pizzicato Samples/3_B-PB.wav" rootNote="59" volume="3.0dB" />

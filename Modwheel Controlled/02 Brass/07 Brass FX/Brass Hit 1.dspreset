@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups release="1">
-		<group name="Large Brass Short F" ampVelTrack="1">
+		<group name="Large Brass Short F" ampVelTrack="0">
 			<sample end="45279" hiNote="46" hiVel="127" loNote="24" loVel="0" path="Resources/Brass Shot Forte S Samples/LGBRSHTF46-R.wav" rootNote="46" />
 			<sample end="41311" hiNote="48" hiVel="127" loNote="47" loVel="0" path="Resources/Brass Shot Forte S Samples/LGBRSHTF48-R.wav" rootNote="48" />
 			<sample end="43680" hiNote="50" hiVel="127" loNote="49" loVel="0" path="Resources/Brass Shot Forte S Samples/LGBRSHTF50-R.wav" rootNote="50" />
@@ -44,7 +44,7 @@
 			<sample end="39583" hiNote="62" hiVel="127" loNote="61" loVel="0" path="Resources/Brass Shot Forte S Samples/LGBRSHTF62-R.wav" rootNote="62" />
 			<sample end="43551" hiNote="77" hiVel="127" loNote="63" loVel="0" path="Resources/Brass Shot Forte S Samples/LGBRSHTF64-R.wav" rootNote="64" />
 		</group>
-		<group name="Large Brass Short F" ampVelTrack="1">
+		<group name="Large Brass Short F" ampVelTrack="0">
 			<sample end="45279" hiNote="46" hiVel="127" loNote="24" loVel="0" path="Resources/Brass Shot Forte S Samples/LGBRSHTF46-R.wav" rootNote="46" />
 			<sample end="41311" hiNote="48" hiVel="127" loNote="47" loVel="0" path="Resources/Brass Shot Forte S Samples/LGBRSHTF48-R.wav" rootNote="48" />
 			<sample end="43680" hiNote="50" hiVel="127" loNote="49" loVel="0" path="Resources/Brass Shot Forte S Samples/LGBRSHTF50-R.wav" rootNote="50" />

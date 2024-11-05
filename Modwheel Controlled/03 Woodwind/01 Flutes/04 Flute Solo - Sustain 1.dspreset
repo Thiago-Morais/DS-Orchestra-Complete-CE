@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.060" release="0.028">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="352745" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A3_v1_1-PB-loop.wav" rootNote="69" volume="5.0dB" />
 			<sample end="323607" hiNote="82" hiVel="127" loNote="79" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A4_v1_1-PB-loop.wav" rootNote="81" volume="3.0dB" />
 			<sample end="242837" hiNote="94" hiVel="127" loNote="91" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A5_v1_1-PB-loop.wav" rootNote="93" volume="3.0dB" />
@@ -44,7 +44,7 @@
 			<sample end="304715" hiNote="78" hiVel="127" loNote="74" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E4_v1_2-PB-loop.wav" rootNote="76" volume="6.0dB" />
 			<sample end="309697" hiNote="90" hiVel="127" loNote="86" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E5_v1_2-PB-loop.wav" rootNote="88" volume="3.0dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="1">
+		<group name="Group 2" ampVelTrack="0">
 			<sample end="352745" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A3_v1_1-PB-loop.wav" rootNote="69" volume="3.5dB" />
 			<sample end="323607" hiNote="82" hiVel="127" loNote="79" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A4_v1_1-PB-loop.wav" rootNote="81" volume="1.5dB" />
 			<sample end="242837" hiNote="94" hiVel="127" loNote="91" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A5_v1_1-PB-loop.wav" rootNote="93" volume="1.5dB" />
@@ -56,7 +56,7 @@
 			<sample end="304715" hiNote="78" hiVel="127" loNote="74" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E4_v1_2-PB-loop.wav" rootNote="76" volume="4.5dB" />
 			<sample end="309697" hiNote="90" hiVel="127" loNote="86" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E5_v1_2-PB-loop.wav" rootNote="88" volume="1.5dB" />
 		</group>
-		<group name="Group 4" ampVelTrack="1">
+		<group name="Group 4" ampVelTrack="0">
 			<sample end="352745" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A3_v1_1-PB-loop.wav" rootNote="69" volume="5.0dB" />
 			<sample end="323607" hiNote="82" hiVel="127" loNote="79" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A4_v1_1-PB-loop.wav" rootNote="81" volume="3.0dB" />
 			<sample end="242837" hiNote="94" hiVel="127" loNote="91" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A5_v1_1-PB-loop.wav" rootNote="93" volume="3.0dB" />

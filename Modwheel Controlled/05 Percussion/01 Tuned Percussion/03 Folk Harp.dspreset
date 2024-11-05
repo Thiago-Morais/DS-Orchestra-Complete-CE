@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.001" release="0.400">
-		<group name="gr_1" ampVelTrack="1">
+		<group name="gr_1" ampVelTrack="0">
 			<sample end="354735" hiNote="46" hiVel="80" loNote="46" loVel="0" path="Resources/Harp_Normal Samples/EWHarp_Normal_A#1_v2_RR1.wav" rootNote="46" volume="12.0dB" />
 			<sample end="277435" hiNote="58" hiVel="80" loNote="58" loVel="0" path="Resources/Harp_Normal Samples/EWHarp_Normal_A#2_v2_RR1.wav" rootNote="58" volume="12.0dB" />
 			<sample end="172762" hiNote="70" hiVel="80" loNote="70" loVel="0" path="Resources/Harp_Normal Samples/EWHarp_Normal_A#3_v2_RR1.wav" rootNote="70" volume="12.0dB" />
@@ -150,7 +150,7 @@
 			<sample end="177816" hiNote="79" hiVel="127" loNote="79" loVel="81" path="Resources/Harp_Normal Samples/EWHarp_Normal_G4_v3_RR1.wav" rootNote="79" volume="2.0dB" />
 			<sample end="77663" hiNote="91" hiVel="127" loNote="91" loVel="81" path="Resources/Harp_Normal Samples/EWHarp_Normal_G5_v3_RR1.wav" rootNote="91" volume="2.0dB" />
 		</group>
-		<group name="gr_2" ampVelTrack="1">
+		<group name="gr_2" ampVelTrack="0">
 			<sample end="354734" hiNote="46" hiVel="80" loNote="46" loVel="0" path="Resources/Harp_Normal Samples/EWHarp_Normal_A#1_v2_RR2.wav" rootNote="46" volume="12.0dB" />
 			<sample end="277451" hiNote="58" hiVel="80" loNote="58" loVel="0" path="Resources/Harp_Normal Samples/EWHarp_Normal_A#2_v2_RR2.wav" rootNote="58" volume="12.0dB" />
 			<sample end="172743" hiNote="70" hiVel="80" loNote="70" loVel="0" path="Resources/Harp_Normal Samples/EWHarp_Normal_A#3_v2_RR2.wav" rootNote="70" volume="12.0dB" />

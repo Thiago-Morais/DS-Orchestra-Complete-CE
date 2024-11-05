@@ -6,7 +6,7 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="6" />
+		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/French Horn.png">
 		<tab name="main">
@@ -126,7 +126,7 @@
 	</groups>
 	<midi>
 		<cc number="1">
-			<binding type="effect" level="instrument" parameter="LEVEL" position="4" translation="linear" translationOutputMin="-10" translationOutputMax="6" />
+			<binding type="effect" level="instrument" parameter="LEVEL" position="4" translation="linear" translationOutputMin="-10" translationOutputMax="0" />
 			<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="vel-low" translation="table" translationTable="00,01.00;30,01.00;54,00.00;72,00.00;96,00.00;128,00.00" />
 			<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="vel-mid" translation="table" translationTable="00,00.00;30,00.00;54,01.00;72,01.00;96,00.00;128,00.00" />
 			<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="vel-high" translation="table" translationTable="00,00.00;30,00.00;54,00.00;72,00.00;96,01.00;128,01.00" />

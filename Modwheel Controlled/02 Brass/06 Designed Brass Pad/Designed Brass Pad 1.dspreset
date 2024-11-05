@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups release="0.020">
-		<group name="FF Brass 1" ampVelTrack="1">
+		<group name="FF Brass 1" ampVelTrack="0">
 			<sample end="166746" hiNote="57" hiVel="127" loNote="0" loVel="90" loopEnabled="true" loopEnd="166745" loopStart="114952" path="Resources/Designed Brass Pad 1 Samples/MCA_55.wav" rootNote="55" />
 			<sample end="193594" hiNote="61" hiVel="127" loNote="58" loVel="90" loopEnabled="true" loopEnd="193593" loopStart="147707" path="Resources/Designed Brass Pad 1 Samples/MCA_60.wav" rootNote="60" />
 			<sample end="154378" hiNote="65" hiVel="127" loNote="62" loVel="90" loopEnabled="true" loopEnd="154377" loopStart="122034" path="Resources/Designed Brass Pad 1 Samples/MCA_63.wav" rootNote="63" />
@@ -42,7 +42,7 @@
 			<sample end="183809" hiNote="85" hiVel="127" loNote="81" loVel="90" loopEnabled="true" loopEnd="183808" loopStart="111515" path="Resources/Designed Brass Pad 1 Samples/MCA_83.wav" rootNote="83" />
 			<sample end="54492" hiNote="127" hiVel="127" loNote="86" loVel="90" loopEnabled="true" loopEnd="54016" loopStart="33329" path="Resources/Designed Brass Pad 1 Samples/MCA_88.wav" rootNote="88" />
 		</group>
-		<group name="Orchestral Brass 1" ampVelTrack="1">
+		<group name="Orchestral Brass 1" ampVelTrack="0">
 			<sample end="67476" hiNote="57" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="67475" loopStart="39800" path="Resources/Designed Brass Pad 1 Samples/OB_54.wav" rootNote="54" />
 			<sample end="66333" hiNote="63" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="66332" loopStart="38668" path="Resources/Designed Brass Pad 1 Samples/OB_60.wav" rootNote="60" />
 			<sample end="56213" hiNote="69" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="56212" loopStart="28542" path="Resources/Designed Brass Pad 1 Samples/OB_66.wav" rootNote="66" />
@@ -51,7 +51,7 @@
 			<sample end="51804" hiNote="87" hiVel="127" loNote="82" loVel="0" loopEnabled="true" loopEnd="51803" loopStart="24308" path="Resources/Designed Brass Pad 1 Samples/OB_84.wav" rootNote="84" />
 			<sample end="62006" hiNote="127" hiVel="127" loNote="88" loVel="0" loopEnabled="true" loopEnd="62005" loopStart="34450" path="Resources/Designed Brass Pad 1 Samples/OB_90.wav" rootNote="90" />
 		</group>
-		<group name="Trombones" ampVelTrack="1">
+		<group name="Trombones" ampVelTrack="0">
 			<sample end="160095" hiNote="60" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="160094" loopStart="56231" path="Resources/Designed Brass Pad 1 Samples/TB_601.wav" rootNote="60" />
 			<sample end="114402" hiNote="63" hiVel="127" loNote="61" loVel="0" loopEnabled="true" loopEnd="114401" loopStart="56722" path="Resources/Designed Brass Pad 1 Samples/TB_621.wav" rootNote="62" />
 			<sample end="115418" hiNote="66" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="115417" loopStart="59843" path="Resources/Designed Brass Pad 1 Samples/TB_651.wav" rootNote="65" />
@@ -61,7 +61,7 @@
 			<sample end="153065" hiNote="82" hiVel="127" loNote="77" loVel="0" loopEnabled="true" loopEnd="153064" loopStart="63945" path="Resources/Designed Brass Pad 1 Samples/TB_791.wav" rootNote="79" />
 			<sample end="180547" hiNote="127" hiVel="127" loNote="83" loVel="0" loopEnabled="true" loopEnd="180546" loopStart="115802" path="Resources/Designed Brass Pad 1 Samples/TB_841.wav" rootNote="84" />
 		</group>
-		<group name="Trumpets" ampVelTrack="1">
+		<group name="Trumpets" ampVelTrack="0">
 			<sample end="92615" hiNote="63" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="92614" loopStart="64949" path="Resources/Designed Brass Pad 1 Samples/TP_601.wav" rootNote="60" />
 			<sample end="89556" hiNote="69" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="89555" loopStart="61884" path="Resources/Designed Brass Pad 1 Samples/TP_661.wav" rootNote="66" />
 			<sample end="73099" hiNote="75" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="73098" loopStart="45433" path="Resources/Designed Brass Pad 1 Samples/TP_721.wav" rootNote="72" />

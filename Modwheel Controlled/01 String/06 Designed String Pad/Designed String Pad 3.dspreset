@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups decay="0.036" release="0.039" sustain="0.987">
-		<group name="Brass" ampVelTrack="1">
+		<group name="Brass" ampVelTrack="0">
 			<sample end="28141" hiNote="65" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="28133" loopStart="8434" path="Resources/Designed String Pad 3 Samples/Brass C3.wav" rootNote="71" tuning="0.50" volume="-14.9dB" />
 			<sample end="28141" hiNote="70" hiVel="127" loNote="66" loVel="0" loopEnabled="true" loopEnd="28133" loopStart="8434" path="Resources/Designed String Pad 3 Samples/Brass C3.wav" rootNote="71" tuning="0.50" volume="-14.9dB" />
 			<sample end="20516" hiNote="72" hiVel="127" loNote="71" loVel="0" loopEnabled="true" loopEnd="20508" loopStart="6289" path="Resources/Designed String Pad 3 Samples/Brass C4.wav" rootNote="84" tuning="-0.01" volume="-14.9dB" />
@@ -41,7 +41,7 @@
 			<sample end="19835" hiNote="93" hiVel="127" loNote="87" loVel="0" loopEnabled="true" loopEnd="19827" loopStart="5078" path="Resources/Designed String Pad 3 Samples/Brass Gb4.wav" rootNote="90" tuning="0.22" volume="-14.1dB" />
 			<sample end="1369" hiNote="108" hiVel="127" loNote="94" loVel="0" loopEnabled="true" loopEnd="1361" loopStart="1350" path="Resources/Designed String Pad 3 Samples/Brass C6.wav" rootNote="107" tuning="-0.21" volume="-14.1dB" />
 		</group>
-		<group name="Strings" ampVelTrack="1">
+		<group name="Strings" ampVelTrack="0">
 			<sample end="20909" hiNote="49" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="20901" loopStart="6965" path="Resources/Designed String Pad 3 Samples/Strings B1.wav" rootNote="58" tuning="0.50" volume="-10.8dB" />
 			<sample end="20909" hiNote="55" hiVel="127" loNote="50" loVel="0" loopEnabled="true" loopEnd="20901" loopStart="6965" path="Resources/Designed String Pad 3 Samples/Strings B1.wav" rootNote="58" tuning="0.50" volume="-10.8dB" />
 			<sample end="18148" hiNote="63" hiVel="127" loNote="56" loVel="0" loopEnabled="true" loopEnd="18140" loopStart="4889" path="Resources/Designed String Pad 3 Samples/Strings C2.wav" rootNote="71" tuning="-0.25" volume="-10.8dB" />

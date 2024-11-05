@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="trumpet Var.3" ampVelTrack="1">
+		<group name="trumpet Var.3" ampVelTrack="0">
 			<sample end="27776" hiNote="63" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="27521" loopStart="27336" path="Resources/Trumpet - Sustain 02 Samples/as2s-1trp.wav" rootNote="58" tuning="-0.41" />
 			<sample end="21504" hiNote="65" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="21268" loopStart="21120" path="Resources/Trumpet - Sustain 02 Samples/d4-3trp.wav" rootNote="62" tuning="-0.27" />
 			<sample end="27264" hiNote="68" hiVel="127" loNote="66" loVel="0" loopEnabled="true" loopEnd="26753" loopStart="26622" path="Resources/Trumpet - Sustain 02 Samples/e4-2trp.wav" rootNote="64" tuning="-0.38" />
@@ -43,7 +43,7 @@
 			<sample end="22520" hiNote="83" hiVel="127" loNote="80" loVel="0" loopEnabled="true" loopEnd="22458" loopStart="22349" path="Resources/Trumpet - Sustain 02 Samples/g5-3trp.wav" rootNote="80" tuning="0.42" />
 			<sample end="24856" hiNote="112" hiVel="127" loNote="84" loVel="0" loopEnabled="true" loopEnd="24801" loopStart="24521" path="Resources/Trumpet - Sustain 02 Samples/as5-3trp.wav" rootNote="82" tuning="-0.23" />
 		</group>
-		<group name="trumpet Var.12" ampVelTrack="1">
+		<group name="trumpet Var.12" ampVelTrack="0">
 			<sample end="21504" hiNote="62" hiVel="127" loNote="11" loVel="0" loopEnabled="true" loopEnd="21268" loopStart="21120" path="Resources/Trumpet - Sustain 02 Samples/d4-3trp.wav" rootNote="62" tuning="-0.27" />
 			<sample end="27264" hiNote="64" hiVel="127" loNote="63" loVel="0" loopEnabled="true" loopEnd="26753" loopStart="26622" path="Resources/Trumpet - Sustain 02 Samples/e4-2trp.wav" rootNote="64" tuning="-0.38" />
 			<sample end="37248" hiNote="68" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="36600" loopStart="36364" path="Resources/Trumpet - Sustain 02 Samples/fs4-2trp.wav" rootNote="66" tuning="-0.19" />

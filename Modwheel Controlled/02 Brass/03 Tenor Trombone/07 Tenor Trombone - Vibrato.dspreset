@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.024">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="222633" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_A#1_v1_1.wav" rootNote="46" volume="9.0dB" />
 			<sample end="257900" hiNote="58" hiVel="127" loNote="57" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_A#2_v1_1.wav" rootNote="58" volume="9.0dB" />
 			<sample end="231381" hiNote="49" hiVel="127" loNote="47" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_C2_v1_1.wav" rootNote="48" volume="9.0dB" />

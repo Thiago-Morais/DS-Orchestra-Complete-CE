@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.040" release="0.076">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="182519" hiNote="68" hiVel="127" loNote="67" loVel="0" path="Resources/1st Violin Section Samples/1st-violins-sus-g3.wav" rootNote="67" tuning="-0.10" />
 			<sample end="186400" hiNote="71" hiVel="127" loNote="69" loVel="0" path="Resources/1st Violin Section Samples/1st-violins-sus-a#3.wav" rootNote="70" tuning="-0.05" />
 			<sample end="226084" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/1st Violin Section Samples/1st-violins-sus-c#4.wav" rootNote="73" tuning="-0.05" />
@@ -48,7 +48,7 @@
 			<sample end="200019" hiNote="104" hiVel="127" loNote="102" loVel="0" path="Resources/1st Violin Section Samples/1st-violins-sus-g6.wav" rootNote="103" tuning="-0.10" volume="2.0dB" />
 			<sample end="221743" hiNote="117" hiVel="127" loNote="105" loVel="0" path="Resources/1st Violin Section Samples/1st-violins-sus-a#6.wav" rootNote="106" tuning="-0.10" volume="1.0dB" />
 		</group>
-		<group name="Group 6" ampVelTrack="1">
+		<group name="Group 6" ampVelTrack="0">
 			<sample end="182519" hiNote="68" hiVel="127" loNote="67" loVel="0" path="Resources/1st Violin Section Samples/1st-violins-sus-g3.wav" rootNote="67" tuning="-0.10" />
 			<sample end="186400" hiNote="71" hiVel="127" loNote="69" loVel="0" path="Resources/1st Violin Section Samples/1st-violins-sus-a#3.wav" rootNote="70" tuning="-0.05" />
 			<sample end="226084" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/1st Violin Section Samples/1st-violins-sus-c#4.wav" rootNote="73" tuning="-0.05" />
@@ -64,7 +64,7 @@
 			<sample end="200019" hiNote="104" hiVel="127" loNote="102" loVel="0" path="Resources/1st Violin Section Samples/1st-violins-sus-g6.wav" rootNote="103" tuning="-0.10" volume="2.0dB" />
 			<sample end="221743" hiNote="117" hiVel="127" loNote="105" loVel="0" path="Resources/1st Violin Section Samples/1st-violins-sus-a#6.wav" rootNote="106" tuning="-0.10" volume="1.0dB" />
 		</group>
-		<group name="Group 9" ampVelTrack="1">
+		<group name="Group 9" ampVelTrack="0">
 			<sample end="182519" hiNote="68" hiVel="127" loNote="67" loVel="0" path="Resources/1st Violin Section Samples/1st-violins-sus-g3.wav" rootNote="67" tuning="-0.10" />
 			<sample end="186400" hiNote="71" hiVel="127" loNote="69" loVel="0" path="Resources/1st Violin Section Samples/1st-violins-sus-a#3.wav" rootNote="70" tuning="-0.05" />
 			<sample end="226084" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/1st Violin Section Samples/1st-violins-sus-c#4.wav" rootNote="73" tuning="-0.05" />

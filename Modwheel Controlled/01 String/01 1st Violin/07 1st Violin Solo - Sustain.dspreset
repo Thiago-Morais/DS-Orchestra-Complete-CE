@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" decay="0.024" release="0.064">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="160774" hiNote="55" hiVel="127" loNote="55" loVel="0" path="Resources/1st-violin-SOLO-sustain Samples/3_G-PB-loop.wav" rootNote="55" volume="-1.0dB" />
 			<sample end="214409" hiNote="56" hiVel="127" loNote="56" loVel="0" path="Resources/1st-violin-SOLO-sustain Samples/3_Ab-PB-loop.wav" rootNote="56" tuning="0.01" volume="0.5dB" />
 			<sample end="182401" hiNote="58" hiVel="127" loNote="57" loVel="0" path="Resources/1st-violin-SOLO-sustain Samples/3_A-PB-loop.wav" rootNote="57" tuning="0.05" volume="-1.0dB" />

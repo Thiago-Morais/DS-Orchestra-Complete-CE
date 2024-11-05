@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.040" release="0.072">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample end="125812" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_A1_v3_rr1-PB-loop.wav" rootNote="45" tuning="-0.10" volume="12.0dB" />
 			<sample end="90996" hiNote="67" hiVel="127" loNote="58" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_B2_v3_rr1-PB-loop.wav" rootNote="59" tuning="-0.10" volume="12.0dB" />
 			<sample end="93622" hiNote="50" hiVel="127" loNote="47" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C#2_v3_rr1-PB-loop.wav" rootNote="49" tuning="-0.05" volume="12.0dB" />
@@ -46,7 +46,7 @@
 			<sample end="96007" hiNote="57" hiVel="127" loNote="54" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#2_v3_rr1-PB-loop.wav" rootNote="56" tuning="-0.05" volume="12.0dB" />
 			<sample end="89150" hiNote="34" hiVel="127" loNote="31" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G0_v3_rr1-PB-loop.wav" rootNote="31" volume="12.0dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="1">
+		<group name="Group 2" ampVelTrack="0">
 			<sample end="125812" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_A1_v3_rr1-PB-loop.wav" rootNote="45" tuning="-0.10" volume="12.0dB" />
 			<sample end="90996" hiNote="67" hiVel="127" loNote="58" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_B2_v3_rr1-PB-loop.wav" rootNote="59" tuning="-0.10" volume="12.0dB" />
 			<sample end="93622" hiNote="50" hiVel="127" loNote="47" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C#2_v3_rr1-PB-loop.wav" rootNote="49" tuning="-0.05" volume="12.0dB" />
@@ -60,7 +60,7 @@
 			<sample end="96007" hiNote="57" hiVel="127" loNote="54" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#2_v3_rr1-PB-loop.wav" rootNote="56" tuning="-0.05" volume="12.0dB" />
 			<sample end="89150" hiNote="34" hiVel="127" loNote="31" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G0_v3_rr1-PB-loop.wav" rootNote="31" volume="12.0dB" />
 		</group>
-		<group name="Group 7" ampVelTrack="1">
+		<group name="Group 7" ampVelTrack="0">
 			<sample end="125812" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_A1_v3_rr1-PB-loop.wav" rootNote="45" tuning="-0.10" volume="12.0dB" />
 			<sample end="90996" hiNote="67" hiVel="127" loNote="58" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_B2_v3_rr1-PB-loop.wav" rootNote="59" tuning="-0.10" volume="12.0dB" />
 			<sample end="93622" hiNote="50" hiVel="127" loNote="47" loVel="0" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C#2_v3_rr1-PB-loop.wav" rootNote="49" tuning="-0.05" volume="12.0dB" />
