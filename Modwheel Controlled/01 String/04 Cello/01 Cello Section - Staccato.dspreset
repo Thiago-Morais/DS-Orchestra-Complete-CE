@@ -32,137 +32,137 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.060" release="0.084">
-		<group name="gr_1" ampVelTrack="0" volume="-8dB">
-			<sample end="137652" hiNote="49" hiVel="62" loNote="48" loVel="0" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR1.wav" rootNote="48" volume="12.0dB" />
-			<sample end="50370" hiNote="53" hiVel="62" loNote="50" loVel="0" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR1.wav" rootNote="52" volume="12.0dB" />
-			<sample end="94565" hiNote="59" hiVel="62" loNote="54" loVel="0" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR1.wav" rootNote="55" volume="12.0dB" />
-			<sample end="65662" hiNote="65" hiVel="62" loNote="60" loVel="0" path="Resources/Cello Ensemble Samples/spic_D2_v1_RR1.wav" rootNote="62" volume="12.0dB" />
-			<sample end="70229" hiNote="70" hiVel="62" loNote="66" loVel="0" path="Resources/Cello Ensemble Samples/spic_A2_v1_RR1.wav" rootNote="69" volume="12.0dB" />
-			<sample end="66544" hiNote="73" hiVel="62" loNote="71" loVel="0" path="Resources/Cello Ensemble Samples/spic_C3_v1_RR1.wav" rootNote="72" tuning="-0.10" volume="12.0dB" />
-			<sample end="59806" hiNote="77" hiVel="62" loNote="74" loVel="0" path="Resources/Cello Ensemble Samples/spic_E3_v1_RR1.wav" rootNote="76" volume="12.0dB" />
-			<sample end="59885" hiNote="80" hiVel="62" loNote="78" loVel="0" path="Resources/Cello Ensemble Samples/spic_G3_v1_RR1.wav" rootNote="79" volume="12.0dB" />
-			<sample end="67463" hiNote="84" hiVel="62" loNote="81" loVel="0" path="Resources/Cello Ensemble Samples/spic_B3_v1_RR1.wav" rootNote="83" volume="12.0dB" />
-			<sample end="57366" hiNote="93" hiVel="62" loNote="85" loVel="0" path="Resources/Cello Ensemble Samples/spic_D4_v1_RR1.wav" rootNote="86" volume="12.0dB" />
-			<sample end="142320" hiNote="49" hiVel="127" loNote="48" loVel="63" path="Resources/Cello Ensemble Samples/spic_C1_v2_RR1.wav" rootNote="48" volume="1.0dB" />
-			<sample end="76516" hiNote="53" hiVel="127" loNote="50" loVel="63" path="Resources/Cello Ensemble Samples/spic_E1_v2_RR1.wav" rootNote="52" volume="2.0dB" />
-			<sample end="142664" hiNote="59" hiVel="127" loNote="54" loVel="63" path="Resources/Cello Ensemble Samples/spic_G1_v2_RR1.wav" rootNote="55" volume="4.0dB" />
-			<sample end="149344" hiNote="65" hiVel="127" loNote="60" loVel="63" path="Resources/Cello Ensemble Samples/spic_D2_v2_RR1.wav" rootNote="62" volume="1.0dB" />
-			<sample end="126076" hiNote="70" hiVel="127" loNote="66" loVel="63" path="Resources/Cello Ensemble Samples/spic_A2_v2_RR1-PB.wav" rootNote="69" volume="-1.0dB" />
-			<sample end="89386" hiNote="73" hiVel="127" loNote="71" loVel="63" path="Resources/Cello Ensemble Samples/spic_C3_v2_RR1.wav" rootNote="72" tuning="-0.10" volume="2.0dB" />
-			<sample end="80006" hiNote="77" hiVel="127" loNote="74" loVel="63" path="Resources/Cello Ensemble Samples/spic_E3_v2_RR1.wav" rootNote="76" volume="2.0dB" />
-			<sample end="66694" hiNote="80" hiVel="127" loNote="78" loVel="63" path="Resources/Cello Ensemble Samples/spic_G3_v2_RR1.wav" rootNote="79" volume="-2.0dB" />
-			<sample end="96271" hiNote="84" hiVel="127" loNote="81" loVel="63" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR1-PB.wav" rootNote="83" volume="1.0dB" />
-			<sample end="72972" hiNote="93" hiVel="127" loNote="85" loVel="63" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR1.wav" rootNote="86" volume="2.0dB" />
+		<group name="gr_1" ampVelTrack="1" volume="-8dB">
+			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="62" end="137652" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="52" loNote="50" hiNote="53" loVel="0" hiVel="62" end="50370" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="59" loVel="0" hiVel="62" end="94565" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="65" loVel="0" hiVel="62" end="65662" path="Resources/Cello Ensemble Samples/spic_D2_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="69" loNote="66" hiNote="70" loVel="0" hiVel="62" end="70229" path="Resources/Cello Ensemble Samples/spic_A2_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="62" end="66544" path="Resources/Cello Ensemble Samples/spic_C3_v1_RR1.wav" tuning="-0.10" volume="12.0dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="0" hiVel="62" end="59806" path="Resources/Cello Ensemble Samples/spic_E3_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="62" end="59885" path="Resources/Cello Ensemble Samples/spic_G3_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="62" end="67463" path="Resources/Cello Ensemble Samples/spic_B3_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="0" hiVel="62" end="57366" path="Resources/Cello Ensemble Samples/spic_D4_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="48" loNote="48" hiNote="49" loVel="63" hiVel="127" end="142320" path="Resources/Cello Ensemble Samples/spic_C1_v2_RR1.wav" volume="1.0dB" />
+			<sample rootNote="52" loNote="50" hiNote="53" loVel="63" hiVel="127" end="76516" path="Resources/Cello Ensemble Samples/spic_E1_v2_RR1.wav" volume="2.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="59" loVel="63" hiVel="127" end="142664" path="Resources/Cello Ensemble Samples/spic_G1_v2_RR1.wav" volume="4.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="65" loVel="63" hiVel="127" end="149344" path="Resources/Cello Ensemble Samples/spic_D2_v2_RR1.wav" volume="1.0dB" />
+			<sample rootNote="69" loNote="66" hiNote="70" loVel="63" hiVel="127" end="126076" path="Resources/Cello Ensemble Samples/spic_A2_v2_RR1-PB.wav" volume="-1.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="63" hiVel="127" end="89386" path="Resources/Cello Ensemble Samples/spic_C3_v2_RR1.wav" tuning="-0.10" volume="2.0dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="63" hiVel="127" end="80006" path="Resources/Cello Ensemble Samples/spic_E3_v2_RR1.wav" volume="2.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="63" hiVel="127" end="66694" path="Resources/Cello Ensemble Samples/spic_G3_v2_RR1.wav" volume="-2.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="63" hiVel="127" end="96271" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR1-PB.wav" volume="1.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="63" hiVel="127" end="72972" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR1.wav" volume="2.0dB" />
 		</group>
-		<group name="gr_1" ampVelTrack="0" volume="-8dB">
-			<sample end="141874" hiNote="49" hiVel="62" loNote="48" loVel="0" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR2.wav" rootNote="48" volume="12.0dB" />
-			<sample end="59856" hiNote="53" hiVel="62" loNote="50" loVel="0" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR2.wav" rootNote="52" volume="12.0dB" />
-			<sample end="82565" hiNote="59" hiVel="62" loNote="54" loVel="0" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR2.wav" rootNote="55" volume="12.0dB" />
-			<sample end="61982" hiNote="65" hiVel="62" loNote="60" loVel="0" path="Resources/Cello Ensemble Samples/spic_D2_v1_RR2.wav" rootNote="62" volume="12.0dB" />
-			<sample end="59417" hiNote="70" hiVel="62" loNote="66" loVel="0" path="Resources/Cello Ensemble Samples/spic_A2_v1_RR2.wav" rootNote="69" volume="12.0dB" />
-			<sample end="73884" hiNote="73" hiVel="62" loNote="71" loVel="0" path="Resources/Cello Ensemble Samples/spic_C3_v1_RR2.wav" rootNote="72" tuning="-0.07" volume="12.0dB" />
-			<sample end="51564" hiNote="77" hiVel="62" loNote="74" loVel="0" path="Resources/Cello Ensemble Samples/spic_E3_v1_RR2.wav" rootNote="76" tuning="-0.05" volume="12.0dB" />
-			<sample end="65384" hiNote="80" hiVel="62" loNote="78" loVel="0" path="Resources/Cello Ensemble Samples/spic_G3_v1_RR2.wav" rootNote="79" volume="12.0dB" />
-			<sample end="61383" hiNote="84" hiVel="62" loNote="81" loVel="0" path="Resources/Cello Ensemble Samples/spic_B3_v1_RR2.wav" rootNote="83" volume="12.0dB" />
-			<sample end="68419" hiNote="93" hiVel="62" loNote="85" loVel="0" path="Resources/Cello Ensemble Samples/spic_D4_v1_RR2.wav" rootNote="86" volume="12.0dB" />
-			<sample end="154459" hiNote="49" hiVel="127" loNote="48" loVel="63" path="Resources/Cello Ensemble Samples/spic_C1_v2_RR2.wav" rootNote="48" volume="-0.5dB" />
-			<sample end="82428" hiNote="53" hiVel="127" loNote="50" loVel="63" path="Resources/Cello Ensemble Samples/spic_E1_v2_RR2.wav" rootNote="52" volume="1.0dB" />
-			<sample end="125930" hiNote="59" hiVel="127" loNote="54" loVel="63" path="Resources/Cello Ensemble Samples/spic_G1_v2_RR2.wav" rootNote="55" volume="2.0dB" />
-			<sample end="130504" hiNote="65" hiVel="127" loNote="60" loVel="63" path="Resources/Cello Ensemble Samples/spic_D2_v2_RR2.wav" rootNote="62" volume="-1.0dB" />
-			<sample end="145208" hiNote="70" hiVel="127" loNote="66" loVel="63" path="Resources/Cello Ensemble Samples/spic_A2_v2_RR2.wav" rootNote="69" volume="-3.0dB" />
-			<sample end="127450" hiNote="73" hiVel="127" loNote="71" loVel="63" path="Resources/Cello Ensemble Samples/spic_C3_v2_RR2.wav" rootNote="72" tuning="-0.07" volume="1.0dB" />
-			<sample end="100106" hiNote="77" hiVel="127" loNote="74" loVel="63" path="Resources/Cello Ensemble Samples/spic_E3_v2_RR2.wav" rootNote="76" tuning="-0.05" volume="1.0dB" />
-			<sample end="85965" hiNote="80" hiVel="127" loNote="78" loVel="63" path="Resources/Cello Ensemble Samples/spic_G3_v2_RR2.wav" rootNote="79" volume="-2.0dB" />
-			<sample end="99287" hiNote="84" hiVel="127" loNote="81" loVel="63" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR2.wav" rootNote="83" volume="1.0dB" />
-			<sample end="66917" hiNote="93" hiVel="127" loNote="85" loVel="63" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR2.wav" rootNote="86" />
+		<group name="gr_1" ampVelTrack="1" volume="-8dB">
+			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="62" end="141874" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="52" loNote="50" hiNote="53" loVel="0" hiVel="62" end="59856" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="59" loVel="0" hiVel="62" end="82565" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="65" loVel="0" hiVel="62" end="61982" path="Resources/Cello Ensemble Samples/spic_D2_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="69" loNote="66" hiNote="70" loVel="0" hiVel="62" end="59417" path="Resources/Cello Ensemble Samples/spic_A2_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="62" end="73884" path="Resources/Cello Ensemble Samples/spic_C3_v1_RR2.wav" tuning="-0.07" volume="12.0dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="0" hiVel="62" end="51564" path="Resources/Cello Ensemble Samples/spic_E3_v1_RR2.wav" tuning="-0.05" volume="12.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="62" end="65384" path="Resources/Cello Ensemble Samples/spic_G3_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="62" end="61383" path="Resources/Cello Ensemble Samples/spic_B3_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="0" hiVel="62" end="68419" path="Resources/Cello Ensemble Samples/spic_D4_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="48" loNote="48" hiNote="49" loVel="63" hiVel="127" end="154459" path="Resources/Cello Ensemble Samples/spic_C1_v2_RR2.wav" volume="-0.5dB" />
+			<sample rootNote="52" loNote="50" hiNote="53" loVel="63" hiVel="127" end="82428" path="Resources/Cello Ensemble Samples/spic_E1_v2_RR2.wav" volume="1.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="59" loVel="63" hiVel="127" end="125930" path="Resources/Cello Ensemble Samples/spic_G1_v2_RR2.wav" volume="2.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="65" loVel="63" hiVel="127" end="130504" path="Resources/Cello Ensemble Samples/spic_D2_v2_RR2.wav" volume="-1.0dB" />
+			<sample rootNote="69" loNote="66" hiNote="70" loVel="63" hiVel="127" end="145208" path="Resources/Cello Ensemble Samples/spic_A2_v2_RR2.wav" volume="-3.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="63" hiVel="127" end="127450" path="Resources/Cello Ensemble Samples/spic_C3_v2_RR2.wav" tuning="-0.07" volume="1.0dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="63" hiVel="127" end="100106" path="Resources/Cello Ensemble Samples/spic_E3_v2_RR2.wav" tuning="-0.05" volume="1.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="63" hiVel="127" end="85965" path="Resources/Cello Ensemble Samples/spic_G3_v2_RR2.wav" volume="-2.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="63" hiVel="127" end="99287" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR2.wav" volume="1.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="63" hiVel="127" end="66917" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR2.wav" />
 		</group>
-		<group name="gr_1" ampVelTrack="0" volume="-8dB">
-			<sample end="137652" hiNote="49" hiVel="62" loNote="48" loVel="0" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR1.wav" rootNote="48" volume="12.0dB" />
-			<sample end="50370" hiNote="53" hiVel="62" loNote="50" loVel="0" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR1.wav" rootNote="52" volume="12.0dB" />
-			<sample end="94565" hiNote="59" hiVel="62" loNote="54" loVel="0" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR1.wav" rootNote="55" volume="12.0dB" />
-			<sample end="65662" hiNote="65" hiVel="62" loNote="60" loVel="0" path="Resources/Cello Ensemble Samples/spic_D2_v1_RR1.wav" rootNote="62" volume="12.0dB" />
-			<sample end="70229" hiNote="70" hiVel="62" loNote="66" loVel="0" path="Resources/Cello Ensemble Samples/spic_A2_v1_RR1.wav" rootNote="69" volume="12.0dB" />
-			<sample end="66544" hiNote="73" hiVel="62" loNote="71" loVel="0" path="Resources/Cello Ensemble Samples/spic_C3_v1_RR1.wav" rootNote="72" tuning="-0.10" volume="12.0dB" />
-			<sample end="59806" hiNote="77" hiVel="62" loNote="74" loVel="0" path="Resources/Cello Ensemble Samples/spic_E3_v1_RR1.wav" rootNote="76" volume="12.0dB" />
-			<sample end="59885" hiNote="80" hiVel="62" loNote="78" loVel="0" path="Resources/Cello Ensemble Samples/spic_G3_v1_RR1.wav" rootNote="79" volume="12.0dB" />
-			<sample end="67463" hiNote="84" hiVel="62" loNote="81" loVel="0" path="Resources/Cello Ensemble Samples/spic_B3_v1_RR1.wav" rootNote="83" volume="12.0dB" />
-			<sample end="57366" hiNote="93" hiVel="62" loNote="85" loVel="0" path="Resources/Cello Ensemble Samples/spic_D4_v1_RR1.wav" rootNote="86" volume="12.0dB" />
-			<sample end="142320" hiNote="49" hiVel="127" loNote="48" loVel="63" path="Resources/Cello Ensemble Samples/spic_C1_v2_RR1.wav" rootNote="48" volume="9.0dB" />
-			<sample end="76516" hiNote="53" hiVel="127" loNote="50" loVel="63" path="Resources/Cello Ensemble Samples/spic_E1_v2_RR1.wav" rootNote="52" volume="10.0dB" />
-			<sample end="142664" hiNote="59" hiVel="127" loNote="54" loVel="63" path="Resources/Cello Ensemble Samples/spic_G1_v2_RR1.wav" rootNote="55" volume="12.0dB" />
-			<sample end="149344" hiNote="65" hiVel="127" loNote="60" loVel="63" path="Resources/Cello Ensemble Samples/spic_D2_v2_RR1.wav" rootNote="62" volume="9.0dB" />
-			<sample end="126076" hiNote="70" hiVel="127" loNote="66" loVel="63" path="Resources/Cello Ensemble Samples/spic_A2_v2_RR1-PB.wav" rootNote="69" volume="7.0dB" />
-			<sample end="89386" hiNote="73" hiVel="127" loNote="71" loVel="63" path="Resources/Cello Ensemble Samples/spic_C3_v2_RR1.wav" rootNote="72" tuning="-0.10" volume="10.0dB" />
-			<sample end="80006" hiNote="77" hiVel="127" loNote="74" loVel="63" path="Resources/Cello Ensemble Samples/spic_E3_v2_RR1.wav" rootNote="76" volume="10.0dB" />
-			<sample end="66694" hiNote="80" hiVel="127" loNote="78" loVel="63" path="Resources/Cello Ensemble Samples/spic_G3_v2_RR1.wav" rootNote="79" volume="6.0dB" />
-			<sample end="96271" hiNote="84" hiVel="127" loNote="81" loVel="63" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR1-PB.wav" rootNote="83" volume="9.0dB" />
-			<sample end="72972" hiNote="93" hiVel="127" loNote="85" loVel="63" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR1.wav" rootNote="86" volume="10.0dB" />
+		<group name="gr_1" ampVelTrack="1" volume="-8dB">
+			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="62" end="137652" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="52" loNote="50" hiNote="53" loVel="0" hiVel="62" end="50370" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="59" loVel="0" hiVel="62" end="94565" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="65" loVel="0" hiVel="62" end="65662" path="Resources/Cello Ensemble Samples/spic_D2_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="69" loNote="66" hiNote="70" loVel="0" hiVel="62" end="70229" path="Resources/Cello Ensemble Samples/spic_A2_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="62" end="66544" path="Resources/Cello Ensemble Samples/spic_C3_v1_RR1.wav" tuning="-0.10" volume="12.0dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="0" hiVel="62" end="59806" path="Resources/Cello Ensemble Samples/spic_E3_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="62" end="59885" path="Resources/Cello Ensemble Samples/spic_G3_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="62" end="67463" path="Resources/Cello Ensemble Samples/spic_B3_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="0" hiVel="62" end="57366" path="Resources/Cello Ensemble Samples/spic_D4_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="48" loNote="48" hiNote="49" loVel="63" hiVel="127" end="142320" path="Resources/Cello Ensemble Samples/spic_C1_v2_RR1.wav" volume="9.0dB" />
+			<sample rootNote="52" loNote="50" hiNote="53" loVel="63" hiVel="127" end="76516" path="Resources/Cello Ensemble Samples/spic_E1_v2_RR1.wav" volume="10.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="59" loVel="63" hiVel="127" end="142664" path="Resources/Cello Ensemble Samples/spic_G1_v2_RR1.wav" volume="12.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="65" loVel="63" hiVel="127" end="149344" path="Resources/Cello Ensemble Samples/spic_D2_v2_RR1.wav" volume="9.0dB" />
+			<sample rootNote="69" loNote="66" hiNote="70" loVel="63" hiVel="127" end="126076" path="Resources/Cello Ensemble Samples/spic_A2_v2_RR1-PB.wav" volume="7.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="63" hiVel="127" end="89386" path="Resources/Cello Ensemble Samples/spic_C3_v2_RR1.wav" tuning="-0.10" volume="10.0dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="63" hiVel="127" end="80006" path="Resources/Cello Ensemble Samples/spic_E3_v2_RR1.wav" volume="10.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="63" hiVel="127" end="66694" path="Resources/Cello Ensemble Samples/spic_G3_v2_RR1.wav" volume="6.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="63" hiVel="127" end="96271" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR1-PB.wav" volume="9.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="63" hiVel="127" end="72972" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR1.wav" volume="10.0dB" />
 		</group>
-		<group name="gr_1" ampVelTrack="0" volume="-8dB">
-			<sample end="141874" hiNote="49" hiVel="62" loNote="48" loVel="0" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR2.wav" rootNote="48" volume="12.0dB" />
-			<sample end="59856" hiNote="53" hiVel="62" loNote="50" loVel="0" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR2.wav" rootNote="52" volume="12.0dB" />
-			<sample end="82565" hiNote="59" hiVel="62" loNote="54" loVel="0" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR2.wav" rootNote="55" volume="12.0dB" />
-			<sample end="61982" hiNote="65" hiVel="62" loNote="60" loVel="0" path="Resources/Cello Ensemble Samples/spic_D2_v1_RR2.wav" rootNote="62" volume="12.0dB" />
-			<sample end="59417" hiNote="70" hiVel="62" loNote="66" loVel="0" path="Resources/Cello Ensemble Samples/spic_A2_v1_RR2.wav" rootNote="69" volume="12.0dB" />
-			<sample end="73884" hiNote="73" hiVel="62" loNote="71" loVel="0" path="Resources/Cello Ensemble Samples/spic_C3_v1_RR2.wav" rootNote="72" tuning="-0.07" volume="12.0dB" />
-			<sample end="51564" hiNote="77" hiVel="62" loNote="74" loVel="0" path="Resources/Cello Ensemble Samples/spic_E3_v1_RR2.wav" rootNote="76" tuning="-0.05" volume="12.0dB" />
-			<sample end="65384" hiNote="80" hiVel="62" loNote="78" loVel="0" path="Resources/Cello Ensemble Samples/spic_G3_v1_RR2.wav" rootNote="79" volume="12.0dB" />
-			<sample end="61383" hiNote="84" hiVel="62" loNote="81" loVel="0" path="Resources/Cello Ensemble Samples/spic_B3_v1_RR2.wav" rootNote="83" volume="12.0dB" />
-			<sample end="68419" hiNote="93" hiVel="62" loNote="85" loVel="0" path="Resources/Cello Ensemble Samples/spic_D4_v1_RR2.wav" rootNote="86" volume="12.0dB" />
-			<sample end="154459" hiNote="49" hiVel="127" loNote="48" loVel="63" path="Resources/Cello Ensemble Samples/spic_C1_v2_RR2.wav" rootNote="48" volume="7.5dB" />
-			<sample end="82428" hiNote="53" hiVel="127" loNote="50" loVel="63" path="Resources/Cello Ensemble Samples/spic_E1_v2_RR2.wav" rootNote="52" volume="9.0dB" />
-			<sample end="125930" hiNote="59" hiVel="127" loNote="54" loVel="63" path="Resources/Cello Ensemble Samples/spic_G1_v2_RR2.wav" rootNote="55" volume="10.0dB" />
-			<sample end="130504" hiNote="65" hiVel="127" loNote="60" loVel="63" path="Resources/Cello Ensemble Samples/spic_D2_v2_RR2.wav" rootNote="62" volume="7.0dB" />
-			<sample end="145208" hiNote="70" hiVel="127" loNote="66" loVel="63" path="Resources/Cello Ensemble Samples/spic_A2_v2_RR2.wav" rootNote="69" volume="5.0dB" />
-			<sample end="127450" hiNote="73" hiVel="127" loNote="71" loVel="63" path="Resources/Cello Ensemble Samples/spic_C3_v2_RR2.wav" rootNote="72" tuning="-0.07" volume="9.0dB" />
-			<sample end="100106" hiNote="77" hiVel="127" loNote="74" loVel="63" path="Resources/Cello Ensemble Samples/spic_E3_v2_RR2.wav" rootNote="76" tuning="-0.05" volume="9.0dB" />
-			<sample end="85965" hiNote="80" hiVel="127" loNote="78" loVel="63" path="Resources/Cello Ensemble Samples/spic_G3_v2_RR2.wav" rootNote="79" volume="6.0dB" />
-			<sample end="99287" hiNote="84" hiVel="127" loNote="81" loVel="63" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR2.wav" rootNote="83" volume="9.0dB" />
-			<sample end="66917" hiNote="93" hiVel="127" loNote="85" loVel="63" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR2.wav" rootNote="86" volume="8.0dB" />
+		<group name="gr_1" ampVelTrack="1" volume="-8dB">
+			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="62" end="141874" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="52" loNote="50" hiNote="53" loVel="0" hiVel="62" end="59856" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="59" loVel="0" hiVel="62" end="82565" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="65" loVel="0" hiVel="62" end="61982" path="Resources/Cello Ensemble Samples/spic_D2_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="69" loNote="66" hiNote="70" loVel="0" hiVel="62" end="59417" path="Resources/Cello Ensemble Samples/spic_A2_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="62" end="73884" path="Resources/Cello Ensemble Samples/spic_C3_v1_RR2.wav" tuning="-0.07" volume="12.0dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="0" hiVel="62" end="51564" path="Resources/Cello Ensemble Samples/spic_E3_v1_RR2.wav" tuning="-0.05" volume="12.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="62" end="65384" path="Resources/Cello Ensemble Samples/spic_G3_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="62" end="61383" path="Resources/Cello Ensemble Samples/spic_B3_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="0" hiVel="62" end="68419" path="Resources/Cello Ensemble Samples/spic_D4_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="48" loNote="48" hiNote="49" loVel="63" hiVel="127" end="154459" path="Resources/Cello Ensemble Samples/spic_C1_v2_RR2.wav" volume="7.5dB" />
+			<sample rootNote="52" loNote="50" hiNote="53" loVel="63" hiVel="127" end="82428" path="Resources/Cello Ensemble Samples/spic_E1_v2_RR2.wav" volume="9.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="59" loVel="63" hiVel="127" end="125930" path="Resources/Cello Ensemble Samples/spic_G1_v2_RR2.wav" volume="10.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="65" loVel="63" hiVel="127" end="130504" path="Resources/Cello Ensemble Samples/spic_D2_v2_RR2.wav" volume="7.0dB" />
+			<sample rootNote="69" loNote="66" hiNote="70" loVel="63" hiVel="127" end="145208" path="Resources/Cello Ensemble Samples/spic_A2_v2_RR2.wav" volume="5.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="63" hiVel="127" end="127450" path="Resources/Cello Ensemble Samples/spic_C3_v2_RR2.wav" tuning="-0.07" volume="9.0dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="63" hiVel="127" end="100106" path="Resources/Cello Ensemble Samples/spic_E3_v2_RR2.wav" tuning="-0.05" volume="9.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="63" hiVel="127" end="85965" path="Resources/Cello Ensemble Samples/spic_G3_v2_RR2.wav" volume="6.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="63" hiVel="127" end="99287" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR2.wav" volume="9.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="63" hiVel="127" end="66917" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR2.wav" volume="8.0dB" />
 		</group>
-		<group name="gr_1" ampVelTrack="0" volume="-8dB">
-			<sample end="137652" hiNote="49" hiVel="62" loNote="48" loVel="0" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR1.wav" rootNote="48" volume="12.0dB" />
-			<sample end="50370" hiNote="53" hiVel="62" loNote="50" loVel="0" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR1.wav" rootNote="52" volume="12.0dB" />
-			<sample end="94565" hiNote="59" hiVel="62" loNote="54" loVel="0" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR1.wav" rootNote="55" volume="12.0dB" />
-			<sample end="65662" hiNote="65" hiVel="62" loNote="60" loVel="0" path="Resources/Cello Ensemble Samples/spic_D2_v1_RR1.wav" rootNote="62" volume="12.0dB" />
-			<sample end="70229" hiNote="70" hiVel="62" loNote="66" loVel="0" path="Resources/Cello Ensemble Samples/spic_A2_v1_RR1.wav" rootNote="69" volume="12.0dB" />
-			<sample end="66544" hiNote="73" hiVel="62" loNote="71" loVel="0" path="Resources/Cello Ensemble Samples/spic_C3_v1_RR1.wav" rootNote="72" tuning="-0.10" volume="12.0dB" />
-			<sample end="59806" hiNote="77" hiVel="62" loNote="74" loVel="0" path="Resources/Cello Ensemble Samples/spic_E3_v1_RR1.wav" rootNote="76" volume="12.0dB" />
-			<sample end="59885" hiNote="80" hiVel="62" loNote="78" loVel="0" path="Resources/Cello Ensemble Samples/spic_G3_v1_RR1.wav" rootNote="79" volume="12.0dB" />
-			<sample end="67463" hiNote="84" hiVel="62" loNote="81" loVel="0" path="Resources/Cello Ensemble Samples/spic_B3_v1_RR1.wav" rootNote="83" volume="12.0dB" />
-			<sample end="57366" hiNote="93" hiVel="62" loNote="85" loVel="0" path="Resources/Cello Ensemble Samples/spic_D4_v1_RR1.wav" rootNote="86" volume="12.0dB" />
-			<sample end="142320" hiNote="49" hiVel="127" loNote="48" loVel="63" path="Resources/Cello Ensemble Samples/spic_C1_v2_RR1.wav" rootNote="48" volume="9.0dB" />
-			<sample end="76516" hiNote="53" hiVel="127" loNote="50" loVel="63" path="Resources/Cello Ensemble Samples/spic_E1_v2_RR1.wav" rootNote="52" volume="10.0dB" />
-			<sample end="142664" hiNote="59" hiVel="127" loNote="54" loVel="63" path="Resources/Cello Ensemble Samples/spic_G1_v2_RR1.wav" rootNote="55" volume="12.0dB" />
-			<sample end="149344" hiNote="65" hiVel="127" loNote="60" loVel="63" path="Resources/Cello Ensemble Samples/spic_D2_v2_RR1.wav" rootNote="62" volume="9.0dB" />
-			<sample end="126076" hiNote="70" hiVel="127" loNote="66" loVel="63" path="Resources/Cello Ensemble Samples/spic_A2_v2_RR1-PB.wav" rootNote="69" volume="7.0dB" />
-			<sample end="89386" hiNote="73" hiVel="127" loNote="71" loVel="63" path="Resources/Cello Ensemble Samples/spic_C3_v2_RR1.wav" rootNote="72" tuning="-0.10" volume="10.0dB" />
-			<sample end="80006" hiNote="77" hiVel="127" loNote="74" loVel="63" path="Resources/Cello Ensemble Samples/spic_E3_v2_RR1.wav" rootNote="76" volume="10.0dB" />
-			<sample end="66694" hiNote="80" hiVel="127" loNote="78" loVel="63" path="Resources/Cello Ensemble Samples/spic_G3_v2_RR1.wav" rootNote="79" volume="6.0dB" />
-			<sample end="96271" hiNote="84" hiVel="127" loNote="81" loVel="63" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR1-PB.wav" rootNote="83" volume="9.0dB" />
-			<sample end="72972" hiNote="93" hiVel="127" loNote="85" loVel="63" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR1.wav" rootNote="86" volume="10.0dB" />
+		<group name="gr_1" ampVelTrack="1" volume="-8dB">
+			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="62" end="137652" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="52" loNote="50" hiNote="53" loVel="0" hiVel="62" end="50370" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="59" loVel="0" hiVel="62" end="94565" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="65" loVel="0" hiVel="62" end="65662" path="Resources/Cello Ensemble Samples/spic_D2_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="69" loNote="66" hiNote="70" loVel="0" hiVel="62" end="70229" path="Resources/Cello Ensemble Samples/spic_A2_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="62" end="66544" path="Resources/Cello Ensemble Samples/spic_C3_v1_RR1.wav" tuning="-0.10" volume="12.0dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="0" hiVel="62" end="59806" path="Resources/Cello Ensemble Samples/spic_E3_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="62" end="59885" path="Resources/Cello Ensemble Samples/spic_G3_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="62" end="67463" path="Resources/Cello Ensemble Samples/spic_B3_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="0" hiVel="62" end="57366" path="Resources/Cello Ensemble Samples/spic_D4_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="48" loNote="48" hiNote="49" loVel="63" hiVel="127" end="142320" path="Resources/Cello Ensemble Samples/spic_C1_v2_RR1.wav" volume="9.0dB" />
+			<sample rootNote="52" loNote="50" hiNote="53" loVel="63" hiVel="127" end="76516" path="Resources/Cello Ensemble Samples/spic_E1_v2_RR1.wav" volume="10.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="59" loVel="63" hiVel="127" end="142664" path="Resources/Cello Ensemble Samples/spic_G1_v2_RR1.wav" volume="12.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="65" loVel="63" hiVel="127" end="149344" path="Resources/Cello Ensemble Samples/spic_D2_v2_RR1.wav" volume="9.0dB" />
+			<sample rootNote="69" loNote="66" hiNote="70" loVel="63" hiVel="127" end="126076" path="Resources/Cello Ensemble Samples/spic_A2_v2_RR1-PB.wav" volume="7.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="63" hiVel="127" end="89386" path="Resources/Cello Ensemble Samples/spic_C3_v2_RR1.wav" tuning="-0.10" volume="10.0dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="63" hiVel="127" end="80006" path="Resources/Cello Ensemble Samples/spic_E3_v2_RR1.wav" volume="10.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="63" hiVel="127" end="66694" path="Resources/Cello Ensemble Samples/spic_G3_v2_RR1.wav" volume="6.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="63" hiVel="127" end="96271" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR1-PB.wav" volume="9.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="63" hiVel="127" end="72972" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR1.wav" volume="10.0dB" />
 		</group>
-		<group name="gr_1" ampVelTrack="0" volume="-8dB">
-			<sample end="141874" hiNote="49" hiVel="62" loNote="48" loVel="0" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR2.wav" rootNote="48" volume="12.0dB" />
-			<sample end="59856" hiNote="53" hiVel="62" loNote="50" loVel="0" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR2.wav" rootNote="52" volume="12.0dB" />
-			<sample end="82565" hiNote="59" hiVel="62" loNote="54" loVel="0" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR2.wav" rootNote="55" volume="12.0dB" />
-			<sample end="61982" hiNote="65" hiVel="62" loNote="60" loVel="0" path="Resources/Cello Ensemble Samples/spic_D2_v1_RR2.wav" rootNote="62" volume="12.0dB" />
-			<sample end="59417" hiNote="70" hiVel="62" loNote="66" loVel="0" path="Resources/Cello Ensemble Samples/spic_A2_v1_RR2.wav" rootNote="69" volume="12.0dB" />
-			<sample end="73884" hiNote="73" hiVel="62" loNote="71" loVel="0" path="Resources/Cello Ensemble Samples/spic_C3_v1_RR2.wav" rootNote="72" tuning="-0.07" volume="12.0dB" />
-			<sample end="51564" hiNote="77" hiVel="62" loNote="74" loVel="0" path="Resources/Cello Ensemble Samples/spic_E3_v1_RR2.wav" rootNote="76" tuning="-0.05" volume="12.0dB" />
-			<sample end="65384" hiNote="80" hiVel="62" loNote="78" loVel="0" path="Resources/Cello Ensemble Samples/spic_G3_v1_RR2.wav" rootNote="79" volume="12.0dB" />
-			<sample end="61383" hiNote="84" hiVel="62" loNote="81" loVel="0" path="Resources/Cello Ensemble Samples/spic_B3_v1_RR2.wav" rootNote="83" volume="12.0dB" />
-			<sample end="68419" hiNote="93" hiVel="62" loNote="85" loVel="0" path="Resources/Cello Ensemble Samples/spic_D4_v1_RR2.wav" rootNote="86" volume="12.0dB" />
-			<sample end="154459" hiNote="49" hiVel="127" loNote="48" loVel="63" path="Resources/Cello Ensemble Samples/spic_C1_v2_RR2.wav" rootNote="48" volume="7.5dB" />
-			<sample end="82428" hiNote="53" hiVel="127" loNote="50" loVel="63" path="Resources/Cello Ensemble Samples/spic_E1_v2_RR2.wav" rootNote="52" volume="9.0dB" />
-			<sample end="125930" hiNote="59" hiVel="127" loNote="54" loVel="63" path="Resources/Cello Ensemble Samples/spic_G1_v2_RR2.wav" rootNote="55" volume="10.0dB" />
-			<sample end="130504" hiNote="65" hiVel="127" loNote="60" loVel="63" path="Resources/Cello Ensemble Samples/spic_D2_v2_RR2.wav" rootNote="62" volume="7.0dB" />
-			<sample end="145208" hiNote="70" hiVel="127" loNote="66" loVel="63" path="Resources/Cello Ensemble Samples/spic_A2_v2_RR2.wav" rootNote="69" volume="5.0dB" />
-			<sample end="127450" hiNote="73" hiVel="127" loNote="71" loVel="63" path="Resources/Cello Ensemble Samples/spic_C3_v2_RR2.wav" rootNote="72" tuning="-0.07" volume="9.0dB" />
-			<sample end="100106" hiNote="77" hiVel="127" loNote="74" loVel="63" path="Resources/Cello Ensemble Samples/spic_E3_v2_RR2.wav" rootNote="76" tuning="-0.05" volume="9.0dB" />
-			<sample end="85965" hiNote="80" hiVel="127" loNote="78" loVel="63" path="Resources/Cello Ensemble Samples/spic_G3_v2_RR2.wav" rootNote="79" volume="6.0dB" />
-			<sample end="99287" hiNote="84" hiVel="127" loNote="81" loVel="63" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR2.wav" rootNote="83" volume="9.0dB" />
-			<sample end="66917" hiNote="93" hiVel="127" loNote="85" loVel="63" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR2.wav" rootNote="86" volume="8.0dB" />
+		<group name="gr_1" ampVelTrack="1" volume="-8dB">
+			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="62" end="141874" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="52" loNote="50" hiNote="53" loVel="0" hiVel="62" end="59856" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="59" loVel="0" hiVel="62" end="82565" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="65" loVel="0" hiVel="62" end="61982" path="Resources/Cello Ensemble Samples/spic_D2_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="69" loNote="66" hiNote="70" loVel="0" hiVel="62" end="59417" path="Resources/Cello Ensemble Samples/spic_A2_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="62" end="73884" path="Resources/Cello Ensemble Samples/spic_C3_v1_RR2.wav" tuning="-0.07" volume="12.0dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="0" hiVel="62" end="51564" path="Resources/Cello Ensemble Samples/spic_E3_v1_RR2.wav" tuning="-0.05" volume="12.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="62" end="65384" path="Resources/Cello Ensemble Samples/spic_G3_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="62" end="61383" path="Resources/Cello Ensemble Samples/spic_B3_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="0" hiVel="62" end="68419" path="Resources/Cello Ensemble Samples/spic_D4_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="48" loNote="48" hiNote="49" loVel="63" hiVel="127" end="154459" path="Resources/Cello Ensemble Samples/spic_C1_v2_RR2.wav" volume="7.5dB" />
+			<sample rootNote="52" loNote="50" hiNote="53" loVel="63" hiVel="127" end="82428" path="Resources/Cello Ensemble Samples/spic_E1_v2_RR2.wav" volume="9.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="59" loVel="63" hiVel="127" end="125930" path="Resources/Cello Ensemble Samples/spic_G1_v2_RR2.wav" volume="10.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="65" loVel="63" hiVel="127" end="130504" path="Resources/Cello Ensemble Samples/spic_D2_v2_RR2.wav" volume="7.0dB" />
+			<sample rootNote="69" loNote="66" hiNote="70" loVel="63" hiVel="127" end="145208" path="Resources/Cello Ensemble Samples/spic_A2_v2_RR2.wav" volume="5.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="63" hiVel="127" end="127450" path="Resources/Cello Ensemble Samples/spic_C3_v2_RR2.wav" tuning="-0.07" volume="9.0dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="63" hiVel="127" end="100106" path="Resources/Cello Ensemble Samples/spic_E3_v2_RR2.wav" tuning="-0.05" volume="9.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="63" hiVel="127" end="85965" path="Resources/Cello Ensemble Samples/spic_G3_v2_RR2.wav" volume="6.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="63" hiVel="127" end="99287" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR2.wav" volume="9.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="63" hiVel="127" end="66917" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR2.wav" volume="8.0dB" />
 		</group>
 	</groups>
 	<midi>

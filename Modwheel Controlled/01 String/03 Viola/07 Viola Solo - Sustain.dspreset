@@ -32,101 +32,101 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.060" release="0.068">
-		<group name="Group 1" ampVelTrack="0">
-			<sample end="101892" hiNote="61" hiVel="127" loNote="60" loVel="54" path="Resources/Viola Solo Samples/3_C_f-PB.wav" rootNote="60" volume="4.0dB" />
-			<sample end="109995" hiNote="64" hiVel="127" loNote="62" loVel="54" path="Resources/Viola Solo Samples/3_Eb_f-PB.wav" rootNote="63" volume="4.0dB" />
-			<sample end="103929" hiNote="67" hiVel="127" loNote="65" loVel="54" path="Resources/Viola Solo Samples/3_Gb_f-PB.wav" rootNote="66" volume="2.0dB" />
-			<sample end="97516" hiNote="70" hiVel="127" loNote="68" loVel="54" path="Resources/Viola Solo Samples/3_A_f-PB.wav" rootNote="69" volume="5.0dB" />
-			<sample end="98080" hiNote="73" hiVel="127" loNote="71" loVel="54" path="Resources/Viola Solo Samples/4_C_f-PB.wav" rootNote="72" volume="3.0dB" />
-			<sample end="110722" hiNote="76" hiVel="127" loNote="74" loVel="54" path="Resources/Viola Solo Samples/4_Eb_f-PB.wav" rootNote="75" volume="3.0dB" />
-			<sample end="98590" hiNote="79" hiVel="127" loNote="77" loVel="54" path="Resources/Viola Solo Samples/4_Gb_f-PB.wav" rootNote="78" volume="2.0dB" />
-			<sample end="105720" hiNote="82" hiVel="127" loNote="80" loVel="54" path="Resources/Viola Solo Samples/4_A_f-PB.wav" rootNote="81" volume="4.0dB" />
-			<sample end="104244" hiNote="85" hiVel="127" loNote="83" loVel="54" path="Resources/Viola Solo Samples/5_C_f-PB.wav" rootNote="84" volume="8.0dB" />
-			<sample end="98467" hiNote="88" hiVel="127" loNote="86" loVel="54" path="Resources/Viola Solo Samples/5_Eb_f-PB.wav" rootNote="87" volume="7.0dB" />
-			<sample end="92861" hiNote="91" hiVel="127" loNote="89" loVel="54" path="Resources/Viola Solo Samples/5_Gb_f-PB.wav" rootNote="90" volume="3.0dB" />
-			<sample end="92013" hiNote="94" hiVel="127" loNote="92" loVel="54" path="Resources/Viola Solo Samples/5_A_f-PB.wav" rootNote="93" volume="4.0dB" />
-			<sample end="85749" hiNote="97" hiVel="127" loNote="95" loVel="54" path="Resources/Viola Solo Samples/6_C_f-PB.wav" rootNote="96" volume="5.0dB" />
-			<sample end="80515" hiNote="105" hiVel="127" loNote="98" loVel="54" path="Resources/Viola Solo Samples/6_Eb_f-PB.wav" rootNote="99" volume="4.0dB" />
+		<group name="Group 1" ampVelTrack="1">
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="54" hiVel="127" end="101892" path="Resources/Viola Solo Samples/3_C_f-PB.wav" volume="4.0dB" />
+			<sample rootNote="63" loNote="62" hiNote="64" loVel="54" hiVel="127" end="109995" path="Resources/Viola Solo Samples/3_Eb_f-PB.wav" volume="4.0dB" />
+			<sample rootNote="66" loNote="65" hiNote="67" loVel="54" hiVel="127" end="103929" path="Resources/Viola Solo Samples/3_Gb_f-PB.wav" volume="2.0dB" />
+			<sample rootNote="69" loNote="68" hiNote="70" loVel="54" hiVel="127" end="97516" path="Resources/Viola Solo Samples/3_A_f-PB.wav" volume="5.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="54" hiVel="127" end="98080" path="Resources/Viola Solo Samples/4_C_f-PB.wav" volume="3.0dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="54" hiVel="127" end="110722" path="Resources/Viola Solo Samples/4_Eb_f-PB.wav" volume="3.0dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="54" hiVel="127" end="98590" path="Resources/Viola Solo Samples/4_Gb_f-PB.wav" volume="2.0dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="54" hiVel="127" end="105720" path="Resources/Viola Solo Samples/4_A_f-PB.wav" volume="4.0dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="54" hiVel="127" end="104244" path="Resources/Viola Solo Samples/5_C_f-PB.wav" volume="8.0dB" />
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="54" hiVel="127" end="98467" path="Resources/Viola Solo Samples/5_Eb_f-PB.wav" volume="7.0dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="54" hiVel="127" end="92861" path="Resources/Viola Solo Samples/5_Gb_f-PB.wav" volume="3.0dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="54" hiVel="127" end="92013" path="Resources/Viola Solo Samples/5_A_f-PB.wav" volume="4.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="54" hiVel="127" end="85749" path="Resources/Viola Solo Samples/6_C_f-PB.wav" volume="5.0dB" />
+			<sample rootNote="99" loNote="98" hiNote="105" loVel="54" hiVel="127" end="80515" path="Resources/Viola Solo Samples/6_Eb_f-PB.wav" volume="4.0dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="0">
-			<sample end="148927" hiNote="61" hiVel="104" loNote="60" loVel="0" path="Resources/Viola Solo Samples/3_C_mf-PB.wav" rootNote="60" volume="4.0dB" />
-			<sample end="113560" hiNote="64" hiVel="104" loNote="62" loVel="0" path="Resources/Viola Solo Samples/3_Eb_mf-PB.wav" rootNote="63" volume="4.0dB" />
-			<sample end="57299" hiNote="67" hiVel="104" loNote="65" loVel="0" path="Resources/Viola Solo Samples/3_Gb_mf-PB.wav" rootNote="66" volume="2.0dB" />
-			<sample end="106241" hiNote="70" hiVel="104" loNote="68" loVel="0" path="Resources/Viola Solo Samples/3_A_mf-PB.wav" rootNote="69" volume="5.0dB" />
-			<sample end="115992" hiNote="73" hiVel="104" loNote="71" loVel="0" path="Resources/Viola Solo Samples/4_C_mf-PB.wav" rootNote="72" volume="3.0dB" />
-			<sample end="123637" hiNote="76" hiVel="104" loNote="74" loVel="0" path="Resources/Viola Solo Samples/4_Eb_mf-PB.wav" rootNote="75" volume="3.0dB" />
-			<sample end="120614" hiNote="79" hiVel="104" loNote="77" loVel="0" path="Resources/Viola Solo Samples/4_Gb_mf-PB.wav" rootNote="78" volume="2.0dB" />
-			<sample end="122337" hiNote="82" hiVel="104" loNote="80" loVel="0" path="Resources/Viola Solo Samples/4_A_mf-PB.wav" rootNote="81" volume="4.0dB" />
-			<sample end="97035" hiNote="85" hiVel="104" loNote="83" loVel="0" path="Resources/Viola Solo Samples/5_C_mf-PB.wav" rootNote="84" volume="8.0dB" />
-			<sample end="110976" hiNote="88" hiVel="104" loNote="86" loVel="0" path="Resources/Viola Solo Samples/5_Eb_mf-PB.wav" rootNote="87" volume="7.0dB" />
-			<sample end="123910" hiNote="91" hiVel="104" loNote="89" loVel="0" path="Resources/Viola Solo Samples/5_Gb_mf-PB.wav" rootNote="90" volume="3.0dB" />
-			<sample end="89307" hiNote="94" hiVel="104" loNote="92" loVel="0" path="Resources/Viola Solo Samples/5_A_mf-PB.wav" rootNote="93" volume="4.0dB" />
-			<sample end="95419" hiNote="97" hiVel="104" loNote="95" loVel="0" path="Resources/Viola Solo Samples/6_C_mf-PB.wav" rootNote="96" volume="5.0dB" />
-			<sample end="64028" hiNote="105" hiVel="104" loNote="98" loVel="0" path="Resources/Viola Solo Samples/6_Eb_mf-PB.wav" rootNote="99" volume="4.0dB" />
+		<group name="Group 2" ampVelTrack="1">
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="104" end="148927" path="Resources/Viola Solo Samples/3_C_mf-PB.wav" volume="4.0dB" />
+			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="104" end="113560" path="Resources/Viola Solo Samples/3_Eb_mf-PB.wav" volume="4.0dB" />
+			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="104" end="57299" path="Resources/Viola Solo Samples/3_Gb_mf-PB.wav" volume="2.0dB" />
+			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="104" end="106241" path="Resources/Viola Solo Samples/3_A_mf-PB.wav" volume="5.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="104" end="115992" path="Resources/Viola Solo Samples/4_C_mf-PB.wav" volume="3.0dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="0" hiVel="104" end="123637" path="Resources/Viola Solo Samples/4_Eb_mf-PB.wav" volume="3.0dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="0" hiVel="104" end="120614" path="Resources/Viola Solo Samples/4_Gb_mf-PB.wav" volume="2.0dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="104" end="122337" path="Resources/Viola Solo Samples/4_A_mf-PB.wav" volume="4.0dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="104" end="97035" path="Resources/Viola Solo Samples/5_C_mf-PB.wav" volume="8.0dB" />
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="0" hiVel="104" end="110976" path="Resources/Viola Solo Samples/5_Eb_mf-PB.wav" volume="7.0dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="0" hiVel="104" end="123910" path="Resources/Viola Solo Samples/5_Gb_mf-PB.wav" volume="3.0dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="104" end="89307" path="Resources/Viola Solo Samples/5_A_mf-PB.wav" volume="4.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="0" hiVel="104" end="95419" path="Resources/Viola Solo Samples/6_C_mf-PB.wav" volume="5.0dB" />
+			<sample rootNote="99" loNote="98" hiNote="105" loVel="0" hiVel="104" end="64028" path="Resources/Viola Solo Samples/6_Eb_mf-PB.wav" volume="4.0dB" />
 		</group>
-		<group name="Group 5" ampVelTrack="0">
-			<sample end="101892" hiNote="61" hiVel="127" loNote="60" loVel="54" path="Resources/Viola Solo Samples/3_C_f-PB.wav" rootNote="60" volume="4.0dB" />
-			<sample end="109995" hiNote="64" hiVel="127" loNote="62" loVel="54" path="Resources/Viola Solo Samples/3_Eb_f-PB.wav" rootNote="63" volume="4.0dB" />
-			<sample end="103929" hiNote="67" hiVel="127" loNote="65" loVel="54" path="Resources/Viola Solo Samples/3_Gb_f-PB.wav" rootNote="66" volume="2.0dB" />
-			<sample end="97516" hiNote="70" hiVel="127" loNote="68" loVel="54" path="Resources/Viola Solo Samples/3_A_f-PB.wav" rootNote="69" volume="5.0dB" />
-			<sample end="98080" hiNote="73" hiVel="127" loNote="71" loVel="54" path="Resources/Viola Solo Samples/4_C_f-PB.wav" rootNote="72" volume="3.0dB" />
-			<sample end="110722" hiNote="76" hiVel="127" loNote="74" loVel="54" path="Resources/Viola Solo Samples/4_Eb_f-PB.wav" rootNote="75" volume="3.0dB" />
-			<sample end="98590" hiNote="79" hiVel="127" loNote="77" loVel="54" path="Resources/Viola Solo Samples/4_Gb_f-PB.wav" rootNote="78" volume="2.0dB" />
-			<sample end="105720" hiNote="82" hiVel="127" loNote="80" loVel="54" path="Resources/Viola Solo Samples/4_A_f-PB.wav" rootNote="81" volume="4.0dB" />
-			<sample end="104244" hiNote="85" hiVel="127" loNote="83" loVel="54" path="Resources/Viola Solo Samples/5_C_f-PB.wav" rootNote="84" volume="8.0dB" />
-			<sample end="98467" hiNote="88" hiVel="127" loNote="86" loVel="54" path="Resources/Viola Solo Samples/5_Eb_f-PB.wav" rootNote="87" volume="7.0dB" />
-			<sample end="92861" hiNote="91" hiVel="127" loNote="89" loVel="54" path="Resources/Viola Solo Samples/5_Gb_f-PB.wav" rootNote="90" volume="3.0dB" />
-			<sample end="92013" hiNote="94" hiVel="127" loNote="92" loVel="54" path="Resources/Viola Solo Samples/5_A_f-PB.wav" rootNote="93" volume="4.0dB" />
-			<sample end="85749" hiNote="97" hiVel="127" loNote="95" loVel="54" path="Resources/Viola Solo Samples/6_C_f-PB.wav" rootNote="96" volume="5.0dB" />
-			<sample end="80515" hiNote="105" hiVel="127" loNote="98" loVel="54" path="Resources/Viola Solo Samples/6_Eb_f-PB.wav" rootNote="99" volume="4.0dB" />
+		<group name="Group 5" ampVelTrack="1">
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="54" hiVel="127" end="101892" path="Resources/Viola Solo Samples/3_C_f-PB.wav" volume="4.0dB" />
+			<sample rootNote="63" loNote="62" hiNote="64" loVel="54" hiVel="127" end="109995" path="Resources/Viola Solo Samples/3_Eb_f-PB.wav" volume="4.0dB" />
+			<sample rootNote="66" loNote="65" hiNote="67" loVel="54" hiVel="127" end="103929" path="Resources/Viola Solo Samples/3_Gb_f-PB.wav" volume="2.0dB" />
+			<sample rootNote="69" loNote="68" hiNote="70" loVel="54" hiVel="127" end="97516" path="Resources/Viola Solo Samples/3_A_f-PB.wav" volume="5.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="54" hiVel="127" end="98080" path="Resources/Viola Solo Samples/4_C_f-PB.wav" volume="3.0dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="54" hiVel="127" end="110722" path="Resources/Viola Solo Samples/4_Eb_f-PB.wav" volume="3.0dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="54" hiVel="127" end="98590" path="Resources/Viola Solo Samples/4_Gb_f-PB.wav" volume="2.0dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="54" hiVel="127" end="105720" path="Resources/Viola Solo Samples/4_A_f-PB.wav" volume="4.0dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="54" hiVel="127" end="104244" path="Resources/Viola Solo Samples/5_C_f-PB.wav" volume="8.0dB" />
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="54" hiVel="127" end="98467" path="Resources/Viola Solo Samples/5_Eb_f-PB.wav" volume="7.0dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="54" hiVel="127" end="92861" path="Resources/Viola Solo Samples/5_Gb_f-PB.wav" volume="3.0dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="54" hiVel="127" end="92013" path="Resources/Viola Solo Samples/5_A_f-PB.wav" volume="4.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="54" hiVel="127" end="85749" path="Resources/Viola Solo Samples/6_C_f-PB.wav" volume="5.0dB" />
+			<sample rootNote="99" loNote="98" hiNote="105" loVel="54" hiVel="127" end="80515" path="Resources/Viola Solo Samples/6_Eb_f-PB.wav" volume="4.0dB" />
 		</group>
-		<group name="Group 6" ampVelTrack="0">
-			<sample end="148927" hiNote="61" hiVel="104" loNote="60" loVel="0" path="Resources/Viola Solo Samples/3_C_mf-PB.wav" rootNote="60" volume="4.0dB" />
-			<sample end="113560" hiNote="64" hiVel="104" loNote="62" loVel="0" path="Resources/Viola Solo Samples/3_Eb_mf-PB.wav" rootNote="63" volume="4.0dB" />
-			<sample end="57299" hiNote="67" hiVel="104" loNote="65" loVel="0" path="Resources/Viola Solo Samples/3_Gb_mf-PB.wav" rootNote="66" volume="2.0dB" />
-			<sample end="106241" hiNote="70" hiVel="104" loNote="68" loVel="0" path="Resources/Viola Solo Samples/3_A_mf-PB.wav" rootNote="69" volume="5.0dB" />
-			<sample end="115992" hiNote="73" hiVel="104" loNote="71" loVel="0" path="Resources/Viola Solo Samples/4_C_mf-PB.wav" rootNote="72" volume="3.0dB" />
-			<sample end="123637" hiNote="76" hiVel="104" loNote="74" loVel="0" path="Resources/Viola Solo Samples/4_Eb_mf-PB.wav" rootNote="75" volume="3.0dB" />
-			<sample end="120614" hiNote="79" hiVel="104" loNote="77" loVel="0" path="Resources/Viola Solo Samples/4_Gb_mf-PB.wav" rootNote="78" volume="2.0dB" />
-			<sample end="122337" hiNote="82" hiVel="104" loNote="80" loVel="0" path="Resources/Viola Solo Samples/4_A_mf-PB.wav" rootNote="81" volume="4.0dB" />
-			<sample end="97035" hiNote="85" hiVel="104" loNote="83" loVel="0" path="Resources/Viola Solo Samples/5_C_mf-PB.wav" rootNote="84" volume="8.0dB" />
-			<sample end="110976" hiNote="88" hiVel="104" loNote="86" loVel="0" path="Resources/Viola Solo Samples/5_Eb_mf-PB.wav" rootNote="87" volume="7.0dB" />
-			<sample end="123910" hiNote="91" hiVel="104" loNote="89" loVel="0" path="Resources/Viola Solo Samples/5_Gb_mf-PB.wav" rootNote="90" volume="3.0dB" />
-			<sample end="89307" hiNote="94" hiVel="104" loNote="92" loVel="0" path="Resources/Viola Solo Samples/5_A_mf-PB.wav" rootNote="93" volume="4.0dB" />
-			<sample end="95419" hiNote="97" hiVel="104" loNote="95" loVel="0" path="Resources/Viola Solo Samples/6_C_mf-PB.wav" rootNote="96" volume="5.0dB" />
-			<sample end="64028" hiNote="105" hiVel="104" loNote="98" loVel="0" path="Resources/Viola Solo Samples/6_Eb_mf-PB.wav" rootNote="99" volume="4.0dB" />
+		<group name="Group 6" ampVelTrack="1">
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="104" end="148927" path="Resources/Viola Solo Samples/3_C_mf-PB.wav" volume="4.0dB" />
+			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="104" end="113560" path="Resources/Viola Solo Samples/3_Eb_mf-PB.wav" volume="4.0dB" />
+			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="104" end="57299" path="Resources/Viola Solo Samples/3_Gb_mf-PB.wav" volume="2.0dB" />
+			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="104" end="106241" path="Resources/Viola Solo Samples/3_A_mf-PB.wav" volume="5.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="104" end="115992" path="Resources/Viola Solo Samples/4_C_mf-PB.wav" volume="3.0dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="0" hiVel="104" end="123637" path="Resources/Viola Solo Samples/4_Eb_mf-PB.wav" volume="3.0dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="0" hiVel="104" end="120614" path="Resources/Viola Solo Samples/4_Gb_mf-PB.wav" volume="2.0dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="104" end="122337" path="Resources/Viola Solo Samples/4_A_mf-PB.wav" volume="4.0dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="104" end="97035" path="Resources/Viola Solo Samples/5_C_mf-PB.wav" volume="8.0dB" />
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="0" hiVel="104" end="110976" path="Resources/Viola Solo Samples/5_Eb_mf-PB.wav" volume="7.0dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="0" hiVel="104" end="123910" path="Resources/Viola Solo Samples/5_Gb_mf-PB.wav" volume="3.0dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="104" end="89307" path="Resources/Viola Solo Samples/5_A_mf-PB.wav" volume="4.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="0" hiVel="104" end="95419" path="Resources/Viola Solo Samples/6_C_mf-PB.wav" volume="5.0dB" />
+			<sample rootNote="99" loNote="98" hiNote="105" loVel="0" hiVel="104" end="64028" path="Resources/Viola Solo Samples/6_Eb_mf-PB.wav" volume="4.0dB" />
 		</group>
-		<group name="Group 9" ampVelTrack="0">
-			<sample end="101892" hiNote="61" hiVel="127" loNote="60" loVel="54" path="Resources/Viola Solo Samples/3_C_f-PB.wav" rootNote="60" volume="4.0dB" />
-			<sample end="109995" hiNote="64" hiVel="127" loNote="62" loVel="54" path="Resources/Viola Solo Samples/3_Eb_f-PB.wav" rootNote="63" volume="4.0dB" />
-			<sample end="103929" hiNote="67" hiVel="127" loNote="65" loVel="54" path="Resources/Viola Solo Samples/3_Gb_f-PB.wav" rootNote="66" volume="2.0dB" />
-			<sample end="97516" hiNote="70" hiVel="127" loNote="68" loVel="54" path="Resources/Viola Solo Samples/3_A_f-PB.wav" rootNote="69" volume="5.0dB" />
-			<sample end="98080" hiNote="73" hiVel="127" loNote="71" loVel="54" path="Resources/Viola Solo Samples/4_C_f-PB.wav" rootNote="72" volume="3.0dB" />
-			<sample end="110722" hiNote="76" hiVel="127" loNote="74" loVel="54" path="Resources/Viola Solo Samples/4_Eb_f-PB.wav" rootNote="75" volume="3.0dB" />
-			<sample end="98590" hiNote="79" hiVel="127" loNote="77" loVel="54" path="Resources/Viola Solo Samples/4_Gb_f-PB.wav" rootNote="78" volume="2.0dB" />
-			<sample end="105720" hiNote="82" hiVel="127" loNote="80" loVel="54" path="Resources/Viola Solo Samples/4_A_f-PB.wav" rootNote="81" volume="4.0dB" />
-			<sample end="104244" hiNote="85" hiVel="127" loNote="83" loVel="54" path="Resources/Viola Solo Samples/5_C_f-PB.wav" rootNote="84" volume="8.0dB" />
-			<sample end="98467" hiNote="88" hiVel="127" loNote="86" loVel="54" path="Resources/Viola Solo Samples/5_Eb_f-PB.wav" rootNote="87" volume="7.0dB" />
-			<sample end="92861" hiNote="91" hiVel="127" loNote="89" loVel="54" path="Resources/Viola Solo Samples/5_Gb_f-PB.wav" rootNote="90" volume="3.0dB" />
-			<sample end="92013" hiNote="94" hiVel="127" loNote="92" loVel="54" path="Resources/Viola Solo Samples/5_A_f-PB.wav" rootNote="93" volume="4.0dB" />
-			<sample end="85749" hiNote="97" hiVel="127" loNote="95" loVel="54" path="Resources/Viola Solo Samples/6_C_f-PB.wav" rootNote="96" volume="5.0dB" />
-			<sample end="80515" hiNote="105" hiVel="127" loNote="98" loVel="54" path="Resources/Viola Solo Samples/6_Eb_f-PB.wav" rootNote="99" volume="4.0dB" />
+		<group name="Group 9" ampVelTrack="1">
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="54" hiVel="127" end="101892" path="Resources/Viola Solo Samples/3_C_f-PB.wav" volume="4.0dB" />
+			<sample rootNote="63" loNote="62" hiNote="64" loVel="54" hiVel="127" end="109995" path="Resources/Viola Solo Samples/3_Eb_f-PB.wav" volume="4.0dB" />
+			<sample rootNote="66" loNote="65" hiNote="67" loVel="54" hiVel="127" end="103929" path="Resources/Viola Solo Samples/3_Gb_f-PB.wav" volume="2.0dB" />
+			<sample rootNote="69" loNote="68" hiNote="70" loVel="54" hiVel="127" end="97516" path="Resources/Viola Solo Samples/3_A_f-PB.wav" volume="5.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="54" hiVel="127" end="98080" path="Resources/Viola Solo Samples/4_C_f-PB.wav" volume="3.0dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="54" hiVel="127" end="110722" path="Resources/Viola Solo Samples/4_Eb_f-PB.wav" volume="3.0dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="54" hiVel="127" end="98590" path="Resources/Viola Solo Samples/4_Gb_f-PB.wav" volume="2.0dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="54" hiVel="127" end="105720" path="Resources/Viola Solo Samples/4_A_f-PB.wav" volume="4.0dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="54" hiVel="127" end="104244" path="Resources/Viola Solo Samples/5_C_f-PB.wav" volume="8.0dB" />
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="54" hiVel="127" end="98467" path="Resources/Viola Solo Samples/5_Eb_f-PB.wav" volume="7.0dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="54" hiVel="127" end="92861" path="Resources/Viola Solo Samples/5_Gb_f-PB.wav" volume="3.0dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="54" hiVel="127" end="92013" path="Resources/Viola Solo Samples/5_A_f-PB.wav" volume="4.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="54" hiVel="127" end="85749" path="Resources/Viola Solo Samples/6_C_f-PB.wav" volume="5.0dB" />
+			<sample rootNote="99" loNote="98" hiNote="105" loVel="54" hiVel="127" end="80515" path="Resources/Viola Solo Samples/6_Eb_f-PB.wav" volume="4.0dB" />
 		</group>
-		<group name="Group 10" ampVelTrack="0">
-			<sample end="148927" hiNote="61" hiVel="104" loNote="60" loVel="0" path="Resources/Viola Solo Samples/3_C_mf-PB.wav" rootNote="60" volume="4.0dB" />
-			<sample end="113560" hiNote="64" hiVel="104" loNote="62" loVel="0" path="Resources/Viola Solo Samples/3_Eb_mf-PB.wav" rootNote="63" volume="4.0dB" />
-			<sample end="57299" hiNote="67" hiVel="104" loNote="65" loVel="0" path="Resources/Viola Solo Samples/3_Gb_mf-PB.wav" rootNote="66" volume="2.0dB" />
-			<sample end="106241" hiNote="70" hiVel="104" loNote="68" loVel="0" path="Resources/Viola Solo Samples/3_A_mf-PB.wav" rootNote="69" volume="5.0dB" />
-			<sample end="115992" hiNote="73" hiVel="104" loNote="71" loVel="0" path="Resources/Viola Solo Samples/4_C_mf-PB.wav" rootNote="72" volume="3.0dB" />
-			<sample end="123637" hiNote="76" hiVel="104" loNote="74" loVel="0" path="Resources/Viola Solo Samples/4_Eb_mf-PB.wav" rootNote="75" volume="3.0dB" />
-			<sample end="120614" hiNote="79" hiVel="104" loNote="77" loVel="0" path="Resources/Viola Solo Samples/4_Gb_mf-PB.wav" rootNote="78" volume="2.0dB" />
-			<sample end="122337" hiNote="82" hiVel="104" loNote="80" loVel="0" path="Resources/Viola Solo Samples/4_A_mf-PB.wav" rootNote="81" volume="4.0dB" />
-			<sample end="97035" hiNote="85" hiVel="104" loNote="83" loVel="0" path="Resources/Viola Solo Samples/5_C_mf-PB.wav" rootNote="84" volume="8.0dB" />
-			<sample end="110976" hiNote="88" hiVel="104" loNote="86" loVel="0" path="Resources/Viola Solo Samples/5_Eb_mf-PB.wav" rootNote="87" volume="7.0dB" />
-			<sample end="123910" hiNote="91" hiVel="104" loNote="89" loVel="0" path="Resources/Viola Solo Samples/5_Gb_mf-PB.wav" rootNote="90" volume="3.0dB" />
-			<sample end="89307" hiNote="94" hiVel="104" loNote="92" loVel="0" path="Resources/Viola Solo Samples/5_A_mf-PB.wav" rootNote="93" volume="4.0dB" />
-			<sample end="95419" hiNote="97" hiVel="104" loNote="95" loVel="0" path="Resources/Viola Solo Samples/6_C_mf-PB.wav" rootNote="96" volume="5.0dB" />
-			<sample end="64028" hiNote="105" hiVel="104" loNote="98" loVel="0" path="Resources/Viola Solo Samples/6_Eb_mf-PB.wav" rootNote="99" volume="4.0dB" />
+		<group name="Group 10" ampVelTrack="1">
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="104" end="148927" path="Resources/Viola Solo Samples/3_C_mf-PB.wav" volume="4.0dB" />
+			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="104" end="113560" path="Resources/Viola Solo Samples/3_Eb_mf-PB.wav" volume="4.0dB" />
+			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="104" end="57299" path="Resources/Viola Solo Samples/3_Gb_mf-PB.wav" volume="2.0dB" />
+			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="104" end="106241" path="Resources/Viola Solo Samples/3_A_mf-PB.wav" volume="5.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="104" end="115992" path="Resources/Viola Solo Samples/4_C_mf-PB.wav" volume="3.0dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="0" hiVel="104" end="123637" path="Resources/Viola Solo Samples/4_Eb_mf-PB.wav" volume="3.0dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="0" hiVel="104" end="120614" path="Resources/Viola Solo Samples/4_Gb_mf-PB.wav" volume="2.0dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="104" end="122337" path="Resources/Viola Solo Samples/4_A_mf-PB.wav" volume="4.0dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="104" end="97035" path="Resources/Viola Solo Samples/5_C_mf-PB.wav" volume="8.0dB" />
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="0" hiVel="104" end="110976" path="Resources/Viola Solo Samples/5_Eb_mf-PB.wav" volume="7.0dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="0" hiVel="104" end="123910" path="Resources/Viola Solo Samples/5_Gb_mf-PB.wav" volume="3.0dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="104" end="89307" path="Resources/Viola Solo Samples/5_A_mf-PB.wav" volume="4.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="0" hiVel="104" end="95419" path="Resources/Viola Solo Samples/6_C_mf-PB.wav" volume="5.0dB" />
+			<sample rootNote="99" loNote="98" hiNote="105" loVel="0" hiVel="104" end="64028" path="Resources/Viola Solo Samples/6_Eb_mf-PB.wav" volume="4.0dB" />
 		</group>
 	</groups>
 	<midi>

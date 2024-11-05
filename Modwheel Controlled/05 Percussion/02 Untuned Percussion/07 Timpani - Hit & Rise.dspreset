@@ -32,37 +32,37 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="Group 1" ampVelTrack="0">
-			<sample end="186784" hiNote="100" hiVel="63" loNote="98" loVel="0" path="Resources/TC - Timpani Samples/timpani-roll-d#1.wav" rootNote="99" volume="6.020599913279624dB" />
-			<sample end="189475" hiNote="103" hiVel="63" loNote="101" loVel="0" path="Resources/TC - Timpani Samples/timpani-roll-f#1.wav" rootNote="102" volume="6.020599913279624dB" />
-			<sample end="188981" hiNote="106" hiVel="63" loNote="104" loVel="0" path="Resources/TC - Timpani Samples/timpani-roll-a1.wav" rootNote="105" volume="6.020599913279624dB" />
-			<sample end="189852" hiNote="97" hiVel="63" loNote="95" loVel="0" path="Resources/TC - Timpani Samples/timpani-roll-c1.wav" rootNote="96" volume="6.020599913279624dB" />
-			<sample end="182871" hiNote="108" hiVel="63" loNote="107" loVel="0" path="Resources/TC - Timpani Samples/timpani-roll-c2.wav" rootNote="108" volume="6.020599913279624dB" />
-			<sample end="81744" hiNote="58" hiVel="63" loNote="56" loVel="0" path="Resources/TC - Timpani Samples/timpani-p-lh-a1.wav" rootNote="57" volume="6.020599913279624dB" />
-			<sample end="93665" hiNote="49" hiVel="63" loNote="21" loVel="0" path="Resources/TC - Timpani Samples/timpani-p-lh-c1.wav" rootNote="48" start="502" volume="6.020599913279624dB" />
-			<sample end="78663" hiNote="60" hiVel="63" loNote="59" loVel="0" path="Resources/TC - Timpani Samples/timpani-p-lh-c2.wav" rootNote="60" volume="6.020599913279624dB" />
-			<sample end="92027" hiNote="52" hiVel="63" loNote="50" loVel="0" path="Resources/TC - Timpani Samples/timpani-p-lh-d#1.wav" rootNote="51" volume="6.020599913279624dB" />
-			<sample end="83961" hiNote="55" hiVel="63" loNote="53" loVel="0" path="Resources/TC - Timpani Samples/timpani-p-lh-f#1.wav" rootNote="54" volume="6.020599913279624dB" />
-			<sample end="86476" hiNote="82" hiVel="63" loNote="80" loVel="0" path="Resources/TC - Timpani Samples/timpani-p-rh-a1.wav" rootNote="81" volume="6.020599913279624dB" />
-			<sample end="99229" hiNote="73" hiVel="63" loNote="72" loVel="0" path="Resources/TC - Timpani Samples/timpani-p-rh-c1.wav" rootNote="72" volume="6.020599913279624dB" />
-			<sample end="81315" hiNote="84" hiVel="63" loNote="83" loVel="0" path="Resources/TC - Timpani Samples/timpani-p-rh-c2.wav" rootNote="84" volume="6.020599913279624dB" />
-			<sample end="86866" hiNote="76" hiVel="63" loNote="74" loVel="0" path="Resources/TC - Timpani Samples/timpani-p-rh-d#1.wav" rootNote="75" volume="6.020599913279624dB" />
-			<sample end="89828" hiNote="79" hiVel="63" loNote="77" loVel="0" path="Resources/TC - Timpani Samples/timpani-p-rh-f#1.wav" rootNote="78" volume="6.020599913279624dB" />
-			<sample end="85800" hiNote="82" hiVel="127" loNote="80" loVel="52" path="Resources/TC - Timpani Samples/timpani-f-rh-a1.wav" rootNote="81" volume="6.020599913279624dB" />
-			<sample end="93665" hiNote="73" hiVel="127" loNote="72" loVel="52" path="Resources/TC - Timpani Samples/timpani-f-rh-c1.wav" rootNote="72" volume="6.020599913279624dB" />
-			<sample end="83317" hiNote="84" hiVel="127" loNote="83" loVel="52" path="Resources/TC - Timpani Samples/timpani-f-rh-c2.wav" rootNote="84" volume="6.020599913279624dB" />
-			<sample end="92625" hiNote="76" hiVel="127" loNote="74" loVel="52" path="Resources/TC - Timpani Samples/timpani-f-rh-d#1.wav" rootNote="75" volume="6.020599913279624dB" />
-			<sample end="89453" hiNote="79" hiVel="127" loNote="77" loVel="52" path="Resources/TC - Timpani Samples/timpani-f-rh-f#1.wav" rootNote="78" volume="6.020599913279624dB" />
-			<sample end="91988" hiNote="55" hiVel="127" loNote="53" loVel="52" path="Resources/TC - Timpani Samples/timpani-f-lh-f#1.wav" rootNote="54" volume="6.020599913279624dB" />
-			<sample end="88010" hiNote="58" hiVel="127" loNote="56" loVel="52" path="Resources/TC - Timpani Samples/timpani-f-lh-a1.wav" rootNote="57" volume="6.020599913279624dB" />
-			<sample end="98995" hiNote="49" hiVel="127" loNote="21" loVel="52" path="Resources/TC - Timpani Samples/timpani-f-lh-c1.wav" rootNote="48" start="100" volume="6.020599913279624dB" />
-			<sample end="83720" hiNote="60" hiVel="127" loNote="59" loVel="52" path="Resources/TC - Timpani Samples/timpani-f-lh-c2.wav" rootNote="60" volume="6.020599913279624dB" />
-			<sample end="87191" hiNote="52" hiVel="127" loNote="50" loVel="52" path="Resources/TC - Timpani Samples/timpani-f-lh-d#1.wav" rootNote="51" volume="6.020599913279624dB" />
-			<sample end="200070" hiNote="103" hiVel="127" loNote="101" loVel="64" path="Resources/TC - Timpani Samples/timpani-roll-crsc-f#1.wav" rootNote="102" volume="6.020599913279624dB" />
-			<sample end="207441" hiNote="106" hiVel="127" loNote="104" loVel="64" path="Resources/TC - Timpani Samples/timpani-roll-crsc-a1.wav" rootNote="105" volume="6.020599913279624dB" />
-			<sample end="290017" hiNote="97" hiVel="127" loNote="95" loVel="64" path="Resources/TC - Timpani Samples/timpani-roll-crsc-c1.wav" rootNote="96" volume="6.020599913279624dB" />
-			<sample end="181623" hiNote="108" hiVel="127" loNote="107" loVel="64" path="Resources/TC - Timpani Samples/timpani-roll-crsc-c2.wav" rootNote="108" volume="6.020599913279624dB" />
-			<sample end="209300" hiNote="100" hiVel="127" loNote="98" loVel="64" path="Resources/TC - Timpani Samples/timpani-roll-crsc-d#1.wav" rootNote="99" volume="6.020599913279624dB" />
+		<group name="Group 1" ampVelTrack="1">
+			<sample rootNote="99" loNote="98" hiNote="100" loVel="0" hiVel="63" end="186784" path="Resources/TC - Timpani Samples/timpani-roll-d#1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="102" loNote="101" hiNote="103" loVel="0" hiVel="63" end="189475" path="Resources/TC - Timpani Samples/timpani-roll-f#1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="105" loNote="104" hiNote="106" loVel="0" hiVel="63" end="188981" path="Resources/TC - Timpani Samples/timpani-roll-a1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="0" hiVel="63" end="189852" path="Resources/TC - Timpani Samples/timpani-roll-c1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="108" loNote="107" hiNote="108" loVel="0" hiVel="63" end="182871" path="Resources/TC - Timpani Samples/timpani-roll-c2.wav" volume="6.020599913279624dB" />
+			<sample rootNote="57" loNote="56" hiNote="58" loVel="0" hiVel="63" end="81744" path="Resources/TC - Timpani Samples/timpani-p-lh-a1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="48" loNote="21" hiNote="49" loVel="0" hiVel="63" end="93665" path="Resources/TC - Timpani Samples/timpani-p-lh-c1.wav" start="502" volume="6.020599913279624dB" />
+			<sample rootNote="60" loNote="59" hiNote="60" loVel="0" hiVel="63" end="78663" path="Resources/TC - Timpani Samples/timpani-p-lh-c2.wav" volume="6.020599913279624dB" />
+			<sample rootNote="51" loNote="50" hiNote="52" loVel="0" hiVel="63" end="92027" path="Resources/TC - Timpani Samples/timpani-p-lh-d#1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="54" loNote="53" hiNote="55" loVel="0" hiVel="63" end="83961" path="Resources/TC - Timpani Samples/timpani-p-lh-f#1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="63" end="86476" path="Resources/TC - Timpani Samples/timpani-p-rh-a1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="72" loNote="72" hiNote="73" loVel="0" hiVel="63" end="99229" path="Resources/TC - Timpani Samples/timpani-p-rh-c1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="84" loNote="83" hiNote="84" loVel="0" hiVel="63" end="81315" path="Resources/TC - Timpani Samples/timpani-p-rh-c2.wav" volume="6.020599913279624dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="0" hiVel="63" end="86866" path="Resources/TC - Timpani Samples/timpani-p-rh-d#1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="0" hiVel="63" end="89828" path="Resources/TC - Timpani Samples/timpani-p-rh-f#1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="52" hiVel="127" end="85800" path="Resources/TC - Timpani Samples/timpani-f-rh-a1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="72" loNote="72" hiNote="73" loVel="52" hiVel="127" end="93665" path="Resources/TC - Timpani Samples/timpani-f-rh-c1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="84" loNote="83" hiNote="84" loVel="52" hiVel="127" end="83317" path="Resources/TC - Timpani Samples/timpani-f-rh-c2.wav" volume="6.020599913279624dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="52" hiVel="127" end="92625" path="Resources/TC - Timpani Samples/timpani-f-rh-d#1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="52" hiVel="127" end="89453" path="Resources/TC - Timpani Samples/timpani-f-rh-f#1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="54" loNote="53" hiNote="55" loVel="52" hiVel="127" end="91988" path="Resources/TC - Timpani Samples/timpani-f-lh-f#1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="57" loNote="56" hiNote="58" loVel="52" hiVel="127" end="88010" path="Resources/TC - Timpani Samples/timpani-f-lh-a1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="48" loNote="21" hiNote="49" loVel="52" hiVel="127" end="98995" path="Resources/TC - Timpani Samples/timpani-f-lh-c1.wav" start="100" volume="6.020599913279624dB" />
+			<sample rootNote="60" loNote="59" hiNote="60" loVel="52" hiVel="127" end="83720" path="Resources/TC - Timpani Samples/timpani-f-lh-c2.wav" volume="6.020599913279624dB" />
+			<sample rootNote="51" loNote="50" hiNote="52" loVel="52" hiVel="127" end="87191" path="Resources/TC - Timpani Samples/timpani-f-lh-d#1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="102" loNote="101" hiNote="103" loVel="64" hiVel="127" end="200070" path="Resources/TC - Timpani Samples/timpani-roll-crsc-f#1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="105" loNote="104" hiNote="106" loVel="64" hiVel="127" end="207441" path="Resources/TC - Timpani Samples/timpani-roll-crsc-a1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="64" hiVel="127" end="290017" path="Resources/TC - Timpani Samples/timpani-roll-crsc-c1.wav" volume="6.020599913279624dB" />
+			<sample rootNote="108" loNote="107" hiNote="108" loVel="64" hiVel="127" end="181623" path="Resources/TC - Timpani Samples/timpani-roll-crsc-c2.wav" volume="6.020599913279624dB" />
+			<sample rootNote="99" loNote="98" hiNote="100" loVel="64" hiVel="127" end="209300" path="Resources/TC - Timpani Samples/timpani-roll-crsc-d#1.wav" volume="6.020599913279624dB" />
 		</group>
 	</groups>
 	<midi>

@@ -32,31 +32,31 @@
 		<keyboard />
 	</ui>
 	<groups release="0.004">
-		<group name="Nois3 Orch Hit" ampVelTrack="0">
-			<sample end="87939" hiNote="48" hiVel="127" loNote="48" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 048-.wav" rootNote="48" />
-			<sample end="88977" hiNote="49" hiVel="127" loNote="49" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 049-.wav" rootNote="49" />
-			<sample end="87759" hiNote="50" hiVel="127" loNote="50" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 050-.wav" rootNote="50" />
-			<sample end="88851" hiNote="51" hiVel="127" loNote="51" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 051-.wav" rootNote="51" />
-			<sample end="88692" hiNote="52" hiVel="127" loNote="52" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 052-.wav" rootNote="52" />
-			<sample end="88892" hiNote="53" hiVel="127" loNote="53" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 053-.wav" rootNote="53" />
-			<sample end="88876" hiNote="54" hiVel="127" loNote="54" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 054-.wav" rootNote="54" />
-			<sample end="87570" hiNote="55" hiVel="127" loNote="55" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 055-.wav" rootNote="55" />
-			<sample end="88664" hiNote="56" hiVel="127" loNote="56" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 056-.wav" rootNote="56" />
-			<sample end="88962" hiNote="57" hiVel="127" loNote="57" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 057-.wav" rootNote="57" />
-			<sample end="88893" hiNote="58" hiVel="127" loNote="58" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 058-.wav" rootNote="58" />
-			<sample end="88845" hiNote="59" hiVel="127" loNote="59" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 059-.wav" rootNote="59" />
-			<sample end="88062" hiNote="60" hiVel="127" loNote="60" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 060-.wav" rootNote="60" />
-			<sample end="89094" hiNote="61" hiVel="127" loNote="61" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 061-.wav" rootNote="61" />
-			<sample end="88633" hiNote="62" hiVel="127" loNote="62" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 062-.wav" rootNote="62" />
-			<sample end="88602" hiNote="63" hiVel="127" loNote="63" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 063-.wav" rootNote="63" />
-			<sample end="88886" hiNote="64" hiVel="127" loNote="64" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 064-.wav" rootNote="64" />
-			<sample end="88895" hiNote="65" hiVel="127" loNote="65" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 065-.wav" rootNote="65" />
-			<sample end="88895" hiNote="66" hiVel="127" loNote="66" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 066-.wav" rootNote="66" />
-			<sample end="88892" hiNote="67" hiVel="127" loNote="67" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 067-.wav" rootNote="67" />
-			<sample end="88889" hiNote="68" hiVel="127" loNote="68" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 068-.wav" rootNote="68" />
-			<sample end="88885" hiNote="69" hiVel="127" loNote="69" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 069-.wav" rootNote="69" />
-			<sample end="88075" hiNote="70" hiVel="127" loNote="70" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 070-.wav" rootNote="70" />
-			<sample end="88839" hiNote="71" hiVel="127" loNote="71" loVel="0" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 071-.wav" rootNote="71" />
+		<group name="Nois3 Orch Hit" ampVelTrack="1">
+			<sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="127" end="87939" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 048-.wav" />
+			<sample rootNote="49" loNote="49" hiNote="49" loVel="0" hiVel="127" end="88977" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 049-.wav" />
+			<sample rootNote="50" loNote="50" hiNote="50" loVel="0" hiVel="127" end="87759" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 050-.wav" />
+			<sample rootNote="51" loNote="51" hiNote="51" loVel="0" hiVel="127" end="88851" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 051-.wav" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="88692" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 052-.wav" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="0" hiVel="127" end="88892" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 053-.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" loVel="0" hiVel="127" end="88876" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 054-.wav" />
+			<sample rootNote="55" loNote="55" hiNote="55" loVel="0" hiVel="127" end="87570" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 055-.wav" />
+			<sample rootNote="56" loNote="56" hiNote="56" loVel="0" hiVel="127" end="88664" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 056-.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" loVel="0" hiVel="127" end="88962" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 057-.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" loVel="0" hiVel="127" end="88893" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 058-.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" loVel="0" hiVel="127" end="88845" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 059-.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" loVel="0" hiVel="127" end="88062" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 060-.wav" />
+			<sample rootNote="61" loNote="61" hiNote="61" loVel="0" hiVel="127" end="89094" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 061-.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" loVel="0" hiVel="127" end="88633" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 062-.wav" />
+			<sample rootNote="63" loNote="63" hiNote="63" loVel="0" hiVel="127" end="88602" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 063-.wav" />
+			<sample rootNote="64" loNote="64" hiNote="64" loVel="0" hiVel="127" end="88886" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 064-.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" loVel="0" hiVel="127" end="88895" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 065-.wav" />
+			<sample rootNote="66" loNote="66" hiNote="66" loVel="0" hiVel="127" end="88895" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 066-.wav" />
+			<sample rootNote="67" loNote="67" hiNote="67" loVel="0" hiVel="127" end="88892" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 067-.wav" />
+			<sample rootNote="68" loNote="68" hiNote="68" loVel="0" hiVel="127" end="88889" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 068-.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" loVel="0" hiVel="127" end="88885" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 069-.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" loVel="0" hiVel="127" end="88075" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 070-.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" loVel="0" hiVel="127" end="88839" path="Resources/Orchestra Hit 3 Samples/Nois3 Orch Hit 071-.wav" />
 		</group>
 	</groups>
 	<midi>

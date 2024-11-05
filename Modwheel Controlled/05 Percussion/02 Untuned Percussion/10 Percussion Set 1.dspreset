@@ -32,90 +32,90 @@
 		<keyboard />
 	</ui>
 	<groups release="0.080">
-		<group name="ETHNIC by ThomashLe" ampVelTrack="0">
-			<sample end="3361" hiNote="25" hiVel="127" loNote="25" loVel="0" path="Resources/ETHNIC Samples/Finger Snaps 1b.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="37241" hiNote="81" hiVel="127" loNote="81" loVel="0" path="Resources/ETHNIC Samples/Open Surdo.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="11245" hiNote="37" hiVel="127" loNote="37" loVel="0" path="Resources/ETHNIC Samples/Wadaiko Rim.wav" pitchKeyTrack="00" rootNote="60" volume="-3.0dB" />
-			<sample end="10784" hiNote="27" hiVel="127" loNote="27" loVel="0" path="Resources/ETHNIC Samples/CastanetsII(L).wav" pitchKeyTrack="00" rootNote="60" volume="-5.2dB" />
-			<sample end="77115" hiNote="33" hiVel="127" loNote="33" loVel="0" path="Resources/ETHNIC Samples/Jingle Bell(L).wav" pitchKeyTrack="00" rootNote="60" volume="-9.0dB" />
-			<sample end="172032" hiNote="31" hiVel="127" loNote="31" loVel="0" path="Resources/ETHNIC Samples/Orch Crash cym(R).wav" pitchKeyTrack="00" rootNote="60" volume="-13.0dB" />
-			<sample end="132864" hiNote="32" hiVel="127" loNote="32" loVel="0" path="Resources/ETHNIC Samples/CBD Tight1(L).wav" pitchKeyTrack="00" rootNote="60" volume="-4.0dB" />
-			<sample end="26700" hiNote="74" hiVel="127" loNote="74" loVel="0" path="Resources/ETHNIC Samples/Conga Hi(L).wav" pitchKeyTrack="00" rootNote="60" volume="-12.5dB" />
-			<sample end="21602" hiNote="73" hiVel="127" loNote="73" loVel="0" path="Resources/ETHNIC Samples/Conga Hi slapop(L).wav" pitchKeyTrack="00" rootNote="60" volume="-16.0dB" />
-			<sample end="21760" hiNote="72" hiVel="127" loNote="72" loVel="0" path="Resources/ETHNIC Samples/Bongo Lo Op(L).wav" pitchKeyTrack="00" rootNote="60" volume="-8.0dB" />
-			<sample end="27264" hiNote="71" hiVel="127" loNote="71" loVel="0" path="Resources/ETHNIC Samples/Bongo Hi Op(L).wav" pitchKeyTrack="00" rootNote="60" volume="-13.5dB" />
-			<sample end="27584" hiNote="77" hiVel="127" loNote="77" loVel="0" path="Resources/ETHNIC Samples/Conga Lo.Op(L).wav" pitchKeyTrack="00" rootNote="60" volume="-17.6dB" />
-			<sample end="10784" hiNote="27" hiVel="127" loNote="27" loVel="0" path="Resources/ETHNIC Samples/CastanetsII(R).wav" pitchKeyTrack="00" rootNote="60" volume="-5.2dB" />
-			<sample end="77115" hiNote="33" hiVel="127" loNote="33" loVel="0" path="Resources/ETHNIC Samples/Jingle Bell(R).wav" pitchKeyTrack="00" rootNote="60" volume="-9.0dB" />
-			<sample end="172032" hiNote="31" hiVel="127" loNote="31" loVel="0" path="Resources/ETHNIC Samples/Orch Crash cym(L).wav" pitchKeyTrack="00" rootNote="60" volume="-13.0dB" />
-			<sample end="132864" hiNote="32" hiVel="127" loNote="32" loVel="0" path="Resources/ETHNIC Samples/CBD Tight1(R).wav" pitchKeyTrack="00" rootNote="60" volume="-4.0dB" />
-			<sample end="26700" hiNote="74" hiVel="127" loNote="74" loVel="0" path="Resources/ETHNIC Samples/Conga Hi(R).wav" pitchKeyTrack="00" rootNote="60" volume="-12.5dB" />
-			<sample end="21602" hiNote="73" hiVel="127" loNote="73" loVel="0" path="Resources/ETHNIC Samples/Conga Hi slapop(R).wav" pitchKeyTrack="00" rootNote="60" volume="-16.0dB" />
-			<sample end="21760" hiNote="72" hiVel="127" loNote="72" loVel="0" path="Resources/ETHNIC Samples/Bongo Lo Op(R).wav" pitchKeyTrack="00" rootNote="60" volume="-8.0dB" />
-			<sample end="27264" hiNote="71" hiVel="127" loNote="71" loVel="0" path="Resources/ETHNIC Samples/Bongo Hi Op(R).wav" pitchKeyTrack="00" rootNote="60" volume="-13.5dB" />
-			<sample end="27584" hiNote="77" hiVel="127" loNote="77" loVel="0" path="Resources/ETHNIC Samples/Conga Lo.Op(R).wav" pitchKeyTrack="00" rootNote="60" volume="-17.6dB" />
-			<sample end="57926" hiNote="92" hiVel="127" loNote="92" loVel="0" path="Resources/ETHNIC Samples/Open Triangle.wav" pitchKeyTrack="00" rootNote="60" volume="-14.2dB" />
-			<sample end="5360" hiNote="91" hiVel="127" loNote="91" loVel="0" path="Resources/ETHNIC Samples/Mute Triangle.wav" pitchKeyTrack="00" rootNote="60" volume="-14.5dB" />
-			<sample end="11744" hiNote="82" hiVel="127" loNote="82" loVel="0" path="Resources/ETHNIC Samples/Surdo1b MuteII.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="17856" hiNote="30" hiVel="127" loNote="30" loVel="0" path="Resources/ETHNIC Samples/Orch Snare 2.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="72835" hiNote="35" hiVel="127" loNote="35" loVel="0" path="Resources/ETHNIC Samples/Bar Chimes.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="31941" hiNote="36" hiVel="127" loNote="36" loVel="0" path="Resources/ETHNIC Samples/Wadaiko.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="14210" hiNote="38" hiVel="127" loNote="38" loVel="0" path="Resources/ETHNIC Samples/Shime Taiko.wav" pitchKeyTrack="00" rootNote="60" volume="-3.0dB" />
-			<sample end="101146" hiNote="45" hiVel="127" loNote="45" loVel="0" path="Resources/ETHNIC Samples/Big Gong.wav" pitchKeyTrack="00" rootNote="45" />
-			<sample end="43314" hiNote="48" hiVel="127" loNote="48" loVel="0" path="Resources/ETHNIC Samples/Thai Gong.wav" pitchKeyTrack="00" rootNote="48" volume="-5.0dB" />
-			<sample end="43720" hiNote="49" hiVel="127" loNote="49" loVel="0" path="Resources/ETHNIC Samples/Rama Cymbal.wav" pitchKeyTrack="00" rootNote="49" volume="-5.0dB" />
-			<sample end="48384" hiNote="65" hiVel="127" loNote="65" loVel="0" path="Resources/ETHNIC Samples/Djembe.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="12432" hiNote="57" hiVel="127" loNote="57" loVel="0" path="Resources/ETHNIC Samples/Tabla Te.wav" pitchKeyTrack="00" rootNote="57" volume="-7.0dB" />
-			<sample end="12787" hiNote="58" hiVel="127" loNote="58" loVel="0" path="Resources/ETHNIC Samples/Tabla Na.wav" pitchKeyTrack="00" rootNote="58" volume="-2.0dB" />
-			<sample end="21778" hiNote="59" hiVel="127" loNote="59" loVel="0" path="Resources/ETHNIC Samples/Tabla Tun.wav" pitchKeyTrack="00" rootNote="59" volume="-2.0dB" />
-			<sample end="31336" hiNote="60" hiVel="127" loNote="60" loVel="0" path="Resources/ETHNIC Samples/Tabla Ge.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="20447" hiNote="61" hiVel="127" loNote="61" loVel="0" path="Resources/ETHNIC Samples/Tabla Ge Hi.wav" pitchKeyTrack="00" rootNote="61" />
-			<sample end="25891" hiNote="66" hiVel="127" loNote="66" loVel="0" path="Resources/ETHNIC Samples/Djembe Rim.wav" pitchKeyTrack="00" rootNote="66" />
-			<sample end="10818" hiNote="75" hiVel="127" loNote="75" loVel="0" path="Resources/ETHNIC Samples/Mute Low Conga.wav" pitchKeyTrack="00" rootNote="75" />
-			<sample end="14206" hiNote="76" hiVel="127" loNote="76" loVel="0" path="Resources/ETHNIC Samples/Conga Slap.wav" pitchKeyTrack="00" rootNote="76" />
-			<sample end="11932" hiNote="64" hiVel="127" loNote="64" loVel="0" path="Resources/ETHNIC Samples/Caxixi.wav" pitchKeyTrack="00" rootNote="64" volume="-26.5dB" />
-			<sample end="14035" hiNote="79" hiVel="127" loNote="79" loVel="0" path="Resources/ETHNIC Samples/Mute Pandiero.wav" pitchKeyTrack="00" rootNote="79" volume="-1.0dB" />
-			<sample end="20376" hiNote="83" hiVel="127" loNote="83" loVel="0" path="Resources/ETHNIC Samples/Tamborim.wav" pitchKeyTrack="00" rootNote="83" />
-			<sample end="33360" hiNote="89" hiVel="127" loNote="89" loVel="0" path="Resources/ETHNIC Samples/Mute Cuica.wav" pitchKeyTrack="00" rootNote="60" volume="-8.5dB" />
-			<sample end="32316" hiNote="90" hiVel="127" loNote="90" loVel="0" path="Resources/ETHNIC Samples/Open Cuica.wav" pitchKeyTrack="00" rootNote="60" volume="-5.0dB" />
-			<sample end="22805" hiNote="84" hiVel="127" loNote="84" loVel="0" path="Resources/ETHNIC Samples/AgogoBells Hi.wav" pitchKeyTrack="00" rootNote="60" volume="-5.0dB" />
-			<sample end="22464" hiNote="85" hiVel="127" loNote="85" loVel="0" path="Resources/ETHNIC Samples/AgogoBells Lo.wav" pitchKeyTrack="00" rootNote="60" volume="-5.0dB" />
-			<sample end="8416" hiNote="96" hiVel="127" loNote="95" loVel="0" path="Resources/ETHNIC Samples/Cabasa up.wav" pitchKeyTrack="0.1200" rootNote="96" volume="-12.0dB" />
-			<sample end="17408" hiNote="29" hiVel="127" loNote="29" loVel="0" path="Resources/ETHNIC Samples/Orch Snare 1.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="284928" hiNote="34" hiVel="127" loNote="34" loVel="0" path="Resources/ETHNIC Samples/Bell Tree.wav" pitchKeyTrack="00" rootNote="60" volume="-5.8dB" />
-			<sample end="12096" hiNote="97" hiVel="127" loNote="97" loVel="0" path="Resources/ETHNIC Samples/Claves.wav" pitchKeyTrack="00" rootNote="60" volume="-2.1dB" />
-			<sample end="16384" hiNote="26" hiVel="127" loNote="26" loVel="0" path="Resources/ETHNIC Samples/Tambourine.wav" pitchKeyTrack="00" rootNote="60" volume="-3.5dB" />
-			<sample end="21361" hiNote="39" hiVel="127" loNote="39" loVel="0" path="Resources/ETHNIC Samples/Atarigane.wav" pitchKeyTrack="00" rootNote="60" volume="-27.0dB" />
-			<sample end="17858" hiNote="40" hiVel="127" loNote="40" loVel="0" path="Resources/ETHNIC Samples/Hyoushigi.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="18560" hiNote="41" hiVel="127" loNote="41" loVel="0" path="Resources/ETHNIC Samples/Ohkawa.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="20344" hiNote="43" hiVel="127" loNote="43" loVel="0" path="Resources/ETHNIC Samples/Low Kotsuzumi.wav" pitchKeyTrack="00" rootNote="43" />
-			<sample end="11996" hiNote="44" hiVel="127" loNote="44" loVel="0" path="Resources/ETHNIC Samples/Ban Gu.wav" pitchKeyTrack="00" rootNote="44" volume="-15.9dB" />
-			<sample end="97032" hiNote="46" hiVel="127" loNote="46" loVel="0" path="Resources/ETHNIC Samples/Small Gong.wav" pitchKeyTrack="00" rootNote="46" volume="-5.0dB" />
-			<sample end="18860" hiNote="47" hiVel="127" loNote="47" loVel="0" path="Resources/ETHNIC Samples/Bend Gong.wav" pitchKeyTrack="00" rootNote="47" volume="-5.0dB" />
-			<sample end="17561" hiNote="42" hiVel="127" loNote="42" loVel="0" path="Resources/ETHNIC Samples/High Kotsuzumi.wav" pitchKeyTrack="00" rootNote="42" />
-			<sample end="72714" hiNote="50" hiVel="127" loNote="50" loVel="0" path="Resources/ETHNIC Samples/Gamelan Gong.wav" pitchKeyTrack="00" rootNote="50" volume="-4.0dB" />
-			<sample end="12348" hiNote="51" hiVel="127" loNote="51" loVel="0" path="Resources/ETHNIC Samples/Udo Short.wav" pitchKeyTrack="00" rootNote="51" />
-			<sample end="27457" hiNote="52" hiVel="127" loNote="52" loVel="0" path="Resources/ETHNIC Samples/Udo Long.wav" pitchKeyTrack="00" rootNote="52" />
-			<sample end="18219" hiNote="53" hiVel="127" loNote="53" loVel="0" path="Resources/ETHNIC Samples/Udo Slap.wav" pitchKeyTrack="00" rootNote="53" volume="-2.5dB" />
-			<sample end="21907" hiNote="55" hiVel="127" loNote="55" loVel="0" path="Resources/ETHNIC Samples/Req Dum.wav" pitchKeyTrack="00" rootNote="55" />
-			<sample end="21780" hiNote="56" hiVel="127" loNote="56" loVel="0" path="Resources/ETHNIC Samples/Req Tik.wav" pitchKeyTrack="00" rootNote="56" volume="-12.0dB" />
-			<sample end="28672" hiNote="54" hiVel="127" loNote="54" loVel="0" path="Resources/ETHNIC Samples/Bendir.wav" pitchKeyTrack="00" rootNote="60" volume="-7.0dB" />
-			<sample end="30496" hiNote="68" hiVel="127" loNote="68" loVel="0" path="Resources/ETHNIC Samples/Timbales Paila.wav" pitchKeyTrack="00" rootNote="60" volume="-11.0dB" />
-			<sample end="32183" hiNote="62" hiVel="127" loNote="62" loVel="0" path="Resources/ETHNIC Samples/Talking Drum.wav" pitchKeyTrack="00" rootNote="62" />
-			<sample end="35328" hiNote="63" hiVel="127" loNote="63" loVel="0" path="Resources/ETHNIC Samples/Bend Talking Drum.wav" pitchKeyTrack="00" rootNote="63" />
-			<sample end="32183" hiNote="78" hiVel="127" loNote="78" loVel="0" path="Resources/ETHNIC Samples/Conga Slide.wav" pitchKeyTrack="00" rootNote="78" />
-			<sample end="15123" hiNote="80" hiVel="127" loNote="80" loVel="0" path="Resources/ETHNIC Samples/Open Pandiero.wav" pitchKeyTrack="00" rootNote="80" volume="-1.0dB" />
-			<sample end="34271" hiNote="87" hiVel="127" loNote="87" loVel="0" path="Resources/ETHNIC Samples/Short Whistle.wav" pitchKeyTrack="00" rootNote="60" volume="-7.0dB" />
-			<sample end="53964" hiNote="88" hiVel="127" loNote="88" loVel="0" path="Resources/ETHNIC Samples/Long Whistle.wav" pitchKeyTrack="00" rootNote="60" volume="-11.0dB" />
-			<sample end="15530" hiNote="93" hiVel="127" loNote="93" loVel="0" path="Resources/ETHNIC Samples/Short Guiro.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="29110" hiNote="94" hiVel="127" loNote="94" loVel="0" path="Resources/ETHNIC Samples/Long Guiro.wav" pitchKeyTrack="00" rootNote="60" volume="-4.0dB" />
-			<sample end="36135" hiNote="69" hiVel="127" loNote="69" loVel="0" path="Resources/ETHNIC Samples/Timbale Hi.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="83748" hiNote="67" hiVel="127" loNote="67" loVel="0" path="Resources/ETHNIC Samples/Timbale Lo.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="23854" hiNote="98" hiVel="127" loNote="98" loVel="0" path="Resources/ETHNIC Samples/WoodBlock Hi.wav" pitchKeyTrack="00" rootNote="60" volume="-2.0dB" />
-			<sample end="21069" hiNote="99" hiVel="127" loNote="99" loVel="0" path="Resources/ETHNIC Samples/WoodBlock Lo.wav" pitchKeyTrack="00" rootNote="60" volume="-2.5dB" />
-			<sample end="22848" hiNote="70" hiVel="127" loNote="70" loVel="0" path="Resources/ETHNIC Samples/Cow Bell Lo.wav" pitchKeyTrack="00" rootNote="60" />
-			<sample end="7552" hiNote="86" hiVel="127" loNote="86" loVel="0" path="Resources/ETHNIC Samples/Shake.wav" pitchKeyTrack="00" rootNote="60" volume="-7.2dB" />
-			<sample end="130771" hiNote="28" hiVel="127" loNote="28" loVel="0" path="Resources/ETHNIC Samples/crash cymbal 1.wav" pitchKeyTrack="00" rootNote="60" volume="-5.2dB" />
+		<group name="ETHNIC by ThomashLe" ampVelTrack="1">
+			<sample rootNote="60" loNote="25" hiNote="25" loVel="0" hiVel="127" end="3361" path="Resources/ETHNIC Samples/Finger Snaps 1b.wav" pitchKeyTrack="00" />
+			<sample rootNote="60" loNote="81" hiNote="81" loVel="0" hiVel="127" end="37241" path="Resources/ETHNIC Samples/Open Surdo.wav" pitchKeyTrack="00" />
+			<sample rootNote="60" loNote="37" hiNote="37" loVel="0" hiVel="127" end="11245" path="Resources/ETHNIC Samples/Wadaiko Rim.wav" pitchKeyTrack="00" volume="-3.0dB" />
+			<sample rootNote="60" loNote="27" hiNote="27" loVel="0" hiVel="127" end="10784" path="Resources/ETHNIC Samples/CastanetsII(L).wav" pitchKeyTrack="00" volume="-5.2dB" />
+			<sample rootNote="60" loNote="33" hiNote="33" loVel="0" hiVel="127" end="77115" path="Resources/ETHNIC Samples/Jingle Bell(L).wav" pitchKeyTrack="00" volume="-9.0dB" />
+			<sample rootNote="60" loNote="31" hiNote="31" loVel="0" hiVel="127" end="172032" path="Resources/ETHNIC Samples/Orch Crash cym(R).wav" pitchKeyTrack="00" volume="-13.0dB" />
+			<sample rootNote="60" loNote="32" hiNote="32" loVel="0" hiVel="127" end="132864" path="Resources/ETHNIC Samples/CBD Tight1(L).wav" pitchKeyTrack="00" volume="-4.0dB" />
+			<sample rootNote="60" loNote="74" hiNote="74" loVel="0" hiVel="127" end="26700" path="Resources/ETHNIC Samples/Conga Hi(L).wav" pitchKeyTrack="00" volume="-12.5dB" />
+			<sample rootNote="60" loNote="73" hiNote="73" loVel="0" hiVel="127" end="21602" path="Resources/ETHNIC Samples/Conga Hi slapop(L).wav" pitchKeyTrack="00" volume="-16.0dB" />
+			<sample rootNote="60" loNote="72" hiNote="72" loVel="0" hiVel="127" end="21760" path="Resources/ETHNIC Samples/Bongo Lo Op(L).wav" pitchKeyTrack="00" volume="-8.0dB" />
+			<sample rootNote="60" loNote="71" hiNote="71" loVel="0" hiVel="127" end="27264" path="Resources/ETHNIC Samples/Bongo Hi Op(L).wav" pitchKeyTrack="00" volume="-13.5dB" />
+			<sample rootNote="60" loNote="77" hiNote="77" loVel="0" hiVel="127" end="27584" path="Resources/ETHNIC Samples/Conga Lo.Op(L).wav" pitchKeyTrack="00" volume="-17.6dB" />
+			<sample rootNote="60" loNote="27" hiNote="27" loVel="0" hiVel="127" end="10784" path="Resources/ETHNIC Samples/CastanetsII(R).wav" pitchKeyTrack="00" volume="-5.2dB" />
+			<sample rootNote="60" loNote="33" hiNote="33" loVel="0" hiVel="127" end="77115" path="Resources/ETHNIC Samples/Jingle Bell(R).wav" pitchKeyTrack="00" volume="-9.0dB" />
+			<sample rootNote="60" loNote="31" hiNote="31" loVel="0" hiVel="127" end="172032" path="Resources/ETHNIC Samples/Orch Crash cym(L).wav" pitchKeyTrack="00" volume="-13.0dB" />
+			<sample rootNote="60" loNote="32" hiNote="32" loVel="0" hiVel="127" end="132864" path="Resources/ETHNIC Samples/CBD Tight1(R).wav" pitchKeyTrack="00" volume="-4.0dB" />
+			<sample rootNote="60" loNote="74" hiNote="74" loVel="0" hiVel="127" end="26700" path="Resources/ETHNIC Samples/Conga Hi(R).wav" pitchKeyTrack="00" volume="-12.5dB" />
+			<sample rootNote="60" loNote="73" hiNote="73" loVel="0" hiVel="127" end="21602" path="Resources/ETHNIC Samples/Conga Hi slapop(R).wav" pitchKeyTrack="00" volume="-16.0dB" />
+			<sample rootNote="60" loNote="72" hiNote="72" loVel="0" hiVel="127" end="21760" path="Resources/ETHNIC Samples/Bongo Lo Op(R).wav" pitchKeyTrack="00" volume="-8.0dB" />
+			<sample rootNote="60" loNote="71" hiNote="71" loVel="0" hiVel="127" end="27264" path="Resources/ETHNIC Samples/Bongo Hi Op(R).wav" pitchKeyTrack="00" volume="-13.5dB" />
+			<sample rootNote="60" loNote="77" hiNote="77" loVel="0" hiVel="127" end="27584" path="Resources/ETHNIC Samples/Conga Lo.Op(R).wav" pitchKeyTrack="00" volume="-17.6dB" />
+			<sample rootNote="60" loNote="92" hiNote="92" loVel="0" hiVel="127" end="57926" path="Resources/ETHNIC Samples/Open Triangle.wav" pitchKeyTrack="00" volume="-14.2dB" />
+			<sample rootNote="60" loNote="91" hiNote="91" loVel="0" hiVel="127" end="5360" path="Resources/ETHNIC Samples/Mute Triangle.wav" pitchKeyTrack="00" volume="-14.5dB" />
+			<sample rootNote="60" loNote="82" hiNote="82" loVel="0" hiVel="127" end="11744" path="Resources/ETHNIC Samples/Surdo1b MuteII.wav" pitchKeyTrack="00" />
+			<sample rootNote="60" loNote="30" hiNote="30" loVel="0" hiVel="127" end="17856" path="Resources/ETHNIC Samples/Orch Snare 2.wav" pitchKeyTrack="00" />
+			<sample rootNote="60" loNote="35" hiNote="35" loVel="0" hiVel="127" end="72835" path="Resources/ETHNIC Samples/Bar Chimes.wav" pitchKeyTrack="00" />
+			<sample rootNote="60" loNote="36" hiNote="36" loVel="0" hiVel="127" end="31941" path="Resources/ETHNIC Samples/Wadaiko.wav" pitchKeyTrack="00" />
+			<sample rootNote="60" loNote="38" hiNote="38" loVel="0" hiVel="127" end="14210" path="Resources/ETHNIC Samples/Shime Taiko.wav" pitchKeyTrack="00" volume="-3.0dB" />
+			<sample rootNote="45" loNote="45" hiNote="45" loVel="0" hiVel="127" end="101146" path="Resources/ETHNIC Samples/Big Gong.wav" pitchKeyTrack="00" />
+			<sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="127" end="43314" path="Resources/ETHNIC Samples/Thai Gong.wav" pitchKeyTrack="00" volume="-5.0dB" />
+			<sample rootNote="49" loNote="49" hiNote="49" loVel="0" hiVel="127" end="43720" path="Resources/ETHNIC Samples/Rama Cymbal.wav" pitchKeyTrack="00" volume="-5.0dB" />
+			<sample rootNote="60" loNote="65" hiNote="65" loVel="0" hiVel="127" end="48384" path="Resources/ETHNIC Samples/Djembe.wav" pitchKeyTrack="00" />
+			<sample rootNote="57" loNote="57" hiNote="57" loVel="0" hiVel="127" end="12432" path="Resources/ETHNIC Samples/Tabla Te.wav" pitchKeyTrack="00" volume="-7.0dB" />
+			<sample rootNote="58" loNote="58" hiNote="58" loVel="0" hiVel="127" end="12787" path="Resources/ETHNIC Samples/Tabla Na.wav" pitchKeyTrack="00" volume="-2.0dB" />
+			<sample rootNote="59" loNote="59" hiNote="59" loVel="0" hiVel="127" end="21778" path="Resources/ETHNIC Samples/Tabla Tun.wav" pitchKeyTrack="00" volume="-2.0dB" />
+			<sample rootNote="60" loNote="60" hiNote="60" loVel="0" hiVel="127" end="31336" path="Resources/ETHNIC Samples/Tabla Ge.wav" pitchKeyTrack="00" />
+			<sample rootNote="61" loNote="61" hiNote="61" loVel="0" hiVel="127" end="20447" path="Resources/ETHNIC Samples/Tabla Ge Hi.wav" pitchKeyTrack="00" />
+			<sample rootNote="66" loNote="66" hiNote="66" loVel="0" hiVel="127" end="25891" path="Resources/ETHNIC Samples/Djembe Rim.wav" pitchKeyTrack="00" />
+			<sample rootNote="75" loNote="75" hiNote="75" loVel="0" hiVel="127" end="10818" path="Resources/ETHNIC Samples/Mute Low Conga.wav" pitchKeyTrack="00" />
+			<sample rootNote="76" loNote="76" hiNote="76" loVel="0" hiVel="127" end="14206" path="Resources/ETHNIC Samples/Conga Slap.wav" pitchKeyTrack="00" />
+			<sample rootNote="64" loNote="64" hiNote="64" loVel="0" hiVel="127" end="11932" path="Resources/ETHNIC Samples/Caxixi.wav" pitchKeyTrack="00" volume="-26.5dB" />
+			<sample rootNote="79" loNote="79" hiNote="79" loVel="0" hiVel="127" end="14035" path="Resources/ETHNIC Samples/Mute Pandiero.wav" pitchKeyTrack="00" volume="-1.0dB" />
+			<sample rootNote="83" loNote="83" hiNote="83" loVel="0" hiVel="127" end="20376" path="Resources/ETHNIC Samples/Tamborim.wav" pitchKeyTrack="00" />
+			<sample rootNote="60" loNote="89" hiNote="89" loVel="0" hiVel="127" end="33360" path="Resources/ETHNIC Samples/Mute Cuica.wav" pitchKeyTrack="00" volume="-8.5dB" />
+			<sample rootNote="60" loNote="90" hiNote="90" loVel="0" hiVel="127" end="32316" path="Resources/ETHNIC Samples/Open Cuica.wav" pitchKeyTrack="00" volume="-5.0dB" />
+			<sample rootNote="60" loNote="84" hiNote="84" loVel="0" hiVel="127" end="22805" path="Resources/ETHNIC Samples/AgogoBells Hi.wav" pitchKeyTrack="00" volume="-5.0dB" />
+			<sample rootNote="60" loNote="85" hiNote="85" loVel="0" hiVel="127" end="22464" path="Resources/ETHNIC Samples/AgogoBells Lo.wav" pitchKeyTrack="00" volume="-5.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="96" loVel="0" hiVel="127" end="8416" path="Resources/ETHNIC Samples/Cabasa up.wav" pitchKeyTrack="0.1200" volume="-12.0dB" />
+			<sample rootNote="60" loNote="29" hiNote="29" loVel="0" hiVel="127" end="17408" path="Resources/ETHNIC Samples/Orch Snare 1.wav" pitchKeyTrack="00" />
+			<sample rootNote="60" loNote="34" hiNote="34" loVel="0" hiVel="127" end="284928" path="Resources/ETHNIC Samples/Bell Tree.wav" pitchKeyTrack="00" volume="-5.8dB" />
+			<sample rootNote="60" loNote="97" hiNote="97" loVel="0" hiVel="127" end="12096" path="Resources/ETHNIC Samples/Claves.wav" pitchKeyTrack="00" volume="-2.1dB" />
+			<sample rootNote="60" loNote="26" hiNote="26" loVel="0" hiVel="127" end="16384" path="Resources/ETHNIC Samples/Tambourine.wav" pitchKeyTrack="00" volume="-3.5dB" />
+			<sample rootNote="60" loNote="39" hiNote="39" loVel="0" hiVel="127" end="21361" path="Resources/ETHNIC Samples/Atarigane.wav" pitchKeyTrack="00" volume="-27.0dB" />
+			<sample rootNote="60" loNote="40" hiNote="40" loVel="0" hiVel="127" end="17858" path="Resources/ETHNIC Samples/Hyoushigi.wav" pitchKeyTrack="00" />
+			<sample rootNote="60" loNote="41" hiNote="41" loVel="0" hiVel="127" end="18560" path="Resources/ETHNIC Samples/Ohkawa.wav" pitchKeyTrack="00" />
+			<sample rootNote="43" loNote="43" hiNote="43" loVel="0" hiVel="127" end="20344" path="Resources/ETHNIC Samples/Low Kotsuzumi.wav" pitchKeyTrack="00" />
+			<sample rootNote="44" loNote="44" hiNote="44" loVel="0" hiVel="127" end="11996" path="Resources/ETHNIC Samples/Ban Gu.wav" pitchKeyTrack="00" volume="-15.9dB" />
+			<sample rootNote="46" loNote="46" hiNote="46" loVel="0" hiVel="127" end="97032" path="Resources/ETHNIC Samples/Small Gong.wav" pitchKeyTrack="00" volume="-5.0dB" />
+			<sample rootNote="47" loNote="47" hiNote="47" loVel="0" hiVel="127" end="18860" path="Resources/ETHNIC Samples/Bend Gong.wav" pitchKeyTrack="00" volume="-5.0dB" />
+			<sample rootNote="42" loNote="42" hiNote="42" loVel="0" hiVel="127" end="17561" path="Resources/ETHNIC Samples/High Kotsuzumi.wav" pitchKeyTrack="00" />
+			<sample rootNote="50" loNote="50" hiNote="50" loVel="0" hiVel="127" end="72714" path="Resources/ETHNIC Samples/Gamelan Gong.wav" pitchKeyTrack="00" volume="-4.0dB" />
+			<sample rootNote="51" loNote="51" hiNote="51" loVel="0" hiVel="127" end="12348" path="Resources/ETHNIC Samples/Udo Short.wav" pitchKeyTrack="00" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="27457" path="Resources/ETHNIC Samples/Udo Long.wav" pitchKeyTrack="00" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="0" hiVel="127" end="18219" path="Resources/ETHNIC Samples/Udo Slap.wav" pitchKeyTrack="00" volume="-2.5dB" />
+			<sample rootNote="55" loNote="55" hiNote="55" loVel="0" hiVel="127" end="21907" path="Resources/ETHNIC Samples/Req Dum.wav" pitchKeyTrack="00" />
+			<sample rootNote="56" loNote="56" hiNote="56" loVel="0" hiVel="127" end="21780" path="Resources/ETHNIC Samples/Req Tik.wav" pitchKeyTrack="00" volume="-12.0dB" />
+			<sample rootNote="60" loNote="54" hiNote="54" loVel="0" hiVel="127" end="28672" path="Resources/ETHNIC Samples/Bendir.wav" pitchKeyTrack="00" volume="-7.0dB" />
+			<sample rootNote="60" loNote="68" hiNote="68" loVel="0" hiVel="127" end="30496" path="Resources/ETHNIC Samples/Timbales Paila.wav" pitchKeyTrack="00" volume="-11.0dB" />
+			<sample rootNote="62" loNote="62" hiNote="62" loVel="0" hiVel="127" end="32183" path="Resources/ETHNIC Samples/Talking Drum.wav" pitchKeyTrack="00" />
+			<sample rootNote="63" loNote="63" hiNote="63" loVel="0" hiVel="127" end="35328" path="Resources/ETHNIC Samples/Bend Talking Drum.wav" pitchKeyTrack="00" />
+			<sample rootNote="78" loNote="78" hiNote="78" loVel="0" hiVel="127" end="32183" path="Resources/ETHNIC Samples/Conga Slide.wav" pitchKeyTrack="00" />
+			<sample rootNote="80" loNote="80" hiNote="80" loVel="0" hiVel="127" end="15123" path="Resources/ETHNIC Samples/Open Pandiero.wav" pitchKeyTrack="00" volume="-1.0dB" />
+			<sample rootNote="60" loNote="87" hiNote="87" loVel="0" hiVel="127" end="34271" path="Resources/ETHNIC Samples/Short Whistle.wav" pitchKeyTrack="00" volume="-7.0dB" />
+			<sample rootNote="60" loNote="88" hiNote="88" loVel="0" hiVel="127" end="53964" path="Resources/ETHNIC Samples/Long Whistle.wav" pitchKeyTrack="00" volume="-11.0dB" />
+			<sample rootNote="60" loNote="93" hiNote="93" loVel="0" hiVel="127" end="15530" path="Resources/ETHNIC Samples/Short Guiro.wav" pitchKeyTrack="00" />
+			<sample rootNote="60" loNote="94" hiNote="94" loVel="0" hiVel="127" end="29110" path="Resources/ETHNIC Samples/Long Guiro.wav" pitchKeyTrack="00" volume="-4.0dB" />
+			<sample rootNote="60" loNote="69" hiNote="69" loVel="0" hiVel="127" end="36135" path="Resources/ETHNIC Samples/Timbale Hi.wav" pitchKeyTrack="00" />
+			<sample rootNote="60" loNote="67" hiNote="67" loVel="0" hiVel="127" end="83748" path="Resources/ETHNIC Samples/Timbale Lo.wav" pitchKeyTrack="00" />
+			<sample rootNote="60" loNote="98" hiNote="98" loVel="0" hiVel="127" end="23854" path="Resources/ETHNIC Samples/WoodBlock Hi.wav" pitchKeyTrack="00" volume="-2.0dB" />
+			<sample rootNote="60" loNote="99" hiNote="99" loVel="0" hiVel="127" end="21069" path="Resources/ETHNIC Samples/WoodBlock Lo.wav" pitchKeyTrack="00" volume="-2.5dB" />
+			<sample rootNote="60" loNote="70" hiNote="70" loVel="0" hiVel="127" end="22848" path="Resources/ETHNIC Samples/Cow Bell Lo.wav" pitchKeyTrack="00" />
+			<sample rootNote="60" loNote="86" hiNote="86" loVel="0" hiVel="127" end="7552" path="Resources/ETHNIC Samples/Shake.wav" pitchKeyTrack="00" volume="-7.2dB" />
+			<sample rootNote="60" loNote="28" hiNote="28" loVel="0" hiVel="127" end="130771" path="Resources/ETHNIC Samples/crash cymbal 1.wav" pitchKeyTrack="00" volume="-5.2dB" />
 		</group>
 	</groups>
 	<midi>

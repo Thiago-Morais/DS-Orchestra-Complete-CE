@@ -32,23 +32,23 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="1" ampVelTrack="0">
-			<sample end="45916" hiNote="50" hiVel="127" loNote="50" loVel="0" path="Resources/TC - Triangle Samples/triangle-hlf-opn-rr1.wav" rootNote="50" tuning="0.06" volume="6.020599913279624dB" />
-			<sample end="24154" hiNote="52" hiVel="127" loNote="52" loVel="0" path="Resources/TC - Triangle Samples/triangle-mtd-rr3.wav" rootNote="52" tuning="0.06" volume="6.020599913279624dB" />
-			<sample end="137358" hiNote="48" hiVel="127" loNote="47" loVel="0" path="Resources/TC - Triangle Samples/triangle-opn-rr1.wav" rootNote="48" tuning="0.06" volume="6.020599913279624dB" />
-			<sample end="164207" hiNote="53" hiVel="127" loNote="53" loVel="0" loopEnabled="true" loopEnd="35098" loopStart="13711" path="Resources/TC - Triangle Samples/triangle-roll.wav" rootNote="53" tuning="0.06" volume="6.020599913279624dB" />
+		<group name="1" ampVelTrack="1">
+			<sample rootNote="50" loNote="50" hiNote="50" loVel="0" hiVel="127" end="45916" path="Resources/TC - Triangle Samples/triangle-hlf-opn-rr1.wav" tuning="0.06" volume="6.020599913279624dB" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="24154" path="Resources/TC - Triangle Samples/triangle-mtd-rr3.wav" tuning="0.06" volume="6.020599913279624dB" />
+			<sample rootNote="48" loNote="47" hiNote="48" loVel="0" hiVel="127" end="137358" path="Resources/TC - Triangle Samples/triangle-opn-rr1.wav" tuning="0.06" volume="6.020599913279624dB" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="0" hiVel="127" end="164207" loopEnabled="true" loopEnd="35098" loopStart="13711" path="Resources/TC - Triangle Samples/triangle-roll.wav" tuning="0.06" volume="6.020599913279624dB" />
 		</group>
-		<group name="2" ampVelTrack="0">
-			<sample end="51597" hiNote="50" hiVel="127" loNote="50" loVel="0" path="Resources/TC - Triangle Samples/triangle-hlf-opn-rr2.wav" rootNote="50" tuning="0.06" volume="6.020599913279624dB" />
-			<sample end="24440" hiNote="52" hiVel="127" loNote="52" loVel="0" path="Resources/TC - Triangle Samples/triangle-mtd-rr2.wav" rootNote="52" tuning="0.06" volume="6.020599913279624dB" />
-			<sample end="155142" hiNote="48" hiVel="127" loNote="48" loVel="0" path="Resources/TC - Triangle Samples/triangle-opn-rr2.wav" rootNote="48" tuning="0.06" volume="6.020599913279624dB" />
-			<sample end="164207" hiNote="53" hiVel="127" loNote="53" loVel="0" loopEnabled="true" loopEnd="35098" loopStart="13711" path="Resources/TC - Triangle Samples/triangle-roll.wav" rootNote="53" tuning="0.06" volume="6.020599913279624dB" />
+		<group name="2" ampVelTrack="1">
+			<sample rootNote="50" loNote="50" hiNote="50" loVel="0" hiVel="127" end="51597" path="Resources/TC - Triangle Samples/triangle-hlf-opn-rr2.wav" tuning="0.06" volume="6.020599913279624dB" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="24440" path="Resources/TC - Triangle Samples/triangle-mtd-rr2.wav" tuning="0.06" volume="6.020599913279624dB" />
+			<sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="127" end="155142" path="Resources/TC - Triangle Samples/triangle-opn-rr2.wav" tuning="0.06" volume="6.020599913279624dB" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="0" hiVel="127" end="164207" loopEnabled="true" loopEnd="35098" loopStart="13711" path="Resources/TC - Triangle Samples/triangle-roll.wav" tuning="0.06" volume="6.020599913279624dB" />
 		</group>
-		<group name="3" ampVelTrack="0">
-			<sample end="50102" hiNote="50" hiVel="127" loNote="50" loVel="0" path="Resources/TC - Triangle Samples/triangle-hlf-opn-rr3.wav" rootNote="50" tuning="0.06" volume="6.020599913279624dB" />
-			<sample end="24427" hiNote="52" hiVel="127" loNote="52" loVel="0" path="Resources/TC - Triangle Samples/triangle-mtd-rr1.wav" rootNote="52" tuning="0.06" volume="6.020599913279624dB" />
-			<sample end="132444" hiNote="48" hiVel="127" loNote="48" loVel="0" path="Resources/TC - Triangle Samples/triangle-opn-rr3.wav" rootNote="48" tuning="0.06" volume="6.020599913279624dB" />
-			<sample end="164207" hiNote="53" hiVel="127" loNote="53" loVel="0" loopEnabled="true" loopEnd="35098" loopStart="13711" path="Resources/TC - Triangle Samples/triangle-roll.wav" rootNote="53" tuning="0.06" volume="6.020599913279624dB" />
+		<group name="3" ampVelTrack="1">
+			<sample rootNote="50" loNote="50" hiNote="50" loVel="0" hiVel="127" end="50102" path="Resources/TC - Triangle Samples/triangle-hlf-opn-rr3.wav" tuning="0.06" volume="6.020599913279624dB" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="24427" path="Resources/TC - Triangle Samples/triangle-mtd-rr1.wav" tuning="0.06" volume="6.020599913279624dB" />
+			<sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="127" end="132444" path="Resources/TC - Triangle Samples/triangle-opn-rr3.wav" tuning="0.06" volume="6.020599913279624dB" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="0" hiVel="127" end="164207" loopEnabled="true" loopEnd="35098" loopStart="13711" path="Resources/TC - Triangle Samples/triangle-roll.wav" tuning="0.06" volume="6.020599913279624dB" />
 		</group>
 	</groups>
 	<midi>
