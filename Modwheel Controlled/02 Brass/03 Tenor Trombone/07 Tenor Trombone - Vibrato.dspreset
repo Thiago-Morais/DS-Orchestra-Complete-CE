@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Tenor Trombone.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0" release="0.024">
+		<group name="Group 1" ampVelTrack="1">
+			<sample end="222633" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_A#1_v1_1.wav" rootNote="46" volume="9.0dB" />
+			<sample end="257900" hiNote="58" hiVel="127" loNote="57" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_A#2_v1_1.wav" rootNote="58" volume="9.0dB" />
+			<sample end="231381" hiNote="49" hiVel="127" loNote="47" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_C2_v1_1.wav" rootNote="48" volume="9.0dB" />
+			<sample end="242516" hiNote="60" hiVel="127" loNote="59" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_C3_v1_1.wav" rootNote="60" volume="9.0dB" />
+			<sample end="263020" hiNote="51" hiVel="127" loNote="50" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_D#2_v1_1.wav" rootNote="51" volume="9.0dB" />
+			<sample end="249725" hiNote="67" hiVel="127" loNote="63" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_D#3_v1_1.wav" rootNote="63" volume="9.0dB" />
+			<sample end="240326" hiNote="62" hiVel="127" loNote="61" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_D3_v1_1.wav" rootNote="62" volume="9.0dB" />
+			<sample end="224334" hiNote="42" hiVel="127" loNote="41" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_F1_v1_1.wav" rootNote="41" volume="9.0dB" />
+			<sample end="327894" hiNote="54" hiVel="127" loNote="52" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_F2_v1_1.wav" rootNote="53" volume="9.0dB" />
+			<sample end="233503" hiNote="44" hiVel="127" loNote="43" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_G#1_v1_1.wav" rootNote="44" volume="9.0dB" />
+			<sample end="269753" hiNote="56" hiVel="62" loNote="55" loVel="0" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_G#2_v1_1.wav" rootNote="56" volume="12.0dB" />
+			<sample end="245360" hiNote="56" hiVel="127" loNote="55" loVel="63" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_G#2_v1_2.wav" rootNote="56" volume="5.0dB" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+</DecentSampler>
