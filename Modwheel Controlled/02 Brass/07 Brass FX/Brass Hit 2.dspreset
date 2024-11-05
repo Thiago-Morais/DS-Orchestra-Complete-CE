@@ -32,8 +32,8 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="BrassHorns" ampVelTrack="0">
-			<sample end="64359" hiNote="127" hiVel="127" loNote="0" loVel="0" path="Resources/BrassHorns Samples/BrassHorns.wav" rootNote="60" />
+		<group name="BrassHorns" ampVelTrack="1">
+			<sample rootNote="60" loNote="0" hiNote="127" loVel="0" hiVel="127" end="64359" path="Resources/BrassHorns Samples/BrassHorns.wav" />
 		</group>
 	</groups>
 	<midi>

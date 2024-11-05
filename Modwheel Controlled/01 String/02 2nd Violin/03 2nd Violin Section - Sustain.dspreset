@@ -32,53 +32,53 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.050" release="0.080">
-		<group name="Group 1" ampVelTrack="0">
-			<sample end="222354" hiNote="68" hiVel="127" loNote="67" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g3.wav" rootNote="67" volume="1.0dB" />
-			<sample end="220154" hiNote="71" hiVel="127" loNote="69" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#3.wav" rootNote="70" volume="1.0dB" />
-			<sample end="223153" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#4.wav" rootNote="73" volume="1.0dB" />
-			<sample end="201901" hiNote="77" hiVel="127" loNote="75" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e4.wav" rootNote="76" volume="4.0dB" />
-			<sample end="190821" hiNote="80" hiVel="127" loNote="78" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g4.wav" rootNote="79" />
-			<sample end="216513" hiNote="83" hiVel="127" loNote="81" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#4.wav" rootNote="82" />
-			<sample end="182308" hiNote="86" hiVel="127" loNote="84" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#5.wav" rootNote="85" volume="1.0dB" />
-			<sample end="183888" hiNote="89" hiVel="127" loNote="87" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e5.wav" rootNote="88" volume="1.0dB" />
-			<sample end="194462" hiNote="92" hiVel="127" loNote="90" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g5.wav" rootNote="91" volume="3.0dB" />
-			<sample end="190428" hiNote="95" hiVel="127" loNote="93" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#5.wav" rootNote="94" volume="3.0dB" />
-			<sample end="228197" hiNote="98" hiVel="127" loNote="96" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#6.wav" rootNote="97" volume="2.0dB" />
-			<sample end="223638" hiNote="101" hiVel="127" loNote="99" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e6.wav" rootNote="100" volume="2.0dB" />
-			<sample end="207511" hiNote="104" hiVel="127" loNote="102" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g6.wav" rootNote="103" />
-			<sample end="195138" hiNote="117" hiVel="127" loNote="105" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#6.wav" rootNote="106" />
+		<group name="Group 1" ampVelTrack="1">
+			<sample rootNote="67" loNote="67" hiNote="68" loVel="0" hiVel="127" end="222354" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g3.wav" volume="1.0dB" />
+			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="220154" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#3.wav" volume="1.0dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="223153" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#4.wav" volume="1.0dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="127" end="201901" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e4.wav" volume="4.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="190821" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g4.wav" />
+			<sample rootNote="82" loNote="81" hiNote="83" loVel="0" hiVel="127" end="216513" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#4.wav" />
+			<sample rootNote="85" loNote="84" hiNote="86" loVel="0" hiVel="127" end="182308" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#5.wav" volume="1.0dB" />
+			<sample rootNote="88" loNote="87" hiNote="89" loVel="0" hiVel="127" end="183888" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e5.wav" volume="1.0dB" />
+			<sample rootNote="91" loNote="90" hiNote="92" loVel="0" hiVel="127" end="194462" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g5.wav" volume="3.0dB" />
+			<sample rootNote="94" loNote="93" hiNote="95" loVel="0" hiVel="127" end="190428" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#5.wav" volume="3.0dB" />
+			<sample rootNote="97" loNote="96" hiNote="98" loVel="0" hiVel="127" end="228197" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#6.wav" volume="2.0dB" />
+			<sample rootNote="100" loNote="99" hiNote="101" loVel="0" hiVel="127" end="223638" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e6.wav" volume="2.0dB" />
+			<sample rootNote="103" loNote="102" hiNote="104" loVel="0" hiVel="127" end="207511" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g6.wav" />
+			<sample rootNote="106" loNote="105" hiNote="117" loVel="0" hiVel="127" end="195138" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#6.wav" />
 		</group>
-		<group name="Group 6" ampVelTrack="0">
-			<sample end="222354" hiNote="68" hiVel="127" loNote="67" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g3.wav" rootNote="67" volume="1.0dB" />
-			<sample end="220154" hiNote="71" hiVel="127" loNote="69" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#3.wav" rootNote="70" volume="1.0dB" />
-			<sample end="223153" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#4.wav" rootNote="73" volume="1.0dB" />
-			<sample end="201901" hiNote="77" hiVel="127" loNote="75" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e4.wav" rootNote="76" volume="4.0dB" />
-			<sample end="190821" hiNote="80" hiVel="127" loNote="78" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g4.wav" rootNote="79" />
-			<sample end="216513" hiNote="83" hiVel="127" loNote="81" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#4.wav" rootNote="82" />
-			<sample end="182308" hiNote="86" hiVel="127" loNote="84" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#5.wav" rootNote="85" volume="1.0dB" />
-			<sample end="183888" hiNote="89" hiVel="127" loNote="87" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e5.wav" rootNote="88" volume="1.0dB" />
-			<sample end="194462" hiNote="92" hiVel="127" loNote="90" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g5.wav" rootNote="91" volume="3.0dB" />
-			<sample end="190428" hiNote="95" hiVel="127" loNote="93" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#5.wav" rootNote="94" volume="3.0dB" />
-			<sample end="228197" hiNote="98" hiVel="127" loNote="96" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#6.wav" rootNote="97" volume="2.0dB" />
-			<sample end="223638" hiNote="101" hiVel="127" loNote="99" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e6.wav" rootNote="100" volume="2.0dB" />
-			<sample end="207511" hiNote="104" hiVel="127" loNote="102" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g6.wav" rootNote="103" />
-			<sample end="195138" hiNote="117" hiVel="127" loNote="105" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#6.wav" rootNote="106" />
+		<group name="Group 6" ampVelTrack="1">
+			<sample rootNote="67" loNote="67" hiNote="68" loVel="0" hiVel="127" end="222354" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g3.wav" volume="1.0dB" />
+			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="220154" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#3.wav" volume="1.0dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="223153" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#4.wav" volume="1.0dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="127" end="201901" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e4.wav" volume="4.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="190821" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g4.wav" />
+			<sample rootNote="82" loNote="81" hiNote="83" loVel="0" hiVel="127" end="216513" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#4.wav" />
+			<sample rootNote="85" loNote="84" hiNote="86" loVel="0" hiVel="127" end="182308" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#5.wav" volume="1.0dB" />
+			<sample rootNote="88" loNote="87" hiNote="89" loVel="0" hiVel="127" end="183888" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e5.wav" volume="1.0dB" />
+			<sample rootNote="91" loNote="90" hiNote="92" loVel="0" hiVel="127" end="194462" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g5.wav" volume="3.0dB" />
+			<sample rootNote="94" loNote="93" hiNote="95" loVel="0" hiVel="127" end="190428" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#5.wav" volume="3.0dB" />
+			<sample rootNote="97" loNote="96" hiNote="98" loVel="0" hiVel="127" end="228197" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#6.wav" volume="2.0dB" />
+			<sample rootNote="100" loNote="99" hiNote="101" loVel="0" hiVel="127" end="223638" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e6.wav" volume="2.0dB" />
+			<sample rootNote="103" loNote="102" hiNote="104" loVel="0" hiVel="127" end="207511" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g6.wav" />
+			<sample rootNote="106" loNote="105" hiNote="117" loVel="0" hiVel="127" end="195138" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#6.wav" />
 		</group>
-		<group name="Group 9" ampVelTrack="0">
-			<sample end="222354" hiNote="68" hiVel="127" loNote="67" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g3.wav" rootNote="67" volume="1.0dB" />
-			<sample end="220154" hiNote="71" hiVel="127" loNote="69" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#3.wav" rootNote="70" volume="1.0dB" />
-			<sample end="223153" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#4.wav" rootNote="73" volume="1.0dB" />
-			<sample end="201901" hiNote="77" hiVel="127" loNote="75" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e4.wav" rootNote="76" volume="4.0dB" />
-			<sample end="190821" hiNote="80" hiVel="127" loNote="78" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g4.wav" rootNote="79" />
-			<sample end="216513" hiNote="83" hiVel="127" loNote="81" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#4.wav" rootNote="82" />
-			<sample end="182308" hiNote="86" hiVel="127" loNote="84" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#5.wav" rootNote="85" volume="1.0dB" />
-			<sample end="183888" hiNote="89" hiVel="127" loNote="87" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e5.wav" rootNote="88" volume="1.0dB" />
-			<sample end="194462" hiNote="92" hiVel="127" loNote="90" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g5.wav" rootNote="91" volume="3.0dB" />
-			<sample end="190428" hiNote="95" hiVel="127" loNote="93" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#5.wav" rootNote="94" volume="3.0dB" />
-			<sample end="228197" hiNote="98" hiVel="127" loNote="96" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#6.wav" rootNote="97" volume="2.0dB" />
-			<sample end="223638" hiNote="101" hiVel="127" loNote="99" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e6.wav" rootNote="100" volume="2.0dB" />
-			<sample end="207511" hiNote="104" hiVel="127" loNote="102" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g6.wav" rootNote="103" />
-			<sample end="195138" hiNote="117" hiVel="127" loNote="105" loVel="0" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#6.wav" rootNote="106" />
+		<group name="Group 9" ampVelTrack="1">
+			<sample rootNote="67" loNote="67" hiNote="68" loVel="0" hiVel="127" end="222354" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g3.wav" volume="1.0dB" />
+			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="220154" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#3.wav" volume="1.0dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="223153" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#4.wav" volume="1.0dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="127" end="201901" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e4.wav" volume="4.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="190821" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g4.wav" />
+			<sample rootNote="82" loNote="81" hiNote="83" loVel="0" hiVel="127" end="216513" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#4.wav" />
+			<sample rootNote="85" loNote="84" hiNote="86" loVel="0" hiVel="127" end="182308" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#5.wav" volume="1.0dB" />
+			<sample rootNote="88" loNote="87" hiNote="89" loVel="0" hiVel="127" end="183888" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e5.wav" volume="1.0dB" />
+			<sample rootNote="91" loNote="90" hiNote="92" loVel="0" hiVel="127" end="194462" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g5.wav" volume="3.0dB" />
+			<sample rootNote="94" loNote="93" hiNote="95" loVel="0" hiVel="127" end="190428" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#5.wav" volume="3.0dB" />
+			<sample rootNote="97" loNote="96" hiNote="98" loVel="0" hiVel="127" end="228197" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#6.wav" volume="2.0dB" />
+			<sample rootNote="100" loNote="99" hiNote="101" loVel="0" hiVel="127" end="223638" path="Resources/2nd Violin Section Samples/2nd-violins-sus-e6.wav" volume="2.0dB" />
+			<sample rootNote="103" loNote="102" hiNote="104" loVel="0" hiVel="127" end="207511" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g6.wav" />
+			<sample rootNote="106" loNote="105" hiNote="117" loVel="0" hiVel="127" end="195138" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#6.wav" />
 		</group>
 	</groups>
 	<midi>

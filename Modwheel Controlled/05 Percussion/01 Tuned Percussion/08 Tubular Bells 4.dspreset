@@ -32,33 +32,33 @@
 		<keyboard />
 	</ui>
 	<groups decay="0.400" release="0.400" sustain="0">
-		<group name="Group 1" ampVelTrack="0">
-			<sample end="343593" hiNote="72" hiVel="127" loNote="72" loVel="41" path="Resources/tubular-bells Samples/3_C_f.wav" rootNote="72" volume="-2.0dB" />
-			<sample end="339572" hiNote="73" hiVel="127" loNote="73" loVel="41" path="Resources/tubular-bells Samples/3_Db_f.wav" rootNote="73" volume="-2.0dB" />
-			<sample end="313334" hiNote="75" hiVel="127" loNote="74" loVel="41" path="Resources/tubular-bells Samples/3_D_f.wav" rootNote="74" volume="-2.0dB" />
-			<sample end="384981" hiNote="76" hiVel="127" loNote="76" loVel="41" path="Resources/tubular-bells Samples/3_E_f.wav" rootNote="76" volume="-2.0dB" />
-			<sample end="405796" hiNote="77" hiVel="127" loNote="77" loVel="41" path="Resources/tubular-bells Samples/3_F_f.wav" rootNote="77" volume="-2.0dB" />
-			<sample end="365227" hiNote="79" hiVel="127" loNote="78" loVel="41" path="Resources/tubular-bells Samples/3_Gb_f.wav" rootNote="78" volume="-2.0dB" />
-			<sample end="277571" hiNote="81" hiVel="127" loNote="80" loVel="41" path="Resources/tubular-bells Samples/3_A_f.wav" rootNote="81" volume="-2.0dB" />
-			<sample end="306098" hiNote="83" hiVel="127" loNote="82" loVel="41" path="Resources/tubular-bells Samples/3_Bb_f.wav" rootNote="82" volume="-2.0dB" />
-			<sample end="770913" hiNote="84" hiVel="127" loNote="84" loVel="41" path="Resources/tubular-bells Samples/4_C_f.wav" rootNote="84" volume="-2.0dB" />
-			<sample end="483338" hiNote="87" hiVel="127" loNote="85" loVel="41" path="Resources/tubular-bells Samples/4_D_f.wav" rootNote="86" volume="-2.0dB" />
-			<sample end="175335" hiNote="88" hiVel="127" loNote="88" loVel="41" path="Resources/tubular-bells Samples/4_E_f.wav" rootNote="88" volume="-2.0dB" />
-			<sample end="327146" hiNote="91" hiVel="127" loNote="89" loVel="41" path="Resources/tubular-bells Samples/4_F_f.wav" rootNote="89" volume="-2.0dB" />
+		<group name="Group 1" ampVelTrack="1">
+			<sample rootNote="72" loNote="72" hiNote="72" loVel="41" hiVel="127" end="343593" path="Resources/tubular-bells Samples/3_C_f.wav" volume="-2.0dB" />
+			<sample rootNote="73" loNote="73" hiNote="73" loVel="41" hiVel="127" end="339572" path="Resources/tubular-bells Samples/3_Db_f.wav" volume="-2.0dB" />
+			<sample rootNote="74" loNote="74" hiNote="75" loVel="41" hiVel="127" end="313334" path="Resources/tubular-bells Samples/3_D_f.wav" volume="-2.0dB" />
+			<sample rootNote="76" loNote="76" hiNote="76" loVel="41" hiVel="127" end="384981" path="Resources/tubular-bells Samples/3_E_f.wav" volume="-2.0dB" />
+			<sample rootNote="77" loNote="77" hiNote="77" loVel="41" hiVel="127" end="405796" path="Resources/tubular-bells Samples/3_F_f.wav" volume="-2.0dB" />
+			<sample rootNote="78" loNote="78" hiNote="79" loVel="41" hiVel="127" end="365227" path="Resources/tubular-bells Samples/3_Gb_f.wav" volume="-2.0dB" />
+			<sample rootNote="81" loNote="80" hiNote="81" loVel="41" hiVel="127" end="277571" path="Resources/tubular-bells Samples/3_A_f.wav" volume="-2.0dB" />
+			<sample rootNote="82" loNote="82" hiNote="83" loVel="41" hiVel="127" end="306098" path="Resources/tubular-bells Samples/3_Bb_f.wav" volume="-2.0dB" />
+			<sample rootNote="84" loNote="84" hiNote="84" loVel="41" hiVel="127" end="770913" path="Resources/tubular-bells Samples/4_C_f.wav" volume="-2.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="87" loVel="41" hiVel="127" end="483338" path="Resources/tubular-bells Samples/4_D_f.wav" volume="-2.0dB" />
+			<sample rootNote="88" loNote="88" hiNote="88" loVel="41" hiVel="127" end="175335" path="Resources/tubular-bells Samples/4_E_f.wav" volume="-2.0dB" />
+			<sample rootNote="89" loNote="89" hiNote="91" loVel="41" hiVel="127" end="327146" path="Resources/tubular-bells Samples/4_F_f.wav" volume="-2.0dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="0">
-			<sample end="110432" hiNote="72" hiVel="40" loNote="72" loVel="0" path="Resources/tubular-bells Samples/3_C_p.wav" rootNote="72" />
-			<sample end="266989" hiNote="75" hiVel="40" loNote="73" loVel="0" path="Resources/tubular-bells Samples/3_Db_p.wav" rootNote="73" />
-			<sample end="196515" hiNote="77" hiVel="40" loNote="77" loVel="0" path="Resources/tubular-bells Samples/3_F_p.wav" rootNote="77" />
-			<sample end="184818" hiNote="78" hiVel="40" loNote="78" loVel="0" path="Resources/tubular-bells Samples/3_Gb_p.wav" rootNote="78" />
-			<sample end="181516" hiNote="79" hiVel="40" loNote="79" loVel="0" path="Resources/tubular-bells Samples/3_G_p.wav" rootNote="79" />
-			<sample end="193533" hiNote="80" hiVel="40" loNote="80" loVel="0" path="Resources/tubular-bells Samples/3_Ab_p.wav" rootNote="80" />
-			<sample end="287198" hiNote="82" hiVel="40" loNote="81" loVel="0" path="Resources/tubular-bells Samples/3_Bb_p.wav" rootNote="82" />
-			<sample end="167400" hiNote="83" hiVel="40" loNote="83" loVel="0" path="Resources/tubular-bells Samples/3_B_p.wav" rootNote="83" />
-			<sample end="281696" hiNote="85" hiVel="40" loNote="84" loVel="0" path="Resources/tubular-bells Samples/4_Db_p.wav" rootNote="85" />
-			<sample end="216392" hiNote="86" hiVel="40" loNote="86" loVel="0" path="Resources/tubular-bells Samples/4_D_p.wav" rootNote="86" />
-			<sample end="283911" hiNote="87" hiVel="40" loNote="87" loVel="0" path="Resources/tubular-bells Samples/4_Eb_p.wav" rootNote="87" />
-			<sample end="265844" hiNote="91" hiVel="40" loNote="88" loVel="0" path="Resources/tubular-bells Samples/4_F_p.wav" rootNote="89" />
+		<group name="Group 2" ampVelTrack="1">
+			<sample rootNote="72" loNote="72" hiNote="72" loVel="0" hiVel="40" end="110432" path="Resources/tubular-bells Samples/3_C_p.wav" />
+			<sample rootNote="73" loNote="73" hiNote="75" loVel="0" hiVel="40" end="266989" path="Resources/tubular-bells Samples/3_Db_p.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" loVel="0" hiVel="40" end="196515" path="Resources/tubular-bells Samples/3_F_p.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" loVel="0" hiVel="40" end="184818" path="Resources/tubular-bells Samples/3_Gb_p.wav" />
+			<sample rootNote="79" loNote="79" hiNote="79" loVel="0" hiVel="40" end="181516" path="Resources/tubular-bells Samples/3_G_p.wav" />
+			<sample rootNote="80" loNote="80" hiNote="80" loVel="0" hiVel="40" end="193533" path="Resources/tubular-bells Samples/3_Ab_p.wav" />
+			<sample rootNote="82" loNote="81" hiNote="82" loVel="0" hiVel="40" end="287198" path="Resources/tubular-bells Samples/3_Bb_p.wav" />
+			<sample rootNote="83" loNote="83" hiNote="83" loVel="0" hiVel="40" end="167400" path="Resources/tubular-bells Samples/3_B_p.wav" />
+			<sample rootNote="85" loNote="84" hiNote="85" loVel="0" hiVel="40" end="281696" path="Resources/tubular-bells Samples/4_Db_p.wav" />
+			<sample rootNote="86" loNote="86" hiNote="86" loVel="0" hiVel="40" end="216392" path="Resources/tubular-bells Samples/4_D_p.wav" />
+			<sample rootNote="87" loNote="87" hiNote="87" loVel="0" hiVel="40" end="283911" path="Resources/tubular-bells Samples/4_Eb_p.wav" />
+			<sample rootNote="89" loNote="88" hiNote="91" loVel="0" hiVel="40" end="265844" path="Resources/tubular-bells Samples/4_F_p.wav" />
 		</group>
 	</groups>
 	<midi>

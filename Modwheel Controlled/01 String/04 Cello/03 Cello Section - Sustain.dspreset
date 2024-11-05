@@ -32,31 +32,31 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.060" release="0.084">
-		<group name="Group 1" ampVelTrack="0">
-			<sample end="227328" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/Cello Ensemble Samples/2_Db-PB-loop.wav" rootNote="49" tuning="-0.05" volume="-1.5dB" />
-			<sample end="233983" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Cello Ensemble Samples/2_E-PB-loop.wav" rootNote="52" tuning="-0.05" />
-			<sample end="212544" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/Cello Ensemble Samples/2_G-PB-loop.wav" rootNote="55" tuning="-0.05" volume="-0.5dB" />
-			<sample end="163911" hiNote="59" hiVel="127" loNote="57" loVel="0" path="Resources/Cello Ensemble Samples/2_Bb-PB-loop.wav" rootNote="58" tuning="-0.05" />
-			<sample end="161902" hiNote="63" hiVel="127" loNote="60" loVel="0" path="Resources/Cello Ensemble Samples/3_Db-PB-loop.wav" rootNote="61" tuning="-0.05" />
-			<sample end="221266" hiNote="71" hiVel="127" loNote="64" loVel="0" path="Resources/Cello Ensemble Samples/3_Bb-PB-loop.wav" rootNote="70" tuning="-0.05" volume="-1.0dB" />
-			<sample end="162007" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/Cello Ensemble Samples/4_Db-PB-loop.wav" rootNote="73" tuning="-0.05" volume="-1.5dB" />
-			<sample end="150456" hiNote="77" hiVel="127" loNote="75" loVel="0" path="Resources/Cello Ensemble Samples/4_E-PB-loop.wav" rootNote="76" tuning="-0.05" volume="-1.5dB" />
-			<sample end="147810" hiNote="80" hiVel="127" loNote="78" loVel="0" path="Resources/Cello Ensemble Samples/4_G.wav" rootNote="79" tuning="-0.05" volume="-1.0dB" />
-			<sample end="203520" hiNote="84" hiVel="127" loNote="81" loVel="0" path="Resources/Cello Ensemble Samples/4_Bb.wav" rootNote="82" tuning="0.05" volume="-1.0dB" />
-			<sample end="183625" hiNote="93" hiVel="127" loNote="85" loVel="0" path="Resources/Cello Ensemble Samples/5_E.wav" rootNote="88" tuning="-0.05" volume="-1.0dB" />
+		<group name="Group 1" ampVelTrack="1">
+			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="227328" path="Resources/Cello Ensemble Samples/2_Db-PB-loop.wav" tuning="-0.05" volume="-1.5dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="233983" path="Resources/Cello Ensemble Samples/2_E-PB-loop.wav" tuning="-0.05" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="212544" path="Resources/Cello Ensemble Samples/2_G-PB-loop.wav" tuning="-0.05" volume="-0.5dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="163911" path="Resources/Cello Ensemble Samples/2_Bb-PB-loop.wav" tuning="-0.05" />
+			<sample rootNote="61" loNote="60" hiNote="63" loVel="0" hiVel="127" end="161902" path="Resources/Cello Ensemble Samples/3_Db-PB-loop.wav" tuning="-0.05" />
+			<sample rootNote="70" loNote="64" hiNote="71" loVel="0" hiVel="127" end="221266" path="Resources/Cello Ensemble Samples/3_Bb-PB-loop.wav" tuning="-0.05" volume="-1.0dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="162007" path="Resources/Cello Ensemble Samples/4_Db-PB-loop.wav" tuning="-0.05" volume="-1.5dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="127" end="150456" path="Resources/Cello Ensemble Samples/4_E-PB-loop.wav" tuning="-0.05" volume="-1.5dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="147810" path="Resources/Cello Ensemble Samples/4_G.wav" tuning="-0.05" volume="-1.0dB" />
+			<sample rootNote="82" loNote="81" hiNote="84" loVel="0" hiVel="127" end="203520" path="Resources/Cello Ensemble Samples/4_Bb.wav" tuning="0.05" volume="-1.0dB" />
+			<sample rootNote="88" loNote="85" hiNote="93" loVel="0" hiVel="127" end="183625" path="Resources/Cello Ensemble Samples/5_E.wav" tuning="-0.05" volume="-1.0dB" />
 		</group>
-		<group name="Group 3" ampVelTrack="0">
-			<sample end="227328" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/Cello Ensemble Samples/2_Db-PB-loop.wav" rootNote="49" tuning="-0.05" volume="-1.5dB" />
-			<sample end="233983" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Cello Ensemble Samples/2_E-PB-loop.wav" rootNote="52" tuning="-0.05" />
-			<sample end="212544" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/Cello Ensemble Samples/2_G-PB-loop.wav" rootNote="55" tuning="-0.05" volume="-0.5dB" />
-			<sample end="163911" hiNote="59" hiVel="127" loNote="57" loVel="0" path="Resources/Cello Ensemble Samples/2_Bb-PB-loop.wav" rootNote="58" tuning="-0.05" />
-			<sample end="161902" hiNote="63" hiVel="127" loNote="60" loVel="0" path="Resources/Cello Ensemble Samples/3_Db-PB-loop.wav" rootNote="61" tuning="-0.05" />
-			<sample end="221266" hiNote="71" hiVel="127" loNote="64" loVel="0" path="Resources/Cello Ensemble Samples/3_Bb-PB-loop.wav" rootNote="70" tuning="-0.05" volume="-1.0dB" />
-			<sample end="162007" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/Cello Ensemble Samples/4_Db-PB-loop.wav" rootNote="73" tuning="-0.05" volume="-1.5dB" />
-			<sample end="150456" hiNote="77" hiVel="127" loNote="75" loVel="0" path="Resources/Cello Ensemble Samples/4_E-PB-loop.wav" rootNote="76" tuning="-0.05" volume="-1.5dB" />
-			<sample end="147810" hiNote="80" hiVel="127" loNote="78" loVel="0" path="Resources/Cello Ensemble Samples/4_G.wav" rootNote="79" tuning="-0.05" volume="-1.0dB" />
-			<sample end="203520" hiNote="84" hiVel="127" loNote="81" loVel="0" path="Resources/Cello Ensemble Samples/4_Bb.wav" rootNote="82" tuning="0.05" volume="-1.0dB" />
-			<sample end="183625" hiNote="93" hiVel="127" loNote="85" loVel="0" path="Resources/Cello Ensemble Samples/5_E.wav" rootNote="88" tuning="-0.05" volume="-1.0dB" />
+		<group name="Group 3" ampVelTrack="1">
+			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="227328" path="Resources/Cello Ensemble Samples/2_Db-PB-loop.wav" tuning="-0.05" volume="-1.5dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="233983" path="Resources/Cello Ensemble Samples/2_E-PB-loop.wav" tuning="-0.05" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="212544" path="Resources/Cello Ensemble Samples/2_G-PB-loop.wav" tuning="-0.05" volume="-0.5dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="163911" path="Resources/Cello Ensemble Samples/2_Bb-PB-loop.wav" tuning="-0.05" />
+			<sample rootNote="61" loNote="60" hiNote="63" loVel="0" hiVel="127" end="161902" path="Resources/Cello Ensemble Samples/3_Db-PB-loop.wav" tuning="-0.05" />
+			<sample rootNote="70" loNote="64" hiNote="71" loVel="0" hiVel="127" end="221266" path="Resources/Cello Ensemble Samples/3_Bb-PB-loop.wav" tuning="-0.05" volume="-1.0dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="162007" path="Resources/Cello Ensemble Samples/4_Db-PB-loop.wav" tuning="-0.05" volume="-1.5dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="127" end="150456" path="Resources/Cello Ensemble Samples/4_E-PB-loop.wav" tuning="-0.05" volume="-1.5dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="147810" path="Resources/Cello Ensemble Samples/4_G.wav" tuning="-0.05" volume="-1.0dB" />
+			<sample rootNote="82" loNote="81" hiNote="84" loVel="0" hiVel="127" end="203520" path="Resources/Cello Ensemble Samples/4_Bb.wav" tuning="0.05" volume="-1.0dB" />
+			<sample rootNote="88" loNote="85" hiNote="93" loVel="0" hiVel="127" end="183625" path="Resources/Cello Ensemble Samples/5_E.wav" tuning="-0.05" volume="-1.0dB" />
 		</group>
 	</groups>
 	<midi>

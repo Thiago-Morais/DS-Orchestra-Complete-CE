@@ -32,29 +32,29 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="1">
-		<group name="Group 1" ampVelTrack="0">
-			<sample end="621673" hiNote="61" hiVel="83" loNote="60" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_C4_v2_1.wav" rootNote="60" volume="12.0dB" />
-			<sample end="844270" hiNote="61" hiVel="127" loNote="60" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_C4_v4_1.wav" rootNote="60" volume="8.123357dB" />
-			<sample end="432404" hiNote="63" hiVel="83" loNote="62" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_D4_v2_1.wav" rootNote="62" volume="12.0dB" />
-			<sample end="795653" hiNote="63" hiVel="127" loNote="62" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_D4_v4_2.wav" rootNote="62" volume="5.638059dB" />
-			<sample end="1024773" hiNote="64" hiVel="83" loNote="64" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_E4_v2_1.wav" rootNote="64" volume="12.0dB" />
-			<sample end="1079883" hiNote="64" hiVel="127" loNote="64" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_E4_v4_1.wav" rootNote="64" volume="6.853851dB" />
-			<sample end="918556" hiNote="66" hiVel="83" loNote="65" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_F4_v2_2.wav" rootNote="65" volume="12.0dB" />
-			<sample end="1136648" hiNote="66" hiVel="127" loNote="65" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_F4_v4_1.wav" rootNote="65" volume="3.233612dB" />
-			<sample end="547366" hiNote="68" hiVel="83" loNote="67" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_G4_v2_1.wav" rootNote="67" volume="12.0dB" />
-			<sample end="718320" hiNote="68" hiVel="127" loNote="67" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_G4_v4_1.wav" rootNote="67" volume="7.086978dB" />
-			<sample end="427478" hiNote="70" hiVel="83" loNote="69" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_A4_v2_1.wav" rootNote="69" volume="12.0dB" />
-			<sample end="676307" hiNote="70" hiVel="127" loNote="69" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_A4_v4_1.wav" rootNote="69" volume="5.225776dB" />
-			<sample end="910332" hiNote="71" hiVel="83" loNote="71" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_B4_v2_1.wav" rootNote="71" start="1026" volume="12.0dB" />
-			<sample end="1594779" hiNote="71" hiVel="127" loNote="71" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_B4_v4_1.wav" rootNote="71" volume="7.30392dB" />
-			<sample end="824025" hiNote="73" hiVel="83" loNote="72" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_C5_v2_1.wav" rootNote="72" volume="12.0dB" />
-			<sample end="1959162" hiNote="73" hiVel="127" loNote="72" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_C5_v4_1.wav" rootNote="72" start="2727" volume="6.22251dB" />
-			<sample end="857537" hiNote="75" hiVel="83" loNote="74" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_D5_v2_2.wav" rootNote="74" volume="12.0dB" />
-			<sample end="1099018" hiNote="75" hiVel="127" loNote="74" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_D5_v4_1.wav" rootNote="74" volume="1.64143dB" />
-			<sample end="532007" hiNote="76" hiVel="83" loNote="76" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_E5_v2_1.wav" rootNote="76" volume="12.0dB" />
-			<sample end="751806" hiNote="76" hiVel="127" loNote="76" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_E5_v4_2.wav" rootNote="76" volume="7.04654dB" />
-			<sample end="584233" hiNote="79" hiVel="83" loNote="77" loVel="0" path="Resources/Tubular Bells 2 Samples/TB_hit_F5_v2_2.wav" rootNote="77" volume="12.0dB" />
-			<sample end="537580" hiNote="79" hiVel="127" loNote="77" loVel="84" path="Resources/Tubular Bells 2 Samples/TB_hit_F5_v4_1.wav" rootNote="77" volume="6.808567dB" />
+		<group name="Group 1" ampVelTrack="1">
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="83" end="621673" path="Resources/Tubular Bells 2 Samples/TB_hit_C4_v2_1.wav" volume="12.0dB" />
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="84" hiVel="127" end="844270" path="Resources/Tubular Bells 2 Samples/TB_hit_C4_v4_1.wav" volume="8.123357dB" />
+			<sample rootNote="62" loNote="62" hiNote="63" loVel="0" hiVel="83" end="432404" path="Resources/Tubular Bells 2 Samples/TB_hit_D4_v2_1.wav" volume="12.0dB" />
+			<sample rootNote="62" loNote="62" hiNote="63" loVel="84" hiVel="127" end="795653" path="Resources/Tubular Bells 2 Samples/TB_hit_D4_v4_2.wav" volume="5.638059dB" />
+			<sample rootNote="64" loNote="64" hiNote="64" loVel="0" hiVel="83" end="1024773" path="Resources/Tubular Bells 2 Samples/TB_hit_E4_v2_1.wav" volume="12.0dB" />
+			<sample rootNote="64" loNote="64" hiNote="64" loVel="84" hiVel="127" end="1079883" path="Resources/Tubular Bells 2 Samples/TB_hit_E4_v4_1.wav" volume="6.853851dB" />
+			<sample rootNote="65" loNote="65" hiNote="66" loVel="0" hiVel="83" end="918556" path="Resources/Tubular Bells 2 Samples/TB_hit_F4_v2_2.wav" volume="12.0dB" />
+			<sample rootNote="65" loNote="65" hiNote="66" loVel="84" hiVel="127" end="1136648" path="Resources/Tubular Bells 2 Samples/TB_hit_F4_v4_1.wav" volume="3.233612dB" />
+			<sample rootNote="67" loNote="67" hiNote="68" loVel="0" hiVel="83" end="547366" path="Resources/Tubular Bells 2 Samples/TB_hit_G4_v2_1.wav" volume="12.0dB" />
+			<sample rootNote="67" loNote="67" hiNote="68" loVel="84" hiVel="127" end="718320" path="Resources/Tubular Bells 2 Samples/TB_hit_G4_v4_1.wav" volume="7.086978dB" />
+			<sample rootNote="69" loNote="69" hiNote="70" loVel="0" hiVel="83" end="427478" path="Resources/Tubular Bells 2 Samples/TB_hit_A4_v2_1.wav" volume="12.0dB" />
+			<sample rootNote="69" loNote="69" hiNote="70" loVel="84" hiVel="127" end="676307" path="Resources/Tubular Bells 2 Samples/TB_hit_A4_v4_1.wav" volume="5.225776dB" />
+			<sample rootNote="71" loNote="71" hiNote="71" loVel="0" hiVel="83" end="910332" path="Resources/Tubular Bells 2 Samples/TB_hit_B4_v2_1.wav" start="1026" volume="12.0dB" />
+			<sample rootNote="71" loNote="71" hiNote="71" loVel="84" hiVel="127" end="1594779" path="Resources/Tubular Bells 2 Samples/TB_hit_B4_v4_1.wav" volume="7.30392dB" />
+			<sample rootNote="72" loNote="72" hiNote="73" loVel="0" hiVel="83" end="824025" path="Resources/Tubular Bells 2 Samples/TB_hit_C5_v2_1.wav" volume="12.0dB" />
+			<sample rootNote="72" loNote="72" hiNote="73" loVel="84" hiVel="127" end="1959162" path="Resources/Tubular Bells 2 Samples/TB_hit_C5_v4_1.wav" start="2727" volume="6.22251dB" />
+			<sample rootNote="74" loNote="74" hiNote="75" loVel="0" hiVel="83" end="857537" path="Resources/Tubular Bells 2 Samples/TB_hit_D5_v2_2.wav" volume="12.0dB" />
+			<sample rootNote="74" loNote="74" hiNote="75" loVel="84" hiVel="127" end="1099018" path="Resources/Tubular Bells 2 Samples/TB_hit_D5_v4_1.wav" volume="1.64143dB" />
+			<sample rootNote="76" loNote="76" hiNote="76" loVel="0" hiVel="83" end="532007" path="Resources/Tubular Bells 2 Samples/TB_hit_E5_v2_1.wav" volume="12.0dB" />
+			<sample rootNote="76" loNote="76" hiNote="76" loVel="84" hiVel="127" end="751806" path="Resources/Tubular Bells 2 Samples/TB_hit_E5_v4_2.wav" volume="7.04654dB" />
+			<sample rootNote="77" loNote="77" hiNote="79" loVel="0" hiVel="83" end="584233" path="Resources/Tubular Bells 2 Samples/TB_hit_F5_v2_2.wav" volume="12.0dB" />
+			<sample rootNote="77" loNote="77" hiNote="79" loVel="84" hiVel="127" end="537580" path="Resources/Tubular Bells 2 Samples/TB_hit_F5_v4_1.wav" volume="6.808567dB" />
 		</group>
 	</groups>
 	<midi>

@@ -32,28 +32,28 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" release="0.072">
-		<group name="Group 1" ampVelTrack="0">
-			<sample end="155268" hiNote="54" hiVel="127" loNote="48" loVel="0" path="Resources/Cello Solo Samples/2_Gb-PB-loop.wav" rootNote="54" volume="-0.5dB" />
-			<sample end="142784" hiNote="58" hiVel="127" loNote="55" loVel="0" path="Resources/Cello Solo Samples/2_A-PB-loop.wav" rootNote="57" volume="-0.5dB" />
-			<sample end="109733" hiNote="62" hiVel="127" loNote="59" loVel="0" path="Resources/Cello Solo Samples/3_Db-PB-loop.wav" rootNote="61" volume="-0.5dB" />
-			<sample end="185580" hiNote="66" hiVel="127" loNote="63" loVel="0" path="Resources/Cello Solo Samples/3_F-PB-loop.wav" rootNote="65" volume="-0.5dB" />
-			<sample end="150890" hiNote="69" hiVel="127" loNote="67" loVel="0" path="Resources/Cello Solo Samples/3_A-PB-loop.wav" rootNote="69" />
-			<sample end="231119" hiNote="73" hiVel="127" loNote="70" loVel="0" path="Resources/Cello Solo Samples/4_C-PB-loop.wav" rootNote="72" volume="1.0dB" />
-			<sample end="320174" hiNote="76" hiVel="127" loNote="74" loVel="0" path="Resources/Cello Solo Samples/4_Eb-PB-loop.wav" rootNote="75" volume="-0.5dB" />
-			<sample end="146887" hiNote="80" hiVel="127" loNote="77" loVel="0" path="Resources/Cello Solo Samples/4_G-PB.wav" rootNote="79" />
-			<sample end="197756" hiNote="93" hiVel="127" loNote="81" loVel="0" path="Resources/Cello Solo Samples/4_Bb-PB.wav" rootNote="82" volume="-1.0dB" />
+		<group name="Group 1" ampVelTrack="1">
+			<sample rootNote="54" loNote="48" hiNote="54" loVel="0" hiVel="127" end="155268" path="Resources/Cello Solo Samples/2_Gb-PB-loop.wav" volume="-0.5dB" />
+			<sample rootNote="57" loNote="55" hiNote="58" loVel="0" hiVel="127" end="142784" path="Resources/Cello Solo Samples/2_A-PB-loop.wav" volume="-0.5dB" />
+			<sample rootNote="61" loNote="59" hiNote="62" loVel="0" hiVel="127" end="109733" path="Resources/Cello Solo Samples/3_Db-PB-loop.wav" volume="-0.5dB" />
+			<sample rootNote="65" loNote="63" hiNote="66" loVel="0" hiVel="127" end="185580" path="Resources/Cello Solo Samples/3_F-PB-loop.wav" volume="-0.5dB" />
+			<sample rootNote="69" loNote="67" hiNote="69" loVel="0" hiVel="127" end="150890" path="Resources/Cello Solo Samples/3_A-PB-loop.wav" />
+			<sample rootNote="72" loNote="70" hiNote="73" loVel="0" hiVel="127" end="231119" path="Resources/Cello Solo Samples/4_C-PB-loop.wav" volume="1.0dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="0" hiVel="127" end="320174" path="Resources/Cello Solo Samples/4_Eb-PB-loop.wav" volume="-0.5dB" />
+			<sample rootNote="79" loNote="77" hiNote="80" loVel="0" hiVel="127" end="146887" path="Resources/Cello Solo Samples/4_G-PB.wav" />
+			<sample rootNote="82" loNote="81" hiNote="93" loVel="0" hiVel="127" end="197756" path="Resources/Cello Solo Samples/4_Bb-PB.wav" volume="-1.0dB" />
 		</group>
 		<group name="Group 2" trigger="release">
-			<sample end="30829" hiNote="51" hiVel="127" loNote="48" loVel="0" path="Resources/Cello Solo Samples/2_D_r-PB.wav" rootNote="50" trigger="release" tuning="-0.35" volume="1.0dB" />
-			<sample end="37451" hiNote="54" hiVel="127" loNote="48" loVel="0" path="Resources/Cello Solo Samples/2_Gb_r-PB.wav" rootNote="54" trigger="release" tuning="-0.20" volume="0.5dB" />
-			<sample end="36926" hiNote="58" hiVel="127" loNote="55" loVel="0" path="Resources/Cello Solo Samples/2_Bb_r-PB.wav" rootNote="58" trigger="release" volume="1.5dB" />
-			<sample end="36926" hiNote="62" hiVel="127" loNote="59" loVel="0" path="Resources/Cello Solo Samples/2_B_r-PB.wav" rootNote="59" trigger="release" volume="1.5dB" />
-			<sample end="37451" hiNote="66" hiVel="127" loNote="63" loVel="0" path="Resources/Cello Solo Samples/3_E_r-PB.wav" rootNote="64" trigger="release" volume="1.0dB" />
-			<sample end="37451" hiNote="69" hiVel="127" loNote="67" loVel="0" path="Resources/Cello Solo Samples/3_Ab_r-PB.wav" rootNote="68" trigger="release" volume="2.0dB" />
-			<sample end="37451" hiNote="73" hiVel="127" loNote="70" loVel="0" path="Resources/Cello Solo Samples/3_B_r-PB.wav" rootNote="71" trigger="release" volume="2.0dB" />
-			<sample end="37451" hiNote="76" hiVel="127" loNote="74" loVel="0" path="Resources/Cello Solo Samples/4_D_r-PB.wav" rootNote="74" trigger="release" volume="1.0dB" />
-			<sample end="37451" hiNote="80" hiVel="127" loNote="77" loVel="0" path="Resources/Cello Solo Samples/4_F_r-PB.wav" rootNote="77" trigger="release" />
-			<sample end="37451" hiNote="88" hiVel="127" loNote="81" loVel="0" path="Resources/Cello Solo Samples/4_G_r-PB.wav" rootNote="79" trigger="release" volume="2.0dB" />
+			<sample rootNote="50" loNote="48" hiNote="51" loVel="0" hiVel="127" end="30829" path="Resources/Cello Solo Samples/2_D_r-PB.wav" trigger="release" tuning="-0.35" volume="1.0dB" />
+			<sample rootNote="54" loNote="48" hiNote="54" loVel="0" hiVel="127" end="37451" path="Resources/Cello Solo Samples/2_Gb_r-PB.wav" trigger="release" tuning="-0.20" volume="0.5dB" />
+			<sample rootNote="58" loNote="55" hiNote="58" loVel="0" hiVel="127" end="36926" path="Resources/Cello Solo Samples/2_Bb_r-PB.wav" trigger="release" volume="1.5dB" />
+			<sample rootNote="59" loNote="59" hiNote="62" loVel="0" hiVel="127" end="36926" path="Resources/Cello Solo Samples/2_B_r-PB.wav" trigger="release" volume="1.5dB" />
+			<sample rootNote="64" loNote="63" hiNote="66" loVel="0" hiVel="127" end="37451" path="Resources/Cello Solo Samples/3_E_r-PB.wav" trigger="release" volume="1.0dB" />
+			<sample rootNote="68" loNote="67" hiNote="69" loVel="0" hiVel="127" end="37451" path="Resources/Cello Solo Samples/3_Ab_r-PB.wav" trigger="release" volume="2.0dB" />
+			<sample rootNote="71" loNote="70" hiNote="73" loVel="0" hiVel="127" end="37451" path="Resources/Cello Solo Samples/3_B_r-PB.wav" trigger="release" volume="2.0dB" />
+			<sample rootNote="74" loNote="74" hiNote="76" loVel="0" hiVel="127" end="37451" path="Resources/Cello Solo Samples/4_D_r-PB.wav" trigger="release" volume="1.0dB" />
+			<sample rootNote="77" loNote="77" hiNote="80" loVel="0" hiVel="127" end="37451" path="Resources/Cello Solo Samples/4_F_r-PB.wav" trigger="release" />
+			<sample rootNote="79" loNote="81" hiNote="88" loVel="0" hiVel="127" end="37451" path="Resources/Cello Solo Samples/4_G_r-PB.wav" trigger="release" volume="2.0dB" />
 		</group>
 	</groups>
 	<midi>

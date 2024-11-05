@@ -32,33 +32,33 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.001" release="0.048">
-		<group name="CHOIR AHHS" ampVelTrack="0">
-			<sample end="21406" hiNote="42" hiVel="127" loNote="12" loVel="0" loopEnabled="true" loopEnd="21398" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#21.wav" rootNote="39" />
-			<sample end="31107" hiNote="46" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="31099" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A21.wav" rootNote="45" />
-			<sample end="35927" hiNote="49" hiVel="127" loNote="47" loVel="0" loopEnabled="true" loopEnd="35919" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C31.wav" rootNote="48" />
-			<sample end="34519" hiNote="52" hiVel="127" loNote="50" loVel="0" loopEnabled="true" loopEnd="34511" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#31.wav" rootNote="51" tuning="0.10" />
-			<sample end="37126" hiNote="55" hiVel="127" loNote="53" loVel="0" loopEnabled="true" loopEnd="37118" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-F#31.wav" rootNote="54" />
-			<sample end="27080" hiNote="58" hiVel="127" loNote="56" loVel="0" loopEnabled="true" loopEnd="27072" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A31.wav" rootNote="57" />
-			<sample end="26811" hiNote="61" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="26803" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C41.wav" rootNote="60" tuning="0.30" />
-			<sample end="46246" hiNote="64" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="46238" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#41.wav" rootNote="63" tuning="0.10" />
-			<sample end="33234" hiNote="69" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="33226" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-F#41.wav" rootNote="66" tuning="0.20" />
-			<sample end="31960" hiNote="73" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="31952" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C51.wav" rootNote="72" tuning="0.05" />
-			<sample end="31633" hiNote="79" hiVel="127" loNote="74" loVel="0" loopEnabled="true" loopEnd="31625" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#51.wav" rootNote="75" tuning="0.05" />
-			<sample end="34437" hiNote="127" hiVel="127" loNote="80" loVel="0" loopEnabled="true" loopEnd="34429" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A51.wav" rootNote="81" tuning="0.10" />
+		<group name="CHOIR AHHS" ampVelTrack="1">
+			<sample rootNote="39" loNote="12" hiNote="42" loVel="0" hiVel="127" end="21406" loopEnabled="true" loopEnd="21398" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#21.wav" />
+			<sample rootNote="45" loNote="43" hiNote="46" loVel="0" hiVel="127" end="31107" loopEnabled="true" loopEnd="31099" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A21.wav" />
+			<sample rootNote="48" loNote="47" hiNote="49" loVel="0" hiVel="127" end="35927" loopEnabled="true" loopEnd="35919" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C31.wav" />
+			<sample rootNote="51" loNote="50" hiNote="52" loVel="0" hiVel="127" end="34519" loopEnabled="true" loopEnd="34511" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#31.wav" tuning="0.10" />
+			<sample rootNote="54" loNote="53" hiNote="55" loVel="0" hiVel="127" end="37126" loopEnabled="true" loopEnd="37118" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-F#31.wav" />
+			<sample rootNote="57" loNote="56" hiNote="58" loVel="0" hiVel="127" end="27080" loopEnabled="true" loopEnd="27072" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A31.wav" />
+			<sample rootNote="60" loNote="59" hiNote="61" loVel="0" hiVel="127" end="26811" loopEnabled="true" loopEnd="26803" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C41.wav" tuning="0.30" />
+			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="127" end="46246" loopEnabled="true" loopEnd="46238" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#41.wav" tuning="0.10" />
+			<sample rootNote="66" loNote="65" hiNote="69" loVel="0" hiVel="127" end="33234" loopEnabled="true" loopEnd="33226" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-F#41.wav" tuning="0.20" />
+			<sample rootNote="72" loNote="70" hiNote="73" loVel="0" hiVel="127" end="31960" loopEnabled="true" loopEnd="31952" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C51.wav" tuning="0.05" />
+			<sample rootNote="75" loNote="74" hiNote="79" loVel="0" hiVel="127" end="31633" loopEnabled="true" loopEnd="31625" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#51.wav" tuning="0.05" />
+			<sample rootNote="81" loNote="80" hiNote="127" loVel="0" hiVel="127" end="34437" loopEnabled="true" loopEnd="34429" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A51.wav" tuning="0.10" />
 		</group>
-		<group name="CHOIR AHHS" ampVelTrack="0">
-			<sample end="21406" hiNote="42" hiVel="127" loNote="12" loVel="0" loopEnabled="true" loopEnd="21398" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#21.wav" rootNote="39" />
-			<sample end="31107" hiNote="46" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="31099" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A21.wav" rootNote="45" />
-			<sample end="35927" hiNote="49" hiVel="127" loNote="47" loVel="0" loopEnabled="true" loopEnd="35919" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C31.wav" rootNote="48" />
-			<sample end="34519" hiNote="52" hiVel="127" loNote="50" loVel="0" loopEnabled="true" loopEnd="34511" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#31.wav" rootNote="51" tuning="0.10" />
-			<sample end="37126" hiNote="55" hiVel="127" loNote="53" loVel="0" loopEnabled="true" loopEnd="37118" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-F#31.wav" rootNote="54" />
-			<sample end="27080" hiNote="58" hiVel="127" loNote="56" loVel="0" loopEnabled="true" loopEnd="27072" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A31.wav" rootNote="57" />
-			<sample end="26811" hiNote="61" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="26803" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C41.wav" rootNote="60" tuning="0.30" />
-			<sample end="46246" hiNote="64" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="46238" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#41.wav" rootNote="63" tuning="0.10" />
-			<sample end="33234" hiNote="69" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="33226" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-F#41.wav" rootNote="66" tuning="0.20" />
-			<sample end="31960" hiNote="73" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="31952" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C51.wav" rootNote="72" tuning="0.05" />
-			<sample end="31633" hiNote="79" hiVel="127" loNote="74" loVel="0" loopEnabled="true" loopEnd="31625" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#51.wav" rootNote="75" tuning="0.05" />
-			<sample end="34437" hiNote="127" hiVel="127" loNote="80" loVel="0" loopEnabled="true" loopEnd="34429" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A51.wav" rootNote="81" tuning="0.10" />
+		<group name="CHOIR AHHS" ampVelTrack="1">
+			<sample rootNote="39" loNote="12" hiNote="42" loVel="0" hiVel="127" end="21406" loopEnabled="true" loopEnd="21398" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#21.wav" />
+			<sample rootNote="45" loNote="43" hiNote="46" loVel="0" hiVel="127" end="31107" loopEnabled="true" loopEnd="31099" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A21.wav" />
+			<sample rootNote="48" loNote="47" hiNote="49" loVel="0" hiVel="127" end="35927" loopEnabled="true" loopEnd="35919" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C31.wav" />
+			<sample rootNote="51" loNote="50" hiNote="52" loVel="0" hiVel="127" end="34519" loopEnabled="true" loopEnd="34511" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#31.wav" tuning="0.10" />
+			<sample rootNote="54" loNote="53" hiNote="55" loVel="0" hiVel="127" end="37126" loopEnabled="true" loopEnd="37118" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-F#31.wav" />
+			<sample rootNote="57" loNote="56" hiNote="58" loVel="0" hiVel="127" end="27080" loopEnabled="true" loopEnd="27072" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A31.wav" />
+			<sample rootNote="60" loNote="59" hiNote="61" loVel="0" hiVel="127" end="26811" loopEnabled="true" loopEnd="26803" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C41.wav" tuning="0.30" />
+			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="127" end="46246" loopEnabled="true" loopEnd="46238" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#41.wav" tuning="0.10" />
+			<sample rootNote="66" loNote="65" hiNote="69" loVel="0" hiVel="127" end="33234" loopEnabled="true" loopEnd="33226" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-F#41.wav" tuning="0.20" />
+			<sample rootNote="72" loNote="70" hiNote="73" loVel="0" hiVel="127" end="31960" loopEnabled="true" loopEnd="31952" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C51.wav" tuning="0.05" />
+			<sample rootNote="75" loNote="74" hiNote="79" loVel="0" hiVel="127" end="31633" loopEnabled="true" loopEnd="31625" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#51.wav" tuning="0.05" />
+			<sample rootNote="81" loNote="80" hiNote="127" loVel="0" hiVel="127" end="34437" loopEnabled="true" loopEnd="34429" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A51.wav" tuning="0.10" />
 		</group>
 	</groups>
 	<midi>

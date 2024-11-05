@@ -32,28 +32,28 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.040" release="0.072">
-		<group name="Group 10" ampVelTrack="0">
-			<sample end="95725" hiNote="40" hiVel="127" loNote="36" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Eb1-PB.wav" rootNote="39" />
-			<sample end="133019" hiNote="43" hiVel="127" loNote="41" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.F1-PB.wav" rootNote="41" tuning="-0.10" />
-			<sample end="104057" hiNote="45" hiVel="127" loNote="44" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.A1-PB.wav" rootNote="45" />
-			<sample end="96845" hiNote="46" hiVel="127" loNote="46" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Bb1-PB.wav" rootNote="46" />
-			<sample end="69379" hiNote="47" hiVel="127" loNote="47" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.B1-PB.wav" rootNote="47" />
-			<sample end="93224" hiNote="48" hiVel="127" loNote="48" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.C2-PB.wav" rootNote="48" />
-			<sample end="92586" hiNote="50" hiVel="127" loNote="49" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Db2-PB.wav" rootNote="49" />
-			<sample end="140169" hiNote="51" hiVel="127" loNote="51" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Eb2-PB.wav" rootNote="51" />
-			<sample end="98678" hiNote="52" hiVel="127" loNote="52" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.E2-PB.wav" rootNote="52" tuning="0.05" />
-			<sample end="131851" hiNote="53" hiVel="127" loNote="53" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.F2-PB.wav" rootNote="53" tuning="0.10" />
-			<sample end="126278" hiNote="54" hiVel="127" loNote="54" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Gb2-PB.wav" rootNote="54" tuning="0.05" />
-			<sample end="100318" hiNote="56" hiVel="127" loNote="55" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.G2-PB.wav" rootNote="55" tuning="-0.05" />
-			<sample end="92681" hiNote="57" hiVel="127" loNote="57" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.A2-PB.wav" rootNote="57" tuning="-0.10" />
-			<sample end="80694" hiNote="58" hiVel="127" loNote="58" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Bb2-PB.wav" rootNote="58" tuning="-0.30" />
-			<sample end="81808" hiNote="59" hiVel="127" loNote="59" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.B2-PB.wav" rootNote="59" tuning="-0.10" />
-			<sample end="99674" hiNote="60" hiVel="127" loNote="60" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.C3-PB.wav" rootNote="60" />
-			<sample end="79865" hiNote="62" hiVel="127" loNote="61" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Db3-PB.wav" rootNote="61" />
-			<sample end="109955" hiNote="65" hiVel="127" loNote="63" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.F3-PB.wav" rootNote="65" />
-			<sample end="105258" hiNote="67" hiVel="127" loNote="66" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Gb3-PB.wav" rootNote="66" />
-			<sample end="78504" hiNote="70" hiVel="127" loNote="68" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.A3-PB.wav" rootNote="69" volume="4.0dB" />
-			<sample end="57829" hiNote="79" hiVel="127" loNote="71" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.B3-PB.wav" rootNote="70" tuning="0.05" />
+		<group name="Group 10" ampVelTrack="1">
+			<sample rootNote="39" loNote="36" hiNote="40" loVel="0" hiVel="127" end="95725" path="Resources/Bass Solo Samples/Bass.pizz.Eb1-PB.wav" />
+			<sample rootNote="41" loNote="41" hiNote="43" loVel="0" hiVel="127" end="133019" path="Resources/Bass Solo Samples/Bass.pizz.F1-PB.wav" tuning="-0.10" />
+			<sample rootNote="45" loNote="44" hiNote="45" loVel="0" hiVel="127" end="104057" path="Resources/Bass Solo Samples/Bass.pizz.A1-PB.wav" />
+			<sample rootNote="46" loNote="46" hiNote="46" loVel="0" hiVel="127" end="96845" path="Resources/Bass Solo Samples/Bass.pizz.Bb1-PB.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" loVel="0" hiVel="127" end="69379" path="Resources/Bass Solo Samples/Bass.pizz.B1-PB.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="127" end="93224" path="Resources/Bass Solo Samples/Bass.pizz.C2-PB.wav" />
+			<sample rootNote="49" loNote="49" hiNote="50" loVel="0" hiVel="127" end="92586" path="Resources/Bass Solo Samples/Bass.pizz.Db2-PB.wav" />
+			<sample rootNote="51" loNote="51" hiNote="51" loVel="0" hiVel="127" end="140169" path="Resources/Bass Solo Samples/Bass.pizz.Eb2-PB.wav" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="98678" path="Resources/Bass Solo Samples/Bass.pizz.E2-PB.wav" tuning="0.05" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="0" hiVel="127" end="131851" path="Resources/Bass Solo Samples/Bass.pizz.F2-PB.wav" tuning="0.10" />
+			<sample rootNote="54" loNote="54" hiNote="54" loVel="0" hiVel="127" end="126278" path="Resources/Bass Solo Samples/Bass.pizz.Gb2-PB.wav" tuning="0.05" />
+			<sample rootNote="55" loNote="55" hiNote="56" loVel="0" hiVel="127" end="100318" path="Resources/Bass Solo Samples/Bass.pizz.G2-PB.wav" tuning="-0.05" />
+			<sample rootNote="57" loNote="57" hiNote="57" loVel="0" hiVel="127" end="92681" path="Resources/Bass Solo Samples/Bass.pizz.A2-PB.wav" tuning="-0.10" />
+			<sample rootNote="58" loNote="58" hiNote="58" loVel="0" hiVel="127" end="80694" path="Resources/Bass Solo Samples/Bass.pizz.Bb2-PB.wav" tuning="-0.30" />
+			<sample rootNote="59" loNote="59" hiNote="59" loVel="0" hiVel="127" end="81808" path="Resources/Bass Solo Samples/Bass.pizz.B2-PB.wav" tuning="-0.10" />
+			<sample rootNote="60" loNote="60" hiNote="60" loVel="0" hiVel="127" end="99674" path="Resources/Bass Solo Samples/Bass.pizz.C3-PB.wav" />
+			<sample rootNote="61" loNote="61" hiNote="62" loVel="0" hiVel="127" end="79865" path="Resources/Bass Solo Samples/Bass.pizz.Db3-PB.wav" />
+			<sample rootNote="65" loNote="63" hiNote="65" loVel="0" hiVel="127" end="109955" path="Resources/Bass Solo Samples/Bass.pizz.F3-PB.wav" />
+			<sample rootNote="66" loNote="66" hiNote="67" loVel="0" hiVel="127" end="105258" path="Resources/Bass Solo Samples/Bass.pizz.Gb3-PB.wav" />
+			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="78504" path="Resources/Bass Solo Samples/Bass.pizz.A3-PB.wav" volume="4.0dB" />
+			<sample rootNote="70" loNote="71" hiNote="79" loVel="0" hiVel="127" end="57829" path="Resources/Bass Solo Samples/Bass.pizz.B3-PB.wav" tuning="0.05" />
 		</group>
 	</groups>
 	<midi>
