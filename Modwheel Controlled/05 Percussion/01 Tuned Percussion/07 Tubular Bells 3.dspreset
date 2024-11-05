@@ -33,24 +33,24 @@
 	</ui>
 	<groups attack="0" release="1">
 		<group name="Group 1" ampVelTrack="1">
-			<sample hiNote="60" hiVel="127" loNote="60" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C1.wav" rootNote="60" start="2804" volume="12.0dB" />
-			<sample hiNote="61" hiVel="127" loNote="61" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C#1.wav" rootNote="61" start="2325" volume="8.364776dB" />
-			<sample hiNote="62" hiVel="127" loNote="62" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_D1.wav" rootNote="62" start="2388" volume="12.0dB" />
-			<sample hiNote="63" hiVel="127" loNote="63" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_D#1.wav" rootNote="63" start="3474" volume="12.0dB" />
-			<sample hiNote="64" hiVel="127" loNote="64" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_E1.wav" rootNote="64" start="3106" volume="10.151247dB" />
-			<sample hiNote="65" hiVel="127" loNote="65" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_F1.wav" rootNote="65" start="2804" volume="12.0dB" />
-			<sample hiNote="66" hiVel="127" loNote="66" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_F#1.wav" rootNote="66" start="2882" volume="11.86068dB" />
-			<sample hiNote="67" hiVel="127" loNote="67" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_G1.wav" rootNote="67" start="2822" volume="12.0dB" />
-			<sample hiNote="68" hiVel="127" loNote="68" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_G#1.wav" rootNote="68" start="2997" volume="12.0dB" />
-			<sample hiNote="69" hiVel="127" loNote="69" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_A1.wav" rootNote="69" start="3310" volume="12.0dB" />
-			<sample hiNote="70" hiVel="127" loNote="70" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_A#1.wav" rootNote="70" start="2308" volume="10.249764dB" />
-			<sample hiNote="71" hiVel="127" loNote="71" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_B1.wav" rootNote="71" start="3067" volume="12.0dB" />
-			<sample hiNote="72" hiVel="127" loNote="72" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C2.wav" rootNote="72" start="3172" volume="12.0dB" />
-			<sample hiNote="73" hiVel="127" loNote="73" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C#2.wav" rootNote="73" start="2420" volume="10.46762dB" />
-			<sample hiNote="74" hiVel="127" loNote="74" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_D2.wav" rootNote="74" start="2306" volume="12.0dB" />
-			<sample hiNote="75" hiVel="127" loNote="75" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_D#2.wav" rootNote="75" start="2803" volume="12.0dB" />
-			<sample hiNote="76" hiVel="127" loNote="76" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_E2.wav" rootNote="76" start="2917" volume="12.0dB" />
-			<sample hiNote="78" hiVel="127" loNote="77" loVel="0" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_F2.wav" rootNote="77" start="3492" volume="10.638334dB" />
+			<sample rootNote="60" loNote="60" hiNote="60" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C1.wav" start="2804" volume="12.0dB" />
+			<sample rootNote="61" loNote="61" hiNote="61" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C#1.wav" start="2325" volume="8.364776dB" />
+			<sample rootNote="62" loNote="62" hiNote="62" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_D1.wav" start="2388" volume="12.0dB" />
+			<sample rootNote="63" loNote="63" hiNote="63" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_D#1.wav" start="3474" volume="12.0dB" />
+			<sample rootNote="64" loNote="64" hiNote="64" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_E1.wav" start="3106" volume="10.151247dB" />
+			<sample rootNote="65" loNote="65" hiNote="65" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_F1.wav" start="2804" volume="12.0dB" />
+			<sample rootNote="66" loNote="66" hiNote="66" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_F#1.wav" start="2882" volume="11.86068dB" />
+			<sample rootNote="67" loNote="67" hiNote="67" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_G1.wav" start="2822" volume="12.0dB" />
+			<sample rootNote="68" loNote="68" hiNote="68" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_G#1.wav" start="2997" volume="12.0dB" />
+			<sample rootNote="69" loNote="69" hiNote="69" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_A1.wav" start="3310" volume="12.0dB" />
+			<sample rootNote="70" loNote="70" hiNote="70" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_A#1.wav" start="2308" volume="10.249764dB" />
+			<sample rootNote="71" loNote="71" hiNote="71" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_B1.wav" start="3067" volume="12.0dB" />
+			<sample rootNote="72" loNote="72" hiNote="72" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C2.wav" start="3172" volume="12.0dB" />
+			<sample rootNote="73" loNote="73" hiNote="73" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C#2.wav" start="2420" volume="10.46762dB" />
+			<sample rootNote="74" loNote="74" hiNote="74" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_D2.wav" start="2306" volume="12.0dB" />
+			<sample rootNote="75" loNote="75" hiNote="75" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_D#2.wav" start="2803" volume="12.0dB" />
+			<sample rootNote="76" loNote="76" hiNote="76" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_E2.wav" start="2917" volume="12.0dB" />
+			<sample rootNote="77" loNote="77" hiNote="78" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_F2.wav" start="3492" volume="10.638334dB" />
 		</group>
 	</groups>
 	<midi>
