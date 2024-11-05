@@ -33,85 +33,85 @@
 	</ui>
 	<groups attack="0.060" release="0.020">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="89180" hiNote="35" hiVel="127" loNote="34" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#0-PB-loop.wav" rootNote="34" tuning="-0.20" volume="2.0dB" />
-			<sample end="95394" hiNote="38" hiVel="127" loNote="36" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#1-PB-loop.wav" rootNote="37" tuning="-0.16" volume="3.0dB" />
-			<sample end="94432" hiNote="41" hiVel="127" loNote="39" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e1-PB-loop.wav" rootNote="40" volume="2.0dB" />
-			<sample end="88282" hiNote="44" hiVel="127" loNote="42" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g1-PB-loop.wav" rootNote="43" tuning="-0.11" volume="2.0dB" />
-			<sample end="87581" hiNote="47" hiVel="127" loNote="45" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#1-PB-loop.wav" rootNote="46" tuning="-0.18" volume="3.0dB" />
-			<sample end="87802" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#2-PB-loop.wav" rootNote="49" volume="3.0dB" />
-			<sample end="108654" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e2-PB-loop.wav" rootNote="52" volume="3.0dB" />
-			<sample end="98332" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g2-PB-loop.wav" rootNote="55" tuning="-0.16" volume="5.0dB" />
-			<sample end="99489" hiNote="59" hiVel="127" loNote="57" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#2-PB-loop.wav" rootNote="58" volume="2.0dB" />
-			<sample end="90025" hiNote="62" hiVel="127" loNote="60" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#3-PB-loop.wav" rootNote="61" tuning="-0.10" volume="4.0dB" />
-			<sample end="101582" hiNote="66" hiVel="127" loNote="63" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e3-PB-loop.wav" rootNote="64" tuning="0.01" volume="5.0dB" />
-			<sample end="110708" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#3-PB-loop.wav" rootNote="70" tuning="0.03" volume="4.0dB" />
+			<sample rootNote="34" loNote="34" hiNote="35" loVel="0" hiVel="127" end="89180" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#0-PB-loop.wav" tuning="-0.20" volume="2.0dB" />
+			<sample rootNote="37" loNote="36" hiNote="38" loVel="0" hiVel="127" end="95394" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#1-PB-loop.wav" tuning="-0.16" volume="3.0dB" />
+			<sample rootNote="40" loNote="39" hiNote="41" loVel="0" hiVel="127" end="94432" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e1-PB-loop.wav" volume="2.0dB" />
+			<sample rootNote="43" loNote="42" hiNote="44" loVel="0" hiVel="127" end="88282" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g1-PB-loop.wav" tuning="-0.11" volume="2.0dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" loVel="0" hiVel="127" end="87581" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#1-PB-loop.wav" tuning="-0.18" volume="3.0dB" />
+			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="87802" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#2-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="108654" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e2-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="98332" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g2-PB-loop.wav" tuning="-0.16" volume="5.0dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="99489" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#2-PB-loop.wav" volume="2.0dB" />
+			<sample rootNote="61" loNote="60" hiNote="62" loVel="0" hiVel="127" end="90025" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#3-PB-loop.wav" tuning="-0.10" volume="4.0dB" />
+			<sample rootNote="64" loNote="63" hiNote="66" loVel="0" hiVel="127" end="101582" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e3-PB-loop.wav" tuning="0.01" volume="5.0dB" />
+			<sample rootNote="70" loNote="67" hiNote="70" loVel="0" hiVel="127" end="110708" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#3-PB-loop.wav" tuning="0.03" volume="4.0dB" />
 		</group>
 		<group name="Group 2" ampVelTrack="1">
-			<sample end="89180" hiNote="35" hiVel="127" loNote="34" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#0-PB-loop.wav" rootNote="34" tuning="-0.20" volume="2.0dB" />
-			<sample end="95394" hiNote="38" hiVel="127" loNote="36" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#1-PB-loop.wav" rootNote="37" tuning="-0.16" volume="3.0dB" />
-			<sample end="94432" hiNote="41" hiVel="127" loNote="39" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e1-PB-loop.wav" rootNote="40" volume="2.0dB" />
-			<sample end="88282" hiNote="44" hiVel="127" loNote="42" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g1-PB-loop.wav" rootNote="43" tuning="-0.11" volume="2.0dB" />
-			<sample end="87581" hiNote="47" hiVel="127" loNote="45" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#1-PB-loop.wav" rootNote="46" tuning="-0.18" volume="3.0dB" />
-			<sample end="87802" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#2-PB-loop.wav" rootNote="49" volume="3.0dB" />
-			<sample end="108654" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e2-PB-loop.wav" rootNote="52" volume="3.0dB" />
-			<sample end="98332" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g2-PB-loop.wav" rootNote="55" tuning="-0.16" volume="5.0dB" />
-			<sample end="99489" hiNote="59" hiVel="127" loNote="57" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#2-PB-loop.wav" rootNote="58" volume="2.0dB" />
-			<sample end="90025" hiNote="62" hiVel="127" loNote="60" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#3-PB-loop.wav" rootNote="61" tuning="-0.10" volume="4.0dB" />
-			<sample end="101582" hiNote="66" hiVel="127" loNote="63" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e3-PB-loop.wav" rootNote="64" tuning="0.01" volume="5.0dB" />
-			<sample end="110708" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#3-PB-loop.wav" rootNote="70" tuning="0.03" volume="4.0dB" />
+			<sample rootNote="34" loNote="34" hiNote="35" loVel="0" hiVel="127" end="89180" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#0-PB-loop.wav" tuning="-0.20" volume="2.0dB" />
+			<sample rootNote="37" loNote="36" hiNote="38" loVel="0" hiVel="127" end="95394" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#1-PB-loop.wav" tuning="-0.16" volume="3.0dB" />
+			<sample rootNote="40" loNote="39" hiNote="41" loVel="0" hiVel="127" end="94432" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e1-PB-loop.wav" volume="2.0dB" />
+			<sample rootNote="43" loNote="42" hiNote="44" loVel="0" hiVel="127" end="88282" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g1-PB-loop.wav" tuning="-0.11" volume="2.0dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" loVel="0" hiVel="127" end="87581" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#1-PB-loop.wav" tuning="-0.18" volume="3.0dB" />
+			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="87802" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#2-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="108654" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e2-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="98332" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g2-PB-loop.wav" tuning="-0.16" volume="5.0dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="99489" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#2-PB-loop.wav" volume="2.0dB" />
+			<sample rootNote="61" loNote="60" hiNote="62" loVel="0" hiVel="127" end="90025" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#3-PB-loop.wav" tuning="-0.10" volume="4.0dB" />
+			<sample rootNote="64" loNote="63" hiNote="66" loVel="0" hiVel="127" end="101582" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e3-PB-loop.wav" tuning="0.01" volume="5.0dB" />
+			<sample rootNote="70" loNote="67" hiNote="70" loVel="0" hiVel="127" end="110708" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#3-PB-loop.wav" tuning="0.03" volume="4.0dB" />
 		</group>
 		<group name="Group 3" ampVelTrack="1">
-			<sample end="89180" hiNote="35" hiVel="127" loNote="34" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#0-PB-loop.wav" rootNote="34" start="1000" tuning="-0.20" volume="2.0dB" />
-			<sample end="95394" hiNote="38" hiVel="127" loNote="36" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#1-PB-loop.wav" rootNote="37" start="1000" tuning="-0.16" volume="-1.0dB" />
-			<sample end="94432" hiNote="41" hiVel="127" loNote="39" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e1-PB-loop.wav" rootNote="40" start="1000" volume="-2.0dB" />
-			<sample end="88282" hiNote="44" hiVel="127" loNote="42" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g1-PB-loop.wav" rootNote="43" start="1000" tuning="-0.11" volume="-1.0dB" />
-			<sample end="87581" hiNote="47" hiVel="127" loNote="45" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#1-PB-loop.wav" rootNote="46" start="1000" tuning="-0.18" volume="-2.0dB" />
-			<sample end="87802" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#2-PB-loop.wav" rootNote="49" start="1000" volume="1.0dB" />
-			<sample end="108654" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e2-PB-loop.wav" rootNote="52" start="1000" volume="-2.0dB" />
-			<sample end="99489" hiNote="59" hiVel="127" loNote="54" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#2-PB-loop.wav" rootNote="58" start="1000" volume="-1.5dB" />
-			<sample end="90025" hiNote="62" hiVel="127" loNote="58" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#3-PB-loop.wav" rootNote="61" start="5000" tuning="-0.10" volume="2.0dB" />
-			<sample end="101582" hiNote="66" hiVel="127" loNote="63" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e3-PB-loop.wav" rootNote="64" start="60000" tuning="0.01" volume="9.0dB" />
-			<sample end="110708" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#3-PB-loop.wav" rootNote="70" start="2000" tuning="0.03" volume="1.0dB" />
+			<sample rootNote="34" loNote="34" hiNote="35" loVel="0" hiVel="127" end="89180" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#0-PB-loop.wav" start="1000" tuning="-0.20" volume="2.0dB" />
+			<sample rootNote="37" loNote="36" hiNote="38" loVel="0" hiVel="127" end="95394" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#1-PB-loop.wav" start="1000" tuning="-0.16" volume="-1.0dB" />
+			<sample rootNote="40" loNote="39" hiNote="41" loVel="0" hiVel="127" end="94432" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e1-PB-loop.wav" start="1000" volume="-2.0dB" />
+			<sample rootNote="43" loNote="42" hiNote="44" loVel="0" hiVel="127" end="88282" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g1-PB-loop.wav" start="1000" tuning="-0.11" volume="-1.0dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" loVel="0" hiVel="127" end="87581" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#1-PB-loop.wav" start="1000" tuning="-0.18" volume="-2.0dB" />
+			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="87802" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#2-PB-loop.wav" start="1000" volume="1.0dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="108654" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e2-PB-loop.wav" start="1000" volume="-2.0dB" />
+			<sample rootNote="58" loNote="54" hiNote="59" loVel="0" hiVel="127" end="99489" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#2-PB-loop.wav" start="1000" volume="-1.5dB" />
+			<sample rootNote="61" loNote="58" hiNote="62" loVel="0" hiVel="127" end="90025" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#3-PB-loop.wav" start="5000" tuning="-0.10" volume="2.0dB" />
+			<sample rootNote="64" loNote="63" hiNote="66" loVel="0" hiVel="127" end="101582" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e3-PB-loop.wav" start="60000" tuning="0.01" volume="9.0dB" />
+			<sample rootNote="70" loNote="67" hiNote="70" loVel="0" hiVel="127" end="110708" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#3-PB-loop.wav" start="2000" tuning="0.03" volume="1.0dB" />
 		</group>
 		<group name="Group 4" ampVelTrack="1">
-			<sample end="89180" hiNote="35" hiVel="127" loNote="34" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#0-PB-loop.wav" rootNote="34" start="1000" tuning="-0.20" volume="7.0dB" />
-			<sample end="95394" hiNote="38" hiVel="127" loNote="36" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#1-PB-loop.wav" rootNote="37" start="1000" tuning="-0.16" volume="4.0dB" />
-			<sample end="94432" hiNote="41" hiVel="127" loNote="39" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e1-PB-loop.wav" rootNote="40" start="1000" volume="3.0dB" />
-			<sample end="88282" hiNote="44" hiVel="127" loNote="42" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g1-PB-loop.wav" rootNote="43" start="1000" tuning="-0.11" volume="4.0dB" />
-			<sample end="87581" hiNote="47" hiVel="127" loNote="45" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#1-PB-loop.wav" rootNote="46" start="1000" tuning="-0.18" volume="3.0dB" />
-			<sample end="87802" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#2-PB-loop.wav" rootNote="49" start="1000" volume="6.0dB" />
-			<sample end="108654" hiNote="56" hiVel="127" loNote="51" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e2-PB-loop.wav" rootNote="52" start="1000" volume="3.0dB" />
-			<sample end="99489" hiNote="59" hiVel="127" loNote="57" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#2-PB-loop.wav" rootNote="58" start="1000" volume="3.5dB" />
-			<sample end="90025" hiNote="62" hiVel="127" loNote="58" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#3-PB-loop.wav" rootNote="61" start="5000" tuning="-0.10" volume="7.0dB" />
-			<sample end="101582" hiNote="66" hiVel="127" loNote="63" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e3-PB-loop.wav" rootNote="64" start="60000" tuning="0.01" volume="12.0dB" />
-			<sample end="110708" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#3-PB-loop.wav" rootNote="70" start="2000" tuning="0.03" volume="6.0dB" />
+			<sample rootNote="34" loNote="34" hiNote="35" loVel="0" hiVel="127" end="89180" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#0-PB-loop.wav" start="1000" tuning="-0.20" volume="7.0dB" />
+			<sample rootNote="37" loNote="36" hiNote="38" loVel="0" hiVel="127" end="95394" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#1-PB-loop.wav" start="1000" tuning="-0.16" volume="4.0dB" />
+			<sample rootNote="40" loNote="39" hiNote="41" loVel="0" hiVel="127" end="94432" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e1-PB-loop.wav" start="1000" volume="3.0dB" />
+			<sample rootNote="43" loNote="42" hiNote="44" loVel="0" hiVel="127" end="88282" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g1-PB-loop.wav" start="1000" tuning="-0.11" volume="4.0dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" loVel="0" hiVel="127" end="87581" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#1-PB-loop.wav" start="1000" tuning="-0.18" volume="3.0dB" />
+			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="87802" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#2-PB-loop.wav" start="1000" volume="6.0dB" />
+			<sample rootNote="52" loNote="51" hiNote="56" loVel="0" hiVel="127" end="108654" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e2-PB-loop.wav" start="1000" volume="3.0dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="99489" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#2-PB-loop.wav" start="1000" volume="3.5dB" />
+			<sample rootNote="61" loNote="58" hiNote="62" loVel="0" hiVel="127" end="90025" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#3-PB-loop.wav" start="5000" tuning="-0.10" volume="7.0dB" />
+			<sample rootNote="64" loNote="63" hiNote="66" loVel="0" hiVel="127" end="101582" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e3-PB-loop.wav" start="60000" tuning="0.01" volume="12.0dB" />
+			<sample rootNote="70" loNote="67" hiNote="70" loVel="0" hiVel="127" end="110708" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#3-PB-loop.wav" start="2000" tuning="0.03" volume="6.0dB" />
 		</group>
 		<group name="Group 5" ampVelTrack="1">
-			<sample end="89180" hiNote="35" hiVel="127" loNote="34" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#0-PB-loop.wav" rootNote="34" tuning="-0.20" volume="2.0dB" />
-			<sample end="95394" hiNote="38" hiVel="127" loNote="36" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#1-PB-loop.wav" rootNote="37" tuning="-0.16" volume="3.0dB" />
-			<sample end="94432" hiNote="41" hiVel="127" loNote="39" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e1-PB-loop.wav" rootNote="40" volume="2.0dB" />
-			<sample end="88282" hiNote="44" hiVel="127" loNote="42" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g1-PB-loop.wav" rootNote="43" tuning="-0.11" volume="2.0dB" />
-			<sample end="87581" hiNote="47" hiVel="127" loNote="45" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#1-PB-loop.wav" rootNote="46" tuning="-0.18" volume="3.0dB" />
-			<sample end="87802" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#2-PB-loop.wav" rootNote="49" volume="3.0dB" />
-			<sample end="108654" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e2-PB-loop.wav" rootNote="52" volume="3.0dB" />
-			<sample end="98332" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g2-PB-loop.wav" rootNote="55" tuning="-0.16" volume="5.0dB" />
-			<sample end="99489" hiNote="59" hiVel="127" loNote="57" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#2-PB-loop.wav" rootNote="58" volume="2.0dB" />
-			<sample end="90025" hiNote="62" hiVel="127" loNote="60" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#3-PB-loop.wav" rootNote="61" tuning="-0.10" volume="4.0dB" />
-			<sample end="101582" hiNote="66" hiVel="127" loNote="63" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e3-PB-loop.wav" rootNote="64" tuning="0.01" volume="5.0dB" />
-			<sample end="110708" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#3-PB-loop.wav" rootNote="70" tuning="0.03" volume="4.0dB" />
+			<sample rootNote="34" loNote="34" hiNote="35" loVel="0" hiVel="127" end="89180" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#0-PB-loop.wav" tuning="-0.20" volume="2.0dB" />
+			<sample rootNote="37" loNote="36" hiNote="38" loVel="0" hiVel="127" end="95394" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#1-PB-loop.wav" tuning="-0.16" volume="3.0dB" />
+			<sample rootNote="40" loNote="39" hiNote="41" loVel="0" hiVel="127" end="94432" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e1-PB-loop.wav" volume="2.0dB" />
+			<sample rootNote="43" loNote="42" hiNote="44" loVel="0" hiVel="127" end="88282" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g1-PB-loop.wav" tuning="-0.11" volume="2.0dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" loVel="0" hiVel="127" end="87581" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#1-PB-loop.wav" tuning="-0.18" volume="3.0dB" />
+			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="87802" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#2-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="108654" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e2-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="98332" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g2-PB-loop.wav" tuning="-0.16" volume="5.0dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="99489" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#2-PB-loop.wav" volume="2.0dB" />
+			<sample rootNote="61" loNote="60" hiNote="62" loVel="0" hiVel="127" end="90025" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#3-PB-loop.wav" tuning="-0.10" volume="4.0dB" />
+			<sample rootNote="64" loNote="63" hiNote="66" loVel="0" hiVel="127" end="101582" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e3-PB-loop.wav" tuning="0.01" volume="5.0dB" />
+			<sample rootNote="70" loNote="67" hiNote="70" loVel="0" hiVel="127" end="110708" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#3-PB-loop.wav" tuning="0.03" volume="4.0dB" />
 		</group>
 		<group name="Group 6" ampVelTrack="1">
-			<sample end="89180" hiNote="35" hiVel="127" loNote="34" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#0-PB-loop.wav" rootNote="34" start="1000" tuning="-0.20" volume="7.0dB" />
-			<sample end="95394" hiNote="38" hiVel="127" loNote="36" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#1-PB-loop.wav" rootNote="37" start="1000" tuning="-0.16" volume="4.0dB" />
-			<sample end="94432" hiNote="41" hiVel="127" loNote="39" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e1-PB-loop.wav" rootNote="40" start="1000" volume="3.0dB" />
-			<sample end="88282" hiNote="44" hiVel="127" loNote="42" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g1-PB-loop.wav" rootNote="43" start="1000" tuning="-0.11" volume="4.0dB" />
-			<sample end="87581" hiNote="47" hiVel="127" loNote="45" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#1-PB-loop.wav" rootNote="46" start="1000" tuning="-0.18" volume="3.0dB" />
-			<sample end="87802" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#2-PB-loop.wav" rootNote="49" start="1000" volume="6.0dB" />
-			<sample end="108654" hiNote="56" hiVel="127" loNote="51" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e2-PB-loop.wav" rootNote="52" start="1000" volume="3.0dB" />
-			<sample end="99489" hiNote="59" hiVel="127" loNote="57" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#2-PB-loop.wav" rootNote="58" start="1000" volume="3.5dB" />
-			<sample end="90025" hiNote="62" hiVel="127" loNote="58" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#3-PB-loop.wav" rootNote="61" start="5000" tuning="-0.10" volume="7.0dB" />
-			<sample end="101582" hiNote="66" hiVel="127" loNote="63" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e3-PB-loop.wav" rootNote="64" start="60000" tuning="0.01" volume="12.0dB" />
-			<sample end="110708" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#3-PB-loop.wav" rootNote="70" start="2000" tuning="0.03" volume="6.0dB" />
+			<sample rootNote="34" loNote="34" hiNote="35" loVel="0" hiVel="127" end="89180" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#0-PB-loop.wav" start="1000" tuning="-0.20" volume="7.0dB" />
+			<sample rootNote="37" loNote="36" hiNote="38" loVel="0" hiVel="127" end="95394" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#1-PB-loop.wav" start="1000" tuning="-0.16" volume="4.0dB" />
+			<sample rootNote="40" loNote="39" hiNote="41" loVel="0" hiVel="127" end="94432" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e1-PB-loop.wav" start="1000" volume="3.0dB" />
+			<sample rootNote="43" loNote="42" hiNote="44" loVel="0" hiVel="127" end="88282" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-g1-PB-loop.wav" start="1000" tuning="-0.11" volume="4.0dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" loVel="0" hiVel="127" end="87581" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#1-PB-loop.wav" start="1000" tuning="-0.18" volume="3.0dB" />
+			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="87802" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#2-PB-loop.wav" start="1000" volume="6.0dB" />
+			<sample rootNote="52" loNote="51" hiNote="56" loVel="0" hiVel="127" end="108654" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e2-PB-loop.wav" start="1000" volume="3.0dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="99489" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#2-PB-loop.wav" start="1000" volume="3.5dB" />
+			<sample rootNote="61" loNote="58" hiNote="62" loVel="0" hiVel="127" end="90025" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#3-PB-loop.wav" start="5000" tuning="-0.10" volume="7.0dB" />
+			<sample rootNote="64" loNote="63" hiNote="66" loVel="0" hiVel="127" end="101582" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-e3-PB-loop.wav" start="60000" tuning="0.01" volume="12.0dB" />
+			<sample rootNote="70" loNote="67" hiNote="70" loVel="0" hiVel="127" end="110708" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#3-PB-loop.wav" start="2000" tuning="0.03" volume="6.0dB" />
 		</group>
 	</groups>
 	<midi>

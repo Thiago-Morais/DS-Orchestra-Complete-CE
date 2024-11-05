@@ -33,26 +33,26 @@
 	</ui>
 	<groups attack="0" release="0.028">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="18934" hiNote="48" hiVel="35" loNote="21" loVel="0" path="Resources/TC - Temple Blocks Samples/Temple Block 1 p.wav" rootNote="48" start="148" volume="6.020599913279624dB" />
-			<sample end="31411" hiNote="48" hiVel="127" loNote="21" loVel="85" path="Resources/TC - Temple Blocks Samples/Temple Block 1 f.wav" rootNote="48" start="98" volume="6.020599913279624dB" />
-			<sample end="29185" hiNote="48" hiVel="96" loNote="21" loVel="56" path="Resources/TC - Temple Blocks Samples/Temple Block 1 mf.wav" rootNote="48" start="99" volume="6.020599913279624dB" />
-			<sample end="29354" hiNote="48" hiVel="64" loNote="21" loVel="24" path="Resources/TC - Temple Blocks Samples/Temple Block 1 mp.wav" rootNote="48" start="39" volume="6.020599913279624dB" />
-			<sample end="18450" hiNote="50" hiVel="35" loNote="50" loVel="0" path="Resources/TC - Temple Blocks Samples/Temple Block 2 p.wav" rootNote="50" volume="6.020599913279624dB" />
-			<sample end="29676" hiNote="50" hiVel="127" loNote="50" loVel="85" path="Resources/TC - Temple Blocks Samples/Temple Block 2 f.wav" rootNote="50" volume="6.020599913279624dB" />
-			<sample end="30216" hiNote="50" hiVel="95" loNote="50" loVel="55" path="Resources/TC - Temple Blocks Samples/Temple Block 2 mf.wav" rootNote="50" volume="6.020599913279624dB" />
-			<sample end="28880" hiNote="50" hiVel="65" loNote="50" loVel="25" path="Resources/TC - Temple Blocks Samples/Temple Block 2 mp.wav" rootNote="50" volume="6.020599913279624dB" />
-			<sample end="16802" hiNote="52" hiVel="35" loNote="52" loVel="0" path="Resources/TC - Temple Blocks Samples/Temple Block 3 p.wav" rootNote="52" volume="6.020599913279624dB" />
-			<sample end="39930" hiNote="52" hiVel="127" loNote="52" loVel="85" path="Resources/TC - Temple Blocks Samples/Temple Block 3 f.wav" rootNote="52" volume="6.020599913279624dB" />
-			<sample end="24585" hiNote="52" hiVel="95" loNote="52" loVel="55" path="Resources/TC - Temple Blocks Samples/Temple Block 3 mf.wav" rootNote="52" volume="6.020599913279624dB" />
-			<sample end="26432" hiNote="52" hiVel="65" loNote="52" loVel="25" path="Resources/TC - Temple Blocks Samples/Temple Block 3 mp.wav" rootNote="52" volume="6.020599913279624dB" />
-			<sample end="20840" hiNote="53" hiVel="35" loNote="53" loVel="0" path="Resources/TC - Temple Blocks Samples/Temple Block 4 p.wav" rootNote="53" volume="6.020599913279624dB" />
-			<sample end="27549" hiNote="53" hiVel="127" loNote="53" loVel="85" path="Resources/TC - Temple Blocks Samples/Temple Block 4 f.wav" rootNote="53" volume="6.020599913279624dB" />
-			<sample end="25915" hiNote="53" hiVel="95" loNote="53" loVel="55" path="Resources/TC - Temple Blocks Samples/Temple Block 4 mf.wav" rootNote="53" volume="6.020599913279624dB" />
-			<sample end="22024" hiNote="53" hiVel="65" loNote="53" loVel="25" path="Resources/TC - Temple Blocks Samples/Temple Block 4 mp.wav" rootNote="53" volume="6.020599913279624dB" />
-			<sample end="19956" hiNote="84" hiVel="35" loNote="55" loVel="0" path="Resources/TC - Temple Blocks Samples/Temple Block 5 p.wav" rootNote="55" volume="6.020599913279624dB" />
-			<sample end="30301" hiNote="84" hiVel="127" loNote="55" loVel="85" path="Resources/TC - Temple Blocks Samples/Temple Block 5 f.wav" rootNote="55" volume="6.020599913279624dB" />
-			<sample end="24245" hiNote="84" hiVel="95" loNote="55" loVel="55" path="Resources/TC - Temple Blocks Samples/Temple Block 5 mf.wav" rootNote="55" volume="6.020599913279624dB" />
-			<sample end="24351" hiNote="84" hiVel="65" loNote="55" loVel="25" path="Resources/TC - Temple Blocks Samples/Temple Block 5 mp.wav" rootNote="55" volume="6.020599913279624dB" />
+			<sample rootNote="48" loNote="21" hiNote="48" loVel="0" hiVel="35" end="18934" path="Resources/TC - Temple Blocks Samples/Temple Block 1 p.wav" start="148" volume="6.020599913279624dB" />
+			<sample rootNote="48" loNote="21" hiNote="48" loVel="85" hiVel="127" end="31411" path="Resources/TC - Temple Blocks Samples/Temple Block 1 f.wav" start="98" volume="6.020599913279624dB" />
+			<sample rootNote="48" loNote="21" hiNote="48" loVel="56" hiVel="96" end="29185" path="Resources/TC - Temple Blocks Samples/Temple Block 1 mf.wav" start="99" volume="6.020599913279624dB" />
+			<sample rootNote="48" loNote="21" hiNote="48" loVel="24" hiVel="64" end="29354" path="Resources/TC - Temple Blocks Samples/Temple Block 1 mp.wav" start="39" volume="6.020599913279624dB" />
+			<sample rootNote="50" loNote="50" hiNote="50" loVel="0" hiVel="35" end="18450" path="Resources/TC - Temple Blocks Samples/Temple Block 2 p.wav" volume="6.020599913279624dB" />
+			<sample rootNote="50" loNote="50" hiNote="50" loVel="85" hiVel="127" end="29676" path="Resources/TC - Temple Blocks Samples/Temple Block 2 f.wav" volume="6.020599913279624dB" />
+			<sample rootNote="50" loNote="50" hiNote="50" loVel="55" hiVel="95" end="30216" path="Resources/TC - Temple Blocks Samples/Temple Block 2 mf.wav" volume="6.020599913279624dB" />
+			<sample rootNote="50" loNote="50" hiNote="50" loVel="25" hiVel="65" end="28880" path="Resources/TC - Temple Blocks Samples/Temple Block 2 mp.wav" volume="6.020599913279624dB" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="35" end="16802" path="Resources/TC - Temple Blocks Samples/Temple Block 3 p.wav" volume="6.020599913279624dB" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="85" hiVel="127" end="39930" path="Resources/TC - Temple Blocks Samples/Temple Block 3 f.wav" volume="6.020599913279624dB" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="55" hiVel="95" end="24585" path="Resources/TC - Temple Blocks Samples/Temple Block 3 mf.wav" volume="6.020599913279624dB" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="25" hiVel="65" end="26432" path="Resources/TC - Temple Blocks Samples/Temple Block 3 mp.wav" volume="6.020599913279624dB" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="0" hiVel="35" end="20840" path="Resources/TC - Temple Blocks Samples/Temple Block 4 p.wav" volume="6.020599913279624dB" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="85" hiVel="127" end="27549" path="Resources/TC - Temple Blocks Samples/Temple Block 4 f.wav" volume="6.020599913279624dB" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="55" hiVel="95" end="25915" path="Resources/TC - Temple Blocks Samples/Temple Block 4 mf.wav" volume="6.020599913279624dB" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="25" hiVel="65" end="22024" path="Resources/TC - Temple Blocks Samples/Temple Block 4 mp.wav" volume="6.020599913279624dB" />
+			<sample rootNote="55" loNote="55" hiNote="84" loVel="0" hiVel="35" end="19956" path="Resources/TC - Temple Blocks Samples/Temple Block 5 p.wav" volume="6.020599913279624dB" />
+			<sample rootNote="55" loNote="55" hiNote="84" loVel="85" hiVel="127" end="30301" path="Resources/TC - Temple Blocks Samples/Temple Block 5 f.wav" volume="6.020599913279624dB" />
+			<sample rootNote="55" loNote="55" hiNote="84" loVel="55" hiVel="95" end="24245" path="Resources/TC - Temple Blocks Samples/Temple Block 5 mf.wav" volume="6.020599913279624dB" />
+			<sample rootNote="55" loNote="55" hiNote="84" loVel="25" hiVel="65" end="24351" path="Resources/TC - Temple Blocks Samples/Temple Block 5 mp.wav" volume="6.020599913279624dB" />
 		</group>
 	</groups>
 	<midi>

@@ -33,19 +33,19 @@
 	</ui>
 	<groups attack="0.060" release="0.125">
 		<group name="Group 15" ampVelTrack="1">
-			<sample end="18465" hiNote="61" hiVel="127" loNote="60" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-c3-PB.wav" rootNote="60" volume="4.0dB" />
-			<sample end="18465" hiNote="64" hiVel="127" loNote="62" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-d#3-PB.wav" rootNote="63" volume="4.5dB" />
-			<sample end="18465" hiNote="67" hiVel="127" loNote="65" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-f#3-PB.wav" rootNote="66" volume="5.0dB" />
-			<sample end="18465" hiNote="70" hiVel="127" loNote="68" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-a3-PB.wav" rootNote="69" volume="4.0dB" />
-			<sample end="18465" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-c4-PB.wav" rootNote="72" volume="5.0dB" />
-			<sample end="18465" hiNote="76" hiVel="127" loNote="74" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-d#4-PB.wav" rootNote="75" volume="3.5dB" />
-			<sample end="18465" hiNote="79" hiVel="127" loNote="77" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-f#4-PB.wav" rootNote="78" volume="6.0dB" />
-			<sample end="18465" hiNote="82" hiVel="127" loNote="80" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-a4-PB.wav" rootNote="81" volume="5.0dB" />
-			<sample end="18465" hiNote="85" hiVel="127" loNote="83" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-c5-PB.wav" rootNote="84" volume="4.0dB" />
-			<sample end="18465" hiNote="88" hiVel="127" loNote="86" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-d#5-PB.wav" rootNote="87" volume="3.0dB" />
-			<sample end="18465" hiNote="91" hiVel="127" loNote="89" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-f#5-PB.wav" rootNote="90" volume="2.0dB" />
-			<sample end="18465" hiNote="94" hiVel="127" loNote="92" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-a5-PB.wav" rootNote="93" />
-			<sample end="18465" hiNote="105" hiVel="127" loNote="95" loVel="0" path="Resources/Viola Ensemble Samples/violas-piz-rr1-c6-PB.wav" rootNote="96" />
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="18465" path="Resources/Viola Ensemble Samples/violas-piz-rr1-c3-PB.wav" volume="4.0dB" />
+			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="127" end="18465" path="Resources/Viola Ensemble Samples/violas-piz-rr1-d#3-PB.wav" volume="4.5dB" />
+			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="127" end="18465" path="Resources/Viola Ensemble Samples/violas-piz-rr1-f#3-PB.wav" volume="5.0dB" />
+			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="18465" path="Resources/Viola Ensemble Samples/violas-piz-rr1-a3-PB.wav" volume="4.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="127" end="18465" path="Resources/Viola Ensemble Samples/violas-piz-rr1-c4-PB.wav" volume="5.0dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="0" hiVel="127" end="18465" path="Resources/Viola Ensemble Samples/violas-piz-rr1-d#4-PB.wav" volume="3.5dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="0" hiVel="127" end="18465" path="Resources/Viola Ensemble Samples/violas-piz-rr1-f#4-PB.wav" volume="6.0dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="127" end="18465" path="Resources/Viola Ensemble Samples/violas-piz-rr1-a4-PB.wav" volume="5.0dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="127" end="18465" path="Resources/Viola Ensemble Samples/violas-piz-rr1-c5-PB.wav" volume="4.0dB" />
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="0" hiVel="127" end="18465" path="Resources/Viola Ensemble Samples/violas-piz-rr1-d#5-PB.wav" volume="3.0dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="0" hiVel="127" end="18465" path="Resources/Viola Ensemble Samples/violas-piz-rr1-f#5-PB.wav" volume="2.0dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="18465" path="Resources/Viola Ensemble Samples/violas-piz-rr1-a5-PB.wav" />
+			<sample rootNote="96" loNote="95" hiNote="105" loVel="0" hiVel="127" end="18465" path="Resources/Viola Ensemble Samples/violas-piz-rr1-c6-PB.wav" />
 		</group>
 	</groups>
 	<midi>
