@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Choir.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0.001" release="0.048">
+		<group name="CHOIR AHHS" ampVelTrack="1">
+			<sample end="21406" hiNote="42" hiVel="127" loNote="12" loVel="0" loopEnabled="true" loopEnd="21398" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#21.wav" rootNote="39" />
+			<sample end="31107" hiNote="46" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="31099" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A21.wav" rootNote="45" />
+			<sample end="35927" hiNote="49" hiVel="127" loNote="47" loVel="0" loopEnabled="true" loopEnd="35919" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C31.wav" rootNote="48" />
+			<sample end="34519" hiNote="52" hiVel="127" loNote="50" loVel="0" loopEnabled="true" loopEnd="34511" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#31.wav" rootNote="51" tuning="0.10" />
+			<sample end="37126" hiNote="55" hiVel="127" loNote="53" loVel="0" loopEnabled="true" loopEnd="37118" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-F#31.wav" rootNote="54" />
+			<sample end="27080" hiNote="58" hiVel="127" loNote="56" loVel="0" loopEnabled="true" loopEnd="27072" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A31.wav" rootNote="57" />
+			<sample end="26811" hiNote="61" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="26803" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C41.wav" rootNote="60" tuning="0.30" />
+			<sample end="46246" hiNote="64" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="46238" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#41.wav" rootNote="63" tuning="0.10" />
+			<sample end="33234" hiNote="69" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="33226" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-F#41.wav" rootNote="66" tuning="0.20" />
+			<sample end="31960" hiNote="73" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="31952" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C51.wav" rootNote="72" tuning="0.05" />
+			<sample end="31633" hiNote="79" hiVel="127" loNote="74" loVel="0" loopEnabled="true" loopEnd="31625" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#51.wav" rootNote="75" tuning="0.05" />
+			<sample end="34437" hiNote="127" hiVel="127" loNote="80" loVel="0" loopEnabled="true" loopEnd="34429" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A51.wav" rootNote="81" tuning="0.10" />
+		</group>
+		<group name="CHOIR AHHS" ampVelTrack="1">
+			<sample end="21406" hiNote="42" hiVel="127" loNote="12" loVel="0" loopEnabled="true" loopEnd="21398" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#21.wav" rootNote="39" />
+			<sample end="31107" hiNote="46" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="31099" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A21.wav" rootNote="45" />
+			<sample end="35927" hiNote="49" hiVel="127" loNote="47" loVel="0" loopEnabled="true" loopEnd="35919" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C31.wav" rootNote="48" />
+			<sample end="34519" hiNote="52" hiVel="127" loNote="50" loVel="0" loopEnabled="true" loopEnd="34511" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#31.wav" rootNote="51" tuning="0.10" />
+			<sample end="37126" hiNote="55" hiVel="127" loNote="53" loVel="0" loopEnabled="true" loopEnd="37118" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-F#31.wav" rootNote="54" />
+			<sample end="27080" hiNote="58" hiVel="127" loNote="56" loVel="0" loopEnabled="true" loopEnd="27072" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A31.wav" rootNote="57" />
+			<sample end="26811" hiNote="61" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="26803" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C41.wav" rootNote="60" tuning="0.30" />
+			<sample end="46246" hiNote="64" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="46238" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#41.wav" rootNote="63" tuning="0.10" />
+			<sample end="33234" hiNote="69" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="33226" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-F#41.wav" rootNote="66" tuning="0.20" />
+			<sample end="31960" hiNote="73" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="31952" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-C51.wav" rootNote="72" tuning="0.05" />
+			<sample end="31633" hiNote="79" hiVel="127" loNote="74" loVel="0" loopEnabled="true" loopEnd="31625" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#51.wav" rootNote="75" tuning="0.05" />
+			<sample end="34437" hiNote="127" hiVel="127" loNote="80" loVel="0" loopEnabled="true" loopEnd="34429" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A51.wav" rootNote="81" tuning="0.10" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+</DecentSampler>

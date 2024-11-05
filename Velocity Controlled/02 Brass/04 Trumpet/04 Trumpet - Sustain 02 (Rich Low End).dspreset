@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Trumpet.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0" release="0.028">
+		<group name="trumpet Var.3" ampVelTrack="1">
+			<sample end="27776" hiNote="63" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="27521" loopStart="27336" path="Resources/Trumpet - Sustain 02 Samples/as2s-1trp.wav" rootNote="58" tuning="-0.41" />
+			<sample end="21504" hiNote="65" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="21268" loopStart="21120" path="Resources/Trumpet - Sustain 02 Samples/d4-3trp.wav" rootNote="62" tuning="-0.27" />
+			<sample end="27264" hiNote="68" hiVel="127" loNote="66" loVel="0" loopEnabled="true" loopEnd="26753" loopStart="26622" path="Resources/Trumpet - Sustain 02 Samples/e4-2trp.wav" rootNote="64" tuning="-0.38" />
+			<sample end="37248" hiNote="71" hiVel="127" loNote="69" loVel="0" loopEnabled="true" loopEnd="36600" loopStart="36364" path="Resources/Trumpet - Sustain 02 Samples/fs4-2trp.wav" rootNote="66" tuning="-0.19" />
+			<sample end="25032" hiNote="73" hiVel="127" loNote="72" loVel="0" loopEnabled="true" loopEnd="24880" loopStart="24787" path="Resources/Trumpet - Sustain 02 Samples/as4-4trp.wav" rootNote="70" tuning="-0.28" />
+			<sample end="29248" hiNote="76" hiVel="127" loNote="74" loVel="0" loopEnabled="true" loopEnd="29029" loopStart="28778" path="Resources/Trumpet - Sustain 02 Samples/c5-4trp.wav" rootNote="72" tuning="-0.15" />
+			<sample end="31040" hiNote="79" hiVel="127" loNote="77" loVel="0" loopEnabled="true" loopEnd="30908" loopStart="30842" path="Resources/Trumpet - Sustain 02 Samples/e5-5trp.wav" rootNote="76" tuning="-0.29" />
+			<sample end="22520" hiNote="83" hiVel="127" loNote="80" loVel="0" loopEnabled="true" loopEnd="22458" loopStart="22349" path="Resources/Trumpet - Sustain 02 Samples/g5-3trp.wav" rootNote="80" tuning="0.42" />
+			<sample end="24856" hiNote="112" hiVel="127" loNote="84" loVel="0" loopEnabled="true" loopEnd="24801" loopStart="24521" path="Resources/Trumpet - Sustain 02 Samples/as5-3trp.wav" rootNote="82" tuning="-0.23" />
+		</group>
+		<group name="trumpet Var.12" ampVelTrack="1">
+			<sample end="21504" hiNote="62" hiVel="127" loNote="11" loVel="0" loopEnabled="true" loopEnd="21268" loopStart="21120" path="Resources/Trumpet - Sustain 02 Samples/d4-3trp.wav" rootNote="62" tuning="-0.27" />
+			<sample end="27264" hiNote="64" hiVel="127" loNote="63" loVel="0" loopEnabled="true" loopEnd="26753" loopStart="26622" path="Resources/Trumpet - Sustain 02 Samples/e4-2trp.wav" rootNote="64" tuning="-0.38" />
+			<sample end="37248" hiNote="68" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="36600" loopStart="36364" path="Resources/Trumpet - Sustain 02 Samples/fs4-2trp.wav" rootNote="66" tuning="-0.19" />
+			<sample end="25032" hiNote="70" hiVel="127" loNote="69" loVel="0" loopEnabled="true" loopEnd="24880" loopStart="24787" path="Resources/Trumpet - Sustain 02 Samples/as4-4trp.wav" rootNote="70" tuning="-0.28" />
+			<sample end="29248" hiNote="73" hiVel="127" loNote="71" loVel="0" loopEnabled="true" loopEnd="29029" loopStart="28778" path="Resources/Trumpet - Sustain 02 Samples/c5-4trp.wav" rootNote="72" tuning="-0.15" />
+			<sample end="31040" hiNote="77" hiVel="127" loNote="74" loVel="0" loopEnabled="true" loopEnd="30908" loopStart="30842" path="Resources/Trumpet - Sustain 02 Samples/e5-5trp.wav" rootNote="76" tuning="-0.29" />
+			<sample end="22520" hiNote="80" hiVel="127" loNote="78" loVel="0" loopEnabled="true" loopEnd="22458" loopStart="22349" path="Resources/Trumpet - Sustain 02 Samples/g5-3trp.wav" rootNote="80" tuning="0.42" />
+			<sample end="24856" hiNote="82" hiVel="127" loNote="81" loVel="0" loopEnabled="true" loopEnd="24801" loopStart="24521" path="Resources/Trumpet - Sustain 02 Samples/as5-3trp.wav" rootNote="82" tuning="-0.23" />
+			<sample end="25728" hiNote="108" hiVel="127" loNote="83" loVel="0" loopEnabled="true" loopEnd="25633" loopStart="25216" path="Resources/Trumpet - Sustain 02 Samples/c6-4trp.wav" rootNote="84" tuning="-0.20" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+</DecentSampler>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+		<effect type="gain" level="0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Double Bass.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0.040" release="0.072">
+		<group name="Group 10" ampVelTrack="1">
+			<sample end="95725" hiNote="40" hiVel="127" loNote="36" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Eb1-PB.wav" rootNote="39" />
+			<sample end="133019" hiNote="43" hiVel="127" loNote="41" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.F1-PB.wav" rootNote="41" tuning="-0.10" />
+			<sample end="104057" hiNote="45" hiVel="127" loNote="44" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.A1-PB.wav" rootNote="45" />
+			<sample end="96845" hiNote="46" hiVel="127" loNote="46" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Bb1-PB.wav" rootNote="46" />
+			<sample end="69379" hiNote="47" hiVel="127" loNote="47" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.B1-PB.wav" rootNote="47" />
+			<sample end="93224" hiNote="48" hiVel="127" loNote="48" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.C2-PB.wav" rootNote="48" />
+			<sample end="92586" hiNote="50" hiVel="127" loNote="49" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Db2-PB.wav" rootNote="49" />
+			<sample end="140169" hiNote="51" hiVel="127" loNote="51" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Eb2-PB.wav" rootNote="51" />
+			<sample end="98678" hiNote="52" hiVel="127" loNote="52" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.E2-PB.wav" rootNote="52" tuning="0.05" />
+			<sample end="131851" hiNote="53" hiVel="127" loNote="53" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.F2-PB.wav" rootNote="53" tuning="0.10" />
+			<sample end="126278" hiNote="54" hiVel="127" loNote="54" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Gb2-PB.wav" rootNote="54" tuning="0.05" />
+			<sample end="100318" hiNote="56" hiVel="127" loNote="55" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.G2-PB.wav" rootNote="55" tuning="-0.05" />
+			<sample end="92681" hiNote="57" hiVel="127" loNote="57" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.A2-PB.wav" rootNote="57" tuning="-0.10" />
+			<sample end="80694" hiNote="58" hiVel="127" loNote="58" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Bb2-PB.wav" rootNote="58" tuning="-0.30" />
+			<sample end="81808" hiNote="59" hiVel="127" loNote="59" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.B2-PB.wav" rootNote="59" tuning="-0.10" />
+			<sample end="99674" hiNote="60" hiVel="127" loNote="60" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.C3-PB.wav" rootNote="60" />
+			<sample end="79865" hiNote="62" hiVel="127" loNote="61" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Db3-PB.wav" rootNote="61" />
+			<sample end="109955" hiNote="65" hiVel="127" loNote="63" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.F3-PB.wav" rootNote="65" />
+			<sample end="105258" hiNote="67" hiVel="127" loNote="66" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.Gb3-PB.wav" rootNote="66" />
+			<sample end="78504" hiNote="70" hiVel="127" loNote="68" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.A3-PB.wav" rootNote="69" volume="4.0dB" />
+			<sample end="57829" hiNote="79" hiVel="127" loNote="71" loVel="0" path="Resources/Bass Solo Samples/Bass.pizz.B3-PB.wav" rootNote="70" tuning="0.05" />
+		</group>
+	</groups>
+	<midi>
+		<cc number="1">
+			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+		</cc>
+	</midi>
+	<modulators />
+</DecentSampler>
