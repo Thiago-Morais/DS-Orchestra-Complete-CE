@@ -33,19 +33,19 @@
 	</ui>
 	<groups attack="0.003" decay="0.554" release="0.058" sustain="0.893">
 		<group name="Halo Pad" ampVelTrack="1">
-			<sample end="14754" hiNote="57" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="14746" loopStart="67" path="Resources/Designed String Pad 1 Samples/Syn Vox F#3.wav" rootNote="76" tuning="0.21" volume="-9.0dB" />
-			<sample end="14754" hiNote="69" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="14746" loopStart="67" path="Resources/Designed String Pad 1 Samples/Syn Vox F#3.wav" rootNote="76" tuning="0.21" volume="-9.0dB" />
-			<sample end="22981" hiNote="77" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="22973" loopStart="14" path="Resources/Designed String Pad 1 Samples/Syn Vox C4.wav" rootNote="80" tuning="0.04" volume="-9.0dB" />
-			<sample end="22981" hiNote="85" hiVel="127" loNote="78" loVel="0" loopEnabled="true" loopEnd="22973" loopStart="14" path="Resources/Designed String Pad 1 Samples/Syn Vox C4.wav" rootNote="80" tuning="0.04" volume="-9.0dB" />
-			<sample end="22981" hiNote="97" hiVel="127" loNote="86" loVel="0" loopEnabled="true" loopEnd="22973" loopStart="14" path="Resources/Designed String Pad 1 Samples/Syn Vox C4.wav" rootNote="80" tuning="0.04" volume="-9.0dB" />
-			<sample end="1831" hiNote="108" hiVel="127" loNote="98" loVel="0" loopEnabled="true" loopEnd="1823" loopStart="114" path="Resources/Designed String Pad 1 Samples/Aahs C7.wav" rootNote="122" tuning="0.35" volume="-22.5dB" />
-			<sample end="11271" hiNote="37" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="11263" loopStart="18" path="Resources/Designed String Pad 1 Samples/SynthStrings G2.wav" rootNote="67" tuning="-0.01" volume="-9.7dB" />
-			<sample end="11271" hiNote="61" hiVel="127" loNote="38" loVel="0" loopEnabled="true" loopEnd="11263" loopStart="18" path="Resources/Designed String Pad 1 Samples/SynthStrings G2.wav" rootNote="67" tuning="-0.01" volume="-9.7dB" />
-			<sample end="9331" hiNote="73" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="9323" loopStart="19" path="Resources/Designed String Pad 1 Samples/SynthStrings G3.wav" rootNote="78" tuning="-0.25" volume="-9.7dB" />
-			<sample end="5426" hiNote="98" hiVel="127" loNote="93" loVel="0" loopEnabled="true" loopEnd="5418" loopStart="100" path="Resources/Designed String Pad 1 Samples/SynthStrings D6.wav" rootNote="112" tuning="0.35" volume="-8.2dB" />
-			<sample end="9370" hiNote="84" hiVel="127" loNote="74" loVel="0" loopEnabled="true" loopEnd="9362" loopStart="23" path="Resources/Designed String Pad 1 Samples/SynthStrings G4.wav" rootNote="93" tuning="0.35" volume="-9.0dB" />
-			<sample end="9370" hiNote="92" hiVel="127" loNote="85" loVel="0" loopEnabled="true" loopEnd="9362" loopStart="23" path="Resources/Designed String Pad 1 Samples/SynthStrings G4.wav" rootNote="93" tuning="0.35" volume="-9.0dB" />
-			<sample end="5426" hiNote="108" hiVel="127" loNote="99" loVel="0" loopEnabled="true" loopEnd="5418" loopStart="100" path="Resources/Designed String Pad 1 Samples/SynthStrings D6.wav" rootNote="112" tuning="0.35" volume="-9.0dB" />
+			<sample rootNote="76" loNote="0" hiNote="57" loVel="0" hiVel="127" end="14754" loopEnabled="true" loopEnd="14746" loopStart="67" path="Resources/Designed String Pad 1 Samples/Syn Vox F#3.wav" tuning="0.21" volume="-9.0dB" />
+			<sample rootNote="76" loNote="58" hiNote="69" loVel="0" hiVel="127" end="14754" loopEnabled="true" loopEnd="14746" loopStart="67" path="Resources/Designed String Pad 1 Samples/Syn Vox F#3.wav" tuning="0.21" volume="-9.0dB" />
+			<sample rootNote="80" loNote="70" hiNote="77" loVel="0" hiVel="127" end="22981" loopEnabled="true" loopEnd="22973" loopStart="14" path="Resources/Designed String Pad 1 Samples/Syn Vox C4.wav" tuning="0.04" volume="-9.0dB" />
+			<sample rootNote="80" loNote="78" hiNote="85" loVel="0" hiVel="127" end="22981" loopEnabled="true" loopEnd="22973" loopStart="14" path="Resources/Designed String Pad 1 Samples/Syn Vox C4.wav" tuning="0.04" volume="-9.0dB" />
+			<sample rootNote="80" loNote="86" hiNote="97" loVel="0" hiVel="127" end="22981" loopEnabled="true" loopEnd="22973" loopStart="14" path="Resources/Designed String Pad 1 Samples/Syn Vox C4.wav" tuning="0.04" volume="-9.0dB" />
+			<sample rootNote="122" loNote="98" hiNote="108" loVel="0" hiVel="127" end="1831" loopEnabled="true" loopEnd="1823" loopStart="114" path="Resources/Designed String Pad 1 Samples/Aahs C7.wav" tuning="0.35" volume="-22.5dB" />
+			<sample rootNote="67" loNote="0" hiNote="37" loVel="0" hiVel="127" end="11271" loopEnabled="true" loopEnd="11263" loopStart="18" path="Resources/Designed String Pad 1 Samples/SynthStrings G2.wav" tuning="-0.01" volume="-9.7dB" />
+			<sample rootNote="67" loNote="38" hiNote="61" loVel="0" hiVel="127" end="11271" loopEnabled="true" loopEnd="11263" loopStart="18" path="Resources/Designed String Pad 1 Samples/SynthStrings G2.wav" tuning="-0.01" volume="-9.7dB" />
+			<sample rootNote="78" loNote="62" hiNote="73" loVel="0" hiVel="127" end="9331" loopEnabled="true" loopEnd="9323" loopStart="19" path="Resources/Designed String Pad 1 Samples/SynthStrings G3.wav" tuning="-0.25" volume="-9.7dB" />
+			<sample rootNote="112" loNote="93" hiNote="98" loVel="0" hiVel="127" end="5426" loopEnabled="true" loopEnd="5418" loopStart="100" path="Resources/Designed String Pad 1 Samples/SynthStrings D6.wav" tuning="0.35" volume="-8.2dB" />
+			<sample rootNote="93" loNote="74" hiNote="84" loVel="0" hiVel="127" end="9370" loopEnabled="true" loopEnd="9362" loopStart="23" path="Resources/Designed String Pad 1 Samples/SynthStrings G4.wav" tuning="0.35" volume="-9.0dB" />
+			<sample rootNote="93" loNote="85" hiNote="92" loVel="0" hiVel="127" end="9370" loopEnabled="true" loopEnd="9362" loopStart="23" path="Resources/Designed String Pad 1 Samples/SynthStrings G4.wav" tuning="0.35" volume="-9.0dB" />
+			<sample rootNote="112" loNote="99" hiNote="108" loVel="0" hiVel="127" end="5426" loopEnabled="true" loopEnd="5418" loopStart="100" path="Resources/Designed String Pad 1 Samples/SynthStrings D6.wav" tuning="0.35" volume="-9.0dB" />
 		</group>
 	</groups>
 	<midi>

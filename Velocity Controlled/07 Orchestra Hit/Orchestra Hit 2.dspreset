@@ -33,17 +33,17 @@
 	</ui>
 	<groups release="0.320">
 		<group name="Orchestra Hit" ampVelTrack="1">
-			<sample end="100916" hiNote="37" hiVel="127" loNote="0" loVel="0" path="Resources/Orchestra Hit 2 Samples/Orchhit C2.wav" rootNote="36" />
-			<sample end="84503" hiNote="49" hiVel="127" loNote="44" loVel="0" path="Resources/Orchestra Hit 2 Samples/Orchhit C3.wav" rootNote="48" />
-			<sample end="80858" hiNote="61" hiVel="127" loNote="56" loVel="0" path="Resources/Orchestra Hit 2 Samples/Orchhit C4.wav" rootNote="60" />
-			<sample end="73165" hiNote="73" hiVel="127" loNote="68" loVel="0" path="Resources/Orchestra Hit 2 Samples/Orchhit C5.wav" rootNote="72" />
-			<sample end="61146" hiNote="85" hiVel="127" loNote="80" loVel="0" path="Resources/Orchestra Hit 2 Samples/Orchhit C6.wav" rootNote="84" />
-			<sample end="78699" hiNote="108" hiVel="127" loNote="92" loVel="0" path="Resources/Orchestra Hit 2 Samples/Orchhit C7.wav" rootNote="96" />
-			<sample end="76422" hiNote="43" hiVel="127" loNote="38" loVel="0" path="Resources/Orchestra Hit 2 Samples/Orchhit F#2.wav" rootNote="42" />
-			<sample end="75254" hiNote="55" hiVel="127" loNote="50" loVel="0" path="Resources/Orchestra Hit 2 Samples/Orchhit F#3.wav" rootNote="54" />
-			<sample end="72370" hiNote="67" hiVel="127" loNote="62" loVel="0" path="Resources/Orchestra Hit 2 Samples/Orchhit F#4.wav" rootNote="66" />
-			<sample end="75663" hiNote="79" hiVel="127" loNote="74" loVel="0" path="Resources/Orchestra Hit 2 Samples/Orchhit F#5.wav" rootNote="78" />
-			<sample end="68753" hiNote="91" hiVel="127" loNote="86" loVel="0" path="Resources/Orchestra Hit 2 Samples/Orchhit F#6.wav" rootNote="90" />
+			<sample rootNote="36" loNote="0" hiNote="37" loVel="0" hiVel="127" end="100916" path="Resources/Orchestra Hit 2 Samples/Orchhit C2.wav" />
+			<sample rootNote="48" loNote="44" hiNote="49" loVel="0" hiVel="127" end="84503" path="Resources/Orchestra Hit 2 Samples/Orchhit C3.wav" />
+			<sample rootNote="60" loNote="56" hiNote="61" loVel="0" hiVel="127" end="80858" path="Resources/Orchestra Hit 2 Samples/Orchhit C4.wav" />
+			<sample rootNote="72" loNote="68" hiNote="73" loVel="0" hiVel="127" end="73165" path="Resources/Orchestra Hit 2 Samples/Orchhit C5.wav" />
+			<sample rootNote="84" loNote="80" hiNote="85" loVel="0" hiVel="127" end="61146" path="Resources/Orchestra Hit 2 Samples/Orchhit C6.wav" />
+			<sample rootNote="96" loNote="92" hiNote="108" loVel="0" hiVel="127" end="78699" path="Resources/Orchestra Hit 2 Samples/Orchhit C7.wav" />
+			<sample rootNote="42" loNote="38" hiNote="43" loVel="0" hiVel="127" end="76422" path="Resources/Orchestra Hit 2 Samples/Orchhit F#2.wav" />
+			<sample rootNote="54" loNote="50" hiNote="55" loVel="0" hiVel="127" end="75254" path="Resources/Orchestra Hit 2 Samples/Orchhit F#3.wav" />
+			<sample rootNote="66" loNote="62" hiNote="67" loVel="0" hiVel="127" end="72370" path="Resources/Orchestra Hit 2 Samples/Orchhit F#4.wav" />
+			<sample rootNote="78" loNote="74" hiNote="79" loVel="0" hiVel="127" end="75663" path="Resources/Orchestra Hit 2 Samples/Orchhit F#5.wav" />
+			<sample rootNote="90" loNote="86" hiNote="91" loVel="0" hiVel="127" end="68753" path="Resources/Orchestra Hit 2 Samples/Orchhit F#6.wav" />
 		</group>
 	</groups>
 	<midi>

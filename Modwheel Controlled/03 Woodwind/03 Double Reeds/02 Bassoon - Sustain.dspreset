@@ -33,259 +33,259 @@
 	</ui>
 	<groups attack="0.020" release="0.020">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="149168" hiNote="47" hiVel="127" loNote="46" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#1-PB-loop.wav" rootNote="46" tuning="-0.13" volume="3.0dB" />
-			<sample end="127628" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#2-PB-loop.wav" rootNote="49" tuning="-0.17" volume="2.0dB" />
-			<sample end="131716" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e2-PB-loop.wav" rootNote="52" tuning="-0.12" volume="2.0dB" />
-			<sample end="129311" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g2-PB-loop.wav" rootNote="55" tuning="-0.05" volume="3.0dB" />
-			<sample end="189731" hiNote="59" hiVel="127" loNote="57" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#2-PB-loop.wav" rootNote="58" volume="3.0dB" />
-			<sample end="122356" hiNote="62" hiVel="127" loNote="60" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#3-PB-loop.wav" rootNote="61" tuning="-0.12" volume="5.0dB" />
-			<sample end="133354" hiNote="65" hiVel="127" loNote="63" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e3-PB-loop.wav" rootNote="64" tuning="-0.15" volume="3.0dB" />
-			<sample end="110250" hiNote="69" hiVel="127" loNote="66" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g3-PB-loop.wav" rootNote="67" tuning="-0.05" volume="3.0dB" />
-			<sample end="180410" hiNote="71" hiVel="127" loNote="70" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#3-PB-loop.wav" rootNote="70" tuning="-0.04" volume="3.0dB" />
-			<sample end="132354" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#4-PB-loop.wav" rootNote="73" tuning="0.05" volume="6.0dB" />
-			<sample end="135564" hiNote="77" hiVel="127" loNote="75" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e4-PB-loop.wav" rootNote="76" tuning="-0.05" volume="5.0dB" />
-			<sample end="130715" hiNote="80" hiVel="127" loNote="78" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g4-PB-loop.wav" rootNote="79" tuning="-0.13" volume="5.0dB" />
-			<sample end="151762" hiNote="87" hiVel="127" loNote="81" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#4-PB-loop.wav" rootNote="82" volume="6.0dB" />
+			<sample rootNote="46" loNote="46" hiNote="47" loVel="0" hiVel="127" end="149168" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#1-PB-loop.wav" tuning="-0.13" volume="3.0dB" />
+			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="127628" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#2-PB-loop.wav" tuning="-0.17" volume="2.0dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="131716" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e2-PB-loop.wav" tuning="-0.12" volume="2.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="129311" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g2-PB-loop.wav" tuning="-0.05" volume="3.0dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="189731" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#2-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="61" loNote="60" hiNote="62" loVel="0" hiVel="127" end="122356" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#3-PB-loop.wav" tuning="-0.12" volume="5.0dB" />
+			<sample rootNote="64" loNote="63" hiNote="65" loVel="0" hiVel="127" end="133354" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e3-PB-loop.wav" tuning="-0.15" volume="3.0dB" />
+			<sample rootNote="67" loNote="66" hiNote="69" loVel="0" hiVel="127" end="110250" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g3-PB-loop.wav" tuning="-0.05" volume="3.0dB" />
+			<sample rootNote="70" loNote="70" hiNote="71" loVel="0" hiVel="127" end="180410" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#3-PB-loop.wav" tuning="-0.04" volume="3.0dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="132354" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#4-PB-loop.wav" tuning="0.05" volume="6.0dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="127" end="135564" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e4-PB-loop.wav" tuning="-0.05" volume="5.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="130715" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g4-PB-loop.wav" tuning="-0.13" volume="5.0dB" />
+			<sample rootNote="82" loNote="81" hiNote="87" loVel="0" hiVel="127" end="151762" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#4-PB-loop.wav" volume="6.0dB" />
 		</group>
 		<group name="Group 2" ampVelTrack="1">
-			<sample end="149168" hiNote="47" hiVel="127" loNote="46" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#1-PB-loop.wav" rootNote="46" tuning="-0.13" volume="3.0dB" />
-			<sample end="127628" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#2-PB-loop.wav" rootNote="49" tuning="-0.17" volume="2.0dB" />
-			<sample end="131716" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e2-PB-loop.wav" rootNote="52" tuning="-0.12" volume="2.0dB" />
-			<sample end="129311" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g2-PB-loop.wav" rootNote="55" tuning="-0.05" volume="3.0dB" />
-			<sample end="189731" hiNote="59" hiVel="127" loNote="57" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#2-PB-loop.wav" rootNote="58" volume="3.0dB" />
-			<sample end="122356" hiNote="62" hiVel="127" loNote="60" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#3-PB-loop.wav" rootNote="61" tuning="-0.12" volume="5.0dB" />
-			<sample end="133354" hiNote="65" hiVel="127" loNote="63" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e3-PB-loop.wav" rootNote="64" tuning="-0.15" volume="3.0dB" />
-			<sample end="110250" hiNote="69" hiVel="127" loNote="66" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g3-PB-loop.wav" rootNote="67" tuning="-0.05" volume="3.0dB" />
-			<sample end="180410" hiNote="74" hiVel="127" loNote="70" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#3-PB-loop.wav" rootNote="70" tuning="-0.04" volume="3.0dB" />
-			<sample end="132354" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#4-PB-loop.wav" rootNote="73" tuning="0.05" volume="6.0dB" />
-			<sample end="135564" hiNote="77" hiVel="127" loNote="75" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e4-PB-loop.wav" rootNote="76" tuning="-0.05" volume="5.0dB" />
-			<sample end="130715" hiNote="80" hiVel="127" loNote="78" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g4-PB-loop.wav" rootNote="79" tuning="-0.13" volume="5.0dB" />
-			<sample end="151762" hiNote="87" hiVel="127" loNote="81" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#4-PB-loop.wav" rootNote="82" volume="6.0dB" />
+			<sample rootNote="46" loNote="46" hiNote="47" loVel="0" hiVel="127" end="149168" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#1-PB-loop.wav" tuning="-0.13" volume="3.0dB" />
+			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="127628" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#2-PB-loop.wav" tuning="-0.17" volume="2.0dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="131716" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e2-PB-loop.wav" tuning="-0.12" volume="2.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="129311" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g2-PB-loop.wav" tuning="-0.05" volume="3.0dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="189731" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#2-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="61" loNote="60" hiNote="62" loVel="0" hiVel="127" end="122356" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#3-PB-loop.wav" tuning="-0.12" volume="5.0dB" />
+			<sample rootNote="64" loNote="63" hiNote="65" loVel="0" hiVel="127" end="133354" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e3-PB-loop.wav" tuning="-0.15" volume="3.0dB" />
+			<sample rootNote="67" loNote="66" hiNote="69" loVel="0" hiVel="127" end="110250" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g3-PB-loop.wav" tuning="-0.05" volume="3.0dB" />
+			<sample rootNote="70" loNote="70" hiNote="74" loVel="0" hiVel="127" end="180410" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#3-PB-loop.wav" tuning="-0.04" volume="3.0dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="132354" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#4-PB-loop.wav" tuning="0.05" volume="6.0dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="127" end="135564" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e4-PB-loop.wav" tuning="-0.05" volume="5.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="130715" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g4-PB-loop.wav" tuning="-0.13" volume="5.0dB" />
+			<sample rootNote="82" loNote="81" hiNote="87" loVel="0" hiVel="127" end="151762" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#4-PB-loop.wav" volume="6.0dB" />
 		</group>
 		<group name="Group 3" ampVelTrack="1">
-			<sample end="101842" hiNote="46" hiVel="127" loNote="46" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#1-PB.wav" rootNote="46" volume="-5.0dB" />
-			<sample end="94633" hiNote="47" hiVel="127" loNote="47" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B1-PB.wav" rootNote="47" volume="-5.0dB" />
-			<sample end="105897" hiNote="48" hiVel="127" loNote="48" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C2-PB.wav" rootNote="48" volume="-5.0dB" />
-			<sample end="107841" hiNote="50" hiVel="127" loNote="49" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#2-PB.wav" rootNote="49" tuning="-0.07" volume="-5.0dB" />
-			<sample end="101500" hiNote="51" hiVel="127" loNote="51" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#2-PB.wav" rootNote="51" tuning="-0.10" volume="-5.0dB" />
-			<sample end="100825" hiNote="52" hiVel="127" loNote="52" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.E2-PB.wav" rootNote="52" tuning="-0.05" volume="-5.0dB" />
-			<sample end="110167" hiNote="53" hiVel="127" loNote="53" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F2-PB.wav" rootNote="53" volume="-5.0dB" />
-			<sample end="101455" hiNote="54" hiVel="127" loNote="54" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#2-PB.wav" rootNote="54" volume="-5.0dB" />
-			<sample end="102514" hiNote="56" hiVel="127" loNote="55" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G2-PB.wav" rootNote="55" tuning="-0.05" volume="-5.0dB" />
-			<sample end="98592" hiNote="57" hiVel="127" loNote="57" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A2-PB.wav" rootNote="57" tuning="-0.05" volume="-5.0dB" />
-			<sample end="97605" hiNote="58" hiVel="127" loNote="58" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#2-PB.wav" rootNote="58" tuning="0.05" volume="-5.0dB" />
-			<sample end="90705" hiNote="59" hiVel="127" loNote="59" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B2-PB.wav" rootNote="59" tuning="0.11" volume="-5.0dB" />
-			<sample end="92040" hiNote="60" hiVel="127" loNote="60" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C3-PB.wav" rootNote="60" tuning="0.05" volume="-4.0dB" />
-			<sample end="94569" hiNote="61" hiVel="127" loNote="61" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#3-PB.wav" rootNote="61" volume="-5.0dB" />
-			<sample end="91785" hiNote="62" hiVel="127" loNote="62" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D3-PB.wav" rootNote="62" tuning="-0.07" volume="-5.0dB" />
-			<sample end="88914" hiNote="64" hiVel="127" loNote="63" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#3-PB.wav" rootNote="63" tuning="-0.15" volume="-5.0dB" />
-			<sample end="89459" hiNote="65" hiVel="127" loNote="65" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F3-PB.wav" rootNote="65" tuning="-0.15" volume="-5.0dB" />
-			<sample end="85626" hiNote="66" hiVel="127" loNote="66" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#3-PB.wav" rootNote="66" tuning="-0.15" volume="-5.0dB" />
-			<sample end="88142" hiNote="67" hiVel="127" loNote="67" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G3-PB.wav" rootNote="67" volume="-4.0dB" />
-			<sample end="81460" hiNote="68" hiVel="127" loNote="68" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G#3-PB.wav" rootNote="68" volume="-5.0dB" />
-			<sample end="88986" hiNote="69" hiVel="127" loNote="69" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A3-PB.wav" rootNote="69" tuning="-0.25" volume="-5.0dB" />
-			<sample end="88630" hiNote="71" hiVel="127" loNote="70" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#3-PB.wav" rootNote="70" tuning="-0.03" volume="-3.0dB" />
-			<sample end="80274" hiNote="72" hiVel="127" loNote="72" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C4-PB.wav" rootNote="72" volume="-4.0dB" />
-			<sample end="84021" hiNote="73" hiVel="127" loNote="73" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#4-PB.wav" rootNote="73" volume="-4.0dB" />
-			<sample end="81581" hiNote="74" hiVel="127" loNote="74" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D4-PB.wav" rootNote="74" volume="-5.0dB" />
-			<sample end="91204" hiNote="75" hiVel="127" loNote="75" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#4-PB.wav" rootNote="75" tuning="0.20" volume="-3.0dB" />
-			<sample end="91891" hiNote="77" hiVel="127" loNote="76" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.E4-PB.wav" rootNote="76" volume="-3.0dB" />
-			<sample end="87856" hiNote="79" hiVel="127" loNote="78" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#4-PB.wav" rootNote="78" tuning="-0.20" volume="-3.5dB" />
-			<sample end="98413" hiNote="80" hiVel="127" loNote="80" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G#4-PB.wav" rootNote="80" tuning="-0.35" volume="-5.0dB" />
-			<sample end="91794" hiNote="81" hiVel="127" loNote="81" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A4-PB.wav" rootNote="81" tuning="-0.15" volume="-3.0dB" />
-			<sample end="98749" hiNote="82" hiVel="127" loNote="82" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#4-PB.wav" rootNote="82" tuning="-0.10" volume="-5.0dB" />
-			<sample end="89568" hiNote="83" hiVel="127" loNote="83" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B4-PB.wav" rootNote="83" tuning="-0.25" volume="-5.0dB" />
-			<sample end="94171" hiNote="87" hiVel="127" loNote="84" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C5-PB.wav" rootNote="84" tuning="-0.15" volume="-5.0dB" />
+			<sample rootNote="46" loNote="46" hiNote="46" loVel="54" hiVel="127" end="101842" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#1-PB.wav" volume="-5.0dB" />
+			<sample rootNote="47" loNote="47" hiNote="47" loVel="54" hiVel="127" end="94633" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B1-PB.wav" volume="-5.0dB" />
+			<sample rootNote="48" loNote="48" hiNote="48" loVel="54" hiVel="127" end="105897" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C2-PB.wav" volume="-5.0dB" />
+			<sample rootNote="49" loNote="49" hiNote="50" loVel="54" hiVel="127" end="107841" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#2-PB.wav" tuning="-0.07" volume="-5.0dB" />
+			<sample rootNote="51" loNote="51" hiNote="51" loVel="54" hiVel="127" end="101500" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#2-PB.wav" tuning="-0.10" volume="-5.0dB" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="54" hiVel="127" end="100825" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.E2-PB.wav" tuning="-0.05" volume="-5.0dB" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="54" hiVel="127" end="110167" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F2-PB.wav" volume="-5.0dB" />
+			<sample rootNote="54" loNote="54" hiNote="54" loVel="54" hiVel="127" end="101455" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#2-PB.wav" volume="-5.0dB" />
+			<sample rootNote="55" loNote="55" hiNote="56" loVel="54" hiVel="127" end="102514" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G2-PB.wav" tuning="-0.05" volume="-5.0dB" />
+			<sample rootNote="57" loNote="57" hiNote="57" loVel="54" hiVel="127" end="98592" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A2-PB.wav" tuning="-0.05" volume="-5.0dB" />
+			<sample rootNote="58" loNote="58" hiNote="58" loVel="54" hiVel="127" end="97605" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#2-PB.wav" tuning="0.05" volume="-5.0dB" />
+			<sample rootNote="59" loNote="59" hiNote="59" loVel="54" hiVel="127" end="90705" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B2-PB.wav" tuning="0.11" volume="-5.0dB" />
+			<sample rootNote="60" loNote="60" hiNote="60" loVel="54" hiVel="127" end="92040" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C3-PB.wav" tuning="0.05" volume="-4.0dB" />
+			<sample rootNote="61" loNote="61" hiNote="61" loVel="54" hiVel="127" end="94569" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#3-PB.wav" volume="-5.0dB" />
+			<sample rootNote="62" loNote="62" hiNote="62" loVel="54" hiVel="127" end="91785" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D3-PB.wav" tuning="-0.07" volume="-5.0dB" />
+			<sample rootNote="63" loNote="63" hiNote="64" loVel="54" hiVel="127" end="88914" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#3-PB.wav" tuning="-0.15" volume="-5.0dB" />
+			<sample rootNote="65" loNote="65" hiNote="65" loVel="54" hiVel="127" end="89459" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F3-PB.wav" tuning="-0.15" volume="-5.0dB" />
+			<sample rootNote="66" loNote="66" hiNote="66" loVel="54" hiVel="127" end="85626" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#3-PB.wav" tuning="-0.15" volume="-5.0dB" />
+			<sample rootNote="67" loNote="67" hiNote="67" loVel="54" hiVel="127" end="88142" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G3-PB.wav" volume="-4.0dB" />
+			<sample rootNote="68" loNote="68" hiNote="68" loVel="54" hiVel="127" end="81460" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G#3-PB.wav" volume="-5.0dB" />
+			<sample rootNote="69" loNote="69" hiNote="69" loVel="54" hiVel="127" end="88986" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A3-PB.wav" tuning="-0.25" volume="-5.0dB" />
+			<sample rootNote="70" loNote="70" hiNote="71" loVel="54" hiVel="127" end="88630" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#3-PB.wav" tuning="-0.03" volume="-3.0dB" />
+			<sample rootNote="72" loNote="72" hiNote="72" loVel="54" hiVel="127" end="80274" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C4-PB.wav" volume="-4.0dB" />
+			<sample rootNote="73" loNote="73" hiNote="73" loVel="54" hiVel="127" end="84021" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#4-PB.wav" volume="-4.0dB" />
+			<sample rootNote="74" loNote="74" hiNote="74" loVel="54" hiVel="127" end="81581" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D4-PB.wav" volume="-5.0dB" />
+			<sample rootNote="75" loNote="75" hiNote="75" loVel="54" hiVel="127" end="91204" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#4-PB.wav" tuning="0.20" volume="-3.0dB" />
+			<sample rootNote="76" loNote="76" hiNote="77" loVel="54" hiVel="127" end="91891" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.E4-PB.wav" volume="-3.0dB" />
+			<sample rootNote="78" loNote="78" hiNote="79" loVel="54" hiVel="127" end="87856" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#4-PB.wav" tuning="-0.20" volume="-3.5dB" />
+			<sample rootNote="80" loNote="80" hiNote="80" loVel="54" hiVel="127" end="98413" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G#4-PB.wav" tuning="-0.35" volume="-5.0dB" />
+			<sample rootNote="81" loNote="81" hiNote="81" loVel="54" hiVel="127" end="91794" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A4-PB.wav" tuning="-0.15" volume="-3.0dB" />
+			<sample rootNote="82" loNote="82" hiNote="82" loVel="54" hiVel="127" end="98749" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#4-PB.wav" tuning="-0.10" volume="-5.0dB" />
+			<sample rootNote="83" loNote="83" hiNote="83" loVel="54" hiVel="127" end="89568" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B4-PB.wav" tuning="-0.25" volume="-5.0dB" />
+			<sample rootNote="84" loNote="84" hiNote="87" loVel="54" hiVel="127" end="94171" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C5-PB.wav" tuning="-0.15" volume="-5.0dB" />
 		</group>
 		<group name="Group 4" ampVelTrack="1">
-			<sample end="85426" hiNote="46" hiVel="104" loNote="46" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#1-PB.wav" rootNote="46" volume="-5.0dB" />
-			<sample end="93213" hiNote="47" hiVel="104" loNote="47" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B1-PB.wav" rootNote="47" volume="-5.0dB" />
-			<sample end="96279" hiNote="48" hiVel="104" loNote="48" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C2-PB.wav" rootNote="48" volume="-5.0dB" />
-			<sample end="93722" hiNote="51" hiVel="104" loNote="49" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#2-PB.wav" rootNote="49" tuning="-0.10" volume="-5.0dB" />
-			<sample end="97106" hiNote="52" hiVel="104" loNote="52" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E2-PB.wav" rootNote="52" tuning="-0.10" volume="-5.0dB" />
-			<sample end="98602" hiNote="53" hiVel="104" loNote="53" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F2-PB.wav" rootNote="53" volume="-5.0dB" />
-			<sample end="92587" hiNote="54" hiVel="104" loNote="54" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#2-PB.wav" rootNote="54" volume="-5.0dB" />
-			<sample end="94162" hiNote="56" hiVel="104" loNote="55" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G2-PB.wav" rootNote="55" volume="-5.0dB" />
-			<sample end="100339" hiNote="57" hiVel="104" loNote="57" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A2-PB.wav" rootNote="57" tuning="-0.10" volume="-5.0dB" />
-			<sample end="96507" hiNote="59" hiVel="104" loNote="58" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#2-PB.wav" rootNote="58" volume="-5.0dB" />
-			<sample end="88027" hiNote="60" hiVel="104" loNote="60" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C3-PB.wav" rootNote="60" tuning="0.05" volume="-5.0dB" />
-			<sample end="89004" hiNote="61" hiVel="104" loNote="61" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#3-PB.wav" rootNote="61" tuning="-0.10" volume="-5.0dB" />
-			<sample end="93692" hiNote="62" hiVel="104" loNote="62" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D3-PB.wav" rootNote="62" tuning="-0.10" volume="-5.0dB" />
-			<sample end="94581" hiNote="63" hiVel="104" loNote="63" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D#3-PB.wav" rootNote="63" tuning="-0.15" volume="-5.0dB" />
-			<sample end="95358" hiNote="64" hiVel="104" loNote="64" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E3-PB.wav" rootNote="64" volume="-5.0dB" />
-			<sample end="99606" hiNote="65" hiVel="104" loNote="65" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F3-PB.wav" rootNote="65" tuning="-0.15" volume="-5.0dB" />
-			<sample end="94459" hiNote="66" hiVel="104" loNote="66" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#3-PB.wav" rootNote="66" tuning="-0.25" volume="-5.0dB" />
-			<sample end="93419" hiNote="69" hiVel="104" loNote="67" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G3-PB.wav" rootNote="67" volume="-5.0dB" />
-			<sample end="91522" hiNote="70" hiVel="104" loNote="70" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#3-PB.wav" rootNote="70" volume="-5.0dB" />
-			<sample end="95194" hiNote="71" hiVel="104" loNote="71" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B3-PB.wav" rootNote="71" tuning="-0.10" volume="-5.0dB" />
-			<sample end="102635" hiNote="72" hiVel="104" loNote="72" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C4-PB.wav" rootNote="72" volume="-5.0dB" />
-			<sample end="110724" hiNote="73" hiVel="104" loNote="73" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#4-PB.wav" rootNote="73" volume="-5.0dB" />
-			<sample end="107706" hiNote="74" hiVel="104" loNote="74" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D4-PB.wav" rootNote="74" volume="-5.0dB" />
-			<sample end="111333" hiNote="75" hiVel="104" loNote="75" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D#4-PB.wav" rootNote="75" volume="-5.0dB" />
-			<sample end="103677" hiNote="76" hiVel="104" loNote="76" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E4-PB.wav" rootNote="76" volume="-5.0dB" />
-			<sample end="98817" hiNote="77" hiVel="104" loNote="77" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F4-PB.wav" rootNote="77" volume="-5.0dB" />
-			<sample end="107138" hiNote="78" hiVel="104" loNote="78" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#4-PB.wav" rootNote="78" tuning="-0.15" volume="-5.0dB" />
-			<sample end="102756" hiNote="79" hiVel="104" loNote="79" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G4-PB.wav" rootNote="79" tuning="-0.20" volume="-5.0dB" />
-			<sample end="107592" hiNote="80" hiVel="104" loNote="80" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G#4-PB.wav" rootNote="80" tuning="-0.35" volume="-5.0dB" />
-			<sample end="101065" hiNote="81" hiVel="104" loNote="81" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A4-PB.wav" rootNote="81" volume="-5.0dB" />
-			<sample end="110776" hiNote="82" hiVel="104" loNote="82" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#4-PB.wav" rootNote="82" tuning="-0.10" volume="-5.0dB" />
-			<sample end="104172" hiNote="83" hiVel="104" loNote="83" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B4-PB.wav" rootNote="83" tuning="-0.25" volume="-5.0dB" />
-			<sample end="101169" hiNote="87" hiVel="104" loNote="84" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C5-PB.wav" rootNote="84" tuning="-0.20" volume="-5.0dB" />
+			<sample rootNote="46" loNote="46" hiNote="46" loVel="0" hiVel="104" end="85426" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#1-PB.wav" volume="-5.0dB" />
+			<sample rootNote="47" loNote="47" hiNote="47" loVel="0" hiVel="104" end="93213" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B1-PB.wav" volume="-5.0dB" />
+			<sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="104" end="96279" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C2-PB.wav" volume="-5.0dB" />
+			<sample rootNote="49" loNote="49" hiNote="51" loVel="0" hiVel="104" end="93722" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#2-PB.wav" tuning="-0.10" volume="-5.0dB" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="104" end="97106" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E2-PB.wav" tuning="-0.10" volume="-5.0dB" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="0" hiVel="104" end="98602" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F2-PB.wav" volume="-5.0dB" />
+			<sample rootNote="54" loNote="54" hiNote="54" loVel="0" hiVel="104" end="92587" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#2-PB.wav" volume="-5.0dB" />
+			<sample rootNote="55" loNote="55" hiNote="56" loVel="0" hiVel="104" end="94162" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G2-PB.wav" volume="-5.0dB" />
+			<sample rootNote="57" loNote="57" hiNote="57" loVel="0" hiVel="104" end="100339" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A2-PB.wav" tuning="-0.10" volume="-5.0dB" />
+			<sample rootNote="58" loNote="58" hiNote="59" loVel="0" hiVel="104" end="96507" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#2-PB.wav" volume="-5.0dB" />
+			<sample rootNote="60" loNote="60" hiNote="60" loVel="0" hiVel="104" end="88027" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C3-PB.wav" tuning="0.05" volume="-5.0dB" />
+			<sample rootNote="61" loNote="61" hiNote="61" loVel="0" hiVel="104" end="89004" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#3-PB.wav" tuning="-0.10" volume="-5.0dB" />
+			<sample rootNote="62" loNote="62" hiNote="62" loVel="0" hiVel="104" end="93692" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D3-PB.wav" tuning="-0.10" volume="-5.0dB" />
+			<sample rootNote="63" loNote="63" hiNote="63" loVel="0" hiVel="104" end="94581" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D#3-PB.wav" tuning="-0.15" volume="-5.0dB" />
+			<sample rootNote="64" loNote="64" hiNote="64" loVel="0" hiVel="104" end="95358" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E3-PB.wav" volume="-5.0dB" />
+			<sample rootNote="65" loNote="65" hiNote="65" loVel="0" hiVel="104" end="99606" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F3-PB.wav" tuning="-0.15" volume="-5.0dB" />
+			<sample rootNote="66" loNote="66" hiNote="66" loVel="0" hiVel="104" end="94459" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#3-PB.wav" tuning="-0.25" volume="-5.0dB" />
+			<sample rootNote="67" loNote="67" hiNote="69" loVel="0" hiVel="104" end="93419" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G3-PB.wav" volume="-5.0dB" />
+			<sample rootNote="70" loNote="70" hiNote="70" loVel="0" hiVel="104" end="91522" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#3-PB.wav" volume="-5.0dB" />
+			<sample rootNote="71" loNote="71" hiNote="71" loVel="0" hiVel="104" end="95194" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B3-PB.wav" tuning="-0.10" volume="-5.0dB" />
+			<sample rootNote="72" loNote="72" hiNote="72" loVel="0" hiVel="104" end="102635" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C4-PB.wav" volume="-5.0dB" />
+			<sample rootNote="73" loNote="73" hiNote="73" loVel="0" hiVel="104" end="110724" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#4-PB.wav" volume="-5.0dB" />
+			<sample rootNote="74" loNote="74" hiNote="74" loVel="0" hiVel="104" end="107706" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D4-PB.wav" volume="-5.0dB" />
+			<sample rootNote="75" loNote="75" hiNote="75" loVel="0" hiVel="104" end="111333" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D#4-PB.wav" volume="-5.0dB" />
+			<sample rootNote="76" loNote="76" hiNote="76" loVel="0" hiVel="104" end="103677" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E4-PB.wav" volume="-5.0dB" />
+			<sample rootNote="77" loNote="77" hiNote="77" loVel="0" hiVel="104" end="98817" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F4-PB.wav" volume="-5.0dB" />
+			<sample rootNote="78" loNote="78" hiNote="78" loVel="0" hiVel="104" end="107138" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#4-PB.wav" tuning="-0.15" volume="-5.0dB" />
+			<sample rootNote="79" loNote="79" hiNote="79" loVel="0" hiVel="104" end="102756" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G4-PB.wav" tuning="-0.20" volume="-5.0dB" />
+			<sample rootNote="80" loNote="80" hiNote="80" loVel="0" hiVel="104" end="107592" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G#4-PB.wav" tuning="-0.35" volume="-5.0dB" />
+			<sample rootNote="81" loNote="81" hiNote="81" loVel="0" hiVel="104" end="101065" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A4-PB.wav" volume="-5.0dB" />
+			<sample rootNote="82" loNote="82" hiNote="82" loVel="0" hiVel="104" end="110776" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#4-PB.wav" tuning="-0.10" volume="-5.0dB" />
+			<sample rootNote="83" loNote="83" hiNote="83" loVel="0" hiVel="104" end="104172" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B4-PB.wav" tuning="-0.25" volume="-5.0dB" />
+			<sample rootNote="84" loNote="84" hiNote="87" loVel="0" hiVel="104" end="101169" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C5-PB.wav" tuning="-0.20" volume="-5.0dB" />
 		</group>
 		<group name="Group 5" ampVelTrack="1">
-			<sample end="101842" hiNote="46" hiVel="127" loNote="46" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#1-PB.wav" rootNote="46" />
-			<sample end="94633" hiNote="47" hiVel="127" loNote="47" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B1-PB.wav" rootNote="47" />
-			<sample end="105897" hiNote="48" hiVel="127" loNote="48" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C2-PB.wav" rootNote="48" />
-			<sample end="107841" hiNote="50" hiVel="127" loNote="49" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#2-PB.wav" rootNote="49" tuning="-0.07" />
-			<sample end="101500" hiNote="51" hiVel="127" loNote="51" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#2-PB.wav" rootNote="51" tuning="-0.10" />
-			<sample end="100825" hiNote="52" hiVel="127" loNote="52" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.E2-PB.wav" rootNote="52" tuning="-0.05" />
-			<sample end="110167" hiNote="53" hiVel="127" loNote="53" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F2-PB.wav" rootNote="53" />
-			<sample end="101455" hiNote="54" hiVel="127" loNote="54" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#2-PB.wav" rootNote="54" />
-			<sample end="102514" hiNote="56" hiVel="127" loNote="55" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G2-PB.wav" rootNote="55" tuning="-0.05" />
-			<sample end="98592" hiNote="57" hiVel="127" loNote="57" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A2-PB.wav" rootNote="57" tuning="-0.05" />
-			<sample end="97605" hiNote="58" hiVel="127" loNote="58" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#2-PB.wav" rootNote="58" tuning="0.05" />
-			<sample end="90705" hiNote="59" hiVel="127" loNote="59" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B2-PB.wav" rootNote="59" tuning="0.11" />
-			<sample end="92040" hiNote="60" hiVel="127" loNote="60" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C3-PB.wav" rootNote="60" tuning="0.05" volume="1.0dB" />
-			<sample end="94569" hiNote="61" hiVel="127" loNote="61" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#3-PB.wav" rootNote="61" />
-			<sample end="91785" hiNote="62" hiVel="127" loNote="62" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D3-PB.wav" rootNote="62" tuning="-0.07" />
-			<sample end="88914" hiNote="64" hiVel="127" loNote="63" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#3-PB.wav" rootNote="63" tuning="-0.15" />
-			<sample end="89459" hiNote="65" hiVel="127" loNote="65" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F3-PB.wav" rootNote="65" tuning="-0.15" />
-			<sample end="85626" hiNote="66" hiVel="127" loNote="66" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#3-PB.wav" rootNote="66" tuning="-0.15" />
-			<sample end="88142" hiNote="67" hiVel="127" loNote="67" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G3-PB.wav" rootNote="67" volume="1.0dB" />
-			<sample end="81460" hiNote="68" hiVel="127" loNote="68" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G#3-PB.wav" rootNote="68" />
-			<sample end="88986" hiNote="69" hiVel="127" loNote="69" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A3-PB.wav" rootNote="69" tuning="-0.25" />
-			<sample end="88630" hiNote="71" hiVel="127" loNote="70" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#3-PB.wav" rootNote="70" tuning="-0.03" volume="2.0dB" />
-			<sample end="80274" hiNote="72" hiVel="127" loNote="72" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C4-PB.wav" rootNote="72" volume="1.0dB" />
-			<sample end="84021" hiNote="73" hiVel="127" loNote="73" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#4-PB.wav" rootNote="73" volume="1.0dB" />
-			<sample end="81581" hiNote="74" hiVel="127" loNote="74" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D4-PB.wav" rootNote="74" />
-			<sample end="91204" hiNote="75" hiVel="127" loNote="75" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#4-PB.wav" rootNote="75" tuning="0.20" volume="2.0dB" />
-			<sample end="91891" hiNote="77" hiVel="127" loNote="76" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.E4-PB.wav" rootNote="76" volume="2.0dB" />
-			<sample end="87856" hiNote="79" hiVel="127" loNote="78" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#4-PB.wav" rootNote="78" tuning="-0.20" volume="1.5dB" />
-			<sample end="98413" hiNote="80" hiVel="127" loNote="80" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G#4-PB.wav" rootNote="80" tuning="-0.35" />
-			<sample end="91794" hiNote="81" hiVel="127" loNote="81" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A4-PB.wav" rootNote="81" tuning="-0.15" volume="2.0dB" />
-			<sample end="98749" hiNote="82" hiVel="127" loNote="82" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#4-PB.wav" rootNote="82" tuning="-0.10" />
-			<sample end="89568" hiNote="83" hiVel="127" loNote="83" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B4-PB.wav" rootNote="83" tuning="-0.25" />
-			<sample end="94171" hiNote="87" hiVel="127" loNote="84" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C5-PB.wav" rootNote="84" tuning="-0.15" />
+			<sample rootNote="46" loNote="46" hiNote="46" loVel="54" hiVel="127" end="101842" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#1-PB.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" loVel="54" hiVel="127" end="94633" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B1-PB.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" loVel="54" hiVel="127" end="105897" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C2-PB.wav" />
+			<sample rootNote="49" loNote="49" hiNote="50" loVel="54" hiVel="127" end="107841" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#2-PB.wav" tuning="-0.07" />
+			<sample rootNote="51" loNote="51" hiNote="51" loVel="54" hiVel="127" end="101500" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#2-PB.wav" tuning="-0.10" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="54" hiVel="127" end="100825" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.E2-PB.wav" tuning="-0.05" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="54" hiVel="127" end="110167" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F2-PB.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" loVel="54" hiVel="127" end="101455" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#2-PB.wav" />
+			<sample rootNote="55" loNote="55" hiNote="56" loVel="54" hiVel="127" end="102514" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G2-PB.wav" tuning="-0.05" />
+			<sample rootNote="57" loNote="57" hiNote="57" loVel="54" hiVel="127" end="98592" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A2-PB.wav" tuning="-0.05" />
+			<sample rootNote="58" loNote="58" hiNote="58" loVel="54" hiVel="127" end="97605" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#2-PB.wav" tuning="0.05" />
+			<sample rootNote="59" loNote="59" hiNote="59" loVel="54" hiVel="127" end="90705" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B2-PB.wav" tuning="0.11" />
+			<sample rootNote="60" loNote="60" hiNote="60" loVel="54" hiVel="127" end="92040" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C3-PB.wav" tuning="0.05" volume="1.0dB" />
+			<sample rootNote="61" loNote="61" hiNote="61" loVel="54" hiVel="127" end="94569" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#3-PB.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" loVel="54" hiVel="127" end="91785" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D3-PB.wav" tuning="-0.07" />
+			<sample rootNote="63" loNote="63" hiNote="64" loVel="54" hiVel="127" end="88914" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#3-PB.wav" tuning="-0.15" />
+			<sample rootNote="65" loNote="65" hiNote="65" loVel="54" hiVel="127" end="89459" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F3-PB.wav" tuning="-0.15" />
+			<sample rootNote="66" loNote="66" hiNote="66" loVel="54" hiVel="127" end="85626" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#3-PB.wav" tuning="-0.15" />
+			<sample rootNote="67" loNote="67" hiNote="67" loVel="54" hiVel="127" end="88142" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G3-PB.wav" volume="1.0dB" />
+			<sample rootNote="68" loNote="68" hiNote="68" loVel="54" hiVel="127" end="81460" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G#3-PB.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" loVel="54" hiVel="127" end="88986" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A3-PB.wav" tuning="-0.25" />
+			<sample rootNote="70" loNote="70" hiNote="71" loVel="54" hiVel="127" end="88630" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#3-PB.wav" tuning="-0.03" volume="2.0dB" />
+			<sample rootNote="72" loNote="72" hiNote="72" loVel="54" hiVel="127" end="80274" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C4-PB.wav" volume="1.0dB" />
+			<sample rootNote="73" loNote="73" hiNote="73" loVel="54" hiVel="127" end="84021" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#4-PB.wav" volume="1.0dB" />
+			<sample rootNote="74" loNote="74" hiNote="74" loVel="54" hiVel="127" end="81581" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D4-PB.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" loVel="54" hiVel="127" end="91204" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#4-PB.wav" tuning="0.20" volume="2.0dB" />
+			<sample rootNote="76" loNote="76" hiNote="77" loVel="54" hiVel="127" end="91891" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.E4-PB.wav" volume="2.0dB" />
+			<sample rootNote="78" loNote="78" hiNote="79" loVel="54" hiVel="127" end="87856" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#4-PB.wav" tuning="-0.20" volume="1.5dB" />
+			<sample rootNote="80" loNote="80" hiNote="80" loVel="54" hiVel="127" end="98413" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G#4-PB.wav" tuning="-0.35" />
+			<sample rootNote="81" loNote="81" hiNote="81" loVel="54" hiVel="127" end="91794" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A4-PB.wav" tuning="-0.15" volume="2.0dB" />
+			<sample rootNote="82" loNote="82" hiNote="82" loVel="54" hiVel="127" end="98749" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#4-PB.wav" tuning="-0.10" />
+			<sample rootNote="83" loNote="83" hiNote="83" loVel="54" hiVel="127" end="89568" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B4-PB.wav" tuning="-0.25" />
+			<sample rootNote="84" loNote="84" hiNote="87" loVel="54" hiVel="127" end="94171" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C5-PB.wav" tuning="-0.15" />
 		</group>
 		<group name="Group 6" ampVelTrack="1">
-			<sample end="85426" hiNote="46" hiVel="104" loNote="46" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#1-PB.wav" rootNote="46" />
-			<sample end="93213" hiNote="47" hiVel="104" loNote="47" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B1-PB.wav" rootNote="47" />
-			<sample end="96279" hiNote="48" hiVel="104" loNote="48" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C2-PB.wav" rootNote="48" />
-			<sample end="93722" hiNote="51" hiVel="104" loNote="49" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#2-PB.wav" rootNote="49" tuning="-0.10" />
-			<sample end="97106" hiNote="52" hiVel="104" loNote="52" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E2-PB.wav" rootNote="52" tuning="-0.10" />
-			<sample end="98602" hiNote="53" hiVel="104" loNote="53" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F2-PB.wav" rootNote="53" />
-			<sample end="92587" hiNote="54" hiVel="104" loNote="54" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#2-PB.wav" rootNote="54" />
-			<sample end="94162" hiNote="56" hiVel="104" loNote="55" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G2-PB.wav" rootNote="55" />
-			<sample end="100339" hiNote="57" hiVel="104" loNote="57" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A2-PB.wav" rootNote="57" tuning="-0.10" />
-			<sample end="96507" hiNote="59" hiVel="104" loNote="58" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#2-PB.wav" rootNote="58" />
-			<sample end="88027" hiNote="60" hiVel="104" loNote="60" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C3-PB.wav" rootNote="60" tuning="0.05" />
-			<sample end="89004" hiNote="61" hiVel="104" loNote="61" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#3-PB.wav" rootNote="61" tuning="-0.10" />
-			<sample end="93692" hiNote="62" hiVel="104" loNote="62" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D3-PB.wav" rootNote="62" tuning="-0.10" />
-			<sample end="94581" hiNote="63" hiVel="104" loNote="63" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D#3-PB.wav" rootNote="63" tuning="-0.15" />
-			<sample end="95358" hiNote="64" hiVel="104" loNote="64" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E3-PB.wav" rootNote="64" />
-			<sample end="99606" hiNote="65" hiVel="104" loNote="65" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F3-PB.wav" rootNote="65" tuning="-0.15" />
-			<sample end="94459" hiNote="66" hiVel="104" loNote="66" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#3-PB.wav" rootNote="66" tuning="-0.25" />
-			<sample end="93419" hiNote="69" hiVel="104" loNote="67" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G3-PB.wav" rootNote="67" />
-			<sample end="91522" hiNote="70" hiVel="104" loNote="70" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#3-PB.wav" rootNote="70" />
-			<sample end="95194" hiNote="71" hiVel="104" loNote="71" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B3-PB.wav" rootNote="71" tuning="-0.10" />
-			<sample end="102635" hiNote="72" hiVel="104" loNote="72" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C4-PB.wav" rootNote="72" />
-			<sample end="110724" hiNote="73" hiVel="104" loNote="73" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#4-PB.wav" rootNote="73" />
-			<sample end="107706" hiNote="74" hiVel="104" loNote="74" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D4-PB.wav" rootNote="74" />
-			<sample end="111333" hiNote="75" hiVel="104" loNote="75" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D#4-PB.wav" rootNote="75" />
-			<sample end="103677" hiNote="76" hiVel="104" loNote="76" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E4-PB.wav" rootNote="76" />
-			<sample end="98817" hiNote="77" hiVel="104" loNote="77" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F4-PB.wav" rootNote="77" />
-			<sample end="107138" hiNote="78" hiVel="104" loNote="78" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#4-PB.wav" rootNote="78" tuning="-0.15" />
-			<sample end="102756" hiNote="79" hiVel="104" loNote="79" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G4-PB.wav" rootNote="79" tuning="-0.20" />
-			<sample end="107592" hiNote="80" hiVel="104" loNote="80" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G#4-PB.wav" rootNote="80" tuning="-0.35" />
-			<sample end="101065" hiNote="81" hiVel="104" loNote="81" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A4-PB.wav" rootNote="81" />
-			<sample end="110776" hiNote="82" hiVel="104" loNote="82" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#4-PB.wav" rootNote="82" tuning="-0.10" />
-			<sample end="104172" hiNote="83" hiVel="104" loNote="83" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B4-PB.wav" rootNote="83" tuning="-0.25" />
-			<sample end="101169" hiNote="87" hiVel="104" loNote="84" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C5-PB.wav" rootNote="84" tuning="-0.20" />
+			<sample rootNote="46" loNote="46" hiNote="46" loVel="0" hiVel="104" end="85426" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#1-PB.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" loVel="0" hiVel="104" end="93213" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B1-PB.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="104" end="96279" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C2-PB.wav" />
+			<sample rootNote="49" loNote="49" hiNote="51" loVel="0" hiVel="104" end="93722" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#2-PB.wav" tuning="-0.10" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="104" end="97106" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E2-PB.wav" tuning="-0.10" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="0" hiVel="104" end="98602" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F2-PB.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" loVel="0" hiVel="104" end="92587" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#2-PB.wav" />
+			<sample rootNote="55" loNote="55" hiNote="56" loVel="0" hiVel="104" end="94162" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G2-PB.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" loVel="0" hiVel="104" end="100339" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A2-PB.wav" tuning="-0.10" />
+			<sample rootNote="58" loNote="58" hiNote="59" loVel="0" hiVel="104" end="96507" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#2-PB.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" loVel="0" hiVel="104" end="88027" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C3-PB.wav" tuning="0.05" />
+			<sample rootNote="61" loNote="61" hiNote="61" loVel="0" hiVel="104" end="89004" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#3-PB.wav" tuning="-0.10" />
+			<sample rootNote="62" loNote="62" hiNote="62" loVel="0" hiVel="104" end="93692" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D3-PB.wav" tuning="-0.10" />
+			<sample rootNote="63" loNote="63" hiNote="63" loVel="0" hiVel="104" end="94581" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D#3-PB.wav" tuning="-0.15" />
+			<sample rootNote="64" loNote="64" hiNote="64" loVel="0" hiVel="104" end="95358" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E3-PB.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" loVel="0" hiVel="104" end="99606" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F3-PB.wav" tuning="-0.15" />
+			<sample rootNote="66" loNote="66" hiNote="66" loVel="0" hiVel="104" end="94459" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#3-PB.wav" tuning="-0.25" />
+			<sample rootNote="67" loNote="67" hiNote="69" loVel="0" hiVel="104" end="93419" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G3-PB.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" loVel="0" hiVel="104" end="91522" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#3-PB.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" loVel="0" hiVel="104" end="95194" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B3-PB.wav" tuning="-0.10" />
+			<sample rootNote="72" loNote="72" hiNote="72" loVel="0" hiVel="104" end="102635" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C4-PB.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" loVel="0" hiVel="104" end="110724" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#4-PB.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" loVel="0" hiVel="104" end="107706" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D4-PB.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" loVel="0" hiVel="104" end="111333" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D#4-PB.wav" />
+			<sample rootNote="76" loNote="76" hiNote="76" loVel="0" hiVel="104" end="103677" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E4-PB.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" loVel="0" hiVel="104" end="98817" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F4-PB.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" loVel="0" hiVel="104" end="107138" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#4-PB.wav" tuning="-0.15" />
+			<sample rootNote="79" loNote="79" hiNote="79" loVel="0" hiVel="104" end="102756" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G4-PB.wav" tuning="-0.20" />
+			<sample rootNote="80" loNote="80" hiNote="80" loVel="0" hiVel="104" end="107592" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G#4-PB.wav" tuning="-0.35" />
+			<sample rootNote="81" loNote="81" hiNote="81" loVel="0" hiVel="104" end="101065" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A4-PB.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" loVel="0" hiVel="104" end="110776" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#4-PB.wav" tuning="-0.10" />
+			<sample rootNote="83" loNote="83" hiNote="83" loVel="0" hiVel="104" end="104172" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B4-PB.wav" tuning="-0.25" />
+			<sample rootNote="84" loNote="84" hiNote="87" loVel="0" hiVel="104" end="101169" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C5-PB.wav" tuning="-0.20" />
 		</group>
 		<group name="Group 7" ampVelTrack="1">
-			<sample end="149168" hiNote="47" hiVel="127" loNote="46" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#1-PB-loop.wav" rootNote="46" tuning="-0.13" volume="3.0dB" />
-			<sample end="127628" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#2-PB-loop.wav" rootNote="49" tuning="-0.17" volume="2.0dB" />
-			<sample end="131716" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e2-PB-loop.wav" rootNote="52" tuning="-0.12" volume="2.0dB" />
-			<sample end="129311" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g2-PB-loop.wav" rootNote="55" tuning="-0.05" volume="3.0dB" />
-			<sample end="189731" hiNote="59" hiVel="127" loNote="57" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#2-PB-loop.wav" rootNote="58" volume="3.0dB" />
-			<sample end="122356" hiNote="62" hiVel="127" loNote="60" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#3-PB-loop.wav" rootNote="61" tuning="-0.12" volume="5.0dB" />
-			<sample end="133354" hiNote="65" hiVel="127" loNote="63" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e3-PB-loop.wav" rootNote="64" tuning="-0.15" volume="3.0dB" />
-			<sample end="110250" hiNote="69" hiVel="127" loNote="66" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g3-PB-loop.wav" rootNote="67" tuning="-0.05" volume="3.0dB" />
-			<sample end="180410" hiNote="71" hiVel="127" loNote="70" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#3-PB-loop.wav" rootNote="70" tuning="-0.04" volume="3.0dB" />
-			<sample end="132354" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#4-PB-loop.wav" rootNote="73" tuning="0.05" volume="6.0dB" />
-			<sample end="135564" hiNote="77" hiVel="127" loNote="75" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e4-PB-loop.wav" rootNote="76" tuning="-0.05" volume="5.0dB" />
-			<sample end="130715" hiNote="80" hiVel="127" loNote="78" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g4-PB-loop.wav" rootNote="79" tuning="-0.13" volume="5.0dB" />
-			<sample end="151762" hiNote="87" hiVel="127" loNote="81" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#4-PB-loop.wav" rootNote="82" volume="6.0dB" />
+			<sample rootNote="46" loNote="46" hiNote="47" loVel="0" hiVel="127" end="149168" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#1-PB-loop.wav" tuning="-0.13" volume="3.0dB" />
+			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="127628" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#2-PB-loop.wav" tuning="-0.17" volume="2.0dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="131716" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e2-PB-loop.wav" tuning="-0.12" volume="2.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="129311" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g2-PB-loop.wav" tuning="-0.05" volume="3.0dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="189731" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#2-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="61" loNote="60" hiNote="62" loVel="0" hiVel="127" end="122356" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#3-PB-loop.wav" tuning="-0.12" volume="5.0dB" />
+			<sample rootNote="64" loNote="63" hiNote="65" loVel="0" hiVel="127" end="133354" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e3-PB-loop.wav" tuning="-0.15" volume="3.0dB" />
+			<sample rootNote="67" loNote="66" hiNote="69" loVel="0" hiVel="127" end="110250" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g3-PB-loop.wav" tuning="-0.05" volume="3.0dB" />
+			<sample rootNote="70" loNote="70" hiNote="71" loVel="0" hiVel="127" end="180410" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#3-PB-loop.wav" tuning="-0.04" volume="3.0dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="132354" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#4-PB-loop.wav" tuning="0.05" volume="6.0dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="127" end="135564" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e4-PB-loop.wav" tuning="-0.05" volume="5.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="130715" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g4-PB-loop.wav" tuning="-0.13" volume="5.0dB" />
+			<sample rootNote="82" loNote="81" hiNote="87" loVel="0" hiVel="127" end="151762" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#4-PB-loop.wav" volume="6.0dB" />
 		</group>
 		<group name="Group 8" ampVelTrack="1">
-			<sample end="101842" hiNote="46" hiVel="127" loNote="46" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#1-PB.wav" rootNote="46" />
-			<sample end="94633" hiNote="47" hiVel="127" loNote="47" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B1-PB.wav" rootNote="47" />
-			<sample end="105897" hiNote="48" hiVel="127" loNote="48" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C2-PB.wav" rootNote="48" />
-			<sample end="107841" hiNote="50" hiVel="127" loNote="49" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#2-PB.wav" rootNote="49" tuning="-0.07" />
-			<sample end="101500" hiNote="51" hiVel="127" loNote="51" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#2-PB.wav" rootNote="51" tuning="-0.10" />
-			<sample end="100825" hiNote="52" hiVel="127" loNote="52" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.E2-PB.wav" rootNote="52" tuning="-0.05" />
-			<sample end="110167" hiNote="53" hiVel="127" loNote="53" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F2-PB.wav" rootNote="53" />
-			<sample end="101455" hiNote="54" hiVel="127" loNote="54" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#2-PB.wav" rootNote="54" />
-			<sample end="102514" hiNote="56" hiVel="127" loNote="55" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G2-PB.wav" rootNote="55" tuning="-0.05" />
-			<sample end="98592" hiNote="57" hiVel="127" loNote="57" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A2-PB.wav" rootNote="57" tuning="-0.05" />
-			<sample end="97605" hiNote="58" hiVel="127" loNote="58" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#2-PB.wav" rootNote="58" tuning="0.05" />
-			<sample end="90705" hiNote="59" hiVel="127" loNote="59" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B2-PB.wav" rootNote="59" tuning="0.11" />
-			<sample end="92040" hiNote="60" hiVel="127" loNote="60" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C3-PB.wav" rootNote="60" tuning="0.05" volume="1.0dB" />
-			<sample end="94569" hiNote="61" hiVel="127" loNote="61" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#3-PB.wav" rootNote="61" />
-			<sample end="91785" hiNote="62" hiVel="127" loNote="62" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D3-PB.wav" rootNote="62" tuning="-0.07" />
-			<sample end="88914" hiNote="64" hiVel="127" loNote="63" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#3-PB.wav" rootNote="63" tuning="-0.15" />
-			<sample end="89459" hiNote="65" hiVel="127" loNote="65" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F3-PB.wav" rootNote="65" tuning="-0.15" />
-			<sample end="85626" hiNote="66" hiVel="127" loNote="66" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#3-PB.wav" rootNote="66" tuning="-0.15" />
-			<sample end="88142" hiNote="67" hiVel="127" loNote="67" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G3-PB.wav" rootNote="67" volume="1.0dB" />
-			<sample end="81460" hiNote="68" hiVel="127" loNote="68" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G#3-PB.wav" rootNote="68" />
-			<sample end="88986" hiNote="69" hiVel="127" loNote="69" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A3-PB.wav" rootNote="69" tuning="-0.25" />
-			<sample end="88630" hiNote="71" hiVel="127" loNote="70" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#3-PB.wav" rootNote="70" tuning="-0.03" volume="2.0dB" />
-			<sample end="80274" hiNote="72" hiVel="127" loNote="72" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C4-PB.wav" rootNote="72" volume="1.0dB" />
-			<sample end="84021" hiNote="73" hiVel="127" loNote="73" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#4-PB.wav" rootNote="73" volume="1.0dB" />
-			<sample end="81581" hiNote="74" hiVel="127" loNote="74" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D4-PB.wav" rootNote="74" />
-			<sample end="91204" hiNote="75" hiVel="127" loNote="75" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#4-PB.wav" rootNote="75" tuning="0.20" volume="2.0dB" />
-			<sample end="91891" hiNote="77" hiVel="127" loNote="76" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.E4-PB.wav" rootNote="76" volume="2.0dB" />
-			<sample end="87856" hiNote="79" hiVel="127" loNote="78" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#4-PB.wav" rootNote="78" tuning="-0.20" volume="1.5dB" />
-			<sample end="98413" hiNote="80" hiVel="127" loNote="80" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G#4-PB.wav" rootNote="80" tuning="-0.35" />
-			<sample end="91794" hiNote="81" hiVel="127" loNote="81" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A4-PB.wav" rootNote="81" tuning="-0.15" volume="2.0dB" />
-			<sample end="98749" hiNote="82" hiVel="127" loNote="82" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#4-PB.wav" rootNote="82" tuning="-0.10" />
-			<sample end="89568" hiNote="83" hiVel="127" loNote="83" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B4-PB.wav" rootNote="83" tuning="-0.25" />
-			<sample end="94171" hiNote="87" hiVel="127" loNote="84" loVel="54" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C5-PB.wav" rootNote="84" tuning="-0.15" />
+			<sample rootNote="46" loNote="46" hiNote="46" loVel="54" hiVel="127" end="101842" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#1-PB.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" loVel="54" hiVel="127" end="94633" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B1-PB.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" loVel="54" hiVel="127" end="105897" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C2-PB.wav" />
+			<sample rootNote="49" loNote="49" hiNote="50" loVel="54" hiVel="127" end="107841" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#2-PB.wav" tuning="-0.07" />
+			<sample rootNote="51" loNote="51" hiNote="51" loVel="54" hiVel="127" end="101500" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#2-PB.wav" tuning="-0.10" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="54" hiVel="127" end="100825" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.E2-PB.wav" tuning="-0.05" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="54" hiVel="127" end="110167" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F2-PB.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" loVel="54" hiVel="127" end="101455" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#2-PB.wav" />
+			<sample rootNote="55" loNote="55" hiNote="56" loVel="54" hiVel="127" end="102514" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G2-PB.wav" tuning="-0.05" />
+			<sample rootNote="57" loNote="57" hiNote="57" loVel="54" hiVel="127" end="98592" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A2-PB.wav" tuning="-0.05" />
+			<sample rootNote="58" loNote="58" hiNote="58" loVel="54" hiVel="127" end="97605" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#2-PB.wav" tuning="0.05" />
+			<sample rootNote="59" loNote="59" hiNote="59" loVel="54" hiVel="127" end="90705" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B2-PB.wav" tuning="0.11" />
+			<sample rootNote="60" loNote="60" hiNote="60" loVel="54" hiVel="127" end="92040" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C3-PB.wav" tuning="0.05" volume="1.0dB" />
+			<sample rootNote="61" loNote="61" hiNote="61" loVel="54" hiVel="127" end="94569" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#3-PB.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" loVel="54" hiVel="127" end="91785" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D3-PB.wav" tuning="-0.07" />
+			<sample rootNote="63" loNote="63" hiNote="64" loVel="54" hiVel="127" end="88914" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#3-PB.wav" tuning="-0.15" />
+			<sample rootNote="65" loNote="65" hiNote="65" loVel="54" hiVel="127" end="89459" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F3-PB.wav" tuning="-0.15" />
+			<sample rootNote="66" loNote="66" hiNote="66" loVel="54" hiVel="127" end="85626" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#3-PB.wav" tuning="-0.15" />
+			<sample rootNote="67" loNote="67" hiNote="67" loVel="54" hiVel="127" end="88142" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G3-PB.wav" volume="1.0dB" />
+			<sample rootNote="68" loNote="68" hiNote="68" loVel="54" hiVel="127" end="81460" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G#3-PB.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" loVel="54" hiVel="127" end="88986" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A3-PB.wav" tuning="-0.25" />
+			<sample rootNote="70" loNote="70" hiNote="71" loVel="54" hiVel="127" end="88630" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#3-PB.wav" tuning="-0.03" volume="2.0dB" />
+			<sample rootNote="72" loNote="72" hiNote="72" loVel="54" hiVel="127" end="80274" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C4-PB.wav" volume="1.0dB" />
+			<sample rootNote="73" loNote="73" hiNote="73" loVel="54" hiVel="127" end="84021" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C#4-PB.wav" volume="1.0dB" />
+			<sample rootNote="74" loNote="74" hiNote="74" loVel="54" hiVel="127" end="81581" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D4-PB.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" loVel="54" hiVel="127" end="91204" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.D#4-PB.wav" tuning="0.20" volume="2.0dB" />
+			<sample rootNote="76" loNote="76" hiNote="77" loVel="54" hiVel="127" end="91891" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.E4-PB.wav" volume="2.0dB" />
+			<sample rootNote="78" loNote="78" hiNote="79" loVel="54" hiVel="127" end="87856" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.F#4-PB.wav" tuning="-0.20" volume="1.5dB" />
+			<sample rootNote="80" loNote="80" hiNote="80" loVel="54" hiVel="127" end="98413" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.G#4-PB.wav" tuning="-0.35" />
+			<sample rootNote="81" loNote="81" hiNote="81" loVel="54" hiVel="127" end="91794" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A4-PB.wav" tuning="-0.15" volume="2.0dB" />
+			<sample rootNote="82" loNote="82" hiNote="82" loVel="54" hiVel="127" end="98749" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#4-PB.wav" tuning="-0.10" />
+			<sample rootNote="83" loNote="83" hiNote="83" loVel="54" hiVel="127" end="89568" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B4-PB.wav" tuning="-0.25" />
+			<sample rootNote="84" loNote="84" hiNote="87" loVel="54" hiVel="127" end="94171" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C5-PB.wav" tuning="-0.15" />
 		</group>
 		<group name="Group 9" ampVelTrack="1">
-			<sample end="85426" hiNote="46" hiVel="104" loNote="46" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#1-PB.wav" rootNote="46" />
-			<sample end="93213" hiNote="47" hiVel="104" loNote="47" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B1-PB.wav" rootNote="47" />
-			<sample end="96279" hiNote="48" hiVel="104" loNote="48" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C2-PB.wav" rootNote="48" />
-			<sample end="93722" hiNote="51" hiVel="104" loNote="49" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#2-PB.wav" rootNote="49" tuning="-0.10" />
-			<sample end="97106" hiNote="52" hiVel="104" loNote="52" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E2-PB.wav" rootNote="52" tuning="-0.10" />
-			<sample end="98602" hiNote="53" hiVel="104" loNote="53" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F2-PB.wav" rootNote="53" />
-			<sample end="92587" hiNote="54" hiVel="104" loNote="54" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#2-PB.wav" rootNote="54" />
-			<sample end="94162" hiNote="56" hiVel="104" loNote="55" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G2-PB.wav" rootNote="55" />
-			<sample end="100339" hiNote="57" hiVel="104" loNote="57" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A2-PB.wav" rootNote="57" tuning="-0.10" />
-			<sample end="96507" hiNote="59" hiVel="104" loNote="58" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#2-PB.wav" rootNote="58" />
-			<sample end="88027" hiNote="60" hiVel="104" loNote="60" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C3-PB.wav" rootNote="60" tuning="0.05" />
-			<sample end="89004" hiNote="61" hiVel="104" loNote="61" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#3-PB.wav" rootNote="61" tuning="-0.10" />
-			<sample end="93692" hiNote="62" hiVel="104" loNote="62" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D3-PB.wav" rootNote="62" tuning="-0.10" />
-			<sample end="94581" hiNote="63" hiVel="104" loNote="63" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D#3-PB.wav" rootNote="63" tuning="-0.15" />
-			<sample end="95358" hiNote="64" hiVel="104" loNote="64" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E3-PB.wav" rootNote="64" />
-			<sample end="99606" hiNote="65" hiVel="104" loNote="65" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F3-PB.wav" rootNote="65" tuning="-0.15" />
-			<sample end="94459" hiNote="66" hiVel="104" loNote="66" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#3-PB.wav" rootNote="66" tuning="-0.25" />
-			<sample end="93419" hiNote="69" hiVel="104" loNote="67" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G3-PB.wav" rootNote="67" />
-			<sample end="91522" hiNote="70" hiVel="104" loNote="70" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#3-PB.wav" rootNote="70" />
-			<sample end="95194" hiNote="71" hiVel="104" loNote="71" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B3-PB.wav" rootNote="71" tuning="-0.10" />
-			<sample end="102635" hiNote="72" hiVel="104" loNote="72" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C4-PB.wav" rootNote="72" />
-			<sample end="110724" hiNote="73" hiVel="104" loNote="73" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#4-PB.wav" rootNote="73" />
-			<sample end="107706" hiNote="74" hiVel="104" loNote="74" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D4-PB.wav" rootNote="74" />
-			<sample end="111333" hiNote="75" hiVel="104" loNote="75" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D#4-PB.wav" rootNote="75" />
-			<sample end="103677" hiNote="76" hiVel="104" loNote="76" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E4-PB.wav" rootNote="76" />
-			<sample end="98817" hiNote="77" hiVel="104" loNote="77" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F4-PB.wav" rootNote="77" />
-			<sample end="107138" hiNote="78" hiVel="104" loNote="78" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#4-PB.wav" rootNote="78" tuning="-0.15" />
-			<sample end="102756" hiNote="79" hiVel="104" loNote="79" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G4-PB.wav" rootNote="79" tuning="-0.20" />
-			<sample end="107592" hiNote="80" hiVel="104" loNote="80" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G#4-PB.wav" rootNote="80" tuning="-0.35" />
-			<sample end="101065" hiNote="81" hiVel="104" loNote="81" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A4-PB.wav" rootNote="81" />
-			<sample end="110776" hiNote="82" hiVel="104" loNote="82" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#4-PB.wav" rootNote="82" tuning="-0.10" />
-			<sample end="104172" hiNote="83" hiVel="104" loNote="83" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B4-PB.wav" rootNote="83" tuning="-0.25" />
-			<sample end="101169" hiNote="87" hiVel="104" loNote="84" loVel="0" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C5-PB.wav" rootNote="84" tuning="-0.20" />
+			<sample rootNote="46" loNote="46" hiNote="46" loVel="0" hiVel="104" end="85426" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#1-PB.wav" />
+			<sample rootNote="47" loNote="47" hiNote="47" loVel="0" hiVel="104" end="93213" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B1-PB.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="104" end="96279" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C2-PB.wav" />
+			<sample rootNote="49" loNote="49" hiNote="51" loVel="0" hiVel="104" end="93722" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#2-PB.wav" tuning="-0.10" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="104" end="97106" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E2-PB.wav" tuning="-0.10" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="0" hiVel="104" end="98602" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F2-PB.wav" />
+			<sample rootNote="54" loNote="54" hiNote="54" loVel="0" hiVel="104" end="92587" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#2-PB.wav" />
+			<sample rootNote="55" loNote="55" hiNote="56" loVel="0" hiVel="104" end="94162" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G2-PB.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" loVel="0" hiVel="104" end="100339" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A2-PB.wav" tuning="-0.10" />
+			<sample rootNote="58" loNote="58" hiNote="59" loVel="0" hiVel="104" end="96507" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#2-PB.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" loVel="0" hiVel="104" end="88027" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C3-PB.wav" tuning="0.05" />
+			<sample rootNote="61" loNote="61" hiNote="61" loVel="0" hiVel="104" end="89004" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#3-PB.wav" tuning="-0.10" />
+			<sample rootNote="62" loNote="62" hiNote="62" loVel="0" hiVel="104" end="93692" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D3-PB.wav" tuning="-0.10" />
+			<sample rootNote="63" loNote="63" hiNote="63" loVel="0" hiVel="104" end="94581" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D#3-PB.wav" tuning="-0.15" />
+			<sample rootNote="64" loNote="64" hiNote="64" loVel="0" hiVel="104" end="95358" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E3-PB.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" loVel="0" hiVel="104" end="99606" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F3-PB.wav" tuning="-0.15" />
+			<sample rootNote="66" loNote="66" hiNote="66" loVel="0" hiVel="104" end="94459" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#3-PB.wav" tuning="-0.25" />
+			<sample rootNote="67" loNote="67" hiNote="69" loVel="0" hiVel="104" end="93419" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G3-PB.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" loVel="0" hiVel="104" end="91522" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#3-PB.wav" />
+			<sample rootNote="71" loNote="71" hiNote="71" loVel="0" hiVel="104" end="95194" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B3-PB.wav" tuning="-0.10" />
+			<sample rootNote="72" loNote="72" hiNote="72" loVel="0" hiVel="104" end="102635" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C4-PB.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" loVel="0" hiVel="104" end="110724" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C#4-PB.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" loVel="0" hiVel="104" end="107706" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D4-PB.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" loVel="0" hiVel="104" end="111333" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.D#4-PB.wav" />
+			<sample rootNote="76" loNote="76" hiNote="76" loVel="0" hiVel="104" end="103677" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.E4-PB.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" loVel="0" hiVel="104" end="98817" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F4-PB.wav" />
+			<sample rootNote="78" loNote="78" hiNote="78" loVel="0" hiVel="104" end="107138" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.F#4-PB.wav" tuning="-0.15" />
+			<sample rootNote="79" loNote="79" hiNote="79" loVel="0" hiVel="104" end="102756" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G4-PB.wav" tuning="-0.20" />
+			<sample rootNote="80" loNote="80" hiNote="80" loVel="0" hiVel="104" end="107592" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.G#4-PB.wav" tuning="-0.35" />
+			<sample rootNote="81" loNote="81" hiNote="81" loVel="0" hiVel="104" end="101065" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A4-PB.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" loVel="0" hiVel="104" end="110776" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#4-PB.wav" tuning="-0.10" />
+			<sample rootNote="83" loNote="83" hiNote="83" loVel="0" hiVel="104" end="104172" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B4-PB.wav" tuning="-0.25" />
+			<sample rootNote="84" loNote="84" hiNote="87" loVel="0" hiVel="104" end="101169" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C5-PB.wav" tuning="-0.20" />
 		</group>
 	</groups>
 	<midi>
