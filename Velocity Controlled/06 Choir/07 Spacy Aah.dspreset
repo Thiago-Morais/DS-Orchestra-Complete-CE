@@ -33,12 +33,12 @@
 	</ui>
 	<groups release="0.199">
 		<group name="Spacy Aah" ampVelTrack="1">
-			<sample end="269356" hiNote="42" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="269356" loopStart="171009" path="Resources/FS1R Spacy Aah Samples/spacyaah C1.wav" rootNote="36" />
-			<sample end="272433" hiNote="54" hiVel="127" loNote="43" loVel="0" loopEnabled="true" loopEnd="272433" loopStart="150705" path="Resources/FS1R Spacy Aah Samples/spacyaah C2.wav" rootNote="48" />
-			<sample end="204195" hiNote="66" hiVel="127" loNote="55" loVel="0" loopEnabled="true" loopEnd="204195" loopStart="96594" path="Resources/FS1R Spacy Aah Samples/spacyaah C3.wav" rootNote="60" />
-			<sample end="192623" hiNote="78" hiVel="127" loNote="67" loVel="0" loopEnabled="true" loopEnd="192623" loopStart="80095" path="Resources/FS1R Spacy Aah Samples/spacyaah C4.wav" rootNote="72" />
-			<sample end="204845" hiNote="90" hiVel="127" loNote="79" loVel="0" loopEnabled="true" loopEnd="204845" loopStart="109203" path="Resources/FS1R Spacy Aah Samples/spacyaah C5.wav" rootNote="84" />
-			<sample end="185882" hiNote="127" hiVel="127" loNote="91" loVel="0" loopEnabled="true" loopEnd="185882" loopStart="83309" path="Resources/FS1R Spacy Aah Samples/spacyaah C6.wav" rootNote="96" />
+			<sample rootNote="36" loNote="0" hiNote="42" loVel="0" hiVel="127" end="269356" loopEnabled="true" loopEnd="269356" loopStart="171009" path="Resources/FS1R Spacy Aah Samples/spacyaah C1.wav" />
+			<sample rootNote="48" loNote="43" hiNote="54" loVel="0" hiVel="127" end="272433" loopEnabled="true" loopEnd="272433" loopStart="150705" path="Resources/FS1R Spacy Aah Samples/spacyaah C2.wav" />
+			<sample rootNote="60" loNote="55" hiNote="66" loVel="0" hiVel="127" end="204195" loopEnabled="true" loopEnd="204195" loopStart="96594" path="Resources/FS1R Spacy Aah Samples/spacyaah C3.wav" />
+			<sample rootNote="72" loNote="67" hiNote="78" loVel="0" hiVel="127" end="192623" loopEnabled="true" loopEnd="192623" loopStart="80095" path="Resources/FS1R Spacy Aah Samples/spacyaah C4.wav" />
+			<sample rootNote="84" loNote="79" hiNote="90" loVel="0" hiVel="127" end="204845" loopEnabled="true" loopEnd="204845" loopStart="109203" path="Resources/FS1R Spacy Aah Samples/spacyaah C5.wav" />
+			<sample rootNote="96" loNote="91" hiNote="127" loVel="0" hiVel="127" end="185882" loopEnabled="true" loopEnd="185882" loopStart="83309" path="Resources/FS1R Spacy Aah Samples/spacyaah C6.wav" />
 		</group>
 	</groups>
 	<midi>
