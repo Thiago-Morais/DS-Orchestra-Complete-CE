@@ -33,24 +33,24 @@
 	</ui>
 	<groups decay="0.036" release="0.039" sustain="0.987">
 		<group name="Brass" ampVelTrack="1">
-			<sample end="28141" hiNote="65" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="28133" loopStart="8434" path="Resources/Designed String Pad 3 Samples/Brass C3.wav" rootNote="71" tuning="0.50" volume="-14.9dB" />
-			<sample end="28141" hiNote="70" hiVel="127" loNote="66" loVel="0" loopEnabled="true" loopEnd="28133" loopStart="8434" path="Resources/Designed String Pad 3 Samples/Brass C3.wav" rootNote="71" tuning="0.50" volume="-14.9dB" />
-			<sample end="20516" hiNote="72" hiVel="127" loNote="71" loVel="0" loopEnabled="true" loopEnd="20508" loopStart="6289" path="Resources/Designed String Pad 3 Samples/Brass C4.wav" rootNote="84" tuning="-0.01" volume="-14.9dB" />
-			<sample end="20516" hiNote="75" hiVel="127" loNote="73" loVel="0" loopEnabled="true" loopEnd="20508" loopStart="6289" path="Resources/Designed String Pad 3 Samples/Brass C4.wav" rootNote="84" tuning="-0.01" volume="-14.9dB" />
-			<sample end="19835" hiNote="86" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="19827" loopStart="5078" path="Resources/Designed String Pad 3 Samples/Brass Gb4.wav" rootNote="90" tuning="0.22" volume="-14.9dB" />
-			<sample end="19835" hiNote="93" hiVel="127" loNote="87" loVel="0" loopEnabled="true" loopEnd="19827" loopStart="5078" path="Resources/Designed String Pad 3 Samples/Brass Gb4.wav" rootNote="90" tuning="0.22" volume="-14.1dB" />
-			<sample end="1369" hiNote="108" hiVel="127" loNote="94" loVel="0" loopEnabled="true" loopEnd="1361" loopStart="1350" path="Resources/Designed String Pad 3 Samples/Brass C6.wav" rootNote="107" tuning="-0.21" volume="-14.1dB" />
+			<sample rootNote="71" loNote="0" hiNote="65" loVel="0" hiVel="127" end="28141" loopEnabled="true" loopEnd="28133" loopStart="8434" path="Resources/Designed String Pad 3 Samples/Brass C3.wav" tuning="0.50" volume="-14.9dB" />
+			<sample rootNote="71" loNote="66" hiNote="70" loVel="0" hiVel="127" end="28141" loopEnabled="true" loopEnd="28133" loopStart="8434" path="Resources/Designed String Pad 3 Samples/Brass C3.wav" tuning="0.50" volume="-14.9dB" />
+			<sample rootNote="84" loNote="71" hiNote="72" loVel="0" hiVel="127" end="20516" loopEnabled="true" loopEnd="20508" loopStart="6289" path="Resources/Designed String Pad 3 Samples/Brass C4.wav" tuning="-0.01" volume="-14.9dB" />
+			<sample rootNote="84" loNote="73" hiNote="75" loVel="0" hiVel="127" end="20516" loopEnabled="true" loopEnd="20508" loopStart="6289" path="Resources/Designed String Pad 3 Samples/Brass C4.wav" tuning="-0.01" volume="-14.9dB" />
+			<sample rootNote="90" loNote="76" hiNote="86" loVel="0" hiVel="127" end="19835" loopEnabled="true" loopEnd="19827" loopStart="5078" path="Resources/Designed String Pad 3 Samples/Brass Gb4.wav" tuning="0.22" volume="-14.9dB" />
+			<sample rootNote="90" loNote="87" hiNote="93" loVel="0" hiVel="127" end="19835" loopEnabled="true" loopEnd="19827" loopStart="5078" path="Resources/Designed String Pad 3 Samples/Brass Gb4.wav" tuning="0.22" volume="-14.1dB" />
+			<sample rootNote="107" loNote="94" hiNote="108" loVel="0" hiVel="127" end="1369" loopEnabled="true" loopEnd="1361" loopStart="1350" path="Resources/Designed String Pad 3 Samples/Brass C6.wav" tuning="-0.21" volume="-14.1dB" />
 		</group>
 		<group name="Strings" ampVelTrack="1">
-			<sample end="20909" hiNote="49" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="20901" loopStart="6965" path="Resources/Designed String Pad 3 Samples/Strings B1.wav" rootNote="58" tuning="0.50" volume="-10.8dB" />
-			<sample end="20909" hiNote="55" hiVel="127" loNote="50" loVel="0" loopEnabled="true" loopEnd="20901" loopStart="6965" path="Resources/Designed String Pad 3 Samples/Strings B1.wav" rootNote="58" tuning="0.50" volume="-10.8dB" />
-			<sample end="18148" hiNote="63" hiVel="127" loNote="56" loVel="0" loopEnabled="true" loopEnd="18140" loopStart="4889" path="Resources/Designed String Pad 3 Samples/Strings C2.wav" rootNote="71" tuning="-0.25" volume="-10.8dB" />
-			<sample end="18723" hiNote="69" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="18715" loopStart="6421" path="Resources/Designed String Pad 3 Samples/Strings G3.wav" rootNote="79" tuning="-0.02" volume="-10.8dB" />
-			<sample end="15446" hiNote="75" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="15438" loopStart="4608" path="Resources/Designed String Pad 3 Samples/Strings C3.wav" rootNote="84" tuning="-0.01" volume="-10.8dB" />
-			<sample end="15446" hiNote="79" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="15438" loopStart="4608" path="Resources/Designed String Pad 3 Samples/Strings C3.wav" rootNote="84" tuning="-0.01" volume="-10.8dB" />
-			<sample end="19611" hiNote="87" hiVel="127" loNote="80" loVel="0" loopEnabled="true" loopEnd="19603" loopStart="6476" path="Resources/Designed String Pad 3 Samples/Strings C5.wav" rootNote="96" tuning="-0.01" volume="-10.8dB" />
-			<sample end="19611" hiNote="97" hiVel="127" loNote="88" loVel="0" loopEnabled="true" loopEnd="19603" loopStart="6476" path="Resources/Designed String Pad 3 Samples/Strings C5.wav" rootNote="96" tuning="-0.01" volume="-10.8dB" />
-			<sample end="5426" hiNote="108" hiVel="127" loNote="98" loVel="0" loopEnabled="true" loopEnd="5418" loopStart="100" path="Resources/Designed String Pad 3 Samples/SynthStrings D6.wav" rootNote="112" tuning="0.35" volume="-10.8dB" />
+			<sample rootNote="58" loNote="0" hiNote="49" loVel="0" hiVel="127" end="20909" loopEnabled="true" loopEnd="20901" loopStart="6965" path="Resources/Designed String Pad 3 Samples/Strings B1.wav" tuning="0.50" volume="-10.8dB" />
+			<sample rootNote="58" loNote="50" hiNote="55" loVel="0" hiVel="127" end="20909" loopEnabled="true" loopEnd="20901" loopStart="6965" path="Resources/Designed String Pad 3 Samples/Strings B1.wav" tuning="0.50" volume="-10.8dB" />
+			<sample rootNote="71" loNote="56" hiNote="63" loVel="0" hiVel="127" end="18148" loopEnabled="true" loopEnd="18140" loopStart="4889" path="Resources/Designed String Pad 3 Samples/Strings C2.wav" tuning="-0.25" volume="-10.8dB" />
+			<sample rootNote="79" loNote="64" hiNote="69" loVel="0" hiVel="127" end="18723" loopEnabled="true" loopEnd="18715" loopStart="6421" path="Resources/Designed String Pad 3 Samples/Strings G3.wav" tuning="-0.02" volume="-10.8dB" />
+			<sample rootNote="84" loNote="70" hiNote="75" loVel="0" hiVel="127" end="15446" loopEnabled="true" loopEnd="15438" loopStart="4608" path="Resources/Designed String Pad 3 Samples/Strings C3.wav" tuning="-0.01" volume="-10.8dB" />
+			<sample rootNote="84" loNote="76" hiNote="79" loVel="0" hiVel="127" end="15446" loopEnabled="true" loopEnd="15438" loopStart="4608" path="Resources/Designed String Pad 3 Samples/Strings C3.wav" tuning="-0.01" volume="-10.8dB" />
+			<sample rootNote="96" loNote="80" hiNote="87" loVel="0" hiVel="127" end="19611" loopEnabled="true" loopEnd="19603" loopStart="6476" path="Resources/Designed String Pad 3 Samples/Strings C5.wav" tuning="-0.01" volume="-10.8dB" />
+			<sample rootNote="96" loNote="88" hiNote="97" loVel="0" hiVel="127" end="19611" loopEnabled="true" loopEnd="19603" loopStart="6476" path="Resources/Designed String Pad 3 Samples/Strings C5.wav" tuning="-0.01" volume="-10.8dB" />
+			<sample rootNote="112" loNote="98" hiNote="108" loVel="0" hiVel="127" end="5426" loopEnabled="true" loopEnd="5418" loopStart="100" path="Resources/Designed String Pad 3 Samples/SynthStrings D6.wav" tuning="0.35" volume="-10.8dB" />
 		</group>
 	</groups>
 	<midi>

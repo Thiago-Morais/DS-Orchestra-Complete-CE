@@ -33,36 +33,36 @@
 	</ui>
 	<groups attack="0" release="0.600">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="132667" hiNote="44" hiVel="83" loNote="41" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F1_soft_01.wav" rootNote="41" start="22" volume="12.0dB" />
-			<sample end="171208" hiNote="44" hiVel="127" loNote="41" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F1_med_01.wav" rootNote="41" volume="12.0dB" />
-			<sample end="162058" hiNote="44" hiVel="127" loNote="41" loVel="84" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F1_loud_01.wav" rootNote="41" volume="12.0dB" />
-			<sample end="282893" hiNote="51" hiVel="83" loNote="45" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C2_soft_01.wav" rootNote="48" start="57" volume="12.0dB" />
-			<sample end="297501" hiNote="51" hiVel="127" loNote="45" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C2_med_01.wav" rootNote="48" start="43" volume="12.0dB" />
-			<sample end="372660" hiNote="51" hiVel="127" loNote="45" loVel="84" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C2_loud_01.wav" rootNote="48" start="2" volume="12.0dB" />
-			<sample end="283190" hiNote="57" hiVel="83" loNote="52" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_G2_soft_01.wav" rootNote="55" start="121" volume="12.0dB" />
-			<sample end="252200" hiNote="57" hiVel="127" loNote="52" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_G2_med_01.wav" rootNote="55" start="59" volume="12.0dB" />
-			<sample end="309234" hiNote="57" hiVel="127" loNote="52" loVel="84" path="Resources/Marimba Samples/Marimba_hit_Outrigger_G2_loud_01.wav" rootNote="55" start="34" volume="12.0dB" />
-			<sample end="234425" hiNote="62" hiVel="83" loNote="58" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_B2_soft_01.wav" rootNote="59" start="151" volume="12.0dB" />
-			<sample end="249262" hiNote="62" hiVel="127" loNote="58" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_B2_med_01.wav" rootNote="59" start="113" volume="12.0dB" />
-			<sample end="264289" hiNote="62" hiVel="127" loNote="58" loVel="84" path="Resources/Marimba Samples/Marimba_hit_Outrigger_B2_loud_01.wav" rootNote="59" start="58" volume="12.0dB" />
-			<sample end="242538" hiNote="68" hiVel="83" loNote="63" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F3_soft_01.wav" rootNote="65" start="112" volume="12.0dB" />
-			<sample end="230480" hiNote="68" hiVel="127" loNote="63" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F3_med_01.wav" rootNote="65" start="184" volume="12.0dB" />
-			<sample end="264972" hiNote="68" hiVel="127" loNote="63" loVel="84" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F3_loud_01.wav" rootNote="65" start="73" volume="12.0dB" />
-			<sample end="152567" hiNote="75" hiVel="83" loNote="69" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C4_soft_01.wav" rootNote="72" start="119" volume="12.0dB" />
-			<sample end="109200" hiNote="75" hiVel="127" loNote="69" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C4_med_01.wav" rootNote="72" start="87" volume="12.0dB" />
-			<sample end="169420" hiNote="75" hiVel="127" loNote="69" loVel="84" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C4_loud_01.wav" rootNote="72" start="58" volume="12.0dB" />
-			<sample end="143421" hiNote="81" hiVel="83" loNote="76" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_G4_soft_01.wav" rootNote="79" start="69" volume="12.0dB" />
-			<sample end="96703" hiNote="81" hiVel="127" loNote="76" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_G4_med_01.wav" rootNote="79" start="48" volume="12.0dB" />
-			<sample end="133343" hiNote="81" hiVel="127" loNote="76" loVel="84" path="Resources/Marimba Samples/Marimba_hit_Outrigger_G4_loud_01.wav" rootNote="79" start="30" volume="12.0dB" />
-			<sample end="82093" hiNote="86" hiVel="83" loNote="82" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_B4_soft_01.wav" rootNote="83" start="58" volume="12.0dB" />
-			<sample end="72293" hiNote="86" hiVel="127" loNote="82" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_B4_med_01.wav" rootNote="83" start="31" volume="12.0dB" />
-			<sample end="115735" hiNote="86" hiVel="127" loNote="82" loVel="84" path="Resources/Marimba Samples/Marimba_hit_Outrigger_B4_loud_01.wav" rootNote="83" start="13" volume="10.981782dB" />
-			<sample end="62275" hiNote="92" hiVel="83" loNote="87" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F5_soft_01.wav" rootNote="89" volume="12.0dB" />
-			<sample end="94480" hiNote="92" hiVel="127" loNote="87" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F5_med_01.wav" rootNote="89" volume="12.0dB" />
-			<sample end="91877" hiNote="92" hiVel="127" loNote="87" loVel="84" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F5_loud_01.wav" rootNote="89" volume="12.0dB" />
-			<sample end="110590" hiNote="97" hiVel="83" loNote="93" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C6_soft_01.wav" rootNote="96" volume="12.0dB" />
-			<sample end="75300" hiNote="97" hiVel="127" loNote="93" loVel="0" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C6_med_01.wav" rootNote="96" volume="12.0dB" />
-			<sample end="78683" hiNote="97" hiVel="127" loNote="93" loVel="84" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C6_loud_01.wav" rootNote="96" volume="12.0dB" />
+			<sample rootNote="41" loNote="41" hiNote="44" loVel="0" hiVel="83" end="132667" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F1_soft_01.wav" start="22" volume="12.0dB" />
+			<sample rootNote="41" loNote="41" hiNote="44" loVel="0" hiVel="127" end="171208" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F1_med_01.wav" volume="12.0dB" />
+			<sample rootNote="41" loNote="41" hiNote="44" loVel="84" hiVel="127" end="162058" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F1_loud_01.wav" volume="12.0dB" />
+			<sample rootNote="48" loNote="45" hiNote="51" loVel="0" hiVel="83" end="282893" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C2_soft_01.wav" start="57" volume="12.0dB" />
+			<sample rootNote="48" loNote="45" hiNote="51" loVel="0" hiVel="127" end="297501" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C2_med_01.wav" start="43" volume="12.0dB" />
+			<sample rootNote="48" loNote="45" hiNote="51" loVel="84" hiVel="127" end="372660" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C2_loud_01.wav" start="2" volume="12.0dB" />
+			<sample rootNote="55" loNote="52" hiNote="57" loVel="0" hiVel="83" end="283190" path="Resources/Marimba Samples/Marimba_hit_Outrigger_G2_soft_01.wav" start="121" volume="12.0dB" />
+			<sample rootNote="55" loNote="52" hiNote="57" loVel="0" hiVel="127" end="252200" path="Resources/Marimba Samples/Marimba_hit_Outrigger_G2_med_01.wav" start="59" volume="12.0dB" />
+			<sample rootNote="55" loNote="52" hiNote="57" loVel="84" hiVel="127" end="309234" path="Resources/Marimba Samples/Marimba_hit_Outrigger_G2_loud_01.wav" start="34" volume="12.0dB" />
+			<sample rootNote="59" loNote="58" hiNote="62" loVel="0" hiVel="83" end="234425" path="Resources/Marimba Samples/Marimba_hit_Outrigger_B2_soft_01.wav" start="151" volume="12.0dB" />
+			<sample rootNote="59" loNote="58" hiNote="62" loVel="0" hiVel="127" end="249262" path="Resources/Marimba Samples/Marimba_hit_Outrigger_B2_med_01.wav" start="113" volume="12.0dB" />
+			<sample rootNote="59" loNote="58" hiNote="62" loVel="84" hiVel="127" end="264289" path="Resources/Marimba Samples/Marimba_hit_Outrigger_B2_loud_01.wav" start="58" volume="12.0dB" />
+			<sample rootNote="65" loNote="63" hiNote="68" loVel="0" hiVel="83" end="242538" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F3_soft_01.wav" start="112" volume="12.0dB" />
+			<sample rootNote="65" loNote="63" hiNote="68" loVel="0" hiVel="127" end="230480" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F3_med_01.wav" start="184" volume="12.0dB" />
+			<sample rootNote="65" loNote="63" hiNote="68" loVel="84" hiVel="127" end="264972" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F3_loud_01.wav" start="73" volume="12.0dB" />
+			<sample rootNote="72" loNote="69" hiNote="75" loVel="0" hiVel="83" end="152567" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C4_soft_01.wav" start="119" volume="12.0dB" />
+			<sample rootNote="72" loNote="69" hiNote="75" loVel="0" hiVel="127" end="109200" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C4_med_01.wav" start="87" volume="12.0dB" />
+			<sample rootNote="72" loNote="69" hiNote="75" loVel="84" hiVel="127" end="169420" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C4_loud_01.wav" start="58" volume="12.0dB" />
+			<sample rootNote="79" loNote="76" hiNote="81" loVel="0" hiVel="83" end="143421" path="Resources/Marimba Samples/Marimba_hit_Outrigger_G4_soft_01.wav" start="69" volume="12.0dB" />
+			<sample rootNote="79" loNote="76" hiNote="81" loVel="0" hiVel="127" end="96703" path="Resources/Marimba Samples/Marimba_hit_Outrigger_G4_med_01.wav" start="48" volume="12.0dB" />
+			<sample rootNote="79" loNote="76" hiNote="81" loVel="84" hiVel="127" end="133343" path="Resources/Marimba Samples/Marimba_hit_Outrigger_G4_loud_01.wav" start="30" volume="12.0dB" />
+			<sample rootNote="83" loNote="82" hiNote="86" loVel="0" hiVel="83" end="82093" path="Resources/Marimba Samples/Marimba_hit_Outrigger_B4_soft_01.wav" start="58" volume="12.0dB" />
+			<sample rootNote="83" loNote="82" hiNote="86" loVel="0" hiVel="127" end="72293" path="Resources/Marimba Samples/Marimba_hit_Outrigger_B4_med_01.wav" start="31" volume="12.0dB" />
+			<sample rootNote="83" loNote="82" hiNote="86" loVel="84" hiVel="127" end="115735" path="Resources/Marimba Samples/Marimba_hit_Outrigger_B4_loud_01.wav" start="13" volume="10.981782dB" />
+			<sample rootNote="89" loNote="87" hiNote="92" loVel="0" hiVel="83" end="62275" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F5_soft_01.wav" volume="12.0dB" />
+			<sample rootNote="89" loNote="87" hiNote="92" loVel="0" hiVel="127" end="94480" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F5_med_01.wav" volume="12.0dB" />
+			<sample rootNote="89" loNote="87" hiNote="92" loVel="84" hiVel="127" end="91877" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F5_loud_01.wav" volume="12.0dB" />
+			<sample rootNote="96" loNote="93" hiNote="97" loVel="0" hiVel="83" end="110590" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C6_soft_01.wav" volume="12.0dB" />
+			<sample rootNote="96" loNote="93" hiNote="97" loVel="0" hiVel="127" end="75300" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C6_med_01.wav" volume="12.0dB" />
+			<sample rootNote="96" loNote="93" hiNote="97" loVel="84" hiVel="127" end="78683" path="Resources/Marimba Samples/Marimba_hit_Outrigger_C6_loud_01.wav" volume="12.0dB" />
 		</group>
 	</groups>
 	<midi>

@@ -33,98 +33,98 @@
 	</ui>
 	<groups decay="0.410" release="0.016" sustain="0">
 		<group name="Orch Batterie" ampVelTrack="1">
-			<sample end="105865" hiNote="35" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="105860" loopStart="74432" path="Resources/Percussion 2 Samples/Concert BD 2 f.wav" rootNote="35" />
-			<sample end="35804" hiNote="35" hiVel="127" loNote="0" loVel="96" path="Resources/Percussion 2 Samples/Concert BD 9 ff.wav" rootNote="35" />
-			<sample end="34941" hiNote="36" hiVel="114" loNote="36" loVel="0" path="Resources/Percussion 2 Samples/Concert BD 8 f.wav" rootNote="36" volume="-1.0dB" />
-			<sample end="35804" hiNote="36" hiVel="127" loNote="36" loVel="115" path="Resources/Percussion 2 Samples/Concert BD 9 ff.wav" rootNote="36" volume="-1.0dB" />
-			<sample end="64172" hiNote="37" hiVel="127" loNote="37" loVel="0" loopEnabled="true" loopEnd="64167" loopStart="16775" path="Resources/Percussion 2 Samples/Snare Roll 1.wav" rootNote="37" volume="-6.0dB" />
-			<sample end="14164" hiNote="38" hiVel="93" loNote="38" loVel="0" path="Resources/Percussion 2 Samples/Snare mf.wav" rootNote="38" volume="-1.0dB" />
-			<sample end="17538" hiNote="38" hiVel="110" loNote="38" loVel="94" path="Resources/Percussion 2 Samples/Snare f.wav" rootNote="38" volume="-1.0dB" />
-			<sample end="21708" hiNote="38" hiVel="127" loNote="38" loVel="111" path="Resources/Percussion 2 Samples/Snare ff.wav" rootNote="38" volume="-1.0dB" />
-			<sample end="37550" hiNote="39" hiVel="127" loNote="39" loVel="0" loopEnabled="true" loopEnd="37545" loopStart="12156" path="Resources/Percussion 2 Samples/PiccoloSnareRol.wav" rootNote="39" tuning="0.43" volume="-4.0dB" />
-			<sample end="16732" hiNote="40" hiVel="79" loNote="40" loVel="0" path="Resources/Percussion 2 Samples/PiccoloSnare mf.wav" rootNote="40" tuning="0.43" />
-			<sample end="17542" hiNote="40" hiVel="101" loNote="40" loVel="80" path="Resources/Percussion 2 Samples/Piccolo Snare f.wav" rootNote="40" tuning="0.43" />
-			<sample end="20613" hiNote="40" hiVel="127" loNote="40" loVel="102" path="Resources/Percussion 2 Samples/PiccoloSnareRim.wav" rootNote="40" tuning="0.43" />
-			<sample end="20369" hiNote="40" hiVel="127" loNote="40" loVel="126" path="Resources/Percussion 2 Samples/PiccoloSnareRim.wav" rootNote="40" tuning="0.43" />
-			<sample end="40477" hiNote="41" hiVel="90" loNote="41" loVel="0" loopEnabled="true" loopEnd="40472" loopStart="35519" path="Resources/Percussion 2 Samples/ConcertTom 4 mf.wav" rootNote="35" />
-			<sample end="37489" hiNote="41" hiVel="115" loNote="41" loVel="91" loopEnabled="true" loopEnd="37484" loopStart="32523" path="Resources/Percussion 2 Samples/ConcertTom 4 f.wav" rootNote="35" />
-			<sample end="41521" hiNote="41" hiVel="127" loNote="41" loVel="116" loopEnabled="true" loopEnd="41516" loopStart="36553" path="Resources/Percussion 2 Samples/ConcertTom 4 ff.wav" rootNote="35" />
-			<sample end="40477" hiNote="42" hiVel="90" loNote="42" loVel="0" loopEnabled="true" loopEnd="40472" loopStart="35519" path="Resources/Percussion 2 Samples/ConcertTom 4 mf.wav" rootNote="36" tuning="0.08" />
-			<sample end="37489" hiNote="42" hiVel="115" loNote="42" loVel="91" loopEnabled="true" loopEnd="37484" loopStart="32523" path="Resources/Percussion 2 Samples/ConcertTom 4 f.wav" rootNote="36" tuning="0.08" />
-			<sample end="41521" hiNote="42" hiVel="127" loNote="42" loVel="116" loopEnabled="true" loopEnd="41516" loopStart="36553" path="Resources/Percussion 2 Samples/ConcertTom 4 ff.wav" rootNote="36" tuning="0.08" />
-			<sample end="34379" hiNote="43" hiVel="86" loNote="43" loVel="0" loopEnabled="true" loopEnd="34374" loopStart="30432" path="Resources/Percussion 2 Samples/ConcertTom 3 mf.wav" rootNote="43" />
-			<sample end="33186" hiNote="43" hiVel="127" loNote="43" loVel="87" loopEnabled="true" loopEnd="33181" loopStart="29142" path="Resources/Percussion 2 Samples/ConcertTom 3 ff.wav" rootNote="43" />
-			<sample end="34379" hiNote="44" hiVel="86" loNote="44" loVel="0" loopEnabled="true" loopEnd="34374" loopStart="30432" path="Resources/Percussion 2 Samples/ConcertTom 3 mf.wav" rootNote="44" tuning="0.08" />
-			<sample end="33186" hiNote="44" hiVel="127" loNote="44" loVel="87" loopEnabled="true" loopEnd="33181" loopStart="29142" path="Resources/Percussion 2 Samples/ConcertTom 3 ff.wav" rootNote="44" tuning="0.08" />
-			<sample end="35268" hiNote="45" hiVel="95" loNote="45" loVel="0" loopEnabled="true" loopEnd="35263" loopStart="32838" path="Resources/Percussion 2 Samples/ConcertTom 2 mf.wav" rootNote="45" />
-			<sample end="37917" hiNote="45" hiVel="110" loNote="45" loVel="96" loopEnabled="true" loopEnd="37912" loopStart="35482" path="Resources/Percussion 2 Samples/ConcertTom 2 f.wav" rootNote="45" />
-			<sample end="37531" hiNote="45" hiVel="127" loNote="45" loVel="111" loopEnabled="true" loopEnd="37526" loopStart="35086" path="Resources/Percussion 2 Samples/ConcertTom 2 ff.wav" rootNote="45" />
-			<sample end="35268" hiNote="46" hiVel="95" loNote="46" loVel="0" loopEnabled="true" loopEnd="35263" loopStart="32838" path="Resources/Percussion 2 Samples/ConcertTom 2 mf.wav" rootNote="46" tuning="0.08" />
-			<sample end="37917" hiNote="46" hiVel="110" loNote="46" loVel="96" loopEnabled="true" loopEnd="37912" loopStart="35482" path="Resources/Percussion 2 Samples/ConcertTom 2 f.wav" rootNote="46" tuning="0.08" />
-			<sample end="37531" hiNote="46" hiVel="127" loNote="46" loVel="111" loopEnabled="true" loopEnd="37526" loopStart="35086" path="Resources/Percussion 2 Samples/ConcertTom 2 ff.wav" rootNote="46" tuning="0.08" />
-			<sample end="36293" hiNote="47" hiVel="109" loNote="47" loVel="0" loopEnabled="true" loopEnd="36288" loopStart="34434" path="Resources/Percussion 2 Samples/ConcertTom 1 f.wav" rootNote="47" tuning="0.03" />
-			<sample end="35648" hiNote="47" hiVel="127" loNote="47" loVel="110" loopEnabled="true" loopEnd="35643" loopStart="33789" path="Resources/Percussion 2 Samples/ConcertTom 1 ff.wav" rootNote="47" />
-			<sample end="36293" hiNote="48" hiVel="109" loNote="48" loVel="0" loopEnabled="true" loopEnd="36288" loopStart="34434" path="Resources/Percussion 2 Samples/ConcertTom 1 f.wav" rootNote="48" tuning="0.11" />
-			<sample end="35648" hiNote="48" hiVel="127" loNote="48" loVel="110" loopEnabled="true" loopEnd="35643" loopStart="33789" path="Resources/Percussion 2 Samples/ConcertTom 1 ff.wav" rootNote="48" tuning="0.08" />
-			<sample end="96950" hiNote="49" hiVel="127" loNote="49" loVel="0" loopEnabled="true" loopEnd="96945" loopStart="67064" path="Resources/Percussion 2 Samples/Piatti ff.wav" rootNote="49" volume="-3.0dB" />
-			<sample end="20267" hiNote="50" hiVel="127" loNote="50" loVel="0" path="Resources/Percussion 2 Samples/Piatti Closed f.wav" rootNote="50" volume="-5.0dB" />
-			<sample end="156582" hiNote="51" hiVel="127" loNote="51" loVel="0" loopEnabled="true" loopEnd="156577" loopStart="129919" path="Resources/Percussion 2 Samples/SusCymbalOpen f.wav" rootNote="51" volume="-8.0dB" />
-			<sample end="20432" hiNote="52" hiVel="127" loNote="52" loVel="0" path="Resources/Percussion 2 Samples/SusCymbalClosed.wav" rootNote="52" volume="-5.0dB" />
-			<sample end="21880" hiNote="56" hiVel="127" loNote="56" loVel="0" path="Resources/Percussion 2 Samples/Cowbell Hi f.wav" rootNote="56" />
-			<sample end="22581" hiNote="57" hiVel="127" loNote="57" loVel="0" loopEnabled="true" loopEnd="22576" loopStart="20595" path="Resources/Percussion 2 Samples/Cowbell Low ff.wav" rootNote="57" />
-			<sample end="9065" hiNote="58" hiVel="119" loNote="58" loVel="0" path="Resources/Percussion 2 Samples/TempleBlock Hi.wav" rootNote="58" />
-			<sample end="8576" hiNote="58" hiVel="127" loNote="58" loVel="120" path="Resources/Percussion 2 Samples/TempleBlockHi f.wav" rootNote="58" />
-			<sample end="8252" hiNote="59" hiVel="120" loNote="59" loVel="0" path="Resources/Percussion 2 Samples/TempleBlockLow.wav" rootNote="59" />
-			<sample end="9147" hiNote="59" hiVel="127" loNote="59" loVel="121" path="Resources/Percussion 2 Samples/TempleBlockLowf.wav" rootNote="59" />
-			<sample end="15784" hiNote="60" hiVel="119" loNote="60" loVel="0" path="Resources/Percussion 2 Samples/Bongo Hi p.wav" rootNote="60" />
-			<sample end="15094" hiNote="60" hiVel="127" loNote="60" loVel="120" path="Resources/Percussion 2 Samples/Bongo Hi ff 1.wav" rootNote="60" />
-			<sample end="22159" hiNote="61" hiVel="127" loNote="61" loVel="0" loopEnabled="true" loopEnd="22154" loopStart="4619" path="Resources/Percussion 2 Samples/Bongo Hi Roll 1.wav" rootNote="61" />
-			<sample end="16136" hiNote="62" hiVel="119" loNote="62" loVel="0" path="Resources/Percussion 2 Samples/Bongo Low mf.wav" rootNote="62" />
-			<sample end="16309" hiNote="62" hiVel="127" loNote="62" loVel="120" path="Resources/Percussion 2 Samples/Bongo Low f.wav" rootNote="62" />
-			<sample end="34352" hiNote="63" hiVel="127" loNote="63" loVel="0" loopEnabled="true" loopEnd="34347" loopStart="8064" path="Resources/Percussion 2 Samples/Bongo Low Roll.wav" rootNote="63" volume="-2.0dB" />
-			<sample end="6748" hiNote="64" hiVel="120" loNote="64" loVel="0" path="Resources/Percussion 2 Samples/Castanet 1.wav" rootNote="64" />
-			<sample end="8127" hiNote="64" hiVel="127" loNote="64" loVel="121" path="Resources/Percussion 2 Samples/Castanet 2.wav" rootNote="64" />
-			<sample end="15571" hiNote="65" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="15566" loopStart="3233" path="Resources/Percussion 2 Samples/Castanet Roll 1.wav" rootNote="65" />
-			<sample end="48619" hiNote="66" hiVel="127" loNote="66" loVel="0" loopEnabled="true" loopEnd="48614" loopStart="37887" path="Resources/Percussion 2 Samples/Almglocken Hi f.wav" rootNote="65" />
-			<sample end="48619" hiNote="67" hiVel="127" loNote="67" loVel="0" loopEnabled="true" loopEnd="48614" loopStart="37887" path="Resources/Percussion 2 Samples/Almglocken Hi f.wav" rootNote="69" />
-			<sample end="25808" hiNote="68" hiVel="127" loNote="68" loVel="0" loopEnabled="true" loopEnd="25803" loopStart="23200" path="Resources/Percussion 2 Samples/Almglocken Lowf.wav" rootNote="68" />
-			<sample end="11227" hiNote="69" hiVel="105" loNote="69" loVel="0" path="Resources/Percussion 2 Samples/Sand Block 1.wav" rootNote="69" />
-			<sample end="3651" hiNote="69" hiVel="120" loNote="69" loVel="106" path="Resources/Percussion 2 Samples/Sand Block 2.wav" rootNote="69" />
-			<sample end="3215" hiNote="69" hiVel="127" loNote="69" loVel="121" path="Resources/Percussion 2 Samples/Sand Block 3.wav" rootNote="69" />
-			<sample end="25400" hiNote="70" hiVel="127" loNote="70" loVel="0" path="Resources/Percussion 2 Samples/Maracas 1.wav" rootNote="70" volume="-2.0dB" />
-			<sample end="7438" hiNote="70" hiVel="127" loNote="70" loVel="115" path="Resources/Percussion 2 Samples/Maracas 2.wav" rootNote="70" volume="-2.0dB" />
-			<sample end="24798" hiNote="71" hiVel="127" loNote="71" loVel="0" loopEnabled="true" loopEnd="24793" loopStart="2681" path="Resources/Percussion 2 Samples/Maracas Shake.wav" rootNote="71" />
-			<sample end="9442" hiNote="72" hiVel="103" loNote="72" loVel="0" path="Resources/Percussion 2 Samples/Slapstick 1.wav" rootNote="72" volume="-1.0dB" />
-			<sample end="10256" hiNote="72" hiVel="127" loNote="72" loVel="104" path="Resources/Percussion 2 Samples/Slapstick 2.wav" rootNote="72" volume="-4.0dB" />
-			<sample end="7463" hiNote="73" hiVel="110" loNote="73" loVel="0" path="Resources/Percussion 2 Samples/Guiro 1.wav" rootNote="73" />
-			<sample end="6134" hiNote="73" hiVel="127" loNote="73" loVel="111" path="Resources/Percussion 2 Samples/Guiro 2.wav" rootNote="73" />
-			<sample end="21242" hiNote="74" hiVel="127" loNote="74" loVel="0" path="Resources/Percussion 2 Samples/Guiro Long 2.wav" rootNote="74" />
-			<sample end="6439" hiNote="75" hiVel="115" loNote="75" loVel="0" path="Resources/Percussion 2 Samples/Clave mf 1.wav" rootNote="75" volume="-4.0dB" />
-			<sample end="7760" hiNote="75" hiVel="127" loNote="75" loVel="116" path="Resources/Percussion 2 Samples/Clave mf 2.wav" rootNote="75" volume="-4.0dB" />
-			<sample end="7232" hiNote="76" hiVel="118" loNote="76" loVel="0" path="Resources/Percussion 2 Samples/Wood Block Hi 1.wav" rootNote="73" />
-			<sample end="6577" hiNote="76" hiVel="127" loNote="76" loVel="117" path="Resources/Percussion 2 Samples/Wood Block Hi 2.wav" rootNote="73" tuning="0.05" />
-			<sample end="7232" hiNote="77" hiVel="120" loNote="77" loVel="0" path="Resources/Percussion 2 Samples/Wood Block Hi 1.wav" rootNote="77" />
-			<sample end="6577" hiNote="77" hiVel="127" loNote="77" loVel="121" path="Resources/Percussion 2 Samples/Wood Block Hi 2.wav" rootNote="77" />
-			<sample end="18935" hiNote="78" hiVel="119" loNote="78" loVel="0" path="Resources/Percussion 2 Samples/Tambourine 2.wav" rootNote="77" />
-			<sample end="17141" hiNote="78" hiVel="127" loNote="78" loVel="120" path="Resources/Percussion 2 Samples/Tambourine 3.wav" rootNote="77" />
-			<sample end="28722" hiNote="79" hiVel="127" loNote="79" loVel="0" loopEnabled="true" loopEnd="28717" loopStart="2449" path="Resources/Percussion 2 Samples/Tambourine Shak.wav" rootNote="77" />
-			<sample end="14969" hiNote="80" hiVel="127" loNote="80" loVel="0" path="Resources/Percussion 2 Samples/Triangle Mute.wav" rootNote="80" volume="-13.0dB" />
-			<sample end="25834" hiNote="81" hiVel="127" loNote="81" loVel="0" loopEnabled="true" loopEnd="25829" loopStart="23647" path="Resources/Percussion 2 Samples/Triangle Open f.wav" rootNote="81" />
-			<sample end="64399" hiNote="82" hiVel="127" loNote="82" loVel="0" loopEnabled="true" loopEnd="64394" loopStart="2949" path="Resources/Percussion 2 Samples/Triangle Roll.wav" rootNote="82" volume="-7.0dB" />
-			<sample end="7983" hiNote="83" hiVel="127" loNote="83" loVel="0" path="Resources/Percussion 2 Samples/FingerCymClosed.wav" rootNote="83" />
-			<sample end="59952" hiNote="84" hiVel="127" loNote="84" loVel="0" loopEnabled="true" loopEnd="59947" loopStart="43885" path="Resources/Percussion 2 Samples/FingerCym Open.wav" rootNote="84" />
-			<sample end="62830" hiNote="86" hiVel="127" loNote="86" loVel="0" path="Resources/Percussion 2 Samples/ThunderSheetHit.wav" rootNote="86" volume="-2.0dB" />
-			<sample end="18950" hiNote="86" hiVel="127" loNote="86" loVel="99" path="Resources/Percussion 2 Samples/ThunderSheetHit.wav" rootNote="86" volume="-1.0dB" />
-			<sample end="62830" hiNote="87" hiVel="127" loNote="87" loVel="0" path="Resources/Percussion 2 Samples/ThunderSheetHit.wav" rootNote="84" volume="-2.0dB" />
-			<sample end="15252" hiNote="88" hiVel="127" loNote="88" loVel="0" loopEnabled="true" loopEnd="15247" loopStart="14084" path="Resources/Percussion 2 Samples/Anvil Hi 1.wav" rootNote="88" />
-			<sample end="5376" hiNote="89" hiVel="112" loNote="89" loVel="0" path="Resources/Percussion 2 Samples/Ratchet 1.wav" rootNote="89" volume="-4.0dB" />
-			<sample end="9274" hiNote="89" hiVel="127" loNote="89" loVel="113" path="Resources/Percussion 2 Samples/Ratchet 2.wav" rootNote="89" volume="-4.0dB" />
-			<sample end="18028" hiNote="90" hiVel="127" loNote="90" loVel="0" loopEnabled="true" loopEnd="18023" loopStart="2175" path="Resources/Percussion 2 Samples/Ratchet Roll.wav" rootNote="90" volume="-4.0dB" />
-			<sample end="15252" hiNote="91" hiVel="127" loNote="91" loVel="0" loopEnabled="true" loopEnd="15247" loopStart="14084" path="Resources/Percussion 2 Samples/Anvil Hi 1.wav" rootNote="103" />
-			<sample end="98231" hiNote="53" hiVel="127" loNote="53" loVel="0" loopEnabled="true" loopEnd="98226" loopStart="71796" path="Resources/Percussion 2 Samples/SusCymbal Bell 1.wav" rootNote="53" volume="-3.0dB" />
-			<sample end="92594" hiNote="54" hiVel="127" loNote="54" loVel="0" loopEnabled="true" loopEnd="92589" loopStart="37665" path="Resources/Percussion 2 Samples/Cymbal Roll f.wav" rootNote="54" volume="-4.0dB" />
-			<sample end="173103" hiNote="55" hiVel="127" loNote="55" loVel="0" loopEnabled="true" loopEnd="173098" loopStart="144754" path="Resources/Percussion 2 Samples/Sus Cymbal Cresc.wav" rootNote="55" />
-			<sample end="162626" hiNote="85" hiVel="127" loNote="85" loVel="0" path="Resources/Percussion 2 Samples/Bell Tree Down.wav" rootNote="85" />
+			<sample rootNote="35" loNote="0" hiNote="35" loVel="0" hiVel="127" end="105865" loopEnabled="true" loopEnd="105860" loopStart="74432" path="Resources/Percussion 2 Samples/Concert BD 2 f.wav" />
+			<sample rootNote="35" loNote="0" hiNote="35" loVel="96" hiVel="127" end="35804" path="Resources/Percussion 2 Samples/Concert BD 9 ff.wav" />
+			<sample rootNote="36" loNote="36" hiNote="36" loVel="0" hiVel="114" end="34941" path="Resources/Percussion 2 Samples/Concert BD 8 f.wav" volume="-1.0dB" />
+			<sample rootNote="36" loNote="36" hiNote="36" loVel="115" hiVel="127" end="35804" path="Resources/Percussion 2 Samples/Concert BD 9 ff.wav" volume="-1.0dB" />
+			<sample rootNote="37" loNote="37" hiNote="37" loVel="0" hiVel="127" end="64172" loopEnabled="true" loopEnd="64167" loopStart="16775" path="Resources/Percussion 2 Samples/Snare Roll 1.wav" volume="-6.0dB" />
+			<sample rootNote="38" loNote="38" hiNote="38" loVel="0" hiVel="93" end="14164" path="Resources/Percussion 2 Samples/Snare mf.wav" volume="-1.0dB" />
+			<sample rootNote="38" loNote="38" hiNote="38" loVel="94" hiVel="110" end="17538" path="Resources/Percussion 2 Samples/Snare f.wav" volume="-1.0dB" />
+			<sample rootNote="38" loNote="38" hiNote="38" loVel="111" hiVel="127" end="21708" path="Resources/Percussion 2 Samples/Snare ff.wav" volume="-1.0dB" />
+			<sample rootNote="39" loNote="39" hiNote="39" loVel="0" hiVel="127" end="37550" loopEnabled="true" loopEnd="37545" loopStart="12156" path="Resources/Percussion 2 Samples/PiccoloSnareRol.wav" tuning="0.43" volume="-4.0dB" />
+			<sample rootNote="40" loNote="40" hiNote="40" loVel="0" hiVel="79" end="16732" path="Resources/Percussion 2 Samples/PiccoloSnare mf.wav" tuning="0.43" />
+			<sample rootNote="40" loNote="40" hiNote="40" loVel="80" hiVel="101" end="17542" path="Resources/Percussion 2 Samples/Piccolo Snare f.wav" tuning="0.43" />
+			<sample rootNote="40" loNote="40" hiNote="40" loVel="102" hiVel="127" end="20613" path="Resources/Percussion 2 Samples/PiccoloSnareRim.wav" tuning="0.43" />
+			<sample rootNote="40" loNote="40" hiNote="40" loVel="126" hiVel="127" end="20369" path="Resources/Percussion 2 Samples/PiccoloSnareRim.wav" tuning="0.43" />
+			<sample rootNote="35" loNote="41" hiNote="41" loVel="0" hiVel="90" end="40477" loopEnabled="true" loopEnd="40472" loopStart="35519" path="Resources/Percussion 2 Samples/ConcertTom 4 mf.wav" />
+			<sample rootNote="35" loNote="41" hiNote="41" loVel="91" hiVel="115" end="37489" loopEnabled="true" loopEnd="37484" loopStart="32523" path="Resources/Percussion 2 Samples/ConcertTom 4 f.wav" />
+			<sample rootNote="35" loNote="41" hiNote="41" loVel="116" hiVel="127" end="41521" loopEnabled="true" loopEnd="41516" loopStart="36553" path="Resources/Percussion 2 Samples/ConcertTom 4 ff.wav" />
+			<sample rootNote="36" loNote="42" hiNote="42" loVel="0" hiVel="90" end="40477" loopEnabled="true" loopEnd="40472" loopStart="35519" path="Resources/Percussion 2 Samples/ConcertTom 4 mf.wav" tuning="0.08" />
+			<sample rootNote="36" loNote="42" hiNote="42" loVel="91" hiVel="115" end="37489" loopEnabled="true" loopEnd="37484" loopStart="32523" path="Resources/Percussion 2 Samples/ConcertTom 4 f.wav" tuning="0.08" />
+			<sample rootNote="36" loNote="42" hiNote="42" loVel="116" hiVel="127" end="41521" loopEnabled="true" loopEnd="41516" loopStart="36553" path="Resources/Percussion 2 Samples/ConcertTom 4 ff.wav" tuning="0.08" />
+			<sample rootNote="43" loNote="43" hiNote="43" loVel="0" hiVel="86" end="34379" loopEnabled="true" loopEnd="34374" loopStart="30432" path="Resources/Percussion 2 Samples/ConcertTom 3 mf.wav" />
+			<sample rootNote="43" loNote="43" hiNote="43" loVel="87" hiVel="127" end="33186" loopEnabled="true" loopEnd="33181" loopStart="29142" path="Resources/Percussion 2 Samples/ConcertTom 3 ff.wav" />
+			<sample rootNote="44" loNote="44" hiNote="44" loVel="0" hiVel="86" end="34379" loopEnabled="true" loopEnd="34374" loopStart="30432" path="Resources/Percussion 2 Samples/ConcertTom 3 mf.wav" tuning="0.08" />
+			<sample rootNote="44" loNote="44" hiNote="44" loVel="87" hiVel="127" end="33186" loopEnabled="true" loopEnd="33181" loopStart="29142" path="Resources/Percussion 2 Samples/ConcertTom 3 ff.wav" tuning="0.08" />
+			<sample rootNote="45" loNote="45" hiNote="45" loVel="0" hiVel="95" end="35268" loopEnabled="true" loopEnd="35263" loopStart="32838" path="Resources/Percussion 2 Samples/ConcertTom 2 mf.wav" />
+			<sample rootNote="45" loNote="45" hiNote="45" loVel="96" hiVel="110" end="37917" loopEnabled="true" loopEnd="37912" loopStart="35482" path="Resources/Percussion 2 Samples/ConcertTom 2 f.wav" />
+			<sample rootNote="45" loNote="45" hiNote="45" loVel="111" hiVel="127" end="37531" loopEnabled="true" loopEnd="37526" loopStart="35086" path="Resources/Percussion 2 Samples/ConcertTom 2 ff.wav" />
+			<sample rootNote="46" loNote="46" hiNote="46" loVel="0" hiVel="95" end="35268" loopEnabled="true" loopEnd="35263" loopStart="32838" path="Resources/Percussion 2 Samples/ConcertTom 2 mf.wav" tuning="0.08" />
+			<sample rootNote="46" loNote="46" hiNote="46" loVel="96" hiVel="110" end="37917" loopEnabled="true" loopEnd="37912" loopStart="35482" path="Resources/Percussion 2 Samples/ConcertTom 2 f.wav" tuning="0.08" />
+			<sample rootNote="46" loNote="46" hiNote="46" loVel="111" hiVel="127" end="37531" loopEnabled="true" loopEnd="37526" loopStart="35086" path="Resources/Percussion 2 Samples/ConcertTom 2 ff.wav" tuning="0.08" />
+			<sample rootNote="47" loNote="47" hiNote="47" loVel="0" hiVel="109" end="36293" loopEnabled="true" loopEnd="36288" loopStart="34434" path="Resources/Percussion 2 Samples/ConcertTom 1 f.wav" tuning="0.03" />
+			<sample rootNote="47" loNote="47" hiNote="47" loVel="110" hiVel="127" end="35648" loopEnabled="true" loopEnd="35643" loopStart="33789" path="Resources/Percussion 2 Samples/ConcertTom 1 ff.wav" />
+			<sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="109" end="36293" loopEnabled="true" loopEnd="36288" loopStart="34434" path="Resources/Percussion 2 Samples/ConcertTom 1 f.wav" tuning="0.11" />
+			<sample rootNote="48" loNote="48" hiNote="48" loVel="110" hiVel="127" end="35648" loopEnabled="true" loopEnd="35643" loopStart="33789" path="Resources/Percussion 2 Samples/ConcertTom 1 ff.wav" tuning="0.08" />
+			<sample rootNote="49" loNote="49" hiNote="49" loVel="0" hiVel="127" end="96950" loopEnabled="true" loopEnd="96945" loopStart="67064" path="Resources/Percussion 2 Samples/Piatti ff.wav" volume="-3.0dB" />
+			<sample rootNote="50" loNote="50" hiNote="50" loVel="0" hiVel="127" end="20267" path="Resources/Percussion 2 Samples/Piatti Closed f.wav" volume="-5.0dB" />
+			<sample rootNote="51" loNote="51" hiNote="51" loVel="0" hiVel="127" end="156582" loopEnabled="true" loopEnd="156577" loopStart="129919" path="Resources/Percussion 2 Samples/SusCymbalOpen f.wav" volume="-8.0dB" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="20432" path="Resources/Percussion 2 Samples/SusCymbalClosed.wav" volume="-5.0dB" />
+			<sample rootNote="56" loNote="56" hiNote="56" loVel="0" hiVel="127" end="21880" path="Resources/Percussion 2 Samples/Cowbell Hi f.wav" />
+			<sample rootNote="57" loNote="57" hiNote="57" loVel="0" hiVel="127" end="22581" loopEnabled="true" loopEnd="22576" loopStart="20595" path="Resources/Percussion 2 Samples/Cowbell Low ff.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" loVel="0" hiVel="119" end="9065" path="Resources/Percussion 2 Samples/TempleBlock Hi.wav" />
+			<sample rootNote="58" loNote="58" hiNote="58" loVel="120" hiVel="127" end="8576" path="Resources/Percussion 2 Samples/TempleBlockHi f.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" loVel="0" hiVel="120" end="8252" path="Resources/Percussion 2 Samples/TempleBlockLow.wav" />
+			<sample rootNote="59" loNote="59" hiNote="59" loVel="121" hiVel="127" end="9147" path="Resources/Percussion 2 Samples/TempleBlockLowf.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" loVel="0" hiVel="119" end="15784" path="Resources/Percussion 2 Samples/Bongo Hi p.wav" />
+			<sample rootNote="60" loNote="60" hiNote="60" loVel="120" hiVel="127" end="15094" path="Resources/Percussion 2 Samples/Bongo Hi ff 1.wav" />
+			<sample rootNote="61" loNote="61" hiNote="61" loVel="0" hiVel="127" end="22159" loopEnabled="true" loopEnd="22154" loopStart="4619" path="Resources/Percussion 2 Samples/Bongo Hi Roll 1.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" loVel="0" hiVel="119" end="16136" path="Resources/Percussion 2 Samples/Bongo Low mf.wav" />
+			<sample rootNote="62" loNote="62" hiNote="62" loVel="120" hiVel="127" end="16309" path="Resources/Percussion 2 Samples/Bongo Low f.wav" />
+			<sample rootNote="63" loNote="63" hiNote="63" loVel="0" hiVel="127" end="34352" loopEnabled="true" loopEnd="34347" loopStart="8064" path="Resources/Percussion 2 Samples/Bongo Low Roll.wav" volume="-2.0dB" />
+			<sample rootNote="64" loNote="64" hiNote="64" loVel="0" hiVel="120" end="6748" path="Resources/Percussion 2 Samples/Castanet 1.wav" />
+			<sample rootNote="64" loNote="64" hiNote="64" loVel="121" hiVel="127" end="8127" path="Resources/Percussion 2 Samples/Castanet 2.wav" />
+			<sample rootNote="65" loNote="65" hiNote="65" loVel="0" hiVel="127" end="15571" loopEnabled="true" loopEnd="15566" loopStart="3233" path="Resources/Percussion 2 Samples/Castanet Roll 1.wav" />
+			<sample rootNote="65" loNote="66" hiNote="66" loVel="0" hiVel="127" end="48619" loopEnabled="true" loopEnd="48614" loopStart="37887" path="Resources/Percussion 2 Samples/Almglocken Hi f.wav" />
+			<sample rootNote="69" loNote="67" hiNote="67" loVel="0" hiVel="127" end="48619" loopEnabled="true" loopEnd="48614" loopStart="37887" path="Resources/Percussion 2 Samples/Almglocken Hi f.wav" />
+			<sample rootNote="68" loNote="68" hiNote="68" loVel="0" hiVel="127" end="25808" loopEnabled="true" loopEnd="25803" loopStart="23200" path="Resources/Percussion 2 Samples/Almglocken Lowf.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" loVel="0" hiVel="105" end="11227" path="Resources/Percussion 2 Samples/Sand Block 1.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" loVel="106" hiVel="120" end="3651" path="Resources/Percussion 2 Samples/Sand Block 2.wav" />
+			<sample rootNote="69" loNote="69" hiNote="69" loVel="121" hiVel="127" end="3215" path="Resources/Percussion 2 Samples/Sand Block 3.wav" />
+			<sample rootNote="70" loNote="70" hiNote="70" loVel="0" hiVel="127" end="25400" path="Resources/Percussion 2 Samples/Maracas 1.wav" volume="-2.0dB" />
+			<sample rootNote="70" loNote="70" hiNote="70" loVel="115" hiVel="127" end="7438" path="Resources/Percussion 2 Samples/Maracas 2.wav" volume="-2.0dB" />
+			<sample rootNote="71" loNote="71" hiNote="71" loVel="0" hiVel="127" end="24798" loopEnabled="true" loopEnd="24793" loopStart="2681" path="Resources/Percussion 2 Samples/Maracas Shake.wav" />
+			<sample rootNote="72" loNote="72" hiNote="72" loVel="0" hiVel="103" end="9442" path="Resources/Percussion 2 Samples/Slapstick 1.wav" volume="-1.0dB" />
+			<sample rootNote="72" loNote="72" hiNote="72" loVel="104" hiVel="127" end="10256" path="Resources/Percussion 2 Samples/Slapstick 2.wav" volume="-4.0dB" />
+			<sample rootNote="73" loNote="73" hiNote="73" loVel="0" hiVel="110" end="7463" path="Resources/Percussion 2 Samples/Guiro 1.wav" />
+			<sample rootNote="73" loNote="73" hiNote="73" loVel="111" hiVel="127" end="6134" path="Resources/Percussion 2 Samples/Guiro 2.wav" />
+			<sample rootNote="74" loNote="74" hiNote="74" loVel="0" hiVel="127" end="21242" path="Resources/Percussion 2 Samples/Guiro Long 2.wav" />
+			<sample rootNote="75" loNote="75" hiNote="75" loVel="0" hiVel="115" end="6439" path="Resources/Percussion 2 Samples/Clave mf 1.wav" volume="-4.0dB" />
+			<sample rootNote="75" loNote="75" hiNote="75" loVel="116" hiVel="127" end="7760" path="Resources/Percussion 2 Samples/Clave mf 2.wav" volume="-4.0dB" />
+			<sample rootNote="73" loNote="76" hiNote="76" loVel="0" hiVel="118" end="7232" path="Resources/Percussion 2 Samples/Wood Block Hi 1.wav" />
+			<sample rootNote="73" loNote="76" hiNote="76" loVel="117" hiVel="127" end="6577" path="Resources/Percussion 2 Samples/Wood Block Hi 2.wav" tuning="0.05" />
+			<sample rootNote="77" loNote="77" hiNote="77" loVel="0" hiVel="120" end="7232" path="Resources/Percussion 2 Samples/Wood Block Hi 1.wav" />
+			<sample rootNote="77" loNote="77" hiNote="77" loVel="121" hiVel="127" end="6577" path="Resources/Percussion 2 Samples/Wood Block Hi 2.wav" />
+			<sample rootNote="77" loNote="78" hiNote="78" loVel="0" hiVel="119" end="18935" path="Resources/Percussion 2 Samples/Tambourine 2.wav" />
+			<sample rootNote="77" loNote="78" hiNote="78" loVel="120" hiVel="127" end="17141" path="Resources/Percussion 2 Samples/Tambourine 3.wav" />
+			<sample rootNote="77" loNote="79" hiNote="79" loVel="0" hiVel="127" end="28722" loopEnabled="true" loopEnd="28717" loopStart="2449" path="Resources/Percussion 2 Samples/Tambourine Shak.wav" />
+			<sample rootNote="80" loNote="80" hiNote="80" loVel="0" hiVel="127" end="14969" path="Resources/Percussion 2 Samples/Triangle Mute.wav" volume="-13.0dB" />
+			<sample rootNote="81" loNote="81" hiNote="81" loVel="0" hiVel="127" end="25834" loopEnabled="true" loopEnd="25829" loopStart="23647" path="Resources/Percussion 2 Samples/Triangle Open f.wav" />
+			<sample rootNote="82" loNote="82" hiNote="82" loVel="0" hiVel="127" end="64399" loopEnabled="true" loopEnd="64394" loopStart="2949" path="Resources/Percussion 2 Samples/Triangle Roll.wav" volume="-7.0dB" />
+			<sample rootNote="83" loNote="83" hiNote="83" loVel="0" hiVel="127" end="7983" path="Resources/Percussion 2 Samples/FingerCymClosed.wav" />
+			<sample rootNote="84" loNote="84" hiNote="84" loVel="0" hiVel="127" end="59952" loopEnabled="true" loopEnd="59947" loopStart="43885" path="Resources/Percussion 2 Samples/FingerCym Open.wav" />
+			<sample rootNote="86" loNote="86" hiNote="86" loVel="0" hiVel="127" end="62830" path="Resources/Percussion 2 Samples/ThunderSheetHit.wav" volume="-2.0dB" />
+			<sample rootNote="86" loNote="86" hiNote="86" loVel="99" hiVel="127" end="18950" path="Resources/Percussion 2 Samples/ThunderSheetHit.wav" volume="-1.0dB" />
+			<sample rootNote="84" loNote="87" hiNote="87" loVel="0" hiVel="127" end="62830" path="Resources/Percussion 2 Samples/ThunderSheetHit.wav" volume="-2.0dB" />
+			<sample rootNote="88" loNote="88" hiNote="88" loVel="0" hiVel="127" end="15252" loopEnabled="true" loopEnd="15247" loopStart="14084" path="Resources/Percussion 2 Samples/Anvil Hi 1.wav" />
+			<sample rootNote="89" loNote="89" hiNote="89" loVel="0" hiVel="112" end="5376" path="Resources/Percussion 2 Samples/Ratchet 1.wav" volume="-4.0dB" />
+			<sample rootNote="89" loNote="89" hiNote="89" loVel="113" hiVel="127" end="9274" path="Resources/Percussion 2 Samples/Ratchet 2.wav" volume="-4.0dB" />
+			<sample rootNote="90" loNote="90" hiNote="90" loVel="0" hiVel="127" end="18028" loopEnabled="true" loopEnd="18023" loopStart="2175" path="Resources/Percussion 2 Samples/Ratchet Roll.wav" volume="-4.0dB" />
+			<sample rootNote="103" loNote="91" hiNote="91" loVel="0" hiVel="127" end="15252" loopEnabled="true" loopEnd="15247" loopStart="14084" path="Resources/Percussion 2 Samples/Anvil Hi 1.wav" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="0" hiVel="127" end="98231" loopEnabled="true" loopEnd="98226" loopStart="71796" path="Resources/Percussion 2 Samples/SusCymbal Bell 1.wav" volume="-3.0dB" />
+			<sample rootNote="54" loNote="54" hiNote="54" loVel="0" hiVel="127" end="92594" loopEnabled="true" loopEnd="92589" loopStart="37665" path="Resources/Percussion 2 Samples/Cymbal Roll f.wav" volume="-4.0dB" />
+			<sample rootNote="55" loNote="55" hiNote="55" loVel="0" hiVel="127" end="173103" loopEnabled="true" loopEnd="173098" loopStart="144754" path="Resources/Percussion 2 Samples/Sus Cymbal Cresc.wav" />
+			<sample rootNote="85" loNote="85" hiNote="85" loVel="0" hiVel="127" end="162626" path="Resources/Percussion 2 Samples/Bell Tree Down.wav" />
 		</group>
 	</groups>
 	<midi>
