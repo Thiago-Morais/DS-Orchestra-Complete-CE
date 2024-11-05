@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups release="0.029">
-		<group name="French Horns" ampVelTrack="1">
+		<group name="French Horns" ampVelTrack="0">
 			<sample rootNote="39" loNote="0" hiNote="39" loVel="0" hiVel="127" end="128272" loopEnabled="true" loopEnd="128231" loopStart="62667" path="Resources/French Horn - Sustain 02 Samples/French Horns D#3.wav" />
 			<sample rootNote="45" loNote="40" hiNote="45" loVel="0" hiVel="127" end="132160" loopEnabled="true" loopEnd="132097" loopStart="53547" path="Resources/French Horn - Sustain 02 Samples/French Horns A3.wav" />
 			<sample rootNote="51" loNote="46" hiNote="51" loVel="0" hiVel="127" end="186348" loopEnabled="true" loopEnd="186330" loopStart="57345" path="Resources/French Horn - Sustain 02 Samples/French Horns D#4.wav" />

@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" release="0.024">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="54" loNote="52" hiNote="57" loVel="100" hiVel="127" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" volume="3.0dB" />
 			<sample rootNote="61" loNote="58" hiNote="61" loVel="100" hiVel="127" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" volume="1.5dB" />
 			<sample rootNote="62" loNote="62" hiNote="64" loVel="100" hiVel="127" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" volume="1.0dB" />
@@ -44,7 +44,7 @@
 			<sample rootNote="80" loNote="80" hiNote="82" loVel="100" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" volume="1.5dB" />
 			<sample rootNote="84" loNote="83" hiNote="89" loVel="100" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" volume="2.0dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="1">
+		<group name="Group 2" ampVelTrack="0">
 			<sample rootNote="54" loNote="52" hiNote="57" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" volume="2.0dB" />
 			<sample rootNote="61" loNote="58" hiNote="61" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" volume="2.5dB" />
 			<sample rootNote="62" loNote="62" hiNote="64" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" volume="5.0dB" />
@@ -56,7 +56,7 @@
 			<sample rootNote="80" loNote="80" hiNote="82" loVel="0" hiVel="127" end="104663" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G#4-PB-loop.wav" volume="-1.0dB" />
 			<sample rootNote="84" loNote="83" hiNote="89" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C5-PB-loop.wav" volume="0.5dB" />
 		</group>
-		<group name="Group 3" ampVelTrack="1">
+		<group name="Group 3" ampVelTrack="0">
 			<sample rootNote="54" loNote="52" hiNote="57" loVel="100" hiVel="127" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" volume="3.0dB" />
 			<sample rootNote="61" loNote="58" hiNote="61" loVel="100" hiVel="127" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" volume="1.5dB" />
 			<sample rootNote="62" loNote="62" hiNote="64" loVel="100" hiVel="127" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" volume="1.0dB" />
@@ -68,7 +68,7 @@
 			<sample rootNote="80" loNote="80" hiNote="82" loVel="100" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" volume="1.5dB" />
 			<sample rootNote="84" loNote="83" hiNote="89" loVel="100" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" volume="2.0dB" />
 		</group>
-		<group name="Group 4" ampVelTrack="1">
+		<group name="Group 4" ampVelTrack="0">
 			<sample rootNote="54" loNote="52" hiNote="57" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" volume="2.0dB" />
 			<sample rootNote="61" loNote="58" hiNote="61" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" volume="2.5dB" />
 			<sample rootNote="62" loNote="62" hiNote="64" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" volume="5.0dB" />
@@ -80,7 +80,7 @@
 			<sample rootNote="80" loNote="80" hiNote="82" loVel="0" hiVel="127" end="104663" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G#4-PB-loop.wav" volume="-1.0dB" />
 			<sample rootNote="84" loNote="83" hiNote="89" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C5-PB-loop.wav" volume="0.5dB" />
 		</group>
-		<group name="Group 5" ampVelTrack="1">
+		<group name="Group 5" ampVelTrack="0">
 			<sample rootNote="54" loNote="52" hiNote="57" loVel="63" hiVel="127" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" />
 			<sample rootNote="61" loNote="58" hiNote="61" loVel="63" hiVel="127" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" start="1000" volume="4.5dB" />
 			<sample rootNote="62" loNote="62" hiNote="64" loVel="63" hiVel="127" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" volume="5.0dB" />
@@ -92,7 +92,7 @@
 			<sample rootNote="80" loNote="80" hiNote="82" loVel="63" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" volume="5.5dB" />
 			<sample rootNote="84" loNote="83" hiNote="89" loVel="63" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" volume="1.0dB" />
 		</group>
-		<group name="Group 6" ampVelTrack="1">
+		<group name="Group 6" ampVelTrack="0">
 			<sample rootNote="54" loNote="52" hiNote="57" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" volume="-1.0dB" />
 			<sample rootNote="61" loNote="58" hiNote="61" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" start="1000" volume="5.5dB" />
 			<sample rootNote="62" loNote="62" hiNote="64" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" volume="9.0dB" />
@@ -104,7 +104,7 @@
 			<sample rootNote="80" loNote="80" hiNote="82" loVel="0" hiVel="127" end="104663" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G#4-PB-loop.wav" volume="3.0dB" />
 			<sample rootNote="84" loNote="83" hiNote="89" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C5-PB-loop.wav" volume="-0.5dB" />
 		</group>
-		<group name="Group 7" ampVelTrack="1">
+		<group name="Group 7" ampVelTrack="0">
 			<sample rootNote="54" loNote="52" hiNote="57" loVel="100" hiVel="127" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" volume="3.0dB" />
 			<sample rootNote="61" loNote="58" hiNote="61" loVel="100" hiVel="127" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" volume="1.5dB" />
 			<sample rootNote="62" loNote="62" hiNote="64" loVel="100" hiVel="127" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" volume="1.0dB" />
@@ -116,7 +116,7 @@
 			<sample rootNote="80" loNote="80" hiNote="82" loVel="100" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" volume="1.5dB" />
 			<sample rootNote="84" loNote="83" hiNote="89" loVel="100" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" volume="2.0dB" />
 		</group>
-		<group name="Group 8" ampVelTrack="1">
+		<group name="Group 8" ampVelTrack="0">
 			<sample rootNote="54" loNote="52" hiNote="57" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" volume="2.0dB" />
 			<sample rootNote="61" loNote="58" hiNote="61" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" volume="2.5dB" />
 			<sample rootNote="62" loNote="62" hiNote="64" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" volume="5.0dB" />
@@ -128,7 +128,7 @@
 			<sample rootNote="80" loNote="80" hiNote="82" loVel="0" hiVel="127" end="104663" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G#4-PB-loop.wav" volume="-1.0dB" />
 			<sample rootNote="84" loNote="83" hiNote="89" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C5-PB-loop.wav" volume="0.5dB" />
 		</group>
-		<group name="Group 9" ampVelTrack="1">
+		<group name="Group 9" ampVelTrack="0">
 			<sample rootNote="54" loNote="52" hiNote="57" loVel="63" hiVel="127" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" volume="3.0dB" />
 			<sample rootNote="61" loNote="58" hiNote="61" loVel="63" hiVel="127" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" start="1000" volume="7.5dB" />
 			<sample rootNote="62" loNote="62" hiNote="64" loVel="63" hiVel="127" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" volume="8.0dB" />
@@ -140,7 +140,7 @@
 			<sample rootNote="80" loNote="80" hiNote="82" loVel="63" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" volume="8.5dB" />
 			<sample rootNote="84" loNote="83" hiNote="89" loVel="63" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" volume="4.0dB" />
 		</group>
-		<group name="Group 10" ampVelTrack="1">
+		<group name="Group 10" ampVelTrack="0">
 			<sample rootNote="54" loNote="52" hiNote="57" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" volume="2.0dB" />
 			<sample rootNote="61" loNote="58" hiNote="61" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" start="1000" volume="8.5dB" />
 			<sample rootNote="62" loNote="62" hiNote="64" loVel="0" hiVel="127" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" volume="12.0dB" />

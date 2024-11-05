@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.050" release="0.080">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="67" loNote="67" hiNote="68" loVel="0" hiVel="127" end="222354" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g3.wav" volume="1.0dB" />
 			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="220154" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#3.wav" volume="1.0dB" />
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="223153" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#4.wav" volume="1.0dB" />
@@ -48,7 +48,7 @@
 			<sample rootNote="103" loNote="102" hiNote="104" loVel="0" hiVel="127" end="207511" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g6.wav" />
 			<sample rootNote="106" loNote="105" hiNote="117" loVel="0" hiVel="127" end="195138" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#6.wav" />
 		</group>
-		<group name="Group 6" ampVelTrack="1">
+		<group name="Group 6" ampVelTrack="0">
 			<sample rootNote="67" loNote="67" hiNote="68" loVel="0" hiVel="127" end="222354" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g3.wav" volume="1.0dB" />
 			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="220154" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#3.wav" volume="1.0dB" />
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="223153" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#4.wav" volume="1.0dB" />
@@ -64,7 +64,7 @@
 			<sample rootNote="103" loNote="102" hiNote="104" loVel="0" hiVel="127" end="207511" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g6.wav" />
 			<sample rootNote="106" loNote="105" hiNote="117" loVel="0" hiVel="127" end="195138" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#6.wav" />
 		</group>
-		<group name="Group 9" ampVelTrack="1">
+		<group name="Group 9" ampVelTrack="0">
 			<sample rootNote="67" loNote="67" hiNote="68" loVel="0" hiVel="127" end="222354" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g3.wav" volume="1.0dB" />
 			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="220154" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#3.wav" volume="1.0dB" />
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="223153" path="Resources/2nd Violin Section Samples/2nd-violins-sus-c#4.wav" volume="1.0dB" />

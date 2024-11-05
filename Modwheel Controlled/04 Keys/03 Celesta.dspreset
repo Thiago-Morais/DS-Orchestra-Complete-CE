@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.003" release="0.080">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="72" loNote="72" hiNote="74" loVel="63" hiVel="127" end="400034" path="Resources/celesta Samples/c4-hard-PB.wav" tuning="-0.10" volume="-1.0dB" />
 			<sample rootNote="76" loNote="75" hiNote="77" loVel="63" hiVel="127" end="314390" path="Resources/celesta Samples/e4-hard-PB.wav" tuning="0.05" volume="-1.0dB" />
 			<sample rootNote="80" loNote="78" hiNote="83" loVel="63" hiVel="127" end="372033" path="Resources/celesta Samples/g4-hard-PB.wav" volume="-1.0dB" />
@@ -44,7 +44,7 @@
 			<sample rootNote="112" loNote="111" hiNote="113" loVel="63" hiVel="127" end="170324" path="Resources/celesta Samples/e7-hard-PB.wav" tuning="-0.45" />
 			<sample rootNote="117" loNote="114" hiNote="120" loVel="63" hiVel="127" end="201765" path="Resources/celesta Samples/g7-hard-PB.wav" tuning="0.35" volume="1.5dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="1">
+		<group name="Group 2" ampVelTrack="0">
 			<sample rootNote="72" loNote="72" hiNote="74" loVel="0" hiVel="95" end="400034" path="Resources/celesta Samples/c4-hard-PB.wav" tuning="-0.10" volume="-1.0dB" />
 			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="95" end="153081" path="Resources/celesta Samples/e4-soft-PB.wav" volume="-1.0dB" />
 			<sample rootNote="80" loNote="78" hiNote="83" loVel="0" hiVel="95" end="180290" path="Resources/celesta Samples/g4-soft-PB.wav" volume="-1.0dB" />

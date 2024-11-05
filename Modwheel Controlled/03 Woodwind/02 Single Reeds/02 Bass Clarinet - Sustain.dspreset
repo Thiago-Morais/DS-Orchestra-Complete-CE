@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.080" release="0.024">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="50" loNote="46" hiNote="51" loVel="0" hiVel="127" end="121654" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-d2-PB-loop.wav" tuning="0.19" volume="3.5dB" />
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="0" hiVel="127" end="124475" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-f2-PB-loop.wav" tuning="0.06" volume="1.0dB" />
 			<sample rootNote="56" loNote="55" hiNote="59" loVel="0" hiVel="127" end="122122" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-g#2-PB-loop.wav" volume="3.5dB" />
@@ -45,7 +45,7 @@
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="122681" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-b4-PB-loop.wav" tuning="0.03" volume="6.0dB" />
 			<sample rootNote="86" loNote="85" hiNote="93" loVel="0" hiVel="127" end="125827" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-d5-PB-loop.wav" volume="12.0dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="1">
+		<group name="Group 2" ampVelTrack="0">
 			<sample rootNote="50" loNote="46" hiNote="51" loVel="0" hiVel="127" end="121654" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-d2-PB-loop.wav" tuning="0.19" volume="3.5dB" />
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="0" hiVel="127" end="124475" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-f2-PB-loop.wav" tuning="0.06" volume="1.0dB" />
 			<sample rootNote="56" loNote="55" hiNote="59" loVel="0" hiVel="127" end="122122" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-g#2-PB-loop.wav" volume="3.5dB" />
@@ -58,7 +58,7 @@
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="122681" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-b4-PB-loop.wav" tuning="0.03" volume="6.0dB" />
 			<sample rootNote="86" loNote="85" hiNote="93" loVel="0" hiVel="127" end="125827" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-d5-PB-loop.wav" volume="12.0dB" />
 		</group>
-		<group name="Group 3" ampVelTrack="1">
+		<group name="Group 3" ampVelTrack="0">
 			<sample rootNote="50" loNote="46" hiNote="51" loVel="0" hiVel="127" end="121654" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-d2-PB-loop.wav" start="2000" tuning="0.19" volume="0.5dB" />
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="0" hiVel="127" end="124475" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-f2-PB-loop.wav" start="2500" tuning="0.06" volume="-1.0dB" />
 			<sample rootNote="56" loNote="55" hiNote="61" loVel="0" hiVel="127" end="122122" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-g#2-PB-loop.wav" start="2500" volume="2.5dB" />
@@ -69,7 +69,7 @@
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="122681" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-b4-PB-loop.wav" start="500" tuning="0.03" volume="1.0dB" />
 			<sample rootNote="86" loNote="85" hiNote="93" loVel="0" hiVel="127" end="125827" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-d5-PB-loop.wav" start="250" volume="5.5dB" />
 		</group>
-		<group name="Group 4" ampVelTrack="1">
+		<group name="Group 4" ampVelTrack="0">
 			<sample rootNote="50" loNote="46" hiNote="51" loVel="0" hiVel="127" end="121654" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-d2-PB-loop.wav" start="2000" tuning="0.19" volume="7.5dB" />
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="0" hiVel="127" end="124475" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-f2-PB-loop.wav" start="2500" tuning="0.06" volume="6.0dB" />
 			<sample rootNote="56" loNote="55" hiNote="61" loVel="0" hiVel="127" end="122122" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-g#2-PB-loop.wav" start="2500" volume="9.5dB" />
@@ -80,7 +80,7 @@
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="122681" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-b4-PB-loop.wav" start="500" tuning="0.03" volume="8.0dB" />
 			<sample rootNote="86" loNote="85" hiNote="93" loVel="0" hiVel="127" end="125827" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-d5-PB-loop.wav" start="250" volume="12.0dB" />
 		</group>
-		<group name="Group 5" ampVelTrack="1">
+		<group name="Group 5" ampVelTrack="0">
 			<sample rootNote="50" loNote="46" hiNote="51" loVel="0" hiVel="127" end="121654" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-d2-PB-loop.wav" tuning="0.19" volume="3.5dB" />
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="0" hiVel="127" end="124475" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-f2-PB-loop.wav" tuning="0.06" volume="1.0dB" />
 			<sample rootNote="56" loNote="55" hiNote="59" loVel="0" hiVel="127" end="122122" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-g#2-PB-loop.wav" volume="3.5dB" />
@@ -93,7 +93,7 @@
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="122681" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-b4-PB-loop.wav" tuning="0.03" volume="6.0dB" />
 			<sample rootNote="86" loNote="85" hiNote="93" loVel="0" hiVel="127" end="125827" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-d5-PB-loop.wav" volume="12.0dB" />
 		</group>
-		<group name="Group 6" ampVelTrack="1">
+		<group name="Group 6" ampVelTrack="0">
 			<sample rootNote="50" loNote="46" hiNote="51" loVel="0" hiVel="127" end="121654" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-d2-PB-loop.wav" start="2000" tuning="0.19" volume="7.5dB" />
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="0" hiVel="127" end="124475" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-f2-PB-loop.wav" start="2500" tuning="0.06" volume="6.0dB" />
 			<sample rootNote="56" loNote="55" hiNote="61" loVel="0" hiVel="127" end="122122" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-g#2-PB-loop.wav" start="2500" volume="9.5dB" />
