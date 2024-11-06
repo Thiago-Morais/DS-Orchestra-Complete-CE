@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.120" seqMode="random">
-		<group name="gr_1" ampVelTrack="1" volume="0dB" seqPosition="1">
+		<group name="gr_1" ampVelTrack="0" volume="0dB" seqPosition="1">
 			<sample rootNote="33" loNote="33" hiNote="34" loVel="0" hiVel="127" end="60940" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_1.wav" volume="6.0dB" />
 			<sample rootNote="36" loNote="35" hiNote="37" loVel="0" hiVel="62" end="54406" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_1.wav" volume="6.0dB" />
 			<sample rootNote="36" loNote="35" hiNote="37" loVel="63" hiVel="127" end="54459" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_1.wav" volume="6.0dB" />
@@ -62,7 +62,7 @@
 			<sample rootNote="77" loNote="76" hiNote="77" loVel="42" hiVel="83" end="38827" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_1.wav" volume="6.0dB" />
 			<sample rootNote="77" loNote="76" hiNote="77" loVel="84" hiVel="127" end="44011" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" volume="6.0dB" />
 		</group>
-		<group name="gr_2" ampVelTrack="1" volume="0dB" seqPosition="2">
+		<group name="gr_2" ampVelTrack="0" volume="0dB" seqPosition="2">
 			<sample rootNote="33" loNote="33" hiNote="34" loVel="0" hiVel="127" end="73970" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_2.wav" volume="6.0dB" />
 			<sample rootNote="36" loNote="35" hiNote="37" loVel="63" hiVel="127" end="56736" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_2.wav" volume="6.0dB" />
 			<sample rootNote="36" loNote="35" hiNote="37" loVel="0" hiVel="62" end="59071" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_2.wav" volume="6.0dB" />

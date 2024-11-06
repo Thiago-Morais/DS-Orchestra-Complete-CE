@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups release="0.028">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="67" loNote="60" hiNote="67" loVel="0" hiVel="127" end="188833" path="Resources/Viola Ensemble Samples/3_G-PB.wav" tuning="0.05" volume="-11.8dB" />
 			<sample rootNote="69" loNote="68" hiNote="69" loVel="0" hiVel="127" end="115490" path="Resources/Viola Ensemble Samples/3_A-PB.wav" tuning="0.05" volume="-11.8dB" />
 			<sample rootNote="71" loNote="70" hiNote="71" loVel="0" hiVel="127" end="97397" path="Resources/Viola Ensemble Samples/3_B-PB.wav" tuning="0.05" volume="-11.8dB" />
@@ -54,7 +54,7 @@
 			<sample rootNote="103" loNote="102" hiNote="103" loVel="0" hiVel="127" end="185216" path="Resources/Viola Ensemble Samples/6_G-PB.wav" tuning="-0.25" volume="-6.8dB" />
 			<sample rootNote="105" loNote="104" hiNote="105" loVel="0" hiVel="127" end="147004" path="Resources/Viola Ensemble Samples/6_A-PB.wav" tuning="-0.15" volume="-4.8dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="1">
+		<group name="Group 2" ampVelTrack="0">
 			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="249000" path="Resources/Viola Ensemble Samples/C3-tremolo-PB-loop.wav" volume="4.0dB" />
 			<sample rootNote="62" loNote="62" hiNote="63" loVel="0" hiVel="127" end="268330" path="Resources/Viola Ensemble Samples/D3-tremolo-PB-loop.wav" volume="4.0dB" />
 			<sample rootNote="64" loNote="64" hiNote="64" loVel="0" hiVel="127" end="268774" path="Resources/Viola Ensemble Samples/E3-tremolo-PB-loop.wav" volume="4.0dB" />

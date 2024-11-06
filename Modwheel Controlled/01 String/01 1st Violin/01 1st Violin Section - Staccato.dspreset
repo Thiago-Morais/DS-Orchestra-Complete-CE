@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.040" release="0.076">
-		<group name="Group 5" ampVelTrack="1">
+		<group name="Group 5" ampVelTrack="0">
 			<sample rootNote="68" loNote="67" hiNote="68" loVel="0" hiVel="127" end="29774" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g3-PB.wav" volume="-2.5dB" />
 			<sample rootNote="71" loNote="69" hiNote="71" loVel="0" hiVel="127" end="29739" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#3-PB.wav" volume="-2.5dB" />
 			<sample rootNote="74" loNote="72" hiNote="74" loVel="0" hiVel="127" end="29244" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#4-PB.wav" volume="-2.5dB" />
@@ -48,7 +48,7 @@
 			<sample rootNote="104" loNote="102" hiNote="104" loVel="0" hiVel="127" end="26262" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g6-PB.wav" volume="-2.5dB" />
 			<sample rootNote="107" loNote="105" hiNote="117" loVel="0" hiVel="127" end="26171" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#6-PB.wav" volume="-3.5dB" />
 		</group>
-		<group name="Group 8" ampVelTrack="1">
+		<group name="Group 8" ampVelTrack="0">
 			<sample rootNote="68" loNote="67" hiNote="68" loVel="0" hiVel="127" end="29774" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g3-PB.wav" volume="4.0dB" />
 			<sample rootNote="71" loNote="69" hiNote="71" loVel="0" hiVel="127" end="29739" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#3-PB.wav" volume="4.0dB" />
 			<sample rootNote="74" loNote="72" hiNote="74" loVel="0" hiVel="127" end="29244" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#4-PB.wav" volume="4.0dB" />
@@ -64,7 +64,7 @@
 			<sample rootNote="104" loNote="102" hiNote="104" loVel="0" hiVel="127" end="26262" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g6-PB.wav" volume="4.0dB" />
 			<sample rootNote="107" loNote="105" hiNote="117" loVel="0" hiVel="127" end="26171" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#6-PB.wav" volume="3.0dB" />
 		</group>
-		<group name="Group 11" ampVelTrack="1">
+		<group name="Group 11" ampVelTrack="0">
 			<sample rootNote="68" loNote="67" hiNote="68" loVel="0" hiVel="127" end="29774" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g3-PB.wav" volume="4.0dB" />
 			<sample rootNote="71" loNote="69" hiNote="71" loVel="0" hiVel="127" end="29739" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#3-PB.wav" volume="4.0dB" />
 			<sample rootNote="74" loNote="72" hiNote="74" loVel="0" hiVel="127" end="29244" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#4-PB.wav" volume="4.0dB" />

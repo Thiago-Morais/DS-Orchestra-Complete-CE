@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.039" decay="1" release="0.071" sustain="0.953">
-		<group name="Choral Aahs" ampVelTrack="1">
+		<group name="Choral Aahs" ampVelTrack="0">
 			<sample rootNote="45" loNote="0" hiNote="45" loVel="0" hiVel="127" end="73988" loopEnabled="true" loopEnd="73983" loopStart="29398" path="Resources/Choral Aahhs Samples/Choral Aahs A1.wav" />
 			<sample rootNote="47" loNote="46" hiNote="47" loVel="0" hiVel="127" end="72004" loopEnabled="true" loopEnd="71999" loopStart="27414" path="Resources/Choral Aahhs Samples/Choral Aahs B1.wav" tuning="-0.55" />
 			<sample rootNote="49" loNote="48" hiNote="49" loVel="0" hiVel="127" end="64388" loopEnabled="true" loopEnd="64383" loopStart="26698" path="Resources/Choral Aahhs Samples/Choral Aahs C#2.wav" tuning="-0.18" />
