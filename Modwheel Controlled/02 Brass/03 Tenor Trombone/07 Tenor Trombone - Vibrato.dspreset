@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.024">
+	<groups attack="0" release="0.024" ampVelTrack="0">
 		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="46" loNote="45" hiNote="46" loVel="0" hiVel="127" end="222633" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_A#1_v1_1.wav" volume="9.0dB" />
 			<sample rootNote="58" loNote="57" hiNote="58" loVel="0" hiVel="127" end="257900" path="Resources/Tenor Trombone - Vibrato Samples/tenortbn_vib_A#2_v1_1.wav" volume="9.0dB" />

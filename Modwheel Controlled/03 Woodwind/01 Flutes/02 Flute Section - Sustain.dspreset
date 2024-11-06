@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.030" release="0.036">
+	<groups attack="0.030" release="0.036" ampVelTrack="0">
 		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="186653" path="Resources/flute-SEC-KS-C3 Samples/4_Db.wav" />
 			<sample rootNote="77" loNote="75" hiNote="78" loVel="0" hiVel="127" end="186582" path="Resources/flute-SEC-KS-C3 Samples/4_F.wav" tuning="-0.05" />

@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.030" release="0.024">
+	<groups attack="0.030" release="0.024" ampVelTrack="0">
 		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="54" loNote="52" hiNote="57" loVel="100" hiVel="127" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" volume="3.0dB" />
 			<sample rootNote="61" loNote="58" hiNote="61" loVel="100" hiVel="127" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" volume="1.5dB" />

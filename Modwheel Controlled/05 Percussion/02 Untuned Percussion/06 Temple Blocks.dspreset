@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028">
+	<groups attack="0" release="0.028" ampVelTrack="0">
 		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="48" loNote="21" hiNote="48" loVel="0" hiVel="35" end="18934" path="Resources/TC - Temple Blocks Samples/Temple Block 1 p.wav" start="148" volume="6.020599913279624dB" />
 			<sample rootNote="48" loNote="21" hiNote="48" loVel="85" hiVel="127" end="31411" path="Resources/TC - Temple Blocks Samples/Temple Block 1 f.wav" start="98" volume="6.020599913279624dB" />

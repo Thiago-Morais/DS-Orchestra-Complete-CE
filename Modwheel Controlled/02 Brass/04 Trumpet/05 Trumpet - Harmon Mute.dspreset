@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028">
+	<groups attack="0" release="0.028" ampVelTrack="0">
 		<group name="ff" ampVelTrack="0">
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="0" hiVel="127" end="281800" loopEnabled="true" loopEnd="269178" loopStart="114601" path="Resources/Trumpet - Harmon Mute Samples/F0_f.wav" volume="2.0494202125166807dB" />
 			<sample rootNote="55" loNote="55" hiNote="56" loVel="0" hiVel="127" end="292626" loopEnabled="true" loopEnd="269321" loopStart="183147" path="Resources/Trumpet - Harmon Mute Samples/G0_f.wav" volume="2.0494202125166807dB" />

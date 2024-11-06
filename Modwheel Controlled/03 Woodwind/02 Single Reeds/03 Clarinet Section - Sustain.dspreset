@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.040" release="0.024">
+	<groups attack="0.040" release="0.024" ampVelTrack="0">
 		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="62" loNote="62" hiNote="63" loVel="0" hiVel="127" end="202672" path="Resources/clarinet-SEC-KS-C2 Samples/3_D.wav" volume="-1.0dB" />
 			<sample rootNote="66" loNote="64" hiNote="67" loVel="0" hiVel="127" end="198532" path="Resources/clarinet-SEC-KS-C2 Samples/3_Gb.wav" volume="-1.0dB" />

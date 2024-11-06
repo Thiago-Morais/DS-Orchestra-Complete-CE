@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" seqMode="random">
+	<groups attack="0" release="0.028" seqMode="random" ampVelTrack="0">
 		<group name="Stac RR 1" ampVelTrack="0" seqPosition="1" trigger="first">
 			<sample rootNote="33" loNote="33" hiNote="34" loVel="0" hiVel="48" end="96404" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_1.wav" volume="5.85730903073885dB" />
 			<sample rootNote="36" loNote="33" hiNote="37" loVel="49" hiVel="127" end="64689" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_1.wav" volume="5.85730903073885dB" />

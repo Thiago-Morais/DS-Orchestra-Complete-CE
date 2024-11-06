@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups release="0.320">
+	<groups release="0.320" ampVelTrack="0">
 		<group name="Orchestra Hit" ampVelTrack="0">
 			<sample rootNote="24" loNote="1" hiNote="24" loVel="0" hiVel="127" end="88200" path="Resources/Orchestra Hit 1 Samples/ORChit24.wav" volume="0dB" />
 			<sample rootNote="25" loNote="25" hiNote="25" loVel="0" hiVel="127" end="88200" path="Resources/Orchestra Hit 1 Samples/ORChit25.wav" volume="0dB" />

@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups release="0.020">
+	<groups release="0.020" ampVelTrack="0">
 		<group name="FF Brass 1" ampVelTrack="0">
 			<sample rootNote="55" loNote="0" hiNote="57" loVel="90" hiVel="127" end="166746" loopEnabled="true" loopEnd="166745" loopStart="114952" path="Resources/Designed Brass Pad 1 Samples/MCA_55.wav" />
 			<sample rootNote="60" loNote="58" hiNote="61" loVel="90" hiVel="127" end="193594" loopEnabled="true" loopEnd="193593" loopStart="147707" path="Resources/Designed Brass Pad 1 Samples/MCA_60.wav" />
