@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.063" decay="0.880" release="0.050" sustain="0.700">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="55" loNote="55" hiNote="55" loVel="0" hiVel="127" end="381659" path="Resources/Choir Samples/chorus-male-g2-PB-loop.wav" volume="1.0dB" />
 			<sample rootNote="56" loNote="56" hiNote="56" loVel="0" hiVel="127" end="387166" path="Resources/Choir Samples/chorus-male-g#2-PB-loop.wav" volume="7.0dB" />
 			<sample rootNote="57" loNote="57" hiNote="57" loVel="0" hiVel="127" end="388076" path="Resources/Choir Samples/chorus-male-a2-PB-loop.wav" volume="4.0dB" />

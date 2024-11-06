@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" release="0.018">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="65" loNote="64" hiNote="66" loVel="0" hiVel="127" end="198450" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-f3-PB-loop.wav" volume="7.0dB" />
 			<sample rootNote="68" loNote="67" hiNote="69" loVel="0" hiVel="127" end="223788" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-g#3-PB-loop.wav" tuning="-0.05" volume="5.0dB" />
 			<sample rootNote="71" loNote="70" hiNote="72" loVel="0" hiVel="127" end="158762" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-b3-PB-loop.wav" volume="5.0dB" />
@@ -43,7 +43,7 @@
 			<sample rootNote="86" loNote="85" hiNote="87" loVel="0" hiVel="127" end="200675" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-d5-PB-loop.wav" volume="7.0dB" />
 			<sample rootNote="89" loNote="88" hiNote="94" loVel="0" hiVel="127" end="172425" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-f5-PB-loop.wav" tuning="-0.08" volume="10.0dB" />
 		</group>
-		<group name="Group 3" ampVelTrack="1">
+		<group name="Group 3" ampVelTrack="0">
 			<sample rootNote="65" loNote="64" hiNote="66" loVel="0" hiVel="127" end="198450" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-f3-PB-loop.wav" volume="7.0dB" />
 			<sample rootNote="68" loNote="67" hiNote="69" loVel="0" hiVel="127" end="223788" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-g#3-PB-loop.wav" tuning="-0.05" volume="5.0dB" />
 			<sample rootNote="71" loNote="70" hiNote="72" loVel="0" hiVel="127" end="158762" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-b3-PB-loop.wav" volume="5.0dB" />
@@ -54,7 +54,7 @@
 			<sample rootNote="86" loNote="85" hiNote="87" loVel="0" hiVel="127" end="200675" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-d5-PB-loop.wav" volume="7.0dB" />
 			<sample rootNote="89" loNote="88" hiNote="94" loVel="0" hiVel="127" end="172425" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-f5-PB-loop.wav" tuning="-0.08" volume="10.0dB" />
 		</group>
-		<group name="Group 5" ampVelTrack="1">
+		<group name="Group 5" ampVelTrack="0">
 			<sample rootNote="65" loNote="64" hiNote="66" loVel="0" hiVel="127" end="198450" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-f3-PB-loop.wav" volume="7.0dB" />
 			<sample rootNote="68" loNote="67" hiNote="69" loVel="0" hiVel="127" end="223788" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-g#3-PB-loop.wav" tuning="-0.05" volume="5.0dB" />
 			<sample rootNote="71" loNote="70" hiNote="72" loVel="0" hiVel="127" end="158762" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-b3-PB-loop.wav" volume="5.0dB" />

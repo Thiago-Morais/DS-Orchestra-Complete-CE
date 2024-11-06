@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.080" release="0.024">
-		<group name="Group 1" ampVelTrack="1">
+		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="65" loNote="62" hiNote="65" loVel="54" hiVel="127" end="206592" path="Resources/clarinet-SOLO-KS-C2 Samples/3_F_f-PB.wav" start="780" />
 			<sample rootNote="67" loNote="66" hiNote="67" loVel="54" hiVel="127" end="117904" path="Resources/clarinet-SOLO-KS-C2 Samples/3_G_f-PB.wav" start="922" />
 			<sample rootNote="69" loNote="68" hiNote="69" loVel="54" hiVel="127" end="168557" path="Resources/clarinet-SOLO-KS-C2 Samples/3_A_f-PB.wav" start="1347" />
@@ -45,7 +45,7 @@
 			<sample rootNote="95" loNote="92" hiNote="96" loVel="54" hiVel="127" end="210176" path="Resources/clarinet-SOLO-KS-C2 Samples/5_B_f-PB.wav" start="2605" />
 			<sample rootNote="99" loNote="97" hiNote="106" loVel="54" hiVel="127" end="208300" path="Resources/clarinet-SOLO-KS-C2 Samples/6_Eb_f-PB.wav" start="2036" />
 		</group>
-		<group name="Group 2" ampVelTrack="1">
+		<group name="Group 2" ampVelTrack="0">
 			<sample rootNote="65" loNote="62" hiNote="65" loVel="0" hiVel="104" end="162799" path="Resources/clarinet-SOLO-KS-C2 Samples/3_F_mf-PB.wav" start="673" />
 			<sample rootNote="67" loNote="66" hiNote="67" loVel="0" hiVel="104" end="150036" path="Resources/clarinet-SOLO-KS-C2 Samples/3_G_mf-PB.wav" start="532" />
 			<sample rootNote="69" loNote="68" hiNote="69" loVel="0" hiVel="104" end="176291" path="Resources/clarinet-SOLO-KS-C2 Samples/3_A_mf-PB-loop.wav" start="1063" />
@@ -62,7 +62,7 @@
 			<sample rootNote="101" loNote="98" hiNote="101" loVel="0" hiVel="104" end="138752" path="Resources/clarinet-SOLO-KS-C2 Samples/6_F_mf-PB.wav" start="656" />
 			<sample rootNote="103" loNote="102" hiNote="106" loVel="0" hiVel="104" end="152832" path="Resources/clarinet-SOLO-KS-C2 Samples/6_G_mf-PB.wav" start="1208" />
 		</group>
-		<group name="Group 3" ampVelTrack="1">
+		<group name="Group 3" ampVelTrack="0">
 			<sample rootNote="65" loNote="62" hiNote="65" loVel="54" hiVel="127" end="206592" path="Resources/clarinet-SOLO-KS-C2 Samples/3_F_f-PB.wav" start="780" />
 			<sample rootNote="67" loNote="66" hiNote="67" loVel="54" hiVel="127" end="117904" path="Resources/clarinet-SOLO-KS-C2 Samples/3_G_f-PB.wav" start="922" />
 			<sample rootNote="69" loNote="68" hiNote="69" loVel="54" hiVel="127" end="168557" path="Resources/clarinet-SOLO-KS-C2 Samples/3_A_f-PB.wav" start="1347" />
@@ -75,7 +75,7 @@
 			<sample rootNote="95" loNote="92" hiNote="96" loVel="54" hiVel="127" end="210176" path="Resources/clarinet-SOLO-KS-C2 Samples/5_B_f-PB.wav" start="2605" />
 			<sample rootNote="99" loNote="97" hiNote="106" loVel="54" hiVel="127" end="208300" path="Resources/clarinet-SOLO-KS-C2 Samples/6_Eb_f-PB.wav" start="2036" />
 		</group>
-		<group name="Group 4" ampVelTrack="1">
+		<group name="Group 4" ampVelTrack="0">
 			<sample rootNote="65" loNote="62" hiNote="65" loVel="0" hiVel="104" end="162799" path="Resources/clarinet-SOLO-KS-C2 Samples/3_F_mf-PB.wav" start="673" />
 			<sample rootNote="67" loNote="66" hiNote="67" loVel="0" hiVel="104" end="150036" path="Resources/clarinet-SOLO-KS-C2 Samples/3_G_mf-PB.wav" start="532" />
 			<sample rootNote="69" loNote="68" hiNote="69" loVel="0" hiVel="104" end="176291" path="Resources/clarinet-SOLO-KS-C2 Samples/3_A_mf-PB-loop.wav" start="1063" />
@@ -92,7 +92,7 @@
 			<sample rootNote="101" loNote="98" hiNote="101" loVel="0" hiVel="104" end="138752" path="Resources/clarinet-SOLO-KS-C2 Samples/6_F_mf-PB.wav" start="656" />
 			<sample rootNote="103" loNote="102" hiNote="106" loVel="0" hiVel="104" end="152832" path="Resources/clarinet-SOLO-KS-C2 Samples/6_G_mf-PB.wav" start="1208" />
 		</group>
-		<group name="Group 5" ampVelTrack="1">
+		<group name="Group 5" ampVelTrack="0">
 			<sample rootNote="65" loNote="62" hiNote="65" loVel="54" hiVel="127" end="206592" path="Resources/clarinet-SOLO-KS-C2 Samples/3_F_f-PB.wav" start="3000" volume="4.0dB" />
 			<sample rootNote="67" loNote="66" hiNote="67" loVel="54" hiVel="127" end="117904" path="Resources/clarinet-SOLO-KS-C2 Samples/3_G_f-PB.wav" start="3000" />
 			<sample rootNote="69" loNote="68" hiNote="69" loVel="54" hiVel="127" end="168557" path="Resources/clarinet-SOLO-KS-C2 Samples/3_A_f-PB.wav" start="3000" volume="1.0dB" />
@@ -105,7 +105,7 @@
 			<sample rootNote="95" loNote="92" hiNote="96" loVel="54" hiVel="127" end="210176" path="Resources/clarinet-SOLO-KS-C2 Samples/5_B_f-PB.wav" start="3000" />
 			<sample rootNote="99" loNote="97" hiNote="106" loVel="54" hiVel="127" end="208300" path="Resources/clarinet-SOLO-KS-C2 Samples/6_Eb_f-PB.wav" start="3000" volume="5.0dB" />
 		</group>
-		<group name="Group 6" ampVelTrack="1">
+		<group name="Group 6" ampVelTrack="0">
 			<sample rootNote="65" loNote="62" hiNote="65" loVel="0" hiVel="104" end="162799" path="Resources/clarinet-SOLO-KS-C2 Samples/3_F_mf-PB.wav" start="3000" />
 			<sample rootNote="67" loNote="66" hiNote="67" loVel="0" hiVel="104" end="150036" path="Resources/clarinet-SOLO-KS-C2 Samples/3_G_mf-PB.wav" start="3000" />
 			<sample rootNote="69" loNote="68" hiNote="69" loVel="0" hiVel="104" end="176291" path="Resources/clarinet-SOLO-KS-C2 Samples/3_A_mf-PB-loop.wav" start="3000" />
@@ -122,7 +122,7 @@
 			<sample rootNote="101" loNote="98" hiNote="101" loVel="0" hiVel="104" end="138752" path="Resources/clarinet-SOLO-KS-C2 Samples/6_F_mf-PB.wav" start="3000" />
 			<sample rootNote="103" loNote="102" hiNote="106" loVel="0" hiVel="104" end="152832" path="Resources/clarinet-SOLO-KS-C2 Samples/6_G_mf-PB.wav" start="3000" />
 		</group>
-		<group name="Group 7" ampVelTrack="1">
+		<group name="Group 7" ampVelTrack="0">
 			<sample rootNote="65" loNote="62" hiNote="65" loVel="54" hiVel="127" end="206592" path="Resources/clarinet-SOLO-KS-C2 Samples/3_F_f-PB.wav" start="780" />
 			<sample rootNote="67" loNote="66" hiNote="67" loVel="54" hiVel="127" end="117904" path="Resources/clarinet-SOLO-KS-C2 Samples/3_G_f-PB.wav" start="922" />
 			<sample rootNote="69" loNote="68" hiNote="69" loVel="54" hiVel="127" end="168557" path="Resources/clarinet-SOLO-KS-C2 Samples/3_A_f-PB.wav" start="1347" />
@@ -135,7 +135,7 @@
 			<sample rootNote="95" loNote="92" hiNote="96" loVel="54" hiVel="127" end="210176" path="Resources/clarinet-SOLO-KS-C2 Samples/5_B_f-PB.wav" start="2605" />
 			<sample rootNote="99" loNote="97" hiNote="106" loVel="54" hiVel="127" end="208300" path="Resources/clarinet-SOLO-KS-C2 Samples/6_Eb_f-PB.wav" start="2036" />
 		</group>
-		<group name="Group 8" ampVelTrack="1">
+		<group name="Group 8" ampVelTrack="0">
 			<sample rootNote="65" loNote="62" hiNote="65" loVel="0" hiVel="104" end="162799" path="Resources/clarinet-SOLO-KS-C2 Samples/3_F_mf-PB.wav" start="673" />
 			<sample rootNote="67" loNote="66" hiNote="67" loVel="0" hiVel="104" end="150036" path="Resources/clarinet-SOLO-KS-C2 Samples/3_G_mf-PB.wav" start="532" />
 			<sample rootNote="69" loNote="68" hiNote="69" loVel="0" hiVel="104" end="176291" path="Resources/clarinet-SOLO-KS-C2 Samples/3_A_mf-PB-loop.wav" start="1063" />
@@ -152,7 +152,7 @@
 			<sample rootNote="101" loNote="98" hiNote="101" loVel="0" hiVel="104" end="138752" path="Resources/clarinet-SOLO-KS-C2 Samples/6_F_mf-PB.wav" start="656" />
 			<sample rootNote="103" loNote="102" hiNote="106" loVel="0" hiVel="104" end="152832" path="Resources/clarinet-SOLO-KS-C2 Samples/6_G_mf-PB.wav" start="1208" />
 		</group>
-		<group name="Group 9" ampVelTrack="1">
+		<group name="Group 9" ampVelTrack="0">
 			<sample rootNote="65" loNote="62" hiNote="65" loVel="54" hiVel="127" end="206592" path="Resources/clarinet-SOLO-KS-C2 Samples/3_F_f-PB.wav" start="3000" volume="4.0dB" />
 			<sample rootNote="67" loNote="66" hiNote="67" loVel="54" hiVel="127" end="117904" path="Resources/clarinet-SOLO-KS-C2 Samples/3_G_f-PB.wav" start="3000" />
 			<sample rootNote="69" loNote="68" hiNote="69" loVel="54" hiVel="127" end="168557" path="Resources/clarinet-SOLO-KS-C2 Samples/3_A_f-PB.wav" start="3000" volume="1.0dB" />
@@ -165,7 +165,7 @@
 			<sample rootNote="95" loNote="92" hiNote="96" loVel="54" hiVel="127" end="210176" path="Resources/clarinet-SOLO-KS-C2 Samples/5_B_f-PB.wav" start="3000" />
 			<sample rootNote="99" loNote="97" hiNote="106" loVel="54" hiVel="127" end="208300" path="Resources/clarinet-SOLO-KS-C2 Samples/6_Eb_f-PB.wav" start="3000" volume="5.0dB" />
 		</group>
-		<group name="Group 10" ampVelTrack="1">
+		<group name="Group 10" ampVelTrack="0">
 			<sample rootNote="65" loNote="62" hiNote="65" loVel="0" hiVel="104" end="162799" path="Resources/clarinet-SOLO-KS-C2 Samples/3_F_mf-PB.wav" start="3000" />
 			<sample rootNote="67" loNote="66" hiNote="67" loVel="0" hiVel="104" end="150036" path="Resources/clarinet-SOLO-KS-C2 Samples/3_G_mf-PB.wav" start="3000" />
 			<sample rootNote="69" loNote="68" hiNote="69" loVel="0" hiVel="104" end="176291" path="Resources/clarinet-SOLO-KS-C2 Samples/3_A_mf-PB-loop.wav" start="3000" />

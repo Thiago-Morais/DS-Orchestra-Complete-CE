@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="BrassUp" ampVelTrack="1">
+		<group name="BrassUp" ampVelTrack="0">
 			<sample rootNote="60" loNote="0" hiNote="127" loVel="0" hiVel="127" end="151397" path="Resources/BrassUp Samples/BrassUp.wav" />
 		</group>
 	</groups>

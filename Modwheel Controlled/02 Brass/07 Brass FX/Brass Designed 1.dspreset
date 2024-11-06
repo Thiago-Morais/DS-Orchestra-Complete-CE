@@ -32,7 +32,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028">
-		<group name="Brass sfz" ampVelTrack="1">
+		<group name="Brass sfz" ampVelTrack="0">
 			<sample rootNote="60" loNote="0" hiNote="127" loVel="0" hiVel="127" end="99291" path="Resources/Brass sfz Samples/Brass Sfz.wav" />
 		</group>
 	</groups>
