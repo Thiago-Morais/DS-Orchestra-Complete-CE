@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028">
+	<groups attack="0" release="0.028" ampVelTrack="0">
 		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="46" loNote="46" hiNote="48" loVel="0" hiVel="62" end="247560" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_A#1_v1_1.wav" volume="12.0dB" />
 			<sample rootNote="46" loNote="46" hiNote="48" loVel="63" hiVel="127" end="207757" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_A#1_v2_1.wav" volume="6.0dB" />

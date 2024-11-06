@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.060" release="0.024">
+	<groups attack="0.060" release="0.024" ampVelTrack="0">
 		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="70" loNote="67" hiNote="71" loVel="0" hiVel="127" end="111193" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-A#3-PB-loop.wav" tuning="0.14" volume="-2.5dB" />
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="124757" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-C#4-PB-loop.wav" tuning="0.10" volume="-2.5dB" />

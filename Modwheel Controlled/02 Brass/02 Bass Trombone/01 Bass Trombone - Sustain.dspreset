@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028">
+	<groups attack="0" release="0.028" ampVelTrack="0">
 		<group name="mf" ampVelTrack="0">
 			<sample rootNote="67" loNote="67" hiNote="69" loVel="0" hiVel="127" end="105019" loopEnabled="true" loopEnd="83520" loopStart="61020" path="Resources/Bass Trombone - Sustain Samples/BASS_TROMBONE_MED_G4.wav" volume="4.087677621887512dB" />
 			<sample rootNote="34" loNote="34" hiNote="34" loVel="0" hiVel="127" end="114844" loopEnabled="true" loopEnd="78370" loopStart="52070" path="Resources/Bass Trombone - Sustain Samples/BASS_TROMBONE_MED_A#1.wav" tuning="-0.10" volume="4.087677621887512dB" />

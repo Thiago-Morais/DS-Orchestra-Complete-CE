@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups release="0.199">
+	<groups release="0.199" ampVelTrack="0">
 		<group name="Spacy Aah" ampVelTrack="0">
 			<sample rootNote="36" loNote="0" hiNote="42" loVel="0" hiVel="127" end="269356" loopEnabled="true" loopEnd="269356" loopStart="171009" path="Resources/FS1R Spacy Aah Samples/spacyaah C1.wav" />
 			<sample rootNote="48" loNote="43" hiNote="54" loVel="0" hiVel="127" end="272433" loopEnabled="true" loopEnd="272433" loopStart="150705" path="Resources/FS1R Spacy Aah Samples/spacyaah C2.wav" />

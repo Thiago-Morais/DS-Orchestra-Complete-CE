@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.040" release="0.072">
+	<groups attack="0.040" release="0.072" ampVelTrack="0">
 		<group name="Group 10" ampVelTrack="0">
 			<sample rootNote="39" loNote="36" hiNote="40" loVel="0" hiVel="127" end="95725" path="Resources/Bass Solo Samples/Bass.pizz.Eb1-PB.wav" />
 			<sample rootNote="41" loNote="41" hiNote="43" loVel="0" hiVel="127" end="133019" path="Resources/Bass Solo Samples/Bass.pizz.F1-PB.wav" tuning="-0.10" />

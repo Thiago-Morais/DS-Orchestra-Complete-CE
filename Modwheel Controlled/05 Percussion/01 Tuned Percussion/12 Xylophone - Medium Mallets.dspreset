@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.600">
+	<groups attack="0" release="0.600" ampVelTrack="0">
 		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="55" loNote="55" hiNote="57" loVel="0" hiVel="83" end="146376" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G3_pp_01_far.wav" volume="12.0dB" />
 			<sample rootNote="55" loNote="55" hiNote="57" loVel="84" hiVel="127" end="159682" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G3_ff_01_far.wav" volume="1.425835dB" />

@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.001" release="0.040">
+	<groups attack="0.001" release="0.040" ampVelTrack="0">
 		<group name="gr_1" ampVelTrack="0">
 			<sample rootNote="24" loNote="24" hiNote="27" loVel="0" hiVel="80" end="331383" path="Resources/VSUpright1 Samples/UR1_C1_pp_RR1.wav" volume="12.0dB" />
 			<sample rootNote="36" loNote="34" hiNote="39" loVel="0" hiVel="60" end="465398" path="Resources/VSUpright1 Samples/UR1_C2_pp_RR1.wav" volume="12.0dB" />

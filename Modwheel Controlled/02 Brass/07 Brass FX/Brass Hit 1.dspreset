@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups release="1">
+	<groups release="1" ampVelTrack="0">
 		<group name="Large Brass Short F" ampVelTrack="0">
 			<sample rootNote="46" loNote="24" hiNote="46" loVel="0" hiVel="127" end="45279" path="Resources/Brass Shot Forte S Samples/LGBRSHTF46-R.wav" />
 			<sample rootNote="48" loNote="47" hiNote="48" loVel="0" hiVel="127" end="41311" path="Resources/Brass Shot Forte S Samples/LGBRSHTF48-R.wav" />

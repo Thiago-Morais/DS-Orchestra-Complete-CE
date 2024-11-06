@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.001" release="0.400">
+	<groups attack="0.001" release="0.400" ampVelTrack="0">
 		<group name="gr_1" ampVelTrack="0">
 			<sample rootNote="46" loNote="46" hiNote="46" loVel="0" hiVel="80" end="354735" path="Resources/Harp_Normal Samples/EWHarp_Normal_A#1_v2_RR1.wav" volume="12.0dB" />
 			<sample rootNote="58" loNote="58" hiNote="58" loVel="0" hiVel="80" end="277435" path="Resources/Harp_Normal Samples/EWHarp_Normal_A#2_v2_RR1.wav" volume="12.0dB" />

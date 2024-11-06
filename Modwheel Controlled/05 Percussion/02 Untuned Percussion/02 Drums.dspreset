@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0">
+	<groups attack="0" release="0" ampVelTrack="0">
 		<group name="Group 1" ampVelTrack="0">
 			<sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="104" end="43959" path="Resources/bassdrum-snare-cymbals Samples/bass_drum-p-PB.wav" volume="7.0dB" />
 			<sample rootNote="48" loNote="48" hiNote="48" loVel="54" hiVel="127" end="43959" path="Resources/bassdrum-snare-cymbals Samples/bass_drum-f-PB.wav" volume="7.0dB" />

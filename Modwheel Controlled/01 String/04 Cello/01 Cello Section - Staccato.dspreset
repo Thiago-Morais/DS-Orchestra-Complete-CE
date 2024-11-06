@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.060" release="0.084">
+	<groups attack="0.060" release="0.084" ampVelTrack="0">
 		<group name="gr_1" ampVelTrack="0" volume="-8dB">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="62" end="137652" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR1.wav" volume="12.0dB" />
 			<sample rootNote="52" loNote="50" hiNote="53" loVel="0" hiVel="62" end="50370" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR1.wav" volume="12.0dB" />
