@@ -27,6 +27,18 @@
 			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
 			</labeled-knob>
+			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 2 samples -->
+				<!--
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				-->
+				<!-- Cross fade between 3 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+			</labeled-knob>
 		</tab>
 		<keyboard />
 	</ui>
@@ -124,17 +136,17 @@
 		</group>
 	</groups>
 	<midi>
+		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="amp" level="instrument" parameter="AMP_VOLUME" />
-			<!-- Cross fade between 2 samples -->
-			<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-ff" translation="table" translationTable="00,0;52,0;76,1;128,1" />
-			<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-mp" translation="table" translationTable="00,1;52,1;76,0;128,0" />
-			<!-- Cross fade between 3 samples -->
-			<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-ff" translation="table" translationTable="00,0;30,0;54,0;72,0;96,1;128,1" />
-			<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-mf" translation="table" translationTable="00,0;30,0;54,1;72,1;96,0;128,0" />
-			<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-mp" translation="table" translationTable="00,1;30,1;54,0;72,0;96,0;128,0" />
+			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
+		<!-- Controls attack with note velocity -->
+		<note note="0-127">
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		</note>
 	</midi>
+	<!-- Initial dynamics values -->
 	<tags>
 		<tag name="dynamics-ff" volume="1" />
 		<tag name="dynamics-mf" volume="0" />
