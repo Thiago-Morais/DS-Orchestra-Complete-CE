@@ -33,7 +33,7 @@
 	</ui>
 	<groups release="0.026">
 		<group name="000.061" ampVelTrack="0">
-			<sample rootNote="28" loNote="0" hiNote="48" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.wav" />
+			<sample rootNote="28" loNote="0" hiNote="48" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.000.wav" />
 			<sample rootNote="52" loNote="49" hiNote="52" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.004.wav" />
 			<sample rootNote="55" loNote="53" hiNote="56" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.005.wav" />
 			<sample rootNote="60" loNote="57" hiNote="60" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.006.wav" />
