@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Oboe.png">
 		<tab name="main">
@@ -28,47 +27,69 @@
 			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
 			</labeled-knob>
+			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 2 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<!-- Cross fade between 3 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+			</labeled-knob>
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028">
-		<group name="MF Layer" ampVelTrack="1">
-			<sample end="178632" hiNote="58" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="177343" loopStart="133081" path="Resources/c - Oboe Samples/OboeA#3mf.wav" rootNote="58" volume="0.7432478815118999dB" />
-			<sample end="94870" hiNote="71" hiVel="127" loNote="69" loVel="0" loopEnabled="true" loopEnd="94814" loopStart="77465" path="Resources/c - Oboe Samples/OboeA#4mf.wav" rootNote="70" volume="0.7432478815118999dB" />
-			<sample end="127159" hiNote="82" hiVel="127" loNote="81" loVel="0" loopEnabled="true" loopEnd="127026" loopStart="93412" path="Resources/c - Oboe Samples/OboeA#5mf.wav" rootNote="82" volume="0.7432478815118999dB" />
-			<sample end="155661" hiNote="94" hiVel="127" loNote="92" loVel="0" loopEnabled="true" loopEnd="155581" loopStart="139881" path="Resources/c - Oboe Samples/OboeA6mf.wav" rootNote="93" volume="0.7432478815118999dB" />
-			<sample end="179389" hiNote="61" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="177002" loopStart="134026" path="Resources/c - Oboe Samples/OboeC4mf.wav" rootNote="60" volume="0.7432478815118999dB" />
-			<sample end="160576" hiNote="85" hiVel="127" loNote="83" loVel="0" loopEnabled="true" loopEnd="160519" loopStart="135201" path="Resources/c - Oboe Samples/OboeC6mf.wav" rootNote="84" volume="0.7432478815118999dB" />
-			<sample end="177434" hiNote="63" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="177409" loopStart="133345" path="Resources/c - Oboe Samples/OboeD#4mf.wav" rootNote="63" volume="0.7432478815118999dB" />
-			<sample end="145943" hiNote="77" hiVel="127" loNote="75" loVel="0" loopEnabled="true" loopEnd="145884" loopStart="128329" path="Resources/c - Oboe Samples/OboeD#5mf.wav" rootNote="75" volume="0.7432478815118999dB" />
-			<sample end="155724" hiNote="88" hiVel="127" loNote="86" loVel="0" loopEnabled="true" loopEnd="153335" loopStart="136826" path="Resources/c - Oboe Samples/OboeD#6mf.wav" rootNote="87" volume="0.7432478815118999dB" />
-			<sample end="119033" hiNote="74" hiVel="127" loNote="72" loVel="0" loopEnabled="true" loopEnd="118941" loopStart="85117" path="Resources/c - Oboe Samples/OboeD5mf.wav" rootNote="74" volume="0.7432478815118999dB" />
-			<sample end="159462" hiNote="65" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="159444" loopStart="142188" path="Resources/c - Oboe Samples/OboeE4mf.wav" rootNote="64" volume="0.7432478815118999dB" />
-			<sample end="156809" hiNote="91" hiVel="127" loNote="89" loVel="0" loopEnabled="true" loopEnd="155437" loopStart="140327" path="Resources/c - Oboe Samples/OboeF#6mf.wav" rootNote="90" volume="0.7432478815118999dB" />
-			<sample end="132770" hiNote="68" hiVel="127" loNote="66" loVel="0" loopEnabled="true" loopEnd="132748" loopStart="107097" path="Resources/c - Oboe Samples/OboeG4mf.wav" rootNote="67" volume="0.7432478815118999dB" />
-			<sample end="67797" hiNote="80" hiVel="127" loNote="78" loVel="0" loopEnabled="true" loopEnd="67775" loopStart="50875" path="Resources/c - Oboe Samples/OboeG5mf.wav" rootNote="79" volume="0.7432478815118999dB" />
+	<groups attack="0" release="0.028" ampVelTrack="0">
+		<group name="MF Layer" ampVelTrack="0">
+			<sample rootNote="58" loNote="58" hiNote="58" loVel="0" hiVel="127" end="178632" loopEnabled="true" loopEnd="177343" loopStart="133081" path="Resources/c - Oboe Samples/OboeA#3mf.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="94870" loopEnabled="true" loopEnd="94814" loopStart="77465" path="Resources/c - Oboe Samples/OboeA#4mf.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="82" loNote="81" hiNote="82" loVel="0" hiVel="127" end="127159" loopEnabled="true" loopEnd="127026" loopStart="93412" path="Resources/c - Oboe Samples/OboeA#5mf.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="155661" loopEnabled="true" loopEnd="155581" loopStart="139881" path="Resources/c - Oboe Samples/OboeA6mf.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="60" loNote="59" hiNote="61" loVel="0" hiVel="127" end="179389" loopEnabled="true" loopEnd="177002" loopStart="134026" path="Resources/c - Oboe Samples/OboeC4mf.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="127" end="160576" loopEnabled="true" loopEnd="160519" loopStart="135201" path="Resources/c - Oboe Samples/OboeC6mf.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="63" loNote="62" hiNote="63" loVel="0" hiVel="127" end="177434" loopEnabled="true" loopEnd="177409" loopStart="133345" path="Resources/c - Oboe Samples/OboeD#4mf.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="75" loNote="75" hiNote="77" loVel="0" hiVel="127" end="145943" loopEnabled="true" loopEnd="145884" loopStart="128329" path="Resources/c - Oboe Samples/OboeD#5mf.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="0" hiVel="127" end="155724" loopEnabled="true" loopEnd="153335" loopStart="136826" path="Resources/c - Oboe Samples/OboeD#6mf.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="74" loNote="72" hiNote="74" loVel="0" hiVel="127" end="119033" loopEnabled="true" loopEnd="118941" loopStart="85117" path="Resources/c - Oboe Samples/OboeD5mf.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="64" loNote="64" hiNote="65" loVel="0" hiVel="127" end="159462" loopEnabled="true" loopEnd="159444" loopStart="142188" path="Resources/c - Oboe Samples/OboeE4mf.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="0" hiVel="127" end="156809" loopEnabled="true" loopEnd="155437" loopStart="140327" path="Resources/c - Oboe Samples/OboeF#6mf.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="67" loNote="66" hiNote="68" loVel="0" hiVel="127" end="132770" loopEnabled="true" loopEnd="132748" loopStart="107097" path="Resources/c - Oboe Samples/OboeG4mf.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="67797" loopEnabled="true" loopEnd="67775" loopStart="50875" path="Resources/c - Oboe Samples/OboeG5mf.wav" volume="0.7432478815118999dB" />
 		</group>
-		<group name="FF Layer" ampVelTrack="1">
-			<sample end="178632" hiNote="58" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="177343" loopStart="133081" path="Resources/c - Oboe Samples/OboeA#3ff.wav" rootNote="58" volume="0.7432478815118999dB" />
-			<sample end="94870" hiNote="71" hiVel="127" loNote="69" loVel="0" loopEnabled="true" loopEnd="94814" loopStart="77465" path="Resources/c - Oboe Samples/OboeA#4ff.wav" rootNote="70" volume="0.7432478815118999dB" />
-			<sample end="127159" hiNote="82" hiVel="127" loNote="81" loVel="0" loopEnabled="true" loopEnd="127026" loopStart="93412" path="Resources/c - Oboe Samples/OboeA#5ff.wav" rootNote="82" volume="0.7432478815118999dB" />
-			<sample end="155661" hiNote="94" hiVel="127" loNote="92" loVel="0" loopEnabled="true" loopEnd="155581" loopStart="139881" path="Resources/c - Oboe Samples/OboeA6ff.wav" rootNote="93" volume="0.7432478815118999dB" />
-			<sample end="179389" hiNote="61" hiVel="127" loNote="59" loVel="0" loopEnabled="true" loopEnd="177002" loopStart="134026" path="Resources/c - Oboe Samples/OboeC4ff.wav" rootNote="60" volume="0.7432478815118999dB" />
-			<sample end="160576" hiNote="85" hiVel="127" loNote="83" loVel="0" loopEnabled="true" loopEnd="160519" loopStart="135201" path="Resources/c - Oboe Samples/OboeC6ff.wav" rootNote="84" volume="0.7432478815118999dB" />
-			<sample end="177434" hiNote="63" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="177409" loopStart="133345" path="Resources/c - Oboe Samples/OboeD#4ff.wav" rootNote="63" volume="0.7432478815118999dB" />
-			<sample end="145943" hiNote="77" hiVel="127" loNote="75" loVel="0" loopEnabled="true" loopEnd="145884" loopStart="128329" path="Resources/c - Oboe Samples/OboeD#5ff.wav" rootNote="75" volume="0.7432478815118999dB" />
-			<sample end="155724" hiNote="88" hiVel="127" loNote="86" loVel="0" loopEnabled="true" loopEnd="150345" loopStart="132657" path="Resources/c - Oboe Samples/OboeD#6ff.wav" rootNote="87" volume="0.7432478815118999dB" />
-			<sample end="119033" hiNote="74" hiVel="127" loNote="72" loVel="0" loopEnabled="true" loopEnd="118941" loopStart="85117" path="Resources/c - Oboe Samples/OboeD5ff.wav" rootNote="74" volume="0.7432478815118999dB" />
-			<sample end="159462" hiNote="65" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="159444" loopStart="142188" path="Resources/c - Oboe Samples/OboeE4ff.wav" rootNote="64" volume="0.7432478815118999dB" />
-			<sample end="156809" hiNote="91" hiVel="127" loNote="89" loVel="0" loopEnabled="true" loopEnd="155437" loopStart="140327" path="Resources/c - Oboe Samples/OboeF#6ff.wav" rootNote="90" volume="0.7432478815118999dB" />
-			<sample end="132770" hiNote="68" hiVel="127" loNote="66" loVel="0" loopEnabled="true" loopEnd="132748" loopStart="107097" path="Resources/c - Oboe Samples/OboeG4ff.wav" rootNote="67" volume="0.7432478815118999dB" />
-			<sample end="67797" hiNote="80" hiVel="127" loNote="78" loVel="0" loopEnabled="true" loopEnd="67775" loopStart="50875" path="Resources/c - Oboe Samples/OboeG5ff.wav" rootNote="79" volume="0.7432478815118999dB" />
+		<group name="FF Layer" ampVelTrack="0">
+			<sample rootNote="58" loNote="58" hiNote="58" loVel="0" hiVel="127" end="178632" loopEnabled="true" loopEnd="177343" loopStart="133081" path="Resources/c - Oboe Samples/OboeA#3ff.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="94870" loopEnabled="true" loopEnd="94814" loopStart="77465" path="Resources/c - Oboe Samples/OboeA#4ff.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="82" loNote="81" hiNote="82" loVel="0" hiVel="127" end="127159" loopEnabled="true" loopEnd="127026" loopStart="93412" path="Resources/c - Oboe Samples/OboeA#5ff.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="155661" loopEnabled="true" loopEnd="155581" loopStart="139881" path="Resources/c - Oboe Samples/OboeA6ff.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="60" loNote="59" hiNote="61" loVel="0" hiVel="127" end="179389" loopEnabled="true" loopEnd="177002" loopStart="134026" path="Resources/c - Oboe Samples/OboeC4ff.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="127" end="160576" loopEnabled="true" loopEnd="160519" loopStart="135201" path="Resources/c - Oboe Samples/OboeC6ff.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="63" loNote="62" hiNote="63" loVel="0" hiVel="127" end="177434" loopEnabled="true" loopEnd="177409" loopStart="133345" path="Resources/c - Oboe Samples/OboeD#4ff.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="75" loNote="75" hiNote="77" loVel="0" hiVel="127" end="145943" loopEnabled="true" loopEnd="145884" loopStart="128329" path="Resources/c - Oboe Samples/OboeD#5ff.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="0" hiVel="127" end="155724" loopEnabled="true" loopEnd="150345" loopStart="132657" path="Resources/c - Oboe Samples/OboeD#6ff.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="74" loNote="72" hiNote="74" loVel="0" hiVel="127" end="119033" loopEnabled="true" loopEnd="118941" loopStart="85117" path="Resources/c - Oboe Samples/OboeD5ff.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="64" loNote="64" hiNote="65" loVel="0" hiVel="127" end="159462" loopEnabled="true" loopEnd="159444" loopStart="142188" path="Resources/c - Oboe Samples/OboeE4ff.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="0" hiVel="127" end="156809" loopEnabled="true" loopEnd="155437" loopStart="140327" path="Resources/c - Oboe Samples/OboeF#6ff.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="67" loNote="66" hiNote="68" loVel="0" hiVel="127" end="132770" loopEnabled="true" loopEnd="132748" loopStart="107097" path="Resources/c - Oboe Samples/OboeG4ff.wav" volume="0.7432478815118999dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="67797" loopEnabled="true" loopEnd="67775" loopStart="50875" path="Resources/c - Oboe Samples/OboeG5ff.wav" volume="0.7432478815118999dB" />
 		</group>
 	</groups>
 	<midi>
+		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
+		<!-- Controls attack with note velocity -->
+		<note note="0-127">
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		</note>
 	</midi>
+	<!-- Initial dynamics values -->
+	<tags>
+		<tag name="3-dynamics-ff" volume="1" />
+		<tag name="3-dynamics-mf" volume="0" />
+		<tag name="3-dynamics-mp" volume="0" />
+	</tags>
 	<modulators />
 </DecentSampler>

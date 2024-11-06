@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Piccolo.png">
 		<tab name="main">
@@ -28,28 +27,50 @@
 			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
 			</labeled-knob>
+			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 2 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<!-- Cross fade between 3 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+			</labeled-knob>
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028">
-		<group name="Sustain" ampVelTrack="1">
-			<sample end="199797" hiNote="88" hiVel="127" loNote="86" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-d#5.wav" rootNote="87" volume="6.020599913279624dB" />
-			<sample end="201422" hiNote="100" hiVel="127" loNote="98" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-d#6.wav" rootNote="99" volume="6.020599913279624dB" />
-			<sample end="200382" hiNote="79" hiVel="127" loNote="77" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-f#4.wav" rootNote="78" volume="6.020599913279624dB" />
-			<sample end="202176" hiNote="91" hiVel="127" loNote="89" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-f#5.wav" rootNote="90" volume="6.020599913279624dB" />
-			<sample end="197314" hiNote="103" hiVel="127" loNote="101" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-f#6.wav" rootNote="102" volume="6.020599913279624dB" />
-			<sample end="200278" hiNote="82" hiVel="127" loNote="80" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-a4.wav" rootNote="81" volume="6.020599913279624dB" />
-			<sample end="200993" hiNote="94" hiVel="127" loNote="92" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-a5.wav" rootNote="93" volume="6.020599913279624dB" />
-			<sample end="198315" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-c4.wav" rootNote="72" volume="6.020599913279624dB" />
-			<sample end="199264" hiNote="85" hiVel="127" loNote="83" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-c5.wav" rootNote="84" volume="6.020599913279624dB" />
-			<sample end="201578" hiNote="97" hiVel="127" loNote="95" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-c6.wav" rootNote="96" volume="6.020599913279624dB" />
-			<sample end="197444" hiNote="76" hiVel="127" loNote="74" loVel="0" path="Resources/TC - Piccolo Samples/piccolo-d#4.wav" rootNote="75" volume="6.020599913279624dB" />
+	<groups attack="0" release="0.028" ampVelTrack="0">
+		<group name="Sustain" ampVelTrack="0">
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="0" hiVel="127" end="199797" path="Resources/TC - Piccolo Samples/piccolo-d#5.wav" volume="6.020599913279624dB" />
+			<sample rootNote="99" loNote="98" hiNote="100" loVel="0" hiVel="127" end="201422" path="Resources/TC - Piccolo Samples/piccolo-d#6.wav" volume="6.020599913279624dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="0" hiVel="127" end="200382" path="Resources/TC - Piccolo Samples/piccolo-f#4.wav" volume="6.020599913279624dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="0" hiVel="127" end="202176" path="Resources/TC - Piccolo Samples/piccolo-f#5.wav" volume="6.020599913279624dB" />
+			<sample rootNote="102" loNote="101" hiNote="103" loVel="0" hiVel="127" end="197314" path="Resources/TC - Piccolo Samples/piccolo-f#6.wav" volume="6.020599913279624dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="127" end="200278" path="Resources/TC - Piccolo Samples/piccolo-a4.wav" volume="6.020599913279624dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="200993" path="Resources/TC - Piccolo Samples/piccolo-a5.wav" volume="6.020599913279624dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="127" end="198315" path="Resources/TC - Piccolo Samples/piccolo-c4.wav" volume="6.020599913279624dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="127" end="199264" path="Resources/TC - Piccolo Samples/piccolo-c5.wav" volume="6.020599913279624dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="0" hiVel="127" end="201578" path="Resources/TC - Piccolo Samples/piccolo-c6.wav" volume="6.020599913279624dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="0" hiVel="127" end="197444" path="Resources/TC - Piccolo Samples/piccolo-d#4.wav" volume="6.020599913279624dB" />
 		</group>
 	</groups>
 	<midi>
+		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
+		<!-- Controls attack with note velocity -->
+		<note note="0-127">
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		</note>
 	</midi>
+	<!-- Initial dynamics values -->
+	<tags>
+		<tag name="3-dynamics-ff" volume="1" />
+		<tag name="3-dynamics-mf" volume="0" />
+		<tag name="3-dynamics-mp" volume="0" />
+	</tags>
 	<modulators />
 </DecentSampler>

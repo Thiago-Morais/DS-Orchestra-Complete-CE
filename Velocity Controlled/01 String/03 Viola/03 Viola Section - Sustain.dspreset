@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Viola.png">
 		<tab name="main">
@@ -33,97 +32,97 @@
 	</ui>
 	<groups attack="0.060" release="0.084">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="264861" hiNote="61" hiVel="127" loNote="60" loVel="0" path="Resources/Viola Ensemble Samples/Violas_c3.wav" rootNote="60" volume="-2.68dB" />
-			<sample end="205450" hiNote="64" hiVel="127" loNote="62" loVel="0" path="Resources/Viola Ensemble Samples/Violas_d#3.wav" rootNote="63" volume="-5.5dB" />
-			<sample end="267978" hiNote="67" hiVel="127" loNote="65" loVel="0" path="Resources/Viola Ensemble Samples/Violas_f#3.wav" rootNote="66" volume="-5.5dB" />
-			<sample end="249330" hiNote="70" hiVel="127" loNote="68" loVel="0" path="Resources/Viola Ensemble Samples/Violas_a3.wav" rootNote="69" volume="-5.0dB" />
-			<sample end="259764" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/Viola Ensemble Samples/Violas_c4.wav" rootNote="72" volume="-5.0dB" />
-			<sample end="214186" hiNote="76" hiVel="127" loNote="74" loVel="0" path="Resources/Viola Ensemble Samples/Violas_d#4.wav" rootNote="75" volume="-5.0dB" />
-			<sample end="212294" hiNote="79" hiVel="127" loNote="77" loVel="0" path="Resources/Viola Ensemble Samples/Violas_f#4.wav" rootNote="78" volume="-6.0dB" />
-			<sample end="266734" hiNote="82" hiVel="127" loNote="80" loVel="0" path="Resources/Viola Ensemble Samples/Violas_a4.wav" rootNote="81" volume="-6.0dB" />
-			<sample end="266646" hiNote="85" hiVel="127" loNote="83" loVel="0" path="Resources/Viola Ensemble Samples/Violas_c5.wav" rootNote="84" volume="-2.68dB" />
-			<sample end="208150" hiNote="88" hiVel="127" loNote="86" loVel="0" path="Resources/Viola Ensemble Samples/Violas_d#5.wav" rootNote="87" volume="-6.0dB" />
-			<sample end="214192" hiNote="91" hiVel="127" loNote="89" loVel="0" path="Resources/Viola Ensemble Samples/Violas_f#5.wav" rootNote="90" volume="-3.0dB" />
-			<sample end="225690" hiNote="94" hiVel="127" loNote="92" loVel="0" path="Resources/Viola Ensemble Samples/Violas_a5.wav" rootNote="93" volume="-3.0dB" />
-			<sample end="237597" hiNote="97" hiVel="127" loNote="95" loVel="0" path="Resources/Viola Ensemble Samples/Violas_c6.wav" rootNote="96" volume="-2.0dB" />
-			<sample end="266257" hiNote="100" hiVel="127" loNote="98" loVel="0" path="Resources/Viola Ensemble Samples/Violas_d#6.wav" rootNote="99" volume="-3.0dB" />
-			<sample end="238602" hiNote="103" hiVel="127" loNote="101" loVel="0" path="Resources/Viola Ensemble Samples/Violas_f#6.wav" rootNote="102" volume="-2.0dB" />
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="264861" path="Resources/Viola Ensemble Samples/Violas_c3.wav" volume="-2.68dB" />
+			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="127" end="205450" path="Resources/Viola Ensemble Samples/Violas_d#3.wav" volume="-5.5dB" />
+			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="127" end="267978" path="Resources/Viola Ensemble Samples/Violas_f#3.wav" volume="-5.5dB" />
+			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="249330" path="Resources/Viola Ensemble Samples/Violas_a3.wav" volume="-5.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="127" end="259764" path="Resources/Viola Ensemble Samples/Violas_c4.wav" volume="-5.0dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="0" hiVel="127" end="214186" path="Resources/Viola Ensemble Samples/Violas_d#4.wav" volume="-5.0dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="0" hiVel="127" end="212294" path="Resources/Viola Ensemble Samples/Violas_f#4.wav" volume="-6.0dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="127" end="266734" path="Resources/Viola Ensemble Samples/Violas_a4.wav" volume="-6.0dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="127" end="266646" path="Resources/Viola Ensemble Samples/Violas_c5.wav" volume="-2.68dB" />
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="0" hiVel="127" end="208150" path="Resources/Viola Ensemble Samples/Violas_d#5.wav" volume="-6.0dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="0" hiVel="127" end="214192" path="Resources/Viola Ensemble Samples/Violas_f#5.wav" volume="-3.0dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="225690" path="Resources/Viola Ensemble Samples/Violas_a5.wav" volume="-3.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="0" hiVel="127" end="237597" path="Resources/Viola Ensemble Samples/Violas_c6.wav" volume="-2.0dB" />
+			<sample rootNote="99" loNote="98" hiNote="100" loVel="0" hiVel="127" end="266257" path="Resources/Viola Ensemble Samples/Violas_d#6.wav" volume="-3.0dB" />
+			<sample rootNote="102" loNote="101" hiNote="103" loVel="0" hiVel="127" end="238602" path="Resources/Viola Ensemble Samples/Violas_f#6.wav" volume="-2.0dB" />
 		</group>
 		<group name="Group 2" ampVelTrack="1">
-			<sample end="262364" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_A3_v2_1-PB-loop.wav" rootNote="69" volume="6.75dB" />
-			<sample end="176318" hiNote="60" hiVel="127" loNote="57" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B2_v2_1-PB-loop.wav" rootNote="59" volume="6.75dB" />
-			<sample end="426678" hiNote="84" hiVel="127" loNote="81" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B4_v2_1-PB-loop.wav" rootNote="83" start="2198" volume="11.75dB" />
-			<sample end="294635" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_C4_v2_1-PB-loop.wav" rootNote="72" volume="7.75dB" />
-			<sample end="232335" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D2_v2_1-PB-loop.wav" rootNote="50" volume="7.75dB" />
-			<sample end="296391" hiNote="63" hiVel="127" loNote="61" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D3_v2_1-PB-loop.wav" rootNote="62" volume="8.75dB" />
-			<sample end="191012" hiNote="93" hiVel="127" loNote="85" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D5_v2_1-PB-loop.wav" rootNote="86" volume="9.75dB" />
-			<sample end="256547" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_E2_v2_1-PB-loop.wav" rootNote="52" volume="10.75dB" />
-			<sample end="308598" hiNote="77" hiVel="127" loNote="74" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_E4_v2_1-PB-loop.wav" rootNote="76" volume="6.75dB" />
-			<sample end="402385" hiNote="66" hiVel="127" loNote="64" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_F3_v2_1-PB-loop.wav" rootNote="65" volume="8.75dB" />
-			<sample end="389699" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G2_v2_1-PB-loop.wav" rootNote="55" volume="7.75dB" />
-			<sample end="301975" hiNote="80" hiVel="127" loNote="78" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G4_v2_1-PB-loop.wav" rootNote="79" volume="9.75dB" />
+			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="262364" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_A3_v2_1-PB-loop.wav" volume="6.75dB" />
+			<sample rootNote="59" loNote="57" hiNote="60" loVel="0" hiVel="127" end="176318" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B2_v2_1-PB-loop.wav" volume="6.75dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="426678" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B4_v2_1-PB-loop.wav" start="2198" volume="11.75dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="127" end="294635" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_C4_v2_1-PB-loop.wav" volume="7.75dB" />
+			<sample rootNote="50" loNote="48" hiNote="50" loVel="0" hiVel="127" end="232335" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D2_v2_1-PB-loop.wav" volume="7.75dB" />
+			<sample rootNote="62" loNote="61" hiNote="63" loVel="0" hiVel="127" end="296391" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D3_v2_1-PB-loop.wav" volume="8.75dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="0" hiVel="127" end="191012" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D5_v2_1-PB-loop.wav" volume="9.75dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="256547" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_E2_v2_1-PB-loop.wav" volume="10.75dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="0" hiVel="127" end="308598" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_E4_v2_1-PB-loop.wav" volume="6.75dB" />
+			<sample rootNote="65" loNote="64" hiNote="66" loVel="0" hiVel="127" end="402385" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_F3_v2_1-PB-loop.wav" volume="8.75dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="389699" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G2_v2_1-PB-loop.wav" volume="7.75dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="301975" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G4_v2_1-PB-loop.wav" volume="9.75dB" />
 		</group>
 		<group name="Group 7" ampVelTrack="1">
-			<sample end="264861" hiNote="61" hiVel="127" loNote="60" loVel="0" path="Resources/Viola Ensemble Samples/Violas_c3.wav" rootNote="60" volume="-2.68dB" />
-			<sample end="205450" hiNote="64" hiVel="127" loNote="62" loVel="0" path="Resources/Viola Ensemble Samples/Violas_d#3.wav" rootNote="63" volume="-5.5dB" />
-			<sample end="267978" hiNote="67" hiVel="127" loNote="65" loVel="0" path="Resources/Viola Ensemble Samples/Violas_f#3.wav" rootNote="66" volume="-5.5dB" />
-			<sample end="249330" hiNote="70" hiVel="127" loNote="68" loVel="0" path="Resources/Viola Ensemble Samples/Violas_a3.wav" rootNote="69" volume="-5.0dB" />
-			<sample end="259764" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/Viola Ensemble Samples/Violas_c4.wav" rootNote="72" volume="-5.0dB" />
-			<sample end="214186" hiNote="76" hiVel="127" loNote="74" loVel="0" path="Resources/Viola Ensemble Samples/Violas_d#4.wav" rootNote="75" volume="-5.0dB" />
-			<sample end="212294" hiNote="79" hiVel="127" loNote="77" loVel="0" path="Resources/Viola Ensemble Samples/Violas_f#4.wav" rootNote="78" volume="-6.0dB" />
-			<sample end="266734" hiNote="82" hiVel="127" loNote="80" loVel="0" path="Resources/Viola Ensemble Samples/Violas_a4.wav" rootNote="81" volume="-6.0dB" />
-			<sample end="266646" hiNote="85" hiVel="127" loNote="83" loVel="0" path="Resources/Viola Ensemble Samples/Violas_c5.wav" rootNote="84" volume="-2.68dB" />
-			<sample end="208150" hiNote="88" hiVel="127" loNote="86" loVel="0" path="Resources/Viola Ensemble Samples/Violas_d#5.wav" rootNote="87" volume="-6.0dB" />
-			<sample end="214192" hiNote="91" hiVel="127" loNote="89" loVel="0" path="Resources/Viola Ensemble Samples/Violas_f#5.wav" rootNote="90" volume="-3.0dB" />
-			<sample end="225690" hiNote="94" hiVel="127" loNote="92" loVel="0" path="Resources/Viola Ensemble Samples/Violas_a5.wav" rootNote="93" volume="-3.0dB" />
-			<sample end="237597" hiNote="97" hiVel="127" loNote="95" loVel="0" path="Resources/Viola Ensemble Samples/Violas_c6.wav" rootNote="96" volume="-2.0dB" />
-			<sample end="266257" hiNote="100" hiVel="127" loNote="98" loVel="0" path="Resources/Viola Ensemble Samples/Violas_d#6.wav" rootNote="99" volume="-3.0dB" />
-			<sample end="238602" hiNote="103" hiVel="127" loNote="101" loVel="0" path="Resources/Viola Ensemble Samples/Violas_f#6.wav" rootNote="102" volume="-2.0dB" />
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="264861" path="Resources/Viola Ensemble Samples/Violas_c3.wav" volume="-2.68dB" />
+			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="127" end="205450" path="Resources/Viola Ensemble Samples/Violas_d#3.wav" volume="-5.5dB" />
+			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="127" end="267978" path="Resources/Viola Ensemble Samples/Violas_f#3.wav" volume="-5.5dB" />
+			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="249330" path="Resources/Viola Ensemble Samples/Violas_a3.wav" volume="-5.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="127" end="259764" path="Resources/Viola Ensemble Samples/Violas_c4.wav" volume="-5.0dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="0" hiVel="127" end="214186" path="Resources/Viola Ensemble Samples/Violas_d#4.wav" volume="-5.0dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="0" hiVel="127" end="212294" path="Resources/Viola Ensemble Samples/Violas_f#4.wav" volume="-6.0dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="127" end="266734" path="Resources/Viola Ensemble Samples/Violas_a4.wav" volume="-6.0dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="127" end="266646" path="Resources/Viola Ensemble Samples/Violas_c5.wav" volume="-2.68dB" />
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="0" hiVel="127" end="208150" path="Resources/Viola Ensemble Samples/Violas_d#5.wav" volume="-6.0dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="0" hiVel="127" end="214192" path="Resources/Viola Ensemble Samples/Violas_f#5.wav" volume="-3.0dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="225690" path="Resources/Viola Ensemble Samples/Violas_a5.wav" volume="-3.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="0" hiVel="127" end="237597" path="Resources/Viola Ensemble Samples/Violas_c6.wav" volume="-2.0dB" />
+			<sample rootNote="99" loNote="98" hiNote="100" loVel="0" hiVel="127" end="266257" path="Resources/Viola Ensemble Samples/Violas_d#6.wav" volume="-3.0dB" />
+			<sample rootNote="102" loNote="101" hiNote="103" loVel="0" hiVel="127" end="238602" path="Resources/Viola Ensemble Samples/Violas_f#6.wav" volume="-2.0dB" />
 		</group>
 		<group name="Group 8" ampVelTrack="1">
-			<sample end="262364" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_A3_v2_1-PB-loop.wav" rootNote="69" volume="6.75dB" />
-			<sample end="176318" hiNote="60" hiVel="127" loNote="57" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B2_v2_1-PB-loop.wav" rootNote="59" volume="6.75dB" />
-			<sample end="426678" hiNote="84" hiVel="127" loNote="81" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B4_v2_1-PB-loop.wav" rootNote="83" start="2198" volume="11.75dB" />
-			<sample end="294635" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_C4_v2_1-PB-loop.wav" rootNote="72" volume="7.75dB" />
-			<sample end="232335" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D2_v2_1-PB-loop.wav" rootNote="50" volume="7.75dB" />
-			<sample end="296391" hiNote="63" hiVel="127" loNote="61" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D3_v2_1-PB-loop.wav" rootNote="62" volume="8.75dB" />
-			<sample end="191012" hiNote="93" hiVel="127" loNote="85" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D5_v2_1-PB-loop.wav" rootNote="86" volume="9.75dB" />
-			<sample end="256547" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_E2_v2_1-PB-loop.wav" rootNote="52" volume="10.75dB" />
-			<sample end="308598" hiNote="77" hiVel="127" loNote="74" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_E4_v2_1-PB-loop.wav" rootNote="76" volume="6.75dB" />
-			<sample end="402385" hiNote="66" hiVel="127" loNote="64" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_F3_v2_1-PB-loop.wav" rootNote="65" volume="8.75dB" />
-			<sample end="389699" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G2_v2_1-PB-loop.wav" rootNote="55" volume="7.75dB" />
-			<sample end="301975" hiNote="80" hiVel="127" loNote="78" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G4_v2_1-PB-loop.wav" rootNote="79" volume="9.75dB" />
+			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="262364" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_A3_v2_1-PB-loop.wav" volume="6.75dB" />
+			<sample rootNote="59" loNote="57" hiNote="60" loVel="0" hiVel="127" end="176318" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B2_v2_1-PB-loop.wav" volume="6.75dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="426678" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B4_v2_1-PB-loop.wav" start="2198" volume="11.75dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="127" end="294635" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_C4_v2_1-PB-loop.wav" volume="7.75dB" />
+			<sample rootNote="50" loNote="48" hiNote="50" loVel="0" hiVel="127" end="232335" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D2_v2_1-PB-loop.wav" volume="7.75dB" />
+			<sample rootNote="62" loNote="61" hiNote="63" loVel="0" hiVel="127" end="296391" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D3_v2_1-PB-loop.wav" volume="8.75dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="0" hiVel="127" end="191012" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D5_v2_1-PB-loop.wav" volume="9.75dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="256547" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_E2_v2_1-PB-loop.wav" volume="10.75dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="0" hiVel="127" end="308598" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_E4_v2_1-PB-loop.wav" volume="6.75dB" />
+			<sample rootNote="65" loNote="64" hiNote="66" loVel="0" hiVel="127" end="402385" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_F3_v2_1-PB-loop.wav" volume="8.75dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="389699" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G2_v2_1-PB-loop.wav" volume="7.75dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="301975" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G4_v2_1-PB-loop.wav" volume="9.75dB" />
 		</group>
 		<group name="Group 11" ampVelTrack="1">
-			<sample end="264861" hiNote="61" hiVel="127" loNote="60" loVel="0" path="Resources/Viola Ensemble Samples/Violas_c3.wav" rootNote="60" volume="-2.68dB" />
-			<sample end="205450" hiNote="64" hiVel="127" loNote="62" loVel="0" path="Resources/Viola Ensemble Samples/Violas_d#3.wav" rootNote="63" volume="-5.5dB" />
-			<sample end="267978" hiNote="67" hiVel="127" loNote="65" loVel="0" path="Resources/Viola Ensemble Samples/Violas_f#3.wav" rootNote="66" volume="-5.5dB" />
-			<sample end="249330" hiNote="70" hiVel="127" loNote="68" loVel="0" path="Resources/Viola Ensemble Samples/Violas_a3.wav" rootNote="69" volume="-5.0dB" />
-			<sample end="259764" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/Viola Ensemble Samples/Violas_c4.wav" rootNote="72" volume="-5.0dB" />
-			<sample end="214186" hiNote="76" hiVel="127" loNote="74" loVel="0" path="Resources/Viola Ensemble Samples/Violas_d#4.wav" rootNote="75" volume="-5.0dB" />
-			<sample end="212294" hiNote="79" hiVel="127" loNote="77" loVel="0" path="Resources/Viola Ensemble Samples/Violas_f#4.wav" rootNote="78" volume="-6.0dB" />
-			<sample end="266734" hiNote="82" hiVel="127" loNote="80" loVel="0" path="Resources/Viola Ensemble Samples/Violas_a4.wav" rootNote="81" volume="-6.0dB" />
-			<sample end="266646" hiNote="85" hiVel="127" loNote="83" loVel="0" path="Resources/Viola Ensemble Samples/Violas_c5.wav" rootNote="84" volume="-2.68dB" />
-			<sample end="208150" hiNote="88" hiVel="127" loNote="86" loVel="0" path="Resources/Viola Ensemble Samples/Violas_d#5.wav" rootNote="87" volume="-6.0dB" />
-			<sample end="214192" hiNote="91" hiVel="127" loNote="89" loVel="0" path="Resources/Viola Ensemble Samples/Violas_f#5.wav" rootNote="90" volume="-3.0dB" />
-			<sample end="225690" hiNote="94" hiVel="127" loNote="92" loVel="0" path="Resources/Viola Ensemble Samples/Violas_a5.wav" rootNote="93" volume="-3.0dB" />
-			<sample end="237597" hiNote="97" hiVel="127" loNote="95" loVel="0" path="Resources/Viola Ensemble Samples/Violas_c6.wav" rootNote="96" volume="-2.0dB" />
-			<sample end="266257" hiNote="100" hiVel="127" loNote="98" loVel="0" path="Resources/Viola Ensemble Samples/Violas_d#6.wav" rootNote="99" volume="-3.0dB" />
-			<sample end="238602" hiNote="103" hiVel="127" loNote="101" loVel="0" path="Resources/Viola Ensemble Samples/Violas_f#6.wav" rootNote="102" volume="-2.0dB" />
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="264861" path="Resources/Viola Ensemble Samples/Violas_c3.wav" volume="-2.68dB" />
+			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="127" end="205450" path="Resources/Viola Ensemble Samples/Violas_d#3.wav" volume="-5.5dB" />
+			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="127" end="267978" path="Resources/Viola Ensemble Samples/Violas_f#3.wav" volume="-5.5dB" />
+			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="249330" path="Resources/Viola Ensemble Samples/Violas_a3.wav" volume="-5.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="127" end="259764" path="Resources/Viola Ensemble Samples/Violas_c4.wav" volume="-5.0dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="0" hiVel="127" end="214186" path="Resources/Viola Ensemble Samples/Violas_d#4.wav" volume="-5.0dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="0" hiVel="127" end="212294" path="Resources/Viola Ensemble Samples/Violas_f#4.wav" volume="-6.0dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="127" end="266734" path="Resources/Viola Ensemble Samples/Violas_a4.wav" volume="-6.0dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="127" end="266646" path="Resources/Viola Ensemble Samples/Violas_c5.wav" volume="-2.68dB" />
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="0" hiVel="127" end="208150" path="Resources/Viola Ensemble Samples/Violas_d#5.wav" volume="-6.0dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="0" hiVel="127" end="214192" path="Resources/Viola Ensemble Samples/Violas_f#5.wav" volume="-3.0dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="225690" path="Resources/Viola Ensemble Samples/Violas_a5.wav" volume="-3.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="0" hiVel="127" end="237597" path="Resources/Viola Ensemble Samples/Violas_c6.wav" volume="-2.0dB" />
+			<sample rootNote="99" loNote="98" hiNote="100" loVel="0" hiVel="127" end="266257" path="Resources/Viola Ensemble Samples/Violas_d#6.wav" volume="-3.0dB" />
+			<sample rootNote="102" loNote="101" hiNote="103" loVel="0" hiVel="127" end="238602" path="Resources/Viola Ensemble Samples/Violas_f#6.wav" volume="-2.0dB" />
 		</group>
 		<group name="Group 12" ampVelTrack="1">
-			<sample end="262364" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_A3_v2_1-PB-loop.wav" rootNote="69" volume="6.75dB" />
-			<sample end="176318" hiNote="60" hiVel="127" loNote="57" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B2_v2_1-PB-loop.wav" rootNote="59" volume="6.75dB" />
-			<sample end="426678" hiNote="84" hiVel="127" loNote="81" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B4_v2_1-PB-loop.wav" rootNote="83" start="2198" volume="11.75dB" />
-			<sample end="294635" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_C4_v2_1-PB-loop.wav" rootNote="72" volume="7.75dB" />
-			<sample end="232335" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D2_v2_1-PB-loop.wav" rootNote="50" volume="7.75dB" />
-			<sample end="296391" hiNote="63" hiVel="127" loNote="61" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D3_v2_1-PB-loop.wav" rootNote="62" volume="8.75dB" />
-			<sample end="191012" hiNote="93" hiVel="127" loNote="85" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D5_v2_1-PB-loop.wav" rootNote="86" volume="9.75dB" />
-			<sample end="256547" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_E2_v2_1-PB-loop.wav" rootNote="52" volume="10.75dB" />
-			<sample end="308598" hiNote="77" hiVel="127" loNote="74" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_E4_v2_1-PB-loop.wav" rootNote="76" volume="6.75dB" />
-			<sample end="402385" hiNote="66" hiVel="127" loNote="64" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_F3_v2_1-PB-loop.wav" rootNote="65" volume="8.75dB" />
-			<sample end="389699" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G2_v2_1-PB-loop.wav" rootNote="55" volume="7.75dB" />
-			<sample end="301975" hiNote="80" hiVel="127" loNote="78" loVel="0" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G4_v2_1-PB-loop.wav" rootNote="79" volume="9.75dB" />
+			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="262364" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_A3_v2_1-PB-loop.wav" volume="6.75dB" />
+			<sample rootNote="59" loNote="57" hiNote="60" loVel="0" hiVel="127" end="176318" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B2_v2_1-PB-loop.wav" volume="6.75dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="426678" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B4_v2_1-PB-loop.wav" start="2198" volume="11.75dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="127" end="294635" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_C4_v2_1-PB-loop.wav" volume="7.75dB" />
+			<sample rootNote="50" loNote="48" hiNote="50" loVel="0" hiVel="127" end="232335" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D2_v2_1-PB-loop.wav" volume="7.75dB" />
+			<sample rootNote="62" loNote="61" hiNote="63" loVel="0" hiVel="127" end="296391" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D3_v2_1-PB-loop.wav" volume="8.75dB" />
+			<sample rootNote="86" loNote="85" hiNote="93" loVel="0" hiVel="127" end="191012" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_D5_v2_1-PB-loop.wav" volume="9.75dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="256547" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_E2_v2_1-PB-loop.wav" volume="10.75dB" />
+			<sample rootNote="76" loNote="74" hiNote="77" loVel="0" hiVel="127" end="308598" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_E4_v2_1-PB-loop.wav" volume="6.75dB" />
+			<sample rootNote="65" loNote="64" hiNote="66" loVel="0" hiVel="127" end="402385" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_F3_v2_1-PB-loop.wav" volume="8.75dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="389699" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G2_v2_1-PB-loop.wav" volume="7.75dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="301975" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G4_v2_1-PB-loop.wav" volume="9.75dB" />
 		</group>
 	</groups>
 	<midi>

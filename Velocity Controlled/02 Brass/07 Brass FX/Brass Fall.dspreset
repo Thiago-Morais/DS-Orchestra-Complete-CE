@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Brass FX.png">
 		<tab name="main">
@@ -33,52 +32,52 @@
 	</ui>
 	<groups decay="0.009">
 		<group name="falls L" ampVelTrack="1">
-			<sample end="26406" hiNote="64" hiVel="127" loNote="28" loVel="0" path="Resources/Falls Samples/f41tfa.wav" rootNote="65" tuning="-0.16" />
-			<sample end="22627" hiNote="65" hiVel="127" loNote="65" loVel="0" path="Resources/Falls Samples/fs41tf.wav" rootNote="66" />
-			<sample end="27868" hiNote="66" hiVel="127" loNote="66" loVel="0" path="Resources/Falls Samples/g41tfa.wav" rootNote="67" tuning="-0.07" />
-			<sample end="32144" hiNote="67" hiVel="127" loNote="67" loVel="0" path="Resources/Falls Samples/gs43tf.wav" rootNote="68" tuning="-0.05" />
-			<sample end="27327" hiNote="68" hiVel="127" loNote="68" loVel="0" path="Resources/Falls Samples/a41tfa.wav" rootNote="69" tuning="-0.16" />
-			<sample end="30355" hiNote="69" hiVel="127" loNote="69" loVel="0" path="Resources/Falls Samples/as43tf.wav" rootNote="70" tuning="-0.21" />
-			<sample end="26624" hiNote="70" hiVel="127" loNote="70" loVel="0" path="Resources/Falls Samples/b41tfa.wav" rootNote="71" tuning="-0.13" />
-			<sample end="26595" hiNote="71" hiVel="127" loNote="71" loVel="0" path="Resources/Falls Samples/c53tfa.wav" rootNote="72" tuning="-0.14" />
-			<sample end="24329" hiNote="72" hiVel="127" loNote="72" loVel="0" path="Resources/Falls Samples/cs52tf.wav" rootNote="73" tuning="-0.21" />
-			<sample end="25030" hiNote="73" hiVel="127" loNote="73" loVel="0" path="Resources/Falls Samples/d53tfa.wav" rootNote="74" tuning="-0.21" />
-			<sample end="28447" hiNote="74" hiVel="127" loNote="74" loVel="0" path="Resources/Falls Samples/ds51tf.wav" rootNote="75" tuning="-0.34" />
-			<sample end="28583" hiNote="75" hiVel="127" loNote="75" loVel="0" path="Resources/Falls Samples/e53tfa.wav" rootNote="76" tuning="-0.24" />
-			<sample end="30341" hiNote="76" hiVel="127" loNote="76" loVel="0" path="Resources/Falls Samples/f53tfa.wav" rootNote="77" tuning="-0.27" />
-			<sample end="25489" hiNote="77" hiVel="127" loNote="77" loVel="0" path="Resources/Falls Samples/fs53tf.wav" rootNote="78" tuning="-0.20" />
-			<sample end="28707" hiNote="78" hiVel="127" loNote="78" loVel="0" path="Resources/Falls Samples/g52tfa.wav" rootNote="79" tuning="-0.31" />
-			<sample end="36115" hiNote="79" hiVel="127" loNote="79" loVel="0" path="Resources/Falls Samples/gs53tf.wav" rootNote="80" tuning="-0.26" />
-			<sample end="37015" hiNote="80" hiVel="127" loNote="80" loVel="0" path="Resources/Falls Samples/a52tfa.wav" rootNote="81" tuning="-0.12" />
-			<sample end="27316" hiNote="81" hiVel="127" loNote="81" loVel="0" path="Resources/Falls Samples/as52tf.wav" rootNote="82" tuning="-0.34" />
-			<sample end="29918" hiNote="82" hiVel="127" loNote="82" loVel="0" path="Resources/Falls Samples/b53tfa.wav" rootNote="83" tuning="-0.11" />
-			<sample end="34937" hiNote="83" hiVel="127" loNote="83" loVel="0" path="Resources/Falls Samples/c62tfa.wav" rootNote="84" tuning="-0.27" />
-			<sample end="33617" hiNote="84" hiVel="127" loNote="84" loVel="0" path="Resources/Falls Samples/cs61tf.wav" rootNote="85" tuning="0.05" />
-			<sample end="38968" hiNote="110" hiVel="127" loNote="85" loVel="0" path="Resources/Falls Samples/d62tfa.wav" rootNote="86" tuning="-0.28" />
+			<sample rootNote="65" loNote="28" hiNote="64" loVel="0" hiVel="127" end="26406" path="Resources/Falls Samples/f41tfa.wav" tuning="-0.16" />
+			<sample rootNote="66" loNote="65" hiNote="65" loVel="0" hiVel="127" end="22627" path="Resources/Falls Samples/fs41tf.wav" />
+			<sample rootNote="67" loNote="66" hiNote="66" loVel="0" hiVel="127" end="27868" path="Resources/Falls Samples/g41tfa.wav" tuning="-0.07" />
+			<sample rootNote="68" loNote="67" hiNote="67" loVel="0" hiVel="127" end="32144" path="Resources/Falls Samples/gs43tf.wav" tuning="-0.05" />
+			<sample rootNote="69" loNote="68" hiNote="68" loVel="0" hiVel="127" end="27327" path="Resources/Falls Samples/a41tfa.wav" tuning="-0.16" />
+			<sample rootNote="70" loNote="69" hiNote="69" loVel="0" hiVel="127" end="30355" path="Resources/Falls Samples/as43tf.wav" tuning="-0.21" />
+			<sample rootNote="71" loNote="70" hiNote="70" loVel="0" hiVel="127" end="26624" path="Resources/Falls Samples/b41tfa.wav" tuning="-0.13" />
+			<sample rootNote="72" loNote="71" hiNote="71" loVel="0" hiVel="127" end="26595" path="Resources/Falls Samples/c53tfa.wav" tuning="-0.14" />
+			<sample rootNote="73" loNote="72" hiNote="72" loVel="0" hiVel="127" end="24329" path="Resources/Falls Samples/cs52tf.wav" tuning="-0.21" />
+			<sample rootNote="74" loNote="73" hiNote="73" loVel="0" hiVel="127" end="25030" path="Resources/Falls Samples/d53tfa.wav" tuning="-0.21" />
+			<sample rootNote="75" loNote="74" hiNote="74" loVel="0" hiVel="127" end="28447" path="Resources/Falls Samples/ds51tf.wav" tuning="-0.34" />
+			<sample rootNote="76" loNote="75" hiNote="75" loVel="0" hiVel="127" end="28583" path="Resources/Falls Samples/e53tfa.wav" tuning="-0.24" />
+			<sample rootNote="77" loNote="76" hiNote="76" loVel="0" hiVel="127" end="30341" path="Resources/Falls Samples/f53tfa.wav" tuning="-0.27" />
+			<sample rootNote="78" loNote="77" hiNote="77" loVel="0" hiVel="127" end="25489" path="Resources/Falls Samples/fs53tf.wav" tuning="-0.20" />
+			<sample rootNote="79" loNote="78" hiNote="78" loVel="0" hiVel="127" end="28707" path="Resources/Falls Samples/g52tfa.wav" tuning="-0.31" />
+			<sample rootNote="80" loNote="79" hiNote="79" loVel="0" hiVel="127" end="36115" path="Resources/Falls Samples/gs53tf.wav" tuning="-0.26" />
+			<sample rootNote="81" loNote="80" hiNote="80" loVel="0" hiVel="127" end="37015" path="Resources/Falls Samples/a52tfa.wav" tuning="-0.12" />
+			<sample rootNote="82" loNote="81" hiNote="81" loVel="0" hiVel="127" end="27316" path="Resources/Falls Samples/as52tf.wav" tuning="-0.34" />
+			<sample rootNote="83" loNote="82" hiNote="82" loVel="0" hiVel="127" end="29918" path="Resources/Falls Samples/b53tfa.wav" tuning="-0.11" />
+			<sample rootNote="84" loNote="83" hiNote="83" loVel="0" hiVel="127" end="34937" path="Resources/Falls Samples/c62tfa.wav" tuning="-0.27" />
+			<sample rootNote="85" loNote="84" hiNote="84" loVel="0" hiVel="127" end="33617" path="Resources/Falls Samples/cs61tf.wav" tuning="0.05" />
+			<sample rootNote="86" loNote="85" hiNote="110" loVel="0" hiVel="127" end="38968" path="Resources/Falls Samples/d62tfa.wav" tuning="-0.28" />
 		</group>
 		<group name="falls R" ampVelTrack="1">
-			<sample end="26971" hiNote="64" hiVel="127" loNote="0" loVel="0" path="Resources/Falls Samples/e41tfa.wav" rootNote="64" tuning="-0.15" />
-			<sample end="26406" hiNote="65" hiVel="127" loNote="65" loVel="0" path="Resources/Falls Samples/f41tfa.wav" rootNote="65" tuning="-0.16" />
-			<sample end="22627" hiNote="66" hiVel="127" loNote="66" loVel="0" path="Resources/Falls Samples/fs41tf.wav" rootNote="66" />
-			<sample end="27868" hiNote="67" hiVel="127" loNote="67" loVel="0" path="Resources/Falls Samples/g41tfa.wav" rootNote="67" tuning="-0.07" />
-			<sample end="32144" hiNote="68" hiVel="127" loNote="68" loVel="0" path="Resources/Falls Samples/gs43tf.wav" rootNote="68" tuning="-0.05" />
-			<sample end="27327" hiNote="69" hiVel="127" loNote="69" loVel="0" path="Resources/Falls Samples/a41tfa.wav" rootNote="69" tuning="-0.16" />
-			<sample end="30355" hiNote="70" hiVel="127" loNote="70" loVel="0" path="Resources/Falls Samples/as43tf.wav" rootNote="70" tuning="-0.21" />
-			<sample end="26624" hiNote="71" hiVel="127" loNote="71" loVel="0" path="Resources/Falls Samples/b41tfa.wav" rootNote="71" tuning="-0.13" />
-			<sample end="26595" hiNote="72" hiVel="127" loNote="72" loVel="0" path="Resources/Falls Samples/c53tfa.wav" rootNote="72" tuning="-0.14" />
-			<sample end="24329" hiNote="73" hiVel="127" loNote="73" loVel="0" path="Resources/Falls Samples/cs52tf.wav" rootNote="73" tuning="-0.21" />
-			<sample end="25030" hiNote="74" hiVel="127" loNote="74" loVel="0" path="Resources/Falls Samples/d53tfa.wav" rootNote="74" tuning="-0.21" />
-			<sample end="28447" hiNote="75" hiVel="127" loNote="75" loVel="0" path="Resources/Falls Samples/ds51tf.wav" rootNote="75" tuning="-0.34" />
-			<sample end="28583" hiNote="76" hiVel="127" loNote="76" loVel="0" path="Resources/Falls Samples/e53tfa.wav" rootNote="76" tuning="-0.24" />
-			<sample end="30341" hiNote="77" hiVel="127" loNote="77" loVel="0" path="Resources/Falls Samples/f53tfa.wav" rootNote="77" tuning="-0.27" />
-			<sample end="25489" hiNote="78" hiVel="127" loNote="78" loVel="0" path="Resources/Falls Samples/fs53tf.wav" rootNote="78" tuning="-0.20" />
-			<sample end="28707" hiNote="79" hiVel="127" loNote="79" loVel="0" path="Resources/Falls Samples/g52tfa.wav" rootNote="79" tuning="-0.31" />
-			<sample end="36115" hiNote="80" hiVel="127" loNote="80" loVel="0" path="Resources/Falls Samples/gs53tf.wav" rootNote="80" tuning="-0.26" />
-			<sample end="37015" hiNote="81" hiVel="127" loNote="81" loVel="0" path="Resources/Falls Samples/a52tfa.wav" rootNote="81" tuning="-0.12" />
-			<sample end="27316" hiNote="82" hiVel="127" loNote="82" loVel="0" path="Resources/Falls Samples/as52tf.wav" rootNote="82" tuning="-0.34" />
-			<sample end="29918" hiNote="83" hiVel="127" loNote="83" loVel="0" path="Resources/Falls Samples/b53tfa.wav" rootNote="83" tuning="-0.11" />
-			<sample end="33617" hiNote="85" hiVel="127" loNote="85" loVel="0" path="Resources/Falls Samples/cs61tf.wav" rootNote="85" tuning="0.05" />
-			<sample end="34937" hiNote="96" hiVel="127" loNote="84" loVel="0" path="Resources/Falls Samples/c62tfa.wav" rootNote="84" tuning="-0.27" />
+			<sample rootNote="64" loNote="0" hiNote="64" loVel="0" hiVel="127" end="26971" path="Resources/Falls Samples/e41tfa.wav" tuning="-0.15" />
+			<sample rootNote="65" loNote="65" hiNote="65" loVel="0" hiVel="127" end="26406" path="Resources/Falls Samples/f41tfa.wav" tuning="-0.16" />
+			<sample rootNote="66" loNote="66" hiNote="66" loVel="0" hiVel="127" end="22627" path="Resources/Falls Samples/fs41tf.wav" />
+			<sample rootNote="67" loNote="67" hiNote="67" loVel="0" hiVel="127" end="27868" path="Resources/Falls Samples/g41tfa.wav" tuning="-0.07" />
+			<sample rootNote="68" loNote="68" hiNote="68" loVel="0" hiVel="127" end="32144" path="Resources/Falls Samples/gs43tf.wav" tuning="-0.05" />
+			<sample rootNote="69" loNote="69" hiNote="69" loVel="0" hiVel="127" end="27327" path="Resources/Falls Samples/a41tfa.wav" tuning="-0.16" />
+			<sample rootNote="70" loNote="70" hiNote="70" loVel="0" hiVel="127" end="30355" path="Resources/Falls Samples/as43tf.wav" tuning="-0.21" />
+			<sample rootNote="71" loNote="71" hiNote="71" loVel="0" hiVel="127" end="26624" path="Resources/Falls Samples/b41tfa.wav" tuning="-0.13" />
+			<sample rootNote="72" loNote="72" hiNote="72" loVel="0" hiVel="127" end="26595" path="Resources/Falls Samples/c53tfa.wav" tuning="-0.14" />
+			<sample rootNote="73" loNote="73" hiNote="73" loVel="0" hiVel="127" end="24329" path="Resources/Falls Samples/cs52tf.wav" tuning="-0.21" />
+			<sample rootNote="74" loNote="74" hiNote="74" loVel="0" hiVel="127" end="25030" path="Resources/Falls Samples/d53tfa.wav" tuning="-0.21" />
+			<sample rootNote="75" loNote="75" hiNote="75" loVel="0" hiVel="127" end="28447" path="Resources/Falls Samples/ds51tf.wav" tuning="-0.34" />
+			<sample rootNote="76" loNote="76" hiNote="76" loVel="0" hiVel="127" end="28583" path="Resources/Falls Samples/e53tfa.wav" tuning="-0.24" />
+			<sample rootNote="77" loNote="77" hiNote="77" loVel="0" hiVel="127" end="30341" path="Resources/Falls Samples/f53tfa.wav" tuning="-0.27" />
+			<sample rootNote="78" loNote="78" hiNote="78" loVel="0" hiVel="127" end="25489" path="Resources/Falls Samples/fs53tf.wav" tuning="-0.20" />
+			<sample rootNote="79" loNote="79" hiNote="79" loVel="0" hiVel="127" end="28707" path="Resources/Falls Samples/g52tfa.wav" tuning="-0.31" />
+			<sample rootNote="80" loNote="80" hiNote="80" loVel="0" hiVel="127" end="36115" path="Resources/Falls Samples/gs53tf.wav" tuning="-0.26" />
+			<sample rootNote="81" loNote="81" hiNote="81" loVel="0" hiVel="127" end="37015" path="Resources/Falls Samples/a52tfa.wav" tuning="-0.12" />
+			<sample rootNote="82" loNote="82" hiNote="82" loVel="0" hiVel="127" end="27316" path="Resources/Falls Samples/as52tf.wav" tuning="-0.34" />
+			<sample rootNote="83" loNote="83" hiNote="83" loVel="0" hiVel="127" end="29918" path="Resources/Falls Samples/b53tfa.wav" tuning="-0.11" />
+			<sample rootNote="85" loNote="85" hiNote="85" loVel="0" hiVel="127" end="33617" path="Resources/Falls Samples/cs61tf.wav" tuning="0.05" />
+			<sample rootNote="84" loNote="84" hiNote="96" loVel="0" hiVel="127" end="34937" path="Resources/Falls Samples/c62tfa.wav" tuning="-0.27" />
 		</group>
 	</groups>
 	<midi>

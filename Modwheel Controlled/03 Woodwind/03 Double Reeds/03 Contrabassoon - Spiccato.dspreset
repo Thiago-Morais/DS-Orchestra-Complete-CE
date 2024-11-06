@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Contrabasson.png">
 		<tab name="main">
@@ -28,61 +27,83 @@
 			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
 			</labeled-knob>
+			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 2 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<!-- Cross fade between 3 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+			</labeled-knob>
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.120">
-		<group name="gr_1" ampVelTrack="1">
-			<sample end="48640" hiNote="34" hiVel="62" loNote="33" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A#0_v1_rr1.wav" rootNote="34" volume="12.0dB" />
-			<sample end="105297" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A1_v1_rr1.wav" rootNote="45" volume="12.0dB" />
-			<sample end="69715" hiNote="60" hiVel="127" loNote="58" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_B2_v1_rr1.wav" rootNote="59" volume="12.0dB" />
-			<sample end="62603" hiNote="50" hiVel="127" loNote="47" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_C#2_v1_rr1.wav" rootNote="49" volume="12.0dB" />
-			<sample end="71153" hiNote="36" hiVel="62" loNote="35" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_C1_v1_rr1.wav" rootNote="36" volume="12.0dB" />
-			<sample end="67107" hiNote="38" hiVel="62" loNote="37" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_D1_v1_rr1.wav" rootNote="38" volume="12.0dB" />
-			<sample end="81733" hiNote="28" hiVel="62" loNote="24" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E0_v1_rr1.wav" rootNote="28" volume="12.0dB" />
-			<sample end="61621" hiNote="40" hiVel="62" loNote="39" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E1_v1_rr1.wav" rootNote="40" volume="12.0dB" />
-			<sample end="66086" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E2_v1_rr1.wav" rootNote="52" volume="12.0dB" />
-			<sample end="60367" hiNote="30" hiVel="62" loNote="29" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_F#0_v1_rr1.wav" rootNote="30" volume="12.0dB" />
-			<sample end="65484" hiNote="42" hiVel="127" loNote="41" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_F#1_v1_rr1.wav" rootNote="42" volume="12.0dB" />
-			<sample end="108251" hiNote="44" hiVel="127" loNote="43" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G#1_v1_rr1.wav" rootNote="44" volume="12.0dB" />
-			<sample end="78747" hiNote="57" hiVel="127" loNote="54" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G#2_v1_rr1.wav" rootNote="56" volume="12.0dB" />
-			<sample end="52937" hiNote="32" hiVel="62" loNote="31" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G0_v1_rr1.wav" rootNote="31" volume="12.0dB" />
-			<sample end="65088" hiNote="34" hiVel="127" loNote="33" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A#0_v3_rr1.wav" rootNote="34" volume="5.0dB" />
-			<sample end="59776" hiNote="36" hiVel="127" loNote="35" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_C1_v3_rr1.wav" rootNote="36" volume="5.0dB" />
-			<sample end="76318" hiNote="38" hiVel="127" loNote="37" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_D1_v3_rr1.wav" rootNote="38" volume="5.0dB" />
-			<sample end="144799" hiNote="28" hiVel="127" loNote="24" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E0_v3_rr1.wav" rootNote="28" volume="5.0dB" />
-			<sample end="95292" hiNote="40" hiVel="127" loNote="39" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E1_v3_rr1.wav" rootNote="40" volume="5.0dB" />
-			<sample end="89651" hiNote="30" hiVel="127" loNote="29" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_F#0_v3_rr1.wav" rootNote="30" volume="5.0dB" />
-			<sample end="70486" hiNote="32" hiVel="127" loNote="31" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G0_v3_rr1.wav" rootNote="31" volume="5.0dB" />
+	<groups attack="0" release="0.120" ampVelTrack="0">
+		<group name="gr_1" ampVelTrack="0">
+			<sample rootNote="34" loNote="33" hiNote="34" loVel="0" hiVel="62" end="48640" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A#0_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="45" loNote="45" hiNote="46" loVel="0" hiVel="127" end="105297" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A1_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="59" loNote="58" hiNote="60" loVel="0" hiVel="127" end="69715" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_B2_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="49" loNote="47" hiNote="50" loVel="0" hiVel="127" end="62603" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_C#2_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="36" loNote="35" hiNote="36" loVel="0" hiVel="62" end="71153" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_C1_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="38" loNote="37" hiNote="38" loVel="0" hiVel="62" end="67107" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_D1_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="28" loNote="24" hiNote="28" loVel="0" hiVel="62" end="81733" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E0_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="40" loNote="39" hiNote="40" loVel="0" hiVel="62" end="61621" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E1_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="66086" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E2_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="30" loNote="29" hiNote="30" loVel="0" hiVel="62" end="60367" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_F#0_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="42" loNote="41" hiNote="42" loVel="0" hiVel="127" end="65484" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_F#1_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="44" loNote="43" hiNote="44" loVel="0" hiVel="127" end="108251" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G#1_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="56" loNote="54" hiNote="57" loVel="0" hiVel="127" end="78747" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G#2_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="31" loNote="31" hiNote="32" loVel="0" hiVel="62" end="52937" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G0_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="34" loNote="33" hiNote="34" loVel="63" hiVel="127" end="65088" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A#0_v3_rr1.wav" volume="5.0dB" />
+			<sample rootNote="36" loNote="35" hiNote="36" loVel="63" hiVel="127" end="59776" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_C1_v3_rr1.wav" volume="5.0dB" />
+			<sample rootNote="38" loNote="37" hiNote="38" loVel="63" hiVel="127" end="76318" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_D1_v3_rr1.wav" volume="5.0dB" />
+			<sample rootNote="28" loNote="24" hiNote="28" loVel="63" hiVel="127" end="144799" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E0_v3_rr1.wav" volume="5.0dB" />
+			<sample rootNote="40" loNote="39" hiNote="40" loVel="63" hiVel="127" end="95292" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E1_v3_rr1.wav" volume="5.0dB" />
+			<sample rootNote="30" loNote="29" hiNote="30" loVel="63" hiVel="127" end="89651" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_F#0_v3_rr1.wav" volume="5.0dB" />
+			<sample rootNote="31" loNote="31" hiNote="32" loVel="63" hiVel="127" end="70486" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G0_v3_rr1.wav" volume="5.0dB" />
 		</group>
-		<group name="gr_2" ampVelTrack="1">
-			<sample end="57806" hiNote="34" hiVel="62" loNote="33" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A#0_v1_rr2.wav" rootNote="34" volume="12.0dB" />
-			<sample end="100354" hiNote="46" hiVel="127" loNote="45" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A1_v1_rr2.wav" rootNote="45" volume="12.0dB" />
-			<sample end="65887" hiNote="60" hiVel="127" loNote="58" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_B2_v1_rr2.wav" rootNote="59" volume="12.0dB" />
-			<sample end="83508" hiNote="50" hiVel="127" loNote="47" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_C#2_v1_rr2.wav" rootNote="49" volume="12.0dB" />
-			<sample end="53178" hiNote="36" hiVel="62" loNote="35" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_C1_v1_rr2.wav" rootNote="36" volume="12.0dB" />
-			<sample end="70184" hiNote="38" hiVel="62" loNote="37" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_D1_v1_rr2.wav" rootNote="38" volume="12.0dB" />
-			<sample end="106590" hiNote="28" hiVel="62" loNote="24" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E0_v1_rr2.wav" rootNote="28" volume="12.0dB" />
-			<sample end="56856" hiNote="40" hiVel="62" loNote="39" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E1_v1_rr2.wav" rootNote="40" volume="12.0dB" />
-			<sample end="78461" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E2_v1_rr2.wav" rootNote="52" volume="12.0dB" />
-			<sample end="69129" hiNote="30" hiVel="62" loNote="29" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_F#0_v1_rr2.wav" rootNote="30" volume="12.0dB" />
-			<sample end="66493" hiNote="42" hiVel="127" loNote="41" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_F#1_v1_rr2.wav" rootNote="42" volume="12.0dB" />
-			<sample end="89497" hiNote="44" hiVel="127" loNote="43" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G#1_v1_rr2.wav" rootNote="44" volume="12.0dB" />
-			<sample end="88358" hiNote="57" hiVel="127" loNote="54" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G#2_v1_rr2.wav" rootNote="56" volume="12.0dB" />
-			<sample end="53002" hiNote="32" hiVel="62" loNote="31" loVel="0" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G0_v1_rr2.wav" rootNote="31" volume="12.0dB" />
-			<sample end="77938" hiNote="34" hiVel="127" loNote="33" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A#0_v3_rr2.wav" rootNote="34" volume="5.0dB" />
-			<sample end="59477" hiNote="36" hiVel="127" loNote="35" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_C1_v3_rr2.wav" rootNote="36" volume="5.0dB" />
-			<sample end="67950" hiNote="38" hiVel="127" loNote="37" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_D1_v3_rr2.wav" rootNote="38" volume="5.0dB" />
-			<sample end="139797" hiNote="28" hiVel="127" loNote="24" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E0_v3_rr2.wav" rootNote="28" volume="5.0dB" />
-			<sample end="72608" hiNote="40" hiVel="127" loNote="39" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E1_v3_rr2.wav" rootNote="40" volume="5.0dB" />
-			<sample end="109967" hiNote="30" hiVel="127" loNote="29" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_F#0_v3_rr2.wav" rootNote="30" volume="5.0dB" />
-			<sample end="72355" hiNote="32" hiVel="127" loNote="31" loVel="63" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G0_v3_rr2.wav" rootNote="31" volume="5.0dB" />
+		<group name="gr_2" ampVelTrack="0">
+			<sample rootNote="34" loNote="33" hiNote="34" loVel="0" hiVel="62" end="57806" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A#0_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="45" loNote="45" hiNote="46" loVel="0" hiVel="127" end="100354" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A1_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="59" loNote="58" hiNote="60" loVel="0" hiVel="127" end="65887" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_B2_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="49" loNote="47" hiNote="50" loVel="0" hiVel="127" end="83508" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_C#2_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="36" loNote="35" hiNote="36" loVel="0" hiVel="62" end="53178" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_C1_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="38" loNote="37" hiNote="38" loVel="0" hiVel="62" end="70184" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_D1_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="28" loNote="24" hiNote="28" loVel="0" hiVel="62" end="106590" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E0_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="40" loNote="39" hiNote="40" loVel="0" hiVel="62" end="56856" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E1_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="78461" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E2_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="30" loNote="29" hiNote="30" loVel="0" hiVel="62" end="69129" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_F#0_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="42" loNote="41" hiNote="42" loVel="0" hiVel="127" end="66493" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_F#1_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="44" loNote="43" hiNote="44" loVel="0" hiVel="127" end="89497" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G#1_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="56" loNote="54" hiNote="57" loVel="0" hiVel="127" end="88358" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G#2_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="31" loNote="31" hiNote="32" loVel="0" hiVel="62" end="53002" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G0_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="34" loNote="33" hiNote="34" loVel="63" hiVel="127" end="77938" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A#0_v3_rr2.wav" volume="5.0dB" />
+			<sample rootNote="36" loNote="35" hiNote="36" loVel="63" hiVel="127" end="59477" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_C1_v3_rr2.wav" volume="5.0dB" />
+			<sample rootNote="38" loNote="37" hiNote="38" loVel="63" hiVel="127" end="67950" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_D1_v3_rr2.wav" volume="5.0dB" />
+			<sample rootNote="28" loNote="24" hiNote="28" loVel="63" hiVel="127" end="139797" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E0_v3_rr2.wav" volume="5.0dB" />
+			<sample rootNote="40" loNote="39" hiNote="40" loVel="63" hiVel="127" end="72608" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_E1_v3_rr2.wav" volume="5.0dB" />
+			<sample rootNote="30" loNote="29" hiNote="30" loVel="63" hiVel="127" end="109967" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_F#0_v3_rr2.wav" volume="5.0dB" />
+			<sample rootNote="31" loNote="31" hiNote="32" loVel="63" hiVel="127" end="72355" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G0_v3_rr2.wav" volume="5.0dB" />
 		</group>
 	</groups>
 	<midi>
+		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
+		<!-- Controls attack with note velocity -->
+		<note note="0-127">
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		</note>
 	</midi>
+	<!-- Initial dynamics values -->
+	<tags>
+		<tag name="3-dynamics-ff" volume="1" />
+		<tag name="3-dynamics-mf" volume="0" />
+		<tag name="3-dynamics-mp" volume="0" />
+	</tags>
 	<modulators />
 </DecentSampler>

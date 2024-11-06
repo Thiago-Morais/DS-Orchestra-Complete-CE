@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Flute.png">
 		<tab name="main">
@@ -33,40 +32,40 @@
 	</ui>
 	<groups attack="0.060" release="0.028">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="352745" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A3_v1_1-PB-loop.wav" rootNote="69" volume="5.0dB" />
-			<sample end="323607" hiNote="82" hiVel="127" loNote="79" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A4_v1_1-PB-loop.wav" rootNote="81" volume="3.0dB" />
-			<sample end="242837" hiNote="94" hiVel="127" loNote="91" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A5_v1_1-PB-loop.wav" rootNote="93" volume="3.0dB" />
-			<sample end="342645" hiNote="61" hiVel="127" loNote="60" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C3-PB-loop.wav" rootNote="60" volume="8.0dB" />
-			<sample end="218151" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C4_v1_2-PB-loop.wav" rootNote="72" volume="5.0dB" />
-			<sample end="321714" hiNote="85" hiVel="127" loNote="83" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C5_v1_1-PB-loop.wav" rootNote="84" volume="4.0dB" />
-			<sample end="209911" hiNote="98" hiVel="127" loNote="95" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C6_v1_1-PB-loop.wav" rootNote="96" volume="3.0dB" />
-			<sample end="342645" hiNote="66" hiVel="127" loNote="62" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E3-PB-loop.wav" rootNote="64" volume="8.0dB" />
-			<sample end="304715" hiNote="78" hiVel="127" loNote="74" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E4_v1_2-PB-loop.wav" rootNote="76" volume="6.0dB" />
-			<sample end="309697" hiNote="90" hiVel="127" loNote="86" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E5_v1_2-PB-loop.wav" rootNote="88" volume="3.0dB" />
+			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="352745" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A3_v1_1-PB-loop.wav" volume="5.0dB" />
+			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="127" end="323607" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A4_v1_1-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="93" loNote="91" hiNote="94" loVel="0" hiVel="127" end="242837" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A5_v1_1-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="342645" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C3-PB-loop.wav" volume="8.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="127" end="218151" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C4_v1_2-PB-loop.wav" volume="5.0dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="127" end="321714" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C5_v1_1-PB-loop.wav" volume="4.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="98" loVel="0" hiVel="127" end="209911" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C6_v1_1-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="64" loNote="62" hiNote="66" loVel="0" hiVel="127" end="342645" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E3-PB-loop.wav" volume="8.0dB" />
+			<sample rootNote="76" loNote="74" hiNote="78" loVel="0" hiVel="127" end="304715" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E4_v1_2-PB-loop.wav" volume="6.0dB" />
+			<sample rootNote="88" loNote="86" hiNote="90" loVel="0" hiVel="127" end="309697" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E5_v1_2-PB-loop.wav" volume="3.0dB" />
 		</group>
 		<group name="Group 2" ampVelTrack="1">
-			<sample end="352745" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A3_v1_1-PB-loop.wav" rootNote="69" volume="3.5dB" />
-			<sample end="323607" hiNote="82" hiVel="127" loNote="79" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A4_v1_1-PB-loop.wav" rootNote="81" volume="1.5dB" />
-			<sample end="242837" hiNote="94" hiVel="127" loNote="91" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A5_v1_1-PB-loop.wav" rootNote="93" volume="1.5dB" />
-			<sample end="342645" hiNote="61" hiVel="127" loNote="60" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C3-PB-loop.wav" rootNote="60" volume="6.5dB" />
-			<sample end="218151" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C4_v1_2-PB-loop.wav" rootNote="72" volume="3.5dB" />
-			<sample end="321714" hiNote="85" hiVel="127" loNote="83" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C5_v1_1-PB-loop.wav" rootNote="84" volume="2.5dB" />
-			<sample end="209911" hiNote="98" hiVel="127" loNote="95" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C6_v1_1-PB-loop.wav" rootNote="96" volume="1.5dB" />
-			<sample end="342645" hiNote="66" hiVel="127" loNote="62" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E3-PB-loop.wav" rootNote="64" volume="6.5dB" />
-			<sample end="304715" hiNote="78" hiVel="127" loNote="74" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E4_v1_2-PB-loop.wav" rootNote="76" volume="4.5dB" />
-			<sample end="309697" hiNote="90" hiVel="127" loNote="86" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E5_v1_2-PB-loop.wav" rootNote="88" volume="1.5dB" />
+			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="352745" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A3_v1_1-PB-loop.wav" volume="3.5dB" />
+			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="127" end="323607" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A4_v1_1-PB-loop.wav" volume="1.5dB" />
+			<sample rootNote="93" loNote="91" hiNote="94" loVel="0" hiVel="127" end="242837" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A5_v1_1-PB-loop.wav" volume="1.5dB" />
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="342645" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C3-PB-loop.wav" volume="6.5dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="127" end="218151" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C4_v1_2-PB-loop.wav" volume="3.5dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="127" end="321714" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C5_v1_1-PB-loop.wav" volume="2.5dB" />
+			<sample rootNote="96" loNote="95" hiNote="98" loVel="0" hiVel="127" end="209911" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C6_v1_1-PB-loop.wav" volume="1.5dB" />
+			<sample rootNote="64" loNote="62" hiNote="66" loVel="0" hiVel="127" end="342645" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E3-PB-loop.wav" volume="6.5dB" />
+			<sample rootNote="76" loNote="74" hiNote="78" loVel="0" hiVel="127" end="304715" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E4_v1_2-PB-loop.wav" volume="4.5dB" />
+			<sample rootNote="88" loNote="86" hiNote="90" loVel="0" hiVel="127" end="309697" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E5_v1_2-PB-loop.wav" volume="1.5dB" />
 		</group>
 		<group name="Group 4" ampVelTrack="1">
-			<sample end="352745" hiNote="70" hiVel="127" loNote="67" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A3_v1_1-PB-loop.wav" rootNote="69" volume="5.0dB" />
-			<sample end="323607" hiNote="82" hiVel="127" loNote="79" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A4_v1_1-PB-loop.wav" rootNote="81" volume="3.0dB" />
-			<sample end="242837" hiNote="94" hiVel="127" loNote="91" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A5_v1_1-PB-loop.wav" rootNote="93" volume="3.0dB" />
-			<sample end="342645" hiNote="61" hiVel="127" loNote="60" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C3-PB-loop.wav" rootNote="60" volume="8.0dB" />
-			<sample end="218151" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C4_v1_2-PB-loop.wav" rootNote="72" volume="5.0dB" />
-			<sample end="321714" hiNote="85" hiVel="127" loNote="83" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C5_v1_1-PB-loop.wav" rootNote="84" volume="4.0dB" />
-			<sample end="209911" hiNote="98" hiVel="127" loNote="95" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C6_v1_1-PB-loop.wav" rootNote="96" volume="3.0dB" />
-			<sample end="342645" hiNote="66" hiVel="127" loNote="62" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E3-PB-loop.wav" rootNote="64" volume="8.0dB" />
-			<sample end="304715" hiNote="78" hiVel="127" loNote="74" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E4_v1_2-PB-loop.wav" rootNote="76" volume="6.0dB" />
-			<sample end="309697" hiNote="90" hiVel="127" loNote="86" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E5_v1_2-PB-loop.wav" rootNote="88" volume="3.0dB" />
+			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="352745" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A3_v1_1-PB-loop.wav" volume="5.0dB" />
+			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="127" end="323607" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A4_v1_1-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="93" loNote="91" hiNote="94" loVel="0" hiVel="127" end="242837" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A5_v1_1-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="342645" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C3-PB-loop.wav" volume="8.0dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="127" end="218151" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C4_v1_2-PB-loop.wav" volume="5.0dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="127" end="321714" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C5_v1_1-PB-loop.wav" volume="4.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="98" loVel="0" hiVel="127" end="209911" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_C6_v1_1-PB-loop.wav" volume="3.0dB" />
+			<sample rootNote="64" loNote="62" hiNote="66" loVel="0" hiVel="127" end="342645" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E3-PB-loop.wav" volume="8.0dB" />
+			<sample rootNote="76" loNote="74" hiNote="78" loVel="0" hiVel="127" end="304715" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E4_v1_2-PB-loop.wav" volume="6.0dB" />
+			<sample rootNote="88" loNote="86" hiNote="90" loVel="0" hiVel="127" end="309697" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E5_v1_2-PB-loop.wav" volume="3.0dB" />
 		</group>
 	</groups>
 	<midi>

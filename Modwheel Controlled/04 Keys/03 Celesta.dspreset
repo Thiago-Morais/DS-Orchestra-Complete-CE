@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Celesta.png">
 		<tab name="main">
@@ -28,40 +27,62 @@
 			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
 			</labeled-knob>
+			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 2 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<!-- Cross fade between 3 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+			</labeled-knob>
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.003" release="0.080">
-		<group name="Group 1" ampVelTrack="1">
-			<sample end="400034" hiNote="74" hiVel="127" loNote="72" loVel="63" path="Resources/celesta Samples/c4-hard-PB.wav" rootNote="72" tuning="-0.10" volume="-1.0dB" />
-			<sample end="314390" hiNote="77" hiVel="127" loNote="75" loVel="63" path="Resources/celesta Samples/e4-hard-PB.wav" rootNote="76" tuning="0.05" volume="-1.0dB" />
-			<sample end="372033" hiNote="83" hiVel="127" loNote="78" loVel="63" path="Resources/celesta Samples/g4-hard-PB.wav" rootNote="80" volume="-1.0dB" />
-			<sample end="465970" hiNote="89" hiVel="127" loNote="84" loVel="63" path="Resources/celesta Samples/e5-hard-PB.wav" rootNote="88" tuning="-0.10" volume="1.0dB" />
-			<sample end="677419" hiNote="93" hiVel="127" loNote="90" loVel="63" path="Resources/celesta Samples/g5-hard-PB.wav" rootNote="92" tuning="-0.05" volume="2.0dB" />
-			<sample end="524592" hiNote="98" hiVel="127" loNote="94" loVel="63" path="Resources/celesta Samples/c6-hard-PB.wav" rootNote="96" tuning="-0.05" volume="1.0dB" />
-			<sample end="424778" hiNote="104" hiVel="127" loNote="99" loVel="63" path="Resources/celesta Samples/e6-hard-PB.wav" rootNote="100" tuning="-0.10" volume="1.0dB" />
-			<sample end="218085" hiNote="110" hiVel="127" loNote="105" loVel="63" path="Resources/celesta Samples/c7-hard-PB.wav" rootNote="108" tuning="-0.30" volume="1.0dB" />
-			<sample end="170324" hiNote="113" hiVel="127" loNote="111" loVel="63" path="Resources/celesta Samples/e7-hard-PB.wav" rootNote="112" tuning="-0.45" />
-			<sample end="201765" hiNote="120" hiVel="127" loNote="114" loVel="63" path="Resources/celesta Samples/g7-hard-PB.wav" rootNote="117" tuning="0.35" volume="1.5dB" />
+	<groups attack="0.003" release="0.080" ampVelTrack="0">
+		<group name="Group 1" ampVelTrack="0">
+			<sample rootNote="72" loNote="72" hiNote="74" loVel="63" hiVel="127" end="400034" path="Resources/celesta Samples/c4-hard-PB.wav" tuning="-0.10" volume="-1.0dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" loVel="63" hiVel="127" end="314390" path="Resources/celesta Samples/e4-hard-PB.wav" tuning="0.05" volume="-1.0dB" />
+			<sample rootNote="80" loNote="78" hiNote="83" loVel="63" hiVel="127" end="372033" path="Resources/celesta Samples/g4-hard-PB.wav" volume="-1.0dB" />
+			<sample rootNote="88" loNote="84" hiNote="89" loVel="63" hiVel="127" end="465970" path="Resources/celesta Samples/e5-hard-PB.wav" tuning="-0.10" volume="1.0dB" />
+			<sample rootNote="92" loNote="90" hiNote="93" loVel="63" hiVel="127" end="677419" path="Resources/celesta Samples/g5-hard-PB.wav" tuning="-0.05" volume="2.0dB" />
+			<sample rootNote="96" loNote="94" hiNote="98" loVel="63" hiVel="127" end="524592" path="Resources/celesta Samples/c6-hard-PB.wav" tuning="-0.05" volume="1.0dB" />
+			<sample rootNote="100" loNote="99" hiNote="104" loVel="63" hiVel="127" end="424778" path="Resources/celesta Samples/e6-hard-PB.wav" tuning="-0.10" volume="1.0dB" />
+			<sample rootNote="108" loNote="105" hiNote="110" loVel="63" hiVel="127" end="218085" path="Resources/celesta Samples/c7-hard-PB.wav" tuning="-0.30" volume="1.0dB" />
+			<sample rootNote="112" loNote="111" hiNote="113" loVel="63" hiVel="127" end="170324" path="Resources/celesta Samples/e7-hard-PB.wav" tuning="-0.45" />
+			<sample rootNote="117" loNote="114" hiNote="120" loVel="63" hiVel="127" end="201765" path="Resources/celesta Samples/g7-hard-PB.wav" tuning="0.35" volume="1.5dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="1">
-			<sample end="400034" hiNote="74" hiVel="95" loNote="72" loVel="0" path="Resources/celesta Samples/c4-hard-PB.wav" rootNote="72" tuning="-0.10" volume="-1.0dB" />
-			<sample end="153081" hiNote="77" hiVel="95" loNote="75" loVel="0" path="Resources/celesta Samples/e4-soft-PB.wav" rootNote="76" volume="-1.0dB" />
-			<sample end="180290" hiNote="83" hiVel="95" loNote="78" loVel="0" path="Resources/celesta Samples/g4-soft-PB.wav" rootNote="80" volume="-1.0dB" />
-			<sample end="410769" hiNote="89" hiVel="95" loNote="84" loVel="0" path="Resources/celesta Samples/e5-soft-PB.wav" rootNote="88" tuning="-0.10" volume="-1.0dB" />
-			<sample end="485057" hiNote="93" hiVel="95" loNote="90" loVel="0" path="Resources/celesta Samples/g5-soft-PB.wav" rootNote="92" tuning="-0.05" volume="-1.0dB" />
-			<sample end="392353" hiNote="98" hiVel="95" loNote="94" loVel="0" path="Resources/celesta Samples/c6-soft-PB.wav" rootNote="96" tuning="-0.05" volume="-1.0dB" />
-			<sample end="275258" hiNote="101" hiVel="95" loNote="99" loVel="0" path="Resources/celesta Samples/e6-soft-PB.wav" rootNote="100" tuning="-0.10" volume="-1.0dB" />
-			<sample end="201059" hiNote="105" hiVel="95" loNote="102" loVel="0" path="Resources/celesta Samples/g6-soft-PB.wav" rootNote="104" tuning="-0.30" volume="-1.0dB" />
-			<sample end="216897" hiNote="110" hiVel="95" loNote="106" loVel="0" path="Resources/celesta Samples/c7-soft-PB.wav" rootNote="108" tuning="-0.30" volume="-1.0dB" />
-			<sample end="168983" hiNote="113" hiVel="95" loNote="111" loVel="0" path="Resources/celesta Samples/e7-soft-PB.wav" rootNote="112" tuning="-0.45" volume="-1.0dB" />
-			<sample end="218344" hiNote="120" hiVel="95" loNote="114" loVel="0" path="Resources/celesta Samples/g7-soft-PB.wav" rootNote="117" tuning="0.32" volume="-1.0dB" />
+		<group name="Group 2" ampVelTrack="0">
+			<sample rootNote="72" loNote="72" hiNote="74" loVel="0" hiVel="95" end="400034" path="Resources/celesta Samples/c4-hard-PB.wav" tuning="-0.10" volume="-1.0dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="95" end="153081" path="Resources/celesta Samples/e4-soft-PB.wav" volume="-1.0dB" />
+			<sample rootNote="80" loNote="78" hiNote="83" loVel="0" hiVel="95" end="180290" path="Resources/celesta Samples/g4-soft-PB.wav" volume="-1.0dB" />
+			<sample rootNote="88" loNote="84" hiNote="89" loVel="0" hiVel="95" end="410769" path="Resources/celesta Samples/e5-soft-PB.wav" tuning="-0.10" volume="-1.0dB" />
+			<sample rootNote="92" loNote="90" hiNote="93" loVel="0" hiVel="95" end="485057" path="Resources/celesta Samples/g5-soft-PB.wav" tuning="-0.05" volume="-1.0dB" />
+			<sample rootNote="96" loNote="94" hiNote="98" loVel="0" hiVel="95" end="392353" path="Resources/celesta Samples/c6-soft-PB.wav" tuning="-0.05" volume="-1.0dB" />
+			<sample rootNote="100" loNote="99" hiNote="101" loVel="0" hiVel="95" end="275258" path="Resources/celesta Samples/e6-soft-PB.wav" tuning="-0.10" volume="-1.0dB" />
+			<sample rootNote="104" loNote="102" hiNote="105" loVel="0" hiVel="95" end="201059" path="Resources/celesta Samples/g6-soft-PB.wav" tuning="-0.30" volume="-1.0dB" />
+			<sample rootNote="108" loNote="106" hiNote="110" loVel="0" hiVel="95" end="216897" path="Resources/celesta Samples/c7-soft-PB.wav" tuning="-0.30" volume="-1.0dB" />
+			<sample rootNote="112" loNote="111" hiNote="113" loVel="0" hiVel="95" end="168983" path="Resources/celesta Samples/e7-soft-PB.wav" tuning="-0.45" volume="-1.0dB" />
+			<sample rootNote="117" loNote="114" hiNote="120" loVel="0" hiVel="95" end="218344" path="Resources/celesta Samples/g7-soft-PB.wav" tuning="0.32" volume="-1.0dB" />
 		</group>
 	</groups>
 	<midi>
+		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
+		<!-- Controls attack with note velocity -->
+		<note note="0-127">
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		</note>
 	</midi>
+	<!-- Initial dynamics values -->
+	<tags>
+		<tag name="3-dynamics-ff" volume="1" />
+		<tag name="3-dynamics-mf" volume="0" />
+		<tag name="3-dynamics-mp" volume="0" />
+	</tags>
 	<modulators />
 </DecentSampler>

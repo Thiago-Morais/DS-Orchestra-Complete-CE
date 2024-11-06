@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Basson.png">
 		<tab name="main">
@@ -28,65 +27,87 @@
 			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
 			</labeled-knob>
+			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 2 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<!-- Cross fade between 3 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+			</labeled-knob>
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.120">
-		<group name="gr_1" ampVelTrack="1">
-			<sample end="26690" hiNote="46" hiVel="62" loNote="43" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_A1_v1_rr1.wav" rootNote="45" volume="12.0dB" />
-			<sample end="25594" hiNote="58" hiVel="62" loNote="56" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_A2_v1_rr1.wav" rootNote="57" volume="12.0dB" />
-			<sample end="29318" hiNote="49" hiVel="62" loNote="47" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_C2_v1_rr1.wav" rootNote="48" volume="12.0dB" />
-			<sample end="29296" hiNote="61" hiVel="62" loNote="59" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_C3_v1_rr1.wav" rootNote="60" volume="12.0dB" />
-			<sample end="29078" hiNote="72" hiVel="62" loNote="70" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_C4_v1_rr1.wav" rootNote="72" volume="12.0dB" />
-			<sample end="33246" hiNote="53" hiVel="62" loNote="52" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_E2_v1_rr1.wav" rootNote="52" volume="12.0dB" />
-			<sample end="31723" hiNote="65" hiVel="62" loNote="62" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_E3_v1_rr1.wav" rootNote="64" volume="12.0dB" />
-			<sample end="30111" hiNote="42" hiVel="62" loNote="40" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_F1_v1_rr1.wav" rootNote="41" volume="12.0dB" />
-			<sample end="28491" hiNote="55" hiVel="62" loNote="54" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_G2_v1_rr1.wav" rootNote="55" volume="12.0dB" />
-			<sample end="30704" hiNote="69" hiVel="62" loNote="66" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_G3_v1_rr1.wav" rootNote="67" volume="12.0dB" />
-			<sample end="30628" hiNote="35" hiVel="127" loNote="34" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_A#0_v2_rr1.wav" rootNote="34" volume="10.0dB" />
-			<sample end="30092" hiNote="46" hiVel="127" loNote="43" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_A1_v2_rr1.wav" rootNote="45" />
-			<sample end="33221" hiNote="58" hiVel="127" loNote="56" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_A2_v2_rr1.wav" rootNote="57" />
-			<sample end="31370" hiNote="49" hiVel="127" loNote="47" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_C2_v2_rr1.wav" rootNote="48" />
-			<sample end="31732" hiNote="61" hiVel="127" loNote="59" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_C3_v2_rr1.wav" rootNote="60" />
-			<sample end="31131" hiNote="72" hiVel="127" loNote="70" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_C4_v2_rr1.wav" rootNote="72" />
-			<sample end="33162" hiNote="51" hiVel="127" loNote="50" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_D#2_v2_rr1.wav" rootNote="51" volume="10.0dB" />
-			<sample end="30735" hiNote="39" hiVel="127" loNote="36" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_D1_v2_rr1.wav" rootNote="38" volume="10.0dB" />
-			<sample end="34482" hiNote="53" hiVel="127" loNote="52" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_E2_v2_rr1.wav" rootNote="52" />
-			<sample end="31321" hiNote="65" hiVel="127" loNote="62" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_E3_v2_rr1.wav" rootNote="64" />
-			<sample end="32894" hiNote="42" hiVel="127" loNote="40" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_F1_v2_rr1.wav" rootNote="41" />
-			<sample end="33604" hiNote="55" hiVel="127" loNote="54" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_G2_v2_rr1.wav" rootNote="55" />
-			<sample end="32905" hiNote="69" hiVel="127" loNote="66" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_G3_v2_rr1.wav" rootNote="67" />
+	<groups attack="0" release="0.120" ampVelTrack="0">
+		<group name="gr_1" ampVelTrack="0">
+			<sample rootNote="45" loNote="43" hiNote="46" loVel="0" hiVel="62" end="26690" path="Resources/BassoonStac Samples/PSBassoon_A1_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="57" loNote="56" hiNote="58" loVel="0" hiVel="62" end="25594" path="Resources/BassoonStac Samples/PSBassoon_A2_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="48" loNote="47" hiNote="49" loVel="0" hiVel="62" end="29318" path="Resources/BassoonStac Samples/PSBassoon_C2_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="60" loNote="59" hiNote="61" loVel="0" hiVel="62" end="29296" path="Resources/BassoonStac Samples/PSBassoon_C3_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="72" loNote="70" hiNote="72" loVel="0" hiVel="62" end="29078" path="Resources/BassoonStac Samples/PSBassoon_C4_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="52" loNote="52" hiNote="53" loVel="0" hiVel="62" end="33246" path="Resources/BassoonStac Samples/PSBassoon_E2_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="64" loNote="62" hiNote="65" loVel="0" hiVel="62" end="31723" path="Resources/BassoonStac Samples/PSBassoon_E3_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="41" loNote="40" hiNote="42" loVel="0" hiVel="62" end="30111" path="Resources/BassoonStac Samples/PSBassoon_F1_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="55" loVel="0" hiVel="62" end="28491" path="Resources/BassoonStac Samples/PSBassoon_G2_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="67" loNote="66" hiNote="69" loVel="0" hiVel="62" end="30704" path="Resources/BassoonStac Samples/PSBassoon_G3_v1_rr1.wav" volume="12.0dB" />
+			<sample rootNote="34" loNote="34" hiNote="35" loVel="0" hiVel="127" end="30628" path="Resources/BassoonStac Samples/PSBassoon_A#0_v2_rr1.wav" volume="10.0dB" />
+			<sample rootNote="45" loNote="43" hiNote="46" loVel="63" hiVel="127" end="30092" path="Resources/BassoonStac Samples/PSBassoon_A1_v2_rr1.wav" />
+			<sample rootNote="57" loNote="56" hiNote="58" loVel="63" hiVel="127" end="33221" path="Resources/BassoonStac Samples/PSBassoon_A2_v2_rr1.wav" />
+			<sample rootNote="48" loNote="47" hiNote="49" loVel="63" hiVel="127" end="31370" path="Resources/BassoonStac Samples/PSBassoon_C2_v2_rr1.wav" />
+			<sample rootNote="60" loNote="59" hiNote="61" loVel="63" hiVel="127" end="31732" path="Resources/BassoonStac Samples/PSBassoon_C3_v2_rr1.wav" />
+			<sample rootNote="72" loNote="70" hiNote="72" loVel="63" hiVel="127" end="31131" path="Resources/BassoonStac Samples/PSBassoon_C4_v2_rr1.wav" />
+			<sample rootNote="51" loNote="50" hiNote="51" loVel="0" hiVel="127" end="33162" path="Resources/BassoonStac Samples/PSBassoon_D#2_v2_rr1.wav" volume="10.0dB" />
+			<sample rootNote="38" loNote="36" hiNote="39" loVel="0" hiVel="127" end="30735" path="Resources/BassoonStac Samples/PSBassoon_D1_v2_rr1.wav" volume="10.0dB" />
+			<sample rootNote="52" loNote="52" hiNote="53" loVel="63" hiVel="127" end="34482" path="Resources/BassoonStac Samples/PSBassoon_E2_v2_rr1.wav" />
+			<sample rootNote="64" loNote="62" hiNote="65" loVel="63" hiVel="127" end="31321" path="Resources/BassoonStac Samples/PSBassoon_E3_v2_rr1.wav" />
+			<sample rootNote="41" loNote="40" hiNote="42" loVel="63" hiVel="127" end="32894" path="Resources/BassoonStac Samples/PSBassoon_F1_v2_rr1.wav" />
+			<sample rootNote="55" loNote="54" hiNote="55" loVel="63" hiVel="127" end="33604" path="Resources/BassoonStac Samples/PSBassoon_G2_v2_rr1.wav" />
+			<sample rootNote="67" loNote="66" hiNote="69" loVel="63" hiVel="127" end="32905" path="Resources/BassoonStac Samples/PSBassoon_G3_v2_rr1.wav" />
 		</group>
-		<group name="gr_2" ampVelTrack="1">
-			<sample end="26044" hiNote="46" hiVel="62" loNote="43" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_A1_v1_rr2.wav" rootNote="45" volume="12.0dB" />
-			<sample end="24429" hiNote="58" hiVel="62" loNote="56" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_A2_v1_rr2.wav" rootNote="57" volume="12.0dB" />
-			<sample end="30054" hiNote="49" hiVel="62" loNote="47" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_C2_v1_rr2.wav" rootNote="48" volume="12.0dB" />
-			<sample end="28959" hiNote="61" hiVel="62" loNote="59" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_C3_v1_rr2.wav" rootNote="60" volume="12.0dB" />
-			<sample end="30606" hiNote="72" hiVel="62" loNote="70" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_C4_v1_rr2.wav" rootNote="72" volume="12.0dB" />
-			<sample end="31311" hiNote="53" hiVel="62" loNote="52" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_E2_v1_rr2.wav" rootNote="52" volume="12.0dB" />
-			<sample end="31221" hiNote="65" hiVel="62" loNote="62" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_E3_v1_rr2.wav" rootNote="64" volume="12.0dB" />
-			<sample end="28489" hiNote="42" hiVel="62" loNote="40" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_F1_v1_rr2.wav" rootNote="41" volume="12.0dB" />
-			<sample end="29324" hiNote="55" hiVel="62" loNote="54" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_G2_v1_rr2.wav" rootNote="55" volume="12.0dB" />
-			<sample end="32121" hiNote="69" hiVel="62" loNote="66" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_G3_v1_rr2.wav" rootNote="67" volume="12.0dB" />
-			<sample end="31660" hiNote="35" hiVel="127" loNote="34" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_A#0_v2_rr2.wav" rootNote="34" volume="10.0dB" />
-			<sample end="29951" hiNote="46" hiVel="127" loNote="43" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_A1_v2_rr2.wav" rootNote="45" />
-			<sample end="30803" hiNote="58" hiVel="127" loNote="56" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_A2_v2_rr2.wav" rootNote="57" />
-			<sample end="32699" hiNote="49" hiVel="127" loNote="47" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_C2_v2_rr2.wav" rootNote="48" />
-			<sample end="32275" hiNote="61" hiVel="127" loNote="59" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_C3_v2_rr2.wav" rootNote="60" />
-			<sample end="30672" hiNote="72" hiVel="127" loNote="70" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_C4_v2_rr2.wav" rootNote="72" />
-			<sample end="34684" hiNote="51" hiVel="127" loNote="50" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_D#2_v2_rr2.wav" rootNote="51" volume="10.0dB" />
-			<sample end="32035" hiNote="39" hiVel="127" loNote="36" loVel="0" path="Resources/BassoonStac Samples/PSBassoon_D1_v2_rr2.wav" rootNote="38" volume="10.0dB" />
-			<sample end="34033" hiNote="53" hiVel="127" loNote="52" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_E2_v2_rr2.wav" rootNote="52" />
-			<sample end="31325" hiNote="65" hiVel="127" loNote="62" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_E3_v2_rr2.wav" rootNote="64" />
-			<sample end="35863" hiNote="42" hiVel="127" loNote="40" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_F1_v2_rr2.wav" rootNote="41" />
-			<sample end="35967" hiNote="55" hiVel="127" loNote="54" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_G2_v2_rr2.wav" rootNote="55" />
-			<sample end="32440" hiNote="69" hiVel="127" loNote="66" loVel="63" path="Resources/BassoonStac Samples/PSBassoon_G3_v2_rr2.wav" rootNote="67" />
+		<group name="gr_2" ampVelTrack="0">
+			<sample rootNote="45" loNote="43" hiNote="46" loVel="0" hiVel="62" end="26044" path="Resources/BassoonStac Samples/PSBassoon_A1_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="57" loNote="56" hiNote="58" loVel="0" hiVel="62" end="24429" path="Resources/BassoonStac Samples/PSBassoon_A2_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="48" loNote="47" hiNote="49" loVel="0" hiVel="62" end="30054" path="Resources/BassoonStac Samples/PSBassoon_C2_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="60" loNote="59" hiNote="61" loVel="0" hiVel="62" end="28959" path="Resources/BassoonStac Samples/PSBassoon_C3_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="72" loNote="70" hiNote="72" loVel="0" hiVel="62" end="30606" path="Resources/BassoonStac Samples/PSBassoon_C4_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="52" loNote="52" hiNote="53" loVel="0" hiVel="62" end="31311" path="Resources/BassoonStac Samples/PSBassoon_E2_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="64" loNote="62" hiNote="65" loVel="0" hiVel="62" end="31221" path="Resources/BassoonStac Samples/PSBassoon_E3_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="41" loNote="40" hiNote="42" loVel="0" hiVel="62" end="28489" path="Resources/BassoonStac Samples/PSBassoon_F1_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="55" loVel="0" hiVel="62" end="29324" path="Resources/BassoonStac Samples/PSBassoon_G2_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="67" loNote="66" hiNote="69" loVel="0" hiVel="62" end="32121" path="Resources/BassoonStac Samples/PSBassoon_G3_v1_rr2.wav" volume="12.0dB" />
+			<sample rootNote="34" loNote="34" hiNote="35" loVel="0" hiVel="127" end="31660" path="Resources/BassoonStac Samples/PSBassoon_A#0_v2_rr2.wav" volume="10.0dB" />
+			<sample rootNote="45" loNote="43" hiNote="46" loVel="63" hiVel="127" end="29951" path="Resources/BassoonStac Samples/PSBassoon_A1_v2_rr2.wav" />
+			<sample rootNote="57" loNote="56" hiNote="58" loVel="63" hiVel="127" end="30803" path="Resources/BassoonStac Samples/PSBassoon_A2_v2_rr2.wav" />
+			<sample rootNote="48" loNote="47" hiNote="49" loVel="63" hiVel="127" end="32699" path="Resources/BassoonStac Samples/PSBassoon_C2_v2_rr2.wav" />
+			<sample rootNote="60" loNote="59" hiNote="61" loVel="63" hiVel="127" end="32275" path="Resources/BassoonStac Samples/PSBassoon_C3_v2_rr2.wav" />
+			<sample rootNote="72" loNote="70" hiNote="72" loVel="63" hiVel="127" end="30672" path="Resources/BassoonStac Samples/PSBassoon_C4_v2_rr2.wav" />
+			<sample rootNote="51" loNote="50" hiNote="51" loVel="0" hiVel="127" end="34684" path="Resources/BassoonStac Samples/PSBassoon_D#2_v2_rr2.wav" volume="10.0dB" />
+			<sample rootNote="38" loNote="36" hiNote="39" loVel="0" hiVel="127" end="32035" path="Resources/BassoonStac Samples/PSBassoon_D1_v2_rr2.wav" volume="10.0dB" />
+			<sample rootNote="52" loNote="52" hiNote="53" loVel="63" hiVel="127" end="34033" path="Resources/BassoonStac Samples/PSBassoon_E2_v2_rr2.wav" />
+			<sample rootNote="64" loNote="62" hiNote="65" loVel="63" hiVel="127" end="31325" path="Resources/BassoonStac Samples/PSBassoon_E3_v2_rr2.wav" />
+			<sample rootNote="41" loNote="40" hiNote="42" loVel="63" hiVel="127" end="35863" path="Resources/BassoonStac Samples/PSBassoon_F1_v2_rr2.wav" />
+			<sample rootNote="55" loNote="54" hiNote="55" loVel="63" hiVel="127" end="35967" path="Resources/BassoonStac Samples/PSBassoon_G2_v2_rr2.wav" />
+			<sample rootNote="67" loNote="66" hiNote="69" loVel="63" hiVel="127" end="32440" path="Resources/BassoonStac Samples/PSBassoon_G3_v2_rr2.wav" />
 		</group>
 	</groups>
 	<midi>
+		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
+		<!-- Controls attack with note velocity -->
+		<note note="0-127">
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		</note>
 	</midi>
+	<!-- Initial dynamics values -->
+	<tags>
+		<tag name="3-dynamics-ff" volume="1" />
+		<tag name="3-dynamics-mf" volume="0" />
+		<tag name="3-dynamics-mp" volume="0" />
+	</tags>
 	<modulators />
 </DecentSampler>
