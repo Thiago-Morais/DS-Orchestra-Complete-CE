@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Tuba.png">
 		<tab name="main">
@@ -28,29 +27,51 @@
 			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
 			</labeled-knob>
+			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 2 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<!-- Cross fade between 3 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+			</labeled-knob>
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028">
-		<group name="Sustain" ampVelTrack="1">
-			<sample end="223561" hiNote="59" hiVel="127" loNote="57" loVel="0" path="Resources/Tuba - Sustain Samples/tuba-sus-a#2.wav" rootNote="58" tuning="0.16" volume="6.020599913279624dB" />
-			<sample end="228280" hiNote="71" hiVel="127" loNote="69" loVel="0" path="Resources/Tuba - Sustain Samples/tuba-sus-a#3.wav" rootNote="70" tuning="0.08" volume="6.020599913279624dB" />
-			<sample end="219486" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/Tuba - Sustain Samples/tuba-sus-c#2.wav" rootNote="49" tuning="0.01" volume="6.020599913279624dB" />
-			<sample end="217581" hiNote="62" hiVel="127" loNote="60" loVel="0" path="Resources/Tuba - Sustain Samples/tuba-sus-c#3.wav" rootNote="61" tuning="0.08" volume="6.020599913279624dB" />
-			<sample end="222690" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/Tuba - Sustain Samples/tuba-sus-c#4.wav" rootNote="73" tuning="0.08" volume="6.020599913279624dB" />
-			<sample end="204044" hiNote="41" hiVel="127" loNote="40" loVel="0" path="Resources/Tuba - Sustain Samples/tuba-sus-e1.wav" rootNote="40" start="1174" tuning="0.08" volume="6.020599913279624dB" />
-			<sample end="219752" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Tuba - Sustain Samples/tuba-sus-e2.wav" rootNote="52" start="80" tuning="-0.16" volume="6.020599913279624dB" />
-			<sample end="219726" hiNote="65" hiVel="127" loNote="63" loVel="0" path="Resources/Tuba - Sustain Samples/tuba-sus-e3.wav" rootNote="64" tuning="0.08" volume="6.020599913279624dB" />
-			<sample end="213954" hiNote="44" hiVel="127" loNote="42" loVel="0" path="Resources/Tuba - Sustain Samples/tuba-sus-g1.wav" rootNote="43" start="12" tuning="0.08" volume="6.020599913279624dB" />
-			<sample end="224796" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/Tuba - Sustain Samples/tuba-sus-g2.wav" rootNote="55" start="96" tuning="0.01" volume="6.020599913279624dB" />
-			<sample end="221026" hiNote="68" hiVel="127" loNote="66" loVel="0" path="Resources/Tuba - Sustain Samples/tuba-sus-g3.wav" rootNote="67" tuning="0.08" volume="6.020599913279624dB" />
-			<sample end="217763" hiNote="47" hiVel="127" loNote="45" loVel="0" path="Resources/Tuba - Sustain Samples/tuba-sus-a#1.wav" rootNote="46" start="531" tuning="0.03" volume="6.326845596191342dB" />
+	<groups attack="0" release="0.028" ampVelTrack="0">
+		<group name="Sustain" ampVelTrack="0">
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="223561" path="Resources/Tuba - Sustain Samples/tuba-sus-a#2.wav" tuning="0.16" volume="6.020599913279624dB" />
+			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="228280" path="Resources/Tuba - Sustain Samples/tuba-sus-a#3.wav" tuning="0.08" volume="6.020599913279624dB" />
+			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="219486" path="Resources/Tuba - Sustain Samples/tuba-sus-c#2.wav" tuning="0.01" volume="6.020599913279624dB" />
+			<sample rootNote="61" loNote="60" hiNote="62" loVel="0" hiVel="127" end="217581" path="Resources/Tuba - Sustain Samples/tuba-sus-c#3.wav" tuning="0.08" volume="6.020599913279624dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="222690" path="Resources/Tuba - Sustain Samples/tuba-sus-c#4.wav" tuning="0.08" volume="6.020599913279624dB" />
+			<sample rootNote="40" loNote="40" hiNote="41" loVel="0" hiVel="127" end="204044" path="Resources/Tuba - Sustain Samples/tuba-sus-e1.wav" start="1174" tuning="0.08" volume="6.020599913279624dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="219752" path="Resources/Tuba - Sustain Samples/tuba-sus-e2.wav" start="80" tuning="-0.16" volume="6.020599913279624dB" />
+			<sample rootNote="64" loNote="63" hiNote="65" loVel="0" hiVel="127" end="219726" path="Resources/Tuba - Sustain Samples/tuba-sus-e3.wav" tuning="0.08" volume="6.020599913279624dB" />
+			<sample rootNote="43" loNote="42" hiNote="44" loVel="0" hiVel="127" end="213954" path="Resources/Tuba - Sustain Samples/tuba-sus-g1.wav" start="12" tuning="0.08" volume="6.020599913279624dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="224796" path="Resources/Tuba - Sustain Samples/tuba-sus-g2.wav" start="96" tuning="0.01" volume="6.020599913279624dB" />
+			<sample rootNote="67" loNote="66" hiNote="68" loVel="0" hiVel="127" end="221026" path="Resources/Tuba - Sustain Samples/tuba-sus-g3.wav" tuning="0.08" volume="6.020599913279624dB" />
+			<sample rootNote="46" loNote="45" hiNote="47" loVel="0" hiVel="127" end="217763" path="Resources/Tuba - Sustain Samples/tuba-sus-a#1.wav" start="531" tuning="0.03" volume="6.326845596191342dB" />
 		</group>
 	</groups>
 	<midi>
+		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
+		<!-- Controls attack with note velocity -->
+		<note note="0-127">
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		</note>
 	</midi>
+	<!-- Initial dynamics values -->
+	<tags>
+		<tag name="3-dynamics-ff" volume="1" />
+		<tag name="3-dynamics-mf" volume="0" />
+		<tag name="3-dynamics-mp" volume="0" />
+	</tags>
 	<modulators />
 </DecentSampler>

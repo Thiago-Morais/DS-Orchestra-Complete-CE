@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Cello.png">
 		<tab name="main">
@@ -28,41 +27,63 @@
 			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
 			</labeled-knob>
+			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 2 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<!-- Cross fade between 3 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+			</labeled-knob>
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.060" release="0.084">
-		<group name="Group 1" ampVelTrack="1">
-			<sample end="227328" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/Cello Ensemble Samples/2_Db-PB-loop.wav" rootNote="49" tuning="-0.05" volume="-1.5dB" />
-			<sample end="233983" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Cello Ensemble Samples/2_E-PB-loop.wav" rootNote="52" tuning="-0.05" />
-			<sample end="212544" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/Cello Ensemble Samples/2_G-PB-loop.wav" rootNote="55" tuning="-0.05" volume="-0.5dB" />
-			<sample end="163911" hiNote="59" hiVel="127" loNote="57" loVel="0" path="Resources/Cello Ensemble Samples/2_Bb-PB-loop.wav" rootNote="58" tuning="-0.05" />
-			<sample end="161902" hiNote="63" hiVel="127" loNote="60" loVel="0" path="Resources/Cello Ensemble Samples/3_Db-PB-loop.wav" rootNote="61" tuning="-0.05" />
-			<sample end="221266" hiNote="71" hiVel="127" loNote="64" loVel="0" path="Resources/Cello Ensemble Samples/3_Bb-PB-loop.wav" rootNote="70" tuning="-0.05" volume="-1.0dB" />
-			<sample end="162007" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/Cello Ensemble Samples/4_Db-PB-loop.wav" rootNote="73" tuning="-0.05" volume="-1.5dB" />
-			<sample end="150456" hiNote="77" hiVel="127" loNote="75" loVel="0" path="Resources/Cello Ensemble Samples/4_E-PB-loop.wav" rootNote="76" tuning="-0.05" volume="-1.5dB" />
-			<sample end="147810" hiNote="80" hiVel="127" loNote="78" loVel="0" path="Resources/Cello Ensemble Samples/4_G.wav" rootNote="79" tuning="-0.05" volume="-1.0dB" />
-			<sample end="203520" hiNote="84" hiVel="127" loNote="81" loVel="0" path="Resources/Cello Ensemble Samples/4_Bb.wav" rootNote="82" tuning="0.05" volume="-1.0dB" />
-			<sample end="183625" hiNote="93" hiVel="127" loNote="85" loVel="0" path="Resources/Cello Ensemble Samples/5_E.wav" rootNote="88" tuning="-0.05" volume="-1.0dB" />
+	<groups attack="0.060" release="0.084" ampVelTrack="0">
+		<group name="Group 1" ampVelTrack="0">
+			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="227328" path="Resources/Cello Ensemble Samples/2_Db-PB-loop.wav" tuning="-0.05" volume="-1.5dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="233983" path="Resources/Cello Ensemble Samples/2_E-PB-loop.wav" tuning="-0.05" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="212544" path="Resources/Cello Ensemble Samples/2_G-PB-loop.wav" tuning="-0.05" volume="-0.5dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="163911" path="Resources/Cello Ensemble Samples/2_Bb-PB-loop.wav" tuning="-0.05" />
+			<sample rootNote="61" loNote="60" hiNote="63" loVel="0" hiVel="127" end="161902" path="Resources/Cello Ensemble Samples/3_Db-PB-loop.wav" tuning="-0.05" />
+			<sample rootNote="70" loNote="64" hiNote="71" loVel="0" hiVel="127" end="221266" path="Resources/Cello Ensemble Samples/3_Bb-PB-loop.wav" tuning="-0.05" volume="-1.0dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="162007" path="Resources/Cello Ensemble Samples/4_Db-PB-loop.wav" tuning="-0.05" volume="-1.5dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="127" end="150456" path="Resources/Cello Ensemble Samples/4_E-PB-loop.wav" tuning="-0.05" volume="-1.5dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="147810" path="Resources/Cello Ensemble Samples/4_G.wav" tuning="-0.05" volume="-1.0dB" />
+			<sample rootNote="82" loNote="81" hiNote="84" loVel="0" hiVel="127" end="203520" path="Resources/Cello Ensemble Samples/4_Bb.wav" tuning="0.05" volume="-1.0dB" />
+			<sample rootNote="88" loNote="85" hiNote="93" loVel="0" hiVel="127" end="183625" path="Resources/Cello Ensemble Samples/5_E.wav" tuning="-0.05" volume="-1.0dB" />
 		</group>
-		<group name="Group 3" ampVelTrack="1">
-			<sample end="227328" hiNote="50" hiVel="127" loNote="48" loVel="0" path="Resources/Cello Ensemble Samples/2_Db-PB-loop.wav" rootNote="49" tuning="-0.05" volume="-1.5dB" />
-			<sample end="233983" hiNote="53" hiVel="127" loNote="51" loVel="0" path="Resources/Cello Ensemble Samples/2_E-PB-loop.wav" rootNote="52" tuning="-0.05" />
-			<sample end="212544" hiNote="56" hiVel="127" loNote="54" loVel="0" path="Resources/Cello Ensemble Samples/2_G-PB-loop.wav" rootNote="55" tuning="-0.05" volume="-0.5dB" />
-			<sample end="163911" hiNote="59" hiVel="127" loNote="57" loVel="0" path="Resources/Cello Ensemble Samples/2_Bb-PB-loop.wav" rootNote="58" tuning="-0.05" />
-			<sample end="161902" hiNote="63" hiVel="127" loNote="60" loVel="0" path="Resources/Cello Ensemble Samples/3_Db-PB-loop.wav" rootNote="61" tuning="-0.05" />
-			<sample end="221266" hiNote="71" hiVel="127" loNote="64" loVel="0" path="Resources/Cello Ensemble Samples/3_Bb-PB-loop.wav" rootNote="70" tuning="-0.05" volume="-1.0dB" />
-			<sample end="162007" hiNote="74" hiVel="127" loNote="72" loVel="0" path="Resources/Cello Ensemble Samples/4_Db-PB-loop.wav" rootNote="73" tuning="-0.05" volume="-1.5dB" />
-			<sample end="150456" hiNote="77" hiVel="127" loNote="75" loVel="0" path="Resources/Cello Ensemble Samples/4_E-PB-loop.wav" rootNote="76" tuning="-0.05" volume="-1.5dB" />
-			<sample end="147810" hiNote="80" hiVel="127" loNote="78" loVel="0" path="Resources/Cello Ensemble Samples/4_G.wav" rootNote="79" tuning="-0.05" volume="-1.0dB" />
-			<sample end="203520" hiNote="84" hiVel="127" loNote="81" loVel="0" path="Resources/Cello Ensemble Samples/4_Bb.wav" rootNote="82" tuning="0.05" volume="-1.0dB" />
-			<sample end="183625" hiNote="93" hiVel="127" loNote="85" loVel="0" path="Resources/Cello Ensemble Samples/5_E.wav" rootNote="88" tuning="-0.05" volume="-1.0dB" />
+		<group name="Group 3" ampVelTrack="0">
+			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="227328" path="Resources/Cello Ensemble Samples/2_Db-PB-loop.wav" tuning="-0.05" volume="-1.5dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="233983" path="Resources/Cello Ensemble Samples/2_E-PB-loop.wav" tuning="-0.05" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="212544" path="Resources/Cello Ensemble Samples/2_G-PB-loop.wav" tuning="-0.05" volume="-0.5dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="163911" path="Resources/Cello Ensemble Samples/2_Bb-PB-loop.wav" tuning="-0.05" />
+			<sample rootNote="61" loNote="60" hiNote="63" loVel="0" hiVel="127" end="161902" path="Resources/Cello Ensemble Samples/3_Db-PB-loop.wav" tuning="-0.05" />
+			<sample rootNote="70" loNote="64" hiNote="71" loVel="0" hiVel="127" end="221266" path="Resources/Cello Ensemble Samples/3_Bb-PB-loop.wav" tuning="-0.05" volume="-1.0dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="162007" path="Resources/Cello Ensemble Samples/4_Db-PB-loop.wav" tuning="-0.05" volume="-1.5dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="127" end="150456" path="Resources/Cello Ensemble Samples/4_E-PB-loop.wav" tuning="-0.05" volume="-1.5dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="147810" path="Resources/Cello Ensemble Samples/4_G.wav" tuning="-0.05" volume="-1.0dB" />
+			<sample rootNote="82" loNote="81" hiNote="84" loVel="0" hiVel="127" end="203520" path="Resources/Cello Ensemble Samples/4_Bb.wav" tuning="0.05" volume="-1.0dB" />
+			<sample rootNote="88" loNote="85" hiNote="93" loVel="0" hiVel="127" end="183625" path="Resources/Cello Ensemble Samples/5_E.wav" tuning="-0.05" volume="-1.0dB" />
 		</group>
 	</groups>
 	<midi>
+		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
+		<!-- Controls attack with note velocity -->
+		<note note="0-127">
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		</note>
 	</midi>
+	<!-- Initial dynamics values -->
+	<tags>
+		<tag name="3-dynamics-ff" volume="1" />
+		<tag name="3-dynamics-mf" volume="0" />
+		<tag name="3-dynamics-mp" volume="0" />
+	</tags>
 	<modulators />
 </DecentSampler>

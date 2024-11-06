@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/English Horn.png">
 		<tab name="main">
@@ -28,63 +27,85 @@
 			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
 			</labeled-knob>
+			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 2 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<!-- Cross fade between 3 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+			</labeled-knob>
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.030" release="0.018">
-		<group name="Group 2" ampVelTrack="1">
-			<sample end="12754" hiNote="66" hiVel="127" loNote="64" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/E3-stac-PB.wav" rootNote="64" volume="-6.0dB" />
-			<sample end="12754" hiNote="69" hiVel="127" loNote="67" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/G#3-stac-PB.wav" rootNote="68" volume="-5.0dB" />
-			<sample end="12754" hiNote="74" hiVel="127" loNote="70" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/A#3-stac-PB.wav" rootNote="70" volume="-5.0dB" />
-			<sample end="12754" hiNote="77" hiVel="127" loNote="75" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/F4-stac-PB.wav" rootNote="77" volume="-4.0dB" />
-			<sample end="12754" hiNote="78" hiVel="127" loNote="78" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/F#4-stac-PB.wav" rootNote="78" volume="-3.0dB" />
-			<sample end="12754" hiNote="81" hiVel="127" loNote="79" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/G4-stac-PB.wav" rootNote="79" volume="-5.0dB" />
-			<sample end="12754" hiNote="84" hiVel="127" loNote="82" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/A#4-stac-PB.wav" rootNote="82" volume="-5.5dB" />
-			<sample end="12754" hiNote="86" hiVel="127" loNote="85" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/D5-stac-PB.wav" rootNote="86" volume="-4.5dB" />
-			<sample end="12754" hiNote="88" hiVel="127" loNote="87" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/D#5-stac-PB.wav" rootNote="87" volume="-5.0dB" />
-			<sample end="12754" hiNote="89" hiVel="127" loNote="89" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/F5-stac-PB.wav" rootNote="89" volume="-5.0dB" />
-			<sample end="12754" hiNote="90" hiVel="127" loNote="90" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/F#5-stac-PB.wav" rootNote="90" volume="-5.0dB" />
-			<sample end="12754" hiNote="92" hiVel="127" loNote="91" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/G5-stac-PB.wav" rootNote="91" volume="-5.0dB" />
-			<sample end="12754" hiNote="93" hiVel="127" loNote="93" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/A5-stac-PB.wav" rootNote="93" volume="-6.0dB" />
-			<sample end="12754" hiNote="94" hiVel="127" loNote="94" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/B5-stac-PB.wav" rootNote="95" volume="-4.0dB" />
+	<groups attack="0.030" release="0.018" ampVelTrack="0">
+		<group name="Group 2" ampVelTrack="0">
+			<sample rootNote="64" loNote="64" hiNote="66" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/E3-stac-PB.wav" volume="-6.0dB" />
+			<sample rootNote="68" loNote="67" hiNote="69" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/G#3-stac-PB.wav" volume="-5.0dB" />
+			<sample rootNote="70" loNote="70" hiNote="74" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/A#3-stac-PB.wav" volume="-5.0dB" />
+			<sample rootNote="77" loNote="75" hiNote="77" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/F4-stac-PB.wav" volume="-4.0dB" />
+			<sample rootNote="78" loNote="78" hiNote="78" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/F#4-stac-PB.wav" volume="-3.0dB" />
+			<sample rootNote="79" loNote="79" hiNote="81" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/G4-stac-PB.wav" volume="-5.0dB" />
+			<sample rootNote="82" loNote="82" hiNote="84" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/A#4-stac-PB.wav" volume="-5.5dB" />
+			<sample rootNote="86" loNote="85" hiNote="86" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/D5-stac-PB.wav" volume="-4.5dB" />
+			<sample rootNote="87" loNote="87" hiNote="88" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/D#5-stac-PB.wav" volume="-5.0dB" />
+			<sample rootNote="89" loNote="89" hiNote="89" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/F5-stac-PB.wav" volume="-5.0dB" />
+			<sample rootNote="90" loNote="90" hiNote="90" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/F#5-stac-PB.wav" volume="-5.0dB" />
+			<sample rootNote="91" loNote="91" hiNote="92" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/G5-stac-PB.wav" volume="-5.0dB" />
+			<sample rootNote="93" loNote="93" hiNote="93" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/A5-stac-PB.wav" volume="-6.0dB" />
+			<sample rootNote="95" loNote="94" hiNote="94" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/B5-stac-PB.wav" volume="-4.0dB" />
 		</group>
-		<group name="Group 4" ampVelTrack="1">
-			<sample end="12754" hiNote="66" hiVel="127" loNote="64" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/E3-stac-PB.wav" rootNote="64" />
-			<sample end="12754" hiNote="69" hiVel="127" loNote="67" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/G#3-stac-PB.wav" rootNote="68" volume="1.0dB" />
-			<sample end="12754" hiNote="74" hiVel="127" loNote="70" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/A#3-stac-PB.wav" rootNote="70" volume="1.0dB" />
-			<sample end="12754" hiNote="77" hiVel="127" loNote="75" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/F4-stac-PB.wav" rootNote="77" volume="2.0dB" />
-			<sample end="12754" hiNote="78" hiVel="127" loNote="78" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/F#4-stac-PB.wav" rootNote="78" volume="3.0dB" />
-			<sample end="12754" hiNote="81" hiVel="127" loNote="79" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/G4-stac-PB.wav" rootNote="79" volume="1.0dB" />
-			<sample end="12754" hiNote="84" hiVel="127" loNote="82" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/A#4-stac-PB.wav" rootNote="82" volume="0.5dB" />
-			<sample end="12754" hiNote="86" hiVel="127" loNote="85" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/D5-stac-PB.wav" rootNote="86" volume="1.5dB" />
-			<sample end="12754" hiNote="88" hiVel="127" loNote="87" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/D#5-stac-PB.wav" rootNote="87" volume="1.0dB" />
-			<sample end="12754" hiNote="89" hiVel="127" loNote="89" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/F5-stac-PB.wav" rootNote="89" volume="1.0dB" />
-			<sample end="12754" hiNote="90" hiVel="127" loNote="90" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/F#5-stac-PB.wav" rootNote="90" volume="1.0dB" />
-			<sample end="12754" hiNote="92" hiVel="127" loNote="91" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/G5-stac-PB.wav" rootNote="91" volume="1.0dB" />
-			<sample end="12754" hiNote="93" hiVel="127" loNote="93" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/A5-stac-PB.wav" rootNote="93" />
-			<sample end="12754" hiNote="94" hiVel="127" loNote="94" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/B5-stac-PB.wav" rootNote="95" volume="2.0dB" />
+		<group name="Group 4" ampVelTrack="0">
+			<sample rootNote="64" loNote="64" hiNote="66" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/E3-stac-PB.wav" />
+			<sample rootNote="68" loNote="67" hiNote="69" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/G#3-stac-PB.wav" volume="1.0dB" />
+			<sample rootNote="70" loNote="70" hiNote="74" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/A#3-stac-PB.wav" volume="1.0dB" />
+			<sample rootNote="77" loNote="75" hiNote="77" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/F4-stac-PB.wav" volume="2.0dB" />
+			<sample rootNote="78" loNote="78" hiNote="78" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/F#4-stac-PB.wav" volume="3.0dB" />
+			<sample rootNote="79" loNote="79" hiNote="81" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/G4-stac-PB.wav" volume="1.0dB" />
+			<sample rootNote="82" loNote="82" hiNote="84" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/A#4-stac-PB.wav" volume="0.5dB" />
+			<sample rootNote="86" loNote="85" hiNote="86" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/D5-stac-PB.wav" volume="1.5dB" />
+			<sample rootNote="87" loNote="87" hiNote="88" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/D#5-stac-PB.wav" volume="1.0dB" />
+			<sample rootNote="89" loNote="89" hiNote="89" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/F5-stac-PB.wav" volume="1.0dB" />
+			<sample rootNote="90" loNote="90" hiNote="90" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/F#5-stac-PB.wav" volume="1.0dB" />
+			<sample rootNote="91" loNote="91" hiNote="92" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/G5-stac-PB.wav" volume="1.0dB" />
+			<sample rootNote="93" loNote="93" hiNote="93" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/A5-stac-PB.wav" />
+			<sample rootNote="95" loNote="94" hiNote="94" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/B5-stac-PB.wav" volume="2.0dB" />
 		</group>
-		<group name="Group 6" ampVelTrack="1">
-			<sample end="12754" hiNote="66" hiVel="127" loNote="64" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/E3-stac-PB.wav" rootNote="64" />
-			<sample end="12754" hiNote="69" hiVel="127" loNote="67" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/G#3-stac-PB.wav" rootNote="68" volume="1.0dB" />
-			<sample end="12754" hiNote="74" hiVel="127" loNote="70" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/A#3-stac-PB.wav" rootNote="70" volume="1.0dB" />
-			<sample end="12754" hiNote="77" hiVel="127" loNote="75" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/F4-stac-PB.wav" rootNote="77" volume="2.0dB" />
-			<sample end="12754" hiNote="78" hiVel="127" loNote="78" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/F#4-stac-PB.wav" rootNote="78" volume="3.0dB" />
-			<sample end="12754" hiNote="81" hiVel="127" loNote="79" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/G4-stac-PB.wav" rootNote="79" volume="1.0dB" />
-			<sample end="12754" hiNote="84" hiVel="127" loNote="82" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/A#4-stac-PB.wav" rootNote="82" volume="0.5dB" />
-			<sample end="12754" hiNote="86" hiVel="127" loNote="85" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/D5-stac-PB.wav" rootNote="86" volume="1.5dB" />
-			<sample end="12754" hiNote="88" hiVel="127" loNote="87" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/D#5-stac-PB.wav" rootNote="87" volume="1.0dB" />
-			<sample end="12754" hiNote="89" hiVel="127" loNote="89" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/F5-stac-PB.wav" rootNote="89" volume="1.0dB" />
-			<sample end="12754" hiNote="90" hiVel="127" loNote="90" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/F#5-stac-PB.wav" rootNote="90" volume="1.0dB" />
-			<sample end="12754" hiNote="92" hiVel="127" loNote="91" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/G5-stac-PB.wav" rootNote="91" volume="1.0dB" />
-			<sample end="12754" hiNote="93" hiVel="127" loNote="93" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/A5-stac-PB.wav" rootNote="93" />
-			<sample end="12754" hiNote="94" hiVel="127" loNote="94" loVel="0" path="Resources/english-horn-SOLO-KS-C2 Samples/B5-stac-PB.wav" rootNote="95" volume="2.0dB" />
+		<group name="Group 6" ampVelTrack="0">
+			<sample rootNote="64" loNote="64" hiNote="66" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/E3-stac-PB.wav" />
+			<sample rootNote="68" loNote="67" hiNote="69" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/G#3-stac-PB.wav" volume="1.0dB" />
+			<sample rootNote="70" loNote="70" hiNote="74" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/A#3-stac-PB.wav" volume="1.0dB" />
+			<sample rootNote="77" loNote="75" hiNote="77" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/F4-stac-PB.wav" volume="2.0dB" />
+			<sample rootNote="78" loNote="78" hiNote="78" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/F#4-stac-PB.wav" volume="3.0dB" />
+			<sample rootNote="79" loNote="79" hiNote="81" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/G4-stac-PB.wav" volume="1.0dB" />
+			<sample rootNote="82" loNote="82" hiNote="84" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/A#4-stac-PB.wav" volume="0.5dB" />
+			<sample rootNote="86" loNote="85" hiNote="86" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/D5-stac-PB.wav" volume="1.5dB" />
+			<sample rootNote="87" loNote="87" hiNote="88" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/D#5-stac-PB.wav" volume="1.0dB" />
+			<sample rootNote="89" loNote="89" hiNote="89" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/F5-stac-PB.wav" volume="1.0dB" />
+			<sample rootNote="90" loNote="90" hiNote="90" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/F#5-stac-PB.wav" volume="1.0dB" />
+			<sample rootNote="91" loNote="91" hiNote="92" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/G5-stac-PB.wav" volume="1.0dB" />
+			<sample rootNote="93" loNote="93" hiNote="93" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/A5-stac-PB.wav" />
+			<sample rootNote="95" loNote="94" hiNote="94" loVel="0" hiVel="127" end="12754" path="Resources/english-horn-SOLO-KS-C2 Samples/B5-stac-PB.wav" volume="2.0dB" />
 		</group>
 	</groups>
 	<midi>
+		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
+		<!-- Controls attack with note velocity -->
+		<note note="0-127">
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		</note>
 	</midi>
+	<!-- Initial dynamics values -->
+	<tags>
+		<tag name="3-dynamics-ff" volume="1" />
+		<tag name="3-dynamics-mf" volume="0" />
+		<tag name="3-dynamics-mp" volume="0" />
+	</tags>
 	<modulators />
 </DecentSampler>

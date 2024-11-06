@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Orchestral Chimes.png">
 		<tab name="main">
@@ -33,25 +32,25 @@
 	</ui>
 	<groups attack="0" release="0.028">
 		<group name="1" ampVelTrack="1">
-			<sample end="301106" hiNote="48" hiVel="127" loNote="21" loVel="0" path="Resources/TC - Orchestral Chimes Samples/bar_chimes-c.wav" rootNote="48" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="255112" hiNote="50" hiVel="127" loNote="50" loVel="0" path="Resources/TC - Orchestral Chimes Samples/bar_chimes-a.wav" rootNote="50" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="272714" hiNote="52" hiVel="127" loNote="52" loVel="0" path="Resources/TC - Orchestral Chimes Samples/bar_chimes-b.wav" rootNote="52" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="131937" hiNote="53" hiVel="127" loNote="53" loVel="0" path="Resources/TC - Orchestral Chimes Samples/bell_tree.wav" rootNote="53" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="402439" hiNote="55" hiVel="127" loNote="55" loVel="0" path="Resources/TC - Orchestral Chimes Samples/Tube mp.wav" rootNote="55" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="461840" hiNote="57" hiVel="127" loNote="57" loVel="0" path="Resources/TC - Orchestral Chimes Samples/Tube mf.wav" rootNote="57" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="270166" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/TC - Orchestral Chimes Samples/chimes-c4.wav" rootNote="72" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="138177" hiNote="85" hiVel="127" loNote="83" loVel="0" path="Resources/TC - Orchestral Chimes Samples/chimes-c5.wav" rootNote="84" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="77779" hiNote="96" hiVel="127" loNote="95" loVel="0" path="Resources/TC - Orchestral Chimes Samples/chimes-c6.wav" rootNote="96" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="427089" hiNote="64" hiVel="127" loNote="62" loVel="0" path="Resources/TC - Orchestral Chimes Samples/chimes-d#3.wav" rootNote="63" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="229125" hiNote="76" hiVel="127" loNote="74" loVel="0" path="Resources/TC - Orchestral Chimes Samples/chimes-d#4.wav" rootNote="75" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="121238" hiNote="88" hiVel="127" loNote="86" loVel="0" path="Resources/TC - Orchestral Chimes Samples/chimes-d#5.wav" rootNote="87" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="372762" hiNote="67" hiVel="127" loNote="65" loVel="0" path="Resources/TC - Orchestral Chimes Samples/chimes-f#3.wav" rootNote="66" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="192309" hiNote="79" hiVel="127" loNote="77" loVel="0" path="Resources/TC - Orchestral Chimes Samples/chimes-f#4.wav" rootNote="78" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="104442" hiNote="91" hiVel="127" loNote="89" loVel="0" path="Resources/TC - Orchestral Chimes Samples/chimes-f#5.wav" rootNote="90" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="322296" hiNote="70" hiVel="127" loNote="68" loVel="0" path="Resources/TC - Orchestral Chimes Samples/chimes-a3.wav" rootNote="69" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="165477" hiNote="82" hiVel="127" loNote="80" loVel="0" path="Resources/TC - Orchestral Chimes Samples/chimes-a4.wav" rootNote="81" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="87529" hiNote="94" hiVel="127" loNote="92" loVel="0" path="Resources/TC - Orchestral Chimes Samples/chimes-a5.wav" rootNote="93" tuning="0.28" volume="6.020599913279624dB" />
-			<sample end="480490" hiNote="61" hiVel="127" loNote="60" loVel="0" path="Resources/TC - Orchestral Chimes Samples/chimes-c3.wav" rootNote="60" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="48" loNote="21" hiNote="48" loVel="0" hiVel="127" end="301106" path="Resources/TC - Orchestral Chimes Samples/bar_chimes-c.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="50" loNote="50" hiNote="50" loVel="0" hiVel="127" end="255112" path="Resources/TC - Orchestral Chimes Samples/bar_chimes-a.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="272714" path="Resources/TC - Orchestral Chimes Samples/bar_chimes-b.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="53" loNote="53" hiNote="53" loVel="0" hiVel="127" end="131937" path="Resources/TC - Orchestral Chimes Samples/bell_tree.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="55" loNote="55" hiNote="55" loVel="0" hiVel="127" end="402439" path="Resources/TC - Orchestral Chimes Samples/Tube mp.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="57" loNote="57" hiNote="57" loVel="0" hiVel="127" end="461840" path="Resources/TC - Orchestral Chimes Samples/Tube mf.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="127" end="270166" path="Resources/TC - Orchestral Chimes Samples/chimes-c4.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="127" end="138177" path="Resources/TC - Orchestral Chimes Samples/chimes-c5.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="96" loNote="95" hiNote="96" loVel="0" hiVel="127" end="77779" path="Resources/TC - Orchestral Chimes Samples/chimes-c6.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="127" end="427089" path="Resources/TC - Orchestral Chimes Samples/chimes-d#3.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="0" hiVel="127" end="229125" path="Resources/TC - Orchestral Chimes Samples/chimes-d#4.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="0" hiVel="127" end="121238" path="Resources/TC - Orchestral Chimes Samples/chimes-d#5.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="127" end="372762" path="Resources/TC - Orchestral Chimes Samples/chimes-f#3.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="0" hiVel="127" end="192309" path="Resources/TC - Orchestral Chimes Samples/chimes-f#4.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="0" hiVel="127" end="104442" path="Resources/TC - Orchestral Chimes Samples/chimes-f#5.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="322296" path="Resources/TC - Orchestral Chimes Samples/chimes-a3.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="127" end="165477" path="Resources/TC - Orchestral Chimes Samples/chimes-a4.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="87529" path="Resources/TC - Orchestral Chimes Samples/chimes-a5.wav" tuning="0.28" volume="6.020599913279624dB" />
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="480490" path="Resources/TC - Orchestral Chimes Samples/chimes-c3.wav" tuning="0.28" volume="6.020599913279624dB" />
 		</group>
 	</groups>
 	<midi>

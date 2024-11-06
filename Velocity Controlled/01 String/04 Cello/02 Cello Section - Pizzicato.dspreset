@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Cello.png">
 		<tab name="main">
@@ -33,30 +32,30 @@
 	</ui>
 	<groups attack="0.060" release="0.084">
 		<group name="Group 11" ampVelTrack="1">
-			<sample hiNote="50" end="138265" hiVel="62" loNote="48" loVel="0" path="Resources/Cello Ensemble Samples/pizzT_C1_v1_RR1.wav" rootNote="48" volume="12.0dB" />
-			<sample hiNote="50" end="163522" hiVel="127" loNote="48" loVel="54" path="Resources/Cello Ensemble Samples/pizzT_C1_v2_RR1.wav" rootNote="48" volume="12.0dB" />
-			<sample hiNote="53" end="114708" hiVel="62" loNote="51" loVel="0" path="Resources/Cello Ensemble Samples/pizzT_E1_v1_RR2.wav" rootNote="52" volume="12.0dB" />
-			<sample hiNote="53" end="167536" hiVel="127" loNote="51" loVel="54" path="Resources/Cello Ensemble Samples/pizzT_E1_v2_RR2.wav" rootNote="52" volume="12.0dB" />
-			<sample hiNote="56" end="141994" hiVel="62" loNote="54" loVel="0" path="Resources/Cello Ensemble Samples/pizzT_G1_v1_RR1.wav" rootNote="55" volume="12.0dB" />
-			<sample hiNote="56" end="162959" hiVel="127" loNote="54" loVel="54" path="Resources/Cello Ensemble Samples/pizzT_G1_v2_RR2.wav" rootNote="55" volume="12.0dB" />
-			<sample hiNote="60" end="148387" hiVel="62" loNote="57" loVel="0" path="Resources/Cello Ensemble Samples/pizzT_B1_v1_RR1.wav" rootNote="59" volume="12.0dB" />
-			<sample hiNote="60" end="176350" hiVel="127" loNote="57" loVel="54" path="Resources/Cello Ensemble Samples/pizzT_B1_v2_RR1.wav" rootNote="59" volume="12.0dB" />
-			<sample hiNote="63" end="128272" hiVel="62" loNote="61" loVel="0" path="Resources/Cello Ensemble Samples/pizzT_D2_v1_RR2.wav" rootNote="62" volume="12.0dB" />
-			<sample hiNote="63" end="128363" hiVel="127" loNote="61" loVel="54" path="Resources/Cello Ensemble Samples/pizzT_D2_v2_RR1.wav" rootNote="62" volume="11.0dB" />
-			<sample hiNote="66" end="79878" hiVel="127" loNote="64" loVel="54" path="Resources/Cello Ensemble Samples/pizzT_F2_v2_RR1.wav" rootNote="65" volume="12.0dB" />
-			<sample hiNote="66" end="110426" hiVel="62" loNote="64" loVel="0" path="Resources/Cello Ensemble Samples/pizzT_F2_v1_RR1.wav" rootNote="65" volume="12.0dB" />
-			<sample hiNote="72" end="119147" hiVel="62" loNote="67" loVel="0" path="Resources/Cello Ensemble Samples/pizzT_A2_v1_RR2.wav" rootNote="69" volume="12.0dB" />
-			<sample hiNote="72" end="124740" hiVel="127" loNote="67" loVel="54" path="Resources/Cello Ensemble Samples/pizzT_A2_v2_RR1.wav" rootNote="69" volume="12.0dB" />
-			<sample hiNote="77" end="85458" hiVel="62" loNote="73" loVel="0" path="Resources/Cello Ensemble Samples/pizzT_E3_v1_RR1.wav" rootNote="76" volume="12.0dB" />
-			<sample hiNote="77" end="102232" hiVel="127" loNote="73" loVel="54" path="Resources/Cello Ensemble Samples/pizzT_E3_v2_RR1.wav" rootNote="76" volume="12.0dB" />
-			<sample hiNote="80" end="124392" hiVel="62" loNote="78" loVel="0" path="Resources/Cello Ensemble Samples/pizzT_G3_v1_RR1.wav" rootNote="79" volume="12.0dB" />
-			<sample hiNote="80" end="127010" hiVel="127" loNote="78" loVel="54" path="Resources/Cello Ensemble Samples/pizzT_G3_v2_RR2.wav" rootNote="79" volume="10.0dB" />
-			<sample hiNote="84" end="77054" hiVel="62" loNote="81" loVel="0" path="Resources/Cello Ensemble Samples/pizzT_B3_v1_RR2.wav" rootNote="83" volume="12.0dB" />
-			<sample hiNote="84" end="83022" hiVel="127" loNote="81" loVel="54" path="Resources/Cello Ensemble Samples/pizzT_B3_v2_RR2.wav" rootNote="83" volume="12.0dB" />
-			<sample hiNote="88" end="41127" hiVel="62" loNote="85" loVel="0" path="Resources/Cello Ensemble Samples/pizzT_D4_v1_RR1.wav" rootNote="86" volume="12.0dB" />
-			<sample hiNote="88" end="57594" hiVel="127" loNote="85" loVel="54" path="Resources/Cello Ensemble Samples/pizzT_D4_v2_RR1.wav" rootNote="86" volume="12.0dB" />
-			<sample hiNote="93" end="38499" hiVel="62" loNote="88" loVel="0" path="Resources/Cello Ensemble Samples/pizzT_F4_v1_RR1.wav" rootNote="89" volume="12.0dB" />
-			<sample hiNote="93" end="57737" hiVel="127" loNote="88" loVel="54" path="Resources/Cello Ensemble Samples/pizzT_F4_v2_RR2.wav" rootNote="89" volume="10.0dB" />
+			<sample rootNote="48" loNote="48" hiNote="50" loVel="0" hiVel="62" end="138265" path="Resources/Cello Ensemble Samples/pizzT_C1_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="48" loNote="48" hiNote="50" loVel="54" hiVel="127" end="163522" path="Resources/Cello Ensemble Samples/pizzT_C1_v2_RR1.wav" volume="12.0dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="62" end="114708" path="Resources/Cello Ensemble Samples/pizzT_E1_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="52" loNote="51" hiNote="53" loVel="54" hiVel="127" end="167536" path="Resources/Cello Ensemble Samples/pizzT_E1_v2_RR2.wav" volume="12.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="62" end="141994" path="Resources/Cello Ensemble Samples/pizzT_G1_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="55" loNote="54" hiNote="56" loVel="54" hiVel="127" end="162959" path="Resources/Cello Ensemble Samples/pizzT_G1_v2_RR2.wav" volume="12.0dB" />
+			<sample rootNote="59" loNote="57" hiNote="60" loVel="0" hiVel="62" end="148387" path="Resources/Cello Ensemble Samples/pizzT_B1_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="59" loNote="57" hiNote="60" loVel="54" hiVel="127" end="176350" path="Resources/Cello Ensemble Samples/pizzT_B1_v2_RR1.wav" volume="12.0dB" />
+			<sample rootNote="62" loNote="61" hiNote="63" loVel="0" hiVel="62" end="128272" path="Resources/Cello Ensemble Samples/pizzT_D2_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="62" loNote="61" hiNote="63" loVel="54" hiVel="127" end="128363" path="Resources/Cello Ensemble Samples/pizzT_D2_v2_RR1.wav" volume="11.0dB" />
+			<sample rootNote="65" loNote="64" hiNote="66" loVel="54" hiVel="127" end="79878" path="Resources/Cello Ensemble Samples/pizzT_F2_v2_RR1.wav" volume="12.0dB" />
+			<sample rootNote="65" loNote="64" hiNote="66" loVel="0" hiVel="62" end="110426" path="Resources/Cello Ensemble Samples/pizzT_F2_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="69" loNote="67" hiNote="72" loVel="0" hiVel="62" end="119147" path="Resources/Cello Ensemble Samples/pizzT_A2_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="69" loNote="67" hiNote="72" loVel="54" hiVel="127" end="124740" path="Resources/Cello Ensemble Samples/pizzT_A2_v2_RR1.wav" volume="12.0dB" />
+			<sample rootNote="76" loNote="73" hiNote="77" loVel="0" hiVel="62" end="85458" path="Resources/Cello Ensemble Samples/pizzT_E3_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="76" loNote="73" hiNote="77" loVel="54" hiVel="127" end="102232" path="Resources/Cello Ensemble Samples/pizzT_E3_v2_RR1.wav" volume="12.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="62" end="124392" path="Resources/Cello Ensemble Samples/pizzT_G3_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loVel="54" hiVel="127" end="127010" path="Resources/Cello Ensemble Samples/pizzT_G3_v2_RR2.wav" volume="10.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="62" end="77054" path="Resources/Cello Ensemble Samples/pizzT_B3_v1_RR2.wav" volume="12.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="84" loVel="54" hiVel="127" end="83022" path="Resources/Cello Ensemble Samples/pizzT_B3_v2_RR2.wav" volume="12.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="88" loVel="0" hiVel="62" end="41127" path="Resources/Cello Ensemble Samples/pizzT_D4_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="86" loNote="85" hiNote="88" loVel="54" hiVel="127" end="57594" path="Resources/Cello Ensemble Samples/pizzT_D4_v2_RR1.wav" volume="12.0dB" />
+			<sample rootNote="89" loNote="88" hiNote="93" loVel="0" hiVel="62" end="38499" path="Resources/Cello Ensemble Samples/pizzT_F4_v1_RR1.wav" volume="12.0dB" />
+			<sample rootNote="89" loNote="88" hiNote="93" loVel="54" hiVel="127" end="57737" path="Resources/Cello Ensemble Samples/pizzT_F4_v2_RR2.wav" volume="10.0dB" />
 		</group>
 	</groups>
 	<midi>

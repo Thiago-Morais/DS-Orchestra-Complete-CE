@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Tenor Trombone.png">
 		<tab name="main">
@@ -28,41 +27,63 @@
 			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
 			</labeled-knob>
+			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 2 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<!-- Cross fade between 3 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+			</labeled-knob>
 		</tab>
 		<keyboard />
 	</ui>
-	<groups release="0.101">
-		<group name="THX SOUND" ampVelTrack="1">
-			<sample end="29504" hiNote="56" hiVel="127" loNote="21" loVel="0" loopEnabled="true" loopEnd="29201" loopStart="12313" path="Resources/Tenor Trombone - Sustain 04 Samples/G#2 Hard Trmbnes.wav" rootNote="56" volume="-3.0dB" />
-			<sample end="29504" hiNote="56" hiVel="127" loNote="21" loVel="0" loopEnabled="true" loopEnd="29201" loopStart="12313" path="Resources/Tenor Trombone - Sustain 04 Samples/G#2 Hard Trmbnes.wav" rootNote="56" volume="-3.0dB" />
-			<sample end="40800" hiNote="59" hiVel="127" loNote="57" loVel="0" loopEnabled="true" loopEnd="39749" loopStart="12341" path="Resources/Tenor Trombone - Sustain 04 Samples/A#2 Hard Trmbnes.wav" rootNote="58" volume="-3.0dB" />
-			<sample end="40800" hiNote="59" hiVel="127" loNote="57" loVel="0" loopEnabled="true" loopEnd="39749" loopStart="12341" path="Resources/Tenor Trombone - Sustain 04 Samples/A#2 Hard Trmbnes.wav" rootNote="58" volume="-3.0dB" />
-			<sample end="47073" hiNote="61" hiVel="127" loNote="60" loVel="0" loopEnabled="true" loopEnd="46410" loopStart="23174" path="Resources/Tenor Trombone - Sustain 04 Samples/C3 Hard Trmbnes.wav" rootNote="60" volume="-3.0dB" />
-			<sample end="47073" hiNote="61" hiVel="127" loNote="60" loVel="0" loopEnabled="true" loopEnd="46410" loopStart="23174" path="Resources/Tenor Trombone - Sustain 04 Samples/C3 Hard Trmbnes.wav" rootNote="60" volume="-3.0dB" />
-			<sample end="46286" hiNote="62" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="46072" loopStart="14175" path="Resources/Tenor Trombone - Sustain 04 Samples/D3 Hard Trmbnes.wav" rootNote="62" volume="-3.0dB" />
-			<sample end="46286" hiNote="62" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="46072" loopStart="14175" path="Resources/Tenor Trombone - Sustain 04 Samples/D3 Hard Trmbnes.wav" rootNote="62" volume="-3.0dB" />
-			<sample end="48630" hiNote="64" hiVel="127" loNote="63" loVel="0" loopEnabled="true" loopEnd="48300" loopStart="19643" path="Resources/Tenor Trombone - Sustain 04 Samples/D#3 Hard Trmbnes.wav" rootNote="63" volume="-3.0dB" />
-			<sample end="48630" hiNote="64" hiVel="127" loNote="63" loVel="0" loopEnabled="true" loopEnd="48300" loopStart="19643" path="Resources/Tenor Trombone - Sustain 04 Samples/D#3 Hard Trmbnes.wav" rootNote="63" volume="-3.0dB" />
-			<sample end="51694" hiNote="66" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="51230" loopStart="15039" path="Resources/Tenor Trombone - Sustain 04 Samples/F3 Hard Trmbnes.wav" rootNote="65" volume="-3.0dB" />
-			<sample end="51694" hiNote="66" hiVel="127" loNote="65" loVel="0" loopEnabled="true" loopEnd="51230" loopStart="15039" path="Resources/Tenor Trombone - Sustain 04 Samples/F3 Hard Trmbnes.wav" rootNote="65" volume="-3.0dB" />
-			<sample end="36678" hiNote="67" hiVel="127" loNote="67" loVel="0" loopEnabled="true" loopEnd="36424" loopStart="14151" path="Resources/Tenor Trombone - Sustain 04 Samples/G3 Hard Trmbnes.wav" rootNote="67" volume="-3.0dB" />
-			<sample end="36678" hiNote="67" hiVel="127" loNote="67" loVel="0" loopEnabled="true" loopEnd="36424" loopStart="14151" path="Resources/Tenor Trombone - Sustain 04 Samples/G3 Hard Trmbnes.wav" rootNote="67" volume="-3.0dB" />
-			<sample end="54014" hiNote="68" hiVel="127" loNote="68" loVel="0" loopEnabled="true" loopEnd="53600" loopStart="33496" path="Resources/Tenor Trombone - Sustain 04 Samples/G#3 Hard Trmbnes.wav" rootNote="68" volume="-3.0dB" />
-			<sample end="54014" hiNote="68" hiVel="127" loNote="68" loVel="0" loopEnabled="true" loopEnd="53600" loopStart="33496" path="Resources/Tenor Trombone - Sustain 04 Samples/G#3 Hard Trmbnes.wav" rootNote="68" volume="-3.0dB" />
-			<sample end="49825" hiNote="71" hiVel="127" loNote="69" loVel="0" loopEnabled="true" loopEnd="49595" loopStart="24342" path="Resources/Tenor Trombone - Sustain 04 Samples/A#3 Hard Trmbnes.wav" rootNote="70" volume="-3.0dB" />
-			<sample end="49825" hiNote="71" hiVel="127" loNote="69" loVel="0" loopEnabled="true" loopEnd="49595" loopStart="24342" path="Resources/Tenor Trombone - Sustain 04 Samples/A#3 Hard Trmbnes.wav" rootNote="70" volume="-3.0dB" />
-			<sample end="47176" hiNote="74" hiVel="127" loNote="72" loVel="0" loopEnabled="true" loopEnd="46548" loopStart="23919" path="Resources/Tenor Trombone - Sustain 04 Samples/D4 Hard Trmbnes.wav" rootNote="74" volume="-3.0dB" />
-			<sample end="47176" hiNote="74" hiVel="127" loNote="72" loVel="0" loopEnabled="true" loopEnd="46548" loopStart="23919" path="Resources/Tenor Trombone - Sustain 04 Samples/D4 Hard Trmbnes.wav" rootNote="74" volume="-3.0dB" />
-			<sample end="39161" hiNote="75" hiVel="127" loNote="75" loVel="0" loopEnabled="true" loopEnd="38886" loopStart="27735" path="Resources/Tenor Trombone - Sustain 04 Samples/D#4 Hard Trmbnes.wav" rootNote="75" volume="-3.0dB" />
-			<sample end="39161" hiNote="75" hiVel="127" loNote="75" loVel="0" loopEnabled="true" loopEnd="38886" loopStart="27735" path="Resources/Tenor Trombone - Sustain 04 Samples/D#4 Hard Trmbnes.wav" rootNote="75" volume="-3.0dB" />
-			<sample end="47287" hiNote="108" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="47096" loopStart="21613" path="Resources/Tenor Trombone - Sustain 04 Samples/F4 Hard Trmbnes.wav" rootNote="77" volume="-3.0dB" />
-			<sample end="47287" hiNote="108" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="47096" loopStart="21613" path="Resources/Tenor Trombone - Sustain 04 Samples/F4 Hard Trmbnes.wav" rootNote="77" volume="-3.0dB" />
+	<groups release="0.101" ampVelTrack="0">
+		<group name="THX SOUND" ampVelTrack="0">
+			<sample rootNote="56" loNote="21" hiNote="56" loVel="0" hiVel="127" end="29504" loopEnabled="true" loopEnd="29201" loopStart="12313" path="Resources/Tenor Trombone - Sustain 04 Samples/G#2 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="56" loNote="21" hiNote="56" loVel="0" hiVel="127" end="29504" loopEnabled="true" loopEnd="29201" loopStart="12313" path="Resources/Tenor Trombone - Sustain 04 Samples/G#2 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="40800" loopEnabled="true" loopEnd="39749" loopStart="12341" path="Resources/Tenor Trombone - Sustain 04 Samples/A#2 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="40800" loopEnabled="true" loopEnd="39749" loopStart="12341" path="Resources/Tenor Trombone - Sustain 04 Samples/A#2 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="47073" loopEnabled="true" loopEnd="46410" loopStart="23174" path="Resources/Tenor Trombone - Sustain 04 Samples/C3 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="47073" loopEnabled="true" loopEnd="46410" loopStart="23174" path="Resources/Tenor Trombone - Sustain 04 Samples/C3 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="62" loNote="62" hiNote="62" loVel="0" hiVel="127" end="46286" loopEnabled="true" loopEnd="46072" loopStart="14175" path="Resources/Tenor Trombone - Sustain 04 Samples/D3 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="62" loNote="62" hiNote="62" loVel="0" hiVel="127" end="46286" loopEnabled="true" loopEnd="46072" loopStart="14175" path="Resources/Tenor Trombone - Sustain 04 Samples/D3 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="63" loNote="63" hiNote="64" loVel="0" hiVel="127" end="48630" loopEnabled="true" loopEnd="48300" loopStart="19643" path="Resources/Tenor Trombone - Sustain 04 Samples/D#3 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="63" loNote="63" hiNote="64" loVel="0" hiVel="127" end="48630" loopEnabled="true" loopEnd="48300" loopStart="19643" path="Resources/Tenor Trombone - Sustain 04 Samples/D#3 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="65" loNote="65" hiNote="66" loVel="0" hiVel="127" end="51694" loopEnabled="true" loopEnd="51230" loopStart="15039" path="Resources/Tenor Trombone - Sustain 04 Samples/F3 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="65" loNote="65" hiNote="66" loVel="0" hiVel="127" end="51694" loopEnabled="true" loopEnd="51230" loopStart="15039" path="Resources/Tenor Trombone - Sustain 04 Samples/F3 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="67" loNote="67" hiNote="67" loVel="0" hiVel="127" end="36678" loopEnabled="true" loopEnd="36424" loopStart="14151" path="Resources/Tenor Trombone - Sustain 04 Samples/G3 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="67" loNote="67" hiNote="67" loVel="0" hiVel="127" end="36678" loopEnabled="true" loopEnd="36424" loopStart="14151" path="Resources/Tenor Trombone - Sustain 04 Samples/G3 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="68" loNote="68" hiNote="68" loVel="0" hiVel="127" end="54014" loopEnabled="true" loopEnd="53600" loopStart="33496" path="Resources/Tenor Trombone - Sustain 04 Samples/G#3 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="68" loNote="68" hiNote="68" loVel="0" hiVel="127" end="54014" loopEnabled="true" loopEnd="53600" loopStart="33496" path="Resources/Tenor Trombone - Sustain 04 Samples/G#3 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="49825" loopEnabled="true" loopEnd="49595" loopStart="24342" path="Resources/Tenor Trombone - Sustain 04 Samples/A#3 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="49825" loopEnabled="true" loopEnd="49595" loopStart="24342" path="Resources/Tenor Trombone - Sustain 04 Samples/A#3 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="74" loNote="72" hiNote="74" loVel="0" hiVel="127" end="47176" loopEnabled="true" loopEnd="46548" loopStart="23919" path="Resources/Tenor Trombone - Sustain 04 Samples/D4 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="74" loNote="72" hiNote="74" loVel="0" hiVel="127" end="47176" loopEnabled="true" loopEnd="46548" loopStart="23919" path="Resources/Tenor Trombone - Sustain 04 Samples/D4 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="75" loNote="75" hiNote="75" loVel="0" hiVel="127" end="39161" loopEnabled="true" loopEnd="38886" loopStart="27735" path="Resources/Tenor Trombone - Sustain 04 Samples/D#4 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="75" loNote="75" hiNote="75" loVel="0" hiVel="127" end="39161" loopEnabled="true" loopEnd="38886" loopStart="27735" path="Resources/Tenor Trombone - Sustain 04 Samples/D#4 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="77" loNote="76" hiNote="108" loVel="0" hiVel="127" end="47287" loopEnabled="true" loopEnd="47096" loopStart="21613" path="Resources/Tenor Trombone - Sustain 04 Samples/F4 Hard Trmbnes.wav" volume="-3.0dB" />
+			<sample rootNote="77" loNote="76" hiNote="108" loVel="0" hiVel="127" end="47287" loopEnabled="true" loopEnd="47096" loopStart="21613" path="Resources/Tenor Trombone - Sustain 04 Samples/F4 Hard Trmbnes.wav" volume="-3.0dB" />
 		</group>
 	</groups>
 	<midi>
+		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
+		<!-- Controls attack with note velocity -->
+		<note note="0-127">
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		</note>
 	</midi>
+	<!-- Initial dynamics values -->
+	<tags>
+		<tag name="3-dynamics-ff" volume="1" />
+		<tag name="3-dynamics-mf" volume="0" />
+		<tag name="3-dynamics-mp" volume="0" />
+	</tags>
 	<modulators />
 </DecentSampler>

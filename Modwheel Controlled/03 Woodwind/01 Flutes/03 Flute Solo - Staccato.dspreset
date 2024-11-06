@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Flute.png">
 		<tab name="main">
@@ -28,39 +27,61 @@
 			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
 			</labeled-knob>
+			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 2 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<!-- Cross fade between 3 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+			</labeled-knob>
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.060" release="0.028">
-		<group name="Group 3" ampVelTrack="1">
-			<sample end="17865" hiNote="75" hiVel="127" loNote="72" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C3-PB.wav" rootNote="72" tuning="-0.05" volume="2.5dB" />
-			<sample end="17865" hiNote="80" hiVel="127" loNote="76" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E3-PB.wav" rootNote="76" volume="2.5dB" />
-			<sample end="17863" hiNote="82" hiVel="127" loNote="79" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A3_v2_rr1-PB.wav" rootNote="81" tuning="0.05" volume="2.5dB" />
-			<sample end="17863" hiNote="86" hiVel="127" loNote="83" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C4_v4_rr1-PB.wav" rootNote="84" volume="2.5dB" />
-			<sample end="16691" hiNote="90" hiVel="127" loNote="87" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E4_v2_rr1-PB.wav" rootNote="88" volume="1.5dB" />
-			<sample end="17863" hiNote="94" hiVel="127" loNote="91" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A4_v3_rr2-PB.wav" rootNote="93" volume="2.5dB" />
-			<sample end="16346" hiNote="98" hiVel="127" loNote="95" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C5_v1_rr1-PB.wav" rootNote="96" volume="5.5dB" />
-			<sample end="12828" hiNote="102" hiVel="127" loNote="99" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E5_v1_rr2-PB.wav" rootNote="100" volume="2.5dB" />
-			<sample end="17863" hiNote="106" hiVel="127" loNote="103" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A5_v1_rr1-PB.wav" rootNote="105" volume="3.5dB" />
-			<sample end="16346" hiNote="110" hiVel="127" loNote="107" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C6_v2_rr2-PB.wav" rootNote="108" volume="3.5dB" />
+	<groups attack="0.060" release="0.028" ampVelTrack="0">
+		<group name="Group 3" ampVelTrack="0">
+			<sample rootNote="72" loNote="72" hiNote="75" loVel="0" hiVel="127" end="17865" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C3-PB.wav" tuning="-0.05" volume="2.5dB" />
+			<sample rootNote="76" loNote="76" hiNote="80" loVel="0" hiVel="127" end="17865" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E3-PB.wav" volume="2.5dB" />
+			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="127" end="17863" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A3_v2_rr1-PB.wav" tuning="0.05" volume="2.5dB" />
+			<sample rootNote="84" loNote="83" hiNote="86" loVel="0" hiVel="127" end="17863" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C4_v4_rr1-PB.wav" volume="2.5dB" />
+			<sample rootNote="88" loNote="87" hiNote="90" loVel="0" hiVel="127" end="16691" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E4_v2_rr1-PB.wav" volume="1.5dB" />
+			<sample rootNote="93" loNote="91" hiNote="94" loVel="0" hiVel="127" end="17863" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A4_v3_rr2-PB.wav" volume="2.5dB" />
+			<sample rootNote="96" loNote="95" hiNote="98" loVel="0" hiVel="127" end="16346" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C5_v1_rr1-PB.wav" volume="5.5dB" />
+			<sample rootNote="100" loNote="99" hiNote="102" loVel="0" hiVel="127" end="12828" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E5_v1_rr2-PB.wav" volume="2.5dB" />
+			<sample rootNote="105" loNote="103" hiNote="106" loVel="0" hiVel="127" end="17863" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A5_v1_rr1-PB.wav" volume="3.5dB" />
+			<sample rootNote="108" loNote="107" hiNote="110" loVel="0" hiVel="127" end="16346" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C6_v2_rr2-PB.wav" volume="3.5dB" />
 		</group>
-		<group name="Group 5" ampVelTrack="1">
-			<sample end="17865" hiNote="75" hiVel="127" loNote="72" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C3-PB.wav" rootNote="72" tuning="-0.05" volume="2.5dB" />
-			<sample end="17865" hiNote="80" hiVel="127" loNote="76" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E3-PB.wav" rootNote="76" volume="2.5dB" />
-			<sample end="17863" hiNote="82" hiVel="127" loNote="79" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A3_v2_rr1-PB.wav" rootNote="81" tuning="0.05" volume="2.5dB" />
-			<sample end="17863" hiNote="86" hiVel="127" loNote="83" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C4_v4_rr1-PB.wav" rootNote="84" volume="2.5dB" />
-			<sample end="16691" hiNote="90" hiVel="127" loNote="87" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E4_v2_rr1-PB.wav" rootNote="88" volume="1.5dB" />
-			<sample end="17863" hiNote="94" hiVel="127" loNote="91" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A4_v3_rr2-PB.wav" rootNote="93" volume="2.5dB" />
-			<sample end="16346" hiNote="98" hiVel="127" loNote="95" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C5_v1_rr1-PB.wav" rootNote="96" volume="5.5dB" />
-			<sample end="12828" hiNote="102" hiVel="127" loNote="99" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E5_v1_rr2-PB.wav" rootNote="100" volume="2.5dB" />
-			<sample end="17863" hiNote="106" hiVel="127" loNote="103" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A5_v1_rr1-PB.wav" rootNote="105" volume="3.5dB" />
-			<sample end="16346" hiNote="110" hiVel="127" loNote="107" loVel="0" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C6_v2_rr2-PB.wav" rootNote="108" volume="3.5dB" />
+		<group name="Group 5" ampVelTrack="0">
+			<sample rootNote="72" loNote="72" hiNote="75" loVel="0" hiVel="127" end="17865" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C3-PB.wav" tuning="-0.05" volume="2.5dB" />
+			<sample rootNote="76" loNote="76" hiNote="80" loVel="0" hiVel="127" end="17865" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E3-PB.wav" volume="2.5dB" />
+			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="127" end="17863" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A3_v2_rr1-PB.wav" tuning="0.05" volume="2.5dB" />
+			<sample rootNote="84" loNote="83" hiNote="86" loVel="0" hiVel="127" end="17863" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C4_v4_rr1-PB.wav" volume="2.5dB" />
+			<sample rootNote="88" loNote="87" hiNote="90" loVel="0" hiVel="127" end="16691" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E4_v2_rr1-PB.wav" volume="1.5dB" />
+			<sample rootNote="93" loNote="91" hiNote="94" loVel="0" hiVel="127" end="17863" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A4_v3_rr2-PB.wav" volume="2.5dB" />
+			<sample rootNote="96" loNote="95" hiNote="98" loVel="0" hiVel="127" end="16346" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C5_v1_rr1-PB.wav" volume="5.5dB" />
+			<sample rootNote="100" loNote="99" hiNote="102" loVel="0" hiVel="127" end="12828" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E5_v1_rr2-PB.wav" volume="2.5dB" />
+			<sample rootNote="105" loNote="103" hiNote="106" loVel="0" hiVel="127" end="17863" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A5_v1_rr1-PB.wav" volume="3.5dB" />
+			<sample rootNote="108" loNote="107" hiNote="110" loVel="0" hiVel="127" end="16346" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C6_v2_rr2-PB.wav" volume="3.5dB" />
 		</group>
 	</groups>
 	<midi>
+		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
+		<!-- Controls attack with note velocity -->
+		<note note="0-127">
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		</note>
 	</midi>
+	<!-- Initial dynamics values -->
+	<tags>
+		<tag name="3-dynamics-ff" volume="1" />
+		<tag name="3-dynamics-mf" volume="0" />
+		<tag name="3-dynamics-mp" volume="0" />
+	</tags>
 	<modulators />
 </DecentSampler>

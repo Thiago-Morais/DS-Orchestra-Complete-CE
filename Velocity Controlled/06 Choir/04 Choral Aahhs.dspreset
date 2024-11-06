@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Choir.png">
 		<tab name="main">
@@ -33,24 +32,24 @@
 	</ui>
 	<groups attack="0.039" decay="1" release="0.071" sustain="0.953">
 		<group name="Choral Aahs" ampVelTrack="1">
-			<sample end="73988" hiNote="45" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="73983" loopStart="29398" path="Resources/Choral Aahhs Samples/Choral Aahs A1.wav" rootNote="45" />
-			<sample end="72004" hiNote="47" hiVel="127" loNote="46" loVel="0" loopEnabled="true" loopEnd="71999" loopStart="27414" path="Resources/Choral Aahhs Samples/Choral Aahs B1.wav" rootNote="47" tuning="-0.55" />
-			<sample end="64388" hiNote="49" hiVel="127" loNote="48" loVel="0" loopEnabled="true" loopEnd="64383" loopStart="26698" path="Resources/Choral Aahhs Samples/Choral Aahs C#2.wav" rootNote="49" tuning="-0.18" />
-			<sample end="80260" hiNote="51" hiVel="127" loNote="50" loVel="0" loopEnabled="true" loopEnd="80255" loopStart="34621" path="Resources/Choral Aahhs Samples/Choral Aahs D#2.wav" rootNote="51" tuning="0.07" />
-			<sample end="69956" hiNote="53" hiVel="127" loNote="52" loVel="0" loopEnabled="true" loopEnd="69951" loopStart="33460" path="Resources/Choral Aahhs Samples/Choral Aahs F2.wav" rootNote="53" tuning="0.27" />
-			<sample end="70660" hiNote="55" hiVel="127" loNote="54" loVel="0" loopEnabled="true" loopEnd="70655" loopStart="34020" path="Resources/Choral Aahhs Samples/Choral Aahs G2.wav" rootNote="55" tuning="0.05" />
-			<sample end="74308" hiNote="57" hiVel="127" loNote="56" loVel="0" loopEnabled="true" loopEnd="74303" loopStart="40295" path="Resources/Choral Aahhs Samples/Choral Aahs A2.wav" rootNote="57" tuning="0.01" />
-			<sample end="73604" hiNote="59" hiVel="127" loNote="58" loVel="0" loopEnabled="true" loopEnd="73599" loopStart="37898" path="Resources/Choral Aahhs Samples/Choral Aahs B2.wav" rootNote="59" tuning="0.01" />
-			<sample end="70980" hiNote="61" hiVel="127" loNote="60" loVel="0" loopEnabled="true" loopEnd="70975" loopStart="40040" path="Resources/Choral Aahhs Samples/Choral Aahs C#3.wav" rootNote="61" tuning="0.22" />
-			<sample end="71876" hiNote="63" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="71871" loopStart="26086" path="Resources/Choral Aahhs Samples/Choral Aahs D#3.wav" rootNote="63" tuning="0.16" />
-			<sample end="56388" hiNote="65" hiVel="127" loNote="64" loVel="0" loopEnabled="true" loopEnd="56383" loopStart="30956" path="Resources/Choral Aahhs Samples/Choral Aahs F3.wav" rootNote="65" tuning="0.10" />
-			<sample end="65604" hiNote="67" hiVel="127" loNote="66" loVel="0" loopEnabled="true" loopEnd="65599" loopStart="20102" path="Resources/Choral Aahhs Samples/Choral Aahs G3.wav" rootNote="67" tuning="0.08" />
-			<sample end="59460" hiNote="69" hiVel="127" loNote="68" loVel="0" loopEnabled="true" loopEnd="59455" loopStart="28310" path="Resources/Choral Aahhs Samples/Choral Aahs A3.wav" rootNote="69" tuning="0.08" />
-			<sample end="67076" hiNote="71" hiVel="127" loNote="70" loVel="0" loopEnabled="true" loopEnd="67071" loopStart="38836" path="Resources/Choral Aahhs Samples/Choral Aahs B3.wav" rootNote="71" tuning="0.01" />
-			<sample end="75140" hiNote="73" hiVel="127" loNote="72" loVel="0" loopEnabled="true" loopEnd="75135" loopStart="33175" path="Resources/Choral Aahhs Samples/Choral Aahs C#4.wav" rootNote="73" tuning="0.10" />
-			<sample end="77316" hiNote="75" hiVel="127" loNote="74" loVel="0" loopEnabled="true" loopEnd="77311" loopStart="38450" path="Resources/Choral Aahhs Samples/Choral Aahs D#4.wav" rootNote="75" tuning="0.09" />
-			<sample end="73732" hiNote="77" hiVel="127" loNote="76" loVel="0" loopEnabled="true" loopEnd="73727" loopStart="25386" path="Resources/Choral Aahhs Samples/Choral Aahs F4.wav" rootNote="77" tuning="0.32" />
-			<sample end="68933" hiNote="96" hiVel="127" loNote="78" loVel="0" loopEnabled="true" loopEnd="68928" loopStart="31963" path="Resources/Choral Aahhs Samples/Choral Aahs G4.wav" rootNote="79" tuning="0.26" />
+			<sample rootNote="45" loNote="0" hiNote="45" loVel="0" hiVel="127" end="73988" loopEnabled="true" loopEnd="73983" loopStart="29398" path="Resources/Choral Aahhs Samples/Choral Aahs A1.wav" />
+			<sample rootNote="47" loNote="46" hiNote="47" loVel="0" hiVel="127" end="72004" loopEnabled="true" loopEnd="71999" loopStart="27414" path="Resources/Choral Aahhs Samples/Choral Aahs B1.wav" tuning="-0.55" />
+			<sample rootNote="49" loNote="48" hiNote="49" loVel="0" hiVel="127" end="64388" loopEnabled="true" loopEnd="64383" loopStart="26698" path="Resources/Choral Aahhs Samples/Choral Aahs C#2.wav" tuning="-0.18" />
+			<sample rootNote="51" loNote="50" hiNote="51" loVel="0" hiVel="127" end="80260" loopEnabled="true" loopEnd="80255" loopStart="34621" path="Resources/Choral Aahhs Samples/Choral Aahs D#2.wav" tuning="0.07" />
+			<sample rootNote="53" loNote="52" hiNote="53" loVel="0" hiVel="127" end="69956" loopEnabled="true" loopEnd="69951" loopStart="33460" path="Resources/Choral Aahhs Samples/Choral Aahs F2.wav" tuning="0.27" />
+			<sample rootNote="55" loNote="54" hiNote="55" loVel="0" hiVel="127" end="70660" loopEnabled="true" loopEnd="70655" loopStart="34020" path="Resources/Choral Aahhs Samples/Choral Aahs G2.wav" tuning="0.05" />
+			<sample rootNote="57" loNote="56" hiNote="57" loVel="0" hiVel="127" end="74308" loopEnabled="true" loopEnd="74303" loopStart="40295" path="Resources/Choral Aahhs Samples/Choral Aahs A2.wav" tuning="0.01" />
+			<sample rootNote="59" loNote="58" hiNote="59" loVel="0" hiVel="127" end="73604" loopEnabled="true" loopEnd="73599" loopStart="37898" path="Resources/Choral Aahhs Samples/Choral Aahs B2.wav" tuning="0.01" />
+			<sample rootNote="61" loNote="60" hiNote="61" loVel="0" hiVel="127" end="70980" loopEnabled="true" loopEnd="70975" loopStart="40040" path="Resources/Choral Aahhs Samples/Choral Aahs C#3.wav" tuning="0.22" />
+			<sample rootNote="63" loNote="62" hiNote="63" loVel="0" hiVel="127" end="71876" loopEnabled="true" loopEnd="71871" loopStart="26086" path="Resources/Choral Aahhs Samples/Choral Aahs D#3.wav" tuning="0.16" />
+			<sample rootNote="65" loNote="64" hiNote="65" loVel="0" hiVel="127" end="56388" loopEnabled="true" loopEnd="56383" loopStart="30956" path="Resources/Choral Aahhs Samples/Choral Aahs F3.wav" tuning="0.10" />
+			<sample rootNote="67" loNote="66" hiNote="67" loVel="0" hiVel="127" end="65604" loopEnabled="true" loopEnd="65599" loopStart="20102" path="Resources/Choral Aahhs Samples/Choral Aahs G3.wav" tuning="0.08" />
+			<sample rootNote="69" loNote="68" hiNote="69" loVel="0" hiVel="127" end="59460" loopEnabled="true" loopEnd="59455" loopStart="28310" path="Resources/Choral Aahhs Samples/Choral Aahs A3.wav" tuning="0.08" />
+			<sample rootNote="71" loNote="70" hiNote="71" loVel="0" hiVel="127" end="67076" loopEnabled="true" loopEnd="67071" loopStart="38836" path="Resources/Choral Aahhs Samples/Choral Aahs B3.wav" tuning="0.01" />
+			<sample rootNote="73" loNote="72" hiNote="73" loVel="0" hiVel="127" end="75140" loopEnabled="true" loopEnd="75135" loopStart="33175" path="Resources/Choral Aahhs Samples/Choral Aahs C#4.wav" tuning="0.10" />
+			<sample rootNote="75" loNote="74" hiNote="75" loVel="0" hiVel="127" end="77316" loopEnabled="true" loopEnd="77311" loopStart="38450" path="Resources/Choral Aahhs Samples/Choral Aahs D#4.wav" tuning="0.09" />
+			<sample rootNote="77" loNote="76" hiNote="77" loVel="0" hiVel="127" end="73732" loopEnabled="true" loopEnd="73727" loopStart="25386" path="Resources/Choral Aahhs Samples/Choral Aahs F4.wav" tuning="0.32" />
+			<sample rootNote="79" loNote="78" hiNote="96" loVel="0" hiVel="127" end="68933" loopEnabled="true" loopEnd="68928" loopStart="31963" path="Resources/Choral Aahhs Samples/Choral Aahs G4.wav" tuning="0.26" />
 		</group>
 	</groups>
 	<midi>

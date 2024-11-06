@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Xylophone.png">
 		<tab name="main">
@@ -33,22 +32,22 @@
 	</ui>
 	<groups attack="0" release="0.600">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="146376" hiNote="57" hiVel="83" loNote="55" loVel="0" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G3_pp_01_far.wav" rootNote="55" volume="12.0dB" />
-			<sample end="159682" hiNote="57" hiVel="127" loNote="55" loVel="84" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G3_ff_01_far.wav" rootNote="55" volume="1.425835dB" />
-			<sample end="96869" hiNote="63" hiVel="83" loNote="58" loVel="0" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C4_pp_01_far.wav" rootNote="60" volume="12.0dB" />
-			<sample end="148674" hiNote="63" hiVel="127" loNote="58" loVel="84" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C4_ff_01_far.wav" rootNote="60" volume="1.863334dB" />
-			<sample end="91044" hiNote="69" hiVel="83" loNote="64" loVel="0" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G4_pp_01_far.wav" rootNote="67" volume="10.140772dB" />
-			<sample end="110684" hiNote="69" hiVel="127" loNote="64" loVel="84" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G4_ff_01_far.wav" rootNote="67" volume="-1.767685dB" />
-			<sample end="81914" hiNote="75" hiVel="83" loNote="70" loVel="0" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C5_pp_01_far.wav" rootNote="72" volume="12.0dB" />
-			<sample end="83215" hiNote="75" hiVel="127" loNote="70" loVel="84" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C5_ff_01_far.wav" rootNote="72" volume="2.0dB" />
-			<sample end="58316" hiNote="81" hiVel="83" loNote="76" loVel="0" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G5_pp_01_far.wav" rootNote="79" volume="12.0dB" />
-			<sample end="71291" hiNote="81" hiVel="127" loNote="76" loVel="84" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G5_ff_01_far.wav" rootNote="79" volume="1.039045dB" />
-			<sample end="55506" hiNote="87" hiVel="83" loNote="82" loVel="0" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C6_pp_01_far.wav" rootNote="84" volume="12.0dB" />
-			<sample end="64808" hiNote="87" hiVel="127" loNote="82" loVel="84" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C6_ff_01_far.wav" rootNote="84" volume="3.136201dB" />
-			<sample end="44223" hiNote="93" hiVel="83" loNote="88" loVel="0" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G6_pp_01_far.wav" rootNote="91" volume="12.0dB" />
-			<sample end="61100" hiNote="93" hiVel="127" loNote="88" loVel="84" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G6_ff_01_far.wav" rootNote="91" volume="2.679822dB" />
-			<sample end="39375" hiNote="97" hiVel="83" loNote="94" loVel="0" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C7_pp_01_far.wav" rootNote="96" volume="12.0dB" />
-			<sample end="50275" hiNote="97" hiVel="127" loNote="94" loVel="84" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C7_ff_01_far.wav" rootNote="96" volume="4.621578dB" />
+			<sample rootNote="55" loNote="55" hiNote="57" loVel="0" hiVel="83" end="146376" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G3_pp_01_far.wav" volume="12.0dB" />
+			<sample rootNote="55" loNote="55" hiNote="57" loVel="84" hiVel="127" end="159682" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G3_ff_01_far.wav" volume="1.425835dB" />
+			<sample rootNote="60" loNote="58" hiNote="63" loVel="0" hiVel="83" end="96869" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C4_pp_01_far.wav" volume="12.0dB" />
+			<sample rootNote="60" loNote="58" hiNote="63" loVel="84" hiVel="127" end="148674" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C4_ff_01_far.wav" volume="1.863334dB" />
+			<sample rootNote="67" loNote="64" hiNote="69" loVel="0" hiVel="83" end="91044" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G4_pp_01_far.wav" volume="10.140772dB" />
+			<sample rootNote="67" loNote="64" hiNote="69" loVel="84" hiVel="127" end="110684" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G4_ff_01_far.wav" volume="-1.767685dB" />
+			<sample rootNote="72" loNote="70" hiNote="75" loVel="0" hiVel="83" end="81914" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C5_pp_01_far.wav" volume="12.0dB" />
+			<sample rootNote="72" loNote="70" hiNote="75" loVel="84" hiVel="127" end="83215" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C5_ff_01_far.wav" volume="2.0dB" />
+			<sample rootNote="79" loNote="76" hiNote="81" loVel="0" hiVel="83" end="58316" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G5_pp_01_far.wav" volume="12.0dB" />
+			<sample rootNote="79" loNote="76" hiNote="81" loVel="84" hiVel="127" end="71291" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G5_ff_01_far.wav" volume="1.039045dB" />
+			<sample rootNote="84" loNote="82" hiNote="87" loVel="0" hiVel="83" end="55506" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C6_pp_01_far.wav" volume="12.0dB" />
+			<sample rootNote="84" loNote="82" hiNote="87" loVel="84" hiVel="127" end="64808" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C6_ff_01_far.wav" volume="3.136201dB" />
+			<sample rootNote="91" loNote="88" hiNote="93" loVel="0" hiVel="83" end="44223" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G6_pp_01_far.wav" volume="12.0dB" />
+			<sample rootNote="91" loNote="88" hiNote="93" loVel="84" hiVel="127" end="61100" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_G6_ff_01_far.wav" volume="2.679822dB" />
+			<sample rootNote="96" loNote="94" hiNote="97" loVel="0" hiVel="83" end="39375" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C7_pp_01_far.wav" volume="12.0dB" />
+			<sample rootNote="96" loNote="94" hiNote="97" loVel="84" hiVel="127" end="50275" path="Resources/Xylophone - Medium Mallets Samples/Xylo_Medium_C7_ff_01_far.wav" volume="4.621578dB" />
 		</group>
 	</groups>
 	<midi>

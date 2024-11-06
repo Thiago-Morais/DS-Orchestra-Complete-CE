@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Flute.png">
 		<tab name="main">
@@ -33,19 +32,19 @@
 	</ui>
 	<groups attack="0" release="0.028">
 		<group name="Sustain" ampVelTrack="1">
-			<sample end="273052" hiNote="70" hiVel="127" loNote="68" loVel="0" path="Resources/Flute Sustain 2 Samples/flute-a3.wav" rootNote="69" volume="6.020599913279624dB" />
-			<sample end="275899" hiNote="82" hiVel="127" loNote="80" loVel="0" path="Resources/Flute Sustain 2 Samples/flute-a4.wav" rootNote="81" volume="6.020599913279624dB" />
-			<sample end="271128" hiNote="94" hiVel="127" loNote="92" loVel="0" path="Resources/Flute Sustain 2 Samples/flute-a5.wav" rootNote="93" volume="6.020599913279624dB" />
-			<sample end="266578" hiNote="61" hiVel="127" loNote="60" loVel="0" path="Resources/Flute Sustain 2 Samples/flute-c3.wav" rootNote="60" volume="6.020599913279624dB" />
-			<sample end="272896" hiNote="73" hiVel="127" loNote="71" loVel="0" path="Resources/Flute Sustain 2 Samples/flute-c4.wav" rootNote="72" volume="6.020599913279624dB" />
-			<sample end="275977" hiNote="85" hiVel="127" loNote="83" loVel="0" path="Resources/Flute Sustain 2 Samples/flute-c5.wav" rootNote="84" volume="6.020599913279624dB" />
-			<sample end="261859" hiNote="96" hiVel="127" loNote="95" loVel="0" path="Resources/Flute Sustain 2 Samples/flute-c6.wav" rootNote="96" volume="6.020599913279624dB" />
-			<sample end="265447" hiNote="64" hiVel="127" loNote="62" loVel="0" path="Resources/Flute Sustain 2 Samples/flute-d#3.wav" rootNote="63" volume="6.020599913279624dB" />
-			<sample end="267475" hiNote="76" hiVel="127" loNote="74" loVel="0" path="Resources/Flute Sustain 2 Samples/flute-d#4.wav" rootNote="75" volume="6.020599913279624dB" />
-			<sample end="269893" hiNote="88" hiVel="127" loNote="86" loVel="0" path="Resources/Flute Sustain 2 Samples/flute-d#5.wav" rootNote="87" volume="6.020599913279624dB" />
-			<sample end="272961" hiNote="67" hiVel="127" loNote="65" loVel="0" path="Resources/Flute Sustain 2 Samples/flute-f#3.wav" rootNote="66" volume="6.020599913279624dB" />
-			<sample end="273689" hiNote="79" hiVel="127" loNote="77" loVel="0" path="Resources/Flute Sustain 2 Samples/flute-f#4.wav" rootNote="78" volume="6.020599913279624dB" />
-			<sample end="274703" hiNote="91" hiVel="127" loNote="89" loVel="0" path="Resources/Flute Sustain 2 Samples/flute-f#5.wav" rootNote="90" volume="6.020599913279624dB" />
+			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="273052" path="Resources/Flute Sustain 2 Samples/flute-a3.wav" volume="6.020599913279624dB" />
+			<sample rootNote="81" loNote="80" hiNote="82" loVel="0" hiVel="127" end="275899" path="Resources/Flute Sustain 2 Samples/flute-a4.wav" volume="6.020599913279624dB" />
+			<sample rootNote="93" loNote="92" hiNote="94" loVel="0" hiVel="127" end="271128" path="Resources/Flute Sustain 2 Samples/flute-a5.wav" volume="6.020599913279624dB" />
+			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="266578" path="Resources/Flute Sustain 2 Samples/flute-c3.wav" volume="6.020599913279624dB" />
+			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="127" end="272896" path="Resources/Flute Sustain 2 Samples/flute-c4.wav" volume="6.020599913279624dB" />
+			<sample rootNote="84" loNote="83" hiNote="85" loVel="0" hiVel="127" end="275977" path="Resources/Flute Sustain 2 Samples/flute-c5.wav" volume="6.020599913279624dB" />
+			<sample rootNote="96" loNote="95" hiNote="96" loVel="0" hiVel="127" end="261859" path="Resources/Flute Sustain 2 Samples/flute-c6.wav" volume="6.020599913279624dB" />
+			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="127" end="265447" path="Resources/Flute Sustain 2 Samples/flute-d#3.wav" volume="6.020599913279624dB" />
+			<sample rootNote="75" loNote="74" hiNote="76" loVel="0" hiVel="127" end="267475" path="Resources/Flute Sustain 2 Samples/flute-d#4.wav" volume="6.020599913279624dB" />
+			<sample rootNote="87" loNote="86" hiNote="88" loVel="0" hiVel="127" end="269893" path="Resources/Flute Sustain 2 Samples/flute-d#5.wav" volume="6.020599913279624dB" />
+			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="127" end="272961" path="Resources/Flute Sustain 2 Samples/flute-f#3.wav" volume="6.020599913279624dB" />
+			<sample rootNote="78" loNote="77" hiNote="79" loVel="0" hiVel="127" end="273689" path="Resources/Flute Sustain 2 Samples/flute-f#4.wav" volume="6.020599913279624dB" />
+			<sample rootNote="90" loNote="89" hiNote="91" loVel="0" hiVel="127" end="274703" path="Resources/Flute Sustain 2 Samples/flute-f#5.wav" volume="6.020599913279624dB" />
 		</group>
 	</groups>
 	<midi>

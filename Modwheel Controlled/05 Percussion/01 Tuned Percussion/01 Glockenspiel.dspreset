@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Glockenspiel.png">
 		<tab name="main">
@@ -28,35 +27,57 @@
 			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
 			</labeled-knob>
+			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 2 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<!-- Cross fade between 3 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+			</labeled-knob>
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.600">
-		<group name="Group 1" ampVelTrack="1">
-			<sample end="176729" hiNote="69" hiVel="83" loNote="67" loVel="0" path="Resources/Glockenspiel Samples/glock_soft_G4_01.wav" rootNote="67" volume="12.0dB" />
-			<sample end="317816" hiNote="69" hiVel="127" loNote="67" loVel="0" path="Resources/Glockenspiel Samples/glock_medium_G4_01.wav" rootNote="67" volume="12.0dB" />
-			<sample end="330859" hiNote="69" hiVel="127" loNote="67" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_G4_01.wav" rootNote="67" volume="12.0dB" />
-			<sample end="177290" hiNote="75" hiVel="83" loNote="70" loVel="0" path="Resources/Glockenspiel Samples/glock_soft_C5_02.wav" rootNote="72" volume="12.0dB" />
-			<sample end="317816" hiNote="75" hiVel="127" loNote="70" loVel="0" path="Resources/Glockenspiel Samples/glock_medium_C5_01.wav" rootNote="72" start="104" volume="12.0dB" />
-			<sample end="330859" hiNote="75" hiVel="127" loNote="70" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_C5_01.wav" rootNote="72" volume="12.0dB" />
-			<sample end="176729" hiNote="81" hiVel="83" loNote="76" loVel="0" path="Resources/Glockenspiel Samples/glock_soft_G5_01.wav" rootNote="79" volume="12.0dB" />
-			<sample end="306667" hiNote="81" hiVel="127" loNote="76" loVel="0" path="Resources/Glockenspiel Samples/glock_medium_G5_01.wav" rootNote="79" start="103" volume="12.0dB" />
-			<sample end="330859" hiNote="81" hiVel="127" loNote="76" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_G5_01.wav" rootNote="79" volume="12.0dB" />
-			<sample end="176729" hiNote="87" hiVel="83" loNote="82" loVel="0" path="Resources/Glockenspiel Samples/glock_soft_C6_01.wav" rootNote="84" volume="12.0dB" />
-			<sample end="317816" hiNote="87" hiVel="127" loNote="82" loVel="0" path="Resources/Glockenspiel Samples/glock_medium_C6_01.wav" rootNote="84" start="101" volume="12.0dB" />
-			<sample end="330859" hiNote="87" hiVel="127" loNote="82" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_C6_01.wav" rootNote="84" volume="12.0dB" />
-			<sample end="146479" hiNote="91" hiVel="127" loNote="88" loVel="0" path="Resources/Glockenspiel Samples/glock_soft_G6_01.wav" rootNote="91" volume="12.0dB" />
-			<sample end="210769" hiNote="91" hiVel="127" loNote="88" loVel="0" path="Resources/Glockenspiel Samples/glock_medium_G6_01.wav" rootNote="91" start="102" volume="12.0dB" />
-			<sample end="232896" hiNote="94" hiVel="127" loNote="92" loVel="0" path="Resources/Glockenspiel Samples/glock_loud_G#6_01.wav" rootNote="92" start="932" volume="12.0dB" />
-			<sample end="176729" hiNote="97" hiVel="83" loNote="95" loVel="0" path="Resources/Glockenspiel Samples/glock_soft_C7_03.wav" rootNote="96" volume="12.0dB" />
-			<sample end="123093" hiNote="97" hiVel="127" loNote="95" loVel="0" path="Resources/Glockenspiel Samples/glock_medium_C7_01.wav" rootNote="96" start="101" volume="12.0dB" />
-			<sample end="116166" hiNote="97" hiVel="127" loNote="95" loVel="84" path="Resources/Glockenspiel Samples/glock_loud_C7_01.wav" rootNote="96" volume="12.0dB" />
+	<groups attack="0" release="0.600" ampVelTrack="0">
+		<group name="Group 1" ampVelTrack="0">
+			<sample rootNote="67" loNote="67" hiNote="69" loVel="0" hiVel="83" end="176729" path="Resources/Glockenspiel Samples/glock_soft_G4_01.wav" volume="12.0dB" />
+			<sample rootNote="67" loNote="67" hiNote="69" loVel="0" hiVel="127" end="317816" path="Resources/Glockenspiel Samples/glock_medium_G4_01.wav" volume="12.0dB" />
+			<sample rootNote="67" loNote="67" hiNote="69" loVel="84" hiVel="127" end="330859" path="Resources/Glockenspiel Samples/glock_loud_G4_01.wav" volume="12.0dB" />
+			<sample rootNote="72" loNote="70" hiNote="75" loVel="0" hiVel="83" end="177290" path="Resources/Glockenspiel Samples/glock_soft_C5_02.wav" volume="12.0dB" />
+			<sample rootNote="72" loNote="70" hiNote="75" loVel="0" hiVel="127" end="317816" path="Resources/Glockenspiel Samples/glock_medium_C5_01.wav" start="104" volume="12.0dB" />
+			<sample rootNote="72" loNote="70" hiNote="75" loVel="84" hiVel="127" end="330859" path="Resources/Glockenspiel Samples/glock_loud_C5_01.wav" volume="12.0dB" />
+			<sample rootNote="79" loNote="76" hiNote="81" loVel="0" hiVel="83" end="176729" path="Resources/Glockenspiel Samples/glock_soft_G5_01.wav" volume="12.0dB" />
+			<sample rootNote="79" loNote="76" hiNote="81" loVel="0" hiVel="127" end="306667" path="Resources/Glockenspiel Samples/glock_medium_G5_01.wav" start="103" volume="12.0dB" />
+			<sample rootNote="79" loNote="76" hiNote="81" loVel="84" hiVel="127" end="330859" path="Resources/Glockenspiel Samples/glock_loud_G5_01.wav" volume="12.0dB" />
+			<sample rootNote="84" loNote="82" hiNote="87" loVel="0" hiVel="83" end="176729" path="Resources/Glockenspiel Samples/glock_soft_C6_01.wav" volume="12.0dB" />
+			<sample rootNote="84" loNote="82" hiNote="87" loVel="0" hiVel="127" end="317816" path="Resources/Glockenspiel Samples/glock_medium_C6_01.wav" start="101" volume="12.0dB" />
+			<sample rootNote="84" loNote="82" hiNote="87" loVel="84" hiVel="127" end="330859" path="Resources/Glockenspiel Samples/glock_loud_C6_01.wav" volume="12.0dB" />
+			<sample rootNote="91" loNote="88" hiNote="91" loVel="0" hiVel="127" end="146479" path="Resources/Glockenspiel Samples/glock_soft_G6_01.wav" volume="12.0dB" />
+			<sample rootNote="91" loNote="88" hiNote="91" loVel="0" hiVel="127" end="210769" path="Resources/Glockenspiel Samples/glock_medium_G6_01.wav" start="102" volume="12.0dB" />
+			<sample rootNote="92" loNote="92" hiNote="94" loVel="0" hiVel="127" end="232896" path="Resources/Glockenspiel Samples/glock_loud_G#6_01.wav" start="932" volume="12.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="0" hiVel="83" end="176729" path="Resources/Glockenspiel Samples/glock_soft_C7_03.wav" volume="12.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="0" hiVel="127" end="123093" path="Resources/Glockenspiel Samples/glock_medium_C7_01.wav" start="101" volume="12.0dB" />
+			<sample rootNote="96" loNote="95" hiNote="97" loVel="84" hiVel="127" end="116166" path="Resources/Glockenspiel Samples/glock_loud_C7_01.wav" volume="12.0dB" />
 		</group>
 	</groups>
 	<midi>
+		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="effect" level="instrument" position="4" parameter="LEVEL" translation="linear" translationOutputMin="-30" translationOutputMax="0" />
+			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
+		<!-- Controls attack with note velocity -->
+		<note note="0-127">
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		</note>
 	</midi>
+	<!-- Initial dynamics values -->
+	<tags>
+		<tag name="3-dynamics-ff" volume="1" />
+		<tag name="3-dynamics-mf" volume="0" />
+		<tag name="3-dynamics-mp" volume="0" />
+	</tags>
 	<modulators />
 </DecentSampler>

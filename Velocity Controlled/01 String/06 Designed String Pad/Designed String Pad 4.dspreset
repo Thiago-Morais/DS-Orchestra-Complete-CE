@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Designed String.png">
 		<tab name="main">
@@ -33,10 +32,10 @@
 	</ui>
 	<groups attack="0.016" decay="0.959" release="0.078" sustain="0.934">
 		<group name="Sweep Pad" ampVelTrack="1">
-			<sample end="11271" hiNote="61" hiVel="127" loNote="0" loVel="0" loopEnabled="true" loopEnd="11263" loopStart="18" path="Resources/Designed String Pad 4 Samples/SynthStrings G2.wav" rootNote="67" tuning="-0.03" volume="-8.7dB" />
-			<sample end="9331" hiNote="73" hiVel="127" loNote="62" loVel="0" loopEnabled="true" loopEnd="9323" loopStart="19" path="Resources/Designed String Pad 4 Samples/SynthStrings G3.wav" rootNote="78" tuning="-0.27" volume="-8.7dB" />
-			<sample end="9370" hiNote="92" hiVel="127" loNote="74" loVel="0" loopEnabled="true" loopEnd="9362" loopStart="23" path="Resources/Designed String Pad 4 Samples/SynthStrings G4.wav" rootNote="93" tuning="0.33" volume="-8.7dB" />
-			<sample end="5426" hiNote="108" hiVel="127" loNote="93" loVel="0" loopEnabled="true" loopEnd="5418" loopStart="100" path="Resources/Designed String Pad 4 Samples/SynthStrings D6.wav" rootNote="112" tuning="0.33" volume="-8.7dB" />
+			<sample rootNote="67" loNote="0" hiNote="61" loVel="0" hiVel="127" end="11271" loopEnabled="true" loopEnd="11263" loopStart="18" path="Resources/Designed String Pad 4 Samples/SynthStrings G2.wav" tuning="-0.03" volume="-8.7dB" />
+			<sample rootNote="78" loNote="62" hiNote="73" loVel="0" hiVel="127" end="9331" loopEnabled="true" loopEnd="9323" loopStart="19" path="Resources/Designed String Pad 4 Samples/SynthStrings G3.wav" tuning="-0.27" volume="-8.7dB" />
+			<sample rootNote="93" loNote="74" hiNote="92" loVel="0" hiVel="127" end="9370" loopEnabled="true" loopEnd="9362" loopStart="23" path="Resources/Designed String Pad 4 Samples/SynthStrings G4.wav" tuning="0.33" volume="-8.7dB" />
+			<sample rootNote="112" loNote="93" hiNote="108" loVel="0" hiVel="127" end="5426" loopEnabled="true" loopEnd="5418" loopStart="100" path="Resources/Designed String Pad 4 Samples/SynthStrings D6.wav" tuning="0.33" volume="-8.7dB" />
 		</group>
 	</groups>
 	<midi>

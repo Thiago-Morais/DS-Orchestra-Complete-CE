@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Sleigh Bells.png">
 		<tab name="main">
@@ -33,8 +32,8 @@
 	</ui>
 	<groups attack="0" release="0.028">
 		<group name="Group 1" ampVelTrack="1">
-			<sample end="99628" hiNote="48" hiVel="6" loNote="45" loVel="0" path="Resources/TC - Sleigh Bells Samples/SBO Hit f.wav" rootNote="48" volume="6.020599913279624dB" />
-			<sample end="84429" hiNote="48" hiVel="127" loNote="45" loVel="8" path="Resources/TC - Sleigh Bells Samples/SBO Hit mp.wav" rootNote="48" volume="6.020599913279624dB" />
+			<sample rootNote="48" loNote="45" hiNote="48" loVel="0" hiVel="6" end="99628" path="Resources/TC - Sleigh Bells Samples/SBO Hit f.wav" volume="6.020599913279624dB" />
+			<sample rootNote="48" loNote="45" hiNote="48" loVel="8" hiVel="127" end="84429" path="Resources/TC - Sleigh Bells Samples/SBO Hit mp.wav" volume="6.020599913279624dB" />
 		</group>
 	</groups>
 	<midi>

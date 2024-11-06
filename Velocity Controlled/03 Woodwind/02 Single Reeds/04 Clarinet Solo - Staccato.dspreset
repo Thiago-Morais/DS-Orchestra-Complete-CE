@@ -6,7 +6,6 @@
 		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
 		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
 		<effect type="reverb" wetLevel="1.0" />
-		<effect type="gain" level="0" />
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Clarinet.png">
 		<tab name="main">
@@ -33,72 +32,72 @@
 	</ui>
 	<groups attack="0" release="0.120">
 		<group name="gr_1" ampVelTrack="1">
-			<sample end="24863" hiNote="59" hiVel="41" loNote="56" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v1_rr1_sum.wav" rootNote="58" volume="12.0dB" />
-			<sample end="22349" hiNote="71" hiVel="41" loNote="68" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v1_rr1_sum.wav" rootNote="70" volume="12.0dB" />
-			<sample end="26294" hiNote="83" hiVel="41" loNote="80" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v1_rr1_sum.wav" rootNote="82" volume="12.0dB" />
-			<sample end="23332" hiNote="51" hiVel="41" loNote="50" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_D2_v1_rr1_sum.wav" rootNote="50" volume="12.0dB" />
-			<sample end="23089" hiNote="63" hiVel="41" loNote="60" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_D3_v1_rr1_sum.wav" rootNote="62" volume="12.0dB" />
-			<sample end="30551" hiNote="75" hiVel="41" loNote="72" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_D4_v1_rr1_sum.wav" rootNote="74" volume="12.0dB" />
-			<sample end="20332" hiNote="55" hiVel="41" loNote="52" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_F2_v1_rr1_sum.wav" rootNote="53" volume="12.0dB" />
-			<sample end="23516" hiNote="67" hiVel="41" loNote="64" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_F3_v1_rr1_sum.wav" rootNote="65" volume="12.0dB" />
-			<sample end="30968" hiNote="79" hiVel="41" loNote="76" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_F4_v1_rr1_sum.wav" rootNote="77" volume="12.0dB" />
-			<sample end="24760" hiNote="89" hiVel="41" loNote="88" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_F5_v1_rr1_sum.wav" rootNote="89" volume="12.0dB" />
-			<sample end="25868" hiNote="59" hiVel="83" loNote="56" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v2_rr1_sum.wav" rootNote="58" volume="8.0dB" />
-			<sample end="28946" hiNote="71" hiVel="83" loNote="68" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v2_rr1_sum.wav" rootNote="70" volume="8.0dB" />
-			<sample end="28361" hiNote="83" hiVel="83" loNote="80" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v2_rr1_sum.wav" rootNote="82" volume="8.0dB" />
-			<sample end="25391" hiNote="51" hiVel="83" loNote="50" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_D2_v2_rr1_sum.wav" rootNote="50" volume="8.0dB" />
-			<sample end="25249" hiNote="63" hiVel="83" loNote="60" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_D3_v2_rr1_sum.wav" rootNote="62" volume="8.0dB" />
-			<sample end="29228" hiNote="75" hiVel="83" loNote="72" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_D4_v2_rr1_sum.wav" rootNote="74" volume="8.0dB" />
-			<sample end="25359" hiNote="87" hiVel="62" loNote="84" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_D5_v2_rr1_sum.wav" rootNote="86" volume="12.0dB" />
-			<sample end="22786" hiNote="55" hiVel="83" loNote="52" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_F2_v2_rr1_sum.wav" rootNote="53" volume="8.0dB" />
-			<sample end="24580" hiNote="67" hiVel="83" loNote="64" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_F3_v2_rr1_sum.wav" rootNote="65" volume="8.0dB" />
-			<sample end="26377" hiNote="79" hiVel="83" loNote="76" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_F4_v2_rr1_sum.wav" rootNote="77" volume="8.0dB" />
-			<sample end="25026" hiNote="89" hiVel="83" loNote="88" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_F5_v2_rr1_sum.wav" rootNote="89" volume="8.0dB" />
-			<sample end="25917" hiNote="59" hiVel="127" loNote="56" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v3_rr1_sum.wav" rootNote="58" volume="2.0dB" />
-			<sample end="27023" hiNote="71" hiVel="127" loNote="68" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v3_rr1_sum.wav" rootNote="70" volume="2.0dB" />
-			<sample end="27766" hiNote="83" hiVel="127" loNote="80" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v3_rr1_sum.wav" rootNote="82" volume="2.0dB" />
-			<sample end="25473" hiNote="51" hiVel="127" loNote="50" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_D2_v3_rr1_sum.wav" rootNote="50" volume="2.0dB" />
-			<sample end="29395" hiNote="63" hiVel="127" loNote="60" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_D3_v3_rr1_sum.wav" rootNote="62" volume="2.0dB" />
-			<sample end="27579" hiNote="75" hiVel="127" loNote="72" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_D4_v3_rr1_sum.wav" rootNote="74" volume="2.0dB" />
-			<sample end="24545" hiNote="87" hiVel="127" loNote="84" loVel="63" path="Resources/ClarinetStac Samples/DCClar_stac_D5_v3_rr1_sum.wav" rootNote="86" volume="4.0dB" />
-			<sample end="23150" hiNote="55" hiVel="127" loNote="52" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_F2_v3_rr1_sum.wav" rootNote="53" volume="2.0dB" />
-			<sample end="23631" hiNote="67" hiVel="127" loNote="64" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_F3_v3_rr1_sum.wav" rootNote="65" volume="2.0dB" />
-			<sample end="26928" hiNote="79" hiVel="127" loNote="76" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_F4_v3_rr1_sum.wav" rootNote="77" volume="2.0dB" />
-			<sample end="29272" hiNote="89" hiVel="127" loNote="88" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_F5_v3_rr1_sum.wav" rootNote="89" volume="2.0dB" />
+			<sample rootNote="58" loNote="56" hiNote="59" loVel="0" hiVel="41" end="24863" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v1_rr1_sum.wav" volume="12.0dB" />
+			<sample rootNote="70" loNote="68" hiNote="71" loVel="0" hiVel="41" end="22349" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v1_rr1_sum.wav" volume="12.0dB" />
+			<sample rootNote="82" loNote="80" hiNote="83" loVel="0" hiVel="41" end="26294" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v1_rr1_sum.wav" volume="12.0dB" />
+			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="41" end="23332" path="Resources/ClarinetStac Samples/DCClar_stac_D2_v1_rr1_sum.wav" volume="12.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="63" loVel="0" hiVel="41" end="23089" path="Resources/ClarinetStac Samples/DCClar_stac_D3_v1_rr1_sum.wav" volume="12.0dB" />
+			<sample rootNote="74" loNote="72" hiNote="75" loVel="0" hiVel="41" end="30551" path="Resources/ClarinetStac Samples/DCClar_stac_D4_v1_rr1_sum.wav" volume="12.0dB" />
+			<sample rootNote="53" loNote="52" hiNote="55" loVel="0" hiVel="41" end="20332" path="Resources/ClarinetStac Samples/DCClar_stac_F2_v1_rr1_sum.wav" volume="12.0dB" />
+			<sample rootNote="65" loNote="64" hiNote="67" loVel="0" hiVel="41" end="23516" path="Resources/ClarinetStac Samples/DCClar_stac_F3_v1_rr1_sum.wav" volume="12.0dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="0" hiVel="41" end="30968" path="Resources/ClarinetStac Samples/DCClar_stac_F4_v1_rr1_sum.wav" volume="12.0dB" />
+			<sample rootNote="89" loNote="88" hiNote="89" loVel="0" hiVel="41" end="24760" path="Resources/ClarinetStac Samples/DCClar_stac_F5_v1_rr1_sum.wav" volume="12.0dB" />
+			<sample rootNote="58" loNote="56" hiNote="59" loVel="42" hiVel="83" end="25868" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v2_rr1_sum.wav" volume="8.0dB" />
+			<sample rootNote="70" loNote="68" hiNote="71" loVel="42" hiVel="83" end="28946" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v2_rr1_sum.wav" volume="8.0dB" />
+			<sample rootNote="82" loNote="80" hiNote="83" loVel="42" hiVel="83" end="28361" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v2_rr1_sum.wav" volume="8.0dB" />
+			<sample rootNote="50" loNote="50" hiNote="51" loVel="42" hiVel="83" end="25391" path="Resources/ClarinetStac Samples/DCClar_stac_D2_v2_rr1_sum.wav" volume="8.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="63" loVel="42" hiVel="83" end="25249" path="Resources/ClarinetStac Samples/DCClar_stac_D3_v2_rr1_sum.wav" volume="8.0dB" />
+			<sample rootNote="74" loNote="72" hiNote="75" loVel="42" hiVel="83" end="29228" path="Resources/ClarinetStac Samples/DCClar_stac_D4_v2_rr1_sum.wav" volume="8.0dB" />
+			<sample rootNote="86" loNote="84" hiNote="87" loVel="0" hiVel="62" end="25359" path="Resources/ClarinetStac Samples/DCClar_stac_D5_v2_rr1_sum.wav" volume="12.0dB" />
+			<sample rootNote="53" loNote="52" hiNote="55" loVel="42" hiVel="83" end="22786" path="Resources/ClarinetStac Samples/DCClar_stac_F2_v2_rr1_sum.wav" volume="8.0dB" />
+			<sample rootNote="65" loNote="64" hiNote="67" loVel="42" hiVel="83" end="24580" path="Resources/ClarinetStac Samples/DCClar_stac_F3_v2_rr1_sum.wav" volume="8.0dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="42" hiVel="83" end="26377" path="Resources/ClarinetStac Samples/DCClar_stac_F4_v2_rr1_sum.wav" volume="8.0dB" />
+			<sample rootNote="89" loNote="88" hiNote="89" loVel="42" hiVel="83" end="25026" path="Resources/ClarinetStac Samples/DCClar_stac_F5_v2_rr1_sum.wav" volume="8.0dB" />
+			<sample rootNote="58" loNote="56" hiNote="59" loVel="84" hiVel="127" end="25917" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v3_rr1_sum.wav" volume="2.0dB" />
+			<sample rootNote="70" loNote="68" hiNote="71" loVel="84" hiVel="127" end="27023" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v3_rr1_sum.wav" volume="2.0dB" />
+			<sample rootNote="82" loNote="80" hiNote="83" loVel="84" hiVel="127" end="27766" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v3_rr1_sum.wav" volume="2.0dB" />
+			<sample rootNote="50" loNote="50" hiNote="51" loVel="84" hiVel="127" end="25473" path="Resources/ClarinetStac Samples/DCClar_stac_D2_v3_rr1_sum.wav" volume="2.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="63" loVel="84" hiVel="127" end="29395" path="Resources/ClarinetStac Samples/DCClar_stac_D3_v3_rr1_sum.wav" volume="2.0dB" />
+			<sample rootNote="74" loNote="72" hiNote="75" loVel="84" hiVel="127" end="27579" path="Resources/ClarinetStac Samples/DCClar_stac_D4_v3_rr1_sum.wav" volume="2.0dB" />
+			<sample rootNote="86" loNote="84" hiNote="87" loVel="63" hiVel="127" end="24545" path="Resources/ClarinetStac Samples/DCClar_stac_D5_v3_rr1_sum.wav" volume="4.0dB" />
+			<sample rootNote="53" loNote="52" hiNote="55" loVel="84" hiVel="127" end="23150" path="Resources/ClarinetStac Samples/DCClar_stac_F2_v3_rr1_sum.wav" volume="2.0dB" />
+			<sample rootNote="65" loNote="64" hiNote="67" loVel="84" hiVel="127" end="23631" path="Resources/ClarinetStac Samples/DCClar_stac_F3_v3_rr1_sum.wav" volume="2.0dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="84" hiVel="127" end="26928" path="Resources/ClarinetStac Samples/DCClar_stac_F4_v3_rr1_sum.wav" volume="2.0dB" />
+			<sample rootNote="89" loNote="88" hiNote="89" loVel="84" hiVel="127" end="29272" path="Resources/ClarinetStac Samples/DCClar_stac_F5_v3_rr1_sum.wav" volume="2.0dB" />
 		</group>
 		<group name="gr_2" ampVelTrack="1">
-			<sample end="24616" hiNote="59" hiVel="41" loNote="56" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v1_rr2_sum.wav" rootNote="58" volume="12.0dB" />
-			<sample end="25349" hiNote="71" hiVel="41" loNote="68" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v1_rr2_sum.wav" rootNote="70" volume="12.0dB" />
-			<sample end="27137" hiNote="83" hiVel="41" loNote="80" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v1_rr2_sum.wav" rootNote="82" volume="12.0dB" />
-			<sample end="23500" hiNote="51" hiVel="41" loNote="50" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_D2_v1_rr2_sum.wav" rootNote="50" volume="12.0dB" />
-			<sample end="23607" hiNote="63" hiVel="41" loNote="60" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_D3_v1_rr2_sum.wav" rootNote="62" volume="12.0dB" />
-			<sample end="29813" hiNote="75" hiVel="41" loNote="72" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_D4_v1_rr2_sum.wav" rootNote="74" volume="12.0dB" />
-			<sample end="19814" hiNote="55" hiVel="41" loNote="52" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_F2_v1_rr2_sum.wav" rootNote="53" volume="12.0dB" />
-			<sample end="23282" hiNote="67" hiVel="41" loNote="64" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_F3_v1_rr2_sum.wav" rootNote="65" volume="12.0dB" />
-			<sample end="28603" hiNote="79" hiVel="41" loNote="76" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_F4_v1_rr2_sum.wav" rootNote="77" volume="12.0dB" />
-			<sample end="27732" hiNote="89" hiVel="41" loNote="88" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_F5_v1_rr2_sum.wav" rootNote="89" volume="12.0dB" />
-			<sample end="27692" hiNote="59" hiVel="83" loNote="56" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v2_rr2_sum.wav" rootNote="58" volume="8.0dB" />
-			<sample end="23449" hiNote="71" hiVel="83" loNote="68" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v2_rr2_sum.wav" rootNote="70" volume="8.0dB" />
-			<sample end="27315" hiNote="83" hiVel="83" loNote="80" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v2_rr2_sum.wav" rootNote="82" volume="8.0dB" />
-			<sample end="24324" hiNote="51" hiVel="83" loNote="50" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_D2_v2_rr2_sum.wav" rootNote="50" volume="8.0dB" />
-			<sample end="25409" hiNote="63" hiVel="83" loNote="60" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_D3_v2_rr2_sum.wav" rootNote="62" volume="8.0dB" />
-			<sample end="27659" hiNote="75" hiVel="83" loNote="72" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_D4_v2_rr2_sum.wav" rootNote="74" volume="8.0dB" />
-			<sample end="26454" hiNote="87" hiVel="62" loNote="84" loVel="0" path="Resources/ClarinetStac Samples/DCClar_stac_D5_v2_rr2_sum.wav" rootNote="86" volume="12.0dB" />
-			<sample end="21641" hiNote="55" hiVel="83" loNote="52" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_F2_v2_rr2_sum.wav" rootNote="53" volume="8.0dB" />
-			<sample end="24494" hiNote="67" hiVel="83" loNote="64" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_F3_v2_rr2_sum.wav" rootNote="65" volume="8.0dB" />
-			<sample end="29283" hiNote="79" hiVel="83" loNote="76" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_F4_v2_rr2_sum.wav" rootNote="77" volume="8.0dB" />
-			<sample end="36383" hiNote="89" hiVel="83" loNote="88" loVel="42" path="Resources/ClarinetStac Samples/DCClar_stac_F5_v2_rr2_sum.wav" rootNote="89" volume="8.0dB" />
-			<sample end="26039" hiNote="59" hiVel="127" loNote="56" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v3_rr2_sum.wav" rootNote="58" volume="2.0dB" />
-			<sample end="32072" hiNote="71" hiVel="127" loNote="68" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v3_rr2_sum.wav" rootNote="70" volume="2.0dB" />
-			<sample end="29006" hiNote="83" hiVel="127" loNote="80" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v3_rr2_sum.wav" rootNote="82" volume="2.0dB" />
-			<sample end="24598" hiNote="51" hiVel="127" loNote="50" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_D2_v3_rr2_sum.wav" rootNote="50" volume="2.0dB" />
-			<sample end="27914" hiNote="63" hiVel="127" loNote="60" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_D3_v3_rr2_sum.wav" rootNote="62" volume="2.0dB" />
-			<sample end="29599" hiNote="75" hiVel="127" loNote="72" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_D4_v3_rr2_sum.wav" rootNote="74" volume="2.0dB" />
-			<sample end="27914" hiNote="87" hiVel="127" loNote="84" loVel="63" path="Resources/ClarinetStac Samples/DCClar_stac_D5_v3_rr2_sum.wav" rootNote="86" volume="4.0dB" />
-			<sample end="22365" hiNote="55" hiVel="127" loNote="52" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_F2_v3_rr2_sum.wav" rootNote="53" volume="2.0dB" />
-			<sample end="23707" hiNote="67" hiVel="127" loNote="64" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_F3_v3_rr2_sum.wav" rootNote="65" volume="2.0dB" />
-			<sample end="27213" hiNote="79" hiVel="127" loNote="76" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_F4_v3_rr2_sum.wav" rootNote="77" volume="2.0dB" />
-			<sample end="29456" hiNote="89" hiVel="127" loNote="88" loVel="84" path="Resources/ClarinetStac Samples/DCClar_stac_F5_v3_rr2_sum.wav" rootNote="89" volume="2.0dB" />
+			<sample rootNote="58" loNote="56" hiNote="59" loVel="0" hiVel="41" end="24616" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v1_rr2_sum.wav" volume="12.0dB" />
+			<sample rootNote="70" loNote="68" hiNote="71" loVel="0" hiVel="41" end="25349" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v1_rr2_sum.wav" volume="12.0dB" />
+			<sample rootNote="82" loNote="80" hiNote="83" loVel="0" hiVel="41" end="27137" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v1_rr2_sum.wav" volume="12.0dB" />
+			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="41" end="23500" path="Resources/ClarinetStac Samples/DCClar_stac_D2_v1_rr2_sum.wav" volume="12.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="63" loVel="0" hiVel="41" end="23607" path="Resources/ClarinetStac Samples/DCClar_stac_D3_v1_rr2_sum.wav" volume="12.0dB" />
+			<sample rootNote="74" loNote="72" hiNote="75" loVel="0" hiVel="41" end="29813" path="Resources/ClarinetStac Samples/DCClar_stac_D4_v1_rr2_sum.wav" volume="12.0dB" />
+			<sample rootNote="53" loNote="52" hiNote="55" loVel="0" hiVel="41" end="19814" path="Resources/ClarinetStac Samples/DCClar_stac_F2_v1_rr2_sum.wav" volume="12.0dB" />
+			<sample rootNote="65" loNote="64" hiNote="67" loVel="0" hiVel="41" end="23282" path="Resources/ClarinetStac Samples/DCClar_stac_F3_v1_rr2_sum.wav" volume="12.0dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="0" hiVel="41" end="28603" path="Resources/ClarinetStac Samples/DCClar_stac_F4_v1_rr2_sum.wav" volume="12.0dB" />
+			<sample rootNote="89" loNote="88" hiNote="89" loVel="0" hiVel="41" end="27732" path="Resources/ClarinetStac Samples/DCClar_stac_F5_v1_rr2_sum.wav" volume="12.0dB" />
+			<sample rootNote="58" loNote="56" hiNote="59" loVel="42" hiVel="83" end="27692" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v2_rr2_sum.wav" volume="8.0dB" />
+			<sample rootNote="70" loNote="68" hiNote="71" loVel="42" hiVel="83" end="23449" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v2_rr2_sum.wav" volume="8.0dB" />
+			<sample rootNote="82" loNote="80" hiNote="83" loVel="42" hiVel="83" end="27315" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v2_rr2_sum.wav" volume="8.0dB" />
+			<sample rootNote="50" loNote="50" hiNote="51" loVel="42" hiVel="83" end="24324" path="Resources/ClarinetStac Samples/DCClar_stac_D2_v2_rr2_sum.wav" volume="8.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="63" loVel="42" hiVel="83" end="25409" path="Resources/ClarinetStac Samples/DCClar_stac_D3_v2_rr2_sum.wav" volume="8.0dB" />
+			<sample rootNote="74" loNote="72" hiNote="75" loVel="42" hiVel="83" end="27659" path="Resources/ClarinetStac Samples/DCClar_stac_D4_v2_rr2_sum.wav" volume="8.0dB" />
+			<sample rootNote="86" loNote="84" hiNote="87" loVel="0" hiVel="62" end="26454" path="Resources/ClarinetStac Samples/DCClar_stac_D5_v2_rr2_sum.wav" volume="12.0dB" />
+			<sample rootNote="53" loNote="52" hiNote="55" loVel="42" hiVel="83" end="21641" path="Resources/ClarinetStac Samples/DCClar_stac_F2_v2_rr2_sum.wav" volume="8.0dB" />
+			<sample rootNote="65" loNote="64" hiNote="67" loVel="42" hiVel="83" end="24494" path="Resources/ClarinetStac Samples/DCClar_stac_F3_v2_rr2_sum.wav" volume="8.0dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="42" hiVel="83" end="29283" path="Resources/ClarinetStac Samples/DCClar_stac_F4_v2_rr2_sum.wav" volume="8.0dB" />
+			<sample rootNote="89" loNote="88" hiNote="89" loVel="42" hiVel="83" end="36383" path="Resources/ClarinetStac Samples/DCClar_stac_F5_v2_rr2_sum.wav" volume="8.0dB" />
+			<sample rootNote="58" loNote="56" hiNote="59" loVel="84" hiVel="127" end="26039" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v3_rr2_sum.wav" volume="2.0dB" />
+			<sample rootNote="70" loNote="68" hiNote="71" loVel="84" hiVel="127" end="32072" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v3_rr2_sum.wav" volume="2.0dB" />
+			<sample rootNote="82" loNote="80" hiNote="83" loVel="84" hiVel="127" end="29006" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v3_rr2_sum.wav" volume="2.0dB" />
+			<sample rootNote="50" loNote="50" hiNote="51" loVel="84" hiVel="127" end="24598" path="Resources/ClarinetStac Samples/DCClar_stac_D2_v3_rr2_sum.wav" volume="2.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="63" loVel="84" hiVel="127" end="27914" path="Resources/ClarinetStac Samples/DCClar_stac_D3_v3_rr2_sum.wav" volume="2.0dB" />
+			<sample rootNote="74" loNote="72" hiNote="75" loVel="84" hiVel="127" end="29599" path="Resources/ClarinetStac Samples/DCClar_stac_D4_v3_rr2_sum.wav" volume="2.0dB" />
+			<sample rootNote="86" loNote="84" hiNote="87" loVel="63" hiVel="127" end="27914" path="Resources/ClarinetStac Samples/DCClar_stac_D5_v3_rr2_sum.wav" volume="4.0dB" />
+			<sample rootNote="53" loNote="52" hiNote="55" loVel="84" hiVel="127" end="22365" path="Resources/ClarinetStac Samples/DCClar_stac_F2_v3_rr2_sum.wav" volume="2.0dB" />
+			<sample rootNote="65" loNote="64" hiNote="67" loVel="84" hiVel="127" end="23707" path="Resources/ClarinetStac Samples/DCClar_stac_F3_v3_rr2_sum.wav" volume="2.0dB" />
+			<sample rootNote="77" loNote="76" hiNote="79" loVel="84" hiVel="127" end="27213" path="Resources/ClarinetStac Samples/DCClar_stac_F4_v3_rr2_sum.wav" volume="2.0dB" />
+			<sample rootNote="89" loNote="88" hiNote="89" loVel="84" hiVel="127" end="29456" path="Resources/ClarinetStac Samples/DCClar_stac_F5_v3_rr2_sum.wav" volume="2.0dB" />
 		</group>
 	</groups>
 	<midi>
