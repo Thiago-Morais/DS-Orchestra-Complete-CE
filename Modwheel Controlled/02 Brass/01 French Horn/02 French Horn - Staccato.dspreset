@@ -31,19 +31,19 @@
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 				<!-- Cross fade between 2 samples -->
 				<!--
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
 				-->
 				<!-- Cross fade between 3 samples -->
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
 			</labeled-knob>
 		</tab>
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.120" seqMode="random" ampVelTrack="0">
-		<group name="gr_1" ampVelTrack="0" volume="0dB" seqPosition="1">
+		<group name="gr_1" seqPosition="1">
 			<sample rootNote="33" loNote="33" hiNote="34" loVel="0" hiVel="127" end="60940" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_1.wav" volume="6.0dB" />
 			<sample rootNote="36" loNote="35" hiNote="37" loVel="0" hiVel="62" end="54406" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_1.wav" volume="6.0dB" />
 			<sample rootNote="36" loNote="35" hiNote="37" loVel="63" hiVel="127" end="54459" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_1.wav" volume="6.0dB" />
@@ -73,7 +73,7 @@
 			<sample rootNote="77" loNote="76" hiNote="77" loVel="42" hiVel="83" end="38827" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_1.wav" volume="6.0dB" />
 			<sample rootNote="77" loNote="76" hiNote="77" loVel="84" hiVel="127" end="44011" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" volume="6.0dB" />
 		</group>
-		<group name="gr_2" ampVelTrack="0" volume="0dB" seqPosition="2">
+		<group name="gr_2" seqPosition="2">
 			<sample rootNote="33" loNote="33" hiNote="34" loVel="0" hiVel="127" end="73970" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_2.wav" volume="6.0dB" />
 			<sample rootNote="36" loNote="35" hiNote="37" loVel="63" hiVel="127" end="56736" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_2.wav" volume="6.0dB" />
 			<sample rootNote="36" loNote="35" hiNote="37" loVel="0" hiVel="62" end="59071" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_2.wav" volume="6.0dB" />
@@ -116,9 +116,9 @@
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
-		<tag name="dynamics-ff" volume="1" />
-		<tag name="dynamics-mf" volume="0" />
-		<tag name="dynamics-mp" volume="0" />
+		<tag name="3-dynamics-ff" volume="1" />
+		<tag name="3-dynamics-mf" volume="0" />
+		<tag name="3-dynamics-mp" volume="0" />
 	</tags>
 	<modulators />
 </DecentSampler>

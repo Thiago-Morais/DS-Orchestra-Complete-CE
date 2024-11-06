@@ -31,13 +31,13 @@
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 				<!-- Cross fade between 2 samples -->
 				<!--
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
 				-->
 				<!-- Cross fade between 3 samples -->
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
 			</labeled-knob>
 		</tab>
 		<keyboard />
@@ -64,9 +64,9 @@
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
-		<tag name="dynamics-ff" volume="1" />
-		<tag name="dynamics-mf" volume="0" />
-		<tag name="dynamics-mp" volume="0" />
+		<tag name="3-dynamics-ff" volume="1" />
+		<tag name="3-dynamics-mf" volume="0" />
+		<tag name="3-dynamics-mp" volume="0" />
 	</tags>
 	<modulators />
 </DecentSampler>
