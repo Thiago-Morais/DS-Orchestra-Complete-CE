@@ -211,6 +211,8 @@
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
+		<tag name="2-dynamics-ff" volume="1" />
+		<tag name="2-dynamics-mp" volume="0" />
 		<tag name="3-dynamics-ff" volume="1" />
 		<tag name="3-dynamics-mf" volume="0" />
 		<tag name="3-dynamics-mp" volume="0" />
