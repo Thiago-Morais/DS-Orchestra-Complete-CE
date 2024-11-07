@@ -41,7 +41,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.060" release="0.068" ampVelTrack="0">
-		<group name="group1-RR1" ampVelTrack="0">
+		<group name="group1-RR1">
 			<sample rootNote="60" loNote="60" hiNote="63" loVel="0" hiVel="127" end="10641" path="Resources/Viola Solo Samples/viola_C3-staccato-rr1-PB.wav" tuning="0.05" volume="-9.5dB" />
 			<sample rootNote="64" loNote="64" hiNote="66" loVel="0" hiVel="127" end="10006" path="Resources/Viola Solo Samples/viola_E3-staccato-rr1-PB.wav" tuning="0.05" volume="-8.5dB" />
 			<sample rootNote="67" loNote="67" hiNote="69" loVel="0" hiVel="127" end="11242" path="Resources/Viola Solo Samples/viola_G3-staccato-rr1-PB.wav" tuning="-0.05" volume="-8.5dB" />
@@ -56,7 +56,7 @@
 			<sample rootNote="93" loNote="93" hiNote="95" loVel="0" hiVel="127" end="9269" path="Resources/Viola Solo Samples/viola_A5-staccato-rr1-PB.wav" volume="-8.5dB" />
 			<sample rootNote="100" loNote="96" hiNote="105" loVel="0" hiVel="127" end="8779" path="Resources/Viola Solo Samples/viola_E6-staccato-rr1-PB.wav" tuning="-0.20" volume="-8.5dB" />
 		</group>
-		<group name="group2-RR2" ampVelTrack="0">
+		<group name="group2-RR2">
 			<sample rootNote="61" loNote="60" hiNote="63" loVel="0" hiVel="127" end="10229" path="Resources/Viola Solo Samples/viola_C#3-staccato-rr2-PB.wav" tuning="0.10" volume="-8.5dB" />
 			<sample rootNote="66" loNote="64" hiNote="66" loVel="0" hiVel="127" end="11850" path="Resources/Viola Solo Samples/viola_F#3-staccato-rr2-PB.wav" volume="-8.5dB" />
 			<sample rootNote="67" loNote="67" hiNote="69" loVel="0" hiVel="127" end="13344" path="Resources/Viola Solo Samples/viola_G3-staccato-rr2-PB.wav" volume="-8.5dB" />
@@ -71,7 +71,7 @@
 			<sample rootNote="93" loNote="93" hiNote="95" loVel="0" hiVel="127" end="11714" path="Resources/Viola Solo Samples/viola_A5-staccato-rr2-PB.wav" tuning="-0.20" volume="-8.5dB" />
 			<sample rootNote="100" loNote="96" hiNote="105" loVel="0" hiVel="127" end="7461" path="Resources/Viola Solo Samples/viola_E6-staccato-rr2-PB.wav" tuning="-0.15" volume="-8.5dB" />
 		</group>
-		<group name="group1-RR1" ampVelTrack="0">
+		<group name="group1-RR1">
 			<sample rootNote="60" loNote="60" hiNote="63" loVel="0" hiVel="127" end="10641" path="Resources/Viola Solo Samples/viola_C3-staccato-rr1-PB.wav" tuning="0.05" volume="2.0dB" />
 			<sample rootNote="64" loNote="64" hiNote="66" loVel="0" hiVel="127" end="10006" path="Resources/Viola Solo Samples/viola_E3-staccato-rr1-PB.wav" tuning="0.05" volume="3.0dB" />
 			<sample rootNote="67" loNote="67" hiNote="69" loVel="0" hiVel="127" end="11242" path="Resources/Viola Solo Samples/viola_G3-staccato-rr1-PB.wav" tuning="-0.05" volume="3.0dB" />
@@ -86,7 +86,7 @@
 			<sample rootNote="93" loNote="93" hiNote="95" loVel="0" hiVel="127" end="9269" path="Resources/Viola Solo Samples/viola_A5-staccato-rr1-PB.wav" volume="3.0dB" />
 			<sample rootNote="100" loNote="96" hiNote="105" loVel="0" hiVel="127" end="8779" path="Resources/Viola Solo Samples/viola_E6-staccato-rr1-PB.wav" tuning="-0.20" volume="3.0dB" />
 		</group>
-		<group name="group2-RR2" ampVelTrack="0">
+		<group name="group2-RR2">
 			<sample rootNote="61" loNote="60" hiNote="63" loVel="0" hiVel="127" end="10229" path="Resources/Viola Solo Samples/viola_C#3-staccato-rr2-PB.wav" tuning="0.10" volume="3.0dB" />
 			<sample rootNote="66" loNote="64" hiNote="66" loVel="0" hiVel="127" end="11850" path="Resources/Viola Solo Samples/viola_F#3-staccato-rr2-PB.wav" volume="3.0dB" />
 			<sample rootNote="67" loNote="67" hiNote="69" loVel="0" hiVel="127" end="13344" path="Resources/Viola Solo Samples/viola_G3-staccato-rr2-PB.wav" volume="3.0dB" />
@@ -101,7 +101,7 @@
 			<sample rootNote="93" loNote="93" hiNote="95" loVel="0" hiVel="127" end="11714" path="Resources/Viola Solo Samples/viola_A5-staccato-rr2-PB.wav" tuning="-0.20" volume="3.0dB" />
 			<sample rootNote="100" loNote="96" hiNote="105" loVel="0" hiVel="127" end="7461" path="Resources/Viola Solo Samples/viola_E6-staccato-rr2-PB.wav" tuning="-0.15" volume="3.0dB" />
 		</group>
-		<group name="group1-RR1" ampVelTrack="0">
+		<group name="group1-RR1">
 			<sample rootNote="60" loNote="60" hiNote="63" loVel="0" hiVel="127" end="10641" path="Resources/Viola Solo Samples/viola_C3-staccato-rr1-PB.wav" tuning="0.05" volume="2.0dB" />
 			<sample rootNote="64" loNote="64" hiNote="66" loVel="0" hiVel="127" end="10006" path="Resources/Viola Solo Samples/viola_E3-staccato-rr1-PB.wav" tuning="0.05" volume="3.0dB" />
 			<sample rootNote="67" loNote="67" hiNote="69" loVel="0" hiVel="127" end="11242" path="Resources/Viola Solo Samples/viola_G3-staccato-rr1-PB.wav" tuning="-0.05" volume="3.0dB" />
@@ -116,7 +116,7 @@
 			<sample rootNote="93" loNote="93" hiNote="95" loVel="0" hiVel="127" end="9269" path="Resources/Viola Solo Samples/viola_A5-staccato-rr1-PB.wav" volume="3.0dB" />
 			<sample rootNote="100" loNote="96" hiNote="105" loVel="0" hiVel="127" end="8779" path="Resources/Viola Solo Samples/viola_E6-staccato-rr1-PB.wav" tuning="-0.20" volume="3.0dB" />
 		</group>
-		<group name="group2-RR2" ampVelTrack="0">
+		<group name="group2-RR2">
 			<sample rootNote="61" loNote="60" hiNote="63" loVel="0" hiVel="127" end="10229" path="Resources/Viola Solo Samples/viola_C#3-staccato-rr2-PB.wav" tuning="0.10" volume="3.0dB" />
 			<sample rootNote="66" loNote="64" hiNote="66" loVel="0" hiVel="127" end="11850" path="Resources/Viola Solo Samples/viola_F#3-staccato-rr2-PB.wav" volume="3.0dB" />
 			<sample rootNote="67" loNote="67" hiNote="69" loVel="0" hiVel="127" end="13344" path="Resources/Viola Solo Samples/viola_G3-staccato-rr2-PB.wav" volume="3.0dB" />
