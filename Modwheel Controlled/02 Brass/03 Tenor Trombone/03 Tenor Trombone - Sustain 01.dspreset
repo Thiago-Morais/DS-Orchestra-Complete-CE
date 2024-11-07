@@ -42,124 +42,108 @@
 	</ui>
 	<groups attack="0.030" release="0.024" ampVelTrack="0">
 		<group name="Group 1">
-			<sample rootNote="54" loNote="52" hiNote="57" tags="2-dynamics-ff" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" volume="3.0dB" />
-			<sample rootNote="61" loNote="58" hiNote="61" tags="2-dynamics-ff" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" volume="1.5dB" />
-			<sample rootNote="62" loNote="62" hiNote="64" tags="2-dynamics-ff" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" volume="1.0dB" />
-			<sample rootNote="67" loNote="65" hiNote="69" tags="2-dynamics-ff" end="145114" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#3-PB-loop.wav" volume="5.0dB" />
-			<sample rootNote="73" loNote="70" hiNote="74" tags="2-dynamics-ff" end="169475" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#4-PB-loop.wav" volume="6.0dB" />
-			<sample rootNote="76" loNote="75" hiNote="76" tags="2-dynamics-ff" end="113741" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.E4-PB-loop.wav" volume="6.5dB" />
-			<sample rootNote="78" loNote="77" hiNote="78" tags="2-dynamics-ff" end="221035" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#4-PB-loop.wav" volume="5.5dB" />
-			<sample rootNote="79" loNote="79" hiNote="79" tags="2-dynamics-ff" end="160537" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G4-PB-loop.wav" volume="1.0dB" />
-			<sample rootNote="80" loNote="80" hiNote="82" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" volume="1.5dB" />
-			<sample rootNote="84" loNote="83" hiNote="89" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" volume="2.0dB" />
-		</group>
-		<group name="Group 3">
-			<sample rootNote="54" loNote="52" hiNote="57" tags="2-dynamics-ff" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" volume="3.0dB" />
-			<sample rootNote="61" loNote="58" hiNote="61" tags="2-dynamics-ff" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" volume="1.5dB" />
-			<sample rootNote="62" loNote="62" hiNote="64" tags="2-dynamics-ff" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" volume="1.0dB" />
-			<sample rootNote="67" loNote="65" hiNote="69" tags="2-dynamics-ff" end="145114" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#3-PB-loop.wav" volume="5.0dB" />
-			<sample rootNote="73" loNote="70" hiNote="74" tags="2-dynamics-ff" end="169475" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#4-PB-loop.wav" volume="6.0dB" />
-			<sample rootNote="76" loNote="75" hiNote="76" tags="2-dynamics-ff" end="113741" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.E4-PB-loop.wav" volume="6.5dB" />
-			<sample rootNote="78" loNote="77" hiNote="78" tags="2-dynamics-ff" end="221035" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#4-PB-loop.wav" volume="5.5dB" />
-			<sample rootNote="79" loNote="79" hiNote="79" tags="2-dynamics-ff" end="160537" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G4-PB-loop.wav" volume="1.0dB" />
-			<sample rootNote="80" loNote="80" hiNote="82" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" volume="1.5dB" />
-			<sample rootNote="84" loNote="83" hiNote="89" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" volume="2.0dB" />
-		</group>
-		<group name="Group 5">
-			<sample rootNote="54" loNote="52" hiNote="57" tags="2-dynamics-ff" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" />
-			<sample rootNote="61" loNote="58" hiNote="61" tags="2-dynamics-ff" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" start="1000" volume="4.5dB" />
-			<sample rootNote="62" loNote="62" hiNote="64" tags="2-dynamics-ff" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" volume="5.0dB" />
-			<sample rootNote="67" loNote="65" hiNote="69" tags="2-dynamics-ff" end="145114" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#3-PB-loop.wav" volume="9.0dB" />
-			<sample rootNote="73" loNote="70" hiNote="74" tags="2-dynamics-ff" end="169475" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#4-PB-loop.wav" volume="6.0dB" />
-			<sample rootNote="76" loNote="75" hiNote="76" tags="2-dynamics-ff" end="113741" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.E4-PB-loop.wav" volume="3.5dB" />
-			<sample rootNote="78" loNote="77" hiNote="78" tags="2-dynamics-ff" end="221035" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#4-PB-loop.wav" volume="5.5dB" />
-			<sample rootNote="79" loNote="79" hiNote="79" tags="2-dynamics-ff" end="160537" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G4-PB-loop.wav" volume="3.0dB" />
-			<sample rootNote="80" loNote="80" hiNote="82" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" volume="5.5dB" />
-			<sample rootNote="84" loNote="83" hiNote="89" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" volume="1.0dB" />
-		</group>
-		<group name="Group 7">
-			<sample rootNote="54" loNote="52" hiNote="57" tags="2-dynamics-ff" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" volume="3.0dB" />
-			<sample rootNote="61" loNote="58" hiNote="61" tags="2-dynamics-ff" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" volume="1.5dB" />
-			<sample rootNote="62" loNote="62" hiNote="64" tags="2-dynamics-ff" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" volume="1.0dB" />
-			<sample rootNote="67" loNote="65" hiNote="69" tags="2-dynamics-ff" end="145114" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#3-PB-loop.wav" volume="5.0dB" />
-			<sample rootNote="73" loNote="70" hiNote="74" tags="2-dynamics-ff" end="169475" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#4-PB-loop.wav" volume="6.0dB" />
-			<sample rootNote="76" loNote="75" hiNote="76" tags="2-dynamics-ff" end="113741" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.E4-PB-loop.wav" volume="6.5dB" />
-			<sample rootNote="78" loNote="77" hiNote="78" tags="2-dynamics-ff" end="221035" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#4-PB-loop.wav" volume="5.5dB" />
-			<sample rootNote="79" loNote="79" hiNote="79" tags="2-dynamics-ff" end="160537" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G4-PB-loop.wav" volume="1.0dB" />
-			<sample rootNote="80" loNote="80" hiNote="82" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" volume="1.5dB" />
-			<sample rootNote="84" loNote="83" hiNote="89" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" volume="2.0dB" />
-		</group>
-		<group name="Group 9">
-			<sample rootNote="54" loNote="52" hiNote="57" tags="2-dynamics-ff" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" volume="3.0dB" />
-			<sample rootNote="61" loNote="58" hiNote="61" tags="2-dynamics-ff" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" start="1000" volume="7.5dB" />
-			<sample rootNote="62" loNote="62" hiNote="64" tags="2-dynamics-ff" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" volume="8.0dB" />
-			<sample rootNote="67" loNote="65" hiNote="69" tags="2-dynamics-ff" end="145114" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#3-PB-loop.wav" volume="12.0dB" />
-			<sample rootNote="73" loNote="70" hiNote="74" tags="2-dynamics-ff" end="169475" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#4-PB-loop.wav" volume="9.0dB" />
-			<sample rootNote="76" loNote="75" hiNote="76" tags="2-dynamics-ff" end="113741" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.E4-PB-loop.wav" volume="6.5dB" />
-			<sample rootNote="78" loNote="77" hiNote="78" tags="2-dynamics-ff" end="221035" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#4-PB-loop.wav" volume="8.5dB" />
-			<sample rootNote="79" loNote="79" hiNote="79" tags="2-dynamics-ff" end="160537" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G4-PB-loop.wav" volume="6.0dB" />
-			<sample rootNote="80" loNote="80" hiNote="82" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" volume="8.5dB" />
-			<sample rootNote="84" loNote="83" hiNote="89" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" volume="4.0dB" />
+			<sample rootNote="54" volume="0.0dB" loNote="52" hiNote="57" tags="2-dynamics-ff" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" />
+			<sample rootNote="54" volume="3.0dB" loNote="52" hiNote="57" tags="2-dynamics-ff" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" />
+			<sample rootNote="54" volume="3.0dB" loNote="52" hiNote="57" tags="2-dynamics-ff" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" />
+			<sample rootNote="54" volume="3.0dB" loNote="52" hiNote="57" tags="2-dynamics-ff" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" />
+			<sample rootNote="54" volume="3.0dB" loNote="52" hiNote="57" tags="2-dynamics-ff" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" />
+			<sample rootNote="61" volume="1.5dB" loNote="58" hiNote="61" tags="2-dynamics-ff" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" />
+			<sample rootNote="61" volume="1.5dB" loNote="58" hiNote="61" tags="2-dynamics-ff" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" />
+			<sample rootNote="61" volume="1.5dB" loNote="58" hiNote="61" tags="2-dynamics-ff" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" />
+			<sample rootNote="61" volume="4.5dB" loNote="58" hiNote="61" tags="2-dynamics-ff" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" start="1000" />
+			<sample rootNote="61" volume="7.5dB" loNote="58" hiNote="61" tags="2-dynamics-ff" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" start="1000" />
+			<sample rootNote="62" volume="1.0dB" loNote="62" hiNote="64" tags="2-dynamics-ff" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" />
+			<sample rootNote="62" volume="1.0dB" loNote="62" hiNote="64" tags="2-dynamics-ff" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" />
+			<sample rootNote="62" volume="1.0dB" loNote="62" hiNote="64" tags="2-dynamics-ff" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" />
+			<sample rootNote="62" volume="5.0dB" loNote="62" hiNote="64" tags="2-dynamics-ff" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" />
+			<sample rootNote="62" volume="8.0dB" loNote="62" hiNote="64" tags="2-dynamics-ff" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" />
+			<sample rootNote="67" volume="5.0dB" loNote="65" hiNote="69" tags="2-dynamics-ff" end="145114" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#3-PB-loop.wav" />
+			<sample rootNote="67" volume="5.0dB" loNote="65" hiNote="69" tags="2-dynamics-ff" end="145114" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#3-PB-loop.wav" />
+			<sample rootNote="67" volume="5.0dB" loNote="65" hiNote="69" tags="2-dynamics-ff" end="145114" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#3-PB-loop.wav" />
+			<sample rootNote="67" volume="9.0dB" loNote="65" hiNote="69" tags="2-dynamics-ff" end="145114" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#3-PB-loop.wav" />
+			<sample rootNote="67" volume="12.0dB" loNote="65" hiNote="69" tags="2-dynamics-ff" end="145114" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#3-PB-loop.wav" />
+			<sample rootNote="73" volume="6.0dB" loNote="70" hiNote="74" tags="2-dynamics-ff" end="169475" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#4-PB-loop.wav" />
+			<sample rootNote="73" volume="6.0dB" loNote="70" hiNote="74" tags="2-dynamics-ff" end="169475" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#4-PB-loop.wav" />
+			<sample rootNote="73" volume="6.0dB" loNote="70" hiNote="74" tags="2-dynamics-ff" end="169475" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#4-PB-loop.wav" />
+			<sample rootNote="73" volume="6.0dB" loNote="70" hiNote="74" tags="2-dynamics-ff" end="169475" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#4-PB-loop.wav" />
+			<sample rootNote="73" volume="9.0dB" loNote="70" hiNote="74" tags="2-dynamics-ff" end="169475" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#4-PB-loop.wav" />
+			<sample rootNote="76" volume="3.5dB" loNote="75" hiNote="76" tags="2-dynamics-ff" end="113741" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.E4-PB-loop.wav" />
+			<sample rootNote="76" volume="6.5dB" loNote="75" hiNote="76" tags="2-dynamics-ff" end="113741" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.E4-PB-loop.wav" />
+			<sample rootNote="76" volume="6.5dB" loNote="75" hiNote="76" tags="2-dynamics-ff" end="113741" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.E4-PB-loop.wav" />
+			<sample rootNote="76" volume="6.5dB" loNote="75" hiNote="76" tags="2-dynamics-ff" end="113741" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.E4-PB-loop.wav" />
+			<sample rootNote="76" volume="6.5dB" loNote="75" hiNote="76" tags="2-dynamics-ff" end="113741" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.E4-PB-loop.wav" />
+			<sample rootNote="78" volume="5.5dB" loNote="77" hiNote="78" tags="2-dynamics-ff" end="221035" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#4-PB-loop.wav" />
+			<sample rootNote="78" volume="5.5dB" loNote="77" hiNote="78" tags="2-dynamics-ff" end="221035" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#4-PB-loop.wav" />
+			<sample rootNote="78" volume="5.5dB" loNote="77" hiNote="78" tags="2-dynamics-ff" end="221035" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#4-PB-loop.wav" />
+			<sample rootNote="78" volume="5.5dB" loNote="77" hiNote="78" tags="2-dynamics-ff" end="221035" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#4-PB-loop.wav" />
+			<sample rootNote="78" volume="8.5dB" loNote="77" hiNote="78" tags="2-dynamics-ff" end="221035" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#4-PB-loop.wav" />
+			<sample rootNote="79" volume="1.0dB" loNote="79" hiNote="79" tags="2-dynamics-ff" end="160537" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G4-PB-loop.wav" />
+			<sample rootNote="79" volume="1.0dB" loNote="79" hiNote="79" tags="2-dynamics-ff" end="160537" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G4-PB-loop.wav" />
+			<sample rootNote="79" volume="1.0dB" loNote="79" hiNote="79" tags="2-dynamics-ff" end="160537" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G4-PB-loop.wav" />
+			<sample rootNote="79" volume="3.0dB" loNote="79" hiNote="79" tags="2-dynamics-ff" end="160537" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G4-PB-loop.wav" />
+			<sample rootNote="79" volume="6.0dB" loNote="79" hiNote="79" tags="2-dynamics-ff" end="160537" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G4-PB-loop.wav" />
+			<sample rootNote="80" volume="1.5dB" loNote="80" hiNote="82" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" />
+			<sample rootNote="80" volume="1.5dB" loNote="80" hiNote="82" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" />
+			<sample rootNote="80" volume="1.5dB" loNote="80" hiNote="82" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" />
+			<sample rootNote="80" volume="5.5dB" loNote="80" hiNote="82" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" />
+			<sample rootNote="80" volume="8.5dB" loNote="80" hiNote="82" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" />
+			<sample rootNote="84" volume="1.0dB" loNote="83" hiNote="89" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" />
+			<sample rootNote="84" volume="2.0dB" loNote="83" hiNote="89" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" />
+			<sample rootNote="84" volume="2.0dB" loNote="83" hiNote="89" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" />
+			<sample rootNote="84" volume="2.0dB" loNote="83" hiNote="89" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" />
+			<sample rootNote="84" volume="4.0dB" loNote="83" hiNote="89" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" />
 		</group>
 		<group name="Group 2">
-			<sample rootNote="54" loNote="52" hiNote="57" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" volume="2.0dB" />
-			<sample rootNote="61" loNote="58" hiNote="61" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" volume="2.5dB" />
-			<sample rootNote="62" loNote="62" hiNote="64" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" volume="5.0dB" />
-			<sample rootNote="66" loNote="65" hiNote="69" tags="2-dynamics-mp" end="206258" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#3-PB-loop.wav" volume="6.0dB" />
-			<sample rootNote="73" loNote="70" hiNote="74" tags="2-dynamics-mp" end="218416" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#4-PB-loop.wav" volume="3.5dB" />
-			<sample rootNote="76" loNote="75" hiNote="76" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.E4-PB-loop.wav" volume="2.0dB" />
-			<sample rootNote="78" loNote="77" hiNote="78" tags="2-dynamics-mp" end="86492" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#4-PB-loop.wav" volume="0.5dB" />
-			<sample rootNote="79" loNote="79" hiNote="79" tags="2-dynamics-mp" end="113740" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G4-PB-loop.wav" volume="2.5dB" />
-			<sample rootNote="80" loNote="80" hiNote="82" tags="2-dynamics-mp" end="104663" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G#4-PB-loop.wav" volume="-1.0dB" />
-			<sample rootNote="84" loNote="83" hiNote="89" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C5-PB-loop.wav" volume="0.5dB" />
-		</group>
-		<group name="Group 4">
-			<sample rootNote="54" loNote="52" hiNote="57" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" volume="2.0dB" />
-			<sample rootNote="61" loNote="58" hiNote="61" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" volume="2.5dB" />
-			<sample rootNote="62" loNote="62" hiNote="64" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" volume="5.0dB" />
-			<sample rootNote="66" loNote="65" hiNote="69" tags="2-dynamics-mp" end="206258" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#3-PB-loop.wav" volume="6.0dB" />
-			<sample rootNote="73" loNote="70" hiNote="74" tags="2-dynamics-mp" end="218416" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#4-PB-loop.wav" volume="3.5dB" />
-			<sample rootNote="76" loNote="75" hiNote="76" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.E4-PB-loop.wav" volume="2.0dB" />
-			<sample rootNote="78" loNote="77" hiNote="78" tags="2-dynamics-mp" end="86492" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#4-PB-loop.wav" volume="0.5dB" />
-			<sample rootNote="79" loNote="79" hiNote="79" tags="2-dynamics-mp" end="113740" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G4-PB-loop.wav" volume="2.5dB" />
-			<sample rootNote="80" loNote="80" hiNote="82" tags="2-dynamics-mp" end="104663" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G#4-PB-loop.wav" volume="-1.0dB" />
-			<sample rootNote="84" loNote="83" hiNote="89" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C5-PB-loop.wav" volume="0.5dB" />
-		</group>
-		<group name="Group 6">
-			<sample rootNote="54" loNote="52" hiNote="57" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" volume="-1.0dB" />
-			<sample rootNote="61" loNote="58" hiNote="61" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" start="1000" volume="5.5dB" />
-			<sample rootNote="62" loNote="62" hiNote="64" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" volume="9.0dB" />
-			<sample rootNote="66" loNote="65" hiNote="69" tags="2-dynamics-mp" end="206258" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#3-PB-loop.wav" volume="10.0dB" />
-			<sample rootNote="73" loNote="70" hiNote="74" tags="2-dynamics-mp" end="218416" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#4-PB-loop.wav" volume="3.5dB" />
-			<sample rootNote="76" loNote="75" hiNote="76" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.E4-PB-loop.wav" volume="-1.0dB" />
-			<sample rootNote="78" loNote="77" hiNote="78" tags="2-dynamics-mp" end="86492" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#4-PB-loop.wav" volume="0.5dB" />
-			<sample rootNote="79" loNote="79" hiNote="79" tags="2-dynamics-mp" end="113740" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G4-PB-loop.wav" volume="4.5dB" />
-			<sample rootNote="80" loNote="80" hiNote="82" tags="2-dynamics-mp" end="104663" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G#4-PB-loop.wav" volume="3.0dB" />
-			<sample rootNote="84" loNote="83" hiNote="89" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C5-PB-loop.wav" volume="-0.5dB" />
-		</group>
-		<group name="Group 8">
-			<sample rootNote="54" loNote="52" hiNote="57" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" volume="2.0dB" />
-			<sample rootNote="61" loNote="58" hiNote="61" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" volume="2.5dB" />
-			<sample rootNote="62" loNote="62" hiNote="64" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" volume="5.0dB" />
-			<sample rootNote="66" loNote="65" hiNote="69" tags="2-dynamics-mp" end="206258" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#3-PB-loop.wav" volume="6.0dB" />
-			<sample rootNote="73" loNote="70" hiNote="74" tags="2-dynamics-mp" end="218416" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#4-PB-loop.wav" volume="3.5dB" />
-			<sample rootNote="76" loNote="75" hiNote="76" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.E4-PB-loop.wav" volume="2.0dB" />
-			<sample rootNote="78" loNote="77" hiNote="78" tags="2-dynamics-mp" end="86492" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#4-PB-loop.wav" volume="0.5dB" />
-			<sample rootNote="79" loNote="79" hiNote="79" tags="2-dynamics-mp" end="113740" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G4-PB-loop.wav" volume="2.5dB" />
-			<sample rootNote="80" loNote="80" hiNote="82" tags="2-dynamics-mp" end="104663" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G#4-PB-loop.wav" volume="-1.0dB" />
-			<sample rootNote="84" loNote="83" hiNote="89" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C5-PB-loop.wav" volume="0.5dB" />
-		</group>
-		<group name="Group 10">
-			<sample rootNote="54" loNote="52" hiNote="57" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" volume="2.0dB" />
-			<sample rootNote="61" loNote="58" hiNote="61" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" start="1000" volume="8.5dB" />
-			<sample rootNote="62" loNote="62" hiNote="64" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" volume="12.0dB" />
-			<sample rootNote="66" loNote="65" hiNote="69" tags="2-dynamics-mp" end="206258" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#3-PB-loop.wav" volume="12.0dB" />
-			<sample rootNote="73" loNote="70" hiNote="74" tags="2-dynamics-mp" end="218416" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#4-PB-loop.wav" volume="6.5dB" />
-			<sample rootNote="76" loNote="75" hiNote="76" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.E4-PB-loop.wav" volume="2.0dB" />
-			<sample rootNote="78" loNote="77" hiNote="78" tags="2-dynamics-mp" end="86492" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#4-PB-loop.wav" volume="3.5dB" />
-			<sample rootNote="79" loNote="79" hiNote="79" tags="2-dynamics-mp" end="113740" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G4-PB-loop.wav" volume="7.5dB" />
-			<sample rootNote="80" loNote="80" hiNote="82" tags="2-dynamics-mp" end="104663" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G#4-PB-loop.wav" volume="6.0dB" />
-			<sample rootNote="84" loNote="83" hiNote="89" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C5-PB-loop.wav" volume="2.5dB" />
+			<sample rootNote="54" volume="-1.0dB" loNote="52" hiNote="57" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" />
+			<sample rootNote="54" volume="2.0dB" loNote="52" hiNote="57" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" />
+			<sample rootNote="54" volume="2.0dB" loNote="52" hiNote="57" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" />
+			<sample rootNote="54" volume="2.0dB" loNote="52" hiNote="57" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" />
+			<sample rootNote="54" volume="2.0dB" loNote="52" hiNote="57" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" />
+			<sample rootNote="61" volume="2.5dB" loNote="58" hiNote="61" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" />
+			<sample rootNote="61" volume="2.5dB" loNote="58" hiNote="61" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" />
+			<sample rootNote="61" volume="2.5dB" loNote="58" hiNote="61" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" />
+			<sample rootNote="61" volume="5.5dB" loNote="58" hiNote="61" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" start="1000" />
+			<sample rootNote="61" volume="8.5dB" loNote="58" hiNote="61" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" start="1000" />
+			<sample rootNote="62" volume="5.0dB" loNote="62" hiNote="64" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" />
+			<sample rootNote="62" volume="5.0dB" loNote="62" hiNote="64" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" />
+			<sample rootNote="62" volume="5.0dB" loNote="62" hiNote="64" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" />
+			<sample rootNote="62" volume="9.0dB" loNote="62" hiNote="64" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" />
+			<sample rootNote="62" volume="12.0dB" loNote="62" hiNote="64" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" />
+			<sample rootNote="66" volume="6.0dB" loNote="65" hiNote="69" tags="2-dynamics-mp" end="206258" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#3-PB-loop.wav" />
+			<sample rootNote="66" volume="6.0dB" loNote="65" hiNote="69" tags="2-dynamics-mp" end="206258" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#3-PB-loop.wav" />
+			<sample rootNote="66" volume="6.0dB" loNote="65" hiNote="69" tags="2-dynamics-mp" end="206258" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#3-PB-loop.wav" />
+			<sample rootNote="66" volume="10.0dB" loNote="65" hiNote="69" tags="2-dynamics-mp" end="206258" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#3-PB-loop.wav" />
+			<sample rootNote="66" volume="12.0dB" loNote="65" hiNote="69" tags="2-dynamics-mp" end="206258" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#3-PB-loop.wav" />
+			<sample rootNote="73" volume="3.5dB" loNote="70" hiNote="74" tags="2-dynamics-mp" end="218416" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#4-PB-loop.wav" />
+			<sample rootNote="73" volume="3.5dB" loNote="70" hiNote="74" tags="2-dynamics-mp" end="218416" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#4-PB-loop.wav" />
+			<sample rootNote="73" volume="3.5dB" loNote="70" hiNote="74" tags="2-dynamics-mp" end="218416" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#4-PB-loop.wav" />
+			<sample rootNote="73" volume="3.5dB" loNote="70" hiNote="74" tags="2-dynamics-mp" end="218416" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#4-PB-loop.wav" />
+			<sample rootNote="73" volume="6.5dB" loNote="70" hiNote="74" tags="2-dynamics-mp" end="218416" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#4-PB-loop.wav" />
+			<sample rootNote="76" volume="-1.0dB" loNote="75" hiNote="76" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.E4-PB-loop.wav" />
+			<sample rootNote="76" volume="2.0dB" loNote="75" hiNote="76" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.E4-PB-loop.wav" />
+			<sample rootNote="76" volume="2.0dB" loNote="75" hiNote="76" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.E4-PB-loop.wav" />
+			<sample rootNote="76" volume="2.0dB" loNote="75" hiNote="76" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.E4-PB-loop.wav" />
+			<sample rootNote="76" volume="2.0dB" loNote="75" hiNote="76" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.E4-PB-loop.wav" />
+			<sample rootNote="78" volume="0.5dB" loNote="77" hiNote="78" tags="2-dynamics-mp" end="86492" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#4-PB-loop.wav" />
+			<sample rootNote="78" volume="0.5dB" loNote="77" hiNote="78" tags="2-dynamics-mp" end="86492" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#4-PB-loop.wav" />
+			<sample rootNote="78" volume="0.5dB" loNote="77" hiNote="78" tags="2-dynamics-mp" end="86492" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#4-PB-loop.wav" />
+			<sample rootNote="78" volume="0.5dB" loNote="77" hiNote="78" tags="2-dynamics-mp" end="86492" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#4-PB-loop.wav" />
+			<sample rootNote="78" volume="3.5dB" loNote="77" hiNote="78" tags="2-dynamics-mp" end="86492" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#4-PB-loop.wav" />
+			<sample rootNote="79" volume="2.5dB" loNote="79" hiNote="79" tags="2-dynamics-mp" end="113740" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G4-PB-loop.wav" />
+			<sample rootNote="79" volume="2.5dB" loNote="79" hiNote="79" tags="2-dynamics-mp" end="113740" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G4-PB-loop.wav" />
+			<sample rootNote="79" volume="2.5dB" loNote="79" hiNote="79" tags="2-dynamics-mp" end="113740" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G4-PB-loop.wav" />
+			<sample rootNote="79" volume="4.5dB" loNote="79" hiNote="79" tags="2-dynamics-mp" end="113740" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G4-PB-loop.wav" />
+			<sample rootNote="79" volume="7.5dB" loNote="79" hiNote="79" tags="2-dynamics-mp" end="113740" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G4-PB-loop.wav" />
+			<sample rootNote="80" volume="-1.0dB" loNote="80" hiNote="82" tags="2-dynamics-mp" end="104663" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G#4-PB-loop.wav" />
+			<sample rootNote="80" volume="-1.0dB" loNote="80" hiNote="82" tags="2-dynamics-mp" end="104663" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G#4-PB-loop.wav" />
+			<sample rootNote="80" volume="-1.0dB" loNote="80" hiNote="82" tags="2-dynamics-mp" end="104663" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G#4-PB-loop.wav" />
+			<sample rootNote="80" volume="3.0dB" loNote="80" hiNote="82" tags="2-dynamics-mp" end="104663" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G#4-PB-loop.wav" />
+			<sample rootNote="80" volume="6.0dB" loNote="80" hiNote="82" tags="2-dynamics-mp" end="104663" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.G#4-PB-loop.wav" />
+			<sample rootNote="84" volume="-0.5dB" loNote="83" hiNote="89" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C5-PB-loop.wav" />
+			<sample rootNote="84" volume="0.5dB" loNote="83" hiNote="89" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C5-PB-loop.wav" />
+			<sample rootNote="84" volume="0.5dB" loNote="83" hiNote="89" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C5-PB-loop.wav" />
+			<sample rootNote="84" volume="0.5dB" loNote="83" hiNote="89" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C5-PB-loop.wav" />
+			<sample rootNote="84" volume="2.5dB" loNote="83" hiNote="89" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C5-PB-loop.wav" />
 		</group>
 	</groups>
 	<midi>
