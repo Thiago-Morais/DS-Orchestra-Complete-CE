@@ -41,7 +41,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0">
-		<group name="1" ampVelTrack="0">
+		<group name="1">
 			<sample rootNote="64" loNote="64" hiNote="64" loVel="0" hiVel="50" end="465179" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-p.wav" volume="6.020599913279624dB" />
 			<sample rootNote="64" loNote="64" hiNote="64" loVel="80" hiVel="127" end="372918" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-f.wav" volume="6.020599913279624dB" />
 			<sample rootNote="64" loNote="64" hiNote="64" loVel="40" hiVel="90" end="351026" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-mf.wav" volume="6.020599913279624dB" />

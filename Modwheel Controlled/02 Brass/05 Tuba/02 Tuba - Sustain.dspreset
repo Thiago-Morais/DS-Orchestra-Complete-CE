@@ -41,7 +41,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0">
-		<group name="Sustain" ampVelTrack="0">
+		<group name="Sustain">
 			<sample rootNote="58" loNote="57" hiNote="59" loVel="0" hiVel="127" end="223561" path="Resources/Tuba - Sustain Samples/tuba-sus-a#2.wav" tuning="0.16" volume="6.020599913279624dB" />
 			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="228280" path="Resources/Tuba - Sustain Samples/tuba-sus-a#3.wav" tuning="0.08" volume="6.020599913279624dB" />
 			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="219486" path="Resources/Tuba - Sustain Samples/tuba-sus-c#2.wav" tuning="0.01" volume="6.020599913279624dB" />

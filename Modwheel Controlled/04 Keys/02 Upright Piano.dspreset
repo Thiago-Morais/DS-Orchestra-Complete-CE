@@ -41,7 +41,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.001" release="0.040" ampVelTrack="0">
-		<group name="gr_1" ampVelTrack="0">
+		<group name="gr_1">
 			<sample rootNote="24" loNote="24" hiNote="27" loVel="0" hiVel="80" end="331383" path="Resources/VSUpright1 Samples/UR1_C1_pp_RR1.wav" volume="12.0dB" />
 			<sample rootNote="36" loNote="34" hiNote="39" loVel="0" hiVel="60" end="465398" path="Resources/VSUpright1 Samples/UR1_C2_pp_RR1.wav" volume="12.0dB" />
 			<sample rootNote="48" loNote="46" hiNote="51" loVel="0" hiVel="60" end="311970" path="Resources/VSUpright1 Samples/UR1_C3_pp_RR1.wav" volume="12.0dB" />
@@ -83,7 +83,7 @@
 			<sample rootNote="91" loNote="88" hiNote="93" loVel="111" hiVel="127" end="201246" path="Resources/VSUpright1 Samples/UR1_G6_f_RR1.wav" volume="2.0dB" />
 			<sample rootNote="103" loNote="100" hiNote="103" loVel="111" hiVel="127" end="124026" path="Resources/VSUpright1 Samples/UR1_G7_f_RR1.wav" volume="2.0dB" />
 		</group>
-		<group name="gr_2" ampVelTrack="0">
+		<group name="gr_2">
 			<sample rootNote="24" loNote="24" hiNote="27" loVel="0" hiVel="60" end="508141" path="Resources/VSUpright1 Samples/UR1_C1_pp_RR2.wav" volume="12.0dB" />
 			<sample rootNote="36" loNote="34" hiNote="39" loVel="0" hiVel="60" end="465398" path="Resources/VSUpright1 Samples/UR1_C2_pp_RR1.wav" volume="12.0dB" />
 			<sample rootNote="48" loNote="46" hiNote="51" loVel="0" hiVel="60" end="493433" path="Resources/VSUpright1 Samples/UR1_C3_pp_RR2.wav" volume="12.0dB" />

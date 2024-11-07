@@ -41,7 +41,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" release="0.072" ampVelTrack="0">
-		<group name="group1-RR1" ampVelTrack="0">
+		<group name="group1-RR1">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="127" end="44839" path="Resources/Cello Solo Samples/c2-stac-rr1-PB.wav" volume="-12.0dB" />
 			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="127" end="49762" path="Resources/Cello Solo Samples/d2-stac-rr1-PB.wav" volume="-12.0dB" />
 			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="40731" path="Resources/Cello Solo Samples/e2-stac-rr1-PB.wav" volume="-12.0dB" />
@@ -67,7 +67,7 @@
 			<sample rootNote="86" loNote="86" hiNote="87" loVel="0" hiVel="127" end="38214" path="Resources/Cello Solo Samples/d5-stac-rr1-PB.wav" volume="-12.0dB" />
 			<sample rootNote="88" loNote="88" hiNote="93" loVel="0" hiVel="127" end="41263" path="Resources/Cello Solo Samples/e5-stac-rr1-PB.wav" volume="-12.0dB" />
 		</group>
-		<group name="group1-stac-rr2" ampVelTrack="0">
+		<group name="group1-stac-rr2">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="127" end="43776" path="Resources/Cello Solo Samples/c2-stac-rr2-PB.wav" volume="-12.0dB" />
 			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="127" end="41601" path="Resources/Cello Solo Samples/d2-stac-rr2-PB.wav" volume="-12.0dB" />
 			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="43144" path="Resources/Cello Solo Samples/e2-stac-rr2-PB.wav" volume="-12.0dB" />
@@ -93,7 +93,7 @@
 			<sample rootNote="86" loNote="86" hiNote="87" loVel="0" hiVel="127" end="44752" path="Resources/Cello Solo Samples/d5-stac-rr2-PB.wav" volume="-12.0dB" />
 			<sample rootNote="88" loNote="88" hiNote="93" loVel="0" hiVel="127" end="36118" path="Resources/Cello Solo Samples/e5-stac-rr2-PB.wav" volume="-12.0dB" />
 		</group>
-		<group name="group1-RR1" ampVelTrack="0">
+		<group name="group1-RR1">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="127" end="44839" path="Resources/Cello Solo Samples/c2-stac-rr1-PB.wav" />
 			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="127" end="49762" path="Resources/Cello Solo Samples/d2-stac-rr1-PB.wav" />
 			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="40731" path="Resources/Cello Solo Samples/e2-stac-rr1-PB.wav" />
@@ -119,7 +119,7 @@
 			<sample rootNote="86" loNote="86" hiNote="87" loVel="0" hiVel="127" end="38214" path="Resources/Cello Solo Samples/d5-stac-rr1-PB.wav" />
 			<sample rootNote="88" loNote="88" hiNote="93" loVel="0" hiVel="127" end="41263" path="Resources/Cello Solo Samples/e5-stac-rr1-PB.wav" />
 		</group>
-		<group name="group1-stac-rr2" ampVelTrack="0">
+		<group name="group1-stac-rr2">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="127" end="43776" path="Resources/Cello Solo Samples/c2-stac-rr2-PB.wav" />
 			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="127" end="41601" path="Resources/Cello Solo Samples/d2-stac-rr2-PB.wav" />
 			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="43144" path="Resources/Cello Solo Samples/e2-stac-rr2-PB.wav" />
@@ -145,7 +145,7 @@
 			<sample rootNote="86" loNote="86" hiNote="87" loVel="0" hiVel="127" end="44752" path="Resources/Cello Solo Samples/d5-stac-rr2-PB.wav" />
 			<sample rootNote="88" loNote="88" hiNote="93" loVel="0" hiVel="127" end="36118" path="Resources/Cello Solo Samples/e5-stac-rr2-PB.wav" />
 		</group>
-		<group name="group1-RR1" ampVelTrack="0">
+		<group name="group1-RR1">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="127" end="44839" path="Resources/Cello Solo Samples/c2-stac-rr1-PB.wav" />
 			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="127" end="49762" path="Resources/Cello Solo Samples/d2-stac-rr1-PB.wav" />
 			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="40731" path="Resources/Cello Solo Samples/e2-stac-rr1-PB.wav" />
@@ -171,7 +171,7 @@
 			<sample rootNote="86" loNote="86" hiNote="87" loVel="0" hiVel="127" end="38214" path="Resources/Cello Solo Samples/d5-stac-rr1-PB.wav" />
 			<sample rootNote="88" loNote="88" hiNote="93" loVel="0" hiVel="127" end="41263" path="Resources/Cello Solo Samples/e5-stac-rr1-PB.wav" />
 		</group>
-		<group name="group1-stac-rr2" ampVelTrack="0">
+		<group name="group1-stac-rr2">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="127" end="43776" path="Resources/Cello Solo Samples/c2-stac-rr2-PB.wav" />
 			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="127" end="41601" path="Resources/Cello Solo Samples/d2-stac-rr2-PB.wav" />
 			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="43144" path="Resources/Cello Solo Samples/e2-stac-rr2-PB.wav" />

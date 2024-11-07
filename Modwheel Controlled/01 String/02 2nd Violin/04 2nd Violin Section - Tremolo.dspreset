@@ -41,7 +41,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.050" release="0.080" ampVelTrack="0">
-		<group name="Group 2" ampVelTrack="0">
+		<group name="Group 2">
 			<sample rootNote="67" loNote="67" hiNote="67" loVel="0" hiVel="127" end="188833" path="Resources/2nd Violin Section Samples/3_G-PB.wav" tuning="0.05" volume="-5.7dB" />
 			<sample rootNote="69" loNote="68" hiNote="69" loVel="0" hiVel="127" end="115490" path="Resources/2nd Violin Section Samples/3_A-PB.wav" tuning="0.05" volume="-5.7dB" />
 			<sample rootNote="71" loNote="70" hiNote="71" loVel="0" hiVel="127" end="97397" path="Resources/2nd Violin Section Samples/3_B-PB.wav" tuning="0.05" volume="-5.7dB" />
@@ -64,7 +64,7 @@
 			<sample rootNote="105" loNote="104" hiNote="105" loVel="0" hiVel="127" end="147004" path="Resources/2nd Violin Section Samples/6_A-PB.wav" tuning="-0.15" volume="1.3dB" />
 			<sample rootNote="107" loNote="106" hiNote="117" loVel="0" hiVel="127" end="195041" path="Resources/2nd Violin Section Samples/6_B-PB.wav" tuning="-0.15" volume="-2.7dB" />
 		</group>
-		<group name="Group 3" ampVelTrack="0">
+		<group name="Group 3">
 			<sample rootNote="67" loNote="67" hiNote="68" loVel="0" hiVel="127" end="202240" path="Resources/2nd Violin Section Samples/G3-tremolo-PB-loop.wav" volume="5.0dB" />
 			<sample rootNote="69" loNote="69" hiNote="70" loVel="0" hiVel="127" end="178036" path="Resources/2nd Violin Section Samples/A3-tremolo-PB-loop.wav" volume="5.0dB" />
 			<sample rootNote="72" loNote="71" hiNote="73" loVel="0" hiVel="127" end="202240" path="Resources/2nd Violin Section Samples/C4-tremolo-PB-loop.wav" volume="6.0dB" />

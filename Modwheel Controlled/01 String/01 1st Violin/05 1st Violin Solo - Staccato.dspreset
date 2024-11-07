@@ -41,7 +41,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0">
-		<group name="Shorts" ampVelTrack="0">
+		<group name="Shorts">
 			<sample rootNote="55" loNote="67" hiNote="67" loVel="0" hiVel="127" end="124950" path="Resources/c - Violin 2 - Shorts Samples/56221__ldk1609__violin-spiccato-g-2.wav" start="1926" tuning="-1.00" volume="2.1042381698732315dB" />
 			<sample rootNote="56" loNote="68" hiNote="68" loVel="0" hiVel="127" end="98306" path="Resources/c - Violin 2 - Shorts Samples/56192__ldk1609__violin-spiccato-a2.wav" start="2016" tuning="-1.00" volume="2.1042381698732315dB" />
 			<sample rootNote="57" loNote="69" hiNote="69" loVel="0" hiVel="127" end="81769" path="Resources/c - Violin 2 - Shorts Samples/56188__ldk1609__violin-spiccato-a-2.wav" start="3080" tuning="-1.00" volume="2.1042381698732315dB" />
