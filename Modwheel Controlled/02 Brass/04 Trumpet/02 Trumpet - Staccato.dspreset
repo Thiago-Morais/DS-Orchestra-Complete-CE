@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.080" ampVelTrack="0">
+	<groups attack="0" release="0.080" ampVelTrack="0.8">
 		<group name="gr_1">
 			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="41" end="50323" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v1_rr1.wav" volume="12.0dB" />
 			<sample rootNote="57" loNote="55" hiNote="58" loVel="0" hiVel="41" end="33198" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v1_rr1.wav" volume="12.0dB" />

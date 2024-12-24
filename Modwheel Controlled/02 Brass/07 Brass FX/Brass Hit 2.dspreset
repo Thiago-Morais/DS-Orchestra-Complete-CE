@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0">
+	<groups attack="0" release="0.028" ampVelTrack="0.8">
 		<group name="BrassHorns">
 			<sample rootNote="60" loNote="0" hiNote="127" loVel="0" hiVel="127" end="64359" path="Resources/BrassHorns Samples/BrassHorns.wav" />
 		</group>

@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0">
+	<groups attack="0" release="0.028" ampVelTrack="0.8">
 		<group name="1">
 			<sample rootNote="48" loNote="21" hiNote="48" loVel="0" hiVel="127" end="301106" path="Resources/TC - Orchestral Chimes Samples/bar_chimes-c.wav" tuning="0.28" volume="6.020599913279624dB" />
 			<sample rootNote="50" loNote="50" hiNote="50" loVel="0" hiVel="127" end="255112" path="Resources/TC - Orchestral Chimes Samples/bar_chimes-a.wav" tuning="0.28" volume="6.020599913279624dB" />

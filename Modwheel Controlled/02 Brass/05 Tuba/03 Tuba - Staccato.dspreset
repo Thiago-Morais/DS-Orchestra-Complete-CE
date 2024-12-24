@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0">
+	<groups attack="0" release="0.028" ampVelTrack="0.8">
 		<group name="Stac RR 1">
 			<sample rootNote="62" loNote="60" hiNote="64" loVel="97" hiVel="127" end="41219" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_D3_v2_rr1_Sum.wav" volume="5.85730903073885dB" />
 			<sample rootNote="58" loNote="56" hiNote="59" loVel="97" hiVel="127" end="34275" path="Resources/Tuba - Ensemble Samples/Tuba3_stac_A#2_v2_rr1_Sum.wav" volume="5.85730903073885dB" />

@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups release="0.080" ampVelTrack="0">
+	<groups release="0.080" ampVelTrack="0.8">
 		<group name="ETHNIC by ThomashLe">
 			<sample rootNote="60" loNote="25" hiNote="25" loVel="0" hiVel="127" end="3361" path="Resources/ETHNIC Samples/Finger Snaps 1b.wav" pitchKeyTrack="00" />
 			<sample rootNote="60" loNote="81" hiNote="81" loVel="0" hiVel="127" end="37241" path="Resources/ETHNIC Samples/Open Surdo.wav" pitchKeyTrack="00" />

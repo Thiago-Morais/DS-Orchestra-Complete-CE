@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups decay="0.400" release="0.400" sustain="0" ampVelTrack="0">
+	<groups decay="0.400" release="0.400" sustain="0" ampVelTrack="0.8">
 		<group name="Group 1">
 			<sample rootNote="72" loNote="72" hiNote="72" loVel="41" hiVel="127" end="343593" path="Resources/tubular-bells Samples/3_C_f.wav" volume="-2.0dB" />
 			<sample rootNote="73" loNote="73" hiNote="73" loVel="41" hiVel="127" end="339572" path="Resources/tubular-bells Samples/3_Db_f.wav" volume="-2.0dB" />

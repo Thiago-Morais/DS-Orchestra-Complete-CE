@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.003" release="0.024" ampVelTrack="0">
+	<groups attack="0.003" release="0.024" ampVelTrack="0.8">
 		<group name="Group 1">
 			<sample rootNote="57" loNote="55" hiNote="57" loVel="0" hiVel="127" end="45357" path="Resources/1st-violin-SOLO-pizzicato Samples/3_A-PB.wav" volume="3.0dB" />
 			<sample rootNote="58" loNote="58" hiNote="58" loVel="0" hiVel="127" end="44394" path="Resources/1st-violin-SOLO-pizzicato Samples/3_Bb-PB.wav" volume="6.0dB" />

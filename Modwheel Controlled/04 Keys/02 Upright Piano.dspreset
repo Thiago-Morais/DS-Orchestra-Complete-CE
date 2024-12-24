@@ -43,7 +43,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.001" release="0.040" ampVelTrack="0" volume="6dB">
+	<groups attack="0.001" release="0.040" ampVelTrack="0.8" volume="6dB">
 		<group name="2-FF RR 1" seqPosition="1" tags="2-dynamics-ff">
 			<sample rootNote="24" loNote="24" hiNote="27" path="Resources/VSUpright1 Samples/UR1_C1_f_RR1.wav" />
 			<sample rootNote="31" loNote="28" hiNote="33" path="Resources/VSUpright1 Samples/UR1_G1_mf_RR1.wav" />

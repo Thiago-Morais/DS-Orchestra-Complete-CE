@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.003" release="0.080" ampVelTrack="0">
+	<groups attack="0.003" release="0.080" ampVelTrack="0.8">
 		<group name="Group 1">
 			<sample rootNote="72" loNote="72" hiNote="74" loVel="63" hiVel="127" end="400034" path="Resources/celesta Samples/c4-hard-PB.wav" tuning="-0.10" volume="-1.0dB" />
 			<sample rootNote="76" loNote="75" hiNote="77" loVel="63" hiVel="127" end="314390" path="Resources/celesta Samples/e4-hard-PB.wav" tuning="0.05" volume="-1.0dB" />
