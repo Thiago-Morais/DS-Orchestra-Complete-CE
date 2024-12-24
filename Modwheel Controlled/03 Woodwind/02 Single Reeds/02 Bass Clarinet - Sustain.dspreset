@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.080" release="0.024" ampVelTrack="0">
+	<groups attack="0.080" release="0.024" ampVelTrack="0.8">
 		<group name="Group 1">
 			<sample rootNote="50" loNote="46" hiNote="51" loVel="0" hiVel="127" end="121654" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-d2-PB-loop.wav" tuning="0.19" volume="3.5dB" />
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="0" hiVel="127" end="124475" path="Resources/bass-clarinet-SOLO-KS-C6 Samples/bass_clarinet-f2-PB-loop.wav" tuning="0.06" volume="1.0dB" />

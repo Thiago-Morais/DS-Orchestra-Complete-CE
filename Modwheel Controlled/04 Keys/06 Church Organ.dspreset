@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups release="0.097" ampVelTrack="0">
+	<groups release="0.097" ampVelTrack="0.8">
 		<group name="Church Organ/GS">
 			<sample rootNote="36" loNote="0" hiNote="36" loVel="0" hiVel="127" end="61256" loopEnabled="true" loopEnd="61248" loopStart="24522" path="Resources/Church Organ 2 Samples/Church Organ C1.wav" />
 			<sample rootNote="39" loNote="37" hiNote="39" loVel="0" hiVel="127" end="83312" loopEnabled="true" loopEnd="83215" loopStart="43654" path="Resources/Church Organ 2 Samples/Church Organ D1.wav" />

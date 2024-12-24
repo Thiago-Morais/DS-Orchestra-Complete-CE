@@ -40,7 +40,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0">
+	<groups attack="0" release="0.028" ampVelTrack="0.8">
 		<group name="ff" tags="3-dynamics-ff" volume="2.7dB">
 			<sample rootNote="25" loNote="24" hiNote="25" end="154328" path="Resources/Bass Trombone - Harmon Mute Samples/BTRBN_FF_.wav" />
 			<sample rootNote="26" loNote="26" hiNote="26" end="198428" path="Resources/Bass Trombone - Harmon Mute Samples/BTRBN_FF__1.wav" start="52206" tuning="-0.12" />

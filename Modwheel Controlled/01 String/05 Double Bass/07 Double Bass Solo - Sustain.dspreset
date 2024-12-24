@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.040" release="0.072" ampVelTrack="0">
+	<groups attack="0.040" release="0.072" ampVelTrack="0.8">
 		<group name="Group 1">
 			<sample rootNote="45" loNote="45" hiNote="46" loVel="0" hiVel="127" end="125812" path="Resources/Bass Solo Samples/BKCtbss_SusVib_A1_v3_rr1-PB-loop.wav" tuning="-0.10" volume="12.0dB" />
 			<sample rootNote="59" loNote="58" hiNote="67" loVel="0" hiVel="127" end="90996" path="Resources/Bass Solo Samples/BKCtbss_SusVib_B2_v3_rr1-PB-loop.wav" tuning="-0.10" volume="12.0dB" />

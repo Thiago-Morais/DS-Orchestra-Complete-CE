@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0">
+	<groups attack="0" release="0.028" ampVelTrack="0.8">
 		<group name="MF Layer">
 			<sample rootNote="58" loNote="58" hiNote="58" loVel="0" hiVel="127" end="178632" loopEnabled="true" loopEnd="177343" loopStart="133081" path="Resources/c - Oboe Samples/OboeA#3mf.wav" volume="0.7432478815118999dB" />
 			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="94870" loopEnabled="true" loopEnd="94814" loopStart="77465" path="Resources/c - Oboe Samples/OboeA#4mf.wav" volume="0.7432478815118999dB" />
