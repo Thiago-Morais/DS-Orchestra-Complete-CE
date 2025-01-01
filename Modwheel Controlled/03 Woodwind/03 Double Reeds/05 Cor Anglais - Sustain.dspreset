@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups decay="1" release="0.022" sustain="0.915" ampVelTrack="0.8">
-		<group name="Cor Anglais">
+		<group name="Cor Anglais" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="53" loNote="40" hiNote="58" loVel="0" hiVel="127" end="19036" loopEnabled="true" loopEnd="19031" loopStart="13448" path="Resources/Cor Anglais Samples/Cor Anglais F2.wav" volume="-4.0dB" />
 			<sample rootNote="63" loNote="59" hiNote="64" loVel="0" hiVel="127" end="19775" loopEnabled="true" loopEnd="19770" loopStart="14724" path="Resources/Cor Anglais Samples/Cor Anglais D#3.wav" volume="-4.0dB" />
 			<sample rootNote="67" loNote="65" hiNote="77" loVel="0" hiVel="127" end="23386" loopEnabled="true" loopEnd="23381" loopStart="17803" path="Resources/Cor Anglais Samples/Cor Anglais G3.wav" volume="-4.0dB" />

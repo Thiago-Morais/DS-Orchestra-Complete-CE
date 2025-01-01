@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.120" ampVelTrack="0.8">
-		<group name="gr_1">
+		<group name="gr_1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="58" loNote="56" hiNote="59" loVel="0" hiVel="41" end="24863" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v1_rr1_sum.wav" volume="12.0dB" />
 			<sample rootNote="70" loNote="68" hiNote="71" loVel="0" hiVel="41" end="22349" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v1_rr1_sum.wav" volume="12.0dB" />
 			<sample rootNote="82" loNote="80" hiNote="83" loVel="0" hiVel="41" end="26294" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v1_rr1_sum.wav" volume="12.0dB" />
@@ -80,7 +82,7 @@
 			<sample rootNote="77" loNote="76" hiNote="79" loVel="84" hiVel="127" end="26928" path="Resources/ClarinetStac Samples/DCClar_stac_F4_v3_rr1_sum.wav" volume="2.0dB" />
 			<sample rootNote="89" loNote="88" hiNote="89" loVel="84" hiVel="127" end="29272" path="Resources/ClarinetStac Samples/DCClar_stac_F5_v3_rr1_sum.wav" volume="2.0dB" />
 		</group>
-		<group name="gr_2">
+		<group name="gr_2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="58" loNote="56" hiNote="59" loVel="0" hiVel="41" end="24616" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v1_rr2_sum.wav" volume="12.0dB" />
 			<sample rootNote="70" loNote="68" hiNote="71" loVel="0" hiVel="41" end="25349" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v1_rr2_sum.wav" volume="12.0dB" />
 			<sample rootNote="82" loNote="80" hiNote="83" loVel="0" hiVel="41" end="27137" path="Resources/ClarinetStac Samples/DCClar_stac_A#4_v1_rr2_sum.wav" volume="12.0dB" />

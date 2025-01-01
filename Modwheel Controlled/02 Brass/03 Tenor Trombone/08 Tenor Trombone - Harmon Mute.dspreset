@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="ff">
+		<group name="ff" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="41" loNote="40" hiNote="41" loVel="0" hiVel="127" end="79094" loopEnabled="true" loopEnd="48055" loopStart="24217" path="Resources/Tenor Trombone - Harmon Mute Samples/HARD LONGS 002.wav" start="6360" tuning="0.09" volume="3.401847595163388dB" />
 			<sample rootNote="42" loNote="42" hiNote="42" loVel="0" hiVel="127" end="84915" loopEnabled="true" loopEnd="67148" loopStart="40020" path="Resources/Tenor Trombone - Harmon Mute Samples/HARD LONGS 003.wav" tuning="0.27" volume="3.401847595163388dB" />
 			<sample rootNote="43" loNote="43" hiNote="43" loVel="0" hiVel="127" end="88928" loopEnabled="true" loopEnd="64531" loopStart="43928" path="Resources/Tenor Trombone - Harmon Mute Samples/HARD LONGS 004.wav" tuning="-0.10" volume="3.401847595163388dB" />
@@ -75,7 +77,7 @@
 			<sample rootNote="66" loNote="66" hiNote="66" loVel="0" hiVel="127" end="141804" loopEnabled="true" loopEnd="82188" loopStart="42540" path="Resources/Tenor Trombone - Harmon Mute Samples/HARD LONGS 027.wav" tuning="0.15" volume="3.401847595163388dB" />
 			<sample rootNote="67" loNote="67" hiNote="70" loVel="0" hiVel="127" end="144384" loopEnabled="true" loopEnd="110587" loopStart="77562" path="Resources/Tenor Trombone - Harmon Mute Samples/HARD LONGS 028.wav" start="741" tuning="-0.10" volume="6.535941906665492dB" />
 		</group>
-		<group name="p">
+		<group name="p" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="41" loNote="40" hiNote="41" loVel="0" hiVel="127" end="253642" loopEnabled="true" loopEnd="202216" loopStart="96126" path="Resources/Tenor Trombone - Harmon Mute Samples/SOFT LONGS 002.wav" volume="5.224443965179277dB" />
 			<sample rootNote="42" loNote="42" hiNote="42" loVel="0" hiVel="127" end="297984" loopEnabled="true" loopEnd="240254" loopStart="149646" path="Resources/Tenor Trombone - Harmon Mute Samples/SOFT LONGS 003.wav" tuning="0.25" volume="5.224443965179277dB" />
 			<sample rootNote="43" loNote="43" hiNote="43" loVel="0" hiVel="127" end="284534" loopEnabled="true" loopEnd="228144" loopStart="139482" path="Resources/Tenor Trombone - Harmon Mute Samples/SOFT LONGS 004.wav" volume="5.224443965179277dB" />

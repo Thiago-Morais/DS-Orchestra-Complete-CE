@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.003" decay="0.554" release="0.058" sustain="0.893" ampVelTrack="0.8">
-		<group name="Halo Pad">
+		<group name="Halo Pad" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="76" loNote="0" hiNote="57" loVel="0" hiVel="127" end="14754" loopEnabled="true" loopEnd="14746" loopStart="67" path="Resources/Designed String Pad 1 Samples/Syn Vox F#3.wav" tuning="0.21" volume="-9.0dB" />
 			<sample rootNote="76" loNote="58" hiNote="69" loVel="0" hiVel="127" end="14754" loopEnabled="true" loopEnd="14746" loopStart="67" path="Resources/Designed String Pad 1 Samples/Syn Vox F#3.wav" tuning="0.21" volume="-9.0dB" />
 			<sample rootNote="80" loNote="70" hiNote="77" loVel="0" hiVel="127" end="22981" loopEnabled="true" loopEnd="22973" loopStart="14" path="Resources/Designed String Pad 1 Samples/Syn Vox C4.wav" tuning="0.04" volume="-9.0dB" />

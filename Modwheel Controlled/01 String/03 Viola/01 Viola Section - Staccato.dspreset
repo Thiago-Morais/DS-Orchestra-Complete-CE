@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.060" release="0.084" ampVelTrack="0.8">
-		<group name="gr_1">
+		<group name="gr_1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="53229" path="Resources/Viola Ensemble Samples/Violas_spic_A3_v2_rr1-PB.wav" volume="-8.5dB" />
 			<sample rootNote="59" loNote="57" hiNote="60" loVel="0" hiVel="127" end="95340" path="Resources/Viola Ensemble Samples/Violas_spic_B2_v2_rr1-PB.wav" volume="-8.5dB" />
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="48348" path="Resources/Viola Ensemble Samples/Violas_spic_B4_v2_rr1-PB.wav" volume="-8.5dB" />
@@ -60,7 +62,7 @@
 			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="52729" path="Resources/Viola Ensemble Samples/Violas_spic_G2_v2_rr1-PB.wav" volume="-8.5dB" />
 			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="34107" path="Resources/Viola Ensemble Samples/Violas_spic_G4_v2_rr1-PB.wav" volume="-8.5dB" />
 		</group>
-		<group name="gr_2">
+		<group name="gr_2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="50194" path="Resources/Viola Ensemble Samples/Violas_spic_A3_v2_rr2-PB.wav" volume="-8.5dB" />
 			<sample rootNote="59" loNote="57" hiNote="60" loVel="0" hiVel="127" end="87096" path="Resources/Viola Ensemble Samples/Violas_spic_B2_v2_rr2-PB.wav" volume="-8.5dB" />
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="46326" path="Resources/Viola Ensemble Samples/Violas_spic_B4_v2_rr2-PB.wav" volume="-8.5dB" />
@@ -74,7 +76,7 @@
 			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="62028" path="Resources/Viola Ensemble Samples/Violas_spic_G2_v2_rr2-PB.wav" volume="-8.5dB" />
 			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="34826" path="Resources/Viola Ensemble Samples/Violas_spic_G4_v2_rr2-PB.wav" volume="-8.5dB" />
 		</group>
-		<group name="gr_1">
+		<group name="gr_1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="53229" path="Resources/Viola Ensemble Samples/Violas_spic_A3_v2_rr1-PB.wav" />
 			<sample rootNote="59" loNote="57" hiNote="60" loVel="0" hiVel="127" end="95340" path="Resources/Viola Ensemble Samples/Violas_spic_B2_v2_rr1-PB.wav" />
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="48348" path="Resources/Viola Ensemble Samples/Violas_spic_B4_v2_rr1-PB.wav" />
@@ -88,7 +90,7 @@
 			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="52729" path="Resources/Viola Ensemble Samples/Violas_spic_G2_v2_rr1-PB.wav" />
 			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="34107" path="Resources/Viola Ensemble Samples/Violas_spic_G4_v2_rr1-PB.wav" />
 		</group>
-		<group name="gr_2">
+		<group name="gr_2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="50194" path="Resources/Viola Ensemble Samples/Violas_spic_A3_v2_rr2-PB.wav" />
 			<sample rootNote="59" loNote="57" hiNote="60" loVel="0" hiVel="127" end="87096" path="Resources/Viola Ensemble Samples/Violas_spic_B2_v2_rr2-PB.wav" />
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="46326" path="Resources/Viola Ensemble Samples/Violas_spic_B4_v2_rr2-PB.wav" />
@@ -102,7 +104,7 @@
 			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="62028" path="Resources/Viola Ensemble Samples/Violas_spic_G2_v2_rr2-PB.wav" />
 			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="34826" path="Resources/Viola Ensemble Samples/Violas_spic_G4_v2_rr2-PB.wav" />
 		</group>
-		<group name="gr_1">
+		<group name="gr_1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="53229" path="Resources/Viola Ensemble Samples/Violas_spic_A3_v2_rr1-PB.wav" />
 			<sample rootNote="59" loNote="57" hiNote="60" loVel="0" hiVel="127" end="95340" path="Resources/Viola Ensemble Samples/Violas_spic_B2_v2_rr1-PB.wav" />
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="48348" path="Resources/Viola Ensemble Samples/Violas_spic_B4_v2_rr1-PB.wav" />
@@ -116,7 +118,7 @@
 			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="52729" path="Resources/Viola Ensemble Samples/Violas_spic_G2_v2_rr1-PB.wav" />
 			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="34107" path="Resources/Viola Ensemble Samples/Violas_spic_G4_v2_rr1-PB.wav" />
 		</group>
-		<group name="gr_2">
+		<group name="gr_2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="50194" path="Resources/Viola Ensemble Samples/Violas_spic_A3_v2_rr2-PB.wav" />
 			<sample rootNote="59" loNote="57" hiNote="60" loVel="0" hiVel="127" end="87096" path="Resources/Viola Ensemble Samples/Violas_spic_B2_v2_rr2-PB.wav" />
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="46326" path="Resources/Viola Ensemble Samples/Violas_spic_B4_v2_rr2-PB.wav" />

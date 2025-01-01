@@ -32,6 +32,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -44,7 +46,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.040" ampVelTrack="0.8">
-		<group name="Piano FF" tags="3-dynamics-ff" volume="6dB">
+		<group name="Piano FF" tags="3-dynamics-ff" volume="6dB" seqMode="random">
 			<sample rootNote="21" loNote="20" hiNote="23" path="Resources/Piano Samples/Player_dyn3_rr1_000.wav" />
 			<sample rootNote="25" loNote="24" hiNote="27" path="Resources/Piano Samples/Player_dyn3_rr1_002.wav" />
 			<sample rootNote="29" loNote="28" hiNote="31" path="Resources/Piano Samples/Player_dyn3_rr1_004.wav" />
@@ -69,7 +71,7 @@
 			<sample rootNote="105" loNote="104" hiNote="107" path="Resources/Piano Samples/Player_dyn3_rr1_042.wav" />
 			<sample rootNote="109" loNote="108" hiNote="111" path="Resources/Piano Samples/Player_dyn3_rr1_044.wav" />
 		</group>
-		<group name="Piano MF" tags="3-dynamics-mf" volume="6dB">
+		<group name="Piano MF" tags="3-dynamics-mf" volume="6dB" seqMode="random">
 			<sample rootNote="21" loNote="20" hiNote="23" path="Resources/Piano Samples/Player_dyn2_rr1_000.wav" />
 			<sample rootNote="25" loNote="24" hiNote="27" path="Resources/Piano Samples/Player_dyn2_rr1_002.wav" />
 			<sample rootNote="29" loNote="28" hiNote="31" path="Resources/Piano Samples/Player_dyn2_rr1_004.wav" />
@@ -94,7 +96,7 @@
 			<sample rootNote="105" loNote="104" hiNote="107" path="Resources/Piano Samples/Player_dyn2_rr1_042.wav" />
 			<sample rootNote="109" loNote="108" hiNote="111" path="Resources/Piano Samples/Player_dyn2_rr1_044.wav" />
 		</group>
-		<group name="Piano MP" tags="3-dynamics-mp" volume="6dB">
+		<group name="Piano MP" tags="3-dynamics-mp" volume="6dB" seqMode="random">
 			<sample rootNote="21" loNote="20" hiNote="23" path="Resources/Piano Samples/Player_dyn1_rr1_000.wav" />
 			<sample rootNote="25" loNote="24" hiNote="27" path="Resources/Piano Samples/Player_dyn1_rr1_002.wav" />
 			<sample rootNote="29" loNote="28" hiNote="31" path="Resources/Piano Samples/Player_dyn1_rr1_004.wav" />

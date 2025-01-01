@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="1">
+		<group name="1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="64" loNote="64" hiNote="64" loVel="0" hiVel="50" end="465179" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-p.wav" volume="6.020599913279624dB" />
 			<sample rootNote="64" loNote="64" hiNote="64" loVel="80" hiVel="127" end="372918" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-f.wav" volume="6.020599913279624dB" />
 			<sample rootNote="64" loNote="64" hiNote="64" loVel="40" hiVel="90" end="351026" path="Resources/TC - Cymbals _ Gongs Samples/cymbal_roll-a-mf.wav" volume="6.020599913279624dB" />

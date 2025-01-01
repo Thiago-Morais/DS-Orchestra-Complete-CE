@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="1" ampVelTrack="0.8">
-		<group name="Group 1">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="60" loNote="60" hiNote="60" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C1.wav" start="2804" volume="12.0dB" />
 			<sample rootNote="61" loNote="61" hiNote="61" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C#1.wav" start="2325" volume="8.364776dB" />
 			<sample rootNote="62" loNote="62" hiNote="62" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_D1.wav" start="2388" volume="12.0dB" />

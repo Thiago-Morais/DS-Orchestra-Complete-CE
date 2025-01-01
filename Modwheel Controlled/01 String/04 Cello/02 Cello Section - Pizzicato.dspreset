@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.060" release="0.084" ampVelTrack="0.8">
-		<group name="Group 11">
+		<group name="Group 11" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="50" loVel="0" hiVel="62" end="138265" path="Resources/Cello Ensemble Samples/pizzT_C1_v1_RR1.wav" volume="12.0dB" />
 			<sample rootNote="48" loNote="48" hiNote="50" loVel="54" hiVel="127" end="163522" path="Resources/Cello Ensemble Samples/pizzT_C1_v2_RR1.wav" volume="12.0dB" />
 			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="62" end="114708" path="Resources/Cello Ensemble Samples/pizzT_E1_v1_RR2.wav" volume="12.0dB" />

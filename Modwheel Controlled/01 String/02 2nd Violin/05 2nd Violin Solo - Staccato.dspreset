@@ -32,6 +32,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -44,7 +46,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" decay="0.024" release="0.064" ampVelTrack="0.8" seqMode="random">
-		<group name="gr_1" seqPosition="1">
+		<group name="gr_1" seqPosition="1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="60" loNote="55" hiNote="61" end="50396" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_C3_v2_rr1-PB.wav" volume="1.7dB" start="1120" />
 			<sample rootNote="64" loNote="62" hiNote="65" end="72679" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_E3_v2_rr1-PB.wav" volume="2.7dB" />
 			<sample rootNote="67" loNote="66" hiNote="67" end="51849" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_G3_v2_rr1-PB.wav" volume="1.7dB" />
@@ -59,7 +61,7 @@
 			<sample rootNote="93" loNote="92" hiNote="94" end="59988" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_A5_v2_rr1-PB.wav" volume="1.7dB" />
 			<sample rootNote="96" loNote="95" hiNote="105" end="49220" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_C6_v2_rr1-PB.wav" volume="1.7dB" />
 		</group>
-		<group name="gr_2" seqPosition="2">
+		<group name="gr_2" seqPosition="2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="60" loNote="55" hiNote="61" end="52118" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_C3_v2_rr2-PB.wav" volume="1.7dB" />
 			<sample rootNote="64" loNote="62" hiNote="65" end="53895" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_E3_v2_rr2-PB.wav" volume="3.7dB" />
 			<sample rootNote="67" loNote="66" hiNote="67" end="49056" path="Resources/2nd-violin-SOLO-staccato Samples/LLVln_spic_G3_v2_rr2-PB.wav" volume="1.7dB" />

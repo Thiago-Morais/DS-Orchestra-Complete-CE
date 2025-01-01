@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.001" decay="0.057" release="0.022" sustain="0.965" ampVelTrack="0.8">
-		<group name="Hollywoodstrings">
+		<group name="Hollywoodstrings" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="26" loNote="0" hiNote="30" loVel="76" hiVel="127" end="92036" loopEnabled="true" loopEnd="90500" loopStart="39556" path="Resources/Designed String Pad 5 Samples/d0.wav" />
 			<sample rootNote="38" loNote="36" hiNote="42" loVel="76" hiVel="127" end="91648" loopEnabled="true" loopEnd="90368" loopStart="27392" path="Resources/Designed String Pad 5 Samples/d1.wav" />
 			<sample rootNote="50" loNote="48" hiNote="53" loVel="76" hiVel="127" end="79572" loopEnabled="true" loopEnd="78037" loopStart="15828" path="Resources/Designed String Pad 5 Samples/d2.wav" />
@@ -60,7 +62,7 @@
 			<sample rootNote="67" loNote="67" hiNote="71" loVel="76" hiVel="127" end="73483" loopEnabled="true" loopEnd="72843" loopStart="11147" path="Resources/Designed String Pad 5 Samples/g3.wav" />
 			<sample rootNote="79" loNote="79" hiNote="83" loVel="76" hiVel="127" end="74676" loopEnabled="true" loopEnd="74164" loopStart="16180" path="Resources/Designed String Pad 5 Samples/g4.wav" />
 		</group>
-		<group name="Hollywoodstrin1">
+		<group name="Hollywoodstrin1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="26" loNote="0" hiNote="30" loVel="0" hiVel="75" end="92036" loopEnabled="true" loopEnd="90500" loopStart="39556" path="Resources/Designed String Pad 5 Samples/d0.wav" />
 			<sample rootNote="38" loNote="36" hiNote="42" loVel="0" hiVel="75" end="91648" loopEnabled="true" loopEnd="90368" loopStart="27392" path="Resources/Designed String Pad 5 Samples/d1.wav" />
 			<sample rootNote="50" loNote="48" hiNote="53" loVel="0" hiVel="75" end="79572" loopEnabled="true" loopEnd="78037" loopStart="15828" path="Resources/Designed String Pad 5 Samples/d2.wav" />

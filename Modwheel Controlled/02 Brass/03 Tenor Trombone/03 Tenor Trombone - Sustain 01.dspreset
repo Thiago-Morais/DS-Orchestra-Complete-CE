@@ -30,6 +30,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -42,7 +44,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" release="0.024" ampVelTrack="0.8">
-		<group name="Group 1">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="54" volume="0dB" loNote="52" hiNote="57" start="1928" tags="2-dynamics-ff" end="120472" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.F#2-PB-loop.wav" />
 			<sample rootNote="61" volume="2dB" loNote="58" hiNote="61" start="1000" tags="2-dynamics-ff" end="218372" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C#3-PB-loop.wav" />
 			<sample rootNote="62" volume="2dB" loNote="62" hiNote="64" start="1781" tags="2-dynamics-ff" end="222611" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.D3-PB-loop.wav" />
@@ -54,7 +56,7 @@
 			<sample rootNote="80" volume="0dB" loNote="80" hiNote="82" start="1436" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.G#4-PB-loop.wav" />
 			<sample rootNote="84" volume="0dB" loNote="83" hiNote="89" start="1436" tags="2-dynamics-ff" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.ff.C5-PB-loop.wav" />
 		</group>
-		<group name="Group 2">
+		<group name="Group 2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="54" volume="0dB" loNote="52" hiNote="56" start="2872" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.F#2-PB-loop.wav" />
 			<sample rootNote="61" volume="1dB" loNote="57" hiNote="61" start="2436" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.C#3-PB-loop.wav" />
 			<sample rootNote="62" volume="1dB" loNote="62" hiNote="64" start="2154" tags="2-dynamics-mp" end="179506" path="Resources/Tenor Trombone - Sustain 01 Samples/Trombone-sus.mf.D3-PB-loop.wav" />

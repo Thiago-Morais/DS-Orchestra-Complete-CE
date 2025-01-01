@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.060" release="0.028" ampVelTrack="0.8">
-		<group name="Group 3">
+		<group name="Group 3" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="72" loNote="72" hiNote="75" loVel="0" hiVel="127" end="17865" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C3-PB.wav" tuning="-0.05" volume="2.5dB" />
 			<sample rootNote="76" loNote="76" hiNote="80" loVel="0" hiVel="127" end="17865" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E3-PB.wav" volume="2.5dB" />
 			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="127" end="17863" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A3_v2_rr1-PB.wav" tuning="0.05" volume="2.5dB" />
@@ -58,7 +60,7 @@
 			<sample rootNote="105" loNote="103" hiNote="106" loVel="0" hiVel="127" end="17863" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A5_v1_rr1-PB.wav" volume="3.5dB" />
 			<sample rootNote="108" loNote="107" hiNote="110" loVel="0" hiVel="127" end="16346" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C6_v2_rr2-PB.wav" volume="3.5dB" />
 		</group>
-		<group name="Group 5">
+		<group name="Group 5" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="72" loNote="72" hiNote="75" loVel="0" hiVel="127" end="17865" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C3-PB.wav" tuning="-0.05" volume="2.5dB" />
 			<sample rootNote="76" loNote="76" hiNote="80" loVel="0" hiVel="127" end="17865" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E3-PB.wav" volume="2.5dB" />
 			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="127" end="17863" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_A3_v2_rr1-PB.wav" tuning="0.05" volume="2.5dB" />

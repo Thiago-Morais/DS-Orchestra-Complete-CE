@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="Group 1">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="99" loNote="98" hiNote="100" loVel="0" hiVel="63" end="186784" path="Resources/TC - Timpani Samples/timpani-roll-d#1.wav" volume="6.020599913279624dB" />
 			<sample rootNote="102" loNote="101" hiNote="103" loVel="0" hiVel="63" end="189475" path="Resources/TC - Timpani Samples/timpani-roll-f#1.wav" volume="6.020599913279624dB" />
 			<sample rootNote="105" loNote="104" hiNote="106" loVel="0" hiVel="63" end="188981" path="Resources/TC - Timpani Samples/timpani-roll-a1.wav" volume="6.020599913279624dB" />

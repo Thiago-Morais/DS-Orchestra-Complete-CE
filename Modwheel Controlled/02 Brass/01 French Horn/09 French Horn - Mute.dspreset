@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="Mute 2-ff" tags="2-dynamics-ff">
+		<group name="Mute 2-ff" seqMode="random" tags="2-dynamics-ff">
 			<sample rootNote="46" loNote="46" hiNote="48" end="207757" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_A#1_v2_1.wav" />
 			<sample rootNote="51" loNote="49" hiNote="51" end="210162" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_D#2_v2_1.wav" />
 			<sample rootNote="53" loNote="52" hiNote="55" end="241295" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_F2_v2_1.wav" />
@@ -55,7 +57,7 @@
 			<sample rootNote="68" loNote="66" hiNote="68" end="241558" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_G#3_v2_1.wav" />
 			<sample rootNote="70" loNote="69" hiNote="71" end="202039" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_A#3_v2_1.wav" />
 		</group>
-		<group name="Mute 2-mp" tags="2-dynamics-mp">
+		<group name="Mute 2-mp" seqMode="random" tags="2-dynamics-mp">
 			<sample rootNote="46" loNote="46" hiNote="48" end="247560" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_A#1_v1_1.wav" />
 			<sample rootNote="51" loNote="49" hiNote="51" end="336635" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_D#2_v1_1.wav" />
 			<sample rootNote="53" loNote="52" hiNote="54" end="365054" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_F2_v1_1.wav" />
@@ -68,7 +70,7 @@
 			<sample rootNote="68" loNote="66" hiNote="68" end="395281" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_G#3_v1_1.wav" />
 			<sample rootNote="70" loNote="69" hiNote="71" end="427294" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_A#3_v1_1.wav" />
 		</group>
-		<group name="Mute all">
+		<group name="Mute all" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="74" loNote="72" hiNote="75" end="176954" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_D4_v1_1.wav" />
 			<sample rootNote="77" loNote="76" hiNote="77" end="188146" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_F4_v1_1.wav" />
 		</group>

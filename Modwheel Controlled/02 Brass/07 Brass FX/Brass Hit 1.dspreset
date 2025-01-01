@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups release="1" ampVelTrack="0.8">
-		<group name="Large Brass Short F">
+		<group name="Large Brass Short F" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="46" loNote="24" hiNote="46" loVel="0" hiVel="127" end="45279" path="Resources/Brass Shot Forte S Samples/LGBRSHTF46-R.wav" />
 			<sample rootNote="48" loNote="47" hiNote="48" loVel="0" hiVel="127" end="41311" path="Resources/Brass Shot Forte S Samples/LGBRSHTF48-R.wav" />
 			<sample rootNote="50" loNote="49" hiNote="50" loVel="0" hiVel="127" end="43680" path="Resources/Brass Shot Forte S Samples/LGBRSHTF50-R.wav" />
@@ -58,7 +60,7 @@
 			<sample rootNote="62" loNote="61" hiNote="62" loVel="0" hiVel="127" end="39583" path="Resources/Brass Shot Forte S Samples/LGBRSHTF62-R.wav" />
 			<sample rootNote="64" loNote="63" hiNote="77" loVel="0" hiVel="127" end="43551" path="Resources/Brass Shot Forte S Samples/LGBRSHTF64-R.wav" />
 		</group>
-		<group name="Large Brass Short F">
+		<group name="Large Brass Short F" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="46" loNote="24" hiNote="46" loVel="0" hiVel="127" end="45279" path="Resources/Brass Shot Forte S Samples/LGBRSHTF46-R.wav" />
 			<sample rootNote="48" loNote="47" hiNote="48" loVel="0" hiVel="127" end="41311" path="Resources/Brass Shot Forte S Samples/LGBRSHTF48-R.wav" />
 			<sample rootNote="50" loNote="49" hiNote="50" loVel="0" hiVel="127" end="43680" path="Resources/Brass Shot Forte S Samples/LGBRSHTF50-R.wav" />

@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups decay="0.036" release="0.039" sustain="0.987" ampVelTrack="0.8">
-		<group name="Brass">
+		<group name="Brass" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="71" loNote="0" hiNote="65" loVel="0" hiVel="127" end="28141" loopEnabled="true" loopEnd="28133" loopStart="8434" path="Resources/Designed String Pad 3 Samples/Brass C3.wav" tuning="0.50" volume="-14.9dB" />
 			<sample rootNote="71" loNote="66" hiNote="70" loVel="0" hiVel="127" end="28141" loopEnabled="true" loopEnd="28133" loopStart="8434" path="Resources/Designed String Pad 3 Samples/Brass C3.wav" tuning="0.50" volume="-14.9dB" />
 			<sample rootNote="84" loNote="71" hiNote="72" loVel="0" hiVel="127" end="20516" loopEnabled="true" loopEnd="20508" loopStart="6289" path="Resources/Designed String Pad 3 Samples/Brass C4.wav" tuning="-0.01" volume="-14.9dB" />
@@ -55,7 +57,7 @@
 			<sample rootNote="90" loNote="87" hiNote="93" loVel="0" hiVel="127" end="19835" loopEnabled="true" loopEnd="19827" loopStart="5078" path="Resources/Designed String Pad 3 Samples/Brass Gb4.wav" tuning="0.22" volume="-14.1dB" />
 			<sample rootNote="107" loNote="94" hiNote="108" loVel="0" hiVel="127" end="1369" loopEnabled="true" loopEnd="1361" loopStart="1350" path="Resources/Designed String Pad 3 Samples/Brass C6.wav" tuning="-0.21" volume="-14.1dB" />
 		</group>
-		<group name="Strings">
+		<group name="Strings" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="58" loNote="0" hiNote="49" loVel="0" hiVel="127" end="20909" loopEnabled="true" loopEnd="20901" loopStart="6965" path="Resources/Designed String Pad 3 Samples/Strings B1.wav" tuning="0.50" volume="-10.8dB" />
 			<sample rootNote="58" loNote="50" hiNote="55" loVel="0" hiVel="127" end="20909" loopEnabled="true" loopEnd="20901" loopStart="6965" path="Resources/Designed String Pad 3 Samples/Strings B1.wav" tuning="0.50" volume="-10.8dB" />
 			<sample rootNote="71" loNote="56" hiNote="63" loVel="0" hiVel="127" end="18148" loopEnabled="true" loopEnd="18140" loopStart="4889" path="Resources/Designed String Pad 3 Samples/Strings C2.wav" tuning="-0.25" volume="-10.8dB" />

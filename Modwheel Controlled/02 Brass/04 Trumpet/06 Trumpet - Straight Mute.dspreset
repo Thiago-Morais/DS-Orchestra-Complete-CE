@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="ff">
+		<group name="ff" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="0" hiVel="127" end="281800" loopEnabled="true" loopEnd="269178" loopStart="114601" path="Resources/Trumpet - Straight Mute Samples/F0_f.wav" volume="2.0494202125166807dB" />
 			<sample rootNote="55" loNote="55" hiNote="56" loVel="0" hiVel="127" end="292626" loopEnabled="true" loopEnd="269321" loopStart="183147" path="Resources/Trumpet - Straight Mute Samples/G0_f.wav" volume="2.0494202125166807dB" />
 			<sample rootNote="57" loNote="57" hiNote="57" loVel="0" hiVel="127" end="286518" loopEnabled="true" loopEnd="241439" loopStart="130991" path="Resources/Trumpet - Straight Mute Samples/A0_f.wav" volume="2.0494202125166807dB" />
@@ -66,7 +68,7 @@
 			<sample rootNote="81" loNote="81" hiNote="81" loVel="0" hiVel="127" end="357233" path="Resources/Trumpet - Straight Mute Samples/A2_f.wav" volume="2.0494202125166807dB" />
 			<sample rootNote="82" loNote="82" hiNote="89" loVel="0" hiVel="127" end="369470" path="Resources/Trumpet - Straight Mute Samples/Bb2_f.wav" volume="2.0494202125166807dB" />
 		</group>
-		<group name="p">
+		<group name="p" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="0" hiVel="127" end="376725" loopEnabled="true" loopEnd="357230" loopStart="168821" path="Resources/Trumpet - Straight Mute Samples/F0_mf.wav" volume="2.0494202125166807dB" />
 			<sample rootNote="55" loNote="55" hiNote="56" loVel="0" hiVel="127" end="373902" loopEnabled="true" loopEnd="354170" loopStart="121063" path="Resources/Trumpet - Straight Mute Samples/G0_mf.wav" volume="2.0494202125166807dB" />
 			<sample rootNote="57" loNote="57" hiNote="57" loVel="0" hiVel="127" end="375247" loopEnabled="true" loopEnd="356947" loopStart="140853" path="Resources/Trumpet - Straight Mute Samples/A0_mf.wav" tuning="-0.02" volume="2.0494202125166807dB" />

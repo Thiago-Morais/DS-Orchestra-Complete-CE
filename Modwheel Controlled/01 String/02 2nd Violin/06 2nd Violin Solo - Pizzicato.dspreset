@@ -32,6 +32,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -44,7 +46,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.003" release="0.024" ampVelTrack="0.8">
-		<group name="Group 1">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="57" loNote="58" hiNote="58" end="45357" path="Resources/2nd-violin-SOLO-pizzicato Samples/3_A-PB.wav" volume="3.0dB" />
 			<sample rootNote="58" loNote="55" hiNote="57" end="44394" path="Resources/2nd-violin-SOLO-pizzicato Samples/3_Bb-PB.wav" volume="6.0dB" />
 			<sample rootNote="59" loNote="60" hiNote="60" end="49395" path="Resources/2nd-violin-SOLO-pizzicato Samples/3_B-PB.wav" volume="3.0dB" />

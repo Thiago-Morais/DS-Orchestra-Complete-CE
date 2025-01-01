@@ -34,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -46,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups ampVelTrack="0.8">
-		<group name="THX SOUND" volume="-3dB">
+		<group name="THX SOUND" volume="-3dB" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="56" loNote="21" hiNote="56" end="29504" loopEnabled="true" loopEnd="29201" loopStart="12313" path="Resources/Tenor Trombone - Sustain 04 Samples/G#2 Hard Trmbnes.wav" />
 			<sample rootNote="56" loNote="21" hiNote="56" end="29504" loopEnabled="true" loopEnd="29201" loopStart="12313" path="Resources/Tenor Trombone - Sustain 04 Samples/G#2 Hard Trmbnes.wav" />
 			<sample rootNote="58" loNote="57" hiNote="59" end="40800" loopEnabled="true" loopEnd="39749" loopStart="12341" path="Resources/Tenor Trombone - Sustain 04 Samples/A#2 Hard Trmbnes.wav" />

@@ -32,6 +32,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -44,7 +46,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.050" release="0.080" ampVelTrack="0.8">
-		<group name="Group 10">
+		<group name="Group 10" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="67" loNote="67" hiNote="68" path="Resources/2nd Violin Section Samples/2nd-violins-stc-rr1-g3-PB.wav" volume="2.5dB" />
 			<sample rootNote="70" loNote="69" hiNote="71" path="Resources/2nd Violin Section Samples/2nd-violins-stc-rr1-a#3-PB.wav" volume="2.5dB" />
 			<sample rootNote="73" loNote="72" hiNote="74" path="Resources/2nd Violin Section Samples/2nd-violins-stc-rr1-c#4-PB.wav" volume="3.5dB" />

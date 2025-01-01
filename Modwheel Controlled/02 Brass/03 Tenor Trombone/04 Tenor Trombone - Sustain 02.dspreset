@@ -29,6 +29,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -41,7 +43,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="ff" volume="2.7" tags="3-dynamics-ff" pan="40">
+		<group name="ff" volume="2.7" tags="3-dynamics-ff" pan="40" seqMode="random">
 			<sample rootNote="41" loNote="40" hiNote="41" end="79094" loopEnabled="true" loopEnd="54013" loopStart="24217" path="Resources/Tenor Trombone - Sustain 02 Samples/HARD LONGS 002.wav" start="6360" />
 			<sample rootNote="42" loNote="42" hiNote="42" end="84915" loopEnabled="true" loopEnd="72121" loopStart="40183" path="Resources/Tenor Trombone - Sustain 02 Samples/HARD LONGS 003.wav" />
 			<sample rootNote="43" loNote="43" hiNote="43" end="88928" loopEnabled="true" loopEnd="68230" loopStart="43928" path="Resources/Tenor Trombone - Sustain 02 Samples/HARD LONGS 004.wav" />
@@ -70,7 +72,7 @@
 			<sample rootNote="66" loNote="66" hiNote="66" end="141804" loopEnabled="true" loopEnd="87376" loopStart="42553" path="Resources/Tenor Trombone - Sustain 02 Samples/HARD LONGS 027.wav" />
 			<sample rootNote="67" loNote="67" hiNote="70" end="144384" loopEnabled="true" loopEnd="112379" loopStart="78520" path="Resources/Tenor Trombone - Sustain 02 Samples/HARD LONGS 028.wav" start="741" />
 		</group>
-		<group name="mf" volume="2.7" tags="3-dynamics-mf" pan="40">
+		<group name="mf" volume="2.7" tags="3-dynamics-mf" pan="40" seqMode="random">
 			<sample rootNote="41" loNote="40" hiNote="41" end="155387" loopEnabled="true" loopEnd="83121" loopStart="40690" path="Resources/Tenor Trombone - Sustain 02 Samples/MID LONGS 002.wav" />
 			<sample rootNote="42" loNote="42" hiNote="42" end="228549" loopEnabled="true" loopEnd="106928" loopStart="64970" path="Resources/Tenor Trombone - Sustain 02 Samples/MID LONGS 003.wav" />
 			<sample rootNote="43" loNote="43" hiNote="43" end="253884" loopEnabled="true" loopEnd="158167" loopStart="92008" path="Resources/Tenor Trombone - Sustain 02 Samples/MID LONGS 004.wav" />
@@ -102,7 +104,7 @@
 			<sample rootNote="69" loNote="69" hiNote="69" end="130294" loopEnabled="true" loopEnd="86131" loopStart="44823" path="Resources/Tenor Trombone - Sustain 02 Samples/MID LONGS 030.wav" />
 			<sample rootNote="70" loNote="70" hiNote="70" end="85444" loopEnabled="true" loopEnd="61112" loopStart="30076" path="Resources/Tenor Trombone - Sustain 02 Samples/MID LONGS 031.wav" />
 		</group>
-		<group name="p" volume="2.7" tags="3-dynamics-mp">
+		<group name="p" volume="2.7" seqMode="random" tags="3-dynamics-mp">
 			<sample rootNote="41" loNote="40" hiNote="41" end="253642" loopEnabled="true" loopEnd="201870" loopStart="96793" path="Resources/Tenor Trombone - Sustain 02 Samples/SOFT LONGS 002.wav" />
 			<sample rootNote="42" loNote="42" hiNote="42" end="297984" loopEnabled="true" loopEnd="238339" loopStart="159184" path="Resources/Tenor Trombone - Sustain 02 Samples/SOFT LONGS 003.wav" />
 			<sample rootNote="43" loNote="43" hiNote="43" end="284534" loopEnabled="true" loopEnd="226730" loopStart="138064" path="Resources/Tenor Trombone - Sustain 02 Samples/SOFT LONGS 004.wav" />
