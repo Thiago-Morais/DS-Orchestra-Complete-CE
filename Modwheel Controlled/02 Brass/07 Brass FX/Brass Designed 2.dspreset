@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0.8">
+	<groups attack="0" release="0.028" ampVelTrack="0.5">
 		<group name="Instrument1">
 			<sample rootNote="60" loNote="0" hiNote="127" loVel="0" hiVel="127" end="29250" path="Resources/brasswagner Samples/wagner.wav" />
 			<sample rootNote="48" loNote="0" hiNote="127" loVel="0" hiVel="127" end="29250" path="Resources/brasswagner Samples/wagner.wav" />

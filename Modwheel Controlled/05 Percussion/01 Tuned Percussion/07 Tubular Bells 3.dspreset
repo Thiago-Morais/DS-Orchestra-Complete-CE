@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="1" ampVelTrack="0.8">
+	<groups attack="0" release="1" ampVelTrack="0.5">
 		<group name="Group 1">
 			<sample rootNote="60" loNote="60" hiNote="60" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C1.wav" start="2804" volume="12.0dB" />
 			<sample rootNote="61" loNote="61" hiNote="61" loVel="0" hiVel="127" path="Resources/Tubular Bells 3 - Legacy Samples/chimes_C#1.wav" start="2325" volume="8.364776dB" />

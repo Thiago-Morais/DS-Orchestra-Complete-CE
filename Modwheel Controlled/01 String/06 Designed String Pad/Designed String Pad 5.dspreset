@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.001" decay="0.057" release="0.022" sustain="0.965" ampVelTrack="0.8">
+	<groups attack="0.001" decay="0.057" release="0.022" sustain="0.965" ampVelTrack="0.5">
 		<group name="Hollywoodstrings">
 			<sample rootNote="26" loNote="0" hiNote="30" loVel="76" hiVel="127" end="92036" loopEnabled="true" loopEnd="90500" loopStart="39556" path="Resources/Designed String Pad 5 Samples/d0.wav" />
 			<sample rootNote="38" loNote="36" hiNote="42" loVel="76" hiVel="127" end="91648" loopEnabled="true" loopEnd="90368" loopStart="27392" path="Resources/Designed String Pad 5 Samples/d1.wav" />

@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups ampVelTrack="0.8">
+	<groups ampVelTrack="0.5">
 		<group name="THX SOUND" volume="-3dB">
 			<sample rootNote="56" loNote="21" hiNote="56" end="29504" loopEnabled="true" loopEnd="29201" loopStart="12313" path="Resources/Tenor Trombone - Sustain 04 Samples/G#2 Hard Trmbnes.wav" />
 			<sample rootNote="56" loNote="21" hiNote="56" end="29504" loopEnabled="true" loopEnd="29201" loopStart="12313" path="Resources/Tenor Trombone - Sustain 04 Samples/G#2 Hard Trmbnes.wav" />

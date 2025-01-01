@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups decay="0.410" release="0.016" sustain="0" ampVelTrack="0.8">
+	<groups decay="0.410" release="0.016" sustain="0" ampVelTrack="0.5">
 		<group name="Orch Batterie">
 			<sample rootNote="35" loNote="0" hiNote="35" loVel="0" hiVel="127" end="105865" loopEnabled="true" loopEnd="105860" loopStart="74432" path="Resources/Percussion 2 Samples/Concert BD 2 f.wav" />
 			<sample rootNote="35" loNote="0" hiNote="35" loVel="96" hiVel="127" end="35804" path="Resources/Percussion 2 Samples/Concert BD 9 ff.wav" />

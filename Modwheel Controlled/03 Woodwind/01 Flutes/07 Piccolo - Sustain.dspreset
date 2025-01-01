@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0.8">
+	<groups attack="0" release="0.028" ampVelTrack="0.5">
 		<group name="Sustain">
 			<sample rootNote="87" loNote="86" hiNote="88" loVel="0" hiVel="127" end="199797" path="Resources/TC - Piccolo Samples/piccolo-d#5.wav" volume="6.020599913279624dB" />
 			<sample rootNote="99" loNote="98" hiNote="100" loVel="0" hiVel="127" end="201422" path="Resources/TC - Piccolo Samples/piccolo-d#6.wav" volume="6.020599913279624dB" />

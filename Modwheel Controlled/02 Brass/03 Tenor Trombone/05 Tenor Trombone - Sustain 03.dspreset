@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0.8">
+	<groups attack="0" release="0.028" ampVelTrack="0.5">
 		<group name="Sus Vib" volume="6dB">
 			<sample rootNote="63" loNote="63" hiNote="67" loVel="0" hiVel="127" end="249725" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_D#3_v1_1.wav" start="2834" />
 			<sample rootNote="62" loNote="61" hiNote="62" end="240326" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_D3_v1_1.wav" start="3888" />

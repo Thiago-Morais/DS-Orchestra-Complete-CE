@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.060" release="0.084" ampVelTrack="0.8">
+	<groups attack="0.060" release="0.084" ampVelTrack="0.5">
 		<group name="gr_1">
 			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="53229" path="Resources/Viola Ensemble Samples/Violas_spic_A3_v2_rr1-PB.wav" volume="-8.5dB" />
 			<sample rootNote="59" loNote="57" hiNote="60" loVel="0" hiVel="127" end="95340" path="Resources/Viola Ensemble Samples/Violas_spic_B2_v2_rr1-PB.wav" volume="-8.5dB" />

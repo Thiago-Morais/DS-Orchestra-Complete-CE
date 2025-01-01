@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0.8">
+	<groups attack="0" release="0.028" ampVelTrack="0.5">
 		<group name="ff">
 			<sample rootNote="41" loNote="40" hiNote="41" loVel="0" hiVel="127" end="79094" loopEnabled="true" loopEnd="48055" loopStart="24217" path="Resources/Tenor Trombone - Harmon Mute Samples/HARD LONGS 002.wav" start="6360" tuning="0.09" volume="3.401847595163388dB" />
 			<sample rootNote="42" loNote="42" hiNote="42" loVel="0" hiVel="127" end="84915" loopEnabled="true" loopEnd="67148" loopStart="40020" path="Resources/Tenor Trombone - Harmon Mute Samples/HARD LONGS 003.wav" tuning="0.27" volume="3.401847595163388dB" />

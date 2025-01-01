@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.600" ampVelTrack="0.8">
+	<groups attack="0" release="0.600" ampVelTrack="0.5">
 		<group name="Group 1">
 			<sample rootNote="53" loNote="53" hiNote="55" loVel="0" hiVel="83" end="175386" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_F2_v2_rr1_Main.wav" start="111" volume="12.0dB" />
 			<sample rootNote="53" loNote="53" hiNote="55" loVel="84" hiVel="127" end="168748" path="Resources/Vibraphone - Hard Mallets Samples/Vibes_hard_F2_v3_rr1_Main.wav" start="100" volume="6.83434dB" />

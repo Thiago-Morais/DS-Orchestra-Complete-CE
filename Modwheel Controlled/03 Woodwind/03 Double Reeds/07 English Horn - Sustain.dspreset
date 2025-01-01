@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.030" release="0.018" ampVelTrack="0.8">
+	<groups attack="0.030" release="0.018" ampVelTrack="0.5">
 		<group name="Group 1">
 			<sample rootNote="65" loNote="64" hiNote="66" loVel="0" hiVel="127" end="198450" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-f3-PB-loop.wav" volume="7.0dB" />
 			<sample rootNote="68" loNote="67" hiNote="69" loVel="0" hiVel="127" end="223788" path="Resources/english-horn-SOLO-KS-C2 Samples/english_horn-g#3-PB-loop.wav" tuning="-0.05" volume="5.0dB" />

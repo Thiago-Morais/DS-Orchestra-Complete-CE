@@ -42,7 +42,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups ampVelTrack="0.8" seqMode="random">
+	<groups ampVelTrack="0.5" seqMode="random">
 		<group name="FF" tags="2-dynamics-ff">
 			<sample rootNote="41" loNote="0" hiNote="41" loopEnabled="true" loopStart="113015" loopEnd="168709" path="Resources/French Horn - Sustain 03 Samples/Brass Section F3.wav" volume="0.0dB" />
 			<sample rootNote="48" loNote="42" hiNote="48" loopEnabled="true" loopStart="68786" loopEnd="157555" path="Resources/French Horn - Sustain 03 Samples/Brass Section C4.wav" volume="0.0dB" />

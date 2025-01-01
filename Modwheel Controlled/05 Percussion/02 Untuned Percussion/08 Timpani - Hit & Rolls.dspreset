@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.040" ampVelTrack="0.8">
+	<groups attack="0" release="0.040" ampVelTrack="0.5">
 		<group name="Timp RR 1">
 			<sample rootNote="54" loNote="53" hiNote="55" loVel="66" hiVel="127" end="400643" path="Resources/Timpani Samples/Timpani1_Hit_v3_rr1_Sum.wav" volume="5.85730903073885dB" />
 			<sample rootNote="54" loNote="53" hiNote="55" loVel="0" hiVel="65" end="139968" path="Resources/Timpani Samples/Timpani1_Hit_v1_rr1_Sum.wav" volume="5.85730903073885dB" />
