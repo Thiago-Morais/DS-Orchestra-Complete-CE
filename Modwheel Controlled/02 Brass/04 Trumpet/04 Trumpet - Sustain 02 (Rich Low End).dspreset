@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0.5">
+	<groups attack="0" release="0.028" ampVelTrack="0.8">
 		<group name="trumpet Var.3">
 			<sample rootNote="58" loNote="0" hiNote="63" loVel="0" hiVel="127" end="27776" loopEnabled="true" loopEnd="27521" loopStart="27336" path="Resources/Trumpet - Sustain 02 Samples/as2s-1trp.wav" tuning="-0.41" />
 			<sample rootNote="62" loNote="64" hiNote="65" loVel="0" hiVel="127" end="21504" loopEnabled="true" loopEnd="21268" loopStart="21120" path="Resources/Trumpet - Sustain 02 Samples/d4-3trp.wav" tuning="-0.27" />

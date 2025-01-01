@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.030" release="0.072" ampVelTrack="0.5">
+	<groups attack="0.030" release="0.072" ampVelTrack="0.8">
 		<group name="group1-RR1">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="127" end="44839" path="Resources/Cello Solo Samples/c2-stac-rr1-PB.wav" volume="-12.0dB" />
 			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="127" end="49762" path="Resources/Cello Solo Samples/d2-stac-rr1-PB.wav" volume="-12.0dB" />

@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups release="0.289" ampVelTrack="0.5">
+	<groups release="0.289" ampVelTrack="0.8">
 		<group name="Roland MarcatoVls">
 			<sample rootNote="60" loNote="56" hiNote="63" loVel="0" hiVel="127" end="44861" path="Resources/Orchestra Hit 4 Samples/vls_d3_sod2_r3.wav" />
 			<sample rootNote="72" loNote="68" hiNote="76" loVel="0" hiVel="127" end="45862" path="Resources/Orchestra Hit 4 Samples/vls_d4_sod3_rd4.wav" />

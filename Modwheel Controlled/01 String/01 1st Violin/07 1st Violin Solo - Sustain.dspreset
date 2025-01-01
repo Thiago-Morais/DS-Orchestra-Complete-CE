@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.030" decay="0.024" release="0.064" ampVelTrack="0.5">
+	<groups attack="0.030" decay="0.024" release="0.064" ampVelTrack="0.8">
 		<group name="Group 1">
 			<sample rootNote="55" loNote="55" hiNote="55" loVel="0" hiVel="127" end="160774" path="Resources/1st-violin-SOLO-sustain Samples/3_G-PB-loop.wav" volume="-1.0dB" />
 			<sample rootNote="56" loNote="56" hiNote="56" loVel="0" hiVel="127" end="214409" path="Resources/1st-violin-SOLO-sustain Samples/3_Ab-PB-loop.wav" tuning="0.01" volume="0.5dB" />

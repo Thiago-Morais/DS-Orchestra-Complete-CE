@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.120" ampVelTrack="0.5">
+	<groups attack="0" release="0.120" ampVelTrack="0.8">
 		<group name="gr_1">
 			<sample rootNote="58" loNote="56" hiNote="59" loVel="0" hiVel="41" end="24863" path="Resources/ClarinetStac Samples/DCClar_stac_A#2_v1_rr1_sum.wav" volume="12.0dB" />
 			<sample rootNote="70" loNote="68" hiNote="71" loVel="0" hiVel="41" end="22349" path="Resources/ClarinetStac Samples/DCClar_stac_A#3_v1_rr1_sum.wav" volume="12.0dB" />

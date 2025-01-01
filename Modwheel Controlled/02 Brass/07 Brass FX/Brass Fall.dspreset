@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups decay="0.009" ampVelTrack="0.5">
+	<groups decay="0.009" ampVelTrack="0.8">
 		<group name="falls L">
 			<sample rootNote="65" loNote="28" hiNote="64" loVel="0" hiVel="127" end="26406" path="Resources/Falls Samples/f41tfa.wav" tuning="-0.16" />
 			<sample rootNote="66" loNote="65" hiNote="65" loVel="0" hiVel="127" end="22627" path="Resources/Falls Samples/fs41tf.wav" />
