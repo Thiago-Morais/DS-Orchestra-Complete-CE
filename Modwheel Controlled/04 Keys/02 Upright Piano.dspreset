@@ -46,15 +46,15 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.001" release="0.040" ampVelTrack="0.8" volume="6dB">
-		<group name="2-FF RR 1" seqPosition="1" tags="2-dynamics-ff">
+		<group name="2-FF RR 1" seqPosition="1" seqMode="random" tags="2-dynamics-ff">
 			<sample rootNote="24" loNote="24" hiNote="27" path="Resources/VSUpright1 Samples/UR1_C1_f_RR1.wav" />
 			<sample rootNote="31" loNote="28" hiNote="33" path="Resources/VSUpright1 Samples/UR1_G1_mf_RR1.wav" />
 		</group>
-		<group name="2-MP RR 1" seqPosition="1" tags="2-dynamics-mp" volume="78dB">
+		<group name="2-MP RR 1" seqPosition="1" tags="2-dynamics-mp" volume="78dB" seqMode="random">
 			<sample rootNote="24" loNote="24" hiNote="27" path="Resources/VSUpright1 Samples/UR1_C1_pp_RR1.wav" />
 			<sample rootNote="31" loNote="28" hiNote="33" path="Resources/VSUpright1 Samples/UR1_G1_pp_RR1.wav" />
 		</group>
-		<group name="3-FF RR 1" seqPosition="1" tags="3-dynamics-ff">
+		<group name="3-FF RR 1" seqPosition="1" seqMode="random" tags="3-dynamics-ff">
 			<sample rootNote="36" loNote="34" hiNote="39" path="Resources/VSUpright1 Samples/UR1_C2_f_RR1.wav" />
 			<sample rootNote="43" loNote="40" hiNote="45" path="Resources/VSUpright1 Samples/UR1_G2_f_RR1.wav" />
 			<sample rootNote="48" loNote="46" hiNote="51" path="Resources/VSUpright1 Samples/UR1_C3_f_RR1.wav" />
@@ -68,7 +68,7 @@
 			<sample rootNote="96" loNote="94" hiNote="99" path="Resources/VSUpright1 Samples/UR1_C7_f_RR1.wav" />
 			<sample rootNote="103" loNote="100" hiNote="103" path="Resources/VSUpright1 Samples/UR1_G7_f_RR1.wav" />
 		</group>
-		<group name="3-MF RR 1" seqPosition="1" tags="3-dynamics-mf" volume="6dB">
+		<group name="3-MF RR 1" seqPosition="1" tags="3-dynamics-mf" volume="6dB" seqMode="random">
 			<sample rootNote="36" loNote="34" hiNote="39" path="Resources/VSUpright1 Samples/UR1_C2_mf_RR1.wav" />
 			<sample rootNote="43" loNote="40" hiNote="45" path="Resources/VSUpright1 Samples/UR1_G2_mf_RR1.wav" />
 			<sample rootNote="48" loNote="46" hiNote="51" path="Resources/VSUpright1 Samples/UR1_C3_mf_RR1.wav" />
@@ -82,7 +82,7 @@
 			<sample rootNote="96" loNote="94" hiNote="99" path="Resources/VSUpright1 Samples/UR1_C7_mf_RR1.wav" />
 			<sample rootNote="103" loNote="100" hiNote="103" path="Resources/VSUpright1 Samples/UR1_G7_mf_RR1.wav" />
 		</group>
-		<group name="3-MP RR 1" seqPosition="1" tags="3-dynamics-mp" volume="78dB">
+		<group name="3-MP RR 1" seqPosition="1" tags="3-dynamics-mp" volume="78dB" seqMode="random">
 			<sample rootNote="36" loNote="34" hiNote="39" path="Resources/VSUpright1 Samples/UR1_C2_pp_RR1.wav" />
 			<sample rootNote="43" loNote="40" hiNote="45" path="Resources/VSUpright1 Samples/UR1_G2_pp_RR1.wav" />
 			<sample rootNote="48" loNote="46" hiNote="51" path="Resources/VSUpright1 Samples/UR1_C3_pp_RR1.wav" />
@@ -96,7 +96,7 @@
 			<sample rootNote="96" loNote="94" hiNote="99" path="Resources/VSUpright1 Samples/UR1_C7_pp_RR1.wav" />
 			<sample rootNote="103" loNote="100" hiNote="103" path="Resources/VSUpright1 Samples/UR1_G7_pp_RR1.wav" />
 		</group>
-		<group name="3-FF RR 2" seqPosition="2" tags="3-dynamics-ff">
+		<group name="3-FF RR 2" seqPosition="2" seqMode="random" tags="3-dynamics-ff">
 			<sample rootNote="24" loNote="24" hiNote="27" path="Resources/VSUpright1 Samples/UR1_C1_f_RR2.wav" />
 			<sample rootNote="31" loNote="28" hiNote="33" path="Resources/VSUpright1 Samples/UR1_G1_f_RR2.wav" />
 			<sample rootNote="36" loNote="34" hiNote="39" path="Resources/VSUpright1 Samples/UR1_C2_f_RR2.wav" />
@@ -112,7 +112,7 @@
 			<sample rootNote="96" loNote="94" hiNote="99" path="Resources/VSUpright1 Samples/UR1_C7_f_RR2.wav" />
 			<sample rootNote="103" loNote="100" hiNote="103" path="Resources/VSUpright1 Samples/UR1_G7_f_RR2.wav" />
 		</group>
-		<group name="3-MF RR 2" seqPosition="2" tags="3-dynamics-mf" volume="6dB">
+		<group name="3-MF RR 2" seqPosition="2" tags="3-dynamics-mf" volume="6dB" seqMode="random">
 			<sample rootNote="24" loNote="24" hiNote="27" path="Resources/VSUpright1 Samples/UR1_C1_mf_RR2.wav" />
 			<sample rootNote="31" loNote="28" hiNote="33" path="Resources/VSUpright1 Samples/UR1_G1_mf_RR2.wav" />
 			<sample rootNote="36" loNote="34" hiNote="39" path="Resources/VSUpright1 Samples/UR1_C2_mf_RR2.wav" />
@@ -128,7 +128,7 @@
 			<sample rootNote="96" loNote="94" hiNote="99" path="Resources/VSUpright1 Samples/UR1_C7_mf_RR2.wav" />
 			<sample rootNote="103" loNote="100" hiNote="103" path="Resources/VSUpright1 Samples/UR1_G7_mf_RR2.wav" />
 		</group>
-		<group name="3-MP RR 2" seqPosition="2" tags="3-dynamics-mp" volume="78dB">
+		<group name="3-MP RR 2" seqPosition="2" tags="3-dynamics-mp" volume="78dB" seqMode="random">
 			<sample rootNote="24" loNote="24" hiNote="27" path="Resources/VSUpright1 Samples/UR1_C1_pp_RR2.wav" />
 			<sample rootNote="31" loNote="28" hiNote="33" path="Resources/VSUpright1 Samples/UR1_G1_pp_RR1.wav" />
 			<sample rootNote="36" loNote="34" hiNote="39" path="Resources/VSUpright1 Samples/UR1_C2_pp_RR1.wav" />

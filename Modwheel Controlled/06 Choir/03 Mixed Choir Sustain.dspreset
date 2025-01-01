@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.063" decay="0.880" release="0.050" sustain="0.700" ampVelTrack="0.8">
-		<group name="Group 1" tags="1-dynamics-ff">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="55" loNote="55" hiNote="55" loVel="0" hiVel="127" end="381659" path="Resources/Choir Samples/chorus-male-g2-PB-loop.wav" volume="1.0dB" />
 			<sample rootNote="56" loNote="56" hiNote="56" loVel="0" hiVel="127" end="387166" path="Resources/Choir Samples/chorus-male-g#2-PB-loop.wav" volume="7.0dB" />
 			<sample rootNote="57" loNote="57" hiNote="57" loVel="0" hiVel="127" end="388076" path="Resources/Choir Samples/chorus-male-a2-PB-loop.wav" volume="4.0dB" />
@@ -69,7 +69,7 @@
 			<sample rootNote="76" loNote="76" hiNote="76" loVel="0" hiVel="127" end="391599" path="Resources/Choir Samples/chorus-male-e4-PB-loop.wav" volume="2.5dB" />
 			<sample rootNote="77" loNote="77" hiNote="78" loVel="0" hiVel="127" end="390156" path="Resources/Choir Samples/chorus-male-f4-PB-loop.wav" volume="3.0dB" />
 		</group>
-		<group name="Group 2" tags="1-dynamics-ff">
+		<group name="Group 2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="79" loNote="79" hiNote="79" loVel="0" hiVel="127" end="388869" path="Resources/Choir Samples/chorus-female-g4-PB-loop.wav" volume="3.0dB" />
 			<sample rootNote="80" loNote="80" hiNote="80" loVel="0" hiVel="127" end="387335" path="Resources/Choir Samples/chorus-female-g#4-PB-loop.wav" volume="3.0dB" />
 			<sample rootNote="81" loNote="81" hiNote="81" loVel="0" hiVel="127" end="389025" path="Resources/Choir Samples/chorus-female-a4-PB-loop.wav" volume="3.0dB" />

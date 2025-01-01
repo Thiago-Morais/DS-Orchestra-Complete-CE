@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups release="0.080" ampVelTrack="0.8">
-		<group name="ETHNIC by ThomashLe" tags="1-dynamics-ff">
+		<group name="ETHNIC by ThomashLe" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="60" loNote="25" hiNote="25" loVel="0" hiVel="127" end="3361" path="Resources/ETHNIC Samples/Finger Snaps 1b.wav" pitchKeyTrack="00" />
 			<sample rootNote="60" loNote="81" hiNote="81" loVel="0" hiVel="127" end="37241" path="Resources/ETHNIC Samples/Open Surdo.wav" pitchKeyTrack="00" />
 			<sample rootNote="60" loNote="37" hiNote="37" loVel="0" hiVel="127" end="11245" path="Resources/ETHNIC Samples/Wadaiko Rim.wav" pitchKeyTrack="00" volume="-3.0dB" />

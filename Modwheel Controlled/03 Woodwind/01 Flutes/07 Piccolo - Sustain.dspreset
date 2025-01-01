@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="Sustain" tags="1-dynamics-ff">
+		<group name="Sustain" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="87" loNote="86" hiNote="88" loVel="0" hiVel="127" end="199797" path="Resources/TC - Piccolo Samples/piccolo-d#5.wav" volume="6.020599913279624dB" />
 			<sample rootNote="99" loNote="98" hiNote="100" loVel="0" hiVel="127" end="201422" path="Resources/TC - Piccolo Samples/piccolo-d#6.wav" volume="6.020599913279624dB" />
 			<sample rootNote="78" loNote="77" hiNote="79" loVel="0" hiVel="127" end="200382" path="Resources/TC - Piccolo Samples/piccolo-f#4.wav" volume="6.020599913279624dB" />

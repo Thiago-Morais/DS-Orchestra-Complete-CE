@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" release="0.090" ampVelTrack="0.8">
-		<group name="Group 1" tags="1-dynamics-ff">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="36" loNote="36" hiNote="39" loVel="0" hiVel="127" end="226318" path="Resources/Bass Ensemble Samples/basses-sus-c1-PB-loop.wav" tuning="0.06" volume="-0.5dB" />
 			<sample rootNote="42" loNote="40" hiNote="43" loVel="0" hiVel="127" end="191097" path="Resources/Bass Ensemble Samples/basses-sus-f#1-PB-loop.wav" volume="-1.0dB" />
 			<sample rootNote="45" loNote="44" hiNote="46" loVel="0" hiVel="127" end="205400" path="Resources/Bass Ensemble Samples/basses-sus-a1-PB-loop.wav" volume="0.5dB" />
@@ -62,7 +62,7 @@
 			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="207595" path="Resources/Bass Ensemble Samples/basses-sus-a3-PB-loop.wav" tuning="0.04" />
 			<sample rootNote="72" loNote="71" hiNote="79" loVel="0" hiVel="127" end="200733" path="Resources/Bass Ensemble Samples/basses-sus-c4-PB-loop.wav" volume="0.5dB" />
 		</group>
-		<group name="Group 3" tags="1-dynamics-ff">
+		<group name="Group 3" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="36" loNote="36" hiNote="39" loVel="0" hiVel="127" end="226318" path="Resources/Bass Ensemble Samples/basses-sus-c1-PB-loop.wav" tuning="0.06" volume="-0.5dB" />
 			<sample rootNote="42" loNote="40" hiNote="43" loVel="0" hiVel="127" end="191097" path="Resources/Bass Ensemble Samples/basses-sus-f#1-PB-loop.wav" volume="-1.0dB" />
 			<sample rootNote="45" loNote="44" hiNote="46" loVel="0" hiVel="127" end="205400" path="Resources/Bass Ensemble Samples/basses-sus-a1-PB-loop.wav" volume="0.5dB" />
@@ -76,7 +76,7 @@
 			<sample rootNote="69" loNote="68" hiNote="70" loVel="0" hiVel="127" end="207595" path="Resources/Bass Ensemble Samples/basses-sus-a3-PB-loop.wav" tuning="0.04" />
 			<sample rootNote="72" loNote="71" hiNote="79" loVel="0" hiVel="127" end="200733" path="Resources/Bass Ensemble Samples/basses-sus-c4-PB-loop.wav" volume="0.5dB" />
 		</group>
-		<group name="Group 8" tags="1-dynamics-ff">
+		<group name="Group 8" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="36" loNote="36" hiNote="39" loVel="0" hiVel="127" end="226318" path="Resources/Bass Ensemble Samples/basses-sus-c1-PB-loop.wav" tuning="0.06" volume="-0.5dB" />
 			<sample rootNote="42" loNote="40" hiNote="43" loVel="0" hiVel="127" end="191097" path="Resources/Bass Ensemble Samples/basses-sus-f#1-PB-loop.wav" volume="-1.0dB" />
 			<sample rootNote="45" loNote="44" hiNote="46" loVel="0" hiVel="127" end="205400" path="Resources/Bass Ensemble Samples/basses-sus-a1-PB-loop.wav" volume="0.5dB" />

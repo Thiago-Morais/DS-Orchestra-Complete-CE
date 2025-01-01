@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="Group 1" tags="1-dynamics-ff">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="50" end="75008" path="Resources/TC - Shakers Samples/Large Soft.wav" volume="6.020599913279624dB" />
 			<sample rootNote="48" loNote="48" hiNote="48" loVel="70" hiVel="127" end="59904" path="Resources/TC - Shakers Samples/Large Loud.wav" volume="6.020599913279624dB" />
 			<sample rootNote="48" loNote="48" hiNote="48" loVel="30" hiVel="90" end="59392" path="Resources/TC - Shakers Samples/Large Medium.wav" volume="6.020599913279624dB" />

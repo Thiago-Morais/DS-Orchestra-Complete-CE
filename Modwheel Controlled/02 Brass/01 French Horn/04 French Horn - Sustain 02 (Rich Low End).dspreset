@@ -45,7 +45,7 @@
 		<keyboard />
 	</ui>
 	<groups ampVelTrack="0.8" seqMode="random">
-		<group name="FF" tags="2-dynamics-ff">
+		<group name="FF" seqMode="random" tags="2-dynamics-ff">
 			<sample rootNote="41" loNote="0" hiNote="41" loopEnabled="true" loopStart="113015" loopEnd="168709" path="Resources/French Horn - Sustain 03 Samples/Brass Section F3.wav" volume="0.0dB" />
 			<sample rootNote="48" loNote="42" hiNote="48" loopEnabled="true" loopStart="68786" loopEnd="157555" path="Resources/French Horn - Sustain 03 Samples/Brass Section C4.wav" volume="0.0dB" />
 			<sample rootNote="54" loNote="49" hiNote="54" loopEnabled="true" loopStart="62794" loopEnd="160888" path="Resources/French Horn - Sustain 03 Samples/Brass Section F#4.wav" volume="0.0dB" />
@@ -58,7 +58,7 @@
 			<sample rootNote="84" loNote="78" hiNote="96" loopEnabled="true" loopStart="38643" loopEnd="117759" path="Resources/French Horn - Sustain 03 Samples/Brass Section C7.wav" volume="-2.0dB" />
 		</group>
 		<!--
-		<group name="MF" tags="2-dynamics-ff">
+		<group name="MF" seqMode="random" tags="2-dynamics-ff">
 		<sample rootNote="60" loNote="24" hiNote="64" loopEnabled="true" loopStart="26024" loopEnd="100424"  path="Resources/French Horn - Sustain 03 Samples/Trsectc4.wav" />
 		<sample rootNote="67" loNote="65" hiNote="70" loopEnabled="true" loopStart="20098" loopEnd="75980"  path="Resources/French Horn - Sustain 03 Samples/Trsectg4.wav" />
 		<sample rootNote="72" loNote="71" hiNote="73" loopEnabled="true" loopStart="12470" loopEnd="75565"  path="Resources/French Horn - Sustain 03 Samples/Trsectc5.wav" />
@@ -67,7 +67,7 @@
 		<sample rootNote="84" loNote="83" hiNote="108" loopEnabled="true" loopStart="22580" loopEnd="62046"  path="Resources/French Horn - Sustain 03 Samples/Trsectc6.wav" />
 		</group>
 		-->
-		<group name="MP" tags="2-dynamics-mp">
+		<group name="MP" seqMode="random" tags="2-dynamics-mp">
 			<sample rootNote="39" loNote="0" hiNote="39" loopEnabled="true" loopStart="62667" loopEnd="128231" path="Resources/French Horn - Sustain 02 Samples/French Horns D#3.wav" />
 			<sample rootNote="45" loNote="40" hiNote="45" loopEnabled="true" loopStart="53547" loopEnd="132097" path="Resources/French Horn - Sustain 02 Samples/French Horns A3.wav" />
 			<sample rootNote="51" loNote="46" hiNote="51" loopEnabled="true" loopStart="57345" loopEnd="186330" path="Resources/French Horn - Sustain 02 Samples/French Horns D#4.wav" />

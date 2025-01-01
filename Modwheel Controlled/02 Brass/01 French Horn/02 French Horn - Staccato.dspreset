@@ -45,7 +45,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.120" seqMode="random" ampVelTrack="0.8" volume="6dB">
-		<group name="Stac RR 1 - FF" seqPosition="1" tags="3-dynamics-ff">
+		<group name="Stac RR 1 - FF" seqPosition="1" seqMode="random" tags="3-dynamics-ff">
 			<sample rootNote="36" loNote="33" hiNote="37" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_1.wav" />
 			<sample rootNote="39" loNote="38" hiNote="40" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v2_1.wav" />
 			<sample rootNote="46" loNote="41" hiNote="47" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v3_1.wav" />
@@ -56,7 +56,7 @@
 			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v3_1.wav" />
 			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" />
 		</group>
-		<group name="Stac RR 1 - MF" seqPosition="1" tags="3-dynamics-mf">
+		<group name="Stac RR 1 - MF" seqPosition="1" seqMode="random" tags="3-dynamics-mf">
 			<sample rootNote="43" loNote="33" hiNote="45" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v2_1.wav" />
 			<sample rootNote="50" loNote="46" hiNote="51" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v2_1.wav" />
 			<sample rootNote="53" loNote="52" hiNote="54" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v2_1.wav" />
@@ -65,7 +65,7 @@
 			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v2_1.wav" />
 			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_1.wav" />
 		</group>
-		<group name="Stac RR 1 - MP" seqPosition="1" tags="3-dynamics-mp">
+		<group name="Stac RR 1 - MP" seqPosition="1" seqMode="random" tags="3-dynamics-mp">
 			<sample rootNote="33" loNote="33" hiNote="34" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_1.wav" />
 			<sample rootNote="36" loNote="35" hiNote="37" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_1.wav" />
 			<sample rootNote="39" loNote="38" hiNote="40" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v1_1.wav" />
@@ -77,7 +77,7 @@
 			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v1_1.wav" />
 			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v1_1.wav" />
 		</group>
-		<group name="Stac RR 2 - FF" seqPosition="2" tags="3-dynamics-ff">
+		<group name="Stac RR 2 - FF" seqPosition="2" seqMode="random" tags="3-dynamics-ff">
 			<sample rootNote="36" loNote="33" hiNote="37" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_2.wav" />
 			<sample rootNote="39" loNote="38" hiNote="40" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v2_2.wav" />
 			<sample rootNote="46" loNote="41" hiNote="47" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v3_2.wav" />
@@ -88,7 +88,7 @@
 			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v3_2.wav" />
 			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" />
 		</group>
-		<group name="Stac RR 2 - MF" seqPosition="2" tags="3-dynamics-mf">
+		<group name="Stac RR 2 - MF" seqPosition="2" seqMode="random" tags="3-dynamics-mf">
 			<sample rootNote="43" loNote="33" hiNote="45" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v2_2.wav" />
 			<sample rootNote="50" loNote="46" hiNote="51" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v2_2.wav" start="1873" />
 			<sample rootNote="53" loNote="52" hiNote="54" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v2_2.wav" />
@@ -97,7 +97,7 @@
 			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v2_2.wav" />
 			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_2.wav" />
 		</group>
-		<group name="Stac RR 2 - MP" seqPosition="2" tags="3-dynamics-mp">
+		<group name="Stac RR 2 - MP" seqPosition="2" seqMode="random" tags="3-dynamics-mp">
 			<sample rootNote="33" loNote="33" hiNote="34" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_2.wav" />
 			<sample rootNote="36" loNote="35" hiNote="37" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_2.wav" start="1668" />
 			<sample rootNote="39" loNote="38" hiNote="40" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v1_2.wav" />

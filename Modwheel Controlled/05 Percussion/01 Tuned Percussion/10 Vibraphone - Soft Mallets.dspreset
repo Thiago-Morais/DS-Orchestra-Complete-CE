@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.600" ampVelTrack="0.8">
-		<group name="Group 1" tags="1-dynamics-ff">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="53" loNote="53" hiNote="55" loVel="0" hiVel="83" end="243412" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_F2_v1_rr1_Main.wav" start="90" volume="12.0dB" />
 			<sample rootNote="53" loNote="53" hiNote="55" loVel="84" hiVel="127" end="392475" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_F2_v2_rr1_Main.wav" start="113" volume="3.401338dB" />
 			<sample rootNote="57" loNote="56" hiNote="58" loVel="0" hiVel="83" end="452908" path="Resources/Vibraphone - Soft Mallets Samples/Vibes_soft_A2_v1_rr1_Main.wav" volume="12.0dB" />

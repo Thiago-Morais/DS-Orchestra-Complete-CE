@@ -44,7 +44,7 @@
 		<keyboard />
 	</ui>
 	<groups release="0.026" ampVelTrack="0.8">
-		<group name="000.061" tags="1-dynamics-ff">
+		<group name="000.061" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="28" loNote="0" hiNote="48" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.000.wav" />
 			<sample rootNote="52" loNote="49" hiNote="52" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.004.wav" />
 			<sample rootNote="55" loNote="53" hiNote="56" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.005.wav" />

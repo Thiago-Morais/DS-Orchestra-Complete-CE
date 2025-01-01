@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.120" ampVelTrack="0.8">
-		<group name="gr_1" tags="1-dynamics-ff">
+		<group name="gr_1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="34" loNote="33" hiNote="34" loVel="0" hiVel="62" end="48640" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A#0_v1_rr1.wav" volume="12.0dB" />
 			<sample rootNote="45" loNote="45" hiNote="46" loVel="0" hiVel="127" end="105297" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A1_v1_rr1.wav" volume="12.0dB" />
 			<sample rootNote="59" loNote="58" hiNote="60" loVel="0" hiVel="127" end="69715" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_B2_v1_rr1.wav" volume="12.0dB" />
@@ -71,7 +71,7 @@
 			<sample rootNote="30" loNote="29" hiNote="30" loVel="63" hiVel="127" end="89651" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_F#0_v3_rr1.wav" volume="5.0dB" />
 			<sample rootNote="31" loNote="31" hiNote="32" loVel="63" hiVel="127" end="70486" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_G0_v3_rr1.wav" volume="5.0dB" />
 		</group>
-		<group name="gr_2" tags="1-dynamics-ff">
+		<group name="gr_2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="34" loNote="33" hiNote="34" loVel="0" hiVel="62" end="57806" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A#0_v1_rr2.wav" volume="12.0dB" />
 			<sample rootNote="45" loNote="45" hiNote="46" loVel="0" hiVel="127" end="100354" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_A1_v1_rr2.wav" volume="12.0dB" />
 			<sample rootNote="59" loNote="58" hiNote="60" loVel="0" hiVel="127" end="65887" path="Resources/ContrabassSpic Samples/BKCtbss_Spic_B2_v1_rr2.wav" volume="12.0dB" />

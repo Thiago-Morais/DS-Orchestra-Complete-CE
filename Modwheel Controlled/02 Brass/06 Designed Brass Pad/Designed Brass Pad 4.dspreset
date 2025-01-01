@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups decay="0.124" release="0.033" ampVelTrack="0.8">
-		<group name="Longer Brass" tags="1-dynamics-ff">
+		<group name="Longer Brass" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="71" loNote="12" hiNote="85" loVel="0" hiVel="127" end="40249" loopEnabled="true" loopEnd="40250" loopStart="16058" path="Resources/Designed Brass Pad 4 Samples/Big Brass#.wav" tuning="-0.39" />
 			<sample rootNote="92" loNote="86" hiNote="106" loVel="0" hiVel="127" end="16029" loopEnabled="true" loopEnd="16030" loopStart="1288" path="Resources/Designed Brass Pad 4 Samples/Big Brass Hi#.wav" tuning="-0.39" />
 		</group>

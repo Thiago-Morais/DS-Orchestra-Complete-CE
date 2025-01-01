@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="1" ampVelTrack="0.8">
-		<group name="Group 1" tags="1-dynamics-ff">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="28" loNote="28" hiNote="29" loVel="0" hiVel="127" end="932252" path="Resources/Concert Harp Samples/KSHarp_E1_f1.wav" start="453" tuning="0.22" volume="11.205517dB" />
 			<sample rootNote="31" loNote="30" hiNote="33" loVel="0" hiVel="100" end="297461" path="Resources/Concert Harp Samples/KSHarp_G1_mp1.wav" tuning="0.22" volume="12.0dB" />
 			<sample rootNote="31" loNote="30" hiNote="33" loVel="70" hiVel="127" end="696595" path="Resources/Concert Harp Samples/KSHarp_G1_f1.wav" start="148" tuning="0.20" volume="12.0dB" />

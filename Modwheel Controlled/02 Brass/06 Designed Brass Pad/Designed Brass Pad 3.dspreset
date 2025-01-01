@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="CrunkStackHorn(L)" tags="1-dynamics-ff">
+		<group name="CrunkStackHorn(L)" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="60" loNote="0" hiNote="127" loVel="0" hiVel="127" end="134294" path="Resources/Designed Brass Pad 3 Samples/CrunkStackHorn.wav" />
 		</group>
 	</groups>

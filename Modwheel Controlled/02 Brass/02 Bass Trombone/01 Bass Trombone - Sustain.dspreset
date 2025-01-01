@@ -43,7 +43,7 @@
 		<keyboard />
 	</ui>
 	<groups ampVelTrack="0.8">
-		<group name="ff" tags="3-dynamics-ff" volume="4dB">
+		<group name="ff" tags="3-dynamics-ff" volume="4dB" seqMode="random">
 			<sample rootNote="25" loNote="24" hiNote="25" end="154350" path="Resources/Bass Trombone - Sustain Samples/BTRBN_FF_.wav" />
 			<sample rootNote="26" loNote="26" hiNote="26" end="198450" path="Resources/Bass Trombone - Sustain Samples/BTRBN_FF__1.wav" start="52206" tuning="-0.12" />
 			<sample rootNote="27" loNote="27" hiNote="27" end="198450" path="Resources/Bass Trombone - Sustain Samples/BTRBN_FF__2.wav" start="51867" tuning="-0.06" />
@@ -86,7 +86,7 @@
 			<sample rootNote="64" loNote="64" hiNote="64" end="110250" loopEnabled="true" loopEnd="88326" loopStart="64449" path="Resources/Bass Trombone - Sustain Samples/BTRBN_FF__39.wav" start="11340" tuning="0.05" />
 			<sample rootNote="65" loNote="65" hiNote="69" end="124858" loopEnabled="true" loopEnd="107063" loopStart="66768" path="Resources/Bass Trombone - Sustain Samples/BTRBN_FF__40.wav" start="19260" tuning="-0.15" />
 		</group>
-		<group name="mf" tags="3-dynamics-mf" volume="4dB">
+		<group name="mf" tags="3-dynamics-mf" volume="4dB" seqMode="random">
 			<sample rootNote="29" loNote="24" hiNote="30" end="110583" loopEnabled="true" loopEnd="90209" loopStart="42946" path="Resources/Bass Trombone - Sustain Samples/BASS_TROMBONE_MED_F1.wav" tuning="-0.08" />
 			<sample rootNote="31" loNote="31" hiNote="31" end="119050" loopEnabled="true" loopEnd="99218" loopStart="86708" path="Resources/Bass Trombone - Sustain Samples/BASS_TROMBONE_MED_G1.wav" tuning="-0.15" />
 			<sample rootNote="32" loNote="32" hiNote="32" end="113076" loopEnabled="true" loopEnd="99286" loopStart="73854" path="Resources/Bass Trombone - Sustain Samples/BASS_TROMBONE_MED_G#1.wav" />
@@ -126,7 +126,7 @@
 			<sample rootNote="66" loNote="66" hiNote="66" end="119645" loopEnabled="true" loopEnd="84056" loopStart="25338" path="Resources/Bass Trombone - Sustain Samples/BASS_TROMBONE_MED_F#4.wav" tuning="0.04" />
 			<sample rootNote="67" loNote="67" hiNote="69" end="105019" loopEnabled="true" loopEnd="83520" loopStart="61020" path="Resources/Bass Trombone - Sustain Samples/BASS_TROMBONE_MED_G4.wav" />
 		</group>
-		<group name="p" tags="3-dynamics-mp" volume="4dB">
+		<group name="p" tags="3-dynamics-mp" volume="4dB" seqMode="random">
 			<sample rootNote="24" loNote="24" hiNote="24" end="103245" path="Resources/Bass Trombone - Sustain Samples/BASS_TROMBONE_SOFT_C1.wav" />
 			<sample rootNote="25" loNote="25" hiNote="25" end="106470" path="Resources/Bass Trombone - Sustain Samples/BASS_TROMBONE_SOFT_C#1.wav" />
 			<sample rootNote="26" loNote="26" hiNote="26" end="104676" path="Resources/Bass Trombone - Sustain Samples/BASS_TROMBONE_SOFT_D1.wav" />

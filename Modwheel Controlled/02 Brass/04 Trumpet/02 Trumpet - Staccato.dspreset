@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.080" ampVelTrack="0.8">
-		<group name="gr_1" tags="1-dynamics-ff">
+		<group name="gr_1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="41" end="50323" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v1_rr1.wav" volume="12.0dB" />
 			<sample rootNote="57" loNote="55" hiNote="58" loVel="0" hiVel="41" end="33198" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v1_rr1.wav" volume="12.0dB" />
 			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="41" end="65356" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v1_rr1.wav" volume="12.0dB" />
@@ -83,7 +83,7 @@
 			<sample rootNote="77" loNote="76" hiNote="78" loVel="84" hiVel="127" end="67710" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_F4_v3_rr1.wav" volume="5.0dB" />
 			<sample rootNote="67" loNote="66" hiNote="68" loVel="84" hiVel="127" end="56699" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_G3_v3_rr1.wav" volume="5.0dB" />
 		</group>
-		<group name="gr_2" tags="1-dynamics-ff">
+		<group name="gr_2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="41" end="49935" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A#3_v1_rr2.wav" volume="12.0dB" />
 			<sample rootNote="57" loNote="55" hiNote="58" loVel="0" hiVel="41" end="36821" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A2_v1_rr2.wav" volume="12.0dB" />
 			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="41" end="53910" path="Resources/Trumpet - Staccato Samples/Sum_SHTrumpet_stac_A4_v1_rr2.wav" volume="12.0dB" />

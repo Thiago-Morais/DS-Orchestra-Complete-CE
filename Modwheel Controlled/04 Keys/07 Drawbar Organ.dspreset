@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups release="0.012" ampVelTrack="0.8">
-		<group name="DrawbarOrgan" tags="1-dynamics-ff">
+		<group name="DrawbarOrgan" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="0" hiNote="127" loVel="0" hiVel="127" end="49219" loopEnabled="true" loopEnd="49216" loopStart="11297" path="Resources/DrawbarOrgan Samples/Drawbar Organ(L).wav" />
 			<sample rootNote="48" loNote="0" hiNote="127" loVel="0" hiVel="127" end="49219" loopEnabled="true" loopEnd="49216" loopStart="11297" path="Resources/DrawbarOrgan Samples/Drawbar Organ(R).wav" />
 		</group>

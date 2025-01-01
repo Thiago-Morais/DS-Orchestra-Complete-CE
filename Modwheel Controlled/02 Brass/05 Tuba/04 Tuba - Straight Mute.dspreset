@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="ff" tags="1-dynamics-ff">
+		<group name="ff" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="46" loNote="46" hiNote="46" loVel="0" hiVel="127" end="59117" loopEnabled="true" loopEnd="22273" loopStart="8941" path="Resources/Tuba - Straight Mute Samples/TUBA_LOUD_A#2.wav" tuning="-0.30" volume="2.372128800435349dB" />
 			<sample rootNote="58" loNote="58" hiNote="58" loVel="0" hiVel="127" end="65776" loopEnabled="true" loopEnd="16338" loopStart="12430" path="Resources/Tuba - Straight Mute Samples/TUBA_LOUD_A#3.wav" tuning="-0.32" volume="2.372128800435349dB" />
 			<sample rootNote="33" loNote="33" hiNote="33" loVel="0" hiVel="127" end="64144" loopEnabled="true" loopEnd="43028" loopStart="35884" path="Resources/Tuba - Straight Mute Samples/TUBA_LOUD_A1.wav" tuning="-0.13" volume="2.372128800435349dB" />

@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.003" release="0.048" ampVelTrack="0.8">
-		<group name="Group 1" tags="1-dynamics-ff">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="50" loVel="0" hiVel="127" end="261747" path="Resources/Cello Solo Samples/2_C-PB.wav" tuning="0.30" volume="1.0dB" />
 			<sample rootNote="52" loNote="51" hiNote="52" loVel="0" hiVel="127" end="163307" path="Resources/Cello Solo Samples/2_E-PB.wav" volume="1.0dB" />
 			<sample rootNote="53" loNote="53" hiNote="53" loVel="0" hiVel="127" end="140305" path="Resources/Cello Solo Samples/2_F-PB.wav" tuning="0.60" volume="1.0dB" />

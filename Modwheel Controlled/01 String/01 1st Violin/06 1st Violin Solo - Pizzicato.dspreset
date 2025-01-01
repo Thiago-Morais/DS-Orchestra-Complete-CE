@@ -46,7 +46,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.003" release="0.024" ampVelTrack="0.8">
-		<group name="Group 1" tags="1-dynamics-ff">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="57" loNote="55" hiNote="57" path="Resources/1st-violin-SOLO-pizzicato Samples/3_A-PB.wav" volume="3.0dB" />
 			<sample rootNote="58" loNote="58" hiNote="58" path="Resources/1st-violin-SOLO-pizzicato Samples/3_Bb-PB.wav" volume="6.0dB" />
 			<sample rootNote="59" loNote="59" hiNote="59" path="Resources/1st-violin-SOLO-pizzicato Samples/3_B-PB.wav" volume="3.0dB" />

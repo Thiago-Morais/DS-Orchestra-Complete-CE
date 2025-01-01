@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.060" release="0.084" ampVelTrack="0.8">
-		<group name="gr_1" ampVelTrack="0.8" volume="-8dB" tags="1-dynamics-ff">
+		<group name="gr_1" ampVelTrack="0.8" volume="-8dB" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="62" end="137652" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR1.wav" volume="12.0dB" />
 			<sample rootNote="52" loNote="50" hiNote="53" loVel="0" hiVel="62" end="50370" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR1.wav" volume="12.0dB" />
 			<sample rootNote="55" loNote="54" hiNote="59" loVel="0" hiVel="62" end="94565" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR1.wav" volume="12.0dB" />
@@ -70,7 +70,7 @@
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="63" hiVel="127" end="96271" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR1-PB.wav" volume="1.0dB" />
 			<sample rootNote="86" loNote="85" hiNote="93" loVel="63" hiVel="127" end="72972" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR1.wav" volume="2.0dB" />
 		</group>
-		<group name="gr_1" ampVelTrack="0.8" volume="-8dB" tags="1-dynamics-ff">
+		<group name="gr_1" ampVelTrack="0.8" volume="-8dB" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="62" end="141874" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR2.wav" volume="12.0dB" />
 			<sample rootNote="52" loNote="50" hiNote="53" loVel="0" hiVel="62" end="59856" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR2.wav" volume="12.0dB" />
 			<sample rootNote="55" loNote="54" hiNote="59" loVel="0" hiVel="62" end="82565" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR2.wav" volume="12.0dB" />
@@ -92,7 +92,7 @@
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="63" hiVel="127" end="99287" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR2.wav" volume="1.0dB" />
 			<sample rootNote="86" loNote="85" hiNote="93" loVel="63" hiVel="127" end="66917" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR2.wav" />
 		</group>
-		<group name="gr_1" ampVelTrack="0.8" volume="-8dB" tags="1-dynamics-ff">
+		<group name="gr_1" ampVelTrack="0.8" volume="-8dB" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="62" end="137652" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR1.wav" volume="12.0dB" />
 			<sample rootNote="52" loNote="50" hiNote="53" loVel="0" hiVel="62" end="50370" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR1.wav" volume="12.0dB" />
 			<sample rootNote="55" loNote="54" hiNote="59" loVel="0" hiVel="62" end="94565" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR1.wav" volume="12.0dB" />
@@ -114,7 +114,7 @@
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="63" hiVel="127" end="96271" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR1-PB.wav" volume="9.0dB" />
 			<sample rootNote="86" loNote="85" hiNote="93" loVel="63" hiVel="127" end="72972" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR1.wav" volume="10.0dB" />
 		</group>
-		<group name="gr_1" ampVelTrack="0.8" volume="-8dB" tags="1-dynamics-ff">
+		<group name="gr_1" ampVelTrack="0.8" volume="-8dB" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="62" end="141874" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR2.wav" volume="12.0dB" />
 			<sample rootNote="52" loNote="50" hiNote="53" loVel="0" hiVel="62" end="59856" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR2.wav" volume="12.0dB" />
 			<sample rootNote="55" loNote="54" hiNote="59" loVel="0" hiVel="62" end="82565" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR2.wav" volume="12.0dB" />
@@ -136,7 +136,7 @@
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="63" hiVel="127" end="99287" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR2.wav" volume="9.0dB" />
 			<sample rootNote="86" loNote="85" hiNote="93" loVel="63" hiVel="127" end="66917" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR2.wav" volume="8.0dB" />
 		</group>
-		<group name="gr_1" ampVelTrack="0.8" volume="-8dB" tags="1-dynamics-ff">
+		<group name="gr_1" ampVelTrack="0.8" volume="-8dB" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="62" end="137652" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR1.wav" volume="12.0dB" />
 			<sample rootNote="52" loNote="50" hiNote="53" loVel="0" hiVel="62" end="50370" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR1.wav" volume="12.0dB" />
 			<sample rootNote="55" loNote="54" hiNote="59" loVel="0" hiVel="62" end="94565" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR1.wav" volume="12.0dB" />
@@ -158,7 +158,7 @@
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="63" hiVel="127" end="96271" path="Resources/Cello Ensemble Samples/spic_B3_v2_RR1-PB.wav" volume="9.0dB" />
 			<sample rootNote="86" loNote="85" hiNote="93" loVel="63" hiVel="127" end="72972" path="Resources/Cello Ensemble Samples/spic_D4_v2_RR1.wav" volume="10.0dB" />
 		</group>
-		<group name="gr_1" ampVelTrack="0.8" volume="-8dB" tags="1-dynamics-ff">
+		<group name="gr_1" ampVelTrack="0.8" volume="-8dB" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="62" end="141874" path="Resources/Cello Ensemble Samples/spic_C1_v1_RR2.wav" volume="12.0dB" />
 			<sample rootNote="52" loNote="50" hiNote="53" loVel="0" hiVel="62" end="59856" path="Resources/Cello Ensemble Samples/spic_E1_v1_RR2.wav" volume="12.0dB" />
 			<sample rootNote="55" loNote="54" hiNote="59" loVel="0" hiVel="62" end="82565" path="Resources/Cello Ensemble Samples/spic_G1_v1_RR2.wav" volume="12.0dB" />

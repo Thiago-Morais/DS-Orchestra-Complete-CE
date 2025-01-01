@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.010" release="0.024" ampVelTrack="0.8">
-		<group name="French Horns" tags="1-dynamics-ff">
+		<group name="French Horns" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="58" loNote="0" hiNote="51" loVel="0" hiVel="127" end="54972" loopEnabled="true" loopEnd="54964" loopStart="15162" path="Resources/Designed Brass Pad 2 Samples/F Horns E2.wav" tuning="0.08" volume="-4.9dB" />
 			<sample rootNote="58" loNote="52" hiNote="54" loVel="0" hiVel="127" end="54972" loopEnabled="true" loopEnd="54964" loopStart="15162" path="Resources/Designed Brass Pad 2 Samples/F Horns E2.wav" tuning="0.08" volume="-4.9dB" />
 			<sample rootNote="61" loNote="55" hiNote="57" loVel="0" hiVel="127" end="55344" loopEnabled="true" loopEnd="55336" loopStart="14205" path="Resources/Designed Brass Pad 2 Samples/F Horns G2.wav" tuning="0.08" volume="-4.9dB" />
@@ -61,7 +61,7 @@
 			<sample rootNote="89" loNote="83" hiNote="83" loVel="0" hiVel="127" end="41924" loopEnabled="true" loopEnd="41916" loopStart="21835" path="Resources/Designed Brass Pad 2 Samples/F Horns B4.wav" tuning="0.08" volume="-4.9dB" />
 			<sample rootNote="89" loNote="84" hiNote="103" loVel="0" hiVel="127" end="41924" loopEnabled="true" loopEnd="41916" loopStart="21835" path="Resources/Designed Brass Pad 2 Samples/F Horns B4.wav" tuning="0.08" volume="-4.9dB" />
 		</group>
-		<group name="Arco Strings Offset" tags="1-dynamics-ff">
+		<group name="Arco Strings Offset" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="30" loNote="0" hiNote="32" loVel="0" hiVel="127" end="83872" loopEnabled="true" loopEnd="83864" loopStart="38061" path="Resources/Designed Brass Pad 2 Samples/Arco String F#0.wav" tuning="-0.01" volume="-2.0dB" />
 			<sample rootNote="40" loNote="33" hiNote="35" loVel="0" hiVel="127" end="65616" loopEnabled="true" loopEnd="65608" loopStart="30539" path="Resources/Designed Brass Pad 2 Samples/Arco String B0.wav" tuning="0.17" volume="-2.0dB" />
 			<sample rootNote="40" loNote="36" hiNote="37" loVel="0" hiVel="127" end="65616" loopEnabled="true" loopEnd="65608" loopStart="30539" path="Resources/Designed Brass Pad 2 Samples/Arco String B0.wav" tuning="0.17" volume="-2.0dB" />
@@ -78,7 +78,7 @@
 			<sample rootNote="90" loNote="88" hiNote="92" loVel="0" hiVel="127" end="51553" loopEnabled="true" loopEnd="51545" loopStart="9677" path="Resources/Designed Brass Pad 2 Samples/Arco String F#5.wav" tuning="-0.01" volume="-2.0dB" />
 			<sample rootNote="95" loNote="93" hiNote="103" loVel="0" hiVel="127" end="52229" loopEnabled="true" loopEnd="52221" loopStart="6966" path="Resources/Designed Brass Pad 2 Samples/Arco String B5.wav" tuning="-0.01" volume="-2.0dB" />
 		</group>
-		<group name="Flute Smear" tags="1-dynamics-ff">
+		<group name="Flute Smear" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="62" loNote="0" hiNote="65" loVel="0" hiVel="127" end="20252" loopEnabled="true" loopEnd="20247" loopStart="14880" path="Resources/Designed Brass Pad 2 Samples/Flute D3 SR.wav" volume="-15.1dB" />
 			<sample rootNote="67" loNote="0" hiNote="70" loVel="0" hiVel="127" end="18938" loopEnabled="true" loopEnd="18933" loopStart="13912" path="Resources/Designed Brass Pad 2 Samples/Flute G3 -133.wav" volume="-15.1dB" />
 			<sample rootNote="72" loNote="0" hiNote="75" loVel="0" hiVel="127" end="18889" loopEnabled="true" loopEnd="18884" loopStart="13222" path="Resources/Designed Brass Pad 2 Samples/Flute C4 -45.wav" volume="-15.1dB" />
