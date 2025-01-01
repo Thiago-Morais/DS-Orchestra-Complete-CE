@@ -43,7 +43,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" seqMode="random" ampVelTrack="0.8">
+	<groups attack="0" release="0.028" seqMode="random" ampVelTrack="0.5">
 		<group name="Stac RR 1 - FF" seqPosition="1" tags="3-dynamics-ff">
 			<sample rootNote="36" loNote="33" hiNote="37" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_1.wav" />
 			<sample rootNote="39" loNote="38" hiNote="40" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v2_1.wav" />

@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.030" release="0.024" ampVelTrack="0.8">
+	<groups attack="0.030" release="0.024" ampVelTrack="0.5">
 		<group name="Group 1">
 			<sample rootNote="67" loNote="66" hiNote="67" loVel="75" hiVel="127" end="225797" path="Resources/Trumpet - Ensemble Samples/3_G.wav" tuning="-0.10" />
 			<sample rootNote="68" loNote="68" hiNote="68" loVel="75" hiVel="127" end="219393" path="Resources/Trumpet - Ensemble Samples/3_Ab.wav" tuning="-0.10" />

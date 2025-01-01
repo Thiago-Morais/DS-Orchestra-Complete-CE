@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.060" release="0.020" ampVelTrack="0.8">
+	<groups attack="0.060" release="0.020" ampVelTrack="0.5">
 		<group name="Group 1">
 			<sample rootNote="34" loNote="34" hiNote="35" loVel="0" hiVel="127" end="89180" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-a#0-PB-loop.wav" tuning="-0.20" volume="2.0dB" />
 			<sample rootNote="37" loNote="36" hiNote="38" loVel="0" hiVel="127" end="95394" path="Resources/contrabassoon-SOLO-KS-C6 Samples/contrabassoon-c#1-PB-loop.wav" tuning="-0.16" volume="3.0dB" />

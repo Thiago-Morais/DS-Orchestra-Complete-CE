@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0" ampVelTrack="0.8">
+	<groups attack="0" release="0" ampVelTrack="0.5">
 		<group name="Organ Loud">
 			<sample rootNote="36" loNote="36" hiNote="37" loVel="0" hiVel="127" end="557664" path="Resources/Organ Samples/Rode_Man3Open_01.wav" volume="13.914452060105525dB" />
 			<sample rootNote="39" loNote="38" hiNote="40" loVel="0" hiVel="127" end="551589" path="Resources/Organ Samples/Rode_Man3Open_04.wav" volume="13.914452060105525dB" />

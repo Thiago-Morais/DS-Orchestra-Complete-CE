@@ -40,7 +40,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0.8">
+	<groups attack="0" release="0.028" ampVelTrack="0.5">
 		<group name="ff" volume="2.7" tags="3-dynamics-ff" pan="40">
 			<sample rootNote="41" loNote="40" hiNote="41" end="79094" loopEnabled="true" loopEnd="54013" loopStart="24217" path="Resources/Tenor Trombone - Sustain 02 Samples/HARD LONGS 002.wav" start="6360" />
 			<sample rootNote="42" loNote="42" hiNote="42" end="84915" loopEnabled="true" loopEnd="72121" loopStart="40183" path="Resources/Tenor Trombone - Sustain 02 Samples/HARD LONGS 003.wav" />

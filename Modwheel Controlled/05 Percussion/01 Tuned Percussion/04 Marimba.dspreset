@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.600" ampVelTrack="0.8">
+	<groups attack="0" release="0.600" ampVelTrack="0.5">
 		<group name="Group 1">
 			<sample rootNote="41" loNote="41" hiNote="44" loVel="0" hiVel="83" end="132667" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F1_soft_01.wav" start="22" volume="12.0dB" />
 			<sample rootNote="41" loNote="41" hiNote="44" loVel="0" hiVel="127" end="171208" path="Resources/Marimba Samples/Marimba_hit_Outrigger_F1_med_01.wav" volume="12.0dB" />
