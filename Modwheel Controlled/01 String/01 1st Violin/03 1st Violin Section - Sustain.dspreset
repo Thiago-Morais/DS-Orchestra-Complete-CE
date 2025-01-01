@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TODO Organize samples -->
-<!-- TODO Setup dynamics on instrument -->
 <!-- TODO Verify samples balance (volume) -->
 <!-- TODO Verify loops -->
 <!-- TODO Samples start -->
@@ -47,52 +45,20 @@
 	</ui>
 	<groups attack="0.040" release="0.076" ampVelTrack="0.8">
 		<group name="Group 1">
-			<sample rootNote="67" loNote="67" hiNote="68" loVel="0" hiVel="127" end="182519" path="Resources/1st Violin Section Samples/1st-violins-sus-g3.wav" tuning="-0.10" />
-			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="186400" path="Resources/1st Violin Section Samples/1st-violins-sus-a#3.wav" tuning="-0.05" />
-			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="226084" path="Resources/1st Violin Section Samples/1st-violins-sus-c#4.wav" tuning="-0.05" />
-			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="127" end="223979" path="Resources/1st Violin Section Samples/1st-violins-sus-e4.wav" tuning="-0.10" />
-			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="188416" path="Resources/1st Violin Section Samples/1st-violins-sus-g4.wav" tuning="-0.10" />
-			<sample rootNote="82" loNote="81" hiNote="83" loVel="0" hiVel="127" end="198155" path="Resources/1st Violin Section Samples/1st-violins-sus-a#4.wav" tuning="-0.10" />
-			<sample rootNote="85" loNote="84" hiNote="86" loVel="0" hiVel="127" end="221045" path="Resources/1st Violin Section Samples/1st-violins-sus-c#5.wav" tuning="-0.05" />
-			<sample rootNote="88" loNote="87" hiNote="89" loVel="0" hiVel="127" end="225504" path="Resources/1st Violin Section Samples/1st-violins-sus-e5.wav" tuning="-0.10" />
-			<sample rootNote="91" loNote="90" hiNote="92" loVel="0" hiVel="127" end="214582" path="Resources/1st Violin Section Samples/1st-violins-sus-g5.wav" tuning="-0.10" volume="2.0dB" />
-			<sample rootNote="94" loNote="93" hiNote="95" loVel="0" hiVel="127" end="181559" path="Resources/1st Violin Section Samples/1st-violins-sus-a#5.wav" tuning="-0.10" volume="3.0dB" />
-			<sample rootNote="97" loNote="96" hiNote="98" loVel="0" hiVel="127" end="213853" path="Resources/1st Violin Section Samples/1st-violins-sus-c#6.wav" tuning="-0.05" volume="3.0dB" />
-			<sample rootNote="100" loNote="99" hiNote="101" loVel="0" hiVel="127" end="206202" path="Resources/1st Violin Section Samples/1st-violins-sus-e6.wav" tuning="-0.15" volume="2.0dB" />
-			<sample rootNote="103" loNote="102" hiNote="104" loVel="0" hiVel="127" end="200019" path="Resources/1st Violin Section Samples/1st-violins-sus-g6.wav" tuning="-0.10" volume="2.0dB" />
-			<sample rootNote="106" loNote="105" hiNote="117" loVel="0" hiVel="127" end="221743" path="Resources/1st Violin Section Samples/1st-violins-sus-a#6.wav" tuning="-0.10" volume="1.0dB" />
-		</group>
-		<group name="Group 6">
-			<sample rootNote="67" loNote="67" hiNote="68" loVel="0" hiVel="127" end="182519" path="Resources/1st Violin Section Samples/1st-violins-sus-g3.wav" tuning="-0.10" />
-			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="186400" path="Resources/1st Violin Section Samples/1st-violins-sus-a#3.wav" tuning="-0.05" />
-			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="226084" path="Resources/1st Violin Section Samples/1st-violins-sus-c#4.wav" tuning="-0.05" />
-			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="127" end="223979" path="Resources/1st Violin Section Samples/1st-violins-sus-e4.wav" tuning="-0.10" />
-			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="188416" path="Resources/1st Violin Section Samples/1st-violins-sus-g4.wav" tuning="-0.10" />
-			<sample rootNote="82" loNote="81" hiNote="83" loVel="0" hiVel="127" end="198155" path="Resources/1st Violin Section Samples/1st-violins-sus-a#4.wav" tuning="-0.10" />
-			<sample rootNote="85" loNote="84" hiNote="86" loVel="0" hiVel="127" end="221045" path="Resources/1st Violin Section Samples/1st-violins-sus-c#5.wav" tuning="-0.05" />
-			<sample rootNote="88" loNote="87" hiNote="89" loVel="0" hiVel="127" end="225504" path="Resources/1st Violin Section Samples/1st-violins-sus-e5.wav" tuning="-0.10" />
-			<sample rootNote="91" loNote="90" hiNote="92" loVel="0" hiVel="127" end="214582" path="Resources/1st Violin Section Samples/1st-violins-sus-g5.wav" tuning="-0.10" volume="2.0dB" />
-			<sample rootNote="94" loNote="93" hiNote="95" loVel="0" hiVel="127" end="181559" path="Resources/1st Violin Section Samples/1st-violins-sus-a#5.wav" tuning="-0.10" volume="3.0dB" />
-			<sample rootNote="97" loNote="96" hiNote="98" loVel="0" hiVel="127" end="213853" path="Resources/1st Violin Section Samples/1st-violins-sus-c#6.wav" tuning="-0.05" volume="3.0dB" />
-			<sample rootNote="100" loNote="99" hiNote="101" loVel="0" hiVel="127" end="206202" path="Resources/1st Violin Section Samples/1st-violins-sus-e6.wav" tuning="-0.15" volume="2.0dB" />
-			<sample rootNote="103" loNote="102" hiNote="104" loVel="0" hiVel="127" end="200019" path="Resources/1st Violin Section Samples/1st-violins-sus-g6.wav" tuning="-0.10" volume="2.0dB" />
-			<sample rootNote="106" loNote="105" hiNote="117" loVel="0" hiVel="127" end="221743" path="Resources/1st Violin Section Samples/1st-violins-sus-a#6.wav" tuning="-0.10" volume="1.0dB" />
-		</group>
-		<group name="Group 9">
-			<sample rootNote="67" loNote="67" hiNote="68" loVel="0" hiVel="127" end="182519" path="Resources/1st Violin Section Samples/1st-violins-sus-g3.wav" tuning="-0.10" />
-			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="186400" path="Resources/1st Violin Section Samples/1st-violins-sus-a#3.wav" tuning="-0.05" />
-			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="226084" path="Resources/1st Violin Section Samples/1st-violins-sus-c#4.wav" tuning="-0.05" />
-			<sample rootNote="76" loNote="75" hiNote="77" loVel="0" hiVel="127" end="223979" path="Resources/1st Violin Section Samples/1st-violins-sus-e4.wav" tuning="-0.10" />
-			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="188416" path="Resources/1st Violin Section Samples/1st-violins-sus-g4.wav" tuning="-0.10" />
-			<sample rootNote="82" loNote="81" hiNote="83" loVel="0" hiVel="127" end="198155" path="Resources/1st Violin Section Samples/1st-violins-sus-a#4.wav" tuning="-0.10" />
-			<sample rootNote="85" loNote="84" hiNote="86" loVel="0" hiVel="127" end="221045" path="Resources/1st Violin Section Samples/1st-violins-sus-c#5.wav" tuning="-0.05" />
-			<sample rootNote="88" loNote="87" hiNote="89" loVel="0" hiVel="127" end="225504" path="Resources/1st Violin Section Samples/1st-violins-sus-e5.wav" tuning="-0.10" />
-			<sample rootNote="91" loNote="90" hiNote="92" loVel="0" hiVel="127" end="214582" path="Resources/1st Violin Section Samples/1st-violins-sus-g5.wav" tuning="-0.10" volume="2.0dB" />
-			<sample rootNote="94" loNote="93" hiNote="95" loVel="0" hiVel="127" end="181559" path="Resources/1st Violin Section Samples/1st-violins-sus-a#5.wav" tuning="-0.10" volume="3.0dB" />
-			<sample rootNote="97" loNote="96" hiNote="98" loVel="0" hiVel="127" end="213853" path="Resources/1st Violin Section Samples/1st-violins-sus-c#6.wav" tuning="-0.05" volume="3.0dB" />
-			<sample rootNote="100" loNote="99" hiNote="101" loVel="0" hiVel="127" end="206202" path="Resources/1st Violin Section Samples/1st-violins-sus-e6.wav" tuning="-0.15" volume="2.0dB" />
-			<sample rootNote="103" loNote="102" hiNote="104" loVel="0" hiVel="127" end="200019" path="Resources/1st Violin Section Samples/1st-violins-sus-g6.wav" tuning="-0.10" volume="2.0dB" />
-			<sample rootNote="106" loNote="105" hiNote="117" loVel="0" hiVel="127" end="221743" path="Resources/1st Violin Section Samples/1st-violins-sus-a#6.wav" tuning="-0.10" volume="1.0dB" />
+			<sample rootNote="67" loNote="67" hiNote="68" path="Resources/1st Violin Section Samples/1st-violins-sus-g3.wav" tuning="-0.10" />
+			<sample rootNote="70" loNote="69" hiNote="71" path="Resources/1st Violin Section Samples/1st-violins-sus-a#3.wav" tuning="-0.05" />
+			<sample rootNote="73" loNote="72" hiNote="74" path="Resources/1st Violin Section Samples/1st-violins-sus-c#4.wav" tuning="-0.05" />
+			<sample rootNote="76" loNote="75" hiNote="77" path="Resources/1st Violin Section Samples/1st-violins-sus-e4.wav" tuning="-0.10" />
+			<sample rootNote="79" loNote="78" hiNote="80" path="Resources/1st Violin Section Samples/1st-violins-sus-g4.wav" tuning="-0.10" />
+			<sample rootNote="82" loNote="81" hiNote="83" path="Resources/1st Violin Section Samples/1st-violins-sus-a#4.wav" tuning="-0.10" />
+			<sample rootNote="85" loNote="84" hiNote="86" path="Resources/1st Violin Section Samples/1st-violins-sus-c#5.wav" tuning="-0.05" />
+			<sample rootNote="88" loNote="87" hiNote="89" path="Resources/1st Violin Section Samples/1st-violins-sus-e5.wav" tuning="-0.10" />
+			<sample rootNote="91" loNote="90" hiNote="92" path="Resources/1st Violin Section Samples/1st-violins-sus-g5.wav" tuning="-0.10" volume="2.0dB" />
+			<sample rootNote="94" loNote="93" hiNote="95" path="Resources/1st Violin Section Samples/1st-violins-sus-a#5.wav" tuning="-0.10" volume="3.0dB" />
+			<sample rootNote="97" loNote="96" hiNote="98" path="Resources/1st Violin Section Samples/1st-violins-sus-c#6.wav" tuning="-0.05" volume="3.0dB" />
+			<sample rootNote="100" loNote="99" hiNote="101" path="Resources/1st Violin Section Samples/1st-violins-sus-e6.wav" tuning="-0.15" volume="2.0dB" />
+			<sample rootNote="103" loNote="102" hiNote="104" path="Resources/1st Violin Section Samples/1st-violins-sus-g6.wav" tuning="-0.10" volume="2.0dB" />
+			<sample rootNote="106" loNote="105" hiNote="117" path="Resources/1st Violin Section Samples/1st-violins-sus-a#6.wav" tuning="-0.10" volume="1.0dB" />
 		</group>
 	</groups>
 	<midi>
