@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.600" ampVelTrack="0.8">
-		<group name="Group 1">
+		<group name="Group 1" tags="1-dynamics-ff">
 			<sample rootNote="67" loNote="67" hiNote="69" loVel="0" hiVel="83" end="176729" path="Resources/Glockenspiel Samples/glock_soft_G4_01.wav" volume="12.0dB" />
 			<sample rootNote="67" loNote="67" hiNote="69" loVel="0" hiVel="127" end="317816" path="Resources/Glockenspiel Samples/glock_medium_G4_01.wav" volume="12.0dB" />
 			<sample rootNote="67" loNote="67" hiNote="69" loVel="84" hiVel="127" end="330859" path="Resources/Glockenspiel Samples/glock_loud_G4_01.wav" volume="12.0dB" />

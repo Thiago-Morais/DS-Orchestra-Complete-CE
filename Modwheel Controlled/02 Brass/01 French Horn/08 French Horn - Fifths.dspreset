@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups ampVelTrack="0.8">
-		<group name="French Fifths">
+		<group name="French Fifths" tags="1-dynamics-ff">
 			<sample rootNote="52" loNote="36" hiNote="51" loVel="0" hiVel="127" end="105857" loopEnabled="true" loopEnd="105852" loopStart="49686" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" />
 			<sample rootNote="59" loNote="36" hiNote="58" loVel="0" hiVel="127" end="105857" loopEnabled="true" loopEnd="105852" loopStart="49686" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" />
 			<sample rootNote="52" loNote="52" hiNote="54" loVel="0" hiVel="127" end="105857" loopEnabled="true" loopEnd="105852" loopStart="49686" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" />

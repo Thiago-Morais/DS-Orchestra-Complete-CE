@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" release="0.072" ampVelTrack="0.8">
-		<group name="Group 1">
+		<group name="Group 1" tags="1-dynamics-ff">
 			<sample rootNote="54" loNote="48" hiNote="54" loVel="0" hiVel="127" end="155268" path="Resources/Cello Solo Samples/2_Gb-PB-loop.wav" volume="-0.5dB" />
 			<sample rootNote="57" loNote="55" hiNote="58" loVel="0" hiVel="127" end="142784" path="Resources/Cello Solo Samples/2_A-PB-loop.wav" volume="-0.5dB" />
 			<sample rootNote="61" loNote="59" hiNote="62" loVel="0" hiVel="127" end="109733" path="Resources/Cello Solo Samples/3_Db-PB-loop.wav" volume="-0.5dB" />
@@ -59,7 +59,7 @@
 			<sample rootNote="79" loNote="77" hiNote="80" loVel="0" hiVel="127" end="146887" path="Resources/Cello Solo Samples/4_G-PB.wav" />
 			<sample rootNote="82" loNote="81" hiNote="93" loVel="0" hiVel="127" end="197756" path="Resources/Cello Solo Samples/4_Bb-PB.wav" volume="-1.0dB" />
 		</group>
-		<group name="Group 2" trigger="release">
+		<group name="Group 2" trigger="release" tags="1-dynamics-ff">
 			<sample rootNote="50" loNote="48" hiNote="51" loVel="0" hiVel="127" end="30829" path="Resources/Cello Solo Samples/2_D_r-PB.wav" trigger="release" tuning="-0.35" volume="1.0dB" />
 			<sample rootNote="54" loNote="48" hiNote="54" loVel="0" hiVel="127" end="37451" path="Resources/Cello Solo Samples/2_Gb_r-PB.wav" trigger="release" tuning="-0.20" volume="0.5dB" />
 			<sample rootNote="58" loNote="55" hiNote="58" loVel="0" hiVel="127" end="36926" path="Resources/Cello Solo Samples/2_Bb_r-PB.wav" trigger="release" volume="1.5dB" />

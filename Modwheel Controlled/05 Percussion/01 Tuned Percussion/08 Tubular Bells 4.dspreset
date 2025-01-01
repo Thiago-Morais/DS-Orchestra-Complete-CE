@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups decay="0.400" release="0.400" sustain="0" ampVelTrack="0.8">
-		<group name="Group 1">
+		<group name="Group 1" tags="1-dynamics-ff">
 			<sample rootNote="72" loNote="72" hiNote="72" loVel="41" hiVel="127" end="343593" path="Resources/tubular-bells Samples/3_C_f.wav" volume="-2.0dB" />
 			<sample rootNote="73" loNote="73" hiNote="73" loVel="41" hiVel="127" end="339572" path="Resources/tubular-bells Samples/3_Db_f.wav" volume="-2.0dB" />
 			<sample rootNote="74" loNote="74" hiNote="75" loVel="41" hiVel="127" end="313334" path="Resources/tubular-bells Samples/3_D_f.wav" volume="-2.0dB" />
@@ -62,7 +62,7 @@
 			<sample rootNote="88" loNote="88" hiNote="88" loVel="41" hiVel="127" end="175335" path="Resources/tubular-bells Samples/4_E_f.wav" volume="-2.0dB" />
 			<sample rootNote="89" loNote="89" hiNote="91" loVel="41" hiVel="127" end="327146" path="Resources/tubular-bells Samples/4_F_f.wav" volume="-2.0dB" />
 		</group>
-		<group name="Group 2">
+		<group name="Group 2" tags="1-dynamics-ff">
 			<sample rootNote="72" loNote="72" hiNote="72" loVel="0" hiVel="40" end="110432" path="Resources/tubular-bells Samples/3_C_p.wav" />
 			<sample rootNote="73" loNote="73" hiNote="75" loVel="0" hiVel="40" end="266989" path="Resources/tubular-bells Samples/3_Db_p.wav" />
 			<sample rootNote="77" loNote="77" hiNote="77" loVel="0" hiVel="40" end="196515" path="Resources/tubular-bells Samples/3_F_p.wav" />

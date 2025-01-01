@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="ff">
+		<group name="ff" tags="1-dynamics-ff">
 			<sample rootNote="58" loNote="58" hiNote="58" loVel="0" hiVel="127" end="114086" loopEnabled="true" loopEnd="61448" loopStart="44051" path="Resources/Alto Sax Samples/ALTO_SXPH_NOVIB_LOUD_A#3.wav" volume="1.2587385120208496dB" />
 			<sample rootNote="70" loNote="70" hiNote="70" loVel="0" hiVel="127" end="128253" loopEnabled="true" loopEnd="81835" loopStart="65550" path="Resources/Alto Sax Samples/ALTO_SXPH_NOVIB_LOUD_A#4.wav" tuning="-0.16" volume="1.2587385120208496dB" />
 			<sample rootNote="56" loNote="56" hiNote="56" loVel="0" hiVel="127" end="107058" loopEnabled="true" loopEnd="70718" loopStart="51761" path="Resources/Alto Sax Samples/ALTO_SXPH_NOVIB_LOUD_A3.wav" tuning="0.06" volume="1.2587385120208496dB" />

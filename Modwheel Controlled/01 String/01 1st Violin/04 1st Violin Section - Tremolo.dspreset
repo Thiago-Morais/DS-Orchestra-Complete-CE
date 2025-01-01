@@ -46,7 +46,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.040" release="0.076" ampVelTrack="0.8">
-		<group name="Group 2">
+		<group name="Group 2" tags="1-dynamics-ff">
 			<sample rootNote="67" loNote="67" hiNote="67" path="Resources/1st-violin-SOLO-tremolo Samples/3_G-PB.wav" tuning="0.05" volume="-5.7dB" />
 			<sample rootNote="69" loNote="68" hiNote="69" path="Resources/1st-violin-SOLO-tremolo Samples/3_A-PB.wav" tuning="0.05" volume="-5.7dB" />
 			<sample rootNote="71" loNote="70" hiNote="71" path="Resources/1st-violin-SOLO-tremolo Samples/3_B-PB.wav" tuning="0.05" volume="-5.7dB" />
@@ -69,7 +69,7 @@
 			<sample rootNote="105" loNote="104" hiNote="105" path="Resources/1st-violin-SOLO-tremolo Samples/6_A-PB.wav" tuning="-0.15" volume="1.3dB" />
 			<sample rootNote="107" loNote="106" hiNote="117" path="Resources/1st-violin-SOLO-tremolo Samples/6_B-PB.wav" tuning="-0.15" volume="-2.7dB" />
 		</group>
-		<group name="Group 3">
+		<group name="Group 3" tags="1-dynamics-ff">
 			<sample rootNote="67" loNote="67" hiNote="68" path="Resources/1st Violin Section Samples/3_G.wav" volume="-3.0dB" />
 			<sample rootNote="70" loNote="69" hiNote="71" path="Resources/1st Violin Section Samples/3_Bb.wav" volume="-3.0dB" />
 			<sample rootNote="73" loNote="72" hiNote="74" path="Resources/1st Violin Section Samples/4_Db.wav" tuning="-0.05" volume="-3.0dB" />

@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.003" decay="0.554" release="0.058" sustain="0.893" ampVelTrack="0.8">
-		<group name="Halo Pad">
+		<group name="Halo Pad" tags="1-dynamics-ff">
 			<sample rootNote="76" loNote="0" hiNote="57" loVel="0" hiVel="127" end="14754" loopEnabled="true" loopEnd="14746" loopStart="67" path="Resources/Designed String Pad 1 Samples/Syn Vox F#3.wav" tuning="0.21" volume="-9.0dB" />
 			<sample rootNote="76" loNote="58" hiNote="69" loVel="0" hiVel="127" end="14754" loopEnabled="true" loopEnd="14746" loopStart="67" path="Resources/Designed String Pad 1 Samples/Syn Vox F#3.wav" tuning="0.21" volume="-9.0dB" />
 			<sample rootNote="80" loNote="70" hiNote="77" loVel="0" hiVel="127" end="22981" loopEnabled="true" loopEnd="22973" loopStart="14" path="Resources/Designed String Pad 1 Samples/Syn Vox C4.wav" tuning="0.04" volume="-9.0dB" />

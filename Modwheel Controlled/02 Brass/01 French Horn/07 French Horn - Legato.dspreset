@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" seqMode="random" ampVelTrack="0.8">
-		<group name="Stac RR 1" seqPosition="1" trigger="first">
+		<group name="Stac RR 1" seqPosition="1" trigger="first" tags="1-dynamics-ff">
 			<sample rootNote="33" loNote="33" hiNote="34" tags="3-dynamics-mp" end="96404" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_1.wav" />
 			<sample rootNote="36" loNote="33" hiNote="37" tags="3-dynamics-ff" end="64689" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_1.wav" />
 			<sample rootNote="36" loNote="35" hiNote="37" tags="3-dynamics-mp" end="78028" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_1.wav" />
@@ -76,7 +76,7 @@
 			<sample rootNote="77" loNote="76" hiNote="79" tags="3-dynamics-mf" end="38827" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_1.wav" />
 			<sample rootNote="77" loNote="76" hiNote="79" tags="3-dynamics-ff" end="52675" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" />
 		</group>
-		<group name="Stac RR 2" seqPosition="2" trigger="first">
+		<group name="Stac RR 2" seqPosition="2" trigger="first" tags="1-dynamics-ff">
 			<sample rootNote="33" loNote="33" hiNote="34" tags="3-dynamics-mp" end="103942" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_2.wav" />
 			<sample rootNote="36" loNote="33" hiNote="37" tags="3-dynamics-ff" end="69249" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_2.wav" />
 			<sample rootNote="36" loNote="35" hiNote="37" tags="3-dynamics-mp" end="74019" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_2.wav" start="1668" />
@@ -135,7 +135,7 @@
 			<sample rootNote="57" loNote="55" hiNote="58" end="326224" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A2_v3_1.wav" />
 			<sample rootNote="60" loNote="59" hiNote="66" end="528743" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C3_v3_1.wav" />
 		</group>
-		<group name="Sus Non Vib (Any Vel)">
+		<group name="Sus Non Vib (Any Vel)" tags="1-dynamics-ff">
 			<sample rootNote="74" loNote="67" hiNote="75" end="361211" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D4_v1_1.wav" />
 			<sample rootNote="77" loNote="76" hiNote="79" end="369394" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F4_v1_1.wav" start="4298" />
 		</group>

@@ -46,7 +46,7 @@
 		<keyboard />
 	</ui>
 	<groups release="0.028" ampVelTrack="0.8">
-		<group name="Group 1">
+		<group name="Group 1" tags="1-dynamics-ff">
 			<sample rootNote="67" loNote="67" hiNote="67" path="Resources/1st-violin-SOLO-tremolo Samples/3_G-PB.wav" tuning="0.05" />
 			<sample rootNote="69" loNote="68" hiNote="69" path="Resources/1st-violin-SOLO-tremolo Samples/3_A-PB.wav" tuning="0.05" />
 			<sample rootNote="71" loNote="70" hiNote="71" path="Resources/1st-violin-SOLO-tremolo Samples/3_B-PB.wav" tuning="0.05" />

@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="Group 1">
+		<group name="Group 1" tags="1-dynamics-ff">
 			<sample rootNote="99" loNote="98" hiNote="100" loVel="0" hiVel="63" end="186784" path="Resources/TC - Timpani Samples/timpani-roll-d#1.wav" volume="6.020599913279624dB" />
 			<sample rootNote="102" loNote="101" hiNote="103" loVel="0" hiVel="63" end="189475" path="Resources/TC - Timpani Samples/timpani-roll-f#1.wav" volume="6.020599913279624dB" />
 			<sample rootNote="105" loNote="104" hiNote="106" loVel="0" hiVel="63" end="188981" path="Resources/TC - Timpani Samples/timpani-roll-a1.wav" volume="6.020599913279624dB" />

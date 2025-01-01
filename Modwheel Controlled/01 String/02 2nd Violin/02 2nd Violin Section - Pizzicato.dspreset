@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.050" release="0.080" ampVelTrack="0.8">
-		<group name="Group 12">
+		<group name="Group 12" tags="1-dynamics-ff">
 			<sample rootNote="67" loNote="67" hiNote="68" end="27019" path="Resources/2nd Violin Section Samples/2nd-violins-piz-rr1-g3-PB.wav" volume="2.0dB" />
 			<sample rootNote="70" loNote="69" hiNote="71" end="27019" path="Resources/2nd Violin Section Samples/2nd-violins-piz-rr1-a#3-PB.wav" volume="4.0dB" />
 			<sample rootNote="73" loNote="72" hiNote="74" end="27019" path="Resources/2nd Violin Section Samples/2nd-violins-piz-rr1-c#4-PB.wav" volume="2.0dB" />

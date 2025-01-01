@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="ff">
+		<group name="ff" tags="1-dynamics-ff">
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="0" hiVel="127" end="281810" loopEnabled="true" loopEnd="269178" loopStart="114601" path="Resources/Trumpet - Sustain 01 Samples/F0_f.wav" volume="3.4723986245987963dB" />
 			<sample rootNote="55" loNote="55" hiNote="56" loVel="0" hiVel="127" end="292640" loopEnabled="true" loopEnd="269321" loopStart="183147" path="Resources/Trumpet - Sustain 01 Samples/G0_f.wav" volume="3.4723986245987963dB" />
 			<sample rootNote="57" loNote="57" hiNote="57" loVel="0" hiVel="127" end="286531" loopEnabled="true" loopEnd="241439" loopStart="130991" path="Resources/Trumpet - Sustain 01 Samples/A0_f.wav" volume="3.4723986245987963dB" />
@@ -68,7 +68,7 @@
 			<sample rootNote="81" loNote="81" hiNote="81" loVel="0" hiVel="127" end="357236" path="Resources/Trumpet - Sustain 01 Samples/A2_f.wav" volume="3.4723986245987963dB" />
 			<sample rootNote="82" loNote="82" hiNote="89" loVel="0" hiVel="127" end="369485" path="Resources/Trumpet - Sustain 01 Samples/Bb2_f.wav" volume="3.4723986245987963dB" />
 		</group>
-		<group name="p">
+		<group name="p" tags="1-dynamics-ff">
 			<sample rootNote="53" loNote="52" hiNote="54" loVel="0" hiVel="127" end="376744" loopEnabled="true" loopEnd="357230" loopStart="168821" path="Resources/Trumpet - Sustain 01 Samples/F0_mf.wav" volume="3.4723986245987963dB" />
 			<sample rootNote="55" loNote="55" hiNote="56" loVel="0" hiVel="127" end="373909" loopEnabled="true" loopEnd="354170" loopStart="121063" path="Resources/Trumpet - Sustain 01 Samples/G0_mf.wav" volume="3.4723986245987963dB" />
 			<sample rootNote="57" loNote="57" hiNote="57" loVel="0" hiVel="127" end="375263" loopEnabled="true" loopEnd="356947" loopStart="140853" path="Resources/Trumpet - Sustain 01 Samples/A0_mf.wav" tuning="-0.02" volume="3.4723986245987963dB" />

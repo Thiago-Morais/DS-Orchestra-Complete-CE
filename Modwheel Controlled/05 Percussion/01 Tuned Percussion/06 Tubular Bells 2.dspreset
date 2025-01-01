@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="1" ampVelTrack="0.8">
-		<group name="Group 1">
+		<group name="Group 1" tags="1-dynamics-ff">
 			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="83" end="621673" path="Resources/Tubular Bells 2 Samples/TB_hit_C4_v2_1.wav" volume="12.0dB" />
 			<sample rootNote="60" loNote="60" hiNote="61" loVel="84" hiVel="127" end="844270" path="Resources/Tubular Bells 2 Samples/TB_hit_C4_v4_1.wav" volume="8.123357dB" />
 			<sample rootNote="62" loNote="62" hiNote="63" loVel="0" hiVel="83" end="432404" path="Resources/Tubular Bells 2 Samples/TB_hit_D4_v2_1.wav" volume="12.0dB" />

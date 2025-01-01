@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="Sus Vib" volume="6dB">
+		<group name="Sus Vib" volume="6dB" tags="1-dynamics-ff">
 			<sample rootNote="63" loNote="63" hiNote="67" loVel="0" hiVel="127" end="249725" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_D#3_v1_1.wav" start="2834" />
 			<sample rootNote="62" loNote="61" hiNote="62" end="240326" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_D3_v1_1.wav" start="3888" />
 			<sample rootNote="60" loNote="59" hiNote="60" end="242516" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_vib_C3_v1_1.wav" start="1056" />
@@ -168,11 +168,11 @@
 			<sample rootNote="63" loNote="62" hiNote="63" end="1070862" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#3_v1_1.wav" start="1890" />
 			<sample rootNote="65" loNote="64" hiNote="67" end="1139250" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F3_v1_1.wav" start="705" />
 		</group>
-		<group name="Sus Non Vib" volume="6dB">
+		<group name="Sus Non Vib" volume="6dB" tags="1-dynamics-ff">
 			<sample rootNote="34" loNote="33" hiNote="35" tags="2-dynamics-mp" end="211849" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v1_1.wav" start="870" />
 			<sample rootNote="34" loNote="33" hiNote="35" tags="2-dynamics-ff" end="183888" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v2_1.wav" start="976" />
 		</group>
-		<group name="Sus Non Vib Loud" volume="6dB">
+		<group name="Sus Non Vib Loud" volume="6dB" tags="1-dynamics-ff">
 			<sample rootNote="34" loNote="33" hiNote="35" end="183888" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_A#0_v2_1.wav" start="976" />
 			<sample rootNote="39" loNote="36" hiNote="39" end="220454" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_D#1_v3_1.wav" />
 			<sample rootNote="41" loNote="40" hiNote="43" end="299476" path="Resources/Tenor Trombone - Sustain 03 Samples/tenortbn_sus_F1_v3_1.wav" start="404" />

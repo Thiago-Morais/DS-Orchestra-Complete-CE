@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" release="0.036" ampVelTrack="0.8">
-		<group name="Group 1">
+		<group name="Group 1" tags="1-dynamics-ff">
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="186653" path="Resources/flute-SEC-KS-C3 Samples/4_Db.wav" />
 			<sample rootNote="77" loNote="75" hiNote="78" loVel="0" hiVel="127" end="186582" path="Resources/flute-SEC-KS-C3 Samples/4_F.wav" tuning="-0.05" />
 			<sample rootNote="80" loNote="79" hiNote="81" loVel="0" hiVel="127" end="204537" path="Resources/flute-SEC-KS-C3 Samples/4_Ab.wav" />
@@ -59,7 +59,7 @@
 			<sample rootNote="99" loNote="96" hiNote="101" loVel="0" hiVel="127" end="163336" path="Resources/flute-SEC-KS-C3 Samples/6_Eb-PB.wav" tuning="-0.05" />
 			<sample rootNote="103" loNote="102" hiNote="110" loVel="0" hiVel="127" end="144784" path="Resources/flute-SEC-KS-C3 Samples/6_Ab-PB.wav" tuning="-0.10" />
 		</group>
-		<group name="Group 2">
+		<group name="Group 2" tags="1-dynamics-ff">
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="186653" path="Resources/flute-SEC-KS-C3 Samples/4_Db.wav" />
 			<sample rootNote="77" loNote="75" hiNote="78" loVel="0" hiVel="127" end="186582" path="Resources/flute-SEC-KS-C3 Samples/4_F.wav" tuning="-0.05" />
 			<sample rootNote="80" loNote="79" hiNote="81" loVel="0" hiVel="127" end="204537" path="Resources/flute-SEC-KS-C3 Samples/4_Ab.wav" />
@@ -70,7 +70,7 @@
 			<sample rootNote="99" loNote="96" hiNote="101" loVel="0" hiVel="127" end="163336" path="Resources/flute-SEC-KS-C3 Samples/6_Eb-PB.wav" tuning="-0.05" />
 			<sample rootNote="103" loNote="102" hiNote="110" loVel="0" hiVel="127" end="144784" path="Resources/flute-SEC-KS-C3 Samples/6_Ab-PB.wav" tuning="-0.10" />
 		</group>
-		<group name="Group 3">
+		<group name="Group 3" tags="1-dynamics-ff">
 			<sample rootNote="72" loNote="72" hiNote="75" loVel="0" hiVel="127" end="17865" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_C3-PB.wav" tuning="-0.05" volume="-7.5dB" />
 			<sample rootNote="76" loNote="76" hiNote="80" loVel="0" hiVel="127" end="17865" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_E3-PB.wav" volume="-7.5dB" />
 			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="127" end="17863" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_A3_v2_rr1-PB.wav" tuning="0.05" volume="-7.5dB" />
@@ -82,7 +82,7 @@
 			<sample rootNote="105" loNote="103" hiNote="106" loVel="0" hiVel="127" end="17863" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_A5_v1_rr1-PB.wav" volume="-6.5dB" />
 			<sample rootNote="108" loNote="107" hiNote="110" loVel="0" hiVel="127" end="16346" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_C6_v2_rr2-PB.wav" volume="-6.5dB" />
 		</group>
-		<group name="Group 4">
+		<group name="Group 4" tags="1-dynamics-ff">
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="186653" path="Resources/flute-SEC-KS-C3 Samples/4_Db.wav" start="1124" volume="8.0dB" />
 			<sample rootNote="77" loNote="75" hiNote="78" loVel="0" hiVel="127" end="186582" path="Resources/flute-SEC-KS-C3 Samples/4_F.wav" start="1124" tuning="-0.05" volume="1.0dB" />
 			<sample rootNote="80" loNote="79" hiNote="81" loVel="0" hiVel="127" end="204537" path="Resources/flute-SEC-KS-C3 Samples/4_Ab.wav" start="1124" volume="3.0dB" />
@@ -93,7 +93,7 @@
 			<sample rootNote="99" loNote="96" hiNote="101" loVel="0" hiVel="127" end="163336" path="Resources/flute-SEC-KS-C3 Samples/6_Eb-PB.wav" start="1124" tuning="-0.05" volume="5.0dB" />
 			<sample rootNote="103" loNote="102" hiNote="110" loVel="0" hiVel="127" end="144784" path="Resources/flute-SEC-KS-C3 Samples/6_Ab-PB.wav" start="1124" tuning="-0.10" />
 		</group>
-		<group name="Group 5">
+		<group name="Group 5" tags="1-dynamics-ff">
 			<sample rootNote="72" loNote="72" hiNote="75" loVel="0" hiVel="127" end="17865" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_C3-PB.wav" tuning="-0.05" volume="-4.5dB" />
 			<sample rootNote="76" loNote="76" hiNote="80" loVel="0" hiVel="127" end="17865" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_E3-PB.wav" volume="-4.5dB" />
 			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="127" end="17863" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_A3_v2_rr1-PB.wav" tuning="0.05" volume="-4.5dB" />
@@ -105,7 +105,7 @@
 			<sample rootNote="105" loNote="103" hiNote="106" loVel="0" hiVel="127" end="17863" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_A5_v1_rr1-PB.wav" volume="-3.5dB" />
 			<sample rootNote="108" loNote="107" hiNote="110" loVel="0" hiVel="127" end="16346" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_C6_v2_rr2-PB.wav" volume="-3.5dB" />
 		</group>
-		<group name="Group 6">
+		<group name="Group 6" tags="1-dynamics-ff">
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="186653" path="Resources/flute-SEC-KS-C3 Samples/4_Db.wav" start="1124" volume="11.0dB" />
 			<sample rootNote="77" loNote="75" hiNote="78" loVel="0" hiVel="127" end="186582" path="Resources/flute-SEC-KS-C3 Samples/4_F.wav" start="1124" tuning="-0.05" volume="4.0dB" />
 			<sample rootNote="80" loNote="79" hiNote="81" loVel="0" hiVel="127" end="204537" path="Resources/flute-SEC-KS-C3 Samples/4_Ab.wav" start="1124" volume="6.0dB" />
@@ -116,7 +116,7 @@
 			<sample rootNote="99" loNote="96" hiNote="101" loVel="0" hiVel="127" end="163336" path="Resources/flute-SEC-KS-C3 Samples/6_Eb-PB.wav" start="1124" tuning="-0.05" volume="8.0dB" />
 			<sample rootNote="103" loNote="102" hiNote="110" loVel="0" hiVel="127" end="144784" path="Resources/flute-SEC-KS-C3 Samples/6_Ab-PB.wav" start="1124" tuning="-0.10" />
 		</group>
-		<group name="Group 7">
+		<group name="Group 7" tags="1-dynamics-ff">
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="186653" path="Resources/flute-SEC-KS-C3 Samples/4_Db.wav" />
 			<sample rootNote="77" loNote="75" hiNote="78" loVel="0" hiVel="127" end="186582" path="Resources/flute-SEC-KS-C3 Samples/4_F.wav" tuning="-0.05" />
 			<sample rootNote="80" loNote="79" hiNote="81" loVel="0" hiVel="127" end="204537" path="Resources/flute-SEC-KS-C3 Samples/4_Ab.wav" />
@@ -127,7 +127,7 @@
 			<sample rootNote="99" loNote="96" hiNote="101" loVel="0" hiVel="127" end="163336" path="Resources/flute-SEC-KS-C3 Samples/6_Eb-PB.wav" tuning="-0.05" />
 			<sample rootNote="103" loNote="102" hiNote="110" loVel="0" hiVel="127" end="144784" path="Resources/flute-SEC-KS-C3 Samples/6_Ab-PB.wav" tuning="-0.10" />
 		</group>
-		<group name="Group 8">
+		<group name="Group 8" tags="1-dynamics-ff">
 			<sample rootNote="72" loNote="72" hiNote="75" loVel="0" hiVel="127" end="17865" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_C3-PB.wav" tuning="-0.05" volume="-4.5dB" />
 			<sample rootNote="76" loNote="76" hiNote="80" loVel="0" hiVel="127" end="17865" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_E3-PB.wav" volume="-4.5dB" />
 			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="127" end="17863" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_A3_v2_rr1-PB.wav" tuning="0.05" volume="-4.5dB" />
@@ -139,7 +139,7 @@
 			<sample rootNote="105" loNote="103" hiNote="106" loVel="0" hiVel="127" end="17863" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_A5_v1_rr1-PB.wav" volume="-3.5dB" />
 			<sample rootNote="108" loNote="107" hiNote="110" loVel="0" hiVel="127" end="16346" path="Resources/flute-SEC-KS-C3 Samples/LDFlute_stac_C6_v2_rr2-PB.wav" volume="-3.5dB" />
 		</group>
-		<group name="Group 9">
+		<group name="Group 9" tags="1-dynamics-ff">
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="186653" path="Resources/flute-SEC-KS-C3 Samples/4_Db.wav" start="1124" volume="11.0dB" />
 			<sample rootNote="77" loNote="75" hiNote="78" loVel="0" hiVel="127" end="186582" path="Resources/flute-SEC-KS-C3 Samples/4_F.wav" start="1124" tuning="-0.05" volume="4.0dB" />
 			<sample rootNote="80" loNote="79" hiNote="81" loVel="0" hiVel="127" end="204537" path="Resources/flute-SEC-KS-C3 Samples/4_Ab.wav" start="1124" volume="6.0dB" />

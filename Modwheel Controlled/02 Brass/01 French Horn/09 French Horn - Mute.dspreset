@@ -70,7 +70,7 @@
 			<sample rootNote="68" loNote="66" hiNote="68" end="395281" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_G#3_v1_1.wav" />
 			<sample rootNote="70" loNote="69" hiNote="71" end="427294" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_A#3_v1_1.wav" />
 		</group>
-		<group name="Mute all">
+		<group name="Mute all" tags="1-dynamics-ff">
 			<sample rootNote="74" loNote="72" hiNote="75" end="176954" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_D4_v1_1.wav" />
 			<sample rootNote="77" loNote="76" hiNote="77" end="188146" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_F4_v1_1.wav" />
 		</group>

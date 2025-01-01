@@ -141,7 +141,7 @@
 			<sample rootNote="57" loNote="55" hiNote="58" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_A2_v1_1.wav" />
 			<sample rootNote="60" loNote="59" hiNote="66" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_C3_v1_1.wav" />
 		</group>
-		<group name="Sus Non Vib - ANY">
+		<group name="Sus Non Vib - ANY" tags="1-dynamics-ff">
 			<sample rootNote="74" loNote="67" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_D4_v1_1.wav" />
 			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_sus_F4_v1_1.wav" start="4298" />
 		</group>

@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.040" release="0.072" ampVelTrack="0.8">
-		<group name="Group 1">
+		<group name="Group 1" tags="1-dynamics-ff">
 			<sample rootNote="45" loNote="45" hiNote="46" loVel="0" hiVel="127" end="125812" path="Resources/Bass Solo Samples/BKCtbss_SusVib_A1_v3_rr1-PB-loop.wav" tuning="-0.10" volume="12.0dB" />
 			<sample rootNote="59" loNote="58" hiNote="67" loVel="0" hiVel="127" end="90996" path="Resources/Bass Solo Samples/BKCtbss_SusVib_B2_v3_rr1-PB-loop.wav" tuning="-0.10" volume="12.0dB" />
 			<sample rootNote="49" loNote="47" hiNote="50" loVel="0" hiVel="127" end="93622" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C#2_v3_rr1-PB-loop.wav" tuning="-0.05" volume="12.0dB" />
@@ -62,7 +62,7 @@
 			<sample rootNote="56" loNote="54" hiNote="57" loVel="0" hiVel="127" end="96007" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#2_v3_rr1-PB-loop.wav" tuning="-0.05" volume="12.0dB" />
 			<sample rootNote="31" loNote="31" hiNote="34" loVel="0" hiVel="127" end="89150" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G0_v3_rr1-PB-loop.wav" volume="12.0dB" />
 		</group>
-		<group name="Group 2">
+		<group name="Group 2" tags="1-dynamics-ff">
 			<sample rootNote="45" loNote="45" hiNote="46" loVel="0" hiVel="127" end="125812" path="Resources/Bass Solo Samples/BKCtbss_SusVib_A1_v3_rr1-PB-loop.wav" tuning="-0.10" volume="12.0dB" />
 			<sample rootNote="59" loNote="58" hiNote="67" loVel="0" hiVel="127" end="90996" path="Resources/Bass Solo Samples/BKCtbss_SusVib_B2_v3_rr1-PB-loop.wav" tuning="-0.10" volume="12.0dB" />
 			<sample rootNote="49" loNote="47" hiNote="50" loVel="0" hiVel="127" end="93622" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C#2_v3_rr1-PB-loop.wav" tuning="-0.05" volume="12.0dB" />
@@ -76,7 +76,7 @@
 			<sample rootNote="56" loNote="54" hiNote="57" loVel="0" hiVel="127" end="96007" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G#2_v3_rr1-PB-loop.wav" tuning="-0.05" volume="12.0dB" />
 			<sample rootNote="31" loNote="31" hiNote="34" loVel="0" hiVel="127" end="89150" path="Resources/Bass Solo Samples/BKCtbss_SusVib_G0_v3_rr1-PB-loop.wav" volume="12.0dB" />
 		</group>
-		<group name="Group 7">
+		<group name="Group 7" tags="1-dynamics-ff">
 			<sample rootNote="45" loNote="45" hiNote="46" loVel="0" hiVel="127" end="125812" path="Resources/Bass Solo Samples/BKCtbss_SusVib_A1_v3_rr1-PB-loop.wav" tuning="-0.10" volume="12.0dB" />
 			<sample rootNote="59" loNote="58" hiNote="67" loVel="0" hiVel="127" end="90996" path="Resources/Bass Solo Samples/BKCtbss_SusVib_B2_v3_rr1-PB-loop.wav" tuning="-0.10" volume="12.0dB" />
 			<sample rootNote="49" loNote="47" hiNote="50" loVel="0" hiVel="127" end="93622" path="Resources/Bass Solo Samples/BKCtbss_SusVib_C#2_v3_rr1-PB-loop.wav" tuning="-0.05" volume="12.0dB" />

@@ -48,7 +48,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.060" release="0.028" ampVelTrack="0.8">
-		<group name="Group 1">
+		<group name="Group 1" tags="1-dynamics-ff">
 			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="352745" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A3_v1_1-PB-loop.wav" volume="5.0dB" />
 			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="127" end="323607" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A4_v1_1-PB-loop.wav" volume="3.0dB" />
 			<sample rootNote="93" loNote="91" hiNote="94" loVel="0" hiVel="127" end="242837" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A5_v1_1-PB-loop.wav" volume="3.0dB" />
@@ -60,7 +60,7 @@
 			<sample rootNote="76" loNote="74" hiNote="78" loVel="0" hiVel="127" end="304715" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E4_v1_2-PB-loop.wav" volume="6.0dB" />
 			<sample rootNote="88" loNote="86" hiNote="90" loVel="0" hiVel="127" end="309697" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E5_v1_2-PB-loop.wav" volume="3.0dB" />
 		</group>
-		<group name="Group 2">
+		<group name="Group 2" tags="1-dynamics-ff">
 			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="352745" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A3_v1_1-PB-loop.wav" volume="3.5dB" />
 			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="127" end="323607" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A4_v1_1-PB-loop.wav" volume="1.5dB" />
 			<sample rootNote="93" loNote="91" hiNote="94" loVel="0" hiVel="127" end="242837" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A5_v1_1-PB-loop.wav" volume="1.5dB" />
@@ -72,7 +72,7 @@
 			<sample rootNote="76" loNote="74" hiNote="78" loVel="0" hiVel="127" end="304715" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E4_v1_2-PB-loop.wav" volume="4.5dB" />
 			<sample rootNote="88" loNote="86" hiNote="90" loVel="0" hiVel="127" end="309697" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_E5_v1_2-PB-loop.wav" volume="1.5dB" />
 		</group>
-		<group name="Group 4">
+		<group name="Group 4" tags="1-dynamics-ff">
 			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="352745" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A3_v1_1-PB-loop.wav" volume="5.0dB" />
 			<sample rootNote="81" loNote="79" hiNote="82" loVel="0" hiVel="127" end="323607" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A4_v1_1-PB-loop.wav" volume="3.0dB" />
 			<sample rootNote="93" loNote="91" hiNote="94" loVel="0" hiVel="127" end="242837" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_susvib_A5_v1_1-PB-loop.wav" volume="3.0dB" />
