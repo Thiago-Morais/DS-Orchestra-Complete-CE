@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0.5">
+	<groups attack="0" release="0.028" ampVelTrack="0.8">
 		<group name="Group 1">
 			<sample rootNote="48" loNote="45" hiNote="48" loVel="0" hiVel="6" end="99628" path="Resources/TC - Sleigh Bells Samples/SBO Hit f.wav" volume="6.020599913279624dB" />
 			<sample rootNote="48" loNote="45" hiNote="48" loVel="8" hiVel="127" end="84429" path="Resources/TC - Sleigh Bells Samples/SBO Hit mp.wav" volume="6.020599913279624dB" />

@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.060" release="0.028" ampVelTrack="0.5">
+	<groups attack="0.060" release="0.028" ampVelTrack="0.8">
 		<group name="Group 3">
 			<sample rootNote="72" loNote="72" hiNote="75" loVel="0" hiVel="127" end="17865" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_C3-PB.wav" tuning="-0.05" volume="2.5dB" />
 			<sample rootNote="76" loNote="76" hiNote="80" loVel="0" hiVel="127" end="17865" path="Resources/flute-SOLO-KS-C3 Samples/LDFlute_stac_E3-PB.wav" volume="2.5dB" />

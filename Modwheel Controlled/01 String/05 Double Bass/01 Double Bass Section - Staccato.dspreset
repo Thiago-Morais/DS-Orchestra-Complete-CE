@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.030" release="0.090" ampVelTrack="0.5">
+	<groups attack="0.030" release="0.090" ampVelTrack="0.8">
 		<group name="Group 4">
 			<sample rootNote="36" loNote="36" hiNote="37" loVel="0" hiVel="127" end="51766" path="Resources/Bass Ensemble Samples/basses-stc-rr1-c1.wav" volume="-1.0dB" />
 			<sample rootNote="39" loNote="38" hiNote="40" loVel="0" hiVel="127" end="52962" path="Resources/Bass Ensemble Samples/basses-stc-rr1-d#1.wav" volume="-3.0dB" />

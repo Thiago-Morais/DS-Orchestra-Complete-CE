@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.060" release="0.084" ampVelTrack="0.5">
+	<groups attack="0.060" release="0.084" ampVelTrack="0.8">
 		<group name="Group 11">
 			<sample rootNote="48" loNote="48" hiNote="50" loVel="0" hiVel="62" end="138265" path="Resources/Cello Ensemble Samples/pizzT_C1_v1_RR1.wav" volume="12.0dB" />
 			<sample rootNote="48" loNote="48" hiNote="50" loVel="54" hiVel="127" end="163522" path="Resources/Cello Ensemble Samples/pizzT_C1_v2_RR1.wav" volume="12.0dB" />

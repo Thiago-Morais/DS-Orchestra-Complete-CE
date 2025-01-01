@@ -43,7 +43,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.040" ampVelTrack="0.5">
+	<groups attack="0" release="0.040" ampVelTrack="0.8">
 		<group name="Piano FF" tags="3-dynamics-ff" volume="6dB">
 			<sample rootNote="21" loNote="20" hiNote="23" path="Resources/Piano Samples/Player_dyn3_rr1_000.wav" />
 			<sample rootNote="25" loNote="24" hiNote="27" path="Resources/Piano Samples/Player_dyn3_rr1_002.wav" />

@@ -43,7 +43,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.050" release="0.080" ampVelTrack="0.5">
+	<groups attack="0.050" release="0.080" ampVelTrack="0.8">
 		<group name="Group 10">
 			<sample rootNote="67" loNote="67" hiNote="68" path="Resources/2nd Violin Section Samples/2nd-violins-stc-rr1-g3-PB.wav" volume="2.5dB" />
 			<sample rootNote="70" loNote="69" hiNote="71" path="Resources/2nd Violin Section Samples/2nd-violins-stc-rr1-a#3-PB.wav" volume="2.5dB" />

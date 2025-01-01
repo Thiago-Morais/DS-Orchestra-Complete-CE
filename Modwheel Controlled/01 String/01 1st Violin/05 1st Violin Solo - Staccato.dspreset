@@ -43,7 +43,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0.5">
+	<groups attack="0" release="0.028" ampVelTrack="0.8">
 		<group name="Shorts">
 			<sample rootNote="55" loNote="67" hiNote="67" path="Resources/c - Violin 2 - Shorts Samples/56221__ldk1609__violin-spiccato-g-2.wav" start="1926" tuning="-1.00" />
 			<sample rootNote="56" loNote="68" hiNote="68" path="Resources/c - Violin 2 - Shorts Samples/56192__ldk1609__violin-spiccato-a2.wav" start="2016" tuning="-1.00" />

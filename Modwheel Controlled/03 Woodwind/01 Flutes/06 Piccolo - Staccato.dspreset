@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.001" release="0.080" ampVelTrack="0.5">
+	<groups attack="0.001" release="0.080" ampVelTrack="0.8">
 		<group name="Group 1">
 			<sample rootNote="70" loNote="70" hiNote="74" loVel="0" hiVel="127" end="19264" path="Resources/PiccoloStac Samples/piccolo_A#4_staccato1.wav" volume="10.0dB" />
 			<sample rootNote="82" loNote="81" hiNote="86" loVel="0" hiVel="127" end="18882" path="Resources/PiccoloStac Samples/piccolo_A#5_staccato1.wav" volume="10.0dB" />

@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.112" release="0.101" ampVelTrack="0.5">
+	<groups attack="0.112" release="0.101" ampVelTrack="0.8">
 		<group name="InChoirIrie">
 			<sample rootNote="54" loNote="21" hiNote="55" loVel="0" hiVel="127" end="13752" loopEnabled="true" loopEnd="13747" loopStart="7" path="Resources/InChoirIrie Samples/Vox F#2.wav" tuning="0.03" volume="-13.0dB" />
 			<sample rootNote="57" loNote="56" hiNote="58" loVel="0" hiVel="127" end="15108" loopEnabled="true" loopEnd="15103" loopStart="8" path="Resources/InChoirIrie Samples/Vox A2.wav" tuning="0.03" volume="-13.0dB" />

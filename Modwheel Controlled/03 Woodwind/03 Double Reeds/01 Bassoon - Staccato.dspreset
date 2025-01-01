@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.120" ampVelTrack="0.5">
+	<groups attack="0" release="0.120" ampVelTrack="0.8">
 		<group name="gr_1">
 			<sample rootNote="45" loNote="43" hiNote="46" loVel="0" hiVel="62" end="26690" path="Resources/BassoonStac Samples/PSBassoon_A1_v1_rr1.wav" volume="12.0dB" />
 			<sample rootNote="57" loNote="56" hiNote="58" loVel="0" hiVel="62" end="25594" path="Resources/BassoonStac Samples/PSBassoon_A2_v1_rr1.wav" volume="12.0dB" />

@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.040" release="0.072" ampVelTrack="0.5">
+	<groups attack="0.040" release="0.072" ampVelTrack="0.8">
 		<group name="group1-RR1">
 			<sample rootNote="40" loNote="36" hiNote="41" loVel="0" hiVel="127" end="41243" path="Resources/Bass Solo Samples/BKCtbss_Spic_E0-rr1-PB.wav" volume="-5.5dB" />
 			<sample rootNote="42" loNote="42" hiNote="42" loVel="0" hiVel="127" end="46903" path="Resources/Bass Solo Samples/BKCtbss_Spic_F#0-rr1-PB.wav" volume="-5.5dB" />

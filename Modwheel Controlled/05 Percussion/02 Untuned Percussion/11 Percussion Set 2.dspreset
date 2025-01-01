@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0.5">
+	<groups attack="0" release="0.028" ampVelTrack="0.8">
 		<group name="BD RR 1">
 			<sample rootNote="36" loNote="35" hiNote="36" loVel="0" hiVel="17" end="66134" path="Resources/Percussion Samples/BDrumNewhit_v1_rr1_Sum.wav" volume="6.020570403225608dB" />
 			<sample rootNote="36" loNote="35" hiNote="36" loVel="18" hiVel="35" end="70393" path="Resources/Percussion Samples/BDrumNewhit_v2_rr1_Sum.wav" volume="6.020570403225608dB" />

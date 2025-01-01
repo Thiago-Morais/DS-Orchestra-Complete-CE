@@ -45,7 +45,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0.5">
+	<groups attack="0" release="0.028" ampVelTrack="0.8">
 		<group name="Mute 2-ff" tags="2-dynamics-ff">
 			<sample rootNote="46" loNote="46" hiNote="48" end="207757" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_A#1_v2_1.wav" />
 			<sample rootNote="51" loNote="49" hiNote="51" end="210162" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_D#2_v2_1.wav" />
