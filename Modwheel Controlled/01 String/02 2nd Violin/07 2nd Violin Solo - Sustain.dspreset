@@ -46,7 +46,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.030" decay="0.024" release="0.064" ampVelTrack="0.8">
-		<group name="Group 1" tags="1-dynamics-ff">
+		<group name="Group 1" tags="1-dynamics-ff" seqMode="random">
 			<sample rootNote="55" loNote="56" hiNote="56" start="300" path="Resources/2nd-violin-SOLO-sustain Samples/3_G-PB-loop.wav" tuning="0.03" volume="-1.0dB" />
 			<sample rootNote="56" loNote="55" hiNote="55" start="300" path="Resources/2nd-violin-SOLO-sustain Samples/3_Ab-PB-loop.wav" tuning="0.04" volume="0.5dB" />
 			<sample rootNote="57" loNote="58" hiNote="59" start="300" path="Resources/2nd-violin-SOLO-sustain Samples/3_A-PB-loop.wav" tuning="0.08" volume="-1.0dB" />
