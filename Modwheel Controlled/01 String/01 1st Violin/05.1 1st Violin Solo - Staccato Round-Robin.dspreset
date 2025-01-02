@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO Verify samples balance (volume) -->
+<?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
+<DecentSampler>
+	<effects>
+		<effect type="highpass" frequency="100.0" />
+		<effect type="chorus" mix="0.1377191245555878" modDepth="0.2" modRate="0.2" />
+		<effect type="delay" delayTimeFormat="musical_time" delayTime="10" stereoOffset="0.01" feedback="0.3" wetLevel="0.5" />
+		<effect type="reverb" wetLevel="1.0" />
+	</effects>
+	<ui width="812" height="375" bgImage="Resources/Images/Violin 1.png">
+		<tab name="main">
+			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
+			</labeled-knob>
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.20">
+				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
+			</labeled-knob>
+			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
+			</labeled-knob>
+			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</labeled-knob>
+			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</labeled-knob>
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</labeled-knob>
+			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
+				<!-- Cross fade between 2 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<!-- Cross fade between 3 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+			</labeled-knob>
+		</tab>
+		<keyboard />
+	</ui>
+	<groups attack="0" release="0.028" ampVelTrack="0.8">
+		<group name="RR 1" seqMode="random" tags="1-dynamics-ff" seqPosition="1">
+			<sample rootNote="55" loNote="67" hiNote="69" path="Resources/c - Violin 2 - Shorts Samples/56221__ldk1609__violin-spiccato-g-2.wav" start="1926" tuning="-1.00" />
+			<sample rootNote="58" loNote="70" hiNote="72" path="Resources/c - Violin 2 - Shorts Samples/56196__ldk1609__violin-spiccato-b2.wav" start="2025" tuning="-1.00" />
+			<sample rootNote="61" loNote="73" hiNote="75" path="Resources/c - Violin 2 - Shorts Samples/56209__ldk1609__violin-spiccato-d3.wav" start="1872" tuning="-1.00" />
+			<sample rootNote="64" loNote="76" hiNote="78" path="Resources/c - Violin 2 - Shorts Samples/56218__ldk1609__violin-spiccato-f3.wav" start="3048" tuning="-1.00" />
+			<sample rootNote="67" loNote="79" hiNote="84" path="Resources/c - Violin 2 - Shorts Samples/56222__ldk1609__violin-spiccato-g-3.wav" start="1770" tuning="-1.00" />
+			<sample rootNote="73" loNote="85" hiNote="87" path="Resources/c - Violin 2 - Shorts Samples/56210__ldk1609__violin-spiccato-d4.wav" start="1518" tuning="-1.00" />
+			<sample rootNote="76" loNote="88" hiNote="90" path="Resources/c - Violin 2 - Shorts Samples/56219__ldk1609__violin-spiccato-f4.wav" start="2904" tuning="-1.00" />
+			<sample rootNote="79" loNote="91" hiNote="93" path="Resources/c - Violin 2 - Shorts Samples/56223__ldk1609__violin-spiccato-g-4.wav" start="1834" tuning="-1.00" />
+			<sample rootNote="82" loNote="94" hiNote="96" path="Resources/c - Violin 2 - Shorts Samples/56198__ldk1609__violin-spiccato-b4.wav" start="2250" tuning="-1.00" />
+			<sample rootNote="85" loNote="97" hiNote="99" path="Resources/c - Violin 2 - Shorts Samples/56211__ldk1609__violin-spiccato-d5.wav" start="2826" tuning="-1.00" />
+			<sample rootNote="88" loNote="100" hiNote="102" path="Resources/c - Violin 2 - Shorts Samples/56220__ldk1609__violin-spiccato-f5.wav" start="1800" tuning="-1.00" />
+			<sample rootNote="91" loNote="103" hiNote="105" path="Resources/c - Violin 2 - Shorts Samples/56224__ldk1609__violin-spiccato-g-5.wav" start="1584" tuning="-1.00" />
+			<sample rootNote="94" loNote="106" hiNote="112" path="Resources/c - Violin 2 - Shorts Samples/56199__ldk1609__violin-spiccato-b5.wav" start="1620" tuning="-1.00" />
+		</group>
+		<group name="RR 2" seqMode="random" tags="1-dynamics-ff" seqPosition="2">
+			<sample rootNote="56" loNote="67" hiNote="70" path="Resources/c - Violin 2 - Shorts Samples/56192__ldk1609__violin-spiccato-a2.wav" start="2016" tuning="-1.00" />
+			<sample rootNote="59" loNote="71" hiNote="73" path="Resources/c - Violin 2 - Shorts Samples/56203__ldk1609__violin-spiccato-c3.wav" start="2080" tuning="-1.00" />
+			<sample rootNote="62" loNote="74" hiNote="76" path="Resources/c - Violin 2 - Shorts Samples/56206__ldk1609__violin-spiccato-d-3.wav" start="2032" tuning="-1.00" />
+			<sample rootNote="65" loNote="77" hiNote="79" path="Resources/c - Violin 2 - Shorts Samples/56215__ldk1609__violin-spiccato-f-3.wav" start="1932" tuning="-1.00" />
+			<sample rootNote="68" loNote="80" hiNote="82" path="Resources/c - Violin 2 - Shorts Samples/56193__ldk1609__violin-spiccato-a3.wav" start="1635" tuning="-1.00" />
+			<sample rootNote="71" loNote="83" hiNote="88" path="Resources/c - Violin 2 - Shorts Samples/56204__ldk1609__violin-spiccato-c4.wav" start="1938" tuning="-1.00" />
+			<sample rootNote="77" loNote="89" hiNote="91" path="Resources/c - Violin 2 - Shorts Samples/56216__ldk1609__violin-spiccato-f-4.wav" start="2030" tuning="-1.00" />
+			<sample rootNote="80" loNote="92" hiNote="94" path="Resources/c - Violin 2 - Shorts Samples/56194__ldk1609__violin-spiccato-a4.wav" start="2205" tuning="-1.00" />
+			<sample rootNote="83" loNote="95" hiNote="97" path="Resources/c - Violin 2 - Shorts Samples/56205__ldk1609__violin-spiccato-c5.wav" start="1760" tuning="-1.00" />
+			<sample rootNote="86" loNote="98" hiNote="100" path="Resources/c - Violin 2 - Shorts Samples/56208__ldk1609__violin-spiccato-d-5.wav" start="2260" tuning="-1.00" />
+			<sample rootNote="89" loNote="101" hiNote="103" path="Resources/c - Violin 2 - Shorts Samples/56217__ldk1609__violin-spiccato-f-5.wav" start="2486" tuning="-1.00" />
+			<sample rootNote="92" loNote="104" hiNote="112" path="Resources/c - Violin 2 - Shorts Samples/56195__ldk1609__violin-spiccato-a5.wav" start="2184" tuning="-1.00" />
+		</group>
+		<group name="RR 3" seqMode="random" tags="1-dynamics-ff" seqPosition="3">
+			<sample rootNote="57" loNote="67" hiNote="71" path="Resources/c - Violin 2 - Shorts Samples/56188__ldk1609__violin-spiccato-a-2.wav" start="3080" tuning="-1.00" />
+			<sample rootNote="60" loNote="72" hiNote="74" path="Resources/c - Violin 2 - Shorts Samples/56200__ldk1609__violin-spiccato-c-3.wav" start="3003" tuning="-1.00" />
+			<sample rootNote="63" loNote="75" hiNote="77" path="Resources/c - Violin 2 - Shorts Samples/56212__ldk1609__violin-spiccato-e3.wav" start="1812" tuning="-1.00" />
+			<sample rootNote="66" loNote="78" hiNote="80" path="Resources/c - Violin 2 - Shorts Samples/56226__ldk1609__violin-spiccato-g3.wav" start="2625" tuning="-1.00" />
+			<sample rootNote="69" loNote="81" hiNote="83" path="Resources/c - Violin 2 - Shorts Samples/56189__ldk1609__violin-spiccato-a-3.wav" start="1248" tuning="-1.00" />
+			<sample rootNote="72" loNote="84" hiNote="89" path="Resources/c - Violin 2 - Shorts Samples/56201__ldk1609__violin-spiccato-c-4.wav" start="1845" tuning="-1.00" />
+			<sample rootNote="78" loNote="90" hiNote="92" path="Resources/c - Violin 2 - Shorts Samples/56227__ldk1609__violin-spiccato-g4.wav" start="1810" tuning="-1.00" />
+			<sample rootNote="81" loNote="93" hiNote="95" path="Resources/c - Violin 2 - Shorts Samples/56190__ldk1609__violin-spiccato-a-4.wav" start="2147" tuning="-1.00" />
+			<sample rootNote="84" loNote="96" hiNote="98" path="Resources/c - Violin 2 - Shorts Samples/56202__ldk1609__violin-spiccato-c-5.wav" start="3488" tuning="-1.00" />
+			<sample rootNote="87" loNote="99" hiNote="101" path="Resources/c - Violin 2 - Shorts Samples/56214__ldk1609__violin-spiccato-e5.wav" start="2016" tuning="-1.00" />
+			<sample rootNote="90" loNote="102" hiNote="104" path="Resources/c - Violin 2 - Shorts Samples/56228__ldk1609__violin-spiccato-g5.wav" start="1666" tuning="-1.00" />
+			<sample rootNote="93" loNote="105" hiNote="112" path="Resources/c - Violin 2 - Shorts Samples/56191__ldk1609__violin-spiccato-a-5.wav" start="2040" tuning="-1.00" />
+		</group>
+	</groups>
+	<midi>
+		<!-- Controls dynamics with modwheel -->
+		<!--
+		<cc number="1">
+		<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+		</cc>
+		-->
+		<!-- Controls attack with note velocity -->
+		<note note="0-127">
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		</note>
+	</midi>
+	<!-- Initial dynamics values -->
+	<tags>
+		<tag name="2-dynamics-ff" volume="1" />
+		<tag name="2-dynamics-mp" volume="0" />
+		<tag name="3-dynamics-ff" volume="1" />
+		<tag name="3-dynamics-mf" volume="0" />
+		<tag name="3-dynamics-mp" volume="0" />
+	</tags>
+	<modulators />
+</DecentSampler>
