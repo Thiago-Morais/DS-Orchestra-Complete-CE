@@ -44,40 +44,40 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.040" release="0.076" ampVelTrack="0.8" loopCrossfade="6000" loopEnabled="1">
-		<group name="Solo" seqMode="random" tags="1-dynamics-ff">
-			<sample rootNote="67" loNote="67" hiNote="67" loopStart="71269" loopEnd="188832" path="Resources/1st-violin-SOLO-tremolo Samples/3_G-PB.wav" volume="-5.7dB" tuning="0.05" start="862" />
-			<sample rootNote="69" loNote="68" hiNote="69" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/3_A-PB.wav" volume="-5.7dB" tuning="0.05" />
-			<sample rootNote="71" loNote="70" hiNote="71" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/3_B-PB.wav" volume="-5.7dB" tuning="0.05" />
-			<sample rootNote="73" loNote="72" hiNote="73" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/4_Db-PB.wav" volume="-5.7dB" />
-			<sample rootNote="75" loNote="74" hiNote="75" loopStart="22499" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/4_Eb-PB.wav" volume="-6.7dB" tuning="0.10" start="426" />
-			<sample rootNote="77" loNote="76" hiNote="77" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/4_F-PB.wav" volume="-5.7dB" tuning="0.10" />
-			<sample rootNote="79" loNote="78" hiNote="79" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/4_G-PB.wav" volume="-5.7dB" />
-			<sample rootNote="81" loNote="80" hiNote="81" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/4_A-PB.wav" volume="-4.7dB" tuning="0.05" start="1139" />
-			<sample rootNote="83" loNote="82" hiNote="83" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/4_B-PB.wav" volume="-5.7dB" tuning="0.25" start="453" />
-			<sample rootNote="85" loNote="84" hiNote="85" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/5_Db-PB.wav" volume="-5.7dB" tuning="0.15" start="914" />
-			<sample rootNote="87" loNote="86" hiNote="87" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/5_Eb-PB.wav" volume="-5.7dB" start="481" />
-			<sample rootNote="89" loNote="88" hiNote="89" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/5_F-PB.wav" volume="0.3dB" start="362" />
-			<sample rootNote="91" loNote="90" hiNote="91" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/5_G-PB.wav" volume="-2.7dB" start="0" />
-			<sample rootNote="93" loNote="92" hiNote="93" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/5_A-PB.wav" volume="1.3dB" start="0" />
-			<sample rootNote="95" loNote="94" hiNote="95" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/5_B-PB.wav" volume="-0.7dB" start="534" />
-			<sample rootNote="97" loNote="96" hiNote="97" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/6_Db-PB.wav" volume="-0.7dB" tuning="-0.10" start="452" />
-			<sample rootNote="99" loNote="98" hiNote="99" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/6_Eb-PB.wav" volume="-3.7dB" tuning="-0.10" start="0" />
-			<sample rootNote="101" loNote="100" hiNote="101" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/6_F-PB.wav" volume="-1.7dB" tuning="-0.10" start="460" />
-			<sample rootNote="103" loNote="102" hiNote="103" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/6_G-PB.wav" volume="-0.7dB" tuning="-0.25" start="0" />
-			<sample rootNote="105" loNote="104" hiNote="105" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/6_A-PB.wav" volume="1.3dB" tuning="-0.15" start="254" />
-			<sample rootNote="107" loNote="106" hiNote="117" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/6_B-PB.wav" volume="-2.7dB" tuning="-0.15" start="1645" />
+		<group name="Tremolo" seqMode="random" tags="1-dynamics-ff">
+			<sample rootNote="67" loNote="55" hiNote="55" loopStart="71269" loopEnd="188832" path="Resources/1st-violin-SOLO-tremolo Samples/3_G-PB.wav" volume="-5.7dB" tuning="0.05" start="862" />
+			<sample rootNote="69" loNote="56" hiNote="57" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/3_A-PB.wav" volume="-5.7dB" tuning="0.05" />
+			<sample rootNote="71" loNote="58" hiNote="59" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/3_B-PB.wav" volume="-5.7dB" tuning="0.05" />
+			<sample rootNote="73" loNote="60" hiNote="61" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/4_Db-PB.wav" volume="-5.7dB" />
+			<sample rootNote="75" loNote="62" hiNote="63" loopStart="22499" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/4_Eb-PB.wav" volume="-6.7dB" tuning="0.10" start="426" />
+			<sample rootNote="77" loNote="64" hiNote="65" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/4_F-PB.wav" volume="-5.7dB" tuning="0.10" />
+			<sample rootNote="79" loNote="66" hiNote="67" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/4_G-PB.wav" volume="-5.7dB" />
+			<sample rootNote="81" loNote="68" hiNote="69" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/4_A-PB.wav" volume="-4.7dB" tuning="0.05" start="1139" />
+			<sample rootNote="83" loNote="70" hiNote="71" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/4_B-PB.wav" volume="-5.7dB" tuning="0.25" start="453" />
+			<sample rootNote="85" loNote="72" hiNote="73" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/5_Db-PB.wav" volume="-5.7dB" tuning="0.15" start="914" />
+			<sample rootNote="87" loNote="74" hiNote="75" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/5_Eb-PB.wav" volume="-5.7dB" start="481" />
+			<sample rootNote="89" loNote="76" hiNote="77" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/5_F-PB.wav" volume="0.3dB" start="362" />
+			<sample rootNote="91" loNote="78" hiNote="79" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/5_G-PB.wav" volume="-2.7dB" start="0" />
+			<sample rootNote="93" loNote="80" hiNote="81" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/5_A-PB.wav" volume="1.3dB" start="0" />
+			<sample rootNote="95" loNote="82" hiNote="83" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/5_B-PB.wav" volume="-0.7dB" start="534" />
+			<sample rootNote="97" loNote="84" hiNote="85" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/6_Db-PB.wav" volume="-0.7dB" tuning="-0.10" start="452" />
+			<sample rootNote="99" loNote="86" hiNote="87" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/6_Eb-PB.wav" volume="-3.7dB" tuning="-0.10" start="0" />
+			<sample rootNote="101" loNote="88" hiNote="89" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/6_F-PB.wav" volume="-1.7dB" tuning="-0.10" start="460" />
+			<sample rootNote="103" loNote="90" hiNote="91" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/6_G-PB.wav" volume="-0.7dB" tuning="-0.25" start="0" />
+			<sample rootNote="105" loNote="92" hiNote="93" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/6_A-PB.wav" volume="1.3dB" tuning="-0.15" start="254" />
+			<sample rootNote="107" loNote="94" hiNote="105" loopStart="23644" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/6_B-PB.wav" volume="-2.7dB" tuning="-0.15" start="1645" />
 		</group>
 		<group name="Section" seqMode="random" tags="1-dynamics-ff">
-			<sample rootNote="67" loNote="67" hiNote="68" loopStart="45684" loopEnd="76037" path="Resources/1st Violin Section Samples/3_G.wav" volume="-3.0dB" loopCrossfade="30354" />
-			<sample rootNote="70" loNote="69" hiNote="71" loopStart="22873" loopEnd="56329" path="Resources/1st Violin Section Samples/3_Bb.wav" volume="-3.0dB" />
-			<sample rootNote="73" loNote="72" hiNote="74" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/4_Db.wav" volume="-3.0dB" tuning="-0.05" />
-			<sample rootNote="76" loNote="75" hiNote="77" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/4_E-PB-loop.wav" volume="-2.0dB" tuning="0.05" />
-			<sample rootNote="79" loNote="78" hiNote="80" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/4_G-PB-loop.wav" volume="-3.0dB" />
-			<sample rootNote="82" loNote="81" hiNote="83" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/4_Bb.wav" volume="-3.0dB" tuning="-0.05" start="363" />
-			<sample rootNote="85" loNote="84" hiNote="86" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/5_Db.wav" volume="-3.0dB" tuning="-0.05" />
-			<sample rootNote="88" loNote="87" hiNote="89" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/5_E.wav" volume="-3.0dB" tuning="-0.05" />
-			<sample rootNote="91" loNote="90" hiNote="92" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/5_G.wav" volume="-3.0dB" tuning="-0.05" />
-			<sample rootNote="95" loNote="93" hiNote="117" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/5_B.wav" volume="-3.0dB" tuning="-0.05" />
+			<sample rootNote="67" loNote="55" hiNote="56" loopStart="45684" loopEnd="76037" path="Resources/1st Violin Section Samples/3_G.wav" volume="-3.0dB" loopCrossfade="30354" />
+			<sample rootNote="70" loNote="57" hiNote="59" loopStart="22873" loopEnd="56329" path="Resources/1st Violin Section Samples/3_Bb.wav" volume="-3.0dB" />
+			<sample rootNote="73" loNote="60" hiNote="62" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/4_Db.wav" volume="-3.0dB" tuning="-0.05" />
+			<sample rootNote="76" loNote="63" hiNote="65" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/4_E-PB-loop.wav" volume="-2.0dB" tuning="0.05" />
+			<sample rootNote="79" loNote="66" hiNote="68" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/4_G-PB-loop.wav" volume="-3.0dB" />
+			<sample rootNote="82" loNote="69" hiNote="71" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/4_Bb.wav" volume="-3.0dB" tuning="-0.05" start="363" />
+			<sample rootNote="85" loNote="72" hiNote="74" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/5_Db.wav" volume="-3.0dB" tuning="-0.05" />
+			<sample rootNote="88" loNote="75" hiNote="77" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/5_E.wav" volume="-3.0dB" tuning="-0.05" />
+			<sample rootNote="91" loNote="78" hiNote="80" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/5_G.wav" volume="-3.0dB" tuning="-0.05" />
+			<sample rootNote="95" loNote="81" hiNote="105" loopStart="23644" loopEnd="1000000" path="Resources/1st Violin Section Samples/5_B.wav" volume="-3.0dB" tuning="-0.05" />
 		</group>
 	</groups>
 	<midi>

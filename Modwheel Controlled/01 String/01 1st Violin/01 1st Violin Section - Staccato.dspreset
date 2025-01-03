@@ -44,21 +44,21 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.040" release="0.076" ampVelTrack="0.8">
-		<group name="Group 11" seqMode="random" tags="1-dynamics-ff">
-			<sample rootNote="68" loNote="67" hiNote="68" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g3-PB.wav" volume="4.0dB" />
-			<sample rootNote="71" loNote="69" hiNote="71" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#3-PB.wav" volume="4.0dB" />
-			<sample rootNote="74" loNote="72" hiNote="74" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#4-PB.wav" volume="4.0dB" />
-			<sample rootNote="77" loNote="75" hiNote="77" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e4-PB.wav" volume="5.0dB" />
-			<sample rootNote="80" loNote="78" hiNote="80" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g4-PB.wav" volume="3.0dB" />
-			<sample rootNote="83" loNote="81" hiNote="83" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#4-PB.wav" volume="3.0dB" />
-			<sample rootNote="86" loNote="84" hiNote="86" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#5-PB.wav" volume="5.0dB" />
-			<sample rootNote="89" loNote="87" hiNote="89" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e5-PB.wav" volume="4.0dB" />
-			<sample rootNote="92" loNote="90" hiNote="92" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g5-PB.wav" volume="6.0dB" />
-			<sample rootNote="95" loNote="93" hiNote="95" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#5-PB.wav" volume="6.0dB" />
-			<sample rootNote="98" loNote="96" hiNote="98" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#6-PB.wav" volume="5.0dB" />
-			<sample rootNote="101" loNote="99" hiNote="101" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e6-PB.wav" volume="3.0dB" />
-			<sample rootNote="104" loNote="102" hiNote="104" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g6-PB.wav" volume="4.0dB" />
-			<sample rootNote="107" loNote="105" hiNote="117" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#6-PB.wav" volume="3.0dB" />
+		<group name="Staccato" seqMode="random" tags="1-dynamics-ff">
+			<sample rootNote="68" loNote="55" hiNote="56" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g3-PB.wav" volume="4.0dB" />
+			<sample rootNote="71" loNote="57" hiNote="59" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#3-PB.wav" volume="4.0dB" />
+			<sample rootNote="74" loNote="60" hiNote="62" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#4-PB.wav" volume="4.0dB" />
+			<sample rootNote="77" loNote="63" hiNote="65" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e4-PB.wav" volume="5.0dB" />
+			<sample rootNote="80" loNote="66" hiNote="68" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g4-PB.wav" volume="3.0dB" />
+			<sample rootNote="83" loNote="69" hiNote="71" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#4-PB.wav" volume="3.0dB" />
+			<sample rootNote="86" loNote="72" hiNote="74" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#5-PB.wav" volume="5.0dB" />
+			<sample rootNote="89" loNote="75" hiNote="77" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e5-PB.wav" volume="4.0dB" />
+			<sample rootNote="92" loNote="78" hiNote="80" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g5-PB.wav" volume="6.0dB" />
+			<sample rootNote="95" loNote="81" hiNote="83" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#5-PB.wav" volume="6.0dB" />
+			<sample rootNote="98" loNote="84" hiNote="86" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#6-PB.wav" volume="5.0dB" />
+			<sample rootNote="101" loNote="87" hiNote="89" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e6-PB.wav" volume="3.0dB" />
+			<sample rootNote="104" loNote="90" hiNote="92" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g6-PB.wav" volume="4.0dB" />
+			<sample rootNote="107" loNote="93" hiNote="105" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#6-PB.wav" volume="3.0dB" />
 		</group>
 	</groups>
 	<midi>

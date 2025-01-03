@@ -44,7 +44,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.028" ampVelTrack="0.8">
-		<group name="Shorts" seqMode="random" tags="1-dynamics-ff">
+		<group name="Staccato" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="55" loNote="55" hiNote="55" path="Resources/c - Violin 2 - Shorts Samples/56221__ldk1609__violin-spiccato-g-2.wav" start="1926" tuning="-1.00" />
 			<sample rootNote="56" loNote="56" hiNote="56" path="Resources/c - Violin 2 - Shorts Samples/56192__ldk1609__violin-spiccato-a2.wav" start="2016" tuning="-1.00" />
 			<sample rootNote="57" loNote="57" hiNote="57" path="Resources/c - Violin 2 - Shorts Samples/56188__ldk1609__violin-spiccato-a-2.wav" start="3080" tuning="-1.00" />
@@ -89,16 +89,16 @@
 	</groups>
 	<midi>
 		<!-- Controls dynamics with modwheel -->
-		<!--
 		<cc number="1">
-		<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
-		-->
 		<!-- Controls attack with note velocity -->
+		<!--
 		<note note="0-127">
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+		<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
 		</note>
+		-->
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>

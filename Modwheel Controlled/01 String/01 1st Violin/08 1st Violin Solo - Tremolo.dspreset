@@ -45,7 +45,7 @@
 		<keyboard />
 	</ui>
 	<groups release="0.028" ampVelTrack="0.8" loopEnabled="1" loopCrossfade="24000">
-		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
+		<group name="Tremolo" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="67" loNote="55" hiNote="55" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/3_G-PB.wav" start="1327" tuning="0.05" />
 			<sample rootNote="69" loNote="56" hiNote="57" loopStart="30511" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/3_A-PB.wav" start="251" tuning="0.05" />
 			<sample rootNote="71" loNote="58" hiNote="59" loopStart="30511" loopEnd="1000000" path="Resources/1st-violin-SOLO-tremolo Samples/3_B-PB.wav" start="329" tuning="0.05" />
