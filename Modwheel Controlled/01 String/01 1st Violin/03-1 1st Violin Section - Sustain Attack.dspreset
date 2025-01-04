@@ -20,15 +20,21 @@
 				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
 			</labeled-knob>
 			<!-- Glide Button -->
-			<label x="705" y="25" width="90" height="25" textSize="17" textColor="FF000000" text="Glide Time" />
-			<button x="720" y="55" width="60" height="30">
-				<state name="OFF">
-					<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" translation="fixed_value" translationValue="0" />
-				</state>
-				<state name="ON">
-					<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" translation="fixed_value" translationValue="0" />
-				</state>
+			<!-- <label x="705" y="25" width="90" height="25" textSize="17" textColor="FF000000" text="Glide On/Off" /> -->
+			<!-- <button x="720" y="55" width="60" height="30" value="0"> -->
+			<!--
+			<button x="720" y="145" width="60" height="30" value="0">
+			<state name="OFF">
+			<binding type="control" level="ui" position="8" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+			<binding type="control" level="ui" position="8" parameter="VISIBLE" translation="fixed_value" translationValue="false" />
+			<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" translation="fixed_value" translationValue="0" />
+			</state>
+			<state name="ON">
+			<binding type="control" level="ui" position="8" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+			<binding type="control" level="ui" position="8" parameter="VISIBLE" translation="fixed_value" translationValue="true" />
+			</state>
 			</button>
+			-->
 			<labeled-knob x="495" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
 				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
 			</labeled-knob>
@@ -39,9 +45,21 @@
 				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
 			</labeled-knob>
 			<!-- Glide -->
-			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Glide Time" type="float" minValue="0.0" maxValue="10" value="0">
+			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0">
 				<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" />
 			</labeled-knob>
+			<!-- <label x="705" y="125" width="90" height="25" textSize="17" textColor="FF000000" text="Glide On/Off" /> -->
+			<button x="720" y="115" width="60" height="25" value="0">
+				<state name="GLIDE OFF">
+					<binding type="control" level="ui" position="6" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+					<binding type="control" level="ui" position="6" parameter="VISIBLE" translation="fixed_value" translationValue="false" />
+					<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" translation="fixed_value" translationValue="0" />
+				</state>
+				<state name="GLIDE ON">
+					<binding type="control" level="ui" position="6" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+					<binding type="control" level="ui" position="6" parameter="VISIBLE" translation="fixed_value" translationValue="true" />
+				</state>
+			</button>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 				<!-- Cross fade between 1 samples -->
@@ -77,7 +95,7 @@
 			<sample rootNote="89" loNote="87" hiNote="92" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e6-PB.wav" volume="0.0dB" />
 			<sample rootNote="95" loNote="93" hiNote="105" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#6-PB.wav" volume="-1.0dB" />
 		</group>
-		<group name="Sustain" seqMode="random" tags="1-dynamics-ff" loopEnabled="1" loopCrossfade="6000">
+		<group name="Sustain" seqMode="random" tags="1-dynamics-ff" loopEnabled="true" loopCrossfade="6000">
 			<sample rootNote="55" loNote="55" hiNote="56" loopStart="50375" loopEnd="182518" path="Resources/1st Violin Section Samples/1st-violins-sus-g3.wav" start="4665" tuning="-0.10" volume="3.0dB" />
 			<sample rootNote="58" loNote="57" hiNote="59" loopStart="46973" loopEnd="186399" path="Resources/1st Violin Section Samples/1st-violins-sus-a#3.wav" start="1295" tuning="-0.05" volume="3.0dB" />
 			<sample rootNote="61" loNote="60" hiNote="62" loopStart="52451" loopEnd="226083" path="Resources/1st Violin Section Samples/1st-violins-sus-c#4.wav" start="2241" tuning="-0.05" volume="3.0dB" />
