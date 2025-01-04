@@ -43,37 +43,41 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.030" decay="0.024" release="0.064" ampVelTrack="0.5" loopEnabled="1" loopCrossfade="24000">
-		<group name="Sustain" seqMode="random" tags="1-dynamics-ff">
-			<sample rootNote="55" loNote="55" hiNote="55" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/3_G-PB-loop.wav" start="2383" volume="-1.0dB" />
-			<sample rootNote="56" loNote="56" hiNote="56" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/3_Ab-PB-loop.wav" start="2030" tuning="0.01" volume="0.5dB" />
-			<sample rootNote="57" loNote="57" hiNote="58" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/3_A-PB-loop.wav" start="1017" tuning="0.05" volume="-1.0dB" />
-			<sample rootNote="59" loNote="59" hiNote="59" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/3_B-PB-loop.wav" start="626" tuning="-0.05" volume="-0.5dB" />
-			<sample rootNote="60" loNote="60" hiNote="60" loopStart="62299" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_C-PB.wav" start="628" tuning="0.03" />
-			<sample rootNote="61" loNote="61" hiNote="61" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_Db-PB.wav" start="1124" tuning="0.03" volume="2.0dB" />
-			<sample rootNote="62" loNote="62" hiNote="62" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_D-PB.wav" start="392" tuning="-0.05" />
-			<sample rootNote="63" loNote="63" hiNote="63" loopStart="89111" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_Eb-PB.wav" start="622" tuning="-0.05" volume="0.5dB" />
-			<sample rootNote="65" loNote="64" hiNote="65" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_F-PB.wav" start="1133" tuning="0.03" />
-			<sample rootNote="66" loNote="66" hiNote="66" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_Gb-PB.wav" start="1641" tuning="-0.05" volume="1.0dB" />
-			<sample rootNote="67" loNote="67" hiNote="67" loopStart="54250" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_G-PB.wav" start="629" tuning="-0.05" />
-			<sample rootNote="68" loNote="68" hiNote="68" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_Ab-PB.wav" start="1020" tuning="0.05" volume="-1.0dB" />
-			<sample rootNote="69" loNote="69" hiNote="71" loopStart="53255" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_A-PB.wav" start="344" tuning="-0.05" />
-			<sample rootNote="72" loNote="72" hiNote="72" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_C-PB.wav" start="600" tuning="0.03" />
-			<sample rootNote="73" loNote="73" hiNote="73" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_Db-PB.wav" start="989" tuning="-0.05" />
-			<sample rootNote="74" loNote="74" hiNote="74" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_D-PB.wav" start="322" tuning="0.03" volume="-1.0dB" />
-			<sample rootNote="75" loNote="75" hiNote="75" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_Eb-PB.wav" start="66" tuning="-0.05" />
-			<sample rootNote="76" loNote="76" hiNote="76" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_E-PB.wav" start="680" tuning="0.03" />
-			<sample rootNote="77" loNote="77" hiNote="77" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_F-PB.wav" start="266" tuning="-0.05" />
-			<sample rootNote="78" loNote="78" hiNote="78" loopStart="66673" loopEnd="161803" path="Resources/1st-violin-SOLO-sustain Samples/5_Gb-PB.wav" start="677" tuning="-0.05" volume="2.0dB" />
-			<sample rootNote="79" loNote="79" hiNote="79" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_G-PB.wav" start="948" tuning="-0.05" />
-			<sample rootNote="80" loNote="80" hiNote="81" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_Ab-PB.wav" start="1026" tuning="-0.15" volume="4.0dB" />
-			<sample rootNote="82" loNote="82" hiNote="82" loopStart="41913" loopEnd="122171" path="Resources/1st-violin-SOLO-sustain Samples/5_Bb-PB.wav" start="1265" tuning="-0.15" volume="4.0dB" />
-			<sample rootNote="83" loNote="83" hiNote="83" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_B-PB.wav" start="1943" tuning="-0.05" volume="3.0dB" />
-			<sample rootNote="84" loNote="84" hiNote="84" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/6_C-PB.wav" start="735" tuning="-0.05" volume="3.0dB" />
-			<sample rootNote="85" loNote="85" hiNote="85" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/6_Db-PB.wav" start="925" tuning="-0.05" volume="4.0dB" />
-			<sample rootNote="86" loNote="86" hiNote="89" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/6_D-PB.wav" start="1692" tuning="-0.05" volume="0.5dB" />
-			<sample rootNote="90" loNote="90" hiNote="91" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/6_Gb-PB.wav" start="485" tuning="-0.35" volume="2.5dB" />
-			<sample rootNote="92" loNote="92" hiNote="93" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/6_Ab-PB.wav" start="562" tuning="-0.30" volume="4.0dB" />
+	<groups attack="0.030" decay="0.024" release="0.064" ampVelTrack="0.5" loopEnabled="true" loopCrossfade="24000">
+		<group name="Sustain RR 1" seqMode="random" tags="1-dynamics-ff" seqPosition="1">
+			<sample rootNote="55" loNote="55" hiNote="58" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/3_G-PB-loop.wav" start="2383" volume="-1.0dB" />
+			<sample rootNote="59" loNote="59" hiNote="61" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/3_B-PB-loop.wav" start="626" tuning="-0.05" volume="-0.5dB" />
+			<sample rootNote="62" loNote="62" hiNote="65" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_D-PB.wav" start="392" tuning="-0.05" />
+			<sample rootNote="66" loNote="66" hiNote="68" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_Gb-PB.wav" start="1641" tuning="-0.05" volume="1.0dB" />
+			<sample rootNote="69" loNote="69" hiNote="73" loopStart="53255" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_A-PB.wav" start="344" tuning="-0.05" />
+			<sample rootNote="74" loNote="74" hiNote="76" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_D-PB.wav" start="322" tuning="0.03" volume="-1.0dB" />
+			<sample rootNote="77" loNote="77" hiNote="79" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_F-PB.wav" start="266" tuning="-0.05" />
+			<sample rootNote="80" loNote="80" hiNote="83" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_Ab-PB.wav" start="1026" tuning="-0.15" volume="4.0dB" />
+			<sample rootNote="84" loNote="84" hiNote="89" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/6_C-PB.wav" start="735" tuning="-0.05" volume="3.0dB" />
+			<sample rootNote="90" loNote="90" hiNote="105" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/6_Gb-PB.wav" start="485" tuning="-0.35" volume="2.5dB" />
+		</group>
+		<group name="Sustain RR 2" seqMode="random" tags="1-dynamics-ff" seqPosition="2">
+			<sample rootNote="56" loNote="55" hiNote="59" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/3_Ab-PB-loop.wav" start="2030" tuning="0.01" volume="0.5dB" />
+			<sample rootNote="60" loNote="60" hiNote="62" loopStart="62299" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_C-PB.wav" start="628" tuning="0.03" />
+			<sample rootNote="63" loNote="63" hiNote="66" loopStart="89111" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_Eb-PB.wav" start="622" tuning="-0.05" volume="0.5dB" />
+			<sample rootNote="67" loNote="67" hiNote="71" loopStart="54250" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_G-PB.wav" start="629" tuning="-0.05" />
+			<sample rootNote="72" loNote="72" hiNote="74" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_C-PB.wav" start="600" tuning="0.03" />
+			<sample rootNote="75" loNote="75" hiNote="77" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_Eb-PB.wav" start="66" tuning="-0.05" />
+			<sample rootNote="78" loNote="78" hiNote="81" loopStart="66673" loopEnd="161803" path="Resources/1st-violin-SOLO-sustain Samples/5_Gb-PB.wav" start="677" tuning="-0.05" volume="2.0dB" />
+			<sample rootNote="82" loNote="82" hiNote="84" loopStart="41913" loopEnd="122171" path="Resources/1st-violin-SOLO-sustain Samples/5_Bb-PB.wav" start="1265" tuning="-0.15" volume="4.0dB" />
+			<sample rootNote="85" loNote="85" hiNote="91" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/6_Db-PB.wav" start="925" tuning="-0.05" volume="4.0dB" />
+			<sample rootNote="92" loNote="92" hiNote="105" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/6_Ab-PB.wav" start="562" tuning="-0.30" volume="4.0dB" />
+		</group>
+		<group name="Sustain RR 3" seqMode="random" tags="1-dynamics-ff" seqPosition="3">
+			<sample rootNote="57" loNote="55" hiNote="60" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/3_A-PB-loop.wav" start="1017" tuning="0.05" volume="-1.0dB" />
+			<sample rootNote="61" loNote="61" hiNote="63" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_Db-PB.wav" start="1124" tuning="0.03" volume="2.0dB" />
+			<sample rootNote="65" loNote="64" hiNote="67" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_F-PB.wav" start="1133" tuning="0.03" />
+			<sample rootNote="68" loNote="68" hiNote="72" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/4_Ab-PB.wav" start="1020" tuning="0.05" volume="-1.0dB" />
+			<sample rootNote="73" loNote="73" hiNote="75" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_Db-PB.wav" start="989" tuning="-0.05" />
+			<sample rootNote="76" loNote="76" hiNote="78" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_E-PB.wav" start="680" tuning="0.03" />
+			<sample rootNote="79" loNote="79" hiNote="82" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_G-PB.wav" start="948" tuning="-0.05" />
+			<sample rootNote="83" loNote="83" hiNote="85" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/5_B-PB.wav" start="1943" tuning="-0.05" volume="3.0dB" />
+			<sample rootNote="86" loNote="86" hiNote="93" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/6_D-PB.wav" start="1692" tuning="-0.05" volume="0.5dB" />
 			<sample rootNote="94" loNote="94" hiNote="105" loopStart="54249" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/6_Bb-PB-loop.wav" start="641" tuning="0.05" volume="4.0dB" />
 		</group>
 	</groups>
