@@ -45,20 +45,20 @@
 	</ui>
 	<groups attack="0.040" release="0.076" ampVelTrack="0.8">
 		<group name="Pizzicato" seqMode="random" tags="1-dynamics-ff">
-			<sample rootNote="67" loNote="55" hiNote="56" start="311" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-g3-PB.wav" volume="2.0dB" />
-			<sample rootNote="70" loNote="57" hiNote="59" start="421" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-a#3-PB.wav" volume="2.0dB" />
-			<sample rootNote="73" loNote="60" hiNote="62" start="200" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-c#4-PB.wav" volume="3.0dB" />
-			<sample rootNote="76" loNote="63" hiNote="65" start="821" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-e4-PB.wav" volume="2.0dB" />
-			<sample rootNote="79" loNote="66" hiNote="68" start="217" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-g4-PB.wav" volume="2.0dB" />
-			<sample rootNote="82" loNote="69" hiNote="71" start="76" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-a#4-PB.wav" volume="3.0dB" />
-			<sample rootNote="85" loNote="72" hiNote="74" start="0" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-c#5-PB.wav" volume="2.0dB" />
-			<sample rootNote="88" loNote="75" hiNote="77" start="160" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-e5-PB.wav" volume="1.0dB" />
-			<sample rootNote="91" loNote="78" hiNote="80" start="231" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-g5-PB.wav" volume="4.0dB" />
-			<sample rootNote="94" loNote="81" hiNote="83" start="164" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-a#5-PB.wav" volume="8.0dB" />
-			<sample rootNote="97" loNote="84" hiNote="86" start="387" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-c#6-PB.wav" volume="6.0dB" />
-			<sample rootNote="100" loNote="87" hiNote="89" start="307" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-e6-PB.wav" volume="4.0dB" />
-			<sample rootNote="103" loNote="90" hiNote="92" start="265" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-g6-PB.wav" volume="3.0dB" />
-			<sample rootNote="106" loNote="93" hiNote="105" start="192" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-a#6-PB.wav" volume="1.0dB" />
+			<sample rootNote="55" loNote="55" hiNote="56" start="311" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-g3-PB.wav" volume="2.0dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" start="421" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-a#3-PB.wav" volume="2.0dB" />
+			<sample rootNote="61" loNote="60" hiNote="62" start="200" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-c#4-PB.wav" volume="3.0dB" />
+			<sample rootNote="64" loNote="63" hiNote="65" start="821" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-e4-PB.wav" volume="2.0dB" />
+			<sample rootNote="67" loNote="66" hiNote="68" start="217" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-g4-PB.wav" volume="2.0dB" />
+			<sample rootNote="70" loNote="69" hiNote="71" start="76" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-a#4-PB.wav" volume="3.0dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" start="0" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-c#5-PB.wav" volume="2.0dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" start="160" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-e5-PB.wav" volume="1.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" start="231" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-g5-PB.wav" volume="4.0dB" />
+			<sample rootNote="82" loNote="81" hiNote="83" start="164" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-a#5-PB.wav" volume="8.0dB" />
+			<sample rootNote="85" loNote="84" hiNote="86" start="387" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-c#6-PB.wav" volume="6.0dB" />
+			<sample rootNote="88" loNote="87" hiNote="89" start="307" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-e6-PB.wav" volume="4.0dB" />
+			<sample rootNote="91" loNote="90" hiNote="92" start="265" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-g6-PB.wav" volume="3.0dB" />
+			<sample rootNote="94" loNote="93" hiNote="105" start="192" path="Resources/1st Violin Section Samples/1st-violins-piz-rr1-a#6-PB.wav" volume="1.0dB" />
 		</group>
 	</groups>
 	<midi>
