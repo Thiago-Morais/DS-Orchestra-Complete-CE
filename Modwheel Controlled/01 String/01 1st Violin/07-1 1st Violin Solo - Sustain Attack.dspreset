@@ -43,9 +43,9 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.030" decay="0.024" release="0.064" ampVelTrack="0.5" loopEnabled="1" loopCrossfade="24000">
+	<groups attack="0.030" decay="0.024" release="0.064" ampVelTrack="0.5">
 		<!-- Play staccato only when is not legato -->
-		<group name="Staccato RR 1" seqMode="random" tags="2-dynamics-ff" seqPosition="1" trigger="first">
+		<group name="Staccato RR 1" seqMode="random" tags="2-dynamics-ff" seqPosition="1" trigger="first" release="0.4">
 			<sample rootNote="55" loNote="55" hiNote="57" path="Resources/c - Violin 2 - Shorts Samples/56221__ldk1609__violin-spiccato-g-2.wav" start="1926" tuning="-1.00" />
 			<sample rootNote="58" loNote="58" hiNote="60" path="Resources/c - Violin 2 - Shorts Samples/56196__ldk1609__violin-spiccato-b2.wav" start="2025" tuning="-1.00" />
 			<sample rootNote="61" loNote="61" hiNote="63" path="Resources/c - Violin 2 - Shorts Samples/56209__ldk1609__violin-spiccato-d3.wav" start="1872" tuning="-1.00" />
@@ -60,7 +60,7 @@
 			<sample rootNote="91" loNote="91" hiNote="93" path="Resources/c - Violin 2 - Shorts Samples/56224__ldk1609__violin-spiccato-g-5.wav" start="1584" tuning="-1.00" />
 			<sample rootNote="94" loNote="94" hiNote="100" path="Resources/c - Violin 2 - Shorts Samples/56199__ldk1609__violin-spiccato-b5.wav" start="1620" tuning="-1.00" />
 		</group>
-		<group name="Staccato RR 2" seqMode="random" tags="2-dynamics-ff" seqPosition="2" trigger="first">
+		<group name="Staccato RR 2" seqMode="random" tags="2-dynamics-ff" seqPosition="2" trigger="first" release="0.4">
 			<sample rootNote="56" loNote="55" hiNote="58" path="Resources/c - Violin 2 - Shorts Samples/56192__ldk1609__violin-spiccato-a2.wav" start="2016" tuning="-1.00" />
 			<sample rootNote="59" loNote="59" hiNote="61" path="Resources/c - Violin 2 - Shorts Samples/56203__ldk1609__violin-spiccato-c3.wav" start="2080" tuning="-1.00" />
 			<sample rootNote="62" loNote="62" hiNote="64" path="Resources/c - Violin 2 - Shorts Samples/56206__ldk1609__violin-spiccato-d-3.wav" start="2032" tuning="-1.00" />
@@ -74,7 +74,7 @@
 			<sample rootNote="89" loNote="89" hiNote="91" path="Resources/c - Violin 2 - Shorts Samples/56217__ldk1609__violin-spiccato-f-5.wav" start="2486" tuning="-1.00" />
 			<sample rootNote="92" loNote="92" hiNote="100" path="Resources/c - Violin 2 - Shorts Samples/56195__ldk1609__violin-spiccato-a5.wav" start="2184" tuning="-1.00" />
 		</group>
-		<group name="Staccato RR 3" seqMode="random" tags="2-dynamics-ff" seqPosition="3" trigger="first">
+		<group name="Staccato RR 3" seqMode="random" tags="2-dynamics-ff" seqPosition="3" trigger="first" release="0.4">
 			<sample rootNote="57" loNote="55" hiNote="59" path="Resources/c - Violin 2 - Shorts Samples/56188__ldk1609__violin-spiccato-a-2.wav" start="3080" tuning="-1.00" />
 			<sample rootNote="60" loNote="60" hiNote="62" path="Resources/c - Violin 2 - Shorts Samples/56200__ldk1609__violin-spiccato-c-3.wav" start="3003" tuning="-1.00" />
 			<sample rootNote="63" loNote="63" hiNote="65" path="Resources/c - Violin 2 - Shorts Samples/56212__ldk1609__violin-spiccato-e3.wav" start="1812" tuning="-1.00" />
@@ -88,7 +88,7 @@
 			<sample rootNote="90" loNote="90" hiNote="92" path="Resources/c - Violin 2 - Shorts Samples/56228__ldk1609__violin-spiccato-g5.wav" start="1666" tuning="-1.00" />
 			<sample rootNote="93" loNote="93" hiNote="100" path="Resources/c - Violin 2 - Shorts Samples/56191__ldk1609__violin-spiccato-a-5.wav" start="2040" tuning="-1.00" />
 		</group>
-		<group name="Sustain" seqMode="random" tags="1-dynamics-ff">
+		<group name="Sustain" seqMode="random" tags="1-dynamics-ff" loopEnabled="true" loopCrossfade="24000">
 			<sample rootNote="55" loNote="55" hiNote="55" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/3_G-PB-loop.wav" start="2383" volume="-1.0dB" />
 			<sample rootNote="56" loNote="56" hiNote="56" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/3_Ab-PB-loop.wav" start="2030" tuning="0.01" volume="0.5dB" />
 			<sample rootNote="57" loNote="57" hiNote="58" loopStart="50375" loopEnd="1000000" path="Resources/1st-violin-SOLO-sustain Samples/3_A-PB-loop.wav" start="1017" tuning="0.05" volume="-1.0dB" />
