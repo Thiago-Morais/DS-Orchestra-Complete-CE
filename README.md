@@ -1,6 +1,6 @@
 # DS Orchestra Complete Community Edition
 
-DS Orchestra Complete Community Edition is an open source version of the [DS Orchestra Complete](bit.ly/DS-OC) by Shovan Das
+DS Orchestra Complete Community Edition is an open source version of the [DS Orchestra Complete](https://bit.ly/DS-OC) by Shovan Das
 
 ## How to use
 
