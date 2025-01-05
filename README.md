@@ -33,7 +33,7 @@ The Velocity Controlled version listens to the note velocity and change its dyna
 
 ### Modwheel Controlled
 
-The Modwheel Controlled Version listens to the note velocity and change its dynamics based on that
+The Modwheel Controlled Version has the note velocity effect reduced and rely on the modwheel to change its dynamics
 
 ## FAQ
 
