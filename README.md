@@ -13,9 +13,15 @@ The folder name should be `DS-Orchestra-Complete-CE`
 > [!TIP]
 > The default `Sample Library` path is:
 >
-> `%appdata%\Decidedly\DecentSampler\Sample Libraries`
+> ```
+> %appdata%\Decidedly\DecentSampler\Sample Libraries
+> ```
 
-The path to your `1st Violin Section` should be `C:\Users\USERNAME\AppData\Roaming\Decidedly\DecentSampler\Sample Libraries\DS-Orchestra-Complete-CE\Modwheel Controlled\01 String\01 1st Violin\01 1st Violin Section - Staccato.dspreset`
+The path to your `1st Violin Section` should be 
+```
+C:\Users\USERNAME\AppData\Roaming\Decidedly\DecentSampler\Sample Libraries\DS-Orchestra-Complete-CE\Modwheel Controlled\01 String\01 1st Violin\01 1st Violin Section - Staccato.dspreset
+```
+_Change `USERNAME` for your computer username_
 
 ## About
 
