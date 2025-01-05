@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO Verify samples balance (volume) -->
+<!-- TODO Samples start -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
@@ -12,7 +14,7 @@
 			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
 			</labeled-knob>
-			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.20">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</labeled-knob>
 			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
@@ -29,6 +31,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -40,62 +44,70 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.120" seqMode="random" ampVelTrack="0">
-		<group name="Stac RR 1" seqPosition="1" volume="6dB">
-			<sample rootNote="33" loNote="33" hiNote="34" tags="3-dynamics-mp" end="96404" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_1.wav" />
-			<sample rootNote="36" loNote="33" hiNote="37" tags="3-dynamics-ff" end="64689" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_1.wav" />
-			<sample rootNote="36" loNote="35" hiNote="37" tags="3-dynamics-mp" end="78028" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_1.wav" />
-			<sample rootNote="39" loNote="38" hiNote="40" tags="3-dynamics-mp" end="56229" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v1_1.wav" />
-			<sample rootNote="39" loNote="38" hiNote="40" tags="3-dynamics-ff" end="71591" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v2_1.wav" />
-			<sample rootNote="43" loNote="41" hiNote="44" tags="3-dynamics-mp" end="101886" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v1_1.wav" />
-			<sample rootNote="43" loNote="41" hiNote="45" tags="3-dynamics-mf" end="57412" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v2_1.wav" />
-			<sample rootNote="46" loNote="41" hiNote="47" tags="3-dynamics-ff" end="85486" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v3_1.wav" />
-			<sample rootNote="46" loNote="45" hiNote="49" tags="3-dynamics-mp" end="76749" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v1_1.wav" start="2592" />
-			<sample rootNote="50" loNote="46" hiNote="51" tags="3-dynamics-mf" end="72584" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v2_1.wav" />
-			<sample rootNote="50" loNote="48" hiNote="51" tags="3-dynamics-ff" end="35302" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v3_1.wav" />
-			<sample rootNote="53" loNote="50" hiNote="54" tags="3-dynamics-mp" end="106435" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v1_1.wav" />
-			<sample rootNote="53" loNote="52" hiNote="54" tags="3-dynamics-mf" end="58183" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v2_1.wav" />
-			<sample rootNote="53" loNote="52" hiNote="54" tags="3-dynamics-ff" end="107183" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v3_1.wav" />
-			<sample rootNote="57" loNote="55" hiNote="58" tags="3-dynamics-mp" end="116984" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v1_1.wav" />
-			<sample rootNote="57" loNote="55" hiNote="58" tags="3-dynamics-mf" end="85111" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v2_1.wav" />
-			<sample rootNote="57" loNote="55" hiNote="58" tags="3-dynamics-ff" end="93476" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v3_1.wav" />
-			<sample rootNote="60" loNote="59" hiNote="69" tags="3-dynamics-mp" end="111048" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v1_1.wav" />
-			<sample rootNote="60" loNote="59" hiNote="69" tags="3-dynamics-mf" end="29135" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v2_1.wav" />
-			<sample rootNote="60" loNote="59" hiNote="69" tags="3-dynamics-ff" end="96382" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v3_1.wav" />
-			<sample rootNote="74" loNote="70" hiNote="75" tags="3-dynamics-mp" end="86718" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v1_1.wav" />
-			<sample rootNote="74" loNote="70" hiNote="75" tags="3-dynamics-mf" end="84782" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v2_1.wav" />
-			<sample rootNote="74" loNote="70" hiNote="75" tags="3-dynamics-ff" end="68231" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v3_1.wav" />
-			<sample rootNote="77" loNote="76" hiNote="79" tags="3-dynamics-mp" end="84972" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v1_1.wav" />
-			<sample rootNote="77" loNote="76" hiNote="79" tags="3-dynamics-mf" end="38827" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_1.wav" />
-			<sample rootNote="77" loNote="76" hiNote="79" tags="3-dynamics-ff" end="52675" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" />
+	<groups attack="0" release="0.120" seqMode="random" ampVelTrack="0.8" volume="6dB">
+		<group name="Stac RR 1 - FF" seqPosition="1" seqMode="random" tags="3-dynamics-ff">
+			<sample rootNote="36" loNote="33" hiNote="37" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_1.wav" />
+			<sample rootNote="39" loNote="38" hiNote="40" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v2_1.wav" />
+			<sample rootNote="46" loNote="41" hiNote="47" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v3_1.wav" />
+			<sample rootNote="50" loNote="48" hiNote="51" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v3_1.wav" />
+			<sample rootNote="53" loNote="52" hiNote="54" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v3_1.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v3_1.wav" />
+			<sample rootNote="60" loNote="59" hiNote="69" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v3_1.wav" />
+			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v3_1.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" />
 		</group>
-		<group name="Stac RR 2" seqPosition="2" volume="6dB">
-			<sample rootNote="33" loNote="33" hiNote="34" tags="3-dynamics-mp" end="103942" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_2.wav" />
-			<sample rootNote="36" loNote="33" hiNote="37" tags="3-dynamics-ff" end="69249" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_2.wav" />
-			<sample rootNote="36" loNote="35" hiNote="37" tags="3-dynamics-mp" end="74019" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_2.wav" start="1668" />
-			<sample rootNote="39" loNote="38" hiNote="40" tags="3-dynamics-mp" end="56188" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v1_2.wav" />
-			<sample rootNote="39" loNote="38" hiNote="40" tags="3-dynamics-ff" end="87126" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v2_2.wav" />
-			<sample rootNote="43" loNote="41" hiNote="45" tags="3-dynamics-mf" end="46350" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v2_2.wav" />
-			<sample rootNote="43" loNote="41" hiNote="46" tags="3-dynamics-mp" end="88726" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v1_2.wav" />
-			<sample rootNote="46" loNote="41" hiNote="47" tags="3-dynamics-ff" end="57587" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v3_2.wav" />
-			<sample rootNote="50" loNote="46" hiNote="51" tags="3-dynamics-mf" end="97262" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v2_2.wav" start="1873" />
-			<sample rootNote="50" loNote="47" hiNote="51" tags="3-dynamics-mp" end="80274" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v1_2.wav" />
-			<sample rootNote="50" loNote="48" hiNote="51" tags="3-dynamics-ff" end="103180" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v3_2.wav" />
-			<sample rootNote="53" loNote="52" hiNote="54" tags="3-dynamics-mp" end="46412" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v1_2.wav" />
-			<sample rootNote="53" loNote="52" hiNote="54" tags="3-dynamics-mf" end="91403" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v2_2.wav" />
-			<sample rootNote="53" loNote="52" hiNote="54" tags="3-dynamics-ff" end="66224" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v3_2.wav" />
-			<sample rootNote="57" loNote="55" hiNote="58" tags="3-dynamics-mp" end="103563" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v1_2.wav" start="791" />
-			<sample rootNote="57" loNote="55" hiNote="58" tags="3-dynamics-mf" end="154398" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v2_2.wav" />
-			<sample rootNote="57" loNote="55" hiNote="58" tags="3-dynamics-ff" end="122222" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v3_2.wav" />
-			<sample rootNote="60" loNote="59" hiNote="69" tags="3-dynamics-mp" end="91264" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v1_2.wav" />
-			<sample rootNote="60" loNote="59" hiNote="69" tags="3-dynamics-mf" end="46244" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v2_2.wav" />
-			<sample rootNote="60" loNote="59" hiNote="69" tags="3-dynamics-ff" end="102487" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v3_2.wav" />
-			<sample rootNote="74" loNote="70" hiNote="75" tags="3-dynamics-mp" end="82755" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v1_2.wav" />
-			<sample rootNote="74" loNote="70" hiNote="75" tags="3-dynamics-mf" end="105457" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v2_2.wav" />
-			<sample rootNote="74" loNote="70" hiNote="75" tags="3-dynamics-ff" end="84006" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v3_2.wav" />
-			<sample rootNote="77" loNote="76" hiNote="79" tags="3-dynamics-mp" end="93640" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v1_2.wav" />
-			<sample rootNote="77" loNote="76" hiNote="79" tags="3-dynamics-mf" end="98517" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_2.wav" />
-			<sample rootNote="77" loNote="76" hiNote="79" tags="3-dynamics-ff" end="52371" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" />
+		<group name="Stac RR 1 - MF" seqPosition="1" seqMode="random" tags="3-dynamics-mf">
+			<sample rootNote="43" loNote="33" hiNote="45" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v2_1.wav" />
+			<sample rootNote="50" loNote="46" hiNote="51" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v2_1.wav" />
+			<sample rootNote="53" loNote="52" hiNote="54" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v2_1.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v2_1.wav" />
+			<sample rootNote="60" loNote="59" hiNote="69" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v2_1.wav" />
+			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v2_1.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_1.wav" />
+		</group>
+		<group name="Stac RR 1 - MP" seqPosition="1" seqMode="random" tags="3-dynamics-mp">
+			<sample rootNote="33" loNote="33" hiNote="34" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_1.wav" />
+			<sample rootNote="36" loNote="35" hiNote="37" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_1.wav" />
+			<sample rootNote="39" loNote="38" hiNote="40" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v1_1.wav" />
+			<sample rootNote="43" loNote="41" hiNote="44" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v1_1.wav" />
+			<sample rootNote="46" loNote="45" hiNote="49" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v1_1.wav" start="2592" />
+			<sample rootNote="53" loNote="50" hiNote="54" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v1_1.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v1_1.wav" />
+			<sample rootNote="60" loNote="59" hiNote="69" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v1_1.wav" />
+			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v1_1.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v1_1.wav" />
+		</group>
+		<group name="Stac RR 2 - FF" seqPosition="2" seqMode="random" tags="3-dynamics-ff">
+			<sample rootNote="36" loNote="33" hiNote="37" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_2.wav" />
+			<sample rootNote="39" loNote="38" hiNote="40" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v2_2.wav" />
+			<sample rootNote="46" loNote="41" hiNote="47" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v3_2.wav" />
+			<sample rootNote="50" loNote="48" hiNote="51" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v3_2.wav" />
+			<sample rootNote="53" loNote="52" hiNote="54" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v3_2.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v3_2.wav" />
+			<sample rootNote="60" loNote="59" hiNote="69" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v3_2.wav" />
+			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v3_2.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" />
+		</group>
+		<group name="Stac RR 2 - MF" seqPosition="2" seqMode="random" tags="3-dynamics-mf">
+			<sample rootNote="43" loNote="33" hiNote="45" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v2_2.wav" />
+			<sample rootNote="50" loNote="46" hiNote="51" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v2_2.wav" start="1873" />
+			<sample rootNote="53" loNote="52" hiNote="54" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v2_2.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v2_2.wav" />
+			<sample rootNote="60" loNote="59" hiNote="69" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v2_2.wav" />
+			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v2_2.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_2.wav" />
+		</group>
+		<group name="Stac RR 2 - MP" seqPosition="2" seqMode="random" tags="3-dynamics-mp">
+			<sample rootNote="33" loNote="33" hiNote="34" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_2.wav" />
+			<sample rootNote="36" loNote="35" hiNote="37" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_2.wav" start="1668" />
+			<sample rootNote="39" loNote="38" hiNote="40" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v1_2.wav" />
+			<sample rootNote="43" loNote="41" hiNote="46" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v1_2.wav" />
+			<sample rootNote="50" loNote="47" hiNote="51" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v1_2.wav" />
+			<sample rootNote="53" loNote="52" hiNote="54" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v1_2.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v1_2.wav" start="791" />
+			<sample rootNote="60" loNote="59" hiNote="69" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v1_2.wav" />
+			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v1_2.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v1_2.wav" />
 		</group>
 	</groups>
 	<midi>
@@ -105,12 +117,14 @@
 		</cc>
 		<!-- Controls attack with note velocity -->
 		<note note="0-127">
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
 			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
 		</note>
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
+		<tag name="2-dynamics-ff" volume="1" />
+		<tag name="2-dynamics-mp" volume="0" />
 		<tag name="3-dynamics-ff" volume="1" />
 		<tag name="3-dynamics-mf" volume="0" />
 		<tag name="3-dynamics-mp" volume="0" />

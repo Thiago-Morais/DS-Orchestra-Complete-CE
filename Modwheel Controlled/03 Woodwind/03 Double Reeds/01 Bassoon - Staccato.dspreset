@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO Organize samples -->
+<!-- TODO Setup dynamics on instrument -->
+<!-- TODO Verify samples balance (volume) -->
+<!-- TODO Verify loops -->
+<!-- TODO Samples start -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
@@ -12,7 +17,7 @@
 			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
 			</labeled-knob>
-			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.20">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</labeled-knob>
 			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
@@ -29,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -40,8 +47,8 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.120" ampVelTrack="0">
-		<group name="gr_1" ampVelTrack="0">
+	<groups attack="0" release="0.120" ampVelTrack="0.8">
+		<group name="gr_1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="45" loNote="43" hiNote="46" loVel="0" hiVel="62" end="26690" path="Resources/BassoonStac Samples/PSBassoon_A1_v1_rr1.wav" volume="12.0dB" />
 			<sample rootNote="57" loNote="56" hiNote="58" loVel="0" hiVel="62" end="25594" path="Resources/BassoonStac Samples/PSBassoon_A2_v1_rr1.wav" volume="12.0dB" />
 			<sample rootNote="48" loNote="47" hiNote="49" loVel="0" hiVel="62" end="29318" path="Resources/BassoonStac Samples/PSBassoon_C2_v1_rr1.wav" volume="12.0dB" />
@@ -66,7 +73,7 @@
 			<sample rootNote="55" loNote="54" hiNote="55" loVel="63" hiVel="127" end="33604" path="Resources/BassoonStac Samples/PSBassoon_G2_v2_rr1.wav" />
 			<sample rootNote="67" loNote="66" hiNote="69" loVel="63" hiVel="127" end="32905" path="Resources/BassoonStac Samples/PSBassoon_G3_v2_rr1.wav" />
 		</group>
-		<group name="gr_2" ampVelTrack="0">
+		<group name="gr_2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="45" loNote="43" hiNote="46" loVel="0" hiVel="62" end="26044" path="Resources/BassoonStac Samples/PSBassoon_A1_v1_rr2.wav" volume="12.0dB" />
 			<sample rootNote="57" loNote="56" hiNote="58" loVel="0" hiVel="62" end="24429" path="Resources/BassoonStac Samples/PSBassoon_A2_v1_rr2.wav" volume="12.0dB" />
 			<sample rootNote="48" loNote="47" hiNote="49" loVel="0" hiVel="62" end="30054" path="Resources/BassoonStac Samples/PSBassoon_C2_v1_rr2.wav" volume="12.0dB" />
@@ -99,12 +106,14 @@
 		</cc>
 		<!-- Controls attack with note velocity -->
 		<note note="0-127">
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
 			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
 		</note>
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
+		<tag name="2-dynamics-ff" volume="1" />
+		<tag name="2-dynamics-mp" volume="0" />
 		<tag name="3-dynamics-ff" volume="1" />
 		<tag name="3-dynamics-mf" volume="0" />
 		<tag name="3-dynamics-mp" volume="0" />

@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO Organize samples -->
+<!-- TODO Setup dynamics on instrument -->
+<!-- TODO Verify samples balance (volume) -->
+<!-- TODO Verify loops -->
+<!-- TODO Samples start -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
@@ -29,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -40,8 +47,8 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups release="0.289" ampVelTrack="0">
-		<group name="Roland MarcatoVls" ampVelTrack="0">
+	<groups release="0.289" ampVelTrack="0.8">
+		<group name="Roland MarcatoVls" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="60" loNote="56" hiNote="63" loVel="0" hiVel="127" end="44861" path="Resources/Orchestra Hit 4 Samples/vls_d3_sod2_r3.wav" />
 			<sample rootNote="72" loNote="68" hiNote="76" loVel="0" hiVel="127" end="45862" path="Resources/Orchestra Hit 4 Samples/vls_d4_sod3_rd4.wav" />
 			<sample rootNote="41" loNote="0" hiNote="42" loVel="0" hiVel="127" end="64012" path="Resources/Orchestra Hit 4 Samples/vls_f1_x_fd1.wav" />
@@ -51,7 +58,7 @@
 			<sample rootNote="47" loNote="43" hiNote="51" loVel="0" hiVel="127" end="53288" path="Resources/Orchestra Hit 4 Samples/vls_si1_so1_dd2.wav" />
 			<sample rootNote="79" loNote="76" hiNote="85" loVel="0" hiVel="127" end="56314" path="Resources/Orchestra Hit 4 Samples/vls_sod_m4_dd5.wav" />
 		</group>
-		<group name="Roland Marcato Vas" ampVelTrack="0">
+		<group name="Roland Marcato Vas" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="60" loNote="58" hiNote="62" loVel="0" hiVel="127" end="37886" path="Resources/Orchestra Hit 4 Samples/d3_sib2_dd3.wav" />
 			<sample rootNote="53" loNote="51" hiNote="53" loVel="0" hiVel="127" end="39562" path="Resources/Orchestra Hit 4 Samples/f2_rd2_f2.wav" />
 			<sample rootNote="65" loNote="62" hiNote="68" loVel="0" hiVel="127" end="37671" path="Resources/Orchestra Hit 4 Samples/f3_r3_sod3.wav" />
@@ -61,7 +68,7 @@
 			<sample rootNote="71" loNote="69" hiNote="74" loVel="0" hiVel="127" end="35754" path="Resources/Orchestra Hit 4 Samples/si3_l3_dd4.wav" />
 			<sample rootNote="56" loNote="54" hiNote="57" loVel="0" hiVel="127" end="31075" path="Resources/Orchestra Hit 4 Samples/sol2_fd2_l2.wav" />
 		</group>
-		<group name="Roland MarcatoVcs" ampVelTrack="0">
+		<group name="Roland MarcatoVcs" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="72" loNote="69" hiNote="77" loVel="0" hiVel="127" end="44380" path="Resources/Orchestra Hit 4 Samples/Vcs_d4_l3_m4.wav" />
 			<sample rootNote="65" loNote="62" hiNote="70" loVel="0" hiVel="127" end="45779" path="Resources/Orchestra Hit 4 Samples/Vcs_f3_r3_sod3.wav" />
 			<sample rootNote="52" loNote="0" hiNote="52" loVel="0" hiVel="127" end="48845" path="Resources/Orchestra Hit 4 Samples/Vcs_m2_x_m2.wav" />
@@ -77,12 +84,14 @@
 		</cc>
 		<!-- Controls attack with note velocity -->
 		<note note="0-127">
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
 			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
 		</note>
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
+		<tag name="2-dynamics-ff" volume="1" />
+		<tag name="2-dynamics-mp" volume="0" />
 		<tag name="3-dynamics-ff" volume="1" />
 		<tag name="3-dynamics-mf" volume="0" />
 		<tag name="3-dynamics-mp" volume="0" />

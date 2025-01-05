@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO Organize samples -->
+<!-- TODO Setup dynamics on instrument -->
+<!-- TODO Verify samples balance (volume) -->
+<!-- TODO Verify loops -->
+<!-- TODO Samples start -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
@@ -29,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -40,8 +47,8 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.060" release="0.084" ampVelTrack="0">
-		<group name="Group 1" ampVelTrack="0">
+	<groups attack="0.060" release="0.084" ampVelTrack="0.8">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="227328" path="Resources/Cello Ensemble Samples/2_Db-PB-loop.wav" tuning="-0.05" volume="-1.5dB" />
 			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="233983" path="Resources/Cello Ensemble Samples/2_E-PB-loop.wav" tuning="-0.05" />
 			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="212544" path="Resources/Cello Ensemble Samples/2_G-PB-loop.wav" tuning="-0.05" volume="-0.5dB" />
@@ -54,7 +61,7 @@
 			<sample rootNote="82" loNote="81" hiNote="84" loVel="0" hiVel="127" end="203520" path="Resources/Cello Ensemble Samples/4_Bb.wav" tuning="0.05" volume="-1.0dB" />
 			<sample rootNote="88" loNote="85" hiNote="93" loVel="0" hiVel="127" end="183625" path="Resources/Cello Ensemble Samples/5_E.wav" tuning="-0.05" volume="-1.0dB" />
 		</group>
-		<group name="Group 3" ampVelTrack="0">
+		<group name="Group 3" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="227328" path="Resources/Cello Ensemble Samples/2_Db-PB-loop.wav" tuning="-0.05" volume="-1.5dB" />
 			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="233983" path="Resources/Cello Ensemble Samples/2_E-PB-loop.wav" tuning="-0.05" />
 			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="212544" path="Resources/Cello Ensemble Samples/2_G-PB-loop.wav" tuning="-0.05" volume="-0.5dB" />
@@ -75,12 +82,14 @@
 		</cc>
 		<!-- Controls attack with note velocity -->
 		<note note="0-127">
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
 			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
 		</note>
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
+		<tag name="2-dynamics-ff" volume="1" />
+		<tag name="2-dynamics-mp" volume="0" />
 		<tag name="3-dynamics-ff" volume="1" />
 		<tag name="3-dynamics-mf" volume="0" />
 		<tag name="3-dynamics-mp" volume="0" />

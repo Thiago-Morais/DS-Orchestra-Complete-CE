@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO Organize samples -->
+<!-- TODO Setup dynamics on instrument -->
+<!-- TODO Verify samples balance (volume) -->
+<!-- TODO Verify loops -->
+<!-- TODO Samples start -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
@@ -29,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -40,8 +47,8 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.060" release="0.084" ampVelTrack="0">
-		<group name="Group 1" ampVelTrack="0">
+	<groups attack="0.060" release="0.084" ampVelTrack="0.8">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="264861" path="Resources/Viola Ensemble Samples/Violas_c3.wav" volume="-2.68dB" />
 			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="127" end="205450" path="Resources/Viola Ensemble Samples/Violas_d#3.wav" volume="-5.5dB" />
 			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="127" end="267978" path="Resources/Viola Ensemble Samples/Violas_f#3.wav" volume="-5.5dB" />
@@ -58,7 +65,7 @@
 			<sample rootNote="99" loNote="98" hiNote="100" loVel="0" hiVel="127" end="266257" path="Resources/Viola Ensemble Samples/Violas_d#6.wav" volume="-3.0dB" />
 			<sample rootNote="102" loNote="101" hiNote="103" loVel="0" hiVel="127" end="238602" path="Resources/Viola Ensemble Samples/Violas_f#6.wav" volume="-2.0dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="0">
+		<group name="Group 2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="262364" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_A3_v2_1-PB-loop.wav" volume="6.75dB" />
 			<sample rootNote="59" loNote="57" hiNote="60" loVel="0" hiVel="127" end="176318" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B2_v2_1-PB-loop.wav" volume="6.75dB" />
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="426678" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B4_v2_1-PB-loop.wav" start="2198" volume="11.75dB" />
@@ -72,7 +79,7 @@
 			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="389699" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G2_v2_1-PB-loop.wav" volume="7.75dB" />
 			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="301975" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G4_v2_1-PB-loop.wav" volume="9.75dB" />
 		</group>
-		<group name="Group 7" ampVelTrack="0">
+		<group name="Group 7" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="264861" path="Resources/Viola Ensemble Samples/Violas_c3.wav" volume="-2.68dB" />
 			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="127" end="205450" path="Resources/Viola Ensemble Samples/Violas_d#3.wav" volume="-5.5dB" />
 			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="127" end="267978" path="Resources/Viola Ensemble Samples/Violas_f#3.wav" volume="-5.5dB" />
@@ -89,7 +96,7 @@
 			<sample rootNote="99" loNote="98" hiNote="100" loVel="0" hiVel="127" end="266257" path="Resources/Viola Ensemble Samples/Violas_d#6.wav" volume="-3.0dB" />
 			<sample rootNote="102" loNote="101" hiNote="103" loVel="0" hiVel="127" end="238602" path="Resources/Viola Ensemble Samples/Violas_f#6.wav" volume="-2.0dB" />
 		</group>
-		<group name="Group 8" ampVelTrack="0">
+		<group name="Group 8" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="262364" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_A3_v2_1-PB-loop.wav" volume="6.75dB" />
 			<sample rootNote="59" loNote="57" hiNote="60" loVel="0" hiVel="127" end="176318" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B2_v2_1-PB-loop.wav" volume="6.75dB" />
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="426678" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B4_v2_1-PB-loop.wav" start="2198" volume="11.75dB" />
@@ -103,7 +110,7 @@
 			<sample rootNote="55" loNote="54" hiNote="56" loVel="0" hiVel="127" end="389699" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G2_v2_1-PB-loop.wav" volume="7.75dB" />
 			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="301975" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_G4_v2_1-PB-loop.wav" volume="9.75dB" />
 		</group>
-		<group name="Group 11" ampVelTrack="0">
+		<group name="Group 11" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="60" loNote="60" hiNote="61" loVel="0" hiVel="127" end="264861" path="Resources/Viola Ensemble Samples/Violas_c3.wav" volume="-2.68dB" />
 			<sample rootNote="63" loNote="62" hiNote="64" loVel="0" hiVel="127" end="205450" path="Resources/Viola Ensemble Samples/Violas_d#3.wav" volume="-5.5dB" />
 			<sample rootNote="66" loNote="65" hiNote="67" loVel="0" hiVel="127" end="267978" path="Resources/Viola Ensemble Samples/Violas_f#3.wav" volume="-5.5dB" />
@@ -120,7 +127,7 @@
 			<sample rootNote="99" loNote="98" hiNote="100" loVel="0" hiVel="127" end="266257" path="Resources/Viola Ensemble Samples/Violas_d#6.wav" volume="-3.0dB" />
 			<sample rootNote="102" loNote="101" hiNote="103" loVel="0" hiVel="127" end="238602" path="Resources/Viola Ensemble Samples/Violas_f#6.wav" volume="-2.0dB" />
 		</group>
-		<group name="Group 12" ampVelTrack="0">
+		<group name="Group 12" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="69" loNote="67" hiNote="70" loVel="0" hiVel="127" end="262364" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_A3_v2_1-PB-loop.wav" volume="6.75dB" />
 			<sample rootNote="59" loNote="57" hiNote="60" loVel="0" hiVel="127" end="176318" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B2_v2_1-PB-loop.wav" volume="6.75dB" />
 			<sample rootNote="83" loNote="81" hiNote="84" loVel="0" hiVel="127" end="426678" path="Resources/Viola Ensemble Samples/ViolaEns_susvib_B4_v2_1-PB-loop.wav" start="2198" volume="11.75dB" />
@@ -142,12 +149,14 @@
 		</cc>
 		<!-- Controls attack with note velocity -->
 		<note note="0-127">
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
 			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
 		</note>
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
+		<tag name="2-dynamics-ff" volume="1" />
+		<tag name="2-dynamics-mp" volume="0" />
 		<tag name="3-dynamics-ff" volume="1" />
 		<tag name="3-dynamics-mf" volume="0" />
 		<tag name="3-dynamics-mp" volume="0" />

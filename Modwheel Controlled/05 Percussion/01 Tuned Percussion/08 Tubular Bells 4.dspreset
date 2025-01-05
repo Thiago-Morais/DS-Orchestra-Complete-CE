@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO Organize samples -->
+<!-- TODO Setup dynamics on instrument -->
+<!-- TODO Verify samples balance (volume) -->
+<!-- TODO Verify loops -->
+<!-- TODO Samples start -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
@@ -29,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -40,8 +47,8 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups decay="0.400" release="0.400" sustain="0" ampVelTrack="0">
-		<group name="Group 1" ampVelTrack="0">
+	<groups decay="0.400" release="0.400" sustain="0" ampVelTrack="0.8">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="72" loNote="72" hiNote="72" loVel="41" hiVel="127" end="343593" path="Resources/tubular-bells Samples/3_C_f.wav" volume="-2.0dB" />
 			<sample rootNote="73" loNote="73" hiNote="73" loVel="41" hiVel="127" end="339572" path="Resources/tubular-bells Samples/3_Db_f.wav" volume="-2.0dB" />
 			<sample rootNote="74" loNote="74" hiNote="75" loVel="41" hiVel="127" end="313334" path="Resources/tubular-bells Samples/3_D_f.wav" volume="-2.0dB" />
@@ -55,7 +62,7 @@
 			<sample rootNote="88" loNote="88" hiNote="88" loVel="41" hiVel="127" end="175335" path="Resources/tubular-bells Samples/4_E_f.wav" volume="-2.0dB" />
 			<sample rootNote="89" loNote="89" hiNote="91" loVel="41" hiVel="127" end="327146" path="Resources/tubular-bells Samples/4_F_f.wav" volume="-2.0dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="0">
+		<group name="Group 2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="72" loNote="72" hiNote="72" loVel="0" hiVel="40" end="110432" path="Resources/tubular-bells Samples/3_C_p.wav" />
 			<sample rootNote="73" loNote="73" hiNote="75" loVel="0" hiVel="40" end="266989" path="Resources/tubular-bells Samples/3_Db_p.wav" />
 			<sample rootNote="77" loNote="77" hiNote="77" loVel="0" hiVel="40" end="196515" path="Resources/tubular-bells Samples/3_F_p.wav" />
@@ -77,12 +84,14 @@
 		</cc>
 		<!-- Controls attack with note velocity -->
 		<note note="0-127">
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
 			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
 		</note>
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
+		<tag name="2-dynamics-ff" volume="1" />
+		<tag name="2-dynamics-mp" volume="0" />
 		<tag name="3-dynamics-ff" volume="1" />
 		<tag name="3-dynamics-mf" volume="0" />
 		<tag name="3-dynamics-mp" volume="0" />

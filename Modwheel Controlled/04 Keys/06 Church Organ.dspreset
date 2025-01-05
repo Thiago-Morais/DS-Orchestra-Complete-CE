@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO Organize samples -->
+<!-- TODO Setup dynamics on instrument -->
+<!-- TODO Verify samples balance (volume) -->
+<!-- TODO Verify loops -->
+<!-- TODO Samples start -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
@@ -29,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -40,8 +47,8 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups release="0.097" ampVelTrack="0">
-		<group name="Church Organ/GS" ampVelTrack="0">
+	<groups release="0.097" ampVelTrack="0.8">
+		<group name="Church Organ/GS" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="36" loNote="0" hiNote="36" loVel="0" hiVel="127" end="61256" loopEnabled="true" loopEnd="61248" loopStart="24522" path="Resources/Church Organ 2 Samples/Church Organ C1.wav" />
 			<sample rootNote="39" loNote="37" hiNote="39" loVel="0" hiVel="127" end="83312" loopEnabled="true" loopEnd="83215" loopStart="43654" path="Resources/Church Organ 2 Samples/Church Organ D1.wav" />
 			<sample rootNote="42" loNote="40" hiNote="42" loVel="0" hiVel="127" end="91752" loopEnabled="true" loopEnd="91741" loopStart="46262" path="Resources/Church Organ 2 Samples/Church Organ F1.wav" />
@@ -64,7 +71,7 @@
 			<sample rootNote="93" loNote="91" hiNote="93" loVel="0" hiVel="127" end="70032" loopEnabled="true" loopEnd="70007" loopStart="14156" path="Resources/Church Organ 2 Samples/Church Organ A5.wav" />
 			<sample rootNote="96" loNote="94" hiNote="96" loVel="0" hiVel="127" end="51304" loopEnabled="true" loopEnd="51289" loopStart="17894" path="Resources/Church Organ 2 Samples/Church Organ C6.wav" />
 		</group>
-		<group name="Church Organ/GS" ampVelTrack="0">
+		<group name="Church Organ/GS" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="36" loNote="0" hiNote="36" loVel="0" hiVel="127" end="61256" loopEnabled="true" loopEnd="61248" loopStart="24522" path="Resources/Church Organ 2 Samples/Church Organ C1.wav" />
 			<sample rootNote="39" loNote="37" hiNote="39" loVel="0" hiVel="127" end="83312" loopEnabled="true" loopEnd="83215" loopStart="43654" path="Resources/Church Organ 2 Samples/Church Organ D1.wav" />
 			<sample rootNote="42" loNote="40" hiNote="42" loVel="0" hiVel="127" end="91752" loopEnabled="true" loopEnd="91741" loopStart="46262" path="Resources/Church Organ 2 Samples/Church Organ F1.wav" />
@@ -95,12 +102,14 @@
 		</cc>
 		<!-- Controls attack with note velocity -->
 		<note note="0-127">
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
 			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
 		</note>
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
+		<tag name="2-dynamics-ff" volume="1" />
+		<tag name="2-dynamics-mp" volume="0" />
 		<tag name="3-dynamics-ff" volume="1" />
 		<tag name="3-dynamics-mf" volume="0" />
 		<tag name="3-dynamics-mp" volume="0" />

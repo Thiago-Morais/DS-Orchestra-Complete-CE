@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO Verify samples balance (volume) -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
@@ -29,6 +30,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -40,18 +43,18 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups release="0.026" ampVelTrack="0">
-		<group name="000.061">
-			<sample rootNote="28" loNote="0" hiNote="48" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.000.wav" />
-			<sample rootNote="52" loNote="49" hiNote="52" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.004.wav" />
-			<sample rootNote="55" loNote="53" hiNote="56" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.005.wav" />
-			<sample rootNote="60" loNote="57" hiNote="60" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.006.wav" />
-			<sample rootNote="64" loNote="61" hiNote="64" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.007.wav" />
-			<sample rootNote="67" loNote="65" hiNote="68" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.008.wav" />
-			<sample rootNote="72" loNote="69" hiNote="72" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.009.wav" />
-			<sample rootNote="76" loNote="73" hiNote="76" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.010.wav" />
-			<sample rootNote="79" loNote="77" hiNote="80" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="10000" path="Resources/French Horn - Ensemble Samples/000.061.011.wav" />
-			<sample rootNote="84" loNote="81" hiNote="108" loVel="0" hiVel="127" end="265002" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.012.wav" />
+	<groups release="0.026" ampVelTrack="0.8">
+		<group name="000.061" seqMode="random" tags="1-dynamics-ff">
+			<sample rootNote="28" loNote="0" hiNote="48" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.000.wav" />
+			<sample rootNote="52" loNote="49" hiNote="52" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.004.wav" />
+			<sample rootNote="55" loNote="53" hiNote="56" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.005.wav" />
+			<sample rootNote="60" loNote="57" hiNote="60" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.006.wav" />
+			<sample rootNote="64" loNote="61" hiNote="64" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.007.wav" />
+			<sample rootNote="67" loNote="65" hiNote="68" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.008.wav" />
+			<sample rootNote="72" loNote="69" hiNote="72" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.009.wav" />
+			<sample rootNote="76" loNote="73" hiNote="76" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.010.wav" />
+			<sample rootNote="79" loNote="77" hiNote="80" loopEnabled="true" loopEnd="265000" loopStart="10000" path="Resources/French Horn - Ensemble Samples/000.061.011.wav" />
+			<sample rootNote="84" loNote="81" hiNote="108" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.012.wav" />
 		</group>
 	</groups>
 	<midi>
@@ -61,12 +64,14 @@
 		</cc>
 		<!-- Controls attack with note velocity -->
 		<note note="0-127">
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
 			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
 		</note>
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
+		<tag name="2-dynamics-ff" volume="1" />
+		<tag name="2-dynamics-mp" volume="0" />
 		<tag name="3-dynamics-ff" volume="1" />
 		<tag name="3-dynamics-mf" volume="0" />
 		<tag name="3-dynamics-mp" volume="0" />

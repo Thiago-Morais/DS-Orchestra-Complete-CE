@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO Organize samples -->
+<!-- TODO Setup dynamics on instrument -->
+<!-- TODO Verify samples balance (volume) -->
+<!-- TODO Verify loops -->
+<!-- TODO Samples start -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
@@ -29,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -40,8 +47,8 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.020" release="0.020" ampVelTrack="0">
-		<group name="Group 1" ampVelTrack="0">
+	<groups attack="0.020" release="0.020" ampVelTrack="0.8">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="46" loNote="46" hiNote="47" loVel="0" hiVel="127" end="149168" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#1-PB-loop.wav" tuning="-0.13" volume="3.0dB" />
 			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="127628" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#2-PB-loop.wav" tuning="-0.17" volume="2.0dB" />
 			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="131716" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e2-PB-loop.wav" tuning="-0.12" volume="2.0dB" />
@@ -56,7 +63,7 @@
 			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="130715" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g4-PB-loop.wav" tuning="-0.13" volume="5.0dB" />
 			<sample rootNote="82" loNote="81" hiNote="87" loVel="0" hiVel="127" end="151762" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#4-PB-loop.wav" volume="6.0dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="0">
+		<group name="Group 2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="46" loNote="46" hiNote="47" loVel="0" hiVel="127" end="149168" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#1-PB-loop.wav" tuning="-0.13" volume="3.0dB" />
 			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="127628" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#2-PB-loop.wav" tuning="-0.17" volume="2.0dB" />
 			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="131716" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e2-PB-loop.wav" tuning="-0.12" volume="2.0dB" />
@@ -71,7 +78,7 @@
 			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="130715" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g4-PB-loop.wav" tuning="-0.13" volume="5.0dB" />
 			<sample rootNote="82" loNote="81" hiNote="87" loVel="0" hiVel="127" end="151762" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#4-PB-loop.wav" volume="6.0dB" />
 		</group>
-		<group name="Group 3" ampVelTrack="0">
+		<group name="Group 3" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="46" loNote="46" hiNote="46" loVel="54" hiVel="127" end="101842" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#1-PB.wav" volume="-5.0dB" />
 			<sample rootNote="47" loNote="47" hiNote="47" loVel="54" hiVel="127" end="94633" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B1-PB.wav" volume="-5.0dB" />
 			<sample rootNote="48" loNote="48" hiNote="48" loVel="54" hiVel="127" end="105897" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C2-PB.wav" volume="-5.0dB" />
@@ -106,7 +113,7 @@
 			<sample rootNote="83" loNote="83" hiNote="83" loVel="54" hiVel="127" end="89568" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B4-PB.wav" tuning="-0.25" volume="-5.0dB" />
 			<sample rootNote="84" loNote="84" hiNote="87" loVel="54" hiVel="127" end="94171" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C5-PB.wav" tuning="-0.15" volume="-5.0dB" />
 		</group>
-		<group name="Group 4" ampVelTrack="0">
+		<group name="Group 4" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="46" loNote="46" hiNote="46" loVel="0" hiVel="104" end="85426" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#1-PB.wav" volume="-5.0dB" />
 			<sample rootNote="47" loNote="47" hiNote="47" loVel="0" hiVel="104" end="93213" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B1-PB.wav" volume="-5.0dB" />
 			<sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="104" end="96279" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C2-PB.wav" volume="-5.0dB" />
@@ -141,7 +148,7 @@
 			<sample rootNote="83" loNote="83" hiNote="83" loVel="0" hiVel="104" end="104172" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B4-PB.wav" tuning="-0.25" volume="-5.0dB" />
 			<sample rootNote="84" loNote="84" hiNote="87" loVel="0" hiVel="104" end="101169" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C5-PB.wav" tuning="-0.20" volume="-5.0dB" />
 		</group>
-		<group name="Group 5" ampVelTrack="0">
+		<group name="Group 5" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="46" loNote="46" hiNote="46" loVel="54" hiVel="127" end="101842" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#1-PB.wav" />
 			<sample rootNote="47" loNote="47" hiNote="47" loVel="54" hiVel="127" end="94633" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B1-PB.wav" />
 			<sample rootNote="48" loNote="48" hiNote="48" loVel="54" hiVel="127" end="105897" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C2-PB.wav" />
@@ -176,7 +183,7 @@
 			<sample rootNote="83" loNote="83" hiNote="83" loVel="54" hiVel="127" end="89568" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B4-PB.wav" tuning="-0.25" />
 			<sample rootNote="84" loNote="84" hiNote="87" loVel="54" hiVel="127" end="94171" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C5-PB.wav" tuning="-0.15" />
 		</group>
-		<group name="Group 6" ampVelTrack="0">
+		<group name="Group 6" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="46" loNote="46" hiNote="46" loVel="0" hiVel="104" end="85426" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#1-PB.wav" />
 			<sample rootNote="47" loNote="47" hiNote="47" loVel="0" hiVel="104" end="93213" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B1-PB.wav" />
 			<sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="104" end="96279" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C2-PB.wav" />
@@ -211,7 +218,7 @@
 			<sample rootNote="83" loNote="83" hiNote="83" loVel="0" hiVel="104" end="104172" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B4-PB.wav" tuning="-0.25" />
 			<sample rootNote="84" loNote="84" hiNote="87" loVel="0" hiVel="104" end="101169" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C5-PB.wav" tuning="-0.20" />
 		</group>
-		<group name="Group 7" ampVelTrack="0">
+		<group name="Group 7" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="46" loNote="46" hiNote="47" loVel="0" hiVel="127" end="149168" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#1-PB-loop.wav" tuning="-0.13" volume="3.0dB" />
 			<sample rootNote="49" loNote="48" hiNote="50" loVel="0" hiVel="127" end="127628" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-c#2-PB-loop.wav" tuning="-0.17" volume="2.0dB" />
 			<sample rootNote="52" loNote="51" hiNote="53" loVel="0" hiVel="127" end="131716" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-e2-PB-loop.wav" tuning="-0.12" volume="2.0dB" />
@@ -226,7 +233,7 @@
 			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="130715" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-g4-PB-loop.wav" tuning="-0.13" volume="5.0dB" />
 			<sample rootNote="82" loNote="81" hiNote="87" loVel="0" hiVel="127" end="151762" path="Resources/bassoon-SOLO-KS-C6 Samples/bassoon-a#4-PB-loop.wav" volume="6.0dB" />
 		</group>
-		<group name="Group 8" ampVelTrack="0">
+		<group name="Group 8" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="46" loNote="46" hiNote="46" loVel="54" hiVel="127" end="101842" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.A#1-PB.wav" />
 			<sample rootNote="47" loNote="47" hiNote="47" loVel="54" hiVel="127" end="94633" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B1-PB.wav" />
 			<sample rootNote="48" loNote="48" hiNote="48" loVel="54" hiVel="127" end="105897" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C2-PB.wav" />
@@ -261,7 +268,7 @@
 			<sample rootNote="83" loNote="83" hiNote="83" loVel="54" hiVel="127" end="89568" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.B4-PB.wav" tuning="-0.25" />
 			<sample rootNote="84" loNote="84" hiNote="87" loVel="54" hiVel="127" end="94171" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.ff.C5-PB.wav" tuning="-0.15" />
 		</group>
-		<group name="Group 9" ampVelTrack="0">
+		<group name="Group 9" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="46" loNote="46" hiNote="46" loVel="0" hiVel="104" end="85426" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.A#1-PB.wav" />
 			<sample rootNote="47" loNote="47" hiNote="47" loVel="0" hiVel="104" end="93213" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.B1-PB.wav" />
 			<sample rootNote="48" loNote="48" hiNote="48" loVel="0" hiVel="104" end="96279" path="Resources/bassoon-SOLO-KS-C6 Samples/Bassoon.mf.C2-PB.wav" />
@@ -304,12 +311,14 @@
 		</cc>
 		<!-- Controls attack with note velocity -->
 		<note note="0-127">
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
 			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
 		</note>
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
+		<tag name="2-dynamics-ff" volume="1" />
+		<tag name="2-dynamics-mp" volume="0" />
 		<tag name="3-dynamics-ff" volume="1" />
 		<tag name="3-dynamics-mf" volume="0" />
 		<tag name="3-dynamics-mp" volume="0" />

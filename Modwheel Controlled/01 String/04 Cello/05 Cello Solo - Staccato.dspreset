@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO Organize samples -->
+<!-- TODO Setup dynamics on instrument -->
+<!-- TODO Verify samples balance (volume) -->
+<!-- TODO Verify loops -->
+<!-- TODO Samples start -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
@@ -12,7 +17,7 @@
 			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
 			</labeled-knob>
-			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.20">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</labeled-knob>
 			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
@@ -29,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -40,8 +47,8 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.030" release="0.072" ampVelTrack="0">
-		<group name="group1-RR1" ampVelTrack="0">
+	<groups attack="0.030" release="0.072" ampVelTrack="0.8">
+		<group name="group1-RR1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="127" end="44839" path="Resources/Cello Solo Samples/c2-stac-rr1-PB.wav" volume="-12.0dB" />
 			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="127" end="49762" path="Resources/Cello Solo Samples/d2-stac-rr1-PB.wav" volume="-12.0dB" />
 			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="40731" path="Resources/Cello Solo Samples/e2-stac-rr1-PB.wav" volume="-12.0dB" />
@@ -67,7 +74,7 @@
 			<sample rootNote="86" loNote="86" hiNote="87" loVel="0" hiVel="127" end="38214" path="Resources/Cello Solo Samples/d5-stac-rr1-PB.wav" volume="-12.0dB" />
 			<sample rootNote="88" loNote="88" hiNote="93" loVel="0" hiVel="127" end="41263" path="Resources/Cello Solo Samples/e5-stac-rr1-PB.wav" volume="-12.0dB" />
 		</group>
-		<group name="group1-stac-rr2" ampVelTrack="0">
+		<group name="group1-stac-rr2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="127" end="43776" path="Resources/Cello Solo Samples/c2-stac-rr2-PB.wav" volume="-12.0dB" />
 			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="127" end="41601" path="Resources/Cello Solo Samples/d2-stac-rr2-PB.wav" volume="-12.0dB" />
 			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="43144" path="Resources/Cello Solo Samples/e2-stac-rr2-PB.wav" volume="-12.0dB" />
@@ -93,7 +100,7 @@
 			<sample rootNote="86" loNote="86" hiNote="87" loVel="0" hiVel="127" end="44752" path="Resources/Cello Solo Samples/d5-stac-rr2-PB.wav" volume="-12.0dB" />
 			<sample rootNote="88" loNote="88" hiNote="93" loVel="0" hiVel="127" end="36118" path="Resources/Cello Solo Samples/e5-stac-rr2-PB.wav" volume="-12.0dB" />
 		</group>
-		<group name="group1-RR1" ampVelTrack="0">
+		<group name="group1-RR1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="127" end="44839" path="Resources/Cello Solo Samples/c2-stac-rr1-PB.wav" />
 			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="127" end="49762" path="Resources/Cello Solo Samples/d2-stac-rr1-PB.wav" />
 			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="40731" path="Resources/Cello Solo Samples/e2-stac-rr1-PB.wav" />
@@ -119,7 +126,7 @@
 			<sample rootNote="86" loNote="86" hiNote="87" loVel="0" hiVel="127" end="38214" path="Resources/Cello Solo Samples/d5-stac-rr1-PB.wav" />
 			<sample rootNote="88" loNote="88" hiNote="93" loVel="0" hiVel="127" end="41263" path="Resources/Cello Solo Samples/e5-stac-rr1-PB.wav" />
 		</group>
-		<group name="group1-stac-rr2" ampVelTrack="0">
+		<group name="group1-stac-rr2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="127" end="43776" path="Resources/Cello Solo Samples/c2-stac-rr2-PB.wav" />
 			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="127" end="41601" path="Resources/Cello Solo Samples/d2-stac-rr2-PB.wav" />
 			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="43144" path="Resources/Cello Solo Samples/e2-stac-rr2-PB.wav" />
@@ -145,7 +152,7 @@
 			<sample rootNote="86" loNote="86" hiNote="87" loVel="0" hiVel="127" end="44752" path="Resources/Cello Solo Samples/d5-stac-rr2-PB.wav" />
 			<sample rootNote="88" loNote="88" hiNote="93" loVel="0" hiVel="127" end="36118" path="Resources/Cello Solo Samples/e5-stac-rr2-PB.wav" />
 		</group>
-		<group name="group1-RR1" ampVelTrack="0">
+		<group name="group1-RR1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="127" end="44839" path="Resources/Cello Solo Samples/c2-stac-rr1-PB.wav" />
 			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="127" end="49762" path="Resources/Cello Solo Samples/d2-stac-rr1-PB.wav" />
 			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="40731" path="Resources/Cello Solo Samples/e2-stac-rr1-PB.wav" />
@@ -171,7 +178,7 @@
 			<sample rootNote="86" loNote="86" hiNote="87" loVel="0" hiVel="127" end="38214" path="Resources/Cello Solo Samples/d5-stac-rr1-PB.wav" />
 			<sample rootNote="88" loNote="88" hiNote="93" loVel="0" hiVel="127" end="41263" path="Resources/Cello Solo Samples/e5-stac-rr1-PB.wav" />
 		</group>
-		<group name="group1-stac-rr2" ampVelTrack="0">
+		<group name="group1-stac-rr2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="48" loNote="48" hiNote="49" loVel="0" hiVel="127" end="43776" path="Resources/Cello Solo Samples/c2-stac-rr2-PB.wav" />
 			<sample rootNote="50" loNote="50" hiNote="51" loVel="0" hiVel="127" end="41601" path="Resources/Cello Solo Samples/d2-stac-rr2-PB.wav" />
 			<sample rootNote="52" loNote="52" hiNote="52" loVel="0" hiVel="127" end="43144" path="Resources/Cello Solo Samples/e2-stac-rr2-PB.wav" />
@@ -205,12 +212,14 @@
 		</cc>
 		<!-- Controls attack with note velocity -->
 		<note note="0-127">
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
 			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
 		</note>
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
+		<tag name="2-dynamics-ff" volume="1" />
+		<tag name="2-dynamics-mp" volume="0" />
 		<tag name="3-dynamics-ff" volume="1" />
 		<tag name="3-dynamics-mf" volume="0" />
 		<tag name="3-dynamics-mp" volume="0" />

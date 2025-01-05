@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO Organize samples -->
+<!-- TODO Setup dynamics on instrument -->
+<!-- TODO Verify samples balance (volume) -->
+<!-- TODO Verify loops -->
+<!-- TODO Samples start -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
@@ -29,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -40,8 +47,8 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.060" release="0.024" ampVelTrack="0">
-		<group name="Group 1" ampVelTrack="0">
+	<groups attack="0.060" release="0.024" ampVelTrack="0.8">
+		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="70" loNote="67" hiNote="71" loVel="0" hiVel="127" end="111193" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-A#3-PB-loop.wav" tuning="0.14" volume="-2.5dB" />
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="124757" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-C#4-PB-loop.wav" tuning="0.10" volume="-2.5dB" />
 			<sample rootNote="76" loNote="75" hiNote="76" loVel="0" hiVel="127" end="139527" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-E4-PB-loop.wav" tuning="-0.05" volume="-0.5dB" />
@@ -64,7 +71,7 @@
 			<sample rootNote="101" loNote="101" hiNote="101" loVel="0" hiVel="127" end="109195" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F6-PB-loop.wav" tuning="-0.30" volume="-2.0dB" />
 			<sample rootNote="102" loNote="102" hiNote="103" loVel="0" hiVel="127" end="103920" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F#6-PB-loop.wav" tuning="-0.35" volume="5.0dB" />
 		</group>
-		<group name="Group 2" ampVelTrack="0">
+		<group name="Group 2" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="70" loNote="67" hiNote="71" loVel="0" hiVel="127" end="111193" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-A#3-PB-loop.wav" tuning="0.14" volume="-2.5dB" />
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="124757" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-C#4-PB-loop.wav" tuning="0.10" volume="-2.5dB" />
 			<sample rootNote="76" loNote="75" hiNote="76" loVel="0" hiVel="127" end="139527" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-E4-PB-loop.wav" tuning="-0.05" volume="-0.5dB" />
@@ -87,7 +94,7 @@
 			<sample rootNote="101" loNote="101" hiNote="101" loVel="0" hiVel="127" end="109195" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F6-PB-loop.wav" tuning="-0.30" volume="-2.0dB" />
 			<sample rootNote="102" loNote="102" hiNote="103" loVel="0" hiVel="127" end="103920" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F#6-PB-loop.wav" tuning="-0.35" volume="5.0dB" />
 		</group>
-		<group name="Group 3" ampVelTrack="0">
+		<group name="Group 3" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="70" loNote="67" hiNote="71" loVel="0" hiVel="127" end="111193" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-A#3-PB-loop.wav" start="1000" tuning="0.14" volume="2.0dB" />
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="124757" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-C#4-PB-loop.wav" start="500" tuning="0.10" volume="1.0dB" />
 			<sample rootNote="76" loNote="75" hiNote="76" loVel="0" hiVel="127" end="139527" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-E4-PB-loop.wav" start="100" tuning="-0.05" volume="-2.0dB" />
@@ -104,7 +111,7 @@
 			<sample rootNote="99" loNote="98" hiNote="101" loVel="0" hiVel="127" end="113679" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-D#6-PB-loop.wav" start="1000" tuning="-0.25" volume="2.0dB" />
 			<sample rootNote="102" loNote="102" hiNote="103" loVel="0" hiVel="127" end="103920" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F#6-PB-loop.wav" start="500" tuning="-0.35" volume="6.5dB" />
 		</group>
-		<group name="Group 4" ampVelTrack="0">
+		<group name="Group 4" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="70" loNote="67" hiNote="71" loVel="0" hiVel="127" end="111193" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-A#3-PB-loop.wav" start="1000" tuning="0.14" volume="5.0dB" />
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="124757" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-C#4-PB-loop.wav" start="500" tuning="0.10" volume="4.0dB" />
 			<sample rootNote="76" loNote="75" hiNote="76" loVel="0" hiVel="127" end="139527" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-E4-PB-loop.wav" start="100" tuning="-0.05" volume="1.0dB" />
@@ -121,7 +128,7 @@
 			<sample rootNote="99" loNote="98" hiNote="101" loVel="0" hiVel="127" end="113679" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-D#6-PB-loop.wav" start="1000" tuning="-0.25" volume="5.0dB" />
 			<sample rootNote="102" loNote="102" hiNote="103" loVel="0" hiVel="127" end="103920" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F#6-PB-loop.wav" start="500" tuning="-0.35" volume="9.5dB" />
 		</group>
-		<group name="Group 5" ampVelTrack="0">
+		<group name="Group 5" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="70" loNote="67" hiNote="71" loVel="0" hiVel="127" end="111193" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-A#3-PB-loop.wav" tuning="0.14" volume="-2.5dB" />
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="124757" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-C#4-PB-loop.wav" tuning="0.10" volume="-2.5dB" />
 			<sample rootNote="76" loNote="75" hiNote="76" loVel="0" hiVel="127" end="139527" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-E4-PB-loop.wav" tuning="-0.05" volume="-0.5dB" />
@@ -144,7 +151,7 @@
 			<sample rootNote="101" loNote="101" hiNote="101" loVel="0" hiVel="127" end="109195" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F6-PB-loop.wav" tuning="-0.30" volume="-2.0dB" />
 			<sample rootNote="102" loNote="102" hiNote="103" loVel="0" hiVel="127" end="103920" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-F#6-PB-loop.wav" tuning="-0.35" volume="5.0dB" />
 		</group>
-		<group name="Group 6" ampVelTrack="0">
+		<group name="Group 6" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="70" loNote="67" hiNote="71" loVel="0" hiVel="127" end="111193" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-A#3-PB-loop.wav" start="1000" tuning="0.14" volume="5.0dB" />
 			<sample rootNote="73" loNote="72" hiNote="74" loVel="0" hiVel="127" end="124757" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-C#4-PB-loop.wav" start="500" tuning="0.10" volume="4.0dB" />
 			<sample rootNote="76" loNote="75" hiNote="76" loVel="0" hiVel="127" end="139527" path="Resources/alto-flute-SOLO-KS-C2 Samples/Alto-Flute-sus-E4-PB-loop.wav" start="100" tuning="-0.05" volume="1.0dB" />
@@ -169,12 +176,14 @@
 		</cc>
 		<!-- Controls attack with note velocity -->
 		<note note="0-127">
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
 			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
 		</note>
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
+		<tag name="2-dynamics-ff" volume="1" />
+		<tag name="2-dynamics-mp" volume="0" />
 		<tag name="3-dynamics-ff" volume="1" />
 		<tag name="3-dynamics-mf" volume="0" />
 		<tag name="3-dynamics-mp" volume="0" />

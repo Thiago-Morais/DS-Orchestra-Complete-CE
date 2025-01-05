@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- TODO Organize samples -->
+<!-- TODO Setup dynamics on instrument -->
+<!-- TODO Verify samples balance (volume) -->
+<!-- TODO Verify loops -->
+<!-- TODO Samples start -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
@@ -29,6 +34,8 @@
 			</labeled-knob>
 			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+				<!-- Cross fade between 1 samples -->
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
@@ -40,8 +47,8 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.028" ampVelTrack="0">
-		<group name="MF Layer" ampVelTrack="0">
+	<groups attack="0" release="0.028" ampVelTrack="0.8">
+		<group name="MF Layer" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="58" loNote="58" hiNote="58" loVel="0" hiVel="127" end="178632" loopEnabled="true" loopEnd="177343" loopStart="133081" path="Resources/c - Oboe Samples/OboeA#3mf.wav" volume="0.7432478815118999dB" />
 			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="94870" loopEnabled="true" loopEnd="94814" loopStart="77465" path="Resources/c - Oboe Samples/OboeA#4mf.wav" volume="0.7432478815118999dB" />
 			<sample rootNote="82" loNote="81" hiNote="82" loVel="0" hiVel="127" end="127159" loopEnabled="true" loopEnd="127026" loopStart="93412" path="Resources/c - Oboe Samples/OboeA#5mf.wav" volume="0.7432478815118999dB" />
@@ -57,7 +64,7 @@
 			<sample rootNote="67" loNote="66" hiNote="68" loVel="0" hiVel="127" end="132770" loopEnabled="true" loopEnd="132748" loopStart="107097" path="Resources/c - Oboe Samples/OboeG4mf.wav" volume="0.7432478815118999dB" />
 			<sample rootNote="79" loNote="78" hiNote="80" loVel="0" hiVel="127" end="67797" loopEnabled="true" loopEnd="67775" loopStart="50875" path="Resources/c - Oboe Samples/OboeG5mf.wav" volume="0.7432478815118999dB" />
 		</group>
-		<group name="FF Layer" ampVelTrack="0">
+		<group name="FF Layer" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="58" loNote="58" hiNote="58" loVel="0" hiVel="127" end="178632" loopEnabled="true" loopEnd="177343" loopStart="133081" path="Resources/c - Oboe Samples/OboeA#3ff.wav" volume="0.7432478815118999dB" />
 			<sample rootNote="70" loNote="69" hiNote="71" loVel="0" hiVel="127" end="94870" loopEnabled="true" loopEnd="94814" loopStart="77465" path="Resources/c - Oboe Samples/OboeA#4ff.wav" volume="0.7432478815118999dB" />
 			<sample rootNote="82" loNote="81" hiNote="82" loVel="0" hiVel="127" end="127159" loopEnabled="true" loopEnd="127026" loopStart="93412" path="Resources/c - Oboe Samples/OboeA#5ff.wav" volume="0.7432478815118999dB" />
@@ -81,12 +88,14 @@
 		</cc>
 		<!-- Controls attack with note velocity -->
 		<note note="0-127">
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.4,0;0.8,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
 			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
 		</note>
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
+		<tag name="2-dynamics-ff" volume="1" />
+		<tag name="2-dynamics-mp" volume="0" />
 		<tag name="3-dynamics-ff" volume="1" />
 		<tag name="3-dynamics-mf" volume="0" />
 		<tag name="3-dynamics-mp" volume="0" />
