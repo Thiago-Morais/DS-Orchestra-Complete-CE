@@ -11,25 +11,22 @@
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/French Horn.png">
 		<tab name="main">
-			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+			<!-- AMP column 1 -->
+			<label x="565" y="33" width="60" height="12" textSize="17" textColor="FF000000" text="Attack" />
+			<control x="565" y="45" width="60" height="27" style="linear_horizontal" parameterName="Attack" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01" defaultValue="0.01">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
-			</labeled-knob>
-			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.20">
+			</control>
+			<label x="565" y="72" width="60" height="12" textSize="17" textColor="FF000000" text="Release" />
+			<control x="565" y="84" width="60" height="27" style="linear_horizontal" parameterName="Release" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.20" defaultValue="0.20">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
-			</labeled-knob>
-			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+			</control>
+			<!-- AMP column 2 -->
+			<label x="625" y="33" width="60" height="12" textSize="17" textColor="FF000000" text="Highpass" />
+			<control x="625" y="45" width="60" height="27" style="linear_horizontal" parameterName="Highpass" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
 				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
-			</labeled-knob>
-			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
-				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
-			</labeled-knob>
-			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
-				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
-			</labeled-knob>
-			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
-				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
-			</labeled-knob>
-			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+			</control>
+			<label x="625" y="72" width="60" height="12" textSize="17" textColor="FF000000" text="Dynamics" />
+			<control x="625" y="84" width="60" height="27" style="linear_horizontal" parameterName="Dynamics" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="1.0" defaultValue="1.0">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 				<!-- Cross fade between 1 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
@@ -37,15 +34,61 @@
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
 				<!-- Cross fade between 3 samples -->
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
-			</labeled-knob>
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1.0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0.0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0.0" />
+			</control>
+			<!-- AMP column 3 -->
+			<label visible="false" x="685" y="33" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="685" y="45" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+			</control>
+			<label visible="false" x="685" y="72" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="685" y="84" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+			</control>
+			<!-- AMP column 4 -->
+			<label visible="false" x="745" y="33" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="745" y="45" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+			</control>
+			<label visible="false" x="745" y="72" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="745" y="84" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+			</control>
+			<!-- FX column 1 -->
+			<label x="565" y="122" width="60" height="12" textSize="17" textColor="FF000000" text="Chorus" />
+			<control x="565" y="134" width="60" height="27" style="linear_horizontal" parameterName="Chorus" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</control>
+			<label x="565" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Delay" />
+			<control x="565" y="173" width="60" height="27" style="linear_horizontal" parameterName="Delay" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="musical_time" minValue="0.0" maxValue="20" value="0.0" defaultValue="0.0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</control>
+			<!-- FX column 2 -->
+			<label x="625" y="122" width="60" height="12" textSize="17" textColor="FF000000" text="Reverb" />
+			<control x="625" y="134" width="60" height="27" style="linear_horizontal" parameterName="Reverb" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</control>
+			<label x="625" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Glide Time" />
+			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
+				<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" />
+			</control>
+			<!-- FX column 3 -->
+			<label visible="false" x="685" y="122" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="685" y="134" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+			</control>
+			<label visible="false" x="685" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="685" y="173" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
+			</control>
+			<!-- FX column 4 -->
+			<label visible="false" x="745" y="122" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="745" y="134" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+			</control>
+			<label visible="false" x="745" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="745" y="173" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10.0" value="0.0" defaultValue="0.0">
+			</control>
 		</tab>
 		<keyboard />
 	</ui>
 	<groups attack="0" release="0.120" seqMode="random" ampVelTrack="0.8" volume="6dB">
-		<group name="Stac RR 1 - FF" seqPosition="1" seqMode="random" tags="3-dynamics-ff">
+		<group name="Stac RR 1 - FF" seqPosition="1" tags="3-dynamics-ff">
 			<sample rootNote="36" loNote="33" hiNote="37" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_1.wav" />
 			<sample rootNote="39" loNote="38" hiNote="40" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v2_1.wav" />
 			<sample rootNote="46" loNote="41" hiNote="47" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v3_1.wav" />
@@ -56,7 +99,18 @@
 			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v3_1.wav" />
 			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" />
 		</group>
-		<group name="Stac RR 1 - MF" seqPosition="1" seqMode="random" tags="3-dynamics-mf">
+		<group name="Stac RR 2 - FF" seqPosition="2" tags="3-dynamics-ff">
+			<sample rootNote="36" loNote="33" hiNote="37" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_2.wav" />
+			<sample rootNote="39" loNote="38" hiNote="40" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v2_2.wav" />
+			<sample rootNote="46" loNote="41" hiNote="47" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v3_2.wav" />
+			<sample rootNote="50" loNote="48" hiNote="51" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v3_2.wav" />
+			<sample rootNote="53" loNote="52" hiNote="54" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v3_2.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v3_2.wav" />
+			<sample rootNote="60" loNote="59" hiNote="69" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v3_2.wav" />
+			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v3_2.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" />
+		</group>
+		<group name="Stac RR 1 - MF" seqPosition="1" tags="3-dynamics-mf">
 			<sample rootNote="43" loNote="33" hiNote="45" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v2_1.wav" />
 			<sample rootNote="50" loNote="46" hiNote="51" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v2_1.wav" />
 			<sample rootNote="53" loNote="52" hiNote="54" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v2_1.wav" />
@@ -65,7 +119,16 @@
 			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v2_1.wav" />
 			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_1.wav" />
 		</group>
-		<group name="Stac RR 1 - MP" seqPosition="1" seqMode="random" tags="3-dynamics-mp">
+		<group name="Stac RR 2 - MF" seqPosition="2" tags="3-dynamics-mf">
+			<sample rootNote="43" loNote="33" hiNote="45" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v2_2.wav" />
+			<sample rootNote="50" loNote="46" hiNote="51" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v2_2.wav" start="1873" />
+			<sample rootNote="53" loNote="52" hiNote="54" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v2_2.wav" />
+			<sample rootNote="57" loNote="55" hiNote="58" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v2_2.wav" />
+			<sample rootNote="60" loNote="59" hiNote="69" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v2_2.wav" />
+			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v2_2.wav" />
+			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_2.wav" />
+		</group>
+		<group name="Stac RR 1 - MP" seqPosition="1" tags="3-dynamics-mp">
 			<sample rootNote="33" loNote="33" hiNote="34" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_1.wav" />
 			<sample rootNote="36" loNote="35" hiNote="37" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_1.wav" />
 			<sample rootNote="39" loNote="38" hiNote="40" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v1_1.wav" />
@@ -77,27 +140,7 @@
 			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v1_1.wav" />
 			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v1_1.wav" />
 		</group>
-		<group name="Stac RR 2 - FF" seqPosition="2" seqMode="random" tags="3-dynamics-ff">
-			<sample rootNote="36" loNote="33" hiNote="37" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v2_2.wav" />
-			<sample rootNote="39" loNote="38" hiNote="40" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v2_2.wav" />
-			<sample rootNote="46" loNote="41" hiNote="47" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A#1_v3_2.wav" />
-			<sample rootNote="50" loNote="48" hiNote="51" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v3_2.wav" />
-			<sample rootNote="53" loNote="52" hiNote="54" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v3_2.wav" />
-			<sample rootNote="57" loNote="55" hiNote="58" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v3_2.wav" />
-			<sample rootNote="60" loNote="59" hiNote="69" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v3_2.wav" />
-			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v3_2.wav" />
-			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v3_1.wav" />
-		</group>
-		<group name="Stac RR 2 - MF" seqPosition="2" seqMode="random" tags="3-dynamics-mf">
-			<sample rootNote="43" loNote="33" hiNote="45" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_G1_v2_2.wav" />
-			<sample rootNote="50" loNote="46" hiNote="51" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D2_v2_2.wav" start="1873" />
-			<sample rootNote="53" loNote="52" hiNote="54" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F2_v2_2.wav" />
-			<sample rootNote="57" loNote="55" hiNote="58" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A2_v2_2.wav" />
-			<sample rootNote="60" loNote="59" hiNote="69" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C3_v2_2.wav" />
-			<sample rootNote="74" loNote="70" hiNote="75" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D4_v2_2.wav" />
-			<sample rootNote="77" loNote="76" hiNote="79" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_F4_v2_2.wav" />
-		</group>
-		<group name="Stac RR 2 - MP" seqPosition="2" seqMode="random" tags="3-dynamics-mp">
+		<group name="Stac RR 2 - MP" seqPosition="2" tags="3-dynamics-mp">
 			<sample rootNote="33" loNote="33" hiNote="34" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_A0_v1_2.wav" />
 			<sample rootNote="36" loNote="35" hiNote="37" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_C1_v1_2.wav" start="1668" />
 			<sample rootNote="39" loNote="38" hiNote="40" path="Resources/French Horn - Sustain 01 Samples/MOHorn_stac_D#1_v1_2.wav" />
@@ -113,13 +156,15 @@
 	<midi>
 		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+			<binding type="control" level="ui" parameter="VALUE" position="7" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
 		<!-- Controls attack with note velocity -->
+		<!--
 		<note note="0-127">
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
-			<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
+		<binding type="amp" level="instrument" parameter="ENV_ATTACK" translation="table" translationTable="0.0,1;0.05,0.5;0.75,0;1.0,0" translationOutputMin="3" translationOutputMax="0" />
+		<binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" translation="linear" translationOutputMin="100" translationOutputMax="-100 " />
 		</note>
+		-->
 	</midi>
 	<!-- Initial dynamics values -->
 	<tags>
