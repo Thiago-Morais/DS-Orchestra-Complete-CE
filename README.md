@@ -1,16 +1,39 @@
 # DS Orchestra Complete Community Edition
 
-DS Orchestra Complete Community is an open source version of the [DS Orchestra Complete](bit.ly/DS-OC) by Shovan Das
+DS Orchestra Complete Community Edition is an open source version of the [DS Orchestra Complete](https://bit.ly/DS-OC) by Shovan Das
+
+## How to use
+
+You need the [Decent Sampler](https://www.decentsamples.com/product/decent-sampler-plugin/) free vst to use this instrument
+
+Download this repository and extract it into your `Sample Library` folder
+
+The folder name should be `DS-Orchestra-Complete-CE`
+
+> [!TIP]
+> The default `Sample Library` path is:
+>
+> ```
+> %appdata%\Decidedly\DecentSampler\Sample Libraries
+> ```
+
+The path to your `1st Violin Section` should be 
+```
+C:\Users\USERNAME\AppData\Roaming\Decidedly\DecentSampler\Sample Libraries\DS-Orchestra-Complete-CE\Modwheel Controlled\01 String\01 1st Violin\01 1st Violin Section - Staccato.dspreset
+```
+_Change `USERNAME` for your computer username_
+
+## About
 
 This library has a Velocity Controlled and a Modwheel Controlled version
 
-## Velocity Controlled
+### Velocity Controlled
 
 The Velocity Controlled version listens to the note velocity and change its dynamics based on that
 
-## Modwheel Controlled
+### Modwheel Controlled
 
-The Modwheel Controlled Version listens to the note velocity and change its dynamics based on that
+The Modwheel Controlled Version has the note velocity effect reduced and rely on the modwheel to change its dynamics
 
 ## FAQ
 
