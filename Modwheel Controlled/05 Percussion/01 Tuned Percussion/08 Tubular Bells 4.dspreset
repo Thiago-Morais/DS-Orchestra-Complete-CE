@@ -14,25 +14,22 @@
 	</effects>
 	<ui width="812" height="375" bgImage="Resources/Images/Tubular Bells.png">
 		<tab name="main">
-			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
+			<!-- AMP column 1 -->
+			<label x="565" y="33" width="60" height="12" textSize="17" textColor="FF000000" text="Attack" />
+			<control x="565" y="45" width="60" height="27" style="linear_horizontal" parameterName="Attack" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01" defaultValue="0.01">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
-			</labeled-knob>
-			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+			</control>
+			<label x="565" y="72" width="60" height="12" textSize="17" textColor="FF000000" text="Release" />
+			<control x="565" y="84" width="60" height="27" style="linear_horizontal" parameterName="Release" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16" defaultValue="0.16">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
-			</labeled-knob>
-			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
+			</control>
+			<!-- AMP column 2 -->
+			<label x="625" y="33" width="60" height="12" textSize="17" textColor="FF000000" text="Highpass" />
+			<control x="625" y="45" width="60" height="27" style="linear_horizontal" parameterName="Highpass" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
 				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
-			</labeled-knob>
-			<labeled-knob x="565" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Chorus" type="float" minValue="0.0" maxValue="1" value="0">
-				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
-			</labeled-knob>
-			<labeled-knob x="635" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Delay" type="musical_time" minValue="0" maxValue="20" value="0" defaultValue="0">
-				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
-			</labeled-knob>
-			<labeled-knob x="705" y="115" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Reverb" type="float" minValue="0.0" maxValue="1" value="0">
-				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
-			</labeled-knob>
-			<labeled-knob x="230" y="140" width="70" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Dynamics" type="float" minValue="0" maxValue="1" value="1">
+			</control>
+			<label x="625" y="72" width="60" height="12" textSize="17" textColor="FF000000" text="Dynamics" />
+			<control x="625" y="84" width="60" height="27" style="linear_horizontal" parameterName="Dynamics" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="1.0" defaultValue="1.0">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 				<!-- Cross fade between 1 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
@@ -43,7 +40,53 @@
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1.0" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0.0" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0.0" />
-			</labeled-knob>
+			</control>
+			<!-- AMP column 3 -->
+			<label visible="false" x="685" y="33" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="685" y="45" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+			</control>
+			<label visible="false" x="685" y="72" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="685" y="84" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+			</control>
+			<!-- AMP column 4 -->
+			<label visible="false" x="745" y="33" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="745" y="45" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+			</control>
+			<label visible="false" x="745" y="72" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="745" y="84" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+			</control>
+			<!-- FX column 1 -->
+			<label x="565" y="122" width="60" height="12" textSize="17" textColor="FF000000" text="Chorus" />
+			<control x="565" y="134" width="60" height="27" style="linear_horizontal" parameterName="Chorus" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
+			</control>
+			<label x="565" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Delay" />
+			<control x="565" y="173" width="60" height="27" style="linear_horizontal" parameterName="Delay" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="musical_time" minValue="0.0" maxValue="20" value="0.0" defaultValue="0.0">
+				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
+			</control>
+			<!-- FX column 2 -->
+			<label x="625" y="122" width="60" height="12" textSize="17" textColor="FF000000" text="Reverb" />
+			<control x="625" y="134" width="60" height="27" style="linear_horizontal" parameterName="Reverb" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
+			</control>
+			<label x="625" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Glide Time" />
+			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
+				<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" />
+			</control>
+			<!-- FX column 3 -->
+			<label visible="false" x="685" y="122" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="685" y="134" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+			</control>
+			<label visible="false" x="685" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="685" y="173" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
+			</control>
+			<!-- FX column 4 -->
+			<label visible="false" x="745" y="122" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="745" y="134" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
+			</control>
+			<label visible="false" x="745" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
+			<control visible="false" x="745" y="173" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10.0" value="0.0" defaultValue="0.0">
+			</control>
 		</tab>
 		<keyboard />
 	</ui>
@@ -80,7 +123,7 @@
 	<midi>
 		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+			<binding type="control" level="ui" parameter="VALUE" position="7" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
 		<!-- Controls attack with note velocity -->
 		<note note="0-127">
