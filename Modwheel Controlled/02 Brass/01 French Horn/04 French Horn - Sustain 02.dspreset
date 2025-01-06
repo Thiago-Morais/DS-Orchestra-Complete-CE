@@ -31,8 +31,8 @@
 				<!-- Cross fade between 1 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1.0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0.7" />
 				<!-- Cross fade between 3 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1.0" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0.0" />
@@ -89,7 +89,7 @@
 	</ui>
 	<groups ampVelTrack="0.8" seqMode="random">
 		<group name="FF" seqMode="random" tags="2-dynamics-ff">
-			<sample rootNote="41" loNote="0" hiNote="41" loopEnabled="true" loopStart="113015" loopEnd="168709" path="Resources/French Horn - Sustain 03 Samples/Brass Section F3.wav" volume="0.0dB" />
+			<sample rootNote="41" loNote="29" hiNote="41" loopEnabled="true" loopStart="113015" loopEnd="168709" path="Resources/French Horn - Sustain 03 Samples/Brass Section F3.wav" volume="0.0dB" />
 			<sample rootNote="48" loNote="42" hiNote="48" loopEnabled="true" loopStart="68786" loopEnd="157555" path="Resources/French Horn - Sustain 03 Samples/Brass Section C4.wav" volume="0.0dB" />
 			<sample rootNote="54" loNote="49" hiNote="54" loopEnabled="true" loopStart="62794" loopEnd="160888" path="Resources/French Horn - Sustain 03 Samples/Brass Section F#4.wav" volume="0.0dB" />
 			<sample rootNote="58" loNote="55" hiNote="58" loopEnabled="true" loopStart="52012" loopEnd="141168" path="Resources/French Horn - Sustain 03 Samples/Brass Section A#4.wav" volume="0.0dB" />
@@ -98,26 +98,26 @@
 			<sample rootNote="69" loNote="66" hiNote="69" loopEnabled="true" loopStart="35349" loopEnd="109204" path="Resources/French Horn - Sustain 03 Samples/Brass Section A5.wav" volume="-2.0dB" />
 			<sample rootNote="72" loNote="70" hiNote="72" loopEnabled="true" loopStart="14864" loopEnd="72435" path="Resources/French Horn - Sustain 03 Samples/Brass Section C6.wav" volume="-2.0dB" />
 			<sample rootNote="77" loNote="73" hiNote="77" loopEnabled="true" loopStart="46840" loopEnd="114033" path="Resources/French Horn - Sustain 03 Samples/Brass Section F6.wav" volume="-2.0dB" />
-			<sample rootNote="84" loNote="78" hiNote="96" loopEnabled="true" loopStart="38643" loopEnd="117759" path="Resources/French Horn - Sustain 03 Samples/Brass Section C7.wav" volume="-2.0dB" />
+			<sample rootNote="84" loNote="78" hiNote="89" loopEnabled="true" loopStart="38643" loopEnd="117759" path="Resources/French Horn - Sustain 03 Samples/Brass Section C7.wav" volume="-2.0dB" />
 		</group>
 		<!--
-		<group name="MF" seqMode="random" tags="2-dynamics-ff">
-		<sample rootNote="60" loNote="24" hiNote="64" loopEnabled="true" loopStart="26024" loopEnd="100424"  path="Resources/French Horn - Sustain 03 Samples/Trsectc4.wav" />
-		<sample rootNote="67" loNote="65" hiNote="70" loopEnabled="true" loopStart="20098" loopEnd="75980"  path="Resources/French Horn - Sustain 03 Samples/Trsectg4.wav" />
-		<sample rootNote="72" loNote="71" hiNote="73" loopEnabled="true" loopStart="12470" loopEnd="75565"  path="Resources/French Horn - Sustain 03 Samples/Trsectc5.wav" />
-		<sample rootNote="76" loNote="74" hiNote="77" loopEnabled="true" loopStart="27625" loopEnd="77692"  path="Resources/French Horn - Sustain 03 Samples/Trsecte5.wav" />
-		<sample rootNote="79" loNote="78" hiNote="82" loopEnabled="true" loopStart="19482" loopEnd="67169"  path="Resources/French Horn - Sustain 03 Samples/Trsectg5.wav" />
-		<sample rootNote="84" loNote="83" hiNote="108" loopEnabled="true" loopStart="22580" loopEnd="62046"  path="Resources/French Horn - Sustain 03 Samples/Trsectc6.wav" />
+		<group name="MF" seqMode="random" tags="3-dynamics-mf">
+		<sample rootNote="60" loNote="24" hiNote="64" loopEnabled="true" loopStart="26024" loopEnd="100424" path="Resources/French Horn - Sustain 03 Samples/Trsectc4.wav" />
+		<sample rootNote="67" loNote="65" hiNote="70" loopEnabled="true" loopStart="20098" loopEnd="75980" path="Resources/French Horn - Sustain 03 Samples/Trsectg4.wav" />
+		<sample rootNote="72" loNote="71" hiNote="73" loopEnabled="true" loopStart="12470" loopEnd="75565" path="Resources/French Horn - Sustain 03 Samples/Trsectc5.wav" />
+		<sample rootNote="76" loNote="74" hiNote="77" loopEnabled="true" loopStart="27625" loopEnd="77692" path="Resources/French Horn - Sustain 03 Samples/Trsecte5.wav" />
+		<sample rootNote="79" loNote="78" hiNote="82" loopEnabled="true" loopStart="19482" loopEnd="67169" path="Resources/French Horn - Sustain 03 Samples/Trsectg5.wav" />
+		<sample rootNote="84" loNote="83" hiNote="108" loopEnabled="true" loopStart="22580" loopEnd="62046" path="Resources/French Horn - Sustain 03 Samples/Trsectc6.wav" />
 		</group>
 		-->
 		<group name="MP" seqMode="random" tags="2-dynamics-mp">
-			<sample rootNote="39" loNote="0" hiNote="39" loopEnabled="true" loopStart="62667" loopEnd="128231" path="Resources/French Horn - Sustain 02 Samples/French Horns D#3.wav" />
+			<sample rootNote="39" loNote="29" hiNote="39" loopEnabled="true" loopStart="62667" loopEnd="128231" path="Resources/French Horn - Sustain 02 Samples/French Horns D#3.wav" start="462" />
 			<sample rootNote="45" loNote="40" hiNote="45" loopEnabled="true" loopStart="53547" loopEnd="132097" path="Resources/French Horn - Sustain 02 Samples/French Horns A3.wav" />
 			<sample rootNote="51" loNote="46" hiNote="51" loopEnabled="true" loopStart="57345" loopEnd="186330" path="Resources/French Horn - Sustain 02 Samples/French Horns D#4.wav" />
 			<sample rootNote="57" loNote="52" hiNote="57" loopEnabled="true" loopStart="30531" loopEnd="109887" path="Resources/French Horn - Sustain 02 Samples/French Horns A4.wav" />
 			<sample rootNote="63" loNote="58" hiNote="63" loopEnabled="true" loopStart="92754" loopEnd="221697" path="Resources/French Horn - Sustain 02 Samples/French Horns D#5.wav" />
 			<sample rootNote="69" loNote="64" hiNote="69" loopEnabled="true" loopStart="50786" loopEnd="116043" path="Resources/French Horn - Sustain 02 Samples/French Horns A5.wav" />
-			<sample rootNote="75" loNote="70" hiNote="96" loopEnabled="true" loopStart="31744" loopEnd="136705" path="Resources/French Horn - Sustain 02 Samples/French Horns D#6.wav" />
+			<sample rootNote="75" loNote="70" hiNote="89" loopEnabled="true" loopStart="31744" loopEnd="136705" path="Resources/French Horn - Sustain 02 Samples/French Horns D#6.wav" />
 		</group>
 	</groups>
 	<midi>
