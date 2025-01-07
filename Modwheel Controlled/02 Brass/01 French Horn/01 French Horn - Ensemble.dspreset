@@ -88,7 +88,7 @@
 	</ui>
 	<groups release="0.026" ampVelTrack="0.8">
 		<group name="000.061" seqMode="random" tags="1-dynamics-ff">
-			<sample rootNote="28" loNote="0" hiNote="48" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.000.wav" />
+			<sample rootNote="28" loNote="29" hiNote="48" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.000.wav" />
 			<sample rootNote="52" loNote="49" hiNote="52" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.004.wav" />
 			<sample rootNote="55" loNote="53" hiNote="56" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.005.wav" />
 			<sample rootNote="60" loNote="57" hiNote="60" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.006.wav" />
@@ -97,7 +97,7 @@
 			<sample rootNote="72" loNote="69" hiNote="72" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.009.wav" />
 			<sample rootNote="76" loNote="73" hiNote="76" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.010.wav" />
 			<sample rootNote="79" loNote="77" hiNote="80" loopEnabled="true" loopEnd="265000" loopStart="10000" path="Resources/French Horn - Ensemble Samples/000.061.011.wav" />
-			<sample rootNote="84" loNote="81" hiNote="108" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.012.wav" />
+			<sample rootNote="84" loNote="81" hiNote="89" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.012.wav" />
 		</group>
 	</groups>
 	<midi>
