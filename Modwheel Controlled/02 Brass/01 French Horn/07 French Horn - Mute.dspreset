@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TODO Organize samples -->
-<!-- TODO Setup dynamics on instrument -->
 <!-- TODO Verify samples balance (volume) -->
-<!-- TODO Verify loops -->
 <!-- TODO Samples start -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
@@ -90,31 +87,32 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups ampVelTrack="0.8">
-		<group name="French Fifths" seqMode="random" tags="1-dynamics-ff">
-			<sample rootNote="52" loNote="36" hiNote="51" loVel="0" hiVel="127" end="105857" loopEnabled="true" loopEnd="105852" loopStart="49686" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" />
-			<sample rootNote="59" loNote="36" hiNote="58" loVel="0" hiVel="127" end="105857" loopEnabled="true" loopEnd="105852" loopStart="49686" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" />
-			<sample rootNote="52" loNote="52" hiNote="54" loVel="0" hiVel="127" end="105857" loopEnabled="true" loopEnd="105852" loopStart="49686" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" />
-			<sample rootNote="55" loNote="55" hiNote="57" loVel="0" hiVel="127" end="134568" loopEnabled="true" loopEnd="134563" loopStart="76520" path="Resources/French Horn -  Fifths Samples/F Horns G2.wav" />
-			<sample rootNote="60" loNote="58" hiNote="62" loVel="0" hiVel="127" end="127792" loopEnabled="true" loopEnd="127787" loopStart="63136" path="Resources/French Horn -  Fifths Samples/F Horns C3.wav" />
-			<sample rootNote="59" loNote="59" hiNote="61" loVel="0" hiVel="127" end="105857" loopEnabled="true" loopEnd="105852" loopStart="49686" path="Resources/French Horn -  Fifths Samples/F Horns E2.wav" />
-			<sample rootNote="62" loNote="62" hiNote="64" loVel="0" hiVel="127" end="134568" loopEnabled="true" loopEnd="134563" loopStart="76520" path="Resources/French Horn -  Fifths Samples/F Horns G2.wav" />
-			<sample rootNote="64" loNote="63" hiNote="65" loVel="0" hiVel="127" end="117134" loopEnabled="true" loopEnd="117129" loopStart="58998" path="Resources/French Horn -  Fifths Samples/F Horns E3.wav" />
-			<sample rootNote="67" loNote="65" hiNote="69" loVel="0" hiVel="127" end="127792" loopEnabled="true" loopEnd="127787" loopStart="63136" path="Resources/French Horn -  Fifths Samples/F Horns C3.wav" />
-			<sample rootNote="67" loNote="66" hiNote="69" loVel="0" hiVel="127" end="114858" loopEnabled="true" loopEnd="114853" loopStart="65492" path="Resources/French Horn -  Fifths Samples/F Horns G3.wav" />
-			<sample rootNote="71" loNote="70" hiNote="72" loVel="0" hiVel="127" end="117134" loopEnabled="true" loopEnd="117129" loopStart="58998" path="Resources/French Horn -  Fifths Samples/F Horns E3.wav" />
-			<sample rootNote="70" loNote="70" hiNote="80" loVel="0" hiVel="127" end="126242" loopEnabled="true" loopEnd="126237" loopStart="65282" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" />
-			<sample rootNote="74" loNote="73" hiNote="76" loVel="0" hiVel="127" end="114858" loopEnabled="true" loopEnd="114853" loopStart="65492" path="Resources/French Horn -  Fifths Samples/F Horns G3.wav" />
-			<sample rootNote="77" loNote="77" hiNote="84" loVel="0" hiVel="127" end="126242" loopEnabled="true" loopEnd="126237" loopStart="65282" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" />
-			<sample rootNote="70" loNote="81" hiNote="81" loVel="0" hiVel="127" end="126242" loopEnabled="true" loopEnd="126237" loopStart="65282" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" />
-			<sample rootNote="70" loNote="82" hiNote="82" loVel="0" hiVel="127" end="126242" loopEnabled="true" loopEnd="126237" loopStart="65282" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" />
-			<sample rootNote="83" loNote="83" hiNote="83" loVel="0" hiVel="127" end="59164" loopEnabled="true" loopEnd="59159" loopStart="30821" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" />
-			<sample rootNote="83" loNote="84" hiNote="84" loVel="0" hiVel="127" end="59164" loopEnabled="true" loopEnd="59159" loopStart="30821" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" />
-			<sample rootNote="77" loNote="88" hiNote="84" loVel="0" hiVel="127" end="126242" loopEnabled="true" loopEnd="126237" loopStart="65282" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" />
-			<sample rootNote="77" loNote="89" hiNote="84" loVel="0" hiVel="127" end="126242" loopEnabled="true" loopEnd="126237" loopStart="65282" path="Resources/French Horn -  Fifths Samples/F Horns A#3.wav" />
-			<sample rootNote="90" loNote="90" hiNote="84" loVel="0" hiVel="127" end="59164" loopEnabled="true" loopEnd="59159" loopStart="30821" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" />
-			<sample rootNote="90" loNote="91" hiNote="84" loVel="0" hiVel="127" end="59164" loopEnabled="true" loopEnd="59159" loopStart="30821" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" />
-			<sample rootNote="90" loNote="97" hiNote="84" loVel="0" hiVel="127" end="59164" loopEnabled="true" loopEnd="59159" loopStart="30821" path="Resources/French Horn -  Fifths Samples/F Horns B4.wav" />
+	<groups attack="0" release="0.028" ampVelTrack="0.8">
+		<group name="Mute 2-ff" tags="2-dynamics-ff" loopEnabled="true" loopCrossfade="24000">
+			<sample rootNote="46" loNote="29" hiNote="48" loopStart="34001" loopEnd="121984" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_A#1_v2_1.wav" />
+			<sample rootNote="51" loNote="49" hiNote="51" loopStart="50000" loopEnd="156757" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_D#2_v2_1.wav" />
+			<sample rootNote="53" loNote="52" hiNote="55" loopStart="50000" loopEnd="191576" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_F2_v2_1.wav" />
+			<sample rootNote="60" loNote="55" hiNote="61" loopStart="35235" loopEnd="169718" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_C3_v2_1.wav" />
+			<sample rootNote="63" loNote="62" hiNote="65" loopStart="50000" loopEnd="185216" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_D#3_v2_1.wav" />
+			<sample rootNote="68" loNote="66" hiNote="68" loopStart="79961" loopEnd="180304" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_G#3_v2_1.wav" />
+			<sample rootNote="70" loNote="69" hiNote="71" loopStart="50000" loopEnd="160071" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_A#3_v2_1.wav" />
+		</group>
+		<group name="Mute 2-mp" tags="2-dynamics-mf" loopEnabled="true" loopCrossfade="24000">
+			<sample rootNote="46" loNote="29" hiNote="48" loopStart="50000" loopEnd="200000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_A#1_v1_1.wav" />
+			<sample rootNote="51" loNote="49" hiNote="51" loopStart="50000" loopEnd="300000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_D#2_v1_1.wav" />
+			<sample rootNote="53" loNote="52" hiNote="54" loopStart="50000" loopEnd="300000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_F2_v1_1.wav" />
+			<!-- Duplicate this note to blend in better with the next -->
+			<sample rootNote="53" loNote="55" hiNote="57" loopStart="50000" loopEnd="300000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_F2_v1_1.wav" volume="-6dB" />
+			<sample rootNote="53" loNote="58" hiNote="59" loopStart="50000" loopEnd="300000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_F2_v1_1.wav" volume="-12dB" />
+			<sample rootNote="53" loNote="60" hiNote="61" loopStart="50000" loopEnd="300000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_F2_v1_1.wav" volume="-18dB" />
+			<sample rootNote="60" loNote="55" hiNote="61" loopStart="50000" loopEnd="300000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_C3_v1_1.wav" volume="-2dB" />
+			<sample rootNote="63" loNote="62" hiNote="65" loopStart="50000" loopEnd="700000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_D#3_v1_1.wav" />
+			<sample rootNote="68" loNote="66" hiNote="68" loopStart="50000" loopEnd="300000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_G#3_v1_1.wav" />
+			<sample rootNote="70" loNote="69" hiNote="71" loopStart="50000" loopEnd="300000" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_A#3_v1_1.wav" />
+		</group>
+		<group name="Mute all" tags="1-dynamics-ff" loopEnabled="true" loopCrossfade="24000">
+			<sample rootNote="74" loNote="72" hiNote="75" loopStart="46462" loopEnd="145277" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_D4_v1_1.wav" />
+			<sample rootNote="77" loNote="76" hiNote="89" loopStart="50000" loopEnd="133480" path="Resources/French Horn - Sustain 01 Samples/MOHorn_mute_F4_v1_1.wav" />
 		</group>
 	</groups>
 	<midi>
