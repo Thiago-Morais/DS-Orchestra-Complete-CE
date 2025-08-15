@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- TODO Organize samples -->
-<!-- TODO Setup dynamics on instrument -->
 <!-- TODO Verify samples balance (volume) -->
-<!-- TODO Verify loops -->
-<!-- TODO Samples start -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
@@ -22,7 +18,7 @@
 			</control>
 			<!-- Release -->
 			<label x="565" y="72" width="60" height="12" textSize="17" textColor="FF000000" text="Release" />
-			<control x="565" y="84" width="60" height="27" style="linear_horizontal" parameterName="Release" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="10.0" value="0.40" defaultValue="0.40">
+			<control x="565" y="84" width="60" height="27" style="linear_horizontal" parameterName="Release" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="10.0" value="1.00" defaultValue="1.00">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</control>
 			<!-- AMP column 2 -->
