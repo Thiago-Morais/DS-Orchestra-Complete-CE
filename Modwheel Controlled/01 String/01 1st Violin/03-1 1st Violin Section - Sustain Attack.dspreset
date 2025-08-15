@@ -29,9 +29,10 @@
 			</control>
 			<!-- Dynamics -->
 			<!-- For dynamics control with modwheel, all samples are played at the same time -->
-			<!-- 1 sample at maximum volume and the other at minimum volume -->
+			<!-- 1 sample at maximum volume and the others at minimum volume -->
 			<!-- The modwheel then crossfade between then -->
 			<!-- Use the following tags on your groups depending on how many dynamics you need to crossfade -->
+			<!-- Add each tag on the instrument group -->
 			<label x="625" y="72" width="60" height="12" textSize="17" textColor="FF000000" text="Dynamics" />
 			<control x="625" y="84" width="60" height="27" style="linear_horizontal" parameterName="Dynamics" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="1.0" defaultValue="1.0">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
