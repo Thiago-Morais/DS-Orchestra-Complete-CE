@@ -82,7 +82,7 @@
 			</control>
 			<!-- Glide Time -->
 			<label x="625" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Glide Time" />
-			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
+			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1" value="0.0" defaultValue="0.0">
 				<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" />
 			</control>
 			<!-- FX column 3 (Empty) -->
@@ -118,7 +118,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.001" decay="0.057" release="0.022" sustain="0.965" ampVelTrack="0.8">
+	<groups attack="0.001" decay="0.057" release="0.022" sustain="0.965" ampVelTrack="0.3">
 		<group name="Hollywoodstrings" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="26" loNote="0" hiNote="30" loVel="76" hiVel="127" end="92036" loopEnabled="true" loopEnd="90500" loopStart="39556" path="Resources/Designed String Pad 5 Samples/d0.wav" />
 			<sample rootNote="38" loNote="36" hiNote="42" loVel="76" hiVel="127" end="91648" loopEnabled="true" loopEnd="90368" loopStart="27392" path="Resources/Designed String Pad 5 Samples/d1.wav" />

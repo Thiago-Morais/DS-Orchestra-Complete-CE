@@ -78,7 +78,7 @@
 			</control>
 			<!-- Glide Time -->
 			<label x="625" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Glide Time" />
-			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
+			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1" value="0.0" defaultValue="0.0">
 				<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" />
 			</control>
 			<!-- FX column 3 (Empty) -->
@@ -114,7 +114,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.040" release="0.076" ampVelTrack="0.8">
+	<groups attack="0.040" release="0.076" ampVelTrack="0.3">
 		<group name="Sustain" seqMode="random" tags="1-dynamics-ff" loopEnabled="1" loopCrossfade="6000">
 			<sample rootNote="55" loNote="55" hiNote="56" loopStart="50375" loopEnd="182518" path="Resources/1st Violin Section Samples/1st-violins-sus-g3.wav" start="4665" tuning="-0.10" volume="6.0dB" />
 			<sample rootNote="58" loNote="57" hiNote="59" loopStart="46973" loopEnd="186399" path="Resources/1st Violin Section Samples/1st-violins-sus-a#3.wav" start="1295" tuning="-0.05" volume="6.0dB" />

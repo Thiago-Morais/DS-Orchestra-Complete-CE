@@ -77,7 +77,7 @@
 			</control>
 			<!-- Glide Time -->
 			<label x="625" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Glide Time" />
-			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
+			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1" value="0.0" defaultValue="0.0">
 				<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" />
 			</control>
 			<!-- FX column 3 (Empty) -->
@@ -113,7 +113,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups ampVelTrack="0.8">
+	<groups ampVelTrack="0.3">
 		<group name="ff" tags="3-dynamics-ff" volume="4dB" seqMode="random">
 			<sample rootNote="25" loNote="24" hiNote="25" end="154350" path="Resources/Bass Trombone - Sustain Samples/BTRBN_FF_.wav" />
 			<sample rootNote="26" loNote="26" hiNote="26" end="198450" path="Resources/Bass Trombone - Sustain Samples/BTRBN_FF__1.wav" start="52206" tuning="-0.12" />

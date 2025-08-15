@@ -80,7 +80,7 @@
 			</control>
 			<!-- Glide Time -->
 			<label x="625" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Glide Time" />
-			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
+			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1" value="0.0" defaultValue="0.0">
 				<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" />
 			</control>
 			<!-- FX column 3 (Empty) -->
@@ -116,7 +116,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.050" release="0.080" ampVelTrack="0.8">
+	<groups attack="0.050" release="0.080" ampVelTrack="0.3">
 		<group name="Group 9" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="67" loNote="67" hiNote="68" path="Resources/2nd Violin Section Samples/2nd-violins-sus-g3.wav" volume="1.0dB" />
 			<sample rootNote="70" loNote="69" hiNote="71" path="Resources/2nd Violin Section Samples/2nd-violins-sus-a#3.wav" volume="1.0dB" />

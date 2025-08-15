@@ -83,7 +83,7 @@
 			</control>
 			<!-- Glide Time -->
 			<label x="625" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Glide Time" />
-			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
+			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1" value="0.0" defaultValue="0.0">
 				<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" />
 			</control>
 			<!-- FX column 3 (Empty) -->
@@ -119,7 +119,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups release="0.080" ampVelTrack="0.8">
+	<groups release="0.080" ampVelTrack="0.3">
 		<group name="ETHNIC by ThomashLe" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="60" loNote="25" hiNote="25" loVel="0" hiVel="127" end="3361" path="Resources/ETHNIC Samples/Finger Snaps 1b.wav" pitchKeyTrack="00" />
 			<sample rootNote="60" loNote="81" hiNote="81" loVel="0" hiVel="127" end="37241" path="Resources/ETHNIC Samples/Open Surdo.wav" pitchKeyTrack="00" />

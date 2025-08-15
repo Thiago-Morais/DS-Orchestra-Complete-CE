@@ -83,7 +83,7 @@
 			</control>
 			<!-- Glide Time -->
 			<label x="625" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Glide Time" />
-			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
+			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1" value="0.0" defaultValue="0.0">
 				<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" />
 			</control>
 			<!-- FX column 3 (Empty) -->
@@ -119,7 +119,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0" release="0.600" ampVelTrack="0.8">
+	<groups attack="0" release="0.600" ampVelTrack="0.3">
 		<group name="Group 1" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="55" loNote="55" hiNote="57" loVel="0" hiVel="83" end="123047" path="Resources/Xylophone - Soft Mallets Samples/Xylo_Soft_G3_pp_01_far.wav" volume="10.260413dB" />
 			<sample rootNote="55" loNote="55" hiNote="57" loVel="84" hiVel="127" end="252749" path="Resources/Xylophone - Soft Mallets Samples/Xylo_Soft_G3_ff_01_far.wav" volume="0.962981dB" />

@@ -83,7 +83,7 @@
 			</control>
 			<!-- Glide Time -->
 			<label x="625" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Glide Time" />
-			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
+			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1" value="0.0" defaultValue="0.0">
 				<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" />
 			</control>
 			<!-- FX column 3 (Empty) -->
@@ -119,7 +119,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.030" release="0.090" ampVelTrack="0.8">
+	<groups attack="0.030" release="0.090" ampVelTrack="0.3">
 		<group name="Group 11" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="36" loNote="36" hiNote="40" loVel="0" hiVel="127" end="32122" path="Resources/Bass Ensemble Samples/basses-piz-rr1-c1-PB.wav" tuning="-0.05" volume="4.0dB" />
 			<sample rootNote="42" loNote="41" hiNote="43" loVel="0" hiVel="127" end="27196" path="Resources/Bass Ensemble Samples/basses-piz-rr2-f#1-PB.wav" volume="4.0dB" />

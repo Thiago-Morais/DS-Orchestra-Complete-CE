@@ -78,7 +78,7 @@
 			</control>
 			<!-- Glide Time -->
 			<label x="625" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Glide Time" />
-			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
+			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1" value="0.0" defaultValue="0.0">
 				<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" />
 			</control>
 			<!-- FX column 3 (Empty) -->
@@ -114,7 +114,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups release="0.026" ampVelTrack="0.8">
+	<groups release="0.026" ampVelTrack="0.3">
 		<group name="000.061" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="28" loNote="0" hiNote="48" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.000.wav" />
 			<sample rootNote="52" loNote="49" hiNote="52" loopEnabled="true" loopEnd="265000" loopStart="100000" path="Resources/French Horn - Ensemble Samples/000.061.004.wav" />

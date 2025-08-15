@@ -83,7 +83,7 @@
 			</control>
 			<!-- Glide Time -->
 			<label x="625" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Glide Time" />
-			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
+			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1" value="0.0" defaultValue="0.0">
 				<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" />
 			</control>
 			<!-- FX column 3 (Empty) -->
@@ -119,7 +119,7 @@
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.001" release="0.048" ampVelTrack="0.8">
+	<groups attack="0.001" release="0.048" ampVelTrack="0.3">
 		<group name="CHOIR AHHS" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="39" loNote="12" hiNote="42" loVel="0" hiVel="127" end="21406" loopEnabled="true" loopEnd="21398" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-D#21.wav" />
 			<sample rootNote="45" loNote="43" hiNote="46" loVel="0" hiVel="127" end="31107" loopEnabled="true" loopEnd="31099" loopStart="8" path="Resources/Florestan Ahh Choir Samples/Choir-A21.wav" />
