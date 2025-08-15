@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- TODO Verify samples balance (volume) -->
-<!-- TODO Verify loops -->
-<!-- TODO Samples start -->
 <?xml-model href="https://raw.githubusercontent.com/Thiago-Morais/DecentSampler-schema/refs/heads/development/DecentSampler.xsd"?>
 <DecentSampler>
 	<effects>
@@ -118,7 +116,7 @@
 		<keyboard />
 	</ui>
 	<groups attack="0.050" release="0.080" ampVelTrack="0.3">
-		<group name="Group 10" seqMode="random" tags="1-dynamics-ff">
+		<group name="Staccato" seqMode="random" tags="1-dynamics-ff">
 			<sample rootNote="67" loNote="67" hiNote="68" path="Resources/2nd Violin Section Samples/2nd-violins-stc-rr1-g3-PB.wav" volume="2.5dB" />
 			<sample rootNote="70" loNote="69" hiNote="71" path="Resources/2nd Violin Section Samples/2nd-violins-stc-rr1-a#3-PB.wav" volume="2.5dB" />
 			<sample rootNote="73" loNote="72" hiNote="74" path="Resources/2nd Violin Section Samples/2nd-violins-stc-rr1-c#4-PB.wav" volume="3.5dB" />
