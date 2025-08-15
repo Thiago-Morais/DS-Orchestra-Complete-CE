@@ -12,7 +12,7 @@
 			<labeled-knob x="565" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
 			</labeled-knob>
-			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16">
+			<labeled-knob x="635" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="5.0" value="0.16">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</labeled-knob>
 			<labeled-knob x="705" y="25" width="90" textSize="20" textColor="FF000000" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Highpass" type="float" minValue="0" maxValue="1" value="0">
@@ -35,9 +35,9 @@
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
 				<!-- Cross fade between 3 samples -->
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,0.1" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0.0" />
+				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0.0" />
 				<!-- Cross fade between 4 samples -->
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="4-dynamics-ff" translation="table" translationTable="0.0,0;0.25,0;0.50,0;0.75,0;1.0,1" />
 				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="4-dynamics-mf" translation="table" translationTable="0.0,0;0.25,0;0.50,0;0.75,1;1.0,0" />
@@ -214,7 +214,7 @@
 	<midi>
 		<!-- Controls dynamics with modwheel -->
 		<cc number="1">
-			<binding type="control" level="ui" parameter="VALUE" position="6" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+			<binding type="control" level="ui" parameter="VALUE" position="7" translation="linear" translationOutputMin="0" translationOutputMax="1" />
 		</cc>
 		<!-- Controls attack with note velocity -->
 		<note note="0-127">

@@ -11,40 +11,49 @@
 	<ui width="812" height="375" bgImage="Resources/Images/Violin 1.png">
 		<tab name="main">
 			<!-- AMP column 1 -->
+			<!-- Attack -->
 			<label x="565" y="33" width="60" height="12" textSize="17" textColor="FF000000" text="Attack" />
 			<control x="565" y="45" width="60" height="27" style="linear_horizontal" parameterName="Attack" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Attack" type="float" minValue="0.0" maxValue="4.0" value="0.01" defaultValue="0.01">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_ATTACK" />
 			</control>
+			<!-- Release -->
 			<label x="565" y="72" width="60" height="12" textSize="17" textColor="FF000000" text="Release" />
-			<control x="565" y="84" width="60" height="27" style="linear_horizontal" parameterName="Release" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="20.0" value="0.16" defaultValue="0.16">
+			<control x="565" y="84" width="60" height="27" style="linear_horizontal" parameterName="Release" trackForegroundColor="CC000000" trackBackgroundColor="66999999" label="Release" type="float" minValue="0.0" maxValue="5.0" value="0.16" defaultValue="0.16">
 				<binding type="amp" level="instrument" position="0" parameter="ENV_RELEASE" />
 			</control>
 			<!-- AMP column 2 -->
+			<!-- Highpass -->
 			<label x="625" y="33" width="60" height="12" textSize="17" textColor="FF000000" text="Highpass" />
 			<control x="625" y="45" width="60" height="27" style="linear_horizontal" parameterName="Highpass" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
 				<binding type="effect" level="instrument" position="0" parameter="FX_FILTER_FREQUENCY" translation="table" translationTable="0,33;0.3,150;0.4,450;0.5,1100;0.7,4100;0.9,11000;11,22000" />
 			</control>
+			<!-- Dynamics -->
+			<!-- For dynamics control with modwheel, all samples are played at the same time -->
+			<!-- 1 sample at maximum volume and the others at minimum volume -->
+			<!-- The modwheel then crossfade between then -->
+			<!-- Use the following tags on your groups depending on how many dynamics you need to crossfade -->
+			<!-- Add each tag on the instrument group -->
 			<label x="625" y="72" width="60" height="12" textSize="17" textColor="FF000000" text="Dynamics" />
 			<control x="625" y="84" width="60" height="27" style="linear_horizontal" parameterName="Dynamics" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="1.0" defaultValue="1.0">
 				<binding type="amp" level="instrument" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-				<!-- Cross fade between 1 samples -->
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="1-dynamics-ff" translation="table" translationTable="0.0,0;1.0,1" />
+				<!-- Cross fade between 1 sample -->
+				<binding identifier="1-dynamics-ff" type="amp" level="tag" parameter="TAG_VOLUME" translation="table" translationTable="0.0,0;1.0,1" />
 				<!-- Cross fade between 2 samples -->
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-ff" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="2-dynamics-mp" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
+				<binding identifier="2-dynamics-ff" type="amp" level="tag" parameter="TAG_VOLUME" translation="table" translationTable="0.0,0;0.5,0;1.0,1" />
+				<binding identifier="2-dynamics-mp" type="amp" level="tag" parameter="TAG_VOLUME" translation="table" translationTable="0.0,1;0.5,1;1.0,0" />
 				<!-- Cross fade between 3 samples -->
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-ff" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1" />
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mf" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0" />
-				<binding type="amp" level="tag" parameter="TAG_VOLUME" identifier="3-dynamics-mp" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0" />
+				<binding identifier="3-dynamics-ff" type="amp" level="tag" parameter="TAG_VOLUME" translation="table" translationTable="0.0,0;0.23,0;0.43,0;0.66,0;1.0,1.0" />
+				<binding identifier="3-dynamics-mf" type="amp" level="tag" parameter="TAG_VOLUME" translation="table" translationTable="0.0,0;0.23,0;0.43,1;0.66,1;1.0,0.0" />
+				<binding identifier="3-dynamics-mp" type="amp" level="tag" parameter="TAG_VOLUME" translation="table" translationTable="0.0,1;0.23,1;0.43,0;0.66,0;1.0,0.0" />
 			</control>
-			<!-- AMP column 3 -->
+			<!-- AMP column 3 (Empty) -->
 			<label visible="false" x="685" y="33" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
 			<control visible="false" x="685" y="45" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
 			</control>
 			<label visible="false" x="685" y="72" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
 			<control visible="false" x="685" y="84" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
 			</control>
-			<!-- AMP column 4 -->
+			<!-- AMP column 4 (Empty) -->
 			<label visible="false" x="745" y="33" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
 			<control visible="false" x="745" y="45" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
 			</control>
@@ -52,75 +61,95 @@
 			<control visible="false" x="745" y="84" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
 			</control>
 			<!-- FX column 1 -->
+			<!-- Chorus -->
 			<label x="565" y="122" width="60" height="12" textSize="17" textColor="FF000000" text="Chorus" />
 			<control x="565" y="134" width="60" height="27" style="linear_horizontal" parameterName="Chorus" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
 				<binding type="effect" level="instrument" position="1" parameter="FX_MIX" />
 			</control>
+			<!-- Delay -->
 			<label x="565" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Delay" />
 			<control x="565" y="173" width="60" height="27" style="linear_horizontal" parameterName="Delay" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="musical_time" minValue="0.0" maxValue="20" value="0.0" defaultValue="0.0">
 				<binding type="effect" level="instrument" position="2" parameter="FX_DELAY_TIME" />
 			</control>
 			<!-- FX column 2 -->
+			<!-- Reverb -->
 			<label x="625" y="122" width="60" height="12" textSize="17" textColor="FF000000" text="Reverb" />
 			<control x="625" y="134" width="60" height="27" style="linear_horizontal" parameterName="Reverb" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
 				<binding type="effect" level="instrument" position="3" parameter="FX_REVERB_WET_LEVEL" />
 			</control>
+			<!-- Glide Time -->
 			<label x="625" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="Glide Time" />
 			<control x="625" y="173" width="60" height="27" style="linear_horizontal" parameterName="Glide Time" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
 				<binding type="amp" level="instrument" position="0" parameter="GLIDE_TIME" />
 			</control>
-			<!-- FX column 3 -->
+			<!-- FX column 3 (Empty) -->
 			<label visible="false" x="685" y="122" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
 			<control visible="false" x="685" y="134" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
 			</control>
 			<label visible="false" x="685" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
 			<control visible="false" x="685" y="173" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10" value="0.0" defaultValue="0.0">
 			</control>
-			<!-- FX column 4 -->
+			<!-- FX column 4 (Empty) -->
 			<label visible="false" x="745" y="122" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
 			<control visible="false" x="745" y="134" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="1.0" value="0.0" defaultValue="0.0">
 			</control>
 			<label visible="false" x="745" y="161" width="60" height="12" textSize="17" textColor="FF000000" text="_empty_" />
 			<control visible="false" x="745" y="173" width="60" height="27" style="linear_horizontal" parameterName="_empty_" trackForegroundColor="CC000000" trackBackgroundColor="66999999" type="float" minValue="0.0" maxValue="10.0" value="0.0" defaultValue="0.0">
 			</control>
+			<!-- Velocity affects Volume vs Attack dropdown -->
+			<label text="What velocity affects" x="50" y="140" width="150" height="20" textSize="17" textColor="FF000000" vAlign="center" hAlign="center"/>
+			<menu x="50" y="160" width="150" height="30" value="1">
+				<option name="Attack">
+					<!-- Enable Velocity controls Attack-->
+					<binding type="note" translationValue="true" midiElementIndex="1" level="midi" parameter="ENABLED" translation="fixed_value" />
+					<!-- Disable Velocity controls Volume -->
+					<binding type="amp" translationValue="0.3" level="instrument" parameter="AMP_VEL_TRACK" translation="fixed_value" />
+				</option>
+				<option name="Volume">
+					<!-- Disable Velocity controls Attack-->
+					<binding type="note" translationValue="false" midiElementIndex="1" level="midi" parameter="ENABLED" translation="fixed_value" />
+					<!-- Enable Velocity controls Volume -->
+					<binding type="amp" translationValue="1" level="instrument" parameter="AMP_VEL_TRACK" translation="fixed_value" />
+				</option>
+			</menu>
 		</tab>
 		<keyboard />
 	</ui>
-	<groups attack="0.040" release="0.076" ampVelTrack="0.8">
+	<groups attack="0.040" release="0.076" ampVelTrack="0.3">
 		<!-- Play staccato only when is not legato -->
 		<group name="Staccato RR 1" seqMode="random" tags="2-dynamics-ff" seqPosition="1" trigger="first" release="0.4">
-			<sample rootNote="56" loNote="55" hiNote="59" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g3-PB.wav" volume="0.0dB" />
-			<sample rootNote="62" loNote="60" hiNote="65" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#4-PB.wav" volume="0.0dB" />
-			<sample rootNote="68" loNote="66" hiNote="71" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g4-PB.wav" volume="0.0dB" />
-			<sample rootNote="74" loNote="72" hiNote="77" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#5-PB.wav" volume="1.0dB" />
-			<sample rootNote="80" loNote="78" hiNote="83" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g5-PB.wav" volume="-1.0dB" />
-			<sample rootNote="86" loNote="84" hiNote="89" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#6-PB.wav" volume="-1.0dB" />
-			<sample rootNote="92" loNote="90" hiNote="105" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g6-PB.wav" volume="1.0dB" />
+			<sample rootNote="56" loNote="55" hiNote="59" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g3-PB.wav" volume="0.0dB" />
+			<sample rootNote="62" loNote="60" hiNote="65" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#4-PB.wav" volume="0.0dB" />
+			<sample rootNote="68" loNote="66" hiNote="71" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g4-PB.wav" volume="0.0dB" />
+			<sample rootNote="74" loNote="72" hiNote="77" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#5-PB.wav" volume="1.0dB" />
+			<sample rootNote="80" loNote="78" hiNote="83" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g5-PB.wav" volume="-1.0dB" />
+			<sample rootNote="86" loNote="84" hiNote="89" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-c#6-PB.wav" volume="-1.0dB" />
+			<sample rootNote="92" loNote="90" hiNote="105" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-g6-PB.wav" volume="1.0dB" />
 		</group>
 		<group name="Staccato RR 2" seqMode="random" tags="2-dynamics-ff" seqPosition="2" trigger="first" release="0.4">
-			<sample rootNote="59" loNote="55" hiNote="62" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#3-PB.wav" volume="0.0dB" />
-			<sample rootNote="65" loNote="63" hiNote="68" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e4-PB.wav" volume="2.0dB" />
-			<sample rootNote="71" loNote="69" hiNote="74" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#4-PB.wav" volume="2.0dB" />
-			<sample rootNote="77" loNote="75" hiNote="80" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e5-PB.wav" volume="1.0dB" />
-			<sample rootNote="83" loNote="81" hiNote="86" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#5-PB.wav" volume="-1.0dB" />
-			<sample rootNote="89" loNote="87" hiNote="92" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e6-PB.wav" volume="0.0dB" />
-			<sample rootNote="95" loNote="93" hiNote="105" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#6-PB.wav" volume="-1.0dB" />
+			<sample rootNote="59" loNote="55" hiNote="62" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#3-PB.wav" volume="0.0dB" />
+			<sample rootNote="65" loNote="63" hiNote="68" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e4-PB.wav" volume="2.0dB" />
+			<sample rootNote="71" loNote="69" hiNote="74" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#4-PB.wav" volume="2.0dB" />
+			<sample rootNote="77" loNote="75" hiNote="80" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e5-PB.wav" volume="1.0dB" />
+			<sample rootNote="83" loNote="81" hiNote="86" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#5-PB.wav" volume="-1.0dB" />
+			<sample rootNote="89" loNote="87" hiNote="92" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-e6-PB.wav" volume="0.0dB" />
+			<sample rootNote="95" loNote="93" hiNote="105" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-stc-rr2-a#6-PB.wav" volume="-1.0dB" />
 		</group>
 		<group name="Sustain" seqMode="random" tags="1-dynamics-ff" loopEnabled="true" loopCrossfade="6000">
-			<sample rootNote="55" loNote="55" hiNote="56" loopStart="50375" loopEnd="182518" path="Resources/1st Violin Section Samples/1st-violins-sus-g3.wav" start="4665" tuning="-0.10" volume="3.0dB" />
-			<sample rootNote="58" loNote="57" hiNote="59" loopStart="46973" loopEnd="186399" path="Resources/1st Violin Section Samples/1st-violins-sus-a#3.wav" start="1295" tuning="-0.05" volume="3.0dB" />
-			<sample rootNote="61" loNote="60" hiNote="62" loopStart="52451" loopEnd="226083" path="Resources/1st Violin Section Samples/1st-violins-sus-c#4.wav" start="2241" tuning="-0.05" volume="3.0dB" />
-			<sample rootNote="64" loNote="63" hiNote="65" loopStart="56442" loopEnd="223978" path="Resources/1st Violin Section Samples/1st-violins-sus-e4.wav" start="3000" tuning="-0.10" volume="3.0dB" />
-			<sample rootNote="67" loNote="66" hiNote="68" loopStart="56525" loopEnd="188415" path="Resources/1st Violin Section Samples/1st-violins-sus-g4.wav" start="4246" tuning="-0.10" volume="6.0dB" />
-			<sample rootNote="70" loNote="69" hiNote="71" loopStart="55483" loopEnd="198154" path="Resources/1st Violin Section Samples/1st-violins-sus-a#4.wav" start="2693" tuning="-0.10" volume="3.0dB" />
-			<sample rootNote="73" loNote="72" hiNote="74" loopStart="52166" loopEnd="221044" path="Resources/1st Violin Section Samples/1st-violins-sus-c#5.wav" start="0992" tuning="-0.05" volume="4.0dB" />
-			<sample rootNote="76" loNote="75" hiNote="77" loopStart="79377" loopEnd="225503" path="Resources/1st Violin Section Samples/1st-violins-sus-e5.wav" start="4643" tuning="-0.10" volume="3.0dB" />
-			<sample rootNote="79" loNote="78" hiNote="80" loopStart="64374" loopEnd="214581" path="Resources/1st Violin Section Samples/1st-violins-sus-g5.wav" start="1930" tuning="-0.10" volume="2.0dB" />
-			<sample rootNote="82" loNote="81" hiNote="83" loopStart="57372" loopEnd="181558" path="Resources/1st Violin Section Samples/1st-violins-sus-a#5.wav" start="0941" tuning="-0.10" volume="3.0dB" />
-			<sample rootNote="85" loNote="84" hiNote="86" loopStart="57312" loopEnd="213852" path="Resources/1st Violin Section Samples/1st-violins-sus-c#6.wav" start="0000" tuning="-0.05" volume="3.0dB" />
-			<sample rootNote="88" loNote="87" hiNote="89" loopStart="58561" loopEnd="206201" path="Resources/1st Violin Section Samples/1st-violins-sus-e6.wav" start="0000" tuning="-0.15" volume="2.0dB" />
-			<sample rootNote="91" loNote="90" hiNote="92" loopStart="54405" loopEnd="200018" path="Resources/1st Violin Section Samples/1st-violins-sus-g6.wav" start="1285" tuning="-0.10" volume="2.0dB" />
-			<sample rootNote="94" loNote="93" hiNote="105" loopStart="47009" loopEnd="221742" path="Resources/1st Violin Section Samples/1st-violins-sus-a#6.wav" start="943" tuning="-0.10" volume="1.0dB" />
+			<sample rootNote="55" loNote="55" hiNote="56" loopStart="50375" loopEnd="182518" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-sus-g3.wav" start="4665" tuning="-0.10" volume="3.0dB" />
+			<sample rootNote="58" loNote="57" hiNote="59" loopStart="46973" loopEnd="186399" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-sus-a#3.wav" start="1295" tuning="-0.05" volume="3.0dB" />
+			<sample rootNote="61" loNote="60" hiNote="62" loopStart="52451" loopEnd="226083" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-sus-c#4.wav" start="2241" tuning="-0.05" volume="3.0dB" />
+			<sample rootNote="64" loNote="63" hiNote="65" loopStart="56442" loopEnd="223978" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-sus-e4.wav" start="3000" tuning="-0.10" volume="3.0dB" />
+			<sample rootNote="67" loNote="66" hiNote="68" loopStart="56525" loopEnd="188415" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-sus-g4.wav" start="4246" tuning="-0.10" volume="6.0dB" />
+			<sample rootNote="70" loNote="69" hiNote="71" loopStart="55483" loopEnd="198154" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-sus-a#4.wav" start="2693" tuning="-0.10" volume="3.0dB" />
+			<sample rootNote="73" loNote="72" hiNote="74" loopStart="52166" loopEnd="221044" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-sus-c#5.wav" start="0992" tuning="-0.05" volume="4.0dB" />
+			<sample rootNote="76" loNote="75" hiNote="77" loopStart="79377" loopEnd="225503" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-sus-e5.wav" start="4643" tuning="-0.10" volume="3.0dB" />
+			<sample rootNote="79" loNote="78" hiNote="80" loopStart="64374" loopEnd="214581" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-sus-g5.wav" start="1930" tuning="-0.10" volume="2.0dB" />
+			<sample rootNote="82" loNote="81" hiNote="83" loopStart="57372" loopEnd="181558" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-sus-a#5.wav" start="0941" tuning="-0.10" volume="3.0dB" />
+			<sample rootNote="85" loNote="84" hiNote="86" loopStart="57312" loopEnd="213852" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-sus-c#6.wav" start="0000" tuning="-0.05" volume="3.0dB" />
+			<sample rootNote="88" loNote="87" hiNote="89" loopStart="58561" loopEnd="206201" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-sus-e6.wav" start="0000" tuning="-0.15" volume="2.0dB" />
+			<sample rootNote="91" loNote="90" hiNote="92" loopStart="54405" loopEnd="200018" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-sus-g6.wav" start="1285" tuning="-0.10" volume="2.0dB" />
+			<sample rootNote="94" loNote="93" hiNote="105" loopStart="47009" loopEnd="221742" loVel="0" hiVel="127" path="Resources/1st Violin Section Samples/1st-violins-sus-a#6.wav" start="943" tuning="-0.10" volume="1.0dB" />
 		</group>
 	</groups>
 	<midi>
